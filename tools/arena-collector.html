@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arena Collector - Collecteur de réponses IA</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --bg-card: #1e293b;
+            --border: #334155;
+            --text: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --primary: #3b82f6;
+            --success: #22c55e;
+            --warning: #f59e0b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        .progress {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .progress-bar {
+            width: 200px;
+            height: 8px;
+            background: var(--border);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--primary);
+            transition: width 0.3s;
+        }
+
+        .progress-text {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .prompt-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .prompt-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+
+        .prompt-meta {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            font-size: 0.75rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            background: var(--primary);
+            color: white;
+        }
+
+        .badge.chapter {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+
+        .prompt-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .prompt-content {
+            background: var(--bg);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            font-family: 'Consolas', monospace;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            max-height: 200px;
+            overflow-y: auto;
+            margin-bottom: 1rem;
+        }
+
+        .copy-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .copy-btn:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+
+        .copy-btn.copied {
+            background: var(--success);
+        }
+
+        .outputs-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .output-card {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 0.75rem;
+            padding: 1rem;
+        }
+
+        .output-card h3 {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .model-input {
+            width: 100%;
+            padding: 0.5rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            color: var(--text);
+            font-size: 0.95rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .model-input:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .output-textarea {
+            width: 100%;
+            min-height: 200px;
+            padding: 0.75rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 0.5rem;
+            color: var(--text);
+            font-family: 'Consolas', monospace;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            resize: vertical;
+        }
+
+        .output-textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .nav-btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .nav-btn.secondary {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text);
+        }
+
+        .nav-btn.primary {
+            background: var(--primary);
+            border: none;
+            color: white;
+        }
+
+        .nav-btn:hover {
+            opacity: 0.9;
+        }
+
+        .nav-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .export-section {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+        }
+
+        .export-section h2 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .export-buttons {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .export-btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            border: none;
+            transition: all 0.2s;
+        }
+
+        .export-btn.json {
+            background: var(--warning);
+            color: #000;
+        }
+
+        .export-btn.md {
+            background: var(--success);
+            color: #000;
+        }
+
+        .export-btn:hover {
+            opacity: 0.9;
+        }
+
+        .status-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--border);
+        }
+
+        .status-dot.done {
+            background: var(--success);
+        }
+
+        .status-dot.partial {
+            background: var(--warning);
+        }
+
+        @media (max-width: 768px) {
+            .outputs-section {
+                grid-template-columns: 1fr;
+            }
+
+            header {
+                flex-direction: column;
+                gap: 1rem;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 Arena Collector</h1>
+            <div class="progress">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <span class="progress-text" id="progress-text">0/57 complétés</span>
+            </div>
+        </header>
+
+        <div class="prompt-card">
+            <div class="prompt-header">
+                <div class="prompt-meta">
+                    <span class="badge" id="prompt-part">P2 - Méthodes</span>
+                    <span class="badge chapter" id="prompt-chapter">Ingénierie pédagogique</span>
+                </div>
+                <span class="status-indicator">
+                    <span class="status-dot" id="status-dot"></span>
+                    <span id="status-text">Non complété</span>
+                </span>
+            </div>
+            <h2 class="prompt-title" id="prompt-title">Chargement...</h2>
+            <div class="prompt-content" id="prompt-content"></div>
+            <button class="copy-btn" id="copy-btn" onclick="copyPrompt()">📋 Copier le prompt</button>
+        </div>
+
+        <div class="outputs-section">
+            <div class="output-card">
+                <h3>Modèle A</h3>
+                <input type="text" class="model-input" id="model-a" placeholder="Ex: Claude 3.5 Sonnet">
+                <textarea class="output-textarea" id="output-a"
+                    placeholder="Collez ici la réponse du modèle A..."></textarea>
+            </div>
+            <div class="output-card">
+                <h3>Modèle B</h3>
+                <input type="text" class="model-input" id="model-b" placeholder="Ex: GPT-4o">
+                <textarea class="output-textarea" id="output-b"
+                    placeholder="Collez ici la réponse du modèle B..."></textarea>
+            </div>
+        </div>
+
+        <div class="nav-buttons">
+            <button class="nav-btn secondary" id="prev-btn" onclick="navigate(-1)">← Précédent</button>
+            <span id="nav-info" style="color: var(--text-secondary);">1 / 57</span>
+            <button class="nav-btn primary" id="next-btn" onclick="navigate(1)">Suivant →</button>
+        </div>
+
+        <div class="export-section">
+            <h2>📥 Exporter les résultats</h2>
+            <div class="export-buttons">
+                <button class="export-btn json" onclick="exportJSON()">Exporter JSON</button>
+                <button class="export-btn md" onclick="exportMarkdown()">Exporter Markdown</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let prompts = [];
+        let currentIndex = 0;
+        let results = {};
+
+        // Load prompts from JSON
+        fetch('../data/prompts.json')
+            .then(r => r.json())
+            .then(data => {
+                prompts = data;
+                loadSavedResults();
+                renderPrompt();
+            })
+            .catch(e => {
+                document.getElementById('prompt-title').textContent = 'Erreur de chargement';
+                document.getElementById('prompt-content').textContent = 'Impossible de charger prompts.json. Vérifiez que le fichier existe.';
+            });
+
+        function loadSavedResults() {
+            const saved = localStorage.getItem('arena-collector-results');
+            if (saved) results = JSON.parse(saved);
+        }
+
+        function saveResults() {
+            localStorage.setItem('arena-collector-results', JSON.stringify(results));
+            updateProgress();
+        }
+
+        function renderPrompt() {
+            const p = prompts[currentIndex];
+            document.getElementById('prompt-part').textContent = p.part;
+            document.getElementById('prompt-chapter').textContent = p.chapter;
+            document.getElementById('prompt-title').textContent = p.title;
+            document.getElementById('prompt-content').textContent = p.content;
+            document.getElementById('nav-info').textContent = `${currentIndex + 1} / ${prompts.length}`;
+
+            // Load saved data for this prompt
+            const saved = results[p.id] || {};
+            document.getElementById('model-a').value = saved.modelA || '';
+            document.getElementById('output-a').value = saved.outputA || '';
+            document.getElementById('model-b').value = saved.modelB || '';
+            document.getElementById('output-b').value = saved.outputB || '';
+
+            // Update status
+            updateStatus(saved);
+            updateProgress();
+
+            // Nav buttons
+            document.getElementById('prev-btn').disabled = currentIndex === 0;
+            document.getElementById('next-btn').disabled = currentIndex === prompts.length - 1;
+        }
+
+        function updateStatus(saved) {
+            const dot = document.getElementById('status-dot');
+            const text = document.getElementById('status-text');
+
+            const hasA = saved.modelA && saved.outputA;
+            const hasB = saved.modelB && saved.outputB;
+
+            if (hasA && hasB) {
+                dot.className = 'status-dot done';
+                text.textContent = 'Complété ✓';
+            } else if (hasA || hasB) {
+                dot.className = 'status-dot partial';
+                text.textContent = 'Partiel';
+            } else {
+                dot.className = 'status-dot';
+                text.textContent = 'Non complété';
+            }
+        }
+
+        function updateProgress() {
+            const completed = Object.values(results).filter(r =>
+                r.modelA && r.outputA && r.modelB && r.outputB
+            ).length;
+            const pct = (completed / prompts.length) * 100;
+            document.getElementById('progress-fill').style.width = pct + '%';
+            document.getElementById('progress-text').textContent = `${completed}/${prompts.length} complétés`;
+        }
+
+        function saveCurrentPrompt() {
+            const p = prompts[currentIndex];
+            results[p.id] = {
+                modelA: document.getElementById('model-a').value,
+                outputA: document.getElementById('output-a').value,
+                modelB: document.getElementById('model-b').value,
+                outputB: document.getElementById('output-b').value
+            };
+            saveResults();
+        }
+
+        function navigate(delta) {
+            saveCurrentPrompt();
+            currentIndex = Math.max(0, Math.min(prompts.length - 1, currentIndex + delta));
+            renderPrompt();
+            window.scrollTo(0, 0);
+        }
+
+        function copyPrompt() {
+            const content = prompts[currentIndex].content;
+            navigator.clipboard.writeText(content);
+            const btn = document.getElementById('copy-btn');
+            btn.textContent = '✓ Copié !';
+            btn.classList.add('copied');
+            setTimeout(() => {
+                btn.textContent = '📋 Copier le prompt';
+                btn.classList.remove('copied');
+            }, 2000);
+        }
+
+        // Auto-save on input
+        ['model-a', 'output-a', 'model-b', 'output-b'].forEach(id => {
+            document.getElementById(id).addEventListener('input', () => {
+                saveCurrentPrompt();
+                updateStatus(results[prompts[currentIndex].id] || {});
+            });
+        });
+
+        function exportJSON() {
+            saveCurrentPrompt();
+            const exportData = prompts.map(p => ({
+                id: p.id,
+                title: p.title,
+                part: p.part,
+                chapter: p.chapter,
+                subject: p.subject,
+                prompt: p.content,
+                responses: results[p.id] || null
+            }));
+            downloadFile('arena-results.json', JSON.stringify(exportData, null, 2), 'application/json');
+        }
+
+        function exportMarkdown() {
+            saveCurrentPrompt();
+            let md = '# Résultats Arena.ai\n\n';
+            md += `Exporté le ${new Date().toLocaleDateString('fr-FR')}\n\n---\n\n`;
+
+            prompts.forEach(p => {
+                const r = results[p.id];
+                if (r && (r.outputA || r.outputB)) {
+                    md += `## ${p.title}\n\n`;
+                    md += `**Partie:** ${p.part} | **Chapitre:** ${p.chapter} | **Matière:** ${p.subject}\n\n`;
+                    md += `### Prompt\n\n\`\`\`\n${p.content}\n\`\`\`\n\n`;
+
+                    if (r.modelA && r.outputA) {
+                        md += `### ${r.modelA}\n\n${r.outputA}\n\n`;
+                    }
+                    if (r.modelB && r.outputB) {
+                        md += `### ${r.modelB}\n\n${r.outputB}\n\n`;
+                    }
+                    md += '---\n\n';
+                }
+            });
+
+            downloadFile('arena-results.md', md, 'text/markdown');
+        }
+
+        function downloadFile(filename, content, type) {
+            const blob = new Blob([content], { type });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+
+</html>
