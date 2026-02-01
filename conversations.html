@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversations complètes - Enseigner avec l'IA</title>
+    <meta name="description"
+        content="Accédez aux conversations ChatGPT et Claude mentionnées dans le livre, en intégralité.">
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/conversations.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">Enseigner avec l'IA</span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="conversations.html" class="nav-link active">Conversations</a></li>
+                <li><a href="outils.html" class="nav-link">Outils</a></li>
+                <li><a href="formation.html" class="nav-link">Formation</a></li>
+                <li><a href="veille.html" class="nav-link">Veille</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                </button>
+                <a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener" class="btn btn-primary">
+                    <i data-lucide="shopping-cart"></i>
+                    <span>Commander</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <span class="section-badge">
+                <i data-lucide="message-circle"></i>
+                Ressources
+            </span>
+            <h1 class="page-title">Conversations complètes</h1>
+            <p class="page-subtitle">
+                Les exemples longs du livre, à consulter en intégralité.
+                Utilisez le bouton "Copier le prompt" pour réutiliser facilement les instructions.
+            </p>
+        </div>
+    </section>
+
+    <!-- Conversations List -->
+    <main class="conversations-main">
+        <div class="container">
+
+            <!-- Chapter 3: Ingénierie pédagogique -->
+            <section class="chapter-section">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapitre 3</span>
+                    <h2 class="chapter-title">Ingénierie pédagogique</h2>
+                </div>
+
+                <div class="conversations-list">
+                    <!-- Conversation 1 -->
+                    <article class="conversation-card" id="conv-1">
+                        <div class="conversation-header">
+                            <div class="conversation-info">
+                                <h3 class="conversation-title">Créer une séquence sur la Révolution française</h3>
+                                <div class="conversation-meta">
+                                    <span class="meta-item">
+                                        <i data-lucide="book-open"></i>
+                                        Chapitre 3, page 45
+                                    </span>
+                                    <span class="meta-item">
+                                        <i data-lucide="bot"></i>
+                                        ChatGPT 4
+                                    </span>
+                                    <span class="meta-item">
+                                        <i data-lucide="graduation-cap"></i>
+                                        Cycle 4 - Histoire
+                                    </span>
+                                </div>
+                            </div>
+                            <button class="btn btn-secondary expand-btn" onclick="toggleConversation('conv-1')">
+                                <i data-lucide="chevron-down"></i>
+                                <span>Voir la conversation</span>
+                            </button>
+                        </div>
+
+                        <div class="conversation-content">
+                            <div class="chat-container">
+                                <!-- User message -->
+                                <div class="chat-message user">
+                                    <div class="message-header">
+                                        <span class="message-role">Vous</span>
+                                        <button class="copy-btn"
+                                            onclick="copyToClipboard(this.closest('.chat-message').querySelector('.message-text').innerText, this)">
+                                            <i data-lucide="copy"></i>
+                                            Copier
+                                        </button>
+                                    </div>
+                                    <div class="message-text">
+                                        Je suis professeur d'histoire-géographie au collège. Je dois créer une séquence
+                                        sur la Révolution française pour des élèves de 4ème (cycle 4).
+
+                                        La séquence doit durer environ 8 heures et couvrir les événements de 1789 à
+                                        1799. Je souhaite intégrer des activités variées : travail sur documents,
+                                        travail en groupe, évaluation formative.
+
+                                        Peux-tu me proposer un plan de séquence détaillé avec les objectifs, les
+                                        activités et les ressources nécessaires ?
+                                    </div>
+                                </div>
+
+                                <!-- AI response -->
+                                <div class="chat-message assistant">
+                                    <div class="message-header">
+                                        <span class="message-role">ChatGPT</span>
+                                    </div>
+                                    <div class="message-text">
+                                        <p><strong>SÉQUENCE : LA RÉVOLUTION FRANÇAISE (1789-1799)</strong></p>
+                                        <p><em>Niveau : 4ème | Durée : 8 heures</em></p>
+
+                                        <p><strong>Problématique générale :</strong> Comment la Révolution française
+                                            a-t-elle transformé la société et posé les bases de la France contemporaine
+                                            ?</p>
+
+                                        <p><strong>Objectifs de la séquence :</strong></p>
+                                        <ul>
+                                            <li>Comprendre les causes de la Révolution</li>
+                                            <li>Identifier les grandes étapes (1789, République, Terreur, Directoire)
+                                            </li>
+                                            <li>Analyser les transformations politiques et sociales</li>
+                                            <li>Développer l'esprit critique face aux sources historiques</li>
+                                        </ul>
+
+                                        <p><strong>SÉANCE 1 (2h) : Les causes de la Révolution</strong></p>
+                                        <p>Objectif : Comprendre pourquoi la France entre en révolution en 1789</p>
+                                        <p>Activités :</p>
+                                        <ul>
+                                            <li>Étude de documents : caricatures d'époque, cahiers de doléances</li>
+                                            <li>Travail en groupe : chaque groupe analyse un document différent</li>
+                                            <li>Mise en commun et construction d'un schéma des causes</li>
+                                        </ul>
+
+                                        <p><em>[Suite de la conversation disponible...]</em></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Conversation 2 -->
+                    <article class="conversation-card" id="conv-2">
+                        <div class="conversation-header">
+                            <div class="conversation-info">
+                                <h3 class="conversation-title">Différencier un cours de mathématiques</h3>
+                                <div class="conversation-meta">
+                                    <span class="meta-item">
+                                        <i data-lucide="book-open"></i>
+                                        Chapitre 3, page 52
+                                    </span>
+                                    <span class="meta-item">
+                                        <i data-lucide="bot"></i>
+                                        Claude Sonnet
+                                    </span>
+                                    <span class="meta-item">
+                                        <i data-lucide="graduation-cap"></i>
+                                        Seconde - Mathématiques
+                                    </span>
+                                </div>
+                            </div>
+                            <button class="btn btn-secondary expand-btn" onclick="toggleConversation('conv-2')">
+                                <i data-lucide="chevron-down"></i>
+                                <span>Voir la conversation</span>
+                            </button>
+                        </div>
+
+                        <div class="conversation-content">
+                            <div class="chat-container">
+                                <div class="chat-message user">
+                                    <div class="message-header">
+                                        <span class="message-role">Vous</span>
+                                        <button class="copy-btn"
+                                            onclick="copyToClipboard(this.closest('.chat-message').querySelector('.message-text').innerText, this)">
+                                            <i data-lucide="copy"></i>
+                                            Copier
+                                        </button>
+                                    </div>
+                                    <div class="message-text">
+                                        Je suis enseignant de mathématiques en classe de Seconde. J'ai une classe très
+                                        hétérogène : certains élèves sont très à l'aise avec les fonctions, d'autres ont
+                                        encore des difficultés avec les bases du calcul algébrique.
+
+                                        Je prépare une séance sur les fonctions affines. Comment puis-je différencier
+                                        mes activités pour que chaque élève progresse à son niveau ?
+                                    </div>
+                                </div>
+
+                                <div class="chat-message assistant">
+                                    <div class="message-header">
+                                        <span class="message-role">Claude</span>
+                                    </div>
+                                    <div class="message-text">
+                                        <p>Voici une proposition de différenciation pour votre séance sur les fonctions
+                                            affines, avec <strong>3 parcours adaptés</strong> :</p>
+
+                                        <p><strong>🟢 PARCOURS VERT (Consolidation)</strong></p>
+                                        <p>Pour les élèves ayant des difficultés avec les bases :</p>
+                                        <ul>
+                                            <li>Rappels sur le repère et la lecture graphique</li>
+                                            <li>Exercices de calcul d'images avec des fonctions simples (f(x) = 2x + 3)
+                                            </li>
+                                            <li>Fiches d'aide avec méthode pas à pas</li>
+                                        </ul>
+
+                                        <p><strong>🟡 PARCOURS JAUNE (Standard)</strong></p>
+                                        <p>Pour les élèves ayant acquis les bases :</p>
+                                        <ul>
+                                            <li>Déterminer le coefficient directeur et l'ordonnée à l'origine</li>
+                                            <li>Tracer des droites à partir de l'équation</li>
+                                            <li>Résoudre des problèmes contextualisés simples</li>
+                                        </ul>
+
+                                        <p><strong>🔴 PARCOURS ROUGE (Approfondissement)</strong></p>
+                                        <p>Pour les élèves à l'aise :</p>
+                                        <ul>
+                                            <li>Intersection de droites</li>
+                                            <li>Problèmes d'optimisation</li>
+                                            <li>Introduction aux systèmes d'équations</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Chapter 5: Évaluation -->
+            <section class="chapter-section">
+                <div class="chapter-header">
+                    <span class="chapter-number">Chapitre 5</span>
+                    <h2 class="chapter-title">Évaluation</h2>
+                </div>
+
+                <div class="conversations-list">
+                    <!-- Conversation 3 -->
+                    <article class="conversation-card" id="conv-3">
+                        <div class="conversation-header">
+                            <div class="conversation-info">
+                                <h3 class="conversation-title">Créer une grille d'évaluation en SVT</h3>
+                                <div class="conversation-meta">
+                                    <span class="meta-item">
+                                        <i data-lucide="book-open"></i>
+                                        Chapitre 5, page 78
+                                    </span>
+                                    <span class="meta-item">
+                                        <i data-lucide="bot"></i>
+                                        ChatGPT 4
+                                    </span>
+                                    <span class="meta-item">
+                                        <i data-lucide="graduation-cap"></i>
+                                        3ème - SVT
+                                    </span>
+                                </div>
+                            </div>
+                            <button class="btn btn-secondary expand-btn" onclick="toggleConversation('conv-3')">
+                                <i data-lucide="chevron-down"></i>
+                                <span>Voir la conversation</span>
+                            </button>
+                        </div>
+
+                        <div class="conversation-content">
+                            <div class="chat-container">
+                                <div class="chat-message user">
+                                    <div class="message-header">
+                                        <span class="message-role">Vous</span>
+                                        <button class="copy-btn"
+                                            onclick="copyToClipboard(this.closest('.chat-message').querySelector('.message-text').innerText, this)">
+                                            <i data-lucide="copy"></i>
+                                            Copier
+                                        </button>
+                                    </div>
+                                    <div class="message-text">
+                                        Je suis professeur de SVT en 3ème. Mes élèves doivent réaliser un exposé oral
+                                        sur le système immunitaire. Je souhaite créer une grille d'évaluation par
+                                        compétences qui soit à la fois précise et compréhensible par les élèves.
+
+                                        Peux-tu m'aider à créer cette grille avec des critères clairs et des niveaux de
+                                        maîtrise ?
+                                    </div>
+                                </div>
+
+                                <div class="chat-message assistant">
+                                    <div class="message-header">
+                                        <span class="message-role">ChatGPT</span>
+                                    </div>
+                                    <div class="message-text">
+                                        <p><strong>GRILLE D'ÉVALUATION - EXPOSÉ ORAL SVT</strong></p>
+                                        <p><em>Thème : Le système immunitaire | Niveau : 3ème</em></p>
+
+                                        <table style="width: 100%; border-collapse: collapse; margin: 1em 0;">
+                                            <tr style="background: var(--bg-secondary);">
+                                                <th style="padding: 8px; border: 1px solid var(--border-color);">
+                                                    Compétence</th>
+                                                <th style="padding: 8px; border: 1px solid var(--border-color);">
+                                                    Insuffisant</th>
+                                                <th style="padding: 8px; border: 1px solid var(--border-color);">Fragile
+                                                </th>
+                                                <th style="padding: 8px; border: 1px solid var(--border-color);">
+                                                    Satisfaisant</th>
+                                                <th style="padding: 8px; border: 1px solid var(--border-color);">Très
+                                                    bien</th>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding: 8px; border: 1px solid var(--border-color);">
+                                                    <strong>Connaissances scientifiques</strong></td>
+                                                <td style="padding: 8px; border: 1px solid var(--border-color);">
+                                                    Nombreuses erreurs</td>
+                                                <td style="padding: 8px; border: 1px solid var(--border-color);">
+                                                    Quelques imprécisions</td>
+                                                <td style="padding: 8px; border: 1px solid var(--border-color);">Contenu
+                                                    exact</td>
+                                                <td style="padding: 8px; border: 1px solid var(--border-color);">Contenu
+                                                    approfondi</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding: 8px; border: 1px solid var(--border-color);">
+                                                    <strong>Expression orale</strong></td>
+                                                <td style="padding: 8px; border: 1px solid var(--border-color);">Lit ses
+                                                    notes</td>
+                                                <td style="padding: 8px; border: 1px solid var(--border-color);">Regard
+                                                    parfois vers le public</td>
+                                                <td style="padding: 8px; border: 1px solid var(--border-color);">Parle
+                                                    au public</td>
+                                                <td style="padding: 8px; border: 1px solid var(--border-color);">
+                                                    Communication fluide</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">📚</span>
+                        <span class="logo-text">Enseigner avec l'IA</span>
+                    </a>
+                    <p class="footer-description">
+                        Site compagnon du livre "Les outils pour enseigner avec l'IA"
+                        de Fabien Boyer, publié aux Éditions Ellipses.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="conversations.html">Conversations</a></li>
+                        <li><a href="outils.html">Outils</a></li>
+                        <li><a href="formation.html">Formation</a></li>
+                        <li><a href="veille.html">Veille</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Informations</h4>
+                    <ul>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="mentions-legales.html">Mentions légales</a></li>
+                        <li><a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener">Éditions
+                                Ellipses</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fabien Boyer - Éditions Ellipses. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script>
+        function toggleConversation(id) {
+            const card = document.getElementById(id);
+            const content = card.querySelector('.conversation-content');
+            const btn = card.querySelector('.expand-btn');
+            const icon = btn.querySelector('svg');
+
+            if (content.classList.contains('expanded')) {
+                content.classList.remove('expanded');
+                btn.querySelector('span').textContent = 'Voir la conversation';
+                icon.style.transform = 'rotate(0deg)';
+            } else {
+                content.classList.add('expanded');
+                btn.querySelector('span').textContent = 'Masquer';
+                icon.style.transform = 'rotate(180deg)';
+            }
+        }
+    </script>
+</body>
+
+</html>

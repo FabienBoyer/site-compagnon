@@ -1,0 +1,299 @@
+/* ========================================
+   VEILLE PAGE STYLES
+   ======================================== */
+
+.page-header {
+    padding: 8rem var(--spacing-lg) var(--spacing-2xl);
+    text-align: center;
+    background: var(--bg-secondary);
+}
+
+.page-header .section-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.page-header .section-badge svg {
+    width: 14px;
+    height: 14px;
+}
+
+.page-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: var(--spacing-md);
+}
+
+.page-subtitle {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.veille-main {
+    padding: var(--spacing-3xl) var(--spacing-lg);
+}
+
+.veille-layout {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: var(--spacing-2xl);
+}
+
+.veille-section {
+    margin-bottom: var(--spacing-3xl);
+}
+
+.section-title-veille {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 2px solid var(--border-color);
+}
+
+.section-title-veille svg {
+    width: 20px;
+    height: 20px;
+    color: var(--color-primary);
+}
+
+.sites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.site-card {
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-xl);
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-xl);
+    transition: all var(--transition-base);
+    color: var(--text-primary);
+}
+
+.site-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary-light);
+}
+
+.site-card-featured {
+    border-color: var(--color-primary);
+}
+
+.site-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-md);
+}
+
+.site-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+    border-radius: var(--radius-md);
+}
+
+.site-icon svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.site-icon-green {
+    background: linear-gradient(135deg, var(--color-green) 0%, #34d399 100%);
+}
+
+.site-icon-purple {
+    background: linear-gradient(135deg, var(--color-purple) 0%, #a78bfa 100%);
+}
+
+.site-badge {
+    padding: var(--spacing-xs) var(--spacing-sm);
+    font-size: 0.625rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--color-primary);
+    border-radius: var(--radius-full);
+}
+
+.site-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+}
+
+.site-description {
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    flex-grow: 1;
+    margin-bottom: var(--spacing-lg);
+}
+
+.site-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.site-link svg {
+    width: 16px;
+    height: 16px;
+    transition: transform var(--transition-fast);
+}
+
+.site-card:hover .site-link svg {
+    transform: translateX(4px);
+}
+
+.update-card {
+    margin-bottom: var(--spacing-lg);
+    padding: var(--spacing-xl);
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-xl);
+}
+
+.update-card-current {
+    border-color: var(--color-primary);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, transparent 100%);
+}
+
+.update-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.update-month {
+    font-family: var(--font-sans);
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.update-badge {
+    padding: var(--spacing-xs) var(--spacing-sm);
+    font-size: 0.625rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: var(--color-primary);
+    color: white;
+    border-radius: var(--radius-full);
+}
+
+.update-items {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.update-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+}
+
+.update-tag {
+    padding: var(--spacing-xs) var(--spacing-sm);
+    font-size: 0.625rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: var(--radius-sm);
+    flex-shrink: 0;
+}
+
+.update-new .update-tag {
+    background: rgba(16, 185, 129, 0.1);
+    color: var(--color-success);
+}
+
+.update-update .update-tag {
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--color-primary);
+}
+
+.update-content {
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+}
+
+.update-content strong {
+    color: var(--text-primary);
+}
+
+.veille-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.sidebar-card {
+    padding: var(--spacing-xl);
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-xl);
+}
+
+.sidebar-title {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: 1rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.sidebar-title svg {
+    width: 18px;
+    height: 18px;
+    color: var(--color-primary);
+}
+
+.sidebar-text {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-md);
+}
+
+.sidebar-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    font-size: 0.75rem;
+    color: var(--text-tertiary);
+}
+
+.sidebar-meta svg {
+    width: 14px;
+    height: 14px;
+}
+
+.sidebar-btn {
+    width: 100%;
+    justify-content: center;
+}
+
+@media (max-width: 968px) {
+    .veille-layout {
+        grid-template-columns: 1fr;
+    }
+}

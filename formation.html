@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Se former sur l'IA - Enseigner avec l'IA</title>
+    <meta name="description"
+        content="Playlists YouTube, cours en ligne et articles pour se former à l'IA en éducation.">
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/formation.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">Enseigner avec l'IA</span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="conversations.html" class="nav-link">Conversations</a></li>
+                <li><a href="outils.html" class="nav-link">Outils</a></li>
+                <li><a href="formation.html" class="nav-link active">Formation</a></li>
+                <li><a href="veille.html" class="nav-link">Veille</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                </button>
+                <a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener" class="btn btn-primary">
+                    <i data-lucide="shopping-cart"></i>
+                    <span>Commander</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <span class="section-badge">
+                <i data-lucide="play-circle"></i>
+                Formation
+            </span>
+            <h1 class="page-title">Se former sur l'IA</h1>
+            <p class="page-subtitle">
+                Vidéos, cours en ligne et articles pour comprendre l'IA
+                et son application dans l'éducation.
+            </p>
+        </div>
+    </section>
+
+    <!-- Tabs -->
+    <section class="tabs-section">
+        <div class="container">
+            <div class="tabs-bar">
+                <button class="tab-btn active" data-tab="videos">
+                    <i data-lucide="youtube"></i>
+                    Vidéos YouTube
+                </button>
+                <button class="tab-btn" data-tab="cours">
+                    <i data-lucide="graduation-cap"></i>
+                    Cours en ligne
+                </button>
+                <button class="tab-btn" data-tab="articles">
+                    <i data-lucide="file-text"></i>
+                    Articles de référence
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tab Content -->
+    <main class="formation-main">
+        <div class="container">
+
+            <!-- Tab: Videos -->
+            <div class="tab-panel active" id="videos">
+
+                <!-- Playlist 1: Monsieur Phi -->
+                <section class="playlist-section">
+                    <div class="playlist-header">
+                        <div class="playlist-info">
+                            <h2 class="playlist-title">
+                                <span class="playlist-icon">🎓</span>
+                                Monsieur Phi - Réflexion éthique
+                            </h2>
+                            <p class="playlist-description">
+                                Analyses philosophiques profondes sur l'IA, ses enjeux éthiques
+                                et ses implications pour l'éducation.
+                            </p>
+                        </div>
+                        <a href="https://www.youtube.com/@MonsieurPhi" target="_blank" rel="noopener"
+                            class="btn btn-secondary">
+                            <i data-lucide="external-link"></i>
+                            Voir la chaîne
+                        </a>
+                    </div>
+
+                    <div class="videos-grid">
+                        <article class="video-card">
+                            <div class="video-thumbnail">
+                                <div class="video-placeholder">
+                                    <i data-lucide="play"></i>
+                                </div>
+                                <span class="video-duration">25:00</span>
+                            </div>
+                            <div class="video-content">
+                                <h3 class="video-title">ChatGPT et l'éducation : faut-il avoir peur ?</h3>
+                                <p class="video-meta">Monsieur Phi • 25 min</p>
+                            </div>
+                        </article>
+
+                        <article class="video-card">
+                            <div class="video-thumbnail">
+                                <div class="video-placeholder">
+                                    <i data-lucide="play"></i>
+                                </div>
+                                <span class="video-duration">30:00</span>
+                            </div>
+                            <div class="video-content">
+                                <h3 class="video-title">L'IA peut-elle être créative ?</h3>
+                                <p class="video-meta">Monsieur Phi • 30 min</p>
+                            </div>
+                        </article>
+
+                        <article class="video-card">
+                            <div class="video-thumbnail">
+                                <div class="video-placeholder">
+                                    <i data-lucide="play"></i>
+                                </div>
+                                <span class="video-duration">22:00</span>
+                            </div>
+                            <div class="video-content">
+                                <h3 class="video-title">Les biais de l'IA : enjeux éthiques</h3>
+                                <p class="video-meta">Monsieur Phi • 22 min</p>
+                            </div>
+                        </article>
+
+                        <article class="video-card">
+                            <div class="video-thumbnail">
+                                <div class="video-placeholder">
+                                    <i data-lucide="play"></i>
+                                </div>
+                                <span class="video-duration">28:00</span>
+                            </div>
+                            <div class="video-content">
+                                <h3 class="video-title">Propriété intellectuelle et IA générative</h3>
+                                <p class="video-meta">Monsieur Phi • 28 min</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Playlist 2: Micode -->
+                <section class="playlist-section">
+                    <div class="playlist-header">
+                        <div class="playlist-info">
+                            <h2 class="playlist-title">
+                                <span class="playlist-icon">💻</span>
+                                Micode - Vulgarisation technique
+                            </h2>
+                            <p class="playlist-description">
+                                Explications claires et accessibles sur le fonctionnement
+                                technique de l'IA et des LLMs.
+                            </p>
+                        </div>
+                        <a href="https://www.youtube.com/@Micode" target="_blank" rel="noopener"
+                            class="btn btn-secondary">
+                            <i data-lucide="external-link"></i>
+                            Voir la chaîne
+                        </a>
+                    </div>
+
+                    <div class="videos-grid">
+                        <article class="video-card">
+                            <div class="video-thumbnail">
+                                <div class="video-placeholder">
+                                    <i data-lucide="play"></i>
+                                </div>
+                                <span class="video-duration">15:00</span>
+                            </div>
+                            <div class="video-content">
+                                <h3 class="video-title">Comment fonctionne ChatGPT ?</h3>
+                                <p class="video-meta">Micode • 15 min</p>
+                            </div>
+                        </article>
+
+                        <article class="video-card">
+                            <div class="video-thumbnail">
+                                <div class="video-placeholder">
+                                    <i data-lucide="play"></i>
+                                </div>
+                                <span class="video-duration">12:00</span>
+                            </div>
+                            <div class="video-content">
+                                <h3 class="video-title">Les hallucinations de l'IA expliquées</h3>
+                                <p class="video-meta">Micode • 12 min</p>
+                            </div>
+                        </article>
+
+                        <article class="video-card">
+                            <div class="video-thumbnail">
+                                <div class="video-placeholder">
+                                    <i data-lucide="play"></i>
+                                </div>
+                                <span class="video-duration">18:00</span>
+                            </div>
+                            <div class="video-content">
+                                <h3 class="video-title">IA générative vs IA classique</h3>
+                                <p class="video-meta">Micode • 18 min</p>
+                            </div>
+                        </article>
+
+                        <article class="video-card">
+                            <div class="video-thumbnail">
+                                <div class="video-placeholder">
+                                    <i data-lucide="play"></i>
+                                </div>
+                                <span class="video-duration">20:00</span>
+                            </div>
+                            <div class="video-content">
+                                <h3 class="video-title">Les données d'entraînement</h3>
+                                <p class="video-meta">Micode • 20 min</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- Other Channels -->
+                <section class="playlist-section">
+                    <div class="playlist-header">
+                        <div class="playlist-info">
+                            <h2 class="playlist-title">
+                                <span class="playlist-icon">📺</span>
+                                Autres chaînes recommandées
+                            </h2>
+                            <p class="playlist-description">
+                                D'autres créateurs francophones de qualité sur l'IA.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="channels-list">
+                        <a href="https://www.youtube.com/@Science4All" target="_blank" rel="noopener"
+                            class="channel-card">
+                            <div class="channel-avatar">S4A</div>
+                            <div class="channel-info">
+                                <h3 class="channel-name">Science4All</h3>
+                                <p class="channel-description">IA, mathématiques et science</p>
+                            </div>
+                            <i data-lucide="external-link"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com/@music_music" target="_blank" rel="noopener"
+                            class="channel-card">
+                            <div class="channel-avatar">U_</div>
+                            <div class="channel-info">
+                                <h3 class="channel-name">Underscore_</h3>
+                                <p class="channel-description">Tech et numérique</p>
+                            </div>
+                            <i data-lucide="external-link"></i>
+                        </a>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Tab: Cours -->
+            <div class="tab-panel" id="cours">
+                <section class="courses-section">
+                    <h2 class="section-subtitle">Cours gratuits</h2>
+
+                    <div class="courses-grid">
+                        <article class="course-card">
+                            <div class="course-header">
+                                <span class="course-platform">FUN-MOOC</span>
+                                <span class="tag tag-green">Gratuit</span>
+                            </div>
+                            <h3 class="course-title">L'Intelligence Artificielle pour les enseignants</h3>
+                            <p class="course-description">
+                                MOOC complet sur l'utilisation de l'IA dans le contexte éducatif,
+                                proposé par France Université Numérique.
+                            </p>
+                            <div class="course-meta">
+                                <span><i data-lucide="clock"></i> ~12 heures</span>
+                                <span><i data-lucide="award"></i> Certificat disponible</span>
+                            </div>
+                            <a href="https://www.fun-mooc.fr" target="_blank" rel="noopener"
+                                class="btn btn-primary course-btn">
+                                Accéder au cours
+                            </a>
+                        </article>
+
+                        <article class="course-card">
+                            <div class="course-header">
+                                <span class="course-platform">Coursera</span>
+                                <span class="tag tag-green">Gratuit (audit)</span>
+                            </div>
+                            <h3 class="course-title">AI for Everyone</h3>
+                            <p class="course-description">
+                                Le cours d'Andrew Ng traduit en français. Une excellente
+                                introduction non technique à l'IA.
+                            </p>
+                            <div class="course-meta">
+                                <span><i data-lucide="clock"></i> ~6 heures</span>
+                                <span><i data-lucide="globe"></i> Sous-titres FR</span>
+                            </div>
+                            <a href="https://www.coursera.org/learn/ai-for-everyone" target="_blank" rel="noopener"
+                                class="btn btn-primary course-btn">
+                                Accéder au cours
+                            </a>
+                        </article>
+
+                        <article class="course-card">
+                            <div class="course-header">
+                                <span class="course-platform">OpenClassrooms</span>
+                                <span class="tag tag-green">Gratuit</span>
+                            </div>
+                            <h3 class="course-title">Découvrez l'Intelligence Artificielle</h3>
+                            <p class="course-description">
+                                Parcours d'initiation à l'IA avec des exercices pratiques
+                                et des quiz pour valider vos connaissances.
+                            </p>
+                            <div class="course-meta">
+                                <span><i data-lucide="clock"></i> ~8 heures</span>
+                                <span><i data-lucide="check-circle"></i> Quiz intégrés</span>
+                            </div>
+                            <a href="https://openclassrooms.com" target="_blank" rel="noopener"
+                                class="btn btn-primary course-btn">
+                                Accéder au cours
+                            </a>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="courses-section">
+                    <h2 class="section-subtitle">Cours payants</h2>
+
+                    <div class="courses-grid">
+                        <article class="course-card">
+                            <div class="course-header">
+                                <span class="course-platform">Udemy</span>
+                                <span class="tag tag-orange">Payant</span>
+                            </div>
+                            <h3 class="course-title">ChatGPT pour les enseignants</h3>
+                            <p class="course-description">
+                                Formation complète sur l'utilisation de ChatGPT dans
+                                la préparation de cours et l'évaluation.
+                            </p>
+                            <div class="course-meta">
+                                <span><i data-lucide="clock"></i> ~5 heures</span>
+                                <span><i data-lucide="award"></i> Certificat Udemy</span>
+                            </div>
+                            <a href="https://www.udemy.com" target="_blank" rel="noopener"
+                                class="btn btn-secondary course-btn">
+                                Voir le cours
+                            </a>
+                        </article>
+
+                        <article class="course-card">
+                            <div class="course-header">
+                                <span class="course-platform">LinkedIn Learning</span>
+                                <span class="tag tag-orange">Payant</span>
+                            </div>
+                            <h3 class="course-title">IA et pédagogie</h3>
+                            <p class="course-description">
+                                Formation professionnelle sur l'intégration de l'IA
+                                dans les pratiques pédagogiques.
+                            </p>
+                            <div class="course-meta">
+                                <span><i data-lucide="clock"></i> ~4 heures</span>
+                                <span><i data-lucide="briefcase"></i> Pro</span>
+                            </div>
+                            <a href="https://www.linkedin.com/learning" target="_blank" rel="noopener"
+                                class="btn btn-secondary course-btn">
+                                Voir le cours
+                            </a>
+                        </article>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Tab: Articles -->
+            <div class="tab-panel" id="articles">
+                <section class="articles-section">
+                    <h2 class="section-subtitle">Articles académiques</h2>
+
+                    <div class="articles-list">
+                        <article class="article-card">
+                            <div class="article-icon">
+                                <i data-lucide="file-text"></i>
+                            </div>
+                            <div class="article-content">
+                                <h3 class="article-title">L'IA en éducation : enjeux et perspectives</h3>
+                                <p class="article-source">Ministère de l'Éducation nationale</p>
+                                <p class="article-description">
+                                    Rapport officiel sur les enjeux de l'IA dans l'éducation française.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-secondary article-btn">
+                                <i data-lucide="external-link"></i>
+                                Lire
+                            </a>
+                        </article>
+
+                        <article class="article-card">
+                            <div class="article-icon">
+                                <i data-lucide="file-text"></i>
+                            </div>
+                            <div class="article-content">
+                                <h3 class="article-title">ChatGPT et la triche : état des lieux</h3>
+                                <p class="article-source">Les Cahiers pédagogiques • Mars 2025</p>
+                                <p class="article-description">
+                                    Analyse des pratiques de triche avec l'IA et pistes de prévention.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-secondary article-btn">
+                                <i data-lucide="external-link"></i>
+                                Lire
+                            </a>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="articles-section">
+                    <h2 class="section-subtitle">Articles de vulgarisation</h2>
+
+                    <div class="articles-list">
+                        <article class="article-card">
+                            <div class="article-icon">
+                                <i data-lucide="book-open"></i>
+                            </div>
+                            <div class="article-content">
+                                <h3 class="article-title">Comprendre les LLM en 10 minutes</h3>
+                                <p class="article-source">Blog technique</p>
+                                <p class="article-description">
+                                    Introduction accessible au fonctionnement des modèles de langage.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-secondary article-btn">
+                                <i data-lucide="external-link"></i>
+                                Lire
+                            </a>
+                        </article>
+
+                        <article class="article-card">
+                            <div class="article-icon">
+                                <i data-lucide="shield"></i>
+                            </div>
+                            <div class="article-content">
+                                <h3 class="article-title">RGPD et IA : ce que les enseignants doivent savoir</h3>
+                                <p class="article-source">CNIL</p>
+                                <p class="article-description">
+                                    Guide pratique sur la protection des données avec les outils IA.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-secondary article-btn">
+                                <i data-lucide="external-link"></i>
+                                Lire
+                            </a>
+                        </article>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">📚</span>
+                        <span class="logo-text">Enseigner avec l'IA</span>
+                    </a>
+                    <p class="footer-description">
+                        Site compagnon du livre "Les outils pour enseigner avec l'IA"
+                        de Fabien Boyer, publié aux Éditions Ellipses.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="conversations.html">Conversations</a></li>
+                        <li><a href="outils.html">Outils</a></li>
+                        <li><a href="formation.html">Formation</a></li>
+                        <li><a href="veille.html">Veille</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Informations</h4>
+                    <ul>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="mentions-legales.html">Mentions légales</a></li>
+                        <li><a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener">Éditions
+                                Ellipses</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fabien Boyer - Éditions Ellipses. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            initTabs();
+        });
+    </script>
+</body>
+
+</html>

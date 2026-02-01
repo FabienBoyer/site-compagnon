@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outils complémentaires - Enseigner avec l'IA</title>
+    <meta name="description"
+        content="Découvrez 10+ outils IA pour l'éducation non présents dans le livre, avec filtres par niveau et gratuité.">
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/outils.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">Enseigner avec l'IA</span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="conversations.html" class="nav-link">Conversations</a></li>
+                <li><a href="outils.html" class="nav-link active">Outils</a></li>
+                <li><a href="formation.html" class="nav-link">Formation</a></li>
+                <li><a href="veille.html" class="nav-link">Veille</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                </button>
+                <a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener" class="btn btn-primary">
+                    <i data-lucide="shopping-cart"></i>
+                    <span>Commander</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <span class="section-badge">
+                <i data-lucide="wrench"></i>
+                Ressources
+            </span>
+            <h1 class="page-title">Outils complémentaires</h1>
+            <p class="page-subtitle">
+                10+ outils IA pour l'éducation, non présents dans le livre.
+                Mis à jour régulièrement avec de nouvelles découvertes.
+            </p>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters-bar">
+                <button class="filter-btn active" data-filter="all">
+                    <i data-lucide="grid-3x3"></i>
+                    Tous
+                </button>
+                <button class="filter-btn" data-filter="gratuit">
+                    <i data-lucide="gift"></i>
+                    Gratuit
+                </button>
+                <button class="filter-btn" data-filter="sans-compte">
+                    <i data-lucide="zap"></i>
+                    Sans compte
+                </button>
+                <button class="filter-btn" data-filter="fr-eu">
+                    <i data-lucide="flag"></i>
+                    FR/EU
+                </button>
+                <button class="filter-btn" data-filter="primaire">
+                    Primaire
+                </button>
+                <button class="filter-btn" data-filter="college">
+                    Collège
+                </button>
+                <button class="filter-btn" data-filter="lycee">
+                    Lycée
+                </button>
+                <button class="filter-btn" data-filter="superieur">
+                    Supérieur
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Grid -->
+    <main class="tools-main">
+        <div class="container">
+            <div class="tools-grid">
+
+                <!-- Tool 1: Mindmaclasse -->
+                <article class="outil-card" data-tags="gratuit,sans-compte,fr-eu,college,lycee">
+                    <div class="outil-header">
+                        <div class="outil-icon outil-icon-blue">
+                            <i data-lucide="brain"></i>
+                        </div>
+                        <div class="outil-tags">
+                            <span class="tag tag-green">Gratuit</span>
+                            <span class="tag tag-blue">FR/EU</span>
+                        </div>
+                    </div>
+                    <h3 class="outil-title">Mindmaclasse</h3>
+                    <p class="outil-category">Quiz · Cartes mentales</p>
+                    <p class="outil-description">
+                        Créez des cartes mentales et des quiz interactifs avec l'IA.
+                        Parfait pour la révision et la mémorisation.
+                    </p>
+                    <div class="outil-meta">
+                        <span class="meta-item">
+                            <i data-lucide="users"></i>
+                            Collège-Lycée
+                        </span>
+                        <span class="meta-item">
+                            <i data-lucide="zap"></i>
+                            Sans compte
+                        </span>
+                    </div>
+                    <a href="https://mindmaclasse.fr" target="_blank" rel="noopener"
+                        class="btn btn-secondary outil-btn">
+                        <i data-lucide="external-link"></i>
+                        Découvrir
+                    </a>
+                </article>
+
+                <!-- Tool 2: Fobizz -->
+                <article class="outil-card" data-tags="freemium,fr-eu,primaire,college,lycee,superieur">
+                    <div class="outil-header">
+                        <div class="outil-icon outil-icon-purple">
+                            <i data-lucide="layout-dashboard"></i>
+                        </div>
+                        <div class="outil-tags">
+                            <span class="tag tag-orange">Freemium</span>
+                            <span class="tag tag-blue">FR/EU</span>
+                        </div>
+                    </div>
+                    <h3 class="outil-title">Fobizz</h3>
+                    <p class="outil-category">Suite complète</p>
+                    <p class="outil-description">
+                        Suite complète d'outils IA pour l'éducation : assistant IA,
+                        création de contenus, correction automatique. Hébergement européen.
+                    </p>
+                    <div class="outil-meta">
+                        <span class="meta-item">
+                            <i data-lucide="users"></i>
+                            Tous niveaux
+                        </span>
+                        <span class="meta-item">
+                            <i data-lucide="shield-check"></i>
+                            RGPD
+                        </span>
+                    </div>
+                    <a href="https://fobizz.com" target="_blank" rel="noopener" class="btn btn-secondary outil-btn">
+                        <i data-lucide="external-link"></i>
+                        Découvrir
+                    </a>
+                </article>
+
+                <!-- Tool 3: Euria -->
+                <article class="outil-card" data-tags="gratuit,sans-compte,fr-eu,primaire,college,lycee,superieur">
+                    <div class="outil-header">
+                        <div class="outil-icon outil-icon-green">
+                            <i data-lucide="message-circle"></i>
+                        </div>
+                        <div class="outil-tags">
+                            <span class="tag tag-green">Gratuit</span>
+                            <span class="tag tag-blue">FR/EU (Suisse)</span>
+                        </div>
+                    </div>
+                    <h3 class="outil-title">Euria</h3>
+                    <p class="outil-category">Chatbot IA</p>
+                    <p class="outil-description">
+                        Chatbot IA développé en Suisse, respectueux de la vie privée.
+                        Idéal pour une première approche de l'IA avec les élèves.
+                    </p>
+                    <div class="outil-meta">
+                        <span class="meta-item">
+                            <i data-lucide="users"></i>
+                            Tous niveaux
+                        </span>
+                        <span class="meta-item">
+                            <i data-lucide="zap"></i>
+                            Sans compte
+                        </span>
+                    </div>
+                    <a href="https://euria.ch" target="_blank" rel="noopener" class="btn btn-secondary outil-btn">
+                        <i data-lucide="external-link"></i>
+                        Découvrir
+                    </a>
+                </article>
+
+                <!-- Tool 4: Teacher Tools -->
+                <article class="outil-card" data-tags="gratuit,college,lycee">
+                    <div class="outil-header">
+                        <div class="outil-icon outil-icon-orange">
+                            <i data-lucide="clipboard-list"></i>
+                        </div>
+                        <div class="outil-tags">
+                            <span class="tag tag-green">Gratuit</span>
+                        </div>
+                    </div>
+                    <h3 class="outil-title">Teacher Tools</h3>
+                    <p class="outil-category">Administration</p>
+                    <p class="outil-description">
+                        Outils IA pour simplifier les tâches administratives :
+                        rédaction de bulletins, génération de commentaires personnalisés.
+                    </p>
+                    <div class="outil-meta">
+                        <span class="meta-item">
+                            <i data-lucide="users"></i>
+                            Enseignants
+                        </span>
+                    </div>
+                    <a href="#" target="_blank" rel="noopener" class="btn btn-secondary outil-btn">
+                        <i data-lucide="external-link"></i>
+                        Découvrir
+                    </a>
+                </article>
+
+                <!-- Tool 5: AiAiapps -->
+                <article class="outil-card" data-tags="gratuit,sans-compte,superieur">
+                    <div class="outil-header">
+                        <div class="outil-icon outil-icon-blue">
+                            <i data-lucide="flask-conical"></i>
+                        </div>
+                        <div class="outil-tags">
+                            <span class="tag tag-green">Gratuit</span>
+                            <span class="tag tag-purple">Open source</span>
+                        </div>
+                    </div>
+                    <h3 class="outil-title">AiAiapps (EPFL)</h3>
+                    <p class="outil-category">Quiz · Images</p>
+                    <p class="outil-description">
+                        Suite d'outils IA développés par l'EPFL. Génération de quiz,
+                        analyse d'images, et plus encore. Open source et gratuit.
+                    </p>
+                    <div class="outil-meta">
+                        <span class="meta-item">
+                            <i data-lucide="users"></i>
+                            Supérieur
+                        </span>
+                        <span class="meta-item">
+                            <i data-lucide="zap"></i>
+                            Sans compte
+                        </span>
+                    </div>
+                    <a href="https://aiaiapps.epfl.ch" target="_blank" rel="noopener"
+                        class="btn btn-secondary outil-btn">
+                        <i data-lucide="external-link"></i>
+                        Découvrir
+                    </a>
+                </article>
+
+                <!-- Tool 6: Keepmind -->
+                <article class="outil-card" data-tags="freemium,college,lycee,superieur">
+                    <div class="outil-header">
+                        <div class="outil-icon outil-icon-purple">
+                            <i data-lucide="layers"></i>
+                        </div>
+                        <div class="outil-tags">
+                            <span class="tag tag-orange">Freemium</span>
+                        </div>
+                    </div>
+                    <h3 class="outil-title">Keepmind</h3>
+                    <p class="outil-category">Quiz · Flashcards · Mindmap</p>
+                    <p class="outil-description">
+                        Plateforme tout-en-un pour la révision : flashcards générées par IA,
+                        cartes mentales automatiques, quiz adaptatifs.
+                    </p>
+                    <div class="outil-meta">
+                        <span class="meta-item">
+                            <i data-lucide="users"></i>
+                            Collège-Supérieur
+                        </span>
+                    </div>
+                    <a href="https://keepmind.fr" target="_blank" rel="noopener" class="btn btn-secondary outil-btn">
+                        <i data-lucide="external-link"></i>
+                        Découvrir
+                    </a>
+                </article>
+
+                <!-- Tool 7: Prism (OpenAI) -->
+                <article class="outil-card" data-tags="gratuit,superieur">
+                    <div class="outil-header">
+                        <div class="outil-icon outil-icon-green">
+                            <i data-lucide="file-text"></i>
+                        </div>
+                        <div class="outil-tags">
+                            <span class="tag tag-green">Gratuit*</span>
+                        </div>
+                    </div>
+                    <h3 class="outil-title">Prism (OpenAI)</h3>
+                    <p class="outil-category">Documents LaTeX</p>
+                    <p class="outil-description">
+                        Outil spécialisé pour les documents mathématiques et scientifiques.
+                        Analyse et génération de contenu LaTeX. *Compte OpenAI requis.
+                    </p>
+                    <div class="outil-meta">
+                        <span class="meta-item">
+                            <i data-lucide="users"></i>
+                            Supérieur (Maths/Physique)
+                        </span>
+                    </div>
+                    <a href="https://openai.com" target="_blank" rel="noopener" class="btn btn-secondary outil-btn">
+                        <i data-lucide="external-link"></i>
+                        Découvrir
+                    </a>
+                </article>
+
+                <!-- Tool 8: Youmind -->
+                <article class="outil-card" data-tags="freemium,lycee,superieur">
+                    <div class="outil-header">
+                        <div class="outil-icon outil-icon-orange">
+                            <i data-lucide="search"></i>
+                        </div>
+                        <div class="outil-tags">
+                            <span class="tag tag-orange">Freemium</span>
+                        </div>
+                    </div>
+                    <h3 class="outil-title">Youmind</h3>
+                    <p class="outil-category">Recherche</p>
+                    <p class="outil-description">
+                        Moteur de recherche IA pour la recherche académique.
+                        Synthèse automatique de documents et citations.
+                    </p>
+                    <div class="outil-meta">
+                        <span class="meta-item">
+                            <i data-lucide="users"></i>
+                            Lycée-Supérieur
+                        </span>
+                    </div>
+                    <a href="https://youmind.ai" target="_blank" rel="noopener" class="btn btn-secondary outil-btn">
+                        <i data-lucide="external-link"></i>
+                        Découvrir
+                    </a>
+                </article>
+
+                <!-- Tool 9: QR Code Art Generator -->
+                <article class="outil-card" data-tags="gratuit,sans-compte,primaire,college,lycee,superieur">
+                    <div class="outil-header">
+                        <div class="outil-icon outil-icon-blue">
+                            <i data-lucide="qr-code"></i>
+                        </div>
+                        <div class="outil-tags">
+                            <span class="tag tag-green">Gratuit</span>
+                        </div>
+                    </div>
+                    <h3 class="outil-title">QR Code Art Generator</h3>
+                    <p class="outil-category">Images · QR codes</p>
+                    <p class="outil-description">
+                        Générez des QR codes artistiques avec l'IA. Parfait pour
+                        créer des supports de cours originaux et attractifs.
+                    </p>
+                    <div class="outil-meta">
+                        <span class="meta-item">
+                            <i data-lucide="users"></i>
+                            Tous niveaux
+                        </span>
+                        <span class="meta-item">
+                            <i data-lucide="zap"></i>
+                            Sans compte
+                        </span>
+                    </div>
+                    <a href="https://qrcode-ai.com" target="_blank" rel="noopener" class="btn btn-secondary outil-btn">
+                        <i data-lucide="external-link"></i>
+                        Découvrir
+                    </a>
+                </article>
+
+                <!-- Tool 10: Google Traduction Conversations -->
+                <article class="outil-card" data-tags="gratuit,primaire,college,lycee">
+                    <div class="outil-header">
+                        <div class="outil-icon outil-icon-green">
+                            <i data-lucide="languages"></i>
+                        </div>
+                        <div class="outil-tags">
+                            <span class="tag tag-green">Gratuit</span>
+                            <span class="tag tag-purple">App mobile</span>
+                        </div>
+                    </div>
+                    <h3 class="outil-title">Google Traduction - Mode conversation</h3>
+                    <p class="outil-category">Langues</p>
+                    <p class="outil-description">
+                        Le mode conversation de Google Traduction permet des échanges
+                        oraux en temps réel. Idéal pour les cours de langues.
+                    </p>
+                    <div class="outil-meta">
+                        <span class="meta-item">
+                            <i data-lucide="users"></i>
+                            Collège-Lycée
+                        </span>
+                        <span class="meta-item">
+                            <i data-lucide="smartphone"></i>
+                            Mobile
+                        </span>
+                    </div>
+                    <a href="https://translate.google.com" target="_blank" rel="noopener"
+                        class="btn btn-secondary outil-btn">
+                        <i data-lucide="external-link"></i>
+                        Découvrir
+                    </a>
+                </article>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">📚</span>
+                        <span class="logo-text">Enseigner avec l'IA</span>
+                    </a>
+                    <p class="footer-description">
+                        Site compagnon du livre "Les outils pour enseigner avec l'IA"
+                        de Fabien Boyer, publié aux Éditions Ellipses.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="conversations.html">Conversations</a></li>
+                        <li><a href="outils.html">Outils</a></li>
+                        <li><a href="formation.html">Formation</a></li>
+                        <li><a href="veille.html">Veille</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Informations</h4>
+                    <ul>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="mentions-legales.html">Mentions légales</a></li>
+                        <li><a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener">Éditions
+                                Ellipses</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fabien Boyer - Éditions Ellipses. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script>
+        // Initialize filters
+        document.addEventListener('DOMContentLoaded', () => {
+            initFilters();
+        });
+    </script>
+</body>
+
+</html>

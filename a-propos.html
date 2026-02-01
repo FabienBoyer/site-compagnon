@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - Enseigner avec l'IA</title>
+    <meta name="description" content="À propos de l'auteur et du livre Les outils pour enseigner avec l'IA.">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/a-propos.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo"><span class="logo-icon">📚</span><span class="logo-text">Enseigner avec
+                    l'IA</span></a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu"><i data-lucide="menu"></i></button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="conversations.html" class="nav-link">Conversations</a></li>
+                <li><a href="outils.html" class="nav-link">Outils</a></li>
+                <li><a href="formation.html" class="nav-link">Formation</a></li>
+                <li><a href="veille.html" class="nav-link">Veille</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="about-main">
+        <div class="container">
+            <div class="about-hero">
+                <div class="about-author">
+                    <div class="author-avatar"><i data-lucide="user"></i></div>
+                    <div class="author-info">
+                        <h1 class="author-name">Fabien Boyer</h1>
+                        <p class="author-title">Professeur de Mathématiques</p>
+                        <p class="author-bio">
+                            Enseignant passionné par la pédagogie et les nouvelles technologies,
+                            j'explore depuis plusieurs années comment l'intelligence artificielle
+                            peut enrichir nos pratiques d'enseignement sans remplacer l'humain.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <section class="book-section">
+                <div class="book-info">
+                    <span class="section-badge">Le livre</span>
+                    <h2 class="book-main-title">Les outils pour enseigner avec l'IA</h2>
+                    <p class="book-subtitle">Guide pratique</p>
+                    <p class="book-description">
+                        Ce livre propose un panorama complet des outils d'intelligence artificielle
+                        utilisables dans l'éducation. Il aborde les enjeux éthiques, les aspects juridiques,
+                        et propose des exemples concrets d'utilisation au quotidien.
+                    </p>
+                    <ul class="book-details">
+                        <li><i data-lucide="building"></i><strong>Éditeur :</strong> Éditions Ellipses</li>
+                        <li><i data-lucide="calendar"></i><strong>Date :</strong> Février 2026</li>
+                        <li><i data-lucide="book-open"></i><strong>Pages :</strong> ~110 pages</li>
+                    </ul>
+                    <a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener"
+                        class="btn btn-primary btn-lg">
+                        <i data-lucide="shopping-cart"></i>Commander le livre
+                    </a>
+                </div>
+                <div class="book-visual">
+                    <div class="book-cover-large">
+                        <div class="book-cover-placeholder-large">
+                            <i data-lucide="brain" class="book-icon-large"></i>
+                            <span class="book-title-cover">Les outils pour enseigner avec l'IA</span>
+                            <span class="book-author-cover">Fabien Boyer</span>
+                            <span class="book-publisher-cover">Ellipses</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="site-section">
+                <h2 class="section-title-about">À propos de ce site</h2>
+                <p class="site-description-text">
+                    Ce site compagnon a été conçu pour compléter le livre avec des ressources évolutives.
+                    L'IA évoluant très rapidement, il permet de maintenir les contenus à jour sans attendre une nouvelle
+                    édition.
+                </p>
+                <div class="site-features">
+                    <div class="site-feature"><i data-lucide="message-circle"></i><span>Conversations complètes
+                            accessibles via QR codes</span></div>
+                    <div class="site-feature"><i data-lucide="wrench"></i><span>Outils complémentaires mis à jour
+                            mensuellement</span></div>
+                    <div class="site-feature"><i data-lucide="play-circle"></i><span>Ressources de formation et
+                            vidéos</span></div>
+                    <div class="site-feature"><i data-lucide="rss"></i><span>Veille technologique sur l'IA en
+                            éducation</span></div>
+                </div>
+            </section>
+
+            <section class="contact-section">
+                <h2 class="section-title-about">Contact</h2>
+                <p class="contact-text">Pour toute question, suggestion ou signalement d'outil :</p>
+                <div class="contact-links">
+                    <a href="mailto:contact@example.com" class="contact-link">
+                        <i data-lucide="mail"></i>contact@example.com
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener" class="contact-link">
+                        <i data-lucide="twitter"></i>Twitter/X
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fabien Boyer - Éditions Ellipses.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

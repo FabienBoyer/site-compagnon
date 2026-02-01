@@ -1,0 +1,36 @@
+name: Veille Update
+
+on:
+  schedule:
+    # Every Monday at 8:00 AM UTC
+    - cron: '0 8 * * 1'
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  update-veille:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install feedparser
+      
+      - name: Run veille bot
+        run: |
+          python scripts/veille_bot.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/veille.json veille.html
+          git diff --staged --quiet || git commit -m "🤖 Veille auto-update $(date +'%Y-%m-%d')"
+          git push

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille et nouveautés - Enseigner avec l'IA</title>
+    <meta name="description" content="Actualités IA et mises à jour mensuelles.">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/veille.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo"><span class="logo-icon">📚</span><span class="logo-text">Enseigner avec
+                    l'IA</span></a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu"><i data-lucide="menu"></i></button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="conversations.html" class="nav-link">Conversations</a></li>
+                <li><a href="outils.html" class="nav-link">Outils</a></li>
+                <li><a href="formation.html" class="nav-link">Formation</a></li>
+                <li><a href="veille.html" class="nav-link active">Veille</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                </button>
+                <a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener" class="btn btn-primary">
+                    <i data-lucide="shopping-cart"></i><span>Commander</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <span class="section-badge"><i data-lucide="rss"></i>Actualités</span>
+            <h1 class="page-title">Veille et nouveautés</h1>
+            <p class="page-subtitle">Actualités IA, nouveaux outils et mises à jour mensuelles.</p>
+        </div>
+    </section>
+
+    <main class="veille-main">
+        <div class="container">
+            <div class="veille-layout">
+                <div class="veille-content">
+                    <section class="veille-section">
+                        <h2 class="section-title-veille"><i data-lucide="globe"></i>Sites de veille recommandés</h2>
+                        <div class="sites-grid">
+                            <a href="https://www.uneiaparjour.fr/" target="_blank" rel="noopener"
+                                class="site-card site-card-featured">
+                                <div class="site-header">
+                                    <div class="site-icon"><i data-lucide="sparkles"></i></div><span
+                                        class="site-badge">Recommandé</span>
+                                </div>
+                                <h3 class="site-title">Une IA par jour</h3>
+                                <p class="site-description">Veille quotidienne sur les outils IA. Le site de référence.
+                                </p>
+                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+                            </a>
+                            <a href="https://www.canope.fr/" target="_blank" rel="noopener" class="site-card">
+                                <div class="site-header">
+                                    <div class="site-icon site-icon-green"><i data-lucide="book"></i></div>
+                                </div>
+                                <h3 class="site-title">Réseau Canopé</h3>
+                                <p class="site-description">Ressources officielles du ministère sur l'IA.</p>
+                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="veille-section">
+                        <h2 class="section-title-veille"><i data-lucide="calendar"></i>Mises à jour mensuelles</h2>
+                        <article class="update-card update-card-current">
+                            <div class="update-header"><span class="update-month">Février 2026</span><span
+                                    class="update-badge">Actuel</span></div>
+                            <div class="update-items">
+                                <div class="update-item update-new"><span class="update-tag">Nouveau</span>
+                                    <div class="update-content"><strong>ChatGPT 4.5</strong> - Meilleure compréhension
+                                        du français.</div>
+                                </div>
+                                <div class="update-item update-update"><span class="update-tag">Mise à jour</span>
+                                    <div class="update-content"><strong>NotebookLM</strong> - Support vidéo amélioré.
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="update-card">
+                            <div class="update-header"><span class="update-month">Janvier 2026</span></div>
+                            <div class="update-items">
+                                <div class="update-item update-new"><span class="update-tag">Nouveau</span>
+                                    <div class="update-content"><strong>Gemini 2.0 Pro</strong> - Raisonnement intégré.
+                                    </div>
+                                </div>
+                                <div class="update-item update-new"><span class="update-tag">Nouveau</span>
+                                    <div class="update-content"><strong>Fobizz Éducation</strong> - Suite européenne
+                                        RGPD.</div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+                <aside class="veille-sidebar">
+                    <div class="sidebar-card">
+                        <h3 class="sidebar-title"><i data-lucide="bell"></i>Restez informé</h3>
+                        <p class="sidebar-text">Page mise à jour chaque mois.</p>
+                        <div class="sidebar-meta"><i data-lucide="refresh-cw"></i>Février 2026</div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fabien Boyer - Éditions Ellipses.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
