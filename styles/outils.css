@@ -231,6 +231,127 @@
     justify-content: center;
 }
 
+/* ========================================
+   IA LOCALE SECTION
+   ======================================== */
+
+.ia-locale-section {
+    padding: var(--spacing-3xl) var(--spacing-lg);
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.05) 0%, rgba(59, 130, 246, 0.05) 100%);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.section-header-center {
+    text-align: center;
+    margin-bottom: var(--spacing-2xl);
+}
+
+.section-header-center .section-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.section-header-center .section-badge svg {
+    width: 14px;
+    height: 14px;
+}
+
+.section-header-center .section-title {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: var(--spacing-md);
+}
+
+.section-header-center .section-subtitle {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Videos Grid */
+.videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+}
+
+/* Video Card */
+.video-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    transition: all var(--transition-base);
+}
+
+.video-card:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary-light);
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    background: #000;
+}
+
+.video-container video {
+    width: 100%;
+    display: block;
+    max-height: 280px;
+    object-fit: contain;
+}
+
+.video-info {
+    padding: var(--spacing-lg);
+}
+
+.video-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+}
+
+.video-description {
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-md);
+    line-height: 1.6;
+}
+
+.video-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+.video-meta .meta-item {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    font-size: 0.8125rem;
+    color: var(--text-tertiary);
+}
+
+.video-meta .meta-item svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* Ollama CTA */
+.ollama-cta {
+    text-align: center;
+}
+
+.btn-lg {
+    padding: var(--spacing-md) var(--spacing-xl);
+    font-size: 1rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .filters-bar {
@@ -247,5 +368,13 @@
 
     .tools-grid {
         grid-template-columns: 1fr;
+    }
+
+    .videos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ia-locale-section {
+        padding: var(--spacing-2xl) var(--spacing-md);
     }
 }
