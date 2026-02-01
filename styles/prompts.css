@@ -1,0 +1,344 @@
+/* =============================================================================
+   PROMPTS PAGE STYLES
+   ============================================================================= */
+
+.prompts-main {
+    padding: 6rem 0 4rem;
+    min-height: 100vh;
+}
+
+.prompts-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.prompts-header .page-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 1rem 0 0.5rem;
+}
+
+.prompts-header .page-subtitle {
+    font-size: 1.25rem;
+    color: var(--color-text-secondary);
+}
+
+/* =============================================================================
+   CROFI LEGEND
+   ============================================================================= */
+
+.crofi-legend {
+    background: var(--color-bg-secondary);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+.legend-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-text-primary);
+}
+
+.legend-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+@media (max-width: 900px) {
+    .legend-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .legend-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.legend-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    background: var(--color-bg-primary);
+    box-shadow: var(--shadow-sm);
+}
+
+.legend-letter {
+    font-size: 2rem;
+    font-weight: 800;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.legend-c .legend-letter {
+    background: #dbeafe;
+    color: #2563eb;
+}
+
+.legend-r .legend-letter {
+    background: #fce7f3;
+    color: #db2777;
+}
+
+.legend-o .legend-letter {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+.legend-f .legend-letter {
+    background: #fef3c7;
+    color: #d97706;
+}
+
+.legend-i .legend-letter {
+    background: #e0e7ff;
+    color: #4f46e5;
+}
+
+.legend-text {
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.legend-desc {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+}
+
+/* =============================================================================
+   PROMPT CATEGORIES
+   ============================================================================= */
+
+.prompt-category {
+    margin-bottom: 3rem;
+}
+
+.category-title {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: var(--color-text-primary);
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--color-border);
+}
+
+.category-title i {
+    width: 24px;
+    height: 24px;
+    color: var(--color-primary);
+}
+
+/* =============================================================================
+   PROMPTS GRID
+   ============================================================================= */
+
+.prompts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    .prompts-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* =============================================================================
+   PROMPT CARD
+   ============================================================================= */
+
+.prompt-card {
+    background: var(--color-bg-primary);
+    border: 1px solid var(--color-border);
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.prompt-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary);
+}
+
+.prompt-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    background: var(--color-bg-secondary);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.prompt-number {
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+.prompt-title {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin: 0;
+}
+
+.copy-btn {
+    width: 2.25rem;
+    height: 2.25rem;
+    border: none;
+    background: transparent;
+    color: var(--color-text-secondary);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.copy-btn:hover {
+    background: var(--color-primary);
+    color: white;
+}
+
+.copy-btn i {
+    width: 18px;
+    height: 18px;
+}
+
+/* =============================================================================
+   PROMPT BODY - CROFI LINES
+   ============================================================================= */
+
+.prompt-body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.crofi-line {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--color-text-primary);
+}
+
+.crofi-badge {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 0.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+}
+
+/* CROFI Colors */
+.crofi-c .crofi-badge {
+    background: #dbeafe;
+    color: #2563eb;
+}
+
+.crofi-r .crofi-badge {
+    background: #fce7f3;
+    color: #db2777;
+}
+
+.crofi-o .crofi-badge {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+.crofi-f .crofi-badge {
+    background: #fef3c7;
+    color: #d97706;
+}
+
+.crofi-i .crofi-badge {
+    background: #e0e7ff;
+    color: #4f46e5;
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .crofi-c .crofi-badge {
+    background: rgba(37, 99, 235, 0.2);
+    color: #60a5fa;
+}
+
+[data-theme="dark"] .crofi-r .crofi-badge {
+    background: rgba(219, 39, 119, 0.2);
+    color: #f472b6;
+}
+
+[data-theme="dark"] .crofi-o .crofi-badge {
+    background: rgba(22, 163, 74, 0.2);
+    color: #4ade80;
+}
+
+[data-theme="dark"] .crofi-f .crofi-badge {
+    background: rgba(217, 119, 6, 0.2);
+    color: #fbbf24;
+}
+
+[data-theme="dark"] .crofi-i .crofi-badge {
+    background: rgba(79, 70, 229, 0.2);
+    color: #818cf8;
+}
+
+[data-theme="dark"] .legend-c .legend-letter {
+    background: rgba(37, 99, 235, 0.2);
+    color: #60a5fa;
+}
+
+[data-theme="dark"] .legend-r .legend-letter {
+    background: rgba(219, 39, 119, 0.2);
+    color: #f472b6;
+}
+
+[data-theme="dark"] .legend-o .legend-letter {
+    background: rgba(22, 163, 74, 0.2);
+    color: #4ade80;
+}
+
+[data-theme="dark"] .legend-f .legend-letter {
+    background: rgba(217, 119, 6, 0.2);
+    color: #fbbf24;
+}
+
+[data-theme="dark"] .legend-i .legend-letter {
+    background: rgba(79, 70, 229, 0.2);
+    color: #818cf8;
+}

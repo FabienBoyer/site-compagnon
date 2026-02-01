@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20 Prompts CROFI - Enseigner avec l'IA</title>
+    <meta name="description"
+        content="20 prompts prêts à l'emploi structurés avec la méthode CROFI pour les enseignants.">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/prompts.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo"><span class="logo-icon">📚</span><span class="logo-text">Enseigner avec
+                    l'IA</span></a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu"><i data-lucide="menu"></i></button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="conversations.html" class="nav-link">Conversations</a></li>
+                <li><a href="outils.html" class="nav-link">Outils</a></li>
+                <li><a href="formation.html" class="nav-link">Formation</a></li>
+                <li><a href="veille.html" class="nav-link">Veille</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="prompts-main">
+        <div class="container">
+            <section class="prompts-header">
+                <span class="section-badge"><i data-lucide="zap"></i> Annexe B</span>
+                <h1 class="page-title">20 Prompts prêts à l'emploi</h1>
+                <p class="page-subtitle">Structurés avec la méthode <strong>C.R.O.F.I.</strong></p>
+            </section>
+
+            <!-- CROFI Legend -->
+            <section class="crofi-legend">
+                <h2 class="legend-title">La structure C.R.O.F.I.</h2>
+                <div class="legend-grid">
+                    <div class="legend-item legend-c"><span class="legend-letter">C</span><span
+                            class="legend-text">Contexte</span><span class="legend-desc">Qui êtes-vous ?</span></div>
+                    <div class="legend-item legend-r"><span class="legend-letter">R</span><span
+                            class="legend-text">Rôle</span><span class="legend-desc">Quel expert l'IA doit-elle incarner
+                            ?</span></div>
+                    <div class="legend-item legend-o"><span class="legend-letter">O</span><span
+                            class="legend-text">Objectif</span><span class="legend-desc">Que voulez-vous précisément
+                            ?</span></div>
+                    <div class="legend-item legend-f"><span class="legend-letter">F</span><span
+                            class="legend-text">Format</span><span class="legend-desc">Sous quelle forme ?</span></div>
+                    <div class="legend-item legend-i"><span class="legend-letter">I</span><span
+                            class="legend-text">Input</span><span class="legend-desc">Les données de départ</span></div>
+                </div>
+            </section>
+
+            <!-- Category: Préparation de cours -->
+            <section class="prompt-category">
+                <h2 class="category-title"><i data-lucide="book-open"></i> Préparation de cours</h2>
+                <div class="prompts-grid">
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">1</span>
+                            <h3 class="prompt-title">Générateur de séquence</h3>
+                            <button class="copy-btn" data-prompt="1" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-c"><span class="crofi-badge">C</span>Je suis prof de [Matière]
+                                en [Niveau].</div>
+                            <div class="crofi-line crofi-r"><span class="crofi-badge">R</span>Agis comme un expert en
+                                ingénierie pédagogique.</div>
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Crée un plan de séquence
+                                de [Durée] semaines sur [Thème].</div>
+                            <div class="crofi-line crofi-f"><span class="crofi-badge">F</span>Tableau : Semaine /
+                                Objectif / Activité / Évaluation.</div>
+                        </div>
+                    </article>
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">2</span>
+                            <h3 class="prompt-title">Différenciateur de texte</h3>
+                            <button class="copy-btn" data-prompt="2" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-i"><span class="crofi-badge">I</span>Voici un texte de niveau
+                                expert : [Coller].</div>
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Réécris-le en 3 versions :
+                                (1) Original simplifié, (2) Adaptation DYS (phrases courtes, mots syllabés), (3) FLS
+                                (vocabulaire A2).</div>
+                        </div>
+                    </article>
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">3</span>
+                            <h3 class="prompt-title">Générateur d'exercices progressifs</h3>
+                            <button class="copy-btn" data-prompt="3" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Crée 5 exercices
+                                progressifs sur [Notion] pour des élèves de [Niveau].</div>
+                            <div class="crofi-line crofi-f"><span class="crofi-badge">F</span>Pour chaque exercice :
+                                énoncé + correction + compétence testée.</div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Category: Évaluation -->
+            <section class="prompt-category">
+                <h2 class="category-title"><i data-lucide="clipboard-check"></i> Évaluation</h2>
+                <div class="prompts-grid">
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">4</span>
+                            <h3 class="prompt-title">Crash-test de sujet</h3>
+                            <button class="copy-btn" data-prompt="4" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-r"><span class="crofi-badge">R</span>Agis comme un élève moyen
+                                de [Niveau].</div>
+                            <div class="crofi-line crofi-i"><span class="crofi-badge">I</span>Voici mon sujet
+                                d'évaluation : [Coller].</div>
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>(1) Estime le temps
+                                nécessaire. (2) Repère les consignes ambiguës. (3) Signale si un exercice est trop
+                                facile.</div>
+                        </div>
+                    </article>
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">5</span>
+                            <h3 class="prompt-title">Cloneur de devoir</h3>
+                            <button class="copy-btn" data-prompt="5" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-i"><span class="crofi-badge">I</span>Voici mon sujet A :
+                                [Coller].</div>
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Crée un sujet B équivalent
+                                (même structure, mêmes compétences, données différentes) avec son corrigé.</div>
+                        </div>
+                    </article>
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">6</span>
+                            <h3 class="prompt-title">Générateur de barème</h3>
+                            <button class="copy-btn" data-prompt="6" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Crée une grille
+                                d'évaluation pour [Type de production] avec [Nombre] critères.</div>
+                            <div class="crofi-line crofi-f"><span class="crofi-badge">F</span>Pour chaque critère : 3
+                                niveaux (Insuffisant / Satisfaisant / Expert) avec indicateurs observables.</div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Category: Gestion de classe -->
+            <section class="prompt-category">
+                <h2 class="category-title"><i data-lucide="users"></i> Gestion de classe</h2>
+                <div class="prompts-grid">
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">7</span>
+                            <h3 class="prompt-title">Reformulateur d'appréciations</h3>
+                            <button class="copy-btn" data-prompt="7" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-i"><span class="crofi-badge">I</span>Voici une appréciation
+                                sèche : « [Texte] ».</div>
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Reformule-la en 3 versions
+                                : (1) Encourageante, (2) Avertissement, (3) Axée sur le potentiel.</div>
+                        </div>
+                    </article>
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">8</span>
+                            <h3 class="prompt-title">Diplomate (réponse aux parents)</h3>
+                            <button class="copy-btn" data-prompt="8" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-i"><span class="crofi-badge">I</span>Voici un mail de parent
+                                mécontent : [Coller anonymisé].</div>
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Rédige une réponse
+                                courtoise mais ferme, qui rappelle le règlement et propose un rendez-vous.</div>
+                        </div>
+                    </article>
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">9</span>
+                            <h3 class="prompt-title">Checklist sortie scolaire</h3>
+                            <button class="copy-btn" data-prompt="9" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-c"><span class="crofi-badge">C</span>J'organise une sortie à
+                                [Lieu] avec [Nombre] élèves de [Niveau].</div>
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Dresse une checklist
+                                chronologique : 1 mois avant / 1 semaine avant / Jour J.</div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Category: Aide aux élèves -->
+            <section class="prompt-category">
+                <h2 class="category-title"><i data-lucide="heart-handshake"></i> Aide aux élèves</h2>
+                <div class="prompts-grid">
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">10</span>
+                            <h3 class="prompt-title">Tuteur socratique</h3>
+                            <button class="copy-btn" data-prompt="10" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-r"><span class="crofi-badge">R</span>Tu es un tuteur
+                                bienveillant.</div>
+                            <div class="crofi-line crofi-i"><span class="crofi-badge">I</span>L'élève est bloqué sur cet
+                                exercice : [Coller].</div>
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Ne donne PAS la réponse.
+                                Pose 3 questions d'étayage pour le guider. Identifie le prérequis qui lui manque.</div>
+                        </div>
+                    </article>
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">11</span>
+                            <h3 class="prompt-title">Générateur de flashcards</h3>
+                            <button class="copy-btn" data-prompt="11" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-i"><span class="crofi-badge">I</span>À partir de ce cours :
+                                [Coller].</div>
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Génère un tableau Question
+                                / Réponse courte pour créer des flashcards.</div>
+                            <div class="crofi-line crofi-f"><span class="crofi-badge">F</span>Focus sur définitions,
+                                dates clés, formules.</div>
+                        </div>
+                    </article>
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">12</span>
+                            <h3 class="prompt-title">Coach révisions</h3>
+                            <button class="copy-btn" data-prompt="12" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-c"><span class="crofi-badge">C</span>Un élève a [Nombre] jours
+                                pour réviser [Matières].</div>
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Propose un planning
+                                réaliste (technique Pomodoro) + 3 conseils anti-stress pour la veille.</div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Category: Disciplines -->
+            <section class="prompt-category">
+                <h2 class="category-title"><i data-lucide="graduation-cap"></i> Disciplines</h2>
+                <div class="prompts-grid">
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">13</span>
+                            <h3 class="prompt-title">Pastiche littéraire</h3>
+                            <button class="copy-btn" data-prompt="13" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Réécris [Texte classique]
+                                dans le style de [Auteur].</div>
+                            <div class="crofi-line crofi-i"><span class="crofi-badge">I</span>Respecte ses tics
+                                stylistiques : [Liste des caractéristiques].</div>
+                        </div>
+                    </article>
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">14</span>
+                            <h3 class="prompt-title">Persona historique</h3>
+                            <button class="copy-btn" data-prompt="14" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-r"><span class="crofi-badge">R</span>Incarne [Personnage
+                                historique].</div>
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Je vais te poser des
+                                questions sur [Période/Événement]. Réponds en restant dans le personnage, mais en
+                                expliquant tes motivations.</div>
+                        </div>
+                    </article>
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">15</span>
+                            <h3 class="prompt-title">Problème de Fermi</h3>
+                            <button class="copy-btn" data-prompt="15" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Estime [Grandeur à
+                                estimer].</div>
+                            <div class="crofi-line crofi-f"><span class="crofi-badge">F</span>Détaille tout ton
+                                raisonnement : hypothèses, calculs intermédiaires, ordre de grandeur final.</div>
+                        </div>
+                    </article>
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">16</span>
+                            <h3 class="prompt-title">Fausse démonstration</h3>
+                            <button class="copy-btn" data-prompt="16" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Génère une « démonstration
+                                » qui prouve que [Résultat faux] en utilisant une erreur classique.</div>
+                            <div class="crofi-line crofi-f"><span class="crofi-badge">F</span>L'erreur doit être subtile
+                                mais identifiable par un élève de [Niveau].</div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Category: Productivité -->
+            <section class="prompt-category">
+                <h2 class="category-title"><i data-lucide="rocket"></i> Productivité</h2>
+                <div class="prompts-grid">
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">17</span>
+                            <h3 class="prompt-title">Résumeur de réunion</h3>
+                            <button class="copy-btn" data-prompt="17" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-i"><span class="crofi-badge">I</span>Voici mes notes brutes de
+                                réunion : [Coller].</div>
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Transforme en compte-rendu
+                                structuré : Points abordés / Décisions / Actions (Qui-Quoi-Quand).</div>
+                            <div class="crofi-line crofi-f"><span class="crofi-badge">F</span>Anonymise les noms.</div>
+                        </div>
+                    </article>
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">18</span>
+                            <h3 class="prompt-title">Script de capsule vidéo</h3>
+                            <button class="copy-btn" data-prompt="18" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Écris le script d'une
+                                vidéo de [Durée] minutes sur [Sujet].</div>
+                            <div class="crofi-line crofi-f"><span class="crofi-badge">F</span>Style : dynamique, type
+                                YouTuber éducatif. Structure : Accroche / Explication avec analogie / Récap. Indique les
+                                changements d'image.</div>
+                        </div>
+                    </article>
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">19</span>
+                            <h3 class="prompt-title">Traducteur de jargon</h3>
+                            <button class="copy-btn" data-prompt="19" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-i"><span class="crofi-badge">I</span>Reformule ce texte
+                                administratif pour un parent qui ne connaît pas le système scolaire : [Coller].</div>
+                            <div class="crofi-line crofi-f"><span class="crofi-badge">F</span>Phrases simples, ton
+                                rassurant, sigles expliqués.</div>
+                        </div>
+                    </article>
+
+                    <article class="prompt-card">
+                        <div class="prompt-header">
+                            <span class="prompt-number">20</span>
+                            <h3 class="prompt-title">Méta-prompt (améliorateur)</h3>
+                            <button class="copy-btn" data-prompt="20" title="Copier"><i data-lucide="copy"></i></button>
+                        </div>
+                        <div class="prompt-body">
+                            <div class="crofi-line crofi-o"><span class="crofi-badge">O</span>Je veux obtenir
+                                [Objectif]. J'ai écrit ce prompt : [Coller].</div>
+                            <div class="crofi-line crofi-f"><span class="crofi-badge">F</span>Le résultat était trop
+                                vague. Réécris mon prompt pour qu'il soit plus précis et structuré. Explique ce que tu
+                                as changé.</div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fabien Boyer - Éditions Ellipses.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script>
+        // Copy prompt functionality
+        document.querySelectorAll('.copy-btn').forEach(btn => {
+            btn.addEventListener('click', function () {
+                const card = this.closest('.prompt-card');
+                const lines = card.querySelectorAll('.crofi-line');
+                let promptText = '';
+                lines.forEach(line => {
+                    promptText += line.textContent.trim().substring(1) + '\n';
+                });
+                navigator.clipboard.writeText(promptText.trim());
+                this.innerHTML = '<i data-lucide="check"></i>';
+                lucide.createIcons();
+                setTimeout(() => {
+                    this.innerHTML = '<i data-lucide="copy"></i>';
+                    lucide.createIcons();
+                }, 2000);
+            });
+        });
+    </script>
+</body>
+
+</html>
