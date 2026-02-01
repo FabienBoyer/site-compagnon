@@ -1,0 +1,458 @@
+[
+    {
+        "id": 1,
+        "title": "Progression annuelle",
+        "chapter": "Ingénierie pédagogique",
+        "part": "P2 - Méthodes",
+        "subject": "Toutes matières",
+        "content": "Rôle : Tu es un expert en ingénierie pédagogique.\n\nTâche : Propose une progression annuelle pour une classe de 1re en spécialité Physique-Chimie.\n\nContraintes :\n1. Intègre toutes les notions du Bulletin Officiel.\n2. Prévois une progression spiralaire (on revoit les concepts clés 3 fois sous des angles différents).\n3. Prends en compte les vacances scolaires (Zone B) et une période de révision en juin.\n\nFormat : Tableau (Mois / Thème / Notions / Activité clé / Compétence BO)."
+    },
+    {
+        "id": 2,
+        "title": "Squelette de séquence",
+        "chapter": "Ingénierie pédagogique",
+        "part": "P2 - Méthodes",
+        "subject": "Toutes matières",
+        "content": "Je dois préparer une séquence de 4 semaines sur « Les énergies renouvelables » pour des élèves de 5e. Propose-moi un plan détaillé avec :\n• Les objectifs pédagogiques par semaine.\n• Une idée d'activité pratique par semaine.\n• Une évaluation finale originale qui ne soit pas un QCM."
+    },
+    {
+        "id": 3,
+        "title": "Variation de style pédagogique",
+        "chapter": "Ingénierie pédagogique",
+        "part": "P2 - Méthodes",
+        "subject": "Toutes matières",
+        "content": "Voici le déroulé de mon cours sur les chromosomes. Problématique : « Les chromosomes sont-ils responsables de nos caractères ? »\n\nPropose-moi 3 variantes de ce même cours en adoptant strictement les postures suivantes :\n1. Enseignement explicite : Modelage, Pratique guidée, Pratique autonome.\n2. Classe inversée : Ce que les élèves font avant (capsule), ce qu'ils font en classe (activité).\n3. Ludification : Transforme la séance en défi/jeu par équipes avec une quête."
+    },
+    {
+        "id": 4,
+        "title": "L'analogie claire",
+        "chapter": "Ingénierie pédagogique",
+        "part": "P2 - Méthodes",
+        "subject": "Sciences",
+        "content": "Après une recherche sur les femmes scientifiques, des élèves ont découvert l'expression CRISPR-Cas9. Explique ce concept comme tu le ferais pour un enfant de 10 ans en utilisant une analogie facile à saisir mais aussi fidèle que possible."
+    },
+    {
+        "id": 5,
+        "title": "Analyse didactique",
+        "chapter": "Ingénierie pédagogique",
+        "part": "P2 - Méthodes",
+        "subject": "Sciences",
+        "content": "Voici 5 réponses erronées d'élèves à la question : « Pourquoi l'eau bout-elle à 100°C ? »\n\n[Liste des erreurs : « L'eau a trop chaud », « Les molécules explosent », « L'air sort de l'eau »...]\n\nClasse ces erreurs par type (confusion de concept, erreur de vocabulaire, erreur de raisonnement) et propose pour chaque type une courte explication pour rectifier le tir en classe."
+    },
+    {
+        "id": 6,
+        "title": "Tuteur bienveillant",
+        "chapter": "Mode magistral interactif",
+        "part": "P2 - Méthodes",
+        "subject": "Français",
+        "content": "Tu es un professeur de Lettres exigeant et bienveillant.\nAnalyse la copie suivante (copier-coller de la copie anonyme).\nGénère ensuite une liste de 4 questions que l'élève devrait se poser pour identifier lui-même les points qui expliquent sa note.\nNe donne pas la réponse, donne uniquement les questions."
+    },
+    {
+        "id": 7,
+        "title": "L'historien piégé",
+        "chapter": "Mode magistral interactif",
+        "part": "P2 - Méthodes",
+        "subject": "Histoire",
+        "content": "Rédige une courte biographie de l'écrivain Honoré de Balzac, mais insère volontairement 3 erreurs factuelles subtiles (dates, lieux ou titres d'œuvres).\nRends le ton très sûr de lui et encyclopédique. La biographie doit faire 15 lignes maximum."
+    },
+    {
+        "id": 8,
+        "title": "Le critique d'art",
+        "chapter": "Mode magistral interactif",
+        "part": "P2 - Méthodes",
+        "subject": "Arts plastiques",
+        "content": "Tu es critique d'art spécialisé dans le street art.\nDécris une fresque de Banksy pour deux publics différents :\n\nTexte 1 (Critique experte) : Analyse objective, formelle, technique.\nTexte 2 (Critique amateur) : Analyse subjective et émotionnelle."
+    },
+    {
+        "id": 9,
+        "title": "Questionnement de réactivation",
+        "chapter": "Mode magistral interactif",
+        "part": "P2 - Méthodes",
+        "subject": "SVT",
+        "content": "Tu es un professeur de SVT.\nGénère 3 questions de révision sur le chapitre « La Reproduction » (SVT 4e) :\n1. Une question de définition simple.\n2. Un schéma à légender (coupe transversale simplifiée).\n3. Une question piège (Vrai/Faux avec justification)."
+    },
+    {
+        "id": 10,
+        "title": "Le grand tournoi de logique",
+        "chapter": "Mode magistral interactif",
+        "part": "P2 - Méthodes",
+        "subject": "Toutes matières",
+        "content": "Je dois assurer une heure de remplacement imprévue avec une classe de 4e.\nGénère le script d'un « Tournoi de Culture et Logique » de 45 minutes :\n1. 5 questions de logique/maths.\n2. 5 questions de culture générale.\n3. 1 débat mouvant (Pour/Contre).\nDonne les réponses et des éléments de correction."
+    },
+    {
+        "id": 11,
+        "title": "Le débloqueur méthodologique",
+        "chapter": "Mode magistral interactif",
+        "part": "P2 - Méthodes",
+        "subject": "Mathématiques",
+        "content": "Agis comme un professeur pédagogue. Un élève est bloqué sur cet exercice de maths (Suites numériques).\nRègle d'or : Ne donne PAS la réponse. Donne-moi 3 questions d'étayage (pour briller en soirée: c'est le scaffolding) à lui poser pour qu'il trouve la solution par lui-même.\nIdentifie le pré-requis qui lui manque."
+    },
+    {
+        "id": 12,
+        "title": "L'élève moyen (crash-test)",
+        "chapter": "L'évaluation repensée",
+        "part": "P2 - Méthodes",
+        "subject": "Toutes matières",
+        "content": "Agis comme un élève moyen de [Niveau], qui a des capacités de lecture standard mais fatigue vite.\n\nVoici le sujet de mon évaluation : [Coller sujet].\n\n1. Chrono : Estime le temps nécessaire pour tout traiter. Est-ce faisable en 55 minutes ?\n2. Clarté : Y a-t-il des consignes ambiguës ou des mots trop complexes ? (Cite-les).\n3. Risque : Résous l'exercice 3. Si tu y arrives trop facilement, dis-le moi."
+    },
+    {
+        "id": 13,
+        "title": "Créer un Sujet B équivalent",
+        "chapter": "L'évaluation repensée",
+        "part": "P2 - Méthodes",
+        "subject": "Toutes matières",
+        "content": "Voici mon évaluation finale sur [Sujet]. Génère une Version B pour le voisin de table.\n\nContraintes :\n1. Garde exactement la même structure et les mêmes compétences évaluées.\n2. Change les valeurs numériques (Maths) ou les phrases exemples (Grammaire) ou le document source (Histoire) par un document équivalent.\n3. Fournis le corrigé de cette version B."
+    },
+    {
+        "id": 14,
+        "title": "Le générateur de barème",
+        "chapter": "L'évaluation repensée",
+        "part": "P2 - Méthodes",
+        "subject": "Histoire",
+        "content": "Je suis professeur d'Histoire. Je souhaite évaluer un podcast d'élève sur la Résistance. Crée une grille d'évaluation tabulaire avec 4 critères :\n1. Exactitude historique.\n2. Clarté de l'expression orale.\n3. Qualité des sources citées.\n4. Originalité de l'angle choisi.\nPour chaque critère, définis 3 niveaux (Insuffisant / Satisfaisant / Expert) avec des indicateurs observables."
+    },
+    {
+        "id": 15,
+        "title": "Sujet piégé",
+        "chapter": "L'évaluation repensée",
+        "part": "P2 - Méthodes",
+        "subject": "Mathématiques",
+        "content": "Je suis professeur de mathématiques. Je souhaite que tu me fasses un sujet de D.M sur le théorème de Pythagore mais tu intègreras au .pdf de sortie une question écrite en blanc exigeant la réponse en écriture scientifique."
+    },
+    {
+        "id": 16,
+        "title": "Le tuteur socratique",
+        "chapter": "Sciences et Numérique",
+        "part": "P3 - Disciplines",
+        "subject": "Mathématiques",
+        "content": "Tu es un Tuteur Socratique en Mathématiques.\n\nTa mission : Aider l'élève à résoudre un exercice SANS JAMAIS donner la réponse finale.\n1. Demande-lui d'abord : « Quelle est ta première piste ? »\n2. Donne un indice conceptuel, mais n'écris pas la formule à sa place.\n3. Si l'élève est bloqué, pose une question qui l'oriente vers le bon outil."
+    },
+    {
+        "id": 17,
+        "title": "Générateur d'exercices",
+        "chapter": "Sciences et Numérique",
+        "part": "P3 - Disciplines",
+        "subject": "Mathématiques",
+        "content": "Génère une fiche de 5 exercices progressifs sur le théorème de Pythagore (niveau 4e).\n1. Écris l'énoncé.\n2. Fournis la correction détaillée.\n3. Explique pour chaque exercice quelle compétence spécifique est testée."
+    },
+    {
+        "id": 18,
+        "title": "Le défi de Fermi",
+        "chapter": "Sciences et Numérique",
+        "part": "P3 - Disciplines",
+        "subject": "Mathématiques",
+        "content": "Estime le nombre de ballons de basket qu'on peut faire tenir dans une salle de classe standard (7m × 8m × 3m).\n\nNe donne pas juste un chiffre. Détaille tout ton raisonnement : calcul du volume, estimation du volume d'un ballon, et surtout le taux de remplissage (compacité). Affiche les étapes."
+    },
+    {
+        "id": 19,
+        "title": "La fausse démonstration",
+        "chapter": "Sciences et Numérique",
+        "part": "P3 - Disciplines",
+        "subject": "Mathématiques",
+        "content": "Génère une « démonstration » qui prouve que 1 = 2, en utilisant une erreur classique (division par zéro cachée ou racine carrée mal gérée).\n\nL'erreur doit être subtile mais identifiable par un élève de Terminale."
+    },
+    {
+        "id": 20,
+        "title": "Protocole adapté",
+        "chapter": "Sciences et Numérique",
+        "part": "P3 - Disciplines",
+        "subject": "Physique-Chimie",
+        "content": "Je suis professeur de Physique-Chimie en 4e. Je veux faire une expérience sur la conductivité électrique des solutions.\n\nMatériel disponible : pile 4,5V, lampe, fils, béchers, eau distillée, sel, sucre.\n\nPropose un protocole simple avec les résultats attendus et les questions à poser aux élèves."
+    },
+    {
+        "id": 21,
+        "title": "Revue de code",
+        "chapter": "Sciences et Numérique",
+        "part": "P3 - Disciplines",
+        "subject": "NSI",
+        "content": "Voici un code Python écrit par un élève [coller le code].\n\nAnalyse-le et donne :\n1. Les points positifs (ce qui est bien fait).\n2. Les améliorations possibles (sans réécrire le code).\n3. Une question pour pousser l'élève à réfléchir à l'optimisation."
+    },
+    {
+        "id": 22,
+        "title": "Red Team",
+        "chapter": "Sciences et Numérique",
+        "part": "P3 - Disciplines",
+        "subject": "NSI",
+        "content": "Agis en « Red Team » (attaquant). Analyse ce code PHP écrit par un élève et explique les failles de sécurité (Injection SQL, XSS) sans donner le code corrigé immédiatement.\n\nPose des questions pour que l'élève trouve lui-même la correction."
+    },
+    {
+        "id": 23,
+        "title": "Le laboratoire de style",
+        "chapter": "Lettres, Langues et Sciences Humaines",
+        "part": "P3 - Disciplines",
+        "subject": "Français",
+        "content": "Réécris la fable « Le Corbeau et le Renard » de La Fontaine, mais dans le style de Marcel Proust.\n\nConsignes :\n1. Utilise des phrases longues et sinueuses.\n2. Insiste sur les sensations et la mémoire.\n3. Intègre des digressions sur le temps qui passe."
+    },
+    {
+        "id": 24,
+        "title": "Persona : Apollinaire",
+        "chapter": "Lettres, Langues et Sciences Humaines",
+        "part": "P3 - Disciplines",
+        "subject": "Français",
+        "content": "Tu es Guillaume Apollinaire. Je suis un élève de 1re. Je vais te poser des questions sur tes choix dans « Lettres à Lou ». Réponds en restant dans ton personnage, mais disposé à expliquer tes intentions."
+    },
+    {
+        "id": 25,
+        "title": "L'inscription effacée",
+        "chapter": "Lettres, Langues et Sciences Humaines",
+        "part": "P3 - Disciplines",
+        "subject": "Latin",
+        "content": "Tu es une stèle funéraire romaine découverte près de Pompéi. Une partie de ton texte est effacée (marquée par [...]).\n\nGénère un texte latin simple de 3 lignes racontant brièvement la vie d'un gladiateur, avec 3 trous logiques (un verbe, un nom, un adjectif). Propose ensuite les mots manquants en désordre."
+    },
+    {
+        "id": 26,
+        "title": "Interview de Junon",
+        "chapter": "Lettres, Langues et Sciences Humaines",
+        "part": "P3 - Disciplines",
+        "subject": "Latin",
+        "content": "Incarne la déesse Junon. Tu es interviewée par un journaliste moderne sur ta relation avec Jupiter. Explique tes colères célèbres en les justifiant de ton point de vue. Utilise un ton digne mais accessible."
+    },
+    {
+        "id": 27,
+        "title": "Le guide immersif",
+        "chapter": "Lettres, Langues et Sciences Humaines",
+        "part": "P3 - Disciplines",
+        "subject": "Anglais",
+        "content": "Tu es un guide touristique à Londres en 1890 (époque victorienne). Fais-moi visiter le quartier de Whitechapel. Décris les odeurs, les bruits, les vêtements des passants. N'invente pas de faits historiques, mais rends l'atmosphère sensorielle. Utilise un vocabulaire anglais de l'époque (niveau B2)."
+    },
+    {
+        "id": 28,
+        "title": "Scaffolding (étayage)",
+        "chapter": "Lettres, Langues et Sciences Humaines",
+        "part": "P3 - Disciplines",
+        "subject": "Anglais",
+        "content": "Voici un article de presse [coller le texte].\n1. Génère une liste de 10 mots de vocabulaire difficiles avec leur définition en anglais simple (A2).\n2. Rédige 3 questions de compréhension globale.\n3. Réécris le deuxième paragraphe en simplifiant la syntaxe pour un niveau B1."
+    },
+    {
+        "id": 29,
+        "title": "The Grumpy Shopkeeper",
+        "chapter": "Lettres, Langues et Sciences Humaines",
+        "part": "P3 - Disciplines",
+        "subject": "Anglais",
+        "content": "Act as a grumpy shopkeeper in London. I am a tourist trying to return a defective umbrella without the receipt.\n\nLet's have a dialogue. Wait for my answer before replying.\n\nGoal: Make it difficult for me, force me to argue.\n\nFeedback: Correct my mistakes only at the very end."
+    },
+    {
+        "id": 30,
+        "title": "Le journaliste de 1914",
+        "chapter": "Lettres, Langues et Sciences Humaines",
+        "part": "P3 - Disciplines",
+        "subject": "Histoire",
+        "content": "Tu es un journaliste français nationaliste le 4 août 1914. Écris un court article (100 mots) sur l'entrée en guerre. Le ton doit être patriotique et confiant.\n\nEnsuite : Oublie ce rôle. Agis comme un journaliste pacifiste allemand de la même date. Écris sur le même événement avec ta propre perspective."
+    },
+    {
+        "id": 31,
+        "title": "L'opposant philosophique",
+        "chapter": "Lettres, Langues et Sciences Humaines",
+        "part": "P3 - Disciplines",
+        "subject": "Philosophie",
+        "content": "Je rédige une dissertation sur : « La technique nous libère-t-elle ? »\n\nMa thèse principale est : « Oui, car elle réduit le travail pénible. »\n\nAgis comme un philosophe critique. Fais-moi une objection courte et percutante pour m'obliger à nuancer. Ne me donne pas la réponse, pose-moi une question gênante."
+    },
+    {
+        "id": 32,
+        "title": "Les distinctions",
+        "chapter": "Lettres, Langues et Sciences Humaines",
+        "part": "P3 - Disciplines",
+        "subject": "Philosophie",
+        "content": "Agis comme un professeur de philosophie. Trace un tableau comparatif pour distinguer « Contrainte » et « Obligation ».\n\nColonnes : Définition / Exemple concret / Ce que cela change pour la liberté."
+    },
+    {
+        "id": 33,
+        "title": "Recherche d'inspiration",
+        "chapter": "Arts et Créativité",
+        "part": "P3 - Disciplines",
+        "subject": "Arts plastiques",
+        "content": "Génère 4 variations d'une composition abstraite inspirée par le thème « la solitude urbaine ».\n\nStyle : couleurs froides, géométrie, influence Hopper.\n\nBut : créer un moodboard pour guider ma production plastique."
+    },
+    {
+        "id": 34,
+        "title": "Du texte à l'image",
+        "chapter": "Arts et Créativité",
+        "part": "P3 - Disciplines",
+        "subject": "Arts plastiques",
+        "content": "Voici un haïku :\n\n« Vieille mare — / une grenouille plonge / bruit de l'eau »\n\nGénère une image qui capture l'atmosphère de ce poème. Puis génère une deuxième version qui en trahit volontairement l'esprit."
+    },
+    {
+        "id": 35,
+        "title": "Variations stylistiques",
+        "chapter": "Arts et Créativité",
+        "part": "P3 - Disciplines",
+        "subject": "Éducation musicale",
+        "content": "Génère deux versions de la même mélodie simple :\n1. Version « joyeuse » (majeur, tempo rapide, instruments légers).\n2. Version « mélancolique » (mineur, tempo lent, cordes)."
+    },
+    {
+        "id": 36,
+        "title": "Échauffement personnalisé",
+        "chapter": "Arts et Créativité",
+        "part": "P3 - Disciplines",
+        "subject": "EPS",
+        "content": "Génère un échauffement de 10 minutes pour une séance de handball en salle (niveau collège 4e).\n\nContraintes :\n1. Phase 1 : Réveil articulaire (3 min)\n2. Phase 2 : Activation cardio-vasculaire (4 min)\n3. Phase 3 : Préparation spécifique handball (3 min)\n\nFormat : Tableau avec exercice / durée / consignes / variante pour élèves dispensés."
+    },
+    {
+        "id": 37,
+        "title": "Le test de l'expertise",
+        "chapter": "EMI et Documentation",
+        "part": "P3 - Disciplines",
+        "subject": "EMI",
+        "content": "Agis comme un expert bibliographe. Donne-moi une liste de 3 articles universitaires fictifs mais réalistes sur « L'influence de la météo sur les notes en mathématiques ».\n\nInvente les auteurs, les dates et les revues."
+    },
+    {
+        "id": 38,
+        "title": "L'enquêteur statistique",
+        "chapter": "EMI et Documentation",
+        "part": "P3 - Disciplines",
+        "subject": "EMI",
+        "content": "Trouve-moi les chiffres officiels de l'évolution du niveau en orthographe des élèves de CM2 en France.\n\nContrainte : Cite précisément l'étude de la DEPP (Ministère) qui en parle. Ne donne que des faits vérifiés."
+    },
+    {
+        "id": 39,
+        "title": "Le déminage",
+        "chapter": "Gestion administrative",
+        "part": "P4 - Métiers",
+        "subject": "Communication parents",
+        "content": "Voici un mail d'un parent qui conteste une punition [coller le mail anonymisé].\n\nRédige une réponse qui :\n1. Accuse réception avec courtoisie.\n2. Rappelle les faits de manière factuelle.\n3. Reste ferme sur le respect du règlement intérieur.\n4. Propose un échange constructif (rendez-vous ou appel)."
+    },
+    {
+        "id": 40,
+        "title": "Générateur de modèles",
+        "chapter": "Gestion administrative",
+        "part": "P4 - Métiers",
+        "subject": "Communication parents",
+        "content": "Génère 5 modèles de messages courts (3-4 lignes) pour les situations suivantes :\n1. Absence non justifiée.\n2. Retards répétés.\n3. Carnet de correspondance oublié.\n4. Comportement perturbateur en classe.\n5. Félicitations pour progrès constatés.\n\nTon : professionnel mais bienveillant. Évite le jargon administratif froid."
+    },
+    {
+        "id": 41,
+        "title": "Le reformulateur d'appréciations",
+        "chapter": "Gestion administrative",
+        "part": "P4 - Métiers",
+        "subject": "Bulletins",
+        "content": "Voici une appréciation un peu sèche : « Bavard, ne travaille pas. »\n\nReformule-la de 3 manières différentes :\n1. Version encourageante (axée sur le potentiel).\n2. Version avertissement (signal d'alerte aux parents).\n3. Version constructive (pistes d'amélioration concrètes)."
+    },
+    {
+        "id": 42,
+        "title": "Analyse de cohérence",
+        "chapter": "Gestion administrative",
+        "part": "P4 - Métiers",
+        "subject": "Bulletins",
+        "content": "Voici les appréciations de 6 professeurs pour un même élève [coller les appréciations].\n\nIdentifie :\n1. Les points de convergence (ce que tout le monde dit).\n2. Les contradictions éventuelles.\n3. Une synthèse possible pour l'appréciation générale du bulletin."
+    },
+    {
+        "id": 43,
+        "title": "Fiche mission AESH",
+        "chapter": "Gestion administrative",
+        "part": "P4 - Métiers",
+        "subject": "Inclusion",
+        "content": "Génère une fiche pour l'AESH qui accompagne un élève dyspraxique pendant un exercice de géométrie (tracé de figures).\n\nLa fiche doit lister 4 gestes concrets :\n1. Ce que l'AESH fait (aide physique).\n2. Ce que l'AESH ne fait pas (pour préserver l'autonomie).\n3. Les adaptations matérielles possibles.\n4. Les signaux d'alerte (quand alerter l'enseignant)."
+    },
+    {
+        "id": 44,
+        "title": "Adaptation PAP",
+        "chapter": "Gestion administrative",
+        "part": "P4 - Métiers",
+        "subject": "Inclusion",
+        "content": "Voici un exercice de français [coller l'exercice].\n\nL'élève a un PAP pour dyslexie. Adapte l'exercice :\n1. Police plus grande, interligne aéré.\n2. Consignes reformulées en phrases courtes.\n3. Mots difficiles syllabés (ex : « im-por-tant »).\n4. Réduction du nombre de questions si pertinent."
+    },
+    {
+        "id": 45,
+        "title": "Le générateur de courriers",
+        "chapter": "Personnel de direction",
+        "part": "P4 - Métiers",
+        "subject": "Direction",
+        "content": "Rédige un courrier informant les parents d'un élève (appelons-le X) d'une exclusion temporaire de 3 jours.\n\nContexte : Violence verbale envers un personnel de vie scolaire.\n\nLe courrier doit :\n1. Rappeler les faits de manière factuelle.\n2. Citer l'article du règlement intérieur concerné.\n3. Mentionner les voies de recours.\n4. Proposer un rendez-vous de retour."
+    },
+    {
+        "id": 46,
+        "title": "Structuration de compte-rendu",
+        "chapter": "Personnel de direction",
+        "part": "P4 - Métiers",
+        "subject": "Direction",
+        "content": "Voici mes notes brutes de la réunion du conseil pédagogique [coller les notes].\n\nTransforme-les en un compte-rendu formel avec :\n1. Participants présents / excusés.\n2. Ordre du jour.\n3. Pour chaque point : résumé des échanges et décisions prises.\n4. Prochaine réunion."
+    },
+    {
+        "id": 47,
+        "title": "Le diplomate",
+        "chapter": "Personnel de direction",
+        "part": "P4 - Métiers",
+        "subject": "Direction",
+        "content": "Voici un mail agressif reçu d'un parent [coller le mail anonymisé].\n\nRédige une réponse qui :\n1. Reste courtoise mais institutionnelle.\n2. Rappelle que la sanction est une réponse à un acte (citer le règlement) et non un jugement sur la personne.\n3. Coupe court au débat par mail en proposant un rendez-vous.\n4. Ne s'excuse pas pour une décision légitime."
+    },
+    {
+        "id": 48,
+        "title": "Communication de crise",
+        "chapter": "Personnel de direction",
+        "part": "P4 - Métiers",
+        "subject": "Direction",
+        "content": "Un incident s'est produit dans l'établissement [décrire factuellement, sans noms].\n\nRédige un message court (5 lignes max) à destination des parents via Pronote/ENT qui :\n1. Informe sans alarmer.\n2. Indique que la situation est sous contrôle.\n3. Évite les détails qui pourraient alimenter les rumeurs.\n4. Annonce une communication plus complète à venir si nécessaire."
+    },
+    {
+        "id": 49,
+        "title": "Plan de formation interne",
+        "chapter": "Personnel de direction",
+        "part": "P4 - Métiers",
+        "subject": "Direction",
+        "content": "Tu es formateur en établissement scolaire.\n\nObjectif : Créer un plan de formation IA sur un trimestre pour 30 enseignants (niveaux hétérogènes).\n\nContraintes :\n• 3 sessions de 2h (mercredi après-midi)\n• Public : Débutants (60%), Intermédiaires (30%), Avancés (10%)\n• Thématiques : RGPD, ingénierie de prompts, usages disciplinaires\n• Matériel : Salle informatique 15 postes + vidéoprojecteur\n\nConsignes :\n1. Propose une progression (objectifs par session)\n2. Liste les activités pratiques\n3. Indique les ressources à préparer\n4. Prévois une différenciation pour les 3 niveaux"
+    },
+    {
+        "id": 50,
+        "title": "Charte d'usage établissement",
+        "chapter": "Personnel de direction",
+        "part": "P4 - Métiers",
+        "subject": "Direction",
+        "content": "Tu es personnel de direction d'un collège.\n\nObjectif : Rédiger une charte d'usage de l'IA pour élèves et enseignants, à intégrer au règlement intérieur.\n\nContraintes :\n• Langage accessible (niveau 6e)\n• Maximum 1 page A4\n• Sections : Droits / Devoirs / Sanctions\n• Ton : Pédagogique et non punitif\n\nPoints obligatoires :\n• Obligation de citer l'IA si utilisée\n• Interdiction de tricher (copier-coller sans réflexion)\n• Respect du RGPD (pas de données personnelles de tiers)\n• Usage encadré selon le niveau (cycle 3 vs lycée)"
+    },
+    {
+        "id": 51,
+        "title": "Réunion parents sur l'IA",
+        "chapter": "Personnel de direction",
+        "part": "P4 - Métiers",
+        "subject": "Direction",
+        "content": "Tu es CPE en lycée.\n\nContexte : J'organise une réunion d'information pour parents de 2nde sur « L'IA et les devoirs à la maison ».\n\nObjectif : Concevoir un diaporama de 15 slides (30 min).\n\nConsignes :\n1. Slides 1-3 : Qu'est-ce que l'IA ? (vulgarisation)\n2. Slides 4-6 : Comment nos élèves l'utilisent ? (données chiffrées)\n3. Slides 7-10 : Bonnes pratiques à la maison\n4. Slides 11-13 : Signaux d'alerte (usage abusif, triche)\n5. Slides 14-15 : Ressources et accompagnement par l'établissement\n\nTon : Rassurant, informatif, non culpabilisant. Éviter jargon technique."
+    },
+    {
+        "id": 52,
+        "title": "Du brut au propre",
+        "chapter": "Enseignement professionnel",
+        "part": "P4 - Métiers",
+        "subject": "Lycée Pro",
+        "content": "Voici la transcription d'un élève qui décrit sa journée de stage :\n\n« Alors ce matin on a fait les freins sur une Clio y avait les plaquettes qui étaient mortes et le disque aussi fallait tout changer le chef m'a montré comment purger après »\n\nTransforme ce texte en un paragraphe professionnel pour un rapport de stage. Utilise le vocabulaire technique précis. Structure : Contexte / Tâche / Méthode."
+    },
+    {
+        "id": 53,
+        "title": "Le nettoyeur de brouillon",
+        "chapter": "Enseignement professionnel",
+        "part": "P4 - Métiers",
+        "subject": "Lycée Pro",
+        "content": "Consigne à l'élève : Colle ici tes notes brutes de la journée (même en style SMS).\n\nPrompt IA : Agis comme un tuteur bienveillant. Transforme ces notes en un paragraphe professionnel.\n1. Utilise le vocabulaire technique précis (« plaques de plâtre » au lieu de « placo »).\n2. Structure le texte : Contexte / Tâche / Difficultés rencontrées / Solution apportée.\n3. Garde le « je » — c'est l'élève qui parle."
+    },
+    {
+        "id": 54,
+        "title": "La roue de la fortune",
+        "chapter": "Le professeur maker",
+        "part": "P5 - Futur",
+        "subject": "Outils numériques",
+        "content": "Écris le code HTML complet (avec CSS et JavaScript inclus dans un seul fichier) pour créer une « Roue de la Fortune » des élèves.\n\nFonctionnalités :\n1. Une roue colorée avec les prénoms des élèves.\n2. Un bouton « Tourner » qui fait tourner la roue avec une animation.\n3. L'affichage du prénom sélectionné à la fin.\n4. Un champ pour modifier la liste des prénoms.\n\nLe code doit fonctionner si je l'ouvre simplement dans un navigateur (pas de serveur)."
+    },
+    {
+        "id": 55,
+        "title": "Minuteur personnalisé",
+        "chapter": "Le professeur maker",
+        "part": "P5 - Futur",
+        "subject": "Outils numériques",
+        "content": "Crée une page HTML avec un minuteur de classe.\n\nFonctionnalités :\n1. Choix du temps (5, 10, 15, 20 minutes ou personnalisé).\n2. Affichage grand format lisible depuis le fond de la classe.\n3. Changement de couleur quand il reste moins d'une minute (rouge).\n4. Son d'alerte à la fin.\n5. Boutons Pause / Reprendre / Réinitialiser."
+    },
+    {
+        "id": 56,
+        "title": "Générateur de groupes",
+        "chapter": "Le professeur maker",
+        "part": "P5 - Futur",
+        "subject": "Outils numériques",
+        "content": "Crée une page HTML pour répartir une classe en groupes.\n\nFonctionnalités :\n1. Zone de texte pour entrer les prénoms (un par ligne).\n2. Choix du nombre de groupes souhaité.\n3. Bouton « Mélanger » qui répartit aléatoirement.\n4. Affichage des groupes numérotés.\n5. Possibilité de « verrouiller » certains élèves ensemble (option avancée)."
+    },
+    {
+        "id": 57,
+        "title": "QCM autonome",
+        "chapter": "Le professeur maker",
+        "part": "P5 - Futur",
+        "subject": "Outils numériques",
+        "content": "Crée une page HTML pour un QCM interactif.\n\nFonctionnalités :\n1. 10 questions avec 4 choix chacune.\n2. Feedback immédiat (vert si correct, rouge si faux).\n3. Score final affiché à la fin.\n4. Les questions sont définies dans le code (je les modifierai moi-même).\n\nVoici les 3 premières questions à intégrer :\n• Q1 : Quelle est la capitale de la France ? (Paris / Lyon / Marseille / Bordeaux) → Paris\n• Q2 : Combien font 7 × 8 ? (54 / 56 / 58 / 64) → 56\n• Q3 : Qui a écrit Les Misérables ? (Zola / Hugo / Balzac / Flaubert) → Hugo"
+    }
+]

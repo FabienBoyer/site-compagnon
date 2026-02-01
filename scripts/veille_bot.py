@@ -36,13 +36,29 @@ TWITTER_SOURCES = {
 
 # Keywords to filter AI-related content
 AI_KEYWORDS = [
+    # IA générale
     "ia", "ai", "intelligence artificielle", "artificial intelligence",
     "chatgpt", "claude", "gemini", "gpt", "llm", "machine learning",
     "deep learning", "neural", "génératif", "generative", "mistral",
-    "openai", "anthropic", "éducation", "enseignement", "pédagogie"
+    "openai", "anthropic",
+    # Éducation
+    "éducation", "enseignement", "pédagogie", "élève", "professeur",
+    "classe", "cours", "apprentissage", "formation",
+    # Correction et évaluation
+    "correction", "copies", "évaluation", "notation", "barème",
+    "feedback", "appréciation", "compétences",
+    # Outils spécifiques
+    "prompt", "prompting", "automatisation", "robot", "assistant"
 ]
 
-def fetch_rss(url: str, source_name: str) -> list:
+def nitter_to_twitter(url: str) -> str:
+    """Convert Nitter URL to Twitter/X URL"""
+    if "nitter" in url.lower():
+        # Replace nitter.net (or any nitter instance) with twitter.com
+        url = re.sub(r'https?://[^/]*nitter[^/]*/','https://twitter.com/', url)
+    return url
+
+def fetch_rss(url: str, source_name: str, is_twitter: bool = False) -> list:
     """Fetch and parse RSS feed"""
     articles = []
     try:
@@ -54,9 +70,14 @@ def fetch_rss(url: str, source_name: str) -> list:
             elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
                 pub_date = datetime(*entry.updated_parsed[:6]).isoformat()
             
+            # Get the link and convert if from Nitter
+            link = entry.get("link", "")
+            if is_twitter:
+                link = nitter_to_twitter(link)
+            
             articles.append({
                 "title": entry.get("title", "Sans titre"),
-                "link": entry.get("link", ""),
+                "link": link,
                 "date": pub_date or datetime.now().isoformat(),
                 "source": source_name,
                 "summary": entry.get("summary", "")[:200] if entry.get("summary") else ""
@@ -145,10 +166,10 @@ def main():
         articles = fetch_rss(url, source)
         all_articles.extend(articles)
     
-    # Fetch Twitter feeds via Nitter
+    # Fetch Twitter feeds via Nitter (links converted to twitter.com)
     for source, url in TWITTER_SOURCES.items():
         print(f"🐦 Fetching {source}...")
-        articles = fetch_rss(url, source)
+        articles = fetch_rss(url, source, is_twitter=True)
         all_articles.extend(articles)
     
     print(f"📥 Total fetched: {len(all_articles)} articles")
