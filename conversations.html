@@ -13,6 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
         rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/conversations.css">
 </head>
@@ -66,6 +67,14 @@
                             <option value="">Toutes les matières</option>
                         </select>
                     </div>
+                    <div class="filter-group">
+                        <label for="filter-tested">Status</label>
+                        <select id="filter-tested">
+                            <option value="">Tous</option>
+                            <option value="tested">Avec réponses IA</option>
+                            <option value="untested">Sans réponse</option>
+                        </select>
+                    </div>
                     <div class="filter-group filter-search">
                         <label for="filter-search">Recherche</label>
                         <input type="text" id="filter-search" placeholder="Rechercher un prompt...">
@@ -73,6 +82,7 @@
                 </div>
                 <div class="results-count">
                     <span id="results-count">57</span> prompts trouvés
+                    <span id="tested-count" class="tested-badge"></span>
                 </div>
             </section>
 
@@ -94,16 +104,24 @@
     <script src="scripts/main.js"></script>
     <script>
         let allPrompts = [];
+        let arenaResults = {};
 
-        // Load prompts from JSON
-        fetch('data/prompts.json')
-            .then(response => response.json())
-            .then(data => {
-                allPrompts = data;
-                populateSubjectFilter();
-                renderPrompts(allPrompts);
-            })
-            .catch(error => console.error('Error loading prompts:', error));
+        // Load both data sources
+        Promise.all([
+            fetch('data/prompts.json').then(r => r.json()),
+            fetch('data/arena-results.json').then(r => r.json()).catch(() => [])
+        ]).then(([prompts, arena]) => {
+            allPrompts = prompts;
+            // Index arena results by id
+            arena.forEach(r => {
+                if (r.responses && (r.responses.outputA || r.responses.outputB)) {
+                    arenaResults[r.id] = r.responses;
+                }
+            });
+            populateSubjectFilter();
+            updateTestedCount();
+            renderPrompts(allPrompts);
+        }).catch(error => console.error('Error loading data:', error));
 
         // Populate subject filter
         function populateSubjectFilter() {
@@ -117,25 +135,63 @@
             });
         }
 
+        // Update tested count
+        function updateTestedCount() {
+            const testedCount = Object.keys(arenaResults).length;
+            document.getElementById('tested-count').textContent =
+                testedCount > 0 ? `• ${testedCount} avec réponses IA` : '';
+        }
+
         // Render prompts
         function renderPrompts(prompts) {
             const container = document.getElementById('prompts-list');
             container.innerHTML = '';
 
             prompts.forEach(prompt => {
+                const hasResponses = arenaResults[prompt.id];
                 const card = document.createElement('article');
-                card.className = 'prompt-card';
+                card.className = 'prompt-card' + (hasResponses ? ' has-responses' : '');
+
+                let responsesHTML = '';
+                if (hasResponses) {
+                    responsesHTML = `
+                        <div class="responses-section">
+                            <button class="toggle-responses" onclick="toggleResponses(this)">
+                                <i data-lucide="bot"></i>
+                                Voir les réponses IA
+                                <i data-lucide="chevron-down" class="chevron"></i>
+                            </button>
+                            <div class="responses-content" style="display: none;">
+                                ${hasResponses.modelA && hasResponses.outputA ? `
+                                    <div class="response-block">
+                                        <div class="model-name">${escapeHtml(hasResponses.modelA)}</div>
+                                        <div class="model-output">${marked.parse(hasResponses.outputA)}</div>
+                                    </div>
+                                ` : ''}
+                                ${hasResponses.modelB && hasResponses.outputB ? `
+                                    <div class="response-block">
+                                        <div class="model-name">${escapeHtml(hasResponses.modelB)}</div>
+                                        <div class="model-output">${marked.parse(hasResponses.outputB)}</div>
+                                    </div>
+                                ` : ''}
+                            </div>
+                        </div>
+                    `;
+                }
+
                 card.innerHTML = `
                     <div class="prompt-header">
                         <div class="prompt-meta">
                             <span class="prompt-part">${prompt.part}</span>
                             <span class="prompt-chapter">${prompt.chapter}</span>
+                            ${hasResponses ? '<span class="prompt-tested">✓ Testé</span>' : ''}
                         </div>
                         <button class="copy-btn" title="Copier le prompt"><i data-lucide="copy"></i></button>
                     </div>
                     <h3 class="prompt-title">${prompt.title}</h3>
                     <span class="prompt-subject">${prompt.subject}</span>
                     <pre class="prompt-content">${escapeHtml(prompt.content)}</pre>
+                    ${responsesHTML}
                 `;
 
                 // Copy functionality
@@ -156,6 +212,18 @@
             document.getElementById('results-count').textContent = prompts.length;
         }
 
+        // Toggle responses visibility
+        function toggleResponses(btn) {
+            const content = btn.nextElementSibling;
+            const isHidden = content.style.display === 'none';
+            content.style.display = isHidden ? 'block' : 'none';
+            btn.querySelector('.chevron').style.transform = isHidden ? 'rotate(180deg)' : '';
+            btn.innerHTML = isHidden
+                ? '<i data-lucide="bot"></i> Masquer les réponses IA <i data-lucide="chevron-up" class="chevron"></i>'
+                : '<i data-lucide="bot"></i> Voir les réponses IA <i data-lucide="chevron-down" class="chevron"></i>';
+            lucide.createIcons();
+        }
+
         // Escape HTML
         function escapeHtml(text) {
             const div = document.createElement('div');
@@ -167,16 +235,20 @@
         function filterPrompts() {
             const part = document.getElementById('filter-part').value;
             const subject = document.getElementById('filter-subject').value;
+            const tested = document.getElementById('filter-tested').value;
             const search = document.getElementById('filter-search').value.toLowerCase();
 
             const filtered = allPrompts.filter(p => {
                 const matchPart = !part || p.part === part;
                 const matchSubject = !subject || p.subject === subject;
+                const matchTested = !tested ||
+                    (tested === 'tested' && arenaResults[p.id]) ||
+                    (tested === 'untested' && !arenaResults[p.id]);
                 const matchSearch = !search ||
                     p.title.toLowerCase().includes(search) ||
                     p.content.toLowerCase().includes(search) ||
                     p.chapter.toLowerCase().includes(search);
-                return matchPart && matchSubject && matchSearch;
+                return matchPart && matchSubject && matchTested && matchSearch;
             });
 
             renderPrompts(filtered);
@@ -185,6 +257,7 @@
         // Event listeners
         document.getElementById('filter-part').addEventListener('change', filterPrompts);
         document.getElementById('filter-subject').addEventListener('change', filterPrompts);
+        document.getElementById('filter-tested').addEventListener('change', filterPrompts);
         document.getElementById('filter-search').addEventListener('input', filterPrompts);
     </script>
 </body>

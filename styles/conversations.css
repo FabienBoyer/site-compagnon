@@ -210,6 +210,185 @@
    RESPONSIVE
    ============================================================================= */
 
+/* =============================================================================
+   TESTED BADGE
+   ============================================================================= */
+
+.prompt-tested {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: white;
+    border-radius: 1rem;
+}
+
+.tested-badge {
+    margin-left: 0.5rem;
+    color: #22c55e;
+}
+
+.prompt-card.has-responses {
+    border-color: rgba(34, 197, 94, 0.3);
+}
+
+/* =============================================================================
+   RESPONSES SECTION
+   ============================================================================= */
+
+.responses-section {
+    border-top: 1px solid var(--color-border);
+}
+
+.toggle-responses {
+    width: 100%;
+    padding: 1rem 1.25rem;
+    background: var(--color-bg-secondary);
+    border: none;
+    color: var(--color-primary);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.toggle-responses:hover {
+    background: rgba(var(--color-primary-rgb), 0.1);
+}
+
+.toggle-responses i {
+    width: 18px;
+    height: 18px;
+}
+
+.toggle-responses .chevron {
+    margin-left: auto;
+    transition: transform 0.3s ease;
+}
+
+.responses-content {
+    padding: 1.5rem;
+    background: var(--color-bg-primary);
+}
+
+.response-block {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.response-block:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.model-name {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 0.4rem 1rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #8b5cf6, #6366f1);
+    color: white;
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+}
+
+.model-output {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--color-text-primary);
+}
+
+.model-output h1,
+.model-output h2,
+.model-output h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--color-text-primary);
+}
+
+.model-output h1 {
+    font-size: 1.4rem;
+}
+
+.model-output h2 {
+    font-size: 1.2rem;
+}
+
+.model-output h3 {
+    font-size: 1.05rem;
+}
+
+.model-output p {
+    margin-bottom: 1rem;
+}
+
+.model-output ul,
+.model-output ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.model-output li {
+    margin-bottom: 0.5rem;
+}
+
+.model-output table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.85rem;
+}
+
+.model-output th,
+.model-output td {
+    border: 1px solid var(--color-border);
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+}
+
+.model-output th {
+    background: var(--color-bg-secondary);
+    font-weight: 600;
+}
+
+.model-output code {
+    background: var(--color-bg-secondary);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+    font-size: 0.85em;
+}
+
+.model-output pre {
+    background: var(--color-bg-secondary);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.model-output pre code {
+    background: none;
+    padding: 0;
+}
+
+.model-output blockquote {
+    border-left: 3px solid var(--color-primary);
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: var(--color-text-secondary);
+    font-style: italic;
+}
+
+/* =============================================================================
+   RESPONSIVE
+   ============================================================================= */
+
 @media (max-width: 768px) {
     .conversations-header .page-title {
         font-size: 1.8rem;
@@ -229,5 +408,13 @@
 
     .prompt-content {
         font-size: 0.85rem;
+    }
+
+    .responses-content {
+        padding: 1rem;
+    }
+
+    .model-output {
+        font-size: 0.9rem;
     }
 }

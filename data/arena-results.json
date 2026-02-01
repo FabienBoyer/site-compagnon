@@ -1,0 +1,555 @@
+[
+  {
+    "id": 1,
+    "title": "Progression annuelle",
+    "part": "P2 - Méthodes",
+    "chapter": "Ingénierie pédagogique",
+    "subject": "Toutes matières",
+    "prompt": "Rôle : Tu es un expert en ingénierie pédagogique.\n\nTâche : Propose une progression annuelle pour une classe de 1re en spécialité Physique-Chimie.\n\nContraintes :\n1. Intègre toutes les notions du Bulletin Officiel.\n2. Prévois une progression spiralaire (on revoit les concepts clés 3 fois sous des angles différents).\n3. Prends en compte les vacances scolaires (Zone B) et une période de révision en juin.\n\nFormat : Tableau (Mois / Thème / Notions / Activité clé / Compétence BO).",
+    "responses": {
+      "modelA": "gemini 3 pro",
+      "outputA": "Bonjour. En tant qu'expert en ingénierie pédagogique, j'ai conçu cette progression pour la classe de 1re Spécialité Physique-Chimie.\n\nCette progression est structurée autour d'une logique spiralaire en trois cycles :\n\n    Cycle 1 (Sept-Nov) : Description et Outils. On pose les bases (structure de la matière, cinématique, description des ondes).\n    Cycle 2 (Déc-Fév) : Interactions et Changements. On relie les concepts (forces et mouvement, réactions chimiques, lumière et images).\n    Cycle 3 (Mars-Mai) : Énergie et Synthèse. On aborde les concepts globaux (lois de conservation, champs, synthèse organique).\n\nVoici la proposition détaillée pour la Zone B (Aix-Marseille, Amiens, Caen, Lille, Nancy-Metz, Nantes, Nice, Orléans-Tours, Reims, Rennes, Rouen, Strasbourg).\nProgression Annuelle Spiralaire - 1re Spécialité Physique-Chimie\nMois\tThème (BO)\tNotions Clés\tActivité Clé / TP\tCompétence BO\nSEPTEMBRE\tMatière / Ondes\tMatière : Rappel Mole, Solutions, Loi de Beer-Lambert.<br>Ondes : Ondes mécaniques, célérité, fréquence.\tTP : Dosage colorimétrique par étalonnage (Sirops/Colorants).\tS'approprier : Définir la concentration et utiliser la loi de Beer-Lambert.\nOCTOBRE\tMatière / Mouvement\tMatière : Structure des entités (Lewis, géométrie, polarité).<br>Mouvement : Vecteurs vitesse et variation de vitesse.\tTP Numérique (Python) : Tracé de vecteurs vitesse d'un mouvement parabolique.\tAnalyser/Raisonner : Prévoir la géométrie d'une molécule (VSEPR) et sa polarité.\nVACANCES\tTOUSSAINT\t(Cycle 1 terminé : Bases posées)\t\t\nNOVEMBRE\tMatière / Interactions\tMatière : Forces intermoléculaires, cohésion des solides/liquides, dissolution.<br>Interactions : Les forces, Loi de Coulomb, Gravitation.\tTP : Solubilité et extraction par solvant (lien polarité).\tRéaliser : Interpréter la solubilité en lien avec les interactions microscopiques.\nDÉCEMBRE\tOndes / Matière (Orga)\tOndes : Lumière, lentilles minces, relation de conjugaison.<br>Matière : Introduction Chimie Orga (Groupes fonctionnels, Spectro IR).\tTP : L'œil et l'appareil photo (Lentilles).<br>TP : Identification de molécules par IR.\tValider : Vérifier expérimentalement la relation de conjugaison. Communiquer : Nommer les familles fonctionnelles.\nVACANCES\tNOËL\t(Cycle 2 entamé : Liens établis)\t\t\nJANVIER\tMatière / Mouvement\tMatière : Réactions d'oxydoréduction (Couples Ox/Red).<br>Mouvement : 2ème Loi de Newton (relation approche vecteur variation de vitesse et somme des forces).\tTP : Titrage d'oxydoréduction (ex: Eau de Javel ou Vitamine C).\tS'approprier : Écrire l'équation d'une réaction d'oxydoréduction. Analyser : Lier force et variation de vitesse.\nFÉVRIER\tÉnergie / Matière\tÉnergie : Travail d'une force, Théorème de l'Énergie Cinétique.<br>Matière : Avancement, Titrages colorimétriques (approfondissement).\tTP : Étude énergétique d'un pendule ou chute libre (Acquisition vidéo).\tRaisonner : Appliquer le théorème de l'énergie cinétique pour déterminer une grandeur.\nVACANCES\tHIVER (ZONE B)\t(Cycle 2 terminé : Consolidation)\t\t\nMARS\tMatière (Orga) / Énergie\tMatière : Synthèse organique, rendement, techniques de purification.<br>Énergie : Énergie potentielle (pesanteur/électrostatique), Énergie Mécanique.\tTP : Synthèse de l'aspirine ou d'un arôme (Chauffage à reflux/Filtration).\tRéaliser : Mettre en œuvre un protocole de synthèse et de purification.\nAVRIL\tMouvement / Énergie\tMouvement : Champs (Scalaires/Vectoriels), lignes de champ (Gravitationnel, Électrostatique).<br>Énergie : Conservation et non-conservation de l'énergie mécanique.\tActivité documentaire/Simu : Cartographie de champs (Terrestre, Condensateur).\tS'approprier : Caractériser un champ vectoriel.\nVACANCES\tPRINTEMPS (ZONE B)\t(Cycle 3 entamé : Vers la complexité)\t\t\nMAI\tMatière / Énergie / Ondes\tMatière : Énergie de combustion, enjeux énergétiques.<br>Énergie : Électricité (P=UI, Effet Joule, Bilan de puissance).<br>Ondes : Couleur des objets, Synthèse additive/soustractive.\tTP : Bilan de puissance dans un circuit électrique.<br>TP : Photométrie / Couleurs.\tValider : Établir un bilan énergétique. Communiquer : Expliquer la couleur d'un objet.\nJUIN\tRÉVISIONS\tGrand Oral (Prépa) / E3C (si applicable) / Consolidation.<br>Revue transversale : Mouvement + Énergie + Chimie.\tProjet / Challenge : Résolution de problème complexe mêlant Mécanique et Chimie (ex: Propulsion).\tMobiliser ses connaissances pour résoudre une tâche complexe.\nJustification de la stratégie spiralaire :\n\n    La Matière :\n        Passage 1 (Oct) : Structure microscopique (Lewis).\n        Passage 2 (Nov) : Conséquences macroscopiques (Cohésion, Solubilité).\n        Passage 3 (Mars) : Application technique (Synthèse organique utilisant les propriétés de solubilité pour l'extraction).\n    Le Mouvement et l'Énergie :\n        Passage 1 (Sept/Nov) : Cinématique pure et définition des forces.\n        Passage 2 (Jan/Fév) : Lien dynamique (Newton) et approche énergétique (Travail).\n        Passage 3 (Avril) : Approche globale (Champs et Conservation de l'énergie mécanique).\n    Les Ondes :\n        Passage 1 (Sept) : Onde mécanique (concret).\n        Passage 2 (Déc) : Optique géométrique (Lumière).\n        Passage 3 (Mai) : Couleur et interaction lumière-matière (lien avec la chimie).\n\nCette progression permet aux élèves de Zone B, souvent coupés tôt en février ou tard en avril selon les années, de boucler des blocs cohérents avant chaque départ en vacances.",
+      "modelB": "grok 4.1 thinking",
+      "outputB": "Voici une **progression annuelle spiralaire complète** pour la spécialité Physique-Chimie en classe de Première, strictement conforme au Bulletin Officiel (arrêté du 17-1-2019, JO du 25-7-2019) et adaptée au calendrier Zone B (vacances prises en compte pour ne pas couper les séquences importantes).\n\n**Principes de la progression spiralaire (3 tours explicitement identifiés)**  \n- Spirale 1 (sept.–déc.) → découverte et modélisation de base  \n- Spirale 2 (janv.–mars) → approfondissement et croisements disciplinaires  \n- Spirale 3 (avr.–mai) → applications complexes, problèmes ouverts et transversaux  \nJuin → révision globale spiralaire + préparation aux évaluations\n\n| Mois               | Thème (BO)                              | Notions principales (extrait BO)                                      | Activité clé (expérimentale ou modélisation)                  | Compétence principale travaillée (BO)              |\n|-------------------|-----------------------------------------|-----------------------------------------------------------------------|---------------------------------------------------------------|----------------------------------------------------|\n| Septembre        | Mouvement et interactions              | Décrire le mouvement : référentiels, vecteurs position/vitesse/accélération, trajectoires (Spirale 1) | Analyse chronophotographie + pointage vidéo + modélisation Python/Regressi | Analyser / Modéliser / Réaliser                   |\n| Octobre (avant Toussaint) | Constitution et transformations de la matière | Découvrir la constitution électrique de la matière ; modéliser atome, ions, isotopes, radioactivité α (Spirale 1) | TP déviation particules α ou simulation PhET + modélisation noyau | Réaliser / Valider / Modéliser                    |\n| Octobre          | Constitution et transformations de la matière | Utiliser la classification périodique, configurations électroniques (Spirale 1) | Atelier « construction du tableau périodique » + quiz interactif | Raisonner / Communiquer                           |\n| Novembre         | Mouvement et interactions              | Identifier les interactions ; modéliser les forces (pesanteur, élastique, contact) ; principe d’inertie (Spirale 1) | TP pendule simple + ressort + plan incliné                    | Réaliser / Analyser / Modéliser                   |\n| Novembre–Décembre | Mouvement et interactions + L’énergie   | 2e loi de Newton ; travail d’une force ; énergie cinétique ; puissance (Spirale 1) | Circuit de chariots sur rails air-cushion + capteurs108 | Modéliser / Raisonner / Valider                   |\n| Décembre (avant Noël) | L’énergie : conversions et transferts  | Énergie potentielle de pesanteur ; énergie mécanique ; conservation (Spirale 1 – clôture premier tour) | Montagnes russes (maquette ou simulation Algodoo) + bilan énergétique | Analyser / Valider / Modéliser                    |\n| Janvier          | Ondes et signaux                       | Caractériser une onde progressive périodique (période, fréquence, longueur d’onde, célérité) (Spirale 2 – réactivation mouvement) | Corde vibrante + oscilloscope + banc d’ondes à ressort         | Réaliser / Modéliser / Raisonner                  |\n| Janvier–Février  | Mouvement et interactions + L’énergie  | Systèmes plus complexes : bilans de forces multiples, énergie mécanique avec frottements (Spirale 2 – réactivation Newton + énergie) | Chute avec frottements + oscillateur amorti (TP ou simulation) | Analyser / Valider (transversal Newton-énergie)   |\n| Février (avant hiver) | Constitution et transformations de la matière | Modéliser les édifices chimiques : liaisons covalentes, ioniques, datives, métalliques ; VSEPR (Spirale 2) | Maquettes moléculaires 3D + logiciel Avogadro ou MolView      | Modéliser / Raisonner                             |\n| Mars             | Ondes et signaux                       | Phénomènes de diffraction et interférence ; ondes mécaniques et sonores ; signaux lumineux et couleurs (Spirale 2) | Fentes de Young + réseau + spectroscopie de flammes ou LED    | Réaliser / Valider / Analyser                     |\n| Mars             | Constitution et transformations de la matière | Transformations acido-basiques : pH, réactions, dosages (Spirale 2 – réactivation liaisons) | Dosage conductimétrique ou pH-métrique + modélisation équilibre | Réaliser / Analyser / Valider                     |\n| Avril (après printemps) | Constitution et transformations de la matière | Transformations d’oxydo-réduction : demi-équations, piles, électrolyse (Spirale 3 – lien énergie) | Montage pile Daniell + électrolyse de l’eau + bilan énergétique | Réaliser / Modéliser / Raisonner (lien énergie)   |\n| Avril–Mai        | Tous thèmes (transversal)              | Cinétique chimique + facteurs cinétiques + énergie d’activation (Spirale 3 – lien énergie + ondes) | TP iodure d’hydrogène ou eau oxygénée + modélisation graphique vitesse | Analyser / Valider / Modéliser (transversal)      |\n| Mai              | Tous thèmes (problèmes ouverts)        | Problèmes transversaux complexes : mouvement + énergie + ondes + transformations (Spirale 3 finale) | Projet « Énergie verte » ou « Spectroscopie stellaire » ou défi expérimental bac | Toutes les compétences (accent Communiquer)       |\n| Juin             | Révision spiralaire globale            | Retour sur les 4 thèmes avec sujets blancs corrigés en insistant sur les points faibles identifiés | Sujets bac blancs complets + corrections collectives + fiche de synthèse personnelle | Valider / Communiquer / Auto-évaluation           |\n| Fin juin         | Consolidation finale                   | Entraînement ciblé + remise à niveau individualisée                  | Parcours Magistère ou exercices différenciés                  | Toutes                                            |\n\n**Points forts de cette progression**  \n- 100 % des notions du BO couvertes sans aucun oubli  \n- Vraie spirale à 3 tours clairement identifiable (découverte → approfondissement → application transversale)  \n- Aucun chapitre coupé par les vacances Zone B  \n- Alternance physique/chimie équilibrée (environ 50/50)  \n- Activités expérimentales ou de modélisation systématiquement présentes (≥ 1 TP ou activité longue par séquence)  \n- Transversalité réelle en spirale 3 (énergie en chimie, mouvement dans les ondes, etc.)  \n- Juin entièrement dédié à la révision spiralaire + préparation mentale et méthodologique au bac de Terminale\n\nCette progression est prête à l’emploi et a fait ses preuves dans plusieurs lycées."
+    }
+  },
+  {
+    "id": 2,
+    "title": "Squelette de séquence",
+    "part": "P2 - Méthodes",
+    "chapter": "Ingénierie pédagogique",
+    "subject": "Toutes matières",
+    "prompt": "Je dois préparer une séquence de 4 semaines sur « Les énergies renouvelables » pour des élèves de 5e. Propose-moi un plan détaillé avec :\n• Les objectifs pédagogiques par semaine.\n• Une idée d'activité pratique par semaine.\n• Une évaluation finale originale qui ne soit pas un QCM.",
+    "responses": {
+      "modelA": "claude-opus-4-5-20251101-thinking-32k",
+      "outputA": "# Séquence 5e : Les Énergies Renouvelables (4 semaines)\n\n## Vue d'ensemble de la séquence\n\n| Semaine | Titre | Question directrice |\n|:---:|:---|:---|\n| 1 | **Découvrir** | D'où vient l'énergie que nous utilisons ? |\n| 2 | **Comprendre** | Comment transforme-t-on les éléments naturels en électricité ? |\n| 3 | **Comparer** | Quelle énergie choisir et pourquoi ? |\n| 4 | **Décider** | Comment équiper notre territoire de demain ? |\n\n---\n\n## SEMAINE 1 : DÉCOUVRIR LES SOURCES D'ÉNERGIE\n\n### Objectifs pédagogiques\n- **Savoir** : Définir ce qu'est une source d'énergie renouvelable et non renouvelable.\n- **Savoir-faire** : Classer différentes sources d'énergie selon leur caractère renouvelable.\n- **Savoir-être** : Prendre conscience de la diversité des sources d'énergie dans le quotidien.\n\n### Déroulé des séances\n\n| Séance | Contenu | Durée |\n|:---:|:---|:---:|\n| 1 | **Accroche** : Vidéo \"Une journée sans électricité\" + brainstorming collectif. Introduction des notions clés. | 55 min |\n| 2 | **Cours dialogué** : Les 5 grandes familles d'énergies renouvelables (solaire, éolien, hydraulique, biomasse, géothermie) vs les fossiles et le nucléaire. Trace écrite. | 55 min |\n\n### 🔧 Activité pratique : Le Grand Tri Énergétique\n\n**Matériel** : 30 cartes plastifiées (images + descriptions de sources d'énergie), 6 plateaux de jeu par groupe.\n\n**Déroulement** :\n1. Les élèves reçoivent un lot de cartes mélangées (charbon, panneau solaire, barrage, puits de pétrole, éolienne, etc.).\n2. Ils doivent les classer sur un plateau divisé en zones :\n   - Renouvelable / Non renouvelable\n   - Puis sous-catégorie : Solaire / Éolien / Hydraulique / Biomasse / Géothermie / Fossile / Nucléaire\n3. Mise en commun et débat sur les cas limites (le bois est-il toujours renouvelable ?).\n\n**Compétence travaillée** : Pratiquer des démarches scientifiques (classer, catégoriser).\n\n---\n\n## SEMAINE 2 : COMPRENDRE LES CONVERSIONS D'ÉNERGIE\n\n### Objectifs pédagogiques\n- **Savoir** : Identifier les formes d'énergie (cinétique, lumineuse, thermique, électrique).\n- **Savoir-faire** : Schématiser une chaîne énergétique simple.\n- **Savoir-être** : Développer la curiosité technique et la rigueur dans la manipulation.\n\n### Déroulé des séances\n\n| Séance | Contenu | Durée |\n|:---:|:---|:---:|\n| 3 | **Cours** : La notion de conversion d'énergie. Schémas de chaînes énergétiques (Ex: Soleil → Panneau → Électricité → Lampe). | 55 min |\n| 4 | **TP** : Construction et test (voir activité ci-dessous). | 55 min |\n\n### 🔧 Activité pratique : Construire une Mini-Éolienne Fonctionnelle\n\n**Matériel par groupe** :\n- 1 petit moteur DC (récupération ou kit)\n- Bouchons en liège, piques en bois, carton rigide\n- 1 LED, fils électriques, pistolet à colle\n- Ventilateur ou sèche-cheveux pour simuler le vent\n\n**Déroulement** :\n1. **Phase conception (10 min)** : Dessiner le prototype sur feuille.\n2. **Phase construction (30 min)** : Assembler les pales (carton) sur l'axe (bouchon), relier au moteur et à la LED.\n3. **Phase test (10 min)** : Placer devant le ventilateur et observer si la LED s'allume.\n4. **Phase analyse (5 min)** : Schématiser la chaîne énergétique : Vent (Énergie cinétique) → Pales → Moteur → LED (Énergie lumineuse).\n\n**Critère de réussite** : La LED s'allume, même faiblement.\n\n**Compétence travaillée** : Concevoir et réaliser un dispositif expérimental.\n\n---\n\n## SEMAINE 3 : COMPARER ET ANALYSER\n\n### Objectifs pédagogiques\n- **Savoir** : Connaître les avantages et inconvénients de chaque source d'énergie renouvelable.\n- **Savoir-faire** : Lire et interpréter des données chiffrées (graphiques, tableaux).\n- **Savoir-être** : Développer un esprit critique face aux arguments simplistes.\n\n### Déroulé des séances\n\n| Séance | Contenu | Durée |\n|:---:|:---|:---:|\n| 5 | **Étude documentaire** : Dossier par groupe sur une énergie (documents, chiffres, vidéos courtes). Remplir une fiche comparative. | 55 min |\n| 6 | **Restitution orale** rapide (3 min/groupe) + Synthèse collective sous forme de tableau comparatif mural. | 55 min |\n\n### 🔧 Activité pratique : L'Enquête du Mix Énergétique Local\n\n**Matériel** :\n- Tablettes ou ordinateurs (accès à des sites comme RTE-France, data.gouv.fr)\n- Fiche d'enquête guidée\n- Carte de la région\n\n**Déroulement** :\n1. **Mission** : Les élèves enquêtent sur la production d'énergie dans leur région/département.\n   - Quelles installations existent ? (barrages, parcs éoliens, centrales solaires...)\n   - Quelle part d'énergie renouvelable dans le mix local ?\n2. Ils localisent les installations sur une carte.\n3. Ils répondent à la question : *\"Notre région est-elle bien équipée en énergies renouvelables ? Pourquoi ?\"*\n\n**Prolongement possible** : Calcul de l'empreinte carbone d'un trajet en voiture vs en train électrique.\n\n**Compétence travaillée** : Rechercher et extraire l'information utile.\n\n---\n\n## SEMAINE 4 : DÉCIDER ET ÉVALUER\n\n### Objectifs pédagogiques\n- **Savoir** : Mobiliser l'ensemble des connaissances acquises.\n- **Savoir-faire** : Construire une argumentation structurée, communiquer à l'oral.\n- **Savoir-être** : Coopérer, écouter les arguments des autres, faire preuve de nuance.\n\n### Déroulé des séances\n\n| Séance | Contenu | Durée |\n|:---:|:---|:---:|\n| 7 | **Préparation de l'évaluation finale** : Constitution des équipes, tirage au sort des rôles, début de préparation des arguments. | 55 min |\n| 8 | **Évaluation finale** : Le Grand Conseil de l'Énergie (voir ci-dessous). | 55 min |\n\n---\n\n## 🏆 ÉVALUATION FINALE : Le Grand Conseil de l'Énergie\n\n### Scénario\n> *La commune fictive de **Verteville** doit choisir comment produire son électricité pour les 20 prochaines années. Le Conseil Municipal réunit des experts pour les aider à décider. Chaque équipe doit défendre un projet énergétique.*\n\n### Organisation\n\n**Rôles** (5 équipes de 5-6 élèves) :\n\n| Équipe | Rôle | Mission |\n|:---:|:---|:---|\n| 🌞 | Cabinet Solaire | Défendre l'installation d'une ferme photovoltaïque |\n| 💨 | Cabinet Éolien | Défendre l'implantation d'un parc éolien |\n| 💧 | Cabinet Hydraulique | Défendre la construction d'une micro-centrale sur la rivière |\n| 🌱 | Cabinet Biomasse | Défendre une centrale à bois-énergie |\n| 🔥 | Groupe Citoyen Critique | Poser des questions difficiles à chaque cabinet (coût, impact paysager, intermittence...) |\n\n### Déroulement de la séance (55 min)\n\n| Phase | Description | Durée |\n|:---:|:---|:---:|\n| 1 | Chaque cabinet présente son projet (affiche + oral) | 4 x 5 min |\n| 2 | Le groupe citoyen pose 2 questions à chaque cabinet | 15 min |\n| 3 | Délibération collective : chaque élève vote individuellement (bulletin secret) pour le projet le plus convaincant (*interdit de voter pour son propre cabinet*) | 5 min |\n| 4 | Annonce du résultat + Debriefing du professeur | 10 min |\n\n### Grille d'évaluation individuelle (sur 20 points)\n\n| Critère | Indicateurs | Points |\n|:---|:---|:---:|\n| **Connaissances scientifiques** | Utilisation correcte du vocabulaire (énergie, conversion, renouvelable...), données chiffrées exactes | /6 |\n| **Argumentation** | Arguments structurés (avantages ET limites reconnues), réponses pertinentes aux questions | /6 |\n| **Communication orale** | Clarté, volume, regard vers le public, respect du temps | /4 |\n| **Travail d'équipe** | Répartition équitable de la parole, cohérence du discours global | /4 |\n\n### Livrables attendus par équipe\n1. **Une affiche A3** présentant le projet (schéma de la chaîne énergétique, 3 arguments clés, 1 chiffre marquant).\n2. **Un pitch oral de 5 minutes** (tous les membres doivent parler).\n\n---\n\n## Récapitulatif des compétences du cycle 4 travaillées\n\n| Domaine | Compétences |\n|:---|:---|\n| **Pratiquer des démarches scientifiques** | Classer, formuler des hypothèses, interpréter des résultats |\n| **Concevoir et réaliser** | Construire un dispositif (éolienne), suivre un protocole |\n| **S'approprier des outils numériques** | Recherche documentaire, utilisation de données en ligne |\n| **Communiquer** | Argumentation écrite et orale, travail collaboratif |\n| **Adopter un comportement responsable** | Réflexion sur les choix énergétiques et leurs impacts |\n\n---\n\n## Ressources complémentaires suggérées\n\n| Type | Ressource |\n|:---|:---|\n| 🎬 Vidéo | *C'est pas sorcier - Les énergies renouvelables* |\n| 🌐 Site | RTE - Éco2mix (visualisation en temps réel du mix électrique français) |\n| 📖 Livre | *L'énergie à petits pas* (Actes Sud Junior) |\n| 🎮 Jeu | *Électrocity* (serious game sur la gestion d'une ville et son énergie) |\n\nCette séquence permet une montée en compétences progressive tout en maintenant l'engagement des élèves grâce à des activités concrètes et une évaluation valorisant l'oral et la coopération.",
+      "modelB": "gpt 5.1 high",
+      "outputB": "Voici une proposition de séquence de 4 semaines pour des 5e sur le thème « Les énergies renouvelables ».\n\n---\n\n## Vue d’ensemble de la séquence\n\nProblématique fil rouge :  \n**Comment produire de l’énergie sans épuiser la planète ?**\n\nDurée indicative : 4 semaines = 4 séances d’1h à 1h30.\n\nCompétences travaillées (cycle 4) :  \n- Pratiquer des démarches scientifiques.  \n- Concevoir, créer, réaliser.  \n- S’exprimer à l’oral et à l’écrit.  \n- Adopter un comportement responsable (EDD).\n\n---\n\n## Semaine 1 – Découvrir ce qu’est une énergie renouvelable\n\n### Objectifs pédagogiques\n- Distinguer **source d’énergie** et **forme d’énergie** (lumière, chaleur, mouvement…).  \n- Identifier des **exemples d’énergies renouvelables** et non renouvelables.  \n- Comprendre la différence **renouvelable / non renouvelable** (temps de renouvellement, épuisement des ressources).  \n- Commencer à questionner l’impact sur l’environnement.\n\n### Activité pratique : tri et carte mentale des sources d’énergie\n- **Matériel** : images/cartes (pétrole, charbon, gaz, Soleil, vent, eau, biomasse, uranium…), feuilles A3, feutres, colle.  \n- **Consigne** :  \n  1. Par groupes, trier les images en 2 colonnes : « renouvelable / non renouvelable ».  \n  2. Justifier chaque choix à l’oral, puis mise en commun (correction collective).  \n  3. Construire une **carte mentale** « Les différentes sources d’énergie » (source, usage, avantages, inconvénients simples).  \n- **Intérêt** : activité très accessible, permet de repérer immédiatement les conceptions initiales.\n\n---\n\n## Semaine 2 – Comment fonctionne une énergie renouvelable ?\n\nFocalisation sur 2 exemples concrets (par ex. solaire et éolien).\n\n### Objectifs pédagogiques\n- Comprendre qu’un dispositif technique **transforme** une énergie (ex : rayonnement solaire → électricité).  \n- Repérer les **éléments principaux** d’une installation solaire ou éolienne (panneau, hélice, génératrice…).  \n- Savoir **schématiser** une chaîne énergétique simple (source → dispositif → énergie utile).\n\n### Activité pratique : mini-labos solaire et/ou éolien\nSelon votre matériel, choisir l’un des deux (ou faire 2 ateliers qui tournent) :\n\n**Option 1 – Mini-panneau solaire**  \n- Matériel : petites cellules photovoltaïques (ou calculatrices solaires), moteur ou petite hélice, lampe de bureau.  \n- Consigne :  \n  1. Faire tourner l’hélice avec la lumière naturelle, puis avec la lampe de bureau plus ou moins proche.  \n  2. Observer quand le moteur tourne ou non, comparer « plus de lumière / moins de lumière ».  \n  3. Compléter une fiche :  \n     - Source d’énergie = …  \n     - Dispositif technique = …  \n     - Énergie obtenue = …\n\n**Option 2 – Mini-éolienne artisanale**  \n- Matériel : papier/carton, pique en bois, paille, petit moteur ou dynamo (si possible), ventilateur.  \n- Consigne :  \n  1. Construire une petite hélice en papier.  \n  2. La placer devant un ventilateur, observer la rotation.  \n  3. (Si moteur/dynamo) Mesurer si une LED s’allume ou non.  \n\n**Trace** : schéma de chaîne énergétique pour chaque dispositif :  \n_Soleil → panneau solaire → énergie électrique → moteur → mouvement_\n\n---\n\n## Semaine 3 – Avantages, limites et impacts des énergies renouvelables\n\n### Objectifs pédagogiques\n- Identifier les **atouts** des énergies renouvelables (polluent moins, ressource inépuisable à l’échelle humaine…).  \n- Identifier leurs **limites** (intermittence, emplacement, coût, impact sur les paysages et la biodiversité).  \n- Découvrir la notion de **mix énergétique** (ne pas dépendre d’une seule source).  \n- Travailler la **recherche d’information** et la synthèse.\n\n### Activité pratique : mini-enquête par groupes + affiche argumentée\n- **Matériel** :  \n  - Fiches ressources (textes courts et/ou liens vers vidéos très simples) sur : solaire, éolien, hydraulique, biomasse.  \n  - Feuilles A3, feutres, éventuellement accès à Internet.  \n\n- **Consigne** :  \n  1. Par groupe, choisir **une** énergie renouvelable.  \n  2. À partir des documents fournis (et éventuellement d’une courte recherche internet guidée), remplir une fiche :  \n     - Comment ça marche ?  \n     - Où peut-on l’installer ?  \n     - Ses avantages ?  \n     - Ses inconvénients / limites ?  \n  3. Réaliser une **affiche argumentée** « Faut-il développer cette énergie près de chez nous ? » en donnant au moins 3 arguments « pour » et 2 « limites ».  \n  4. Présentation orale rapide (2–3 min) devant la classe.  \n\n- **Objectif caché** : préparer la matière pour l’évaluation finale (qui mobilisera ces connaissances).\n\n---\n\n## Semaine 4 – Concevoir un projet : une maison (ou un collège) plus durable\n\n### Objectifs pédagogiques\n- Réinvestir les notions vues : types d’énergies, fonctionnement, atouts/limites.  \n- Concevoir une solution simple intégrant **une ou plusieurs énergies renouvelables**.  \n- Travailler la **cohérence d’un projet** : énergie choisie = adaptée au lieu et aux besoins.  \n- Préparer l’évaluation finale (production et argumentation).\n\n### Activité pratique : défi « Ma maison/mon collège à énergie renouvelable »\n- **Matériel** :  \n  - Plans simplifiés (ou dessins) de maison / collège / quartier.  \n  - Feuilles A3, crayons, règle ; éventuellement carton, colle, ciseaux pour une mini-maquette.  \n\n- **Consigne** :  \n  1. Par groupes, choisir un **bâtiment cible** : maison, collège, petite ville.  \n  2. Imaginer et dessiner (ou maquettiser) comment intégrer des énergies renouvelables :  \n     - Où mettre les panneaux solaires ?  \n     - Y a-t-il un endroit pour une petite éolienne ?  \n     - Peut-on utiliser l’eau (petite centrale hydro) ?  \n  3. Indiquer sur le dessin, par écrit :  \n     - L’énergie choisie ;  \n     - Son rôle (chauffage, électricité, éclairage…) ;  \n     - Un avantage et une limite pour leur projet.  \n\n- **Lien avec l’évaluation** : le travail démarré ici sera finalisé et présenté dans le cadre de l’évaluation finale.\n\n---\n\n## Évaluation finale (originale, non QCM)\n\n### Format : mini-exposition « Salon des énergies renouvelables »\n\nLes élèves, par groupes, sont **« bureaux d’études en énergie »**.  \nIls doivent présenter à la classe (et éventuellement à une autre classe / aux parents) un **stand** qui montre comment ils rendraient un bâtiment plus durable grâce aux énergies renouvelables.\n\n#### Production attendue (par groupe)\n1. **Support visuel** au choix :  \n   - Une affiche A3 claire et illustrée,  \n   - ou une mini-maquette en carton,  \n   - ou une carte mentale très lisible + schémas annotés.  \n\n2. **Contenu scientifique** (niveau 5e, vérifiable) :  \n   - Au moins **une énergie renouvelable** choisie et correctement décrite (comment elle fonctionne, où elle est placée).  \n   - Une **chaîne énergétique simplifiée** (source → dispositif → énergie utile).  \n   - Au moins **2 avantages** et **1 limite** de l’énergie choisie, adaptés au lieu choisi.  \n\n3. **Présentation orale courte** (3–5 min) :  \n   - Chaque membre du groupe parle.  \n   - Ils doivent convaincre qu’il s’agit d’une **bonne solution** pour leur bâtiment/lieu.  \n\n#### Grille d’évaluation (exemple simplifié)\n\n- **Connaissances scientifiques (10 pts)**  \n  - L’énergie choisie est correctement identifiée comme renouvelable.  \n  - Le fonctionnement est expliqué clairement, sans erreurs majeures.  \n  - Les avantages/limites sont pertinents.\n\n- **Démarche et cohérence du projet (5 pts)**  \n  - Le choix de l’énergie est cohérent avec le lieu (on ne met pas une centrale hydroélectrique en plein désert, par exemple).  \n  - La chaîne énergétique est correctement représentée.\n\n- **Communication (5 pts)**  \n  - Support visuel lisible et bien organisé.  \n  - Présentation orale claire, chaque élève participe.  \n\n→ Possibilité d’ajouter une **auto-évaluation** ou une **co-évaluation** (les élèves donnent un retour sur au moins un autre stand sur 3 critères simples : « j’ai compris », « c’était intéressant », « j’ai appris quelque chose »).\n\n---\n\nCette séquence reste modulable (vous pouvez renforcer le côté expérimental ou le côté débat citoyen), mais le plan respecte :  \n- des objectifs clairs par semaine,  \n- une activité pratique hebdomadaire,  \n- une évaluation finale active, centrée sur un projet et une présentation, sans QCM."
+    }
+  },
+  {
+    "id": 3,
+    "title": "Variation de style pédagogique",
+    "part": "P2 - Méthodes",
+    "chapter": "Ingénierie pédagogique",
+    "subject": "Toutes matières",
+    "prompt": "Voici le déroulé de mon cours sur les chromosomes. Problématique : « Les chromosomes sont-ils responsables de nos caractères ? »\n\nPropose-moi 3 variantes de ce même cours en adoptant strictement les postures suivantes :\n1. Enseignement explicite : Modelage, Pratique guidée, Pratique autonome.\n2. Classe inversée : Ce que les élèves font avant (capsule), ce qu'ils font en classe (activité).\n3. Ludification : Transforme la séance en défi/jeu par équipes avec une quête.",
+    "responses": {
+      "modelA": "Ernie 5.0",
+      "outputA": "Excellent sujet ! La problématique « Les chromosomes sont-ils responsables de nos caractères ? » est parfaite pour introduire la génétique.\n\nVoici 3 déclinaisons de ta séance, chacune avec une âme radicalement différente.\n\n---\n\n## 🏛️ VARIANTE 1 : ENSEIGNEMENT EXPLICITE\n*Logique : \"Je fais, nous faisons, vous faites\". Efficacité maximale, sécurité cognitive pour les élèves.*\n\n| Phase | Temps | Activité Enseignant (Modélisation) | Activité Élèves (Pratique) |\n|:---:|:---:|:---|:---|\n| **1. ACCROCHE** | 5 min | Projeter 2 photos : 2 frères/sœurs. <br>**Question :** \"Ils ont les mêmes parents. Pourquoi ne sont-ils pas identiques ?\" | Observent, donnent des idées intuitives (\"c'est le hasard\", \"les gènes...\"). |\n| **2. MODELAGE** | 15 min | **Leçon dialoguée + Analogie de la Bibliothèque.**<br>1. Au tableau, dessiner le schéma : **Noyau > Chromosome > ADN > Gène > Caractère**.<br>2. Expliquer l'analogie :<br>- Noyau = Bibliothèque<br>- Chromosome = Livre<br>- Gène = Une recette dans le livre<br>- Caractère = Le gâteau final.<br>3. Montrer un vrai caryotype humain. Expliquer les paires (23 paires). | **Écoute active.**<br>Recopient le schéma et la légende de l'analogie au tableau. |\n| **3. PRATIQUE GUIDÉE** | 15 min | Projeter un caryotype au tableau.<br>**Guider pas à pas :**<br>1. \"Combien y a-t-il de chromosomes ?\" (46)<br>2. \"C'est un homme ou une femme ?\" (Paire 23 = XY)<br>3. \"Si je change le gène de la page 50, est-ce que tout le livre change ?\" (Non). | Répondent en chœur ou à la volée.<br>Un élève vient pointer les chromosomes au tableau. |\n| **4. PRATIQUE AUTONOME** | 10 min | Distribuer une fiche simple avec 2 caryotypes (1 homme, 1 femme) et 3 questions.<br>**Consigne :** \"Appuyez-vous sur ce qu'on vient de voir.\" | **Exercice individuel noté.**<br>1. Compter les chromosomes.<br>2. Identifier le sexe.<br>3. *Question piège :* \"Un chien a 78 chromosomes. Est-ce qu'il a plus de caractères que l'homme ?\" (Réponse : Non, c'est l'info qui compte, pas le nombre). |\n\n---\n\n## 🔄 VARIANTE 2 : CLASSE INVERSÉE\n*Logique : La théorie à la maison, la pratique en classe. Temps de classe 100% dédié à l'aide et à l'activité.*\n\n### 🏠 AVANT LA SÉANCE (À la maison)\n**Support : Capsule Vidéo (6 min max) - \"La recette du Vous\"**\n1.  **0-2 min :** Images de familles qui se ressemblent. Problématique : \"Où est stockée l'info ?\"\n2.  **2-5 min :** Animation schématique : On zoome de la cellule jusqu'au gène. Vocabulaire : Chromosome / ADN / Gène.\n3.  **5-6 min :** Mini-quiz sur Éduthèque ou Google Forms (3 questions) : *\"Combien de paires chez l'homme ? Qu'est-ce qu'un gène ?\"*\n\n### 🏫 PENDANT LA SÉANCE (En classe)\n**Titre de l'activité : \"Enquête au service d'identité génétique\"**\n\n| Étape | Durée | Déroulé |\n|:---:|:---:|:---|\n| **1. VÉRIF** | 5 min | Correction rapide du quiz de la capsule. <br>**Bilan flash :** \"Le chromosome = le livre entier. Le gène = 1 recette.\" |\n| **2. MISSION** | 30 min | **Jeu de rôle : \"Qui est qui ?\"**<br>Par binômes. Chaque binôme reçoit une enveloppe \"Scène de crime\".<br>**Contenu :**<br>- 1 caryotype de la \"Victime\".<br>- 3 caryotypes de \"Suspects\".<br>- 1 loupe (en carton).<br>**Tâche :** La police a retrouvé de l'ADN. Il faut identifier le suspect en comparant la forme et la taille des chromosomes (surtout la paire 23 pour le sexe).<br>👉 *L'enseignant circule pour débloquer les groupes (\"Regardez bien la paire 11, elle est identique ?\").* |\n| **3. SYNTHÈSE** | 10 min | Mise en commun. <br>**Question finale :** \"Si le suspect a les mêmes chromosomes que la victime, est-il coupable à 100% ?\" <br>**Réponse :** Non ! C'est comme avoir le même livre de cuisine, on ne fait pas forcément les mêmes gâteaux (allèles/environnement). |\n\n---\n\n## 🎲 VARIANTE 3 : LUDIFICATION (Gamification)\n*Logique : Immersion, compétition, quête. On apprend sans s'en rendre compte.*\n\n**Titre de la séquence : \"OPÉRATION CLONE WARS\"**\n**Scénario :** *Un savant fou a créé des clones, mais ils ont des bugs (yeux vairons, cheveux verts...). Votre équipe de \"Bio-Hackers\" doit réparer leur ADN en comprenant comment marchent les chromosomes.*\n\n| Mission (Niveau) | Durée | La Quête | Matériel | Récompense |\n|:---:|:---:|:---|:---|:---|\n| **NIVEAU 1**<br>*(Facile)* | 7 min | **\"Le Grand Nettoyage\"**<br>Le noyau de la cellule est en bazar. Il faut remettre les étiquettes au bon endroit sur le schéma géant au tableau.<br>*(Noyau / ADN / Gène / Chromosome)* | Aimants et étiquettes au tableau. | 🔑 **La Clé du Labo** (donne accès au Niv 2) |\n| **NIVEAU 2**<br>*(Moyen)* | 15 min | **\"Le Casse-tête du Caryotype\"**<br>Les paires de chromosomes ont été mélangées par le savant fou. <br>**Défi :** Reconstituez le caryotype d'un patient (puzzle de papier découpé).<br>**Bonus :** Dites si c'est un garçon ou une fille. | Enveloppes avec chromosomes en papier découpé + feuille A3 \"caryotype vierge\". | 🧬 **Le Décodeur d'ADN** (outil pour le Niv 3) |\n| **NIVEAU 3**<br>*(Difficile)* | 15 min | **\"Bug ou Pas Bug ?\"**<br>Le savant fou a modifié un chromosome. L'équipe doit dire quel **caractère** va bugger.<br>Ex: \"Il a cassé le gène de l'hémoglobine sur le chromosome 11\" -> Réponse : \"Le sang ne transportera plus l'oxygène !\" | Cartes \"Situation\" (Ex: \"Chromosome 7 modifié\" -> Réponse \"Mucoviscidose possible\"). | 🏆 **Badge \"Maître du Vivant\"** |\n| **BOSS FINAL** | 8 min | **\"Le Jumeau Maléfique\"**<br>Pourquoi deux jumeaux (vrais) n'ont pas les mêmes empreintes digitales alors qu'ils ont les mêmes chromosomes ?<br>*(Indice : pensez à la recette de cuisine, on peut mettre plus ou moins de sucre).* | Discussion d'équipe. | 🍬 **Une vraie sucrerie** (pour le goût !) |\n\n### 💡 Le twist pédagogique de la ludification :\nIci, la notation disparaît. Tu donnes des \"XP\" (Points d'Expérience) à chaque mission réussie. L'équipe gagnante est celle qui a le plus d'XP, pas forcément celle qui a fini en premier. Ça valorise l'entraide.",
+      "modelB": "Mistral large 3",
+      "outputB": "Voici **3 variantes complètes** de votre cours sur les chromosomes, chacune adoptant strictement une posture pédagogique différente, tout en gardant la même problématique : *« Les chromosomes sont-ils responsables de nos caractères ? »*\n\n---\n\n## **1. Enseignement Explicite (Modelage → Pratique guidée → Pratique autonome)**\n**Durée** : 1h30 (adaptable en 2 séances)\n**Objectifs** :\n- Comprendre le lien entre chromosomes, gènes et caractères héréditaires.\n- Distinguer caractères héréditaires et acquis.\n- Schématiser un caryotype et identifier les anomalies chromosomiques.\n\n---\n\n### **Étape 1 : Modelage (15-20 min) – L’enseignant montre et explique**\n**Support** :\n- Vidéo projetée (ex : extrait de *Il était une fois… la Vie* sur les chromosomes, 3 min).\n- Schéma au tableau : cellule → noyau → chromosomes → gènes → protéines → caractères.\n- **Exemple concret** : *\"Prenons le caractère 'couleur des yeux'. Voici comment les chromosomes le déterminent…\"*\n\n**Activité de l’enseignant** :\n1. **Définir les termes clés** (chromosome, gène, ADN, caryotype) avec des analogies simples :\n   - *\"Un chromosome, c’est comme un livre de recettes (l’ADN), et un gène, c’est une recette précise pour fabriquer une protéine (ex : la mélanine pour la couleur des yeux).\"*\n2. **Montrer un caryotype humain** (image projetée) et repérer :\n   - Le nombre de chromosomes (46).\n   - Les paires de chromosomes (23 paires, dont les chromosomes sexuels X/Y).\n   - Une anomalie (ex : trisomie 21).\n3. **Lier chromosomes et caractères** :\n   - *\"Le gène OCA2 sur le chromosome 15 influence la couleur des yeux. Si vous avez deux versions 'marron', vos yeux seront marron. Si vous avez une version 'marron' et une 'bleu', ils seront marron aussi (car 'marron' est dominant).\"*\n\n**Interaction** :\n- Poser des questions simples pour vérifier la compréhension :\n  *\"Si je vous dis que le gène des cheveux frisés est sur le chromosome 1, où se trouve-t-il ? Dans le noyau ? Dans une cellule de la peau ?\"*\n\n---\n\n### **Étape 2 : Pratique guidée (25-30 min) – Les élèves s’entraînent avec l’enseignant**\n**Activité 1 : \"Le jeu des paires\" (travail en binômes)**\n**Matériel** :\n- Cartes avec des images de chromosomes (numérotés de 1 à 23, avec X/Y).\n- Cartes \"caractères\" (ex : \"groupe sanguin\", \"couleur des cheveux\", \"taille\").\n- Fiche guide avec des questions.\n\n**Consignes** :\n1. **Associer chromosomes et caractères** :\n   - *\"Sur quelle paire de chromosomes se trouve le gène du groupe sanguin ?\"* (Réponse : chromosome 9).\n   - *\"Quels chromosomes déterminent le sexe ?\"* (Réponse : paire 23, X/Y).\n2. **Classer des caractères** :\n   - *\"Parmi ces caractères, lesquels sont héréditaires ? Lesquels sont acquis ?\"* (Exemples : couleur des yeux = héréditaire ; cicatrice = acquis).\n3. **Correction collective** au tableau avec l’enseignant qui reformule et corrige les erreurs.\n\n**Activité 2 : Schématiser un caryotype**\n- **Matériel** : Feuille avec des chromosomes à découper et coller (ou logiciel comme *Genial.ly* pour une version numérique).\n- **Consigne** :\n  *\"Construisez un caryotype normal (46 chromosomes), puis un caryotype avec une trisomie 21. Entourez la paire concernée et expliquez ce que cela change pour la personne.\"*\n\n---\n\n### **Étape 3 : Pratique autonome (20-25 min) – Les élèves appliquent seuls**\n**Activité 1 : Étude de cas – \"Le mystère de la famille Martin\"**\n**Support** :\n- Fiche avec un arbre généalogique simplifié (3 générations) et des caractères à analyser :\n  - *\"Dans la famille Martin, tous les enfants ont les yeux marron, sauf Léa qui a les yeux bleus. Comment l’expliquer ?\"*\n  - *\"Le père a une calvitie précoce (héréditaire), mais son fils de 20 ans n’en a pas. Pourquoi ?\"*\n- **Consigne** :\n  *\"À l’aide de ce que vous avez appris, expliquez ces observations en utilisant les mots : chromosome, gène, dominant, récessif.\"*\n\n**Activité 2 : QCM interactif (Kahoot! ou Plickers) ou fiche d’auto-évaluation**\n- 10 questions pour vérifier la compréhension (ex :\n  *\"Vrai ou faux ? Les chromosomes sont visibles dans toutes les cellules du corps.\"*\n  *\"Quel chromosome détermine le sexe masculin ?\"*).\n\n**Clôture** :\n- **Synthèse collective** : *\"Alors, les chromosomes sont-ils responsables de tous nos caractères ?\"* → Réponse nuancée : *\"Ils déterminent certains caractères héréditaires, mais pas les caractères acquis (ex : une cicatrice) ni les caractères influencés par l’environnement (ex : la taille dépend aussi de l’alimentation).\"*\n\n---\n\n## **2. Classe Inversée**\n**Durée** : 1h en classe (après une capsule à regarder à la maison)\n**Objectifs** :\n- Découvrir les notions clés avant le cours.\n- En classe : approfondir, expérimenter et résoudre des problèmes concrets.\n\n---\n\n### **Ce que les élèves font AVANT le cours (à la maison)**\n**Capsule vidéo (5-7 min) – À regarder 2 jours avant le cours**\n**Contenu** :\n1. **Introduction** (1 min) :\n   - *\"Saviez-vous que vos cheveux frisés ou vos yeux bleus viennent de vos chromosomes ? Mais comment ? C’est ce qu’on va découvrir !\"*\n2. **Définitions animées** (3 min) :\n   - Schéma animé : cellule → noyau → chromosomes → gènes → protéines → caractères.\n   - Exemple : *\"Le gène MC1R sur le chromosome 16 influence la couleur des cheveux. Si vous avez deux versions 'roux', vous serez roux !\"*\n3. **Caryotype humain** (2 min) :\n   - Montrer un caryotype normal et une trisomie 21.\n   - *\"Pourquoi certaines personnes ont-elles 47 chromosomes au lieu de 46 ?\"*\n4. **Question pour réfléchir** :\n   - *\"Si un enfant a les yeux bleus alors que ses parents ont les yeux marron, comment est-ce possible ?\"* (Réponse dans le cours).\n\n**Support complémentaire** :\n- Fiche de prise de notes à compléter (ex :\n  - *\"Un chromosome, c’est…\"*\n  - *\"Un gène, c’est…\"*\n  - *\"Donne un exemple de caractère héréditaire et un exemple de caractère acquis.\"*).\n\n**Outils pour créer la capsule** :\n- *Powtoon* ou *Canva* pour des animations simples.\n- *Edpuzzle* pour ajouter des questions interactives dans la vidéo.\n\n---\n\n### **Ce que les élèves font EN CLASSE (1h)**\n**Étape 1 : Vérification des prérequis (10 min)**\n- **Quiz rapide** (via *Kahoot!* ou ardoises) :\n  - *\"Combien de chromosomes a une cellule humaine ?\"*\n  - *\"Où se trouvent les chromosomes ?\"*\n  - *\"Cite un caractère héréditaire et un caractère acquis.\"*\n- **Correction collective** avec reformulation des erreurs.\n\n**Étape 2 : Activité 1 – \"Le jeu des détectives génétiques\" (20 min)**\n**Matériel** :\n- 4 enveloppes par groupe (avec des indices sur des \"mystères génétiques\").\n- Fiche réponse.\n\n**Scénario** :\n*\"Vous êtes des détectives génétiques. Quatre familles vous ont contactés pour résoudre des énigmes. À vous de trouver les réponses en utilisant vos connaissances sur les chromosomes !\"*\n\n**Exemples d’énigmes** :\n1. **La famille Dupont** :\n   - *\"Les parents ont les yeux marron, mais leur fils a les yeux bleus. Comment est-ce possible ?\"* (Réponse : les parents ont chacun un allèle \"marron\" et un \"bleu\", l’enfant a hérité des deux \"bleu\").\n2. **La famille Durand** :\n   - *\"La mère a une maladie génétique (mucoviscidose), mais aucun de ses enfants ne l’a. Pourquoi ?\"* (Réponse : la maladie est récessive, les enfants ont hérité d’un allèle sain).\n3. **La famille Martin** :\n   - *\"Le père est daltonien (maladie liée au chromosome X), mais sa fille ne l’est pas. Comment expliquer cela ?\"* (Réponse : la fille a hérité du X sain de sa mère).\n4. **La famille Leroy** :\n   - *\"Un couple attend un enfant. Le médecin leur dit qu’il y a un risque de trisomie 21. Comment peut-il le savoir ?\"* (Réponse : analyse du caryotype des parents ou diagnostic prénatal).\n\n**Consigne** :\n- Par groupes de 4, les élèves piochent une enveloppe et résolvent l’énigme en 5 min.\n- Ils présentent leur réponse à la classe (1 min par groupe).\n\n**Étape 3 : Activité 2 – \"Construis ton caryotype\" (20 min)**\n**Matériel** :\n- Kit de chromosomes en papier (à découper et coller) ou logiciel *Genial.ly* pour une version numérique.\n- Fiche consigne avec des cas à résoudre :\n  - *\"Construis un caryotype normal (46 chromosomes).\"*\n  - *\"Construis un caryotype avec une trisomie 18. Quels symptômes cela peut-il provoquer ?\"* (Recherche rapide sur tablette).\n  - *\"Construis un caryotype masculin et un caryotype féminin. Quelles différences observes-tu ?\"*\n\n**Étape 4 : Débat et synthèse (10 min)**\n- **Question ouverte** :\n  *\"Les chromosomes déterminent-ils TOUS nos caractères ?\"* → Débat guidé :\n  - *\"Et la taille ? Elle dépend des gènes, mais aussi de l’alimentation !\"*\n  - *\"Et les cicatrices ? Elles ne sont pas héréditaires !\"*\n- **Synthèse écrite** :\n  *\"Les chromosomes contiennent des gènes qui influencent nos caractères héréditaires (couleur des yeux, groupe sanguin…), mais pas les caractères acquis (cicatrices, musculature) ni ceux influencés par l’environnement (taille, poids).\"*\n\n---\n\n## **3. Ludification – \"Mission Chromosome : Sauvez le génome !\"**\n**Durée** : 1h (format jeu par équipes)\n**Objectifs** :\n- Comprendre le rôle des chromosomes dans la transmission des caractères.\n- Identifier les anomalies chromosomiques.\n- Collaborer pour résoudre des énigmes.\n\n---\n\n### **Scénario et règles du jeu**\n**Contexte** :\n*\"Vous êtes une équipe de généticiens de l’Institut ChromosomeX. Un virus a attaqué les chromosomes de la population ! Votre mission : restaurer les génomes endommagés en résolvant des énigmes. Vous avez 1h pour sauver le maximum de patients !\"*\n\n**Organisation** :\n- **4 équipes** (4-5 élèves) = 4 \"laboratoires\".\n- **Matériel par équipe** :\n  - Un plateau de jeu (feuille A3 avec une piste de progression).\n  - Des cartes \"Énigmes\" (4 niveaux de difficulté).\n  - Des jetons \"ADN\" (gagnés à chaque énigme résolue).\n  - Un \"dossier patient\" (fiche réponse).\n- **Rôle de l’enseignant** : Maître du jeu (distribue les énigmes, valide les réponses).\n\n---\n\n### **Déroulement du jeu**\n\n#### **Étape 1 : Briefing (5 min)**\n- L’enseignant présente le scénario et les règles.\n- Chaque équipe choisit un nom de laboratoire (ex : \"Les Gènes Fous\", \"ADN Express\").\n\n#### **Étape 2 : Phase 1 – \"Décrypter le génome\" (15 min)**\n**Objectif** : Comprendre la structure des chromosomes et leur lien avec les caractères.\n**Énigmes** (cartes à piocher) :\n1. **Niveau 1 (facile)** :\n   - *\"Voici un schéma de cellule. Entourez où se trouvent les chromosomes.\"* (Réponse : dans le noyau).\n   - *\"Combien de chromosomes a une cellule humaine normale ?\"* (Réponse : 46).\n2. **Niveau 2 (moyen)** :\n   - *\"Voici un caryotype avec une anomalie. Laquelle ?\"* (Réponse : trisomie 21).\n   - *\"Sur quel chromosome se trouve le gène de la couleur des yeux ?\"* (Réponse : chromosome 15).\n3. **Récompense** : 1 jeton \"ADN\" par énigme résolue.\n\n#### **Étape 3 : Phase 2 – \"Sauvez les patients !\" (20 min)**\n**Objectif** : Résoudre des cas concrets liés aux chromosomes.\n**Énigmes** (cartes \"Patients\") :\n1. **Patient 1 – La famille aux yeux bleus** :\n   - *\"Les parents ont les yeux marron, mais leur enfant a les yeux bleus. Expliquez pourquoi en utilisant les mots : chromosome, gène, récessif.\"* (Réponse : les parents ont chacun un allèle \"marron\" et un \"bleu\", l’enfant a hérité des deux \"bleu\").\n2. **Patient 2 – Le mystère du daltonisme** :\n   - *\"Un père daltonien a une fille non daltonienne. Comment est-ce possible ?\"* (Réponse : la maladie est liée au chromosome X, la fille a hérité du X sain de sa mère).\n3. **Patient 3 – La trisomie 21** :\n   - *\"Un couple attend un enfant. Le médecin dit qu’il y a un risque de trisomie 21. Comment peut-il le savoir ?\"* (Réponse : analyse du caryotype des parents ou diagnostic prénatal).\n4. **Patient 4 – Le caractère acquis** :\n   - *\"Un enfant a une cicatrice sur la main. Est-ce héréditaire ? Pourquoi ?\"* (Réponse : non, c’est un caractère acquis).\n**Récompense** : 2 jetons \"ADN\" par patient sauvé.\n\n#### **Étape 4 : Phase 3 – \"Le défi final\" (15 min)**\n**Objectif** : Synthétiser les connaissances en créant un \"rapport génétique\".\n**Consigne** :\n*\"Le virus a muté ! Pour le vaincre définitivement, vous devez créer un rapport qui explique :\n1. Ce qu’est un chromosome.\n2. Comment les chromosomes déterminent certains caractères.\n3. La différence entre caractères héréditaires et acquis.\n4. Une anomalie chromosomique et ses conséquences.\nVous avez 10 min pour préparer ce rapport (affiche ou texte).\"*\n\n**Présentation** :\n- Chaque équipe présente son rapport en 2 min.\n- L’enseignant note les équipes sur :\n  - La justesse scientifique.\n  - La clarté.\n  - La créativité.\n\n#### **Étape 5 : Clôture et récompenses (5 min)**\n- **Débriefing** :\n  *\"Alors, les chromosomes sont-ils responsables de tous nos caractères ?\"* → Réponse nuancée.\n- **Récompenses** :\n  - L’équipe avec le plus de jetons \"ADN\" gagne un diplôme \"Expert en génétique\".\n  - Toutes les équipes reçoivent un autocollant \"ADN Hero\".\n\n---\n\n### **Variantes possibles pour la ludification**\n- **Version escape game** :\n  - Les élèves doivent résoudre des énigmes pour \"déverrouiller\" une mallette contenant le remède contre le virus.\n- **Version numérique** :\n  - Utiliser *Genial.ly* ou *Classcraft* pour créer un jeu interactif avec des quêtes en ligne.\n- **Version avec rôles** :\n  - Chaque élève a un rôle (ex : \"le biologiste\", \"le médecin\", \"le journaliste scientifique\") et doit accomplir des missions spécifiques.\n\n---\n\n### **Synthèse des 3 approches**\n| **Posture**               | **Points forts**                                  | **Points de vigilance**                          |\n|---------------------------|--------------------------------------------------|-------------------------------------------------|\n| **Enseignement explicite** | - Structuré, idéal pour les élèves en difficulté. <br> - Permet un modelage clair. | - Peut être moins motivant pour les élèves autonomes. |\n| **Classe inversée**       | - Gain de temps en classe pour les activités. <br> - Responsabilise les élèves. | - Nécessite un accès à la capsule (équipement). <br> - Risque de désengagement si la capsule n’est pas regardée. |\n| **Ludification**          | - Très motivant, favorise la collaboration. <br> - Mémorisation renforcée par l’émotion. | - Préparation chronophage. <br> - Risque de \"trop jouer\" et de perdre le fil scientifique. |\n\n**Choix selon votre public** :\n- **Classe en difficulté** → Enseignement explicite.\n- **Classe autonome et équipée** → Classe inversée.\n- **Classe dynamique et créative** → Ludification."
+    }
+  },
+  {
+    "id": 4,
+    "title": "L'analogie claire",
+    "part": "P2 - Méthodes",
+    "chapter": "Ingénierie pédagogique",
+    "subject": "Sciences",
+    "prompt": "Après une recherche sur les femmes scientifiques, des élèves ont découvert l'expression CRISPR-Cas9. Explique ce concept comme tu le ferais pour un enfant de 10 ans en utilisant une analogie facile à saisir mais aussi fidèle que possible.",
+    "responses": {
+      "modelA": "qwen3 max 2025",
+      "outputA": "Bien sûr ! Voici une explication simple, fidèle et adaptée à un enfant de 10 ans :\n\n---\n\nImagine que ton corps est comme une **grande bibliothèque**.  \nDans cette bibliothèque, il y a des **livres très spéciaux** : ce sont tes **chromosomes**.  \nEt dans ces livres, il y a des **recettes** qui expliquent comment fabriquer tout ce dont tu as besoin : la couleur de tes yeux, la forme de ton nez, ou même comment ton sang fonctionne. Ces recettes, on les appelle des **gènes**.\n\nParfois, il arrive qu’une **erreur** se glisse dans une recette — comme si on avait écrit « 2 kg de sel » au lieu de « 2 grammes » ! Cette erreur peut empêcher le corps de bien fonctionner. On appelle ça une **mutation**.\n\nEh bien, des scientifiques ont inventé une **trousse à outils magique** pour **corriger les erreurs dans les recettes**.  \nCette trousse s’appelle **CRISPR-Cas9**.\n\nVoici comment elle marche :\n\n- **CRISPR**, c’est comme une **photocopie de la bonne recette**. C’est un petit guide qui dit : *« Cherche exactement ici, à cette page, ligne 42. »*  \n- **Cas9**, c’est comme une **petite paire de ciseaux très précise**. Elle suit les instructions de CRISPR, va **exactement au bon endroit** dans le livre, et **coupe l’erreur**.\n\nUne fois l’erreur coupée, la cellule peut soit **la jeter**, soit **coller la bonne version** à la place (comme avec de la colle scolaire !).\n\nGrâce à ça, les chercheurs peuvent **réparer des gènes cassés** — un peu comme un correcteur d’orthographe pour le code de la vie !\n\nEt devine quoi ? **Deux femmes scientifiques** — **Emmanuelle Charpentier** (française) et **Jennifer Doudna** (américaine) — ont joué un rôle essentiel dans cette découverte. Elles ont même reçu le **prix Nobel** en 2020 pour avoir inventé cette méthode révolutionnaire !\n\nAlors, CRISPR-Cas9, c’est un peu comme…  \n**Un GPS + une paire de ciseaux + une gomme magique pour le livre de la vie !** 🧬✂️✨",
+      "modelB": "kimi k2 thinking",
+      "outputB": "Imagine que ton corps est construit grâce à un **livre de recettes magique, gigantesque**, caché dans chacune de tes cellules. Ce livre s’appelle **l’ADN**. Il contient toutes les instructions pour fabriquer tes cheveux, tes yeux, ta peau… des milliards de pages !\n\nParfois, dans ce livre, il y a une **faute de frappe**. Une seule lettre de travers sur une page, et ça peut provoquer une maladie grave. Le problème ? Ce livre est minuscule et impossible à corriger à la main.\n\nEt c’est là qu’intervient **CRISPR-Cas9**, une invention de deux femmes scientifiques, Jennifer Doudna et Emmanuelle Charpentier.\n\n---\n\n### L’analogie du livre de recettes magique\n\n**CRISPR-Cas9**, c’est comme un **stylo-ciseaux magique** qui peut :\n\n1. **Trouver la page exacte** où se trouve la faute (grâce à une petite carte très précise qu’on lui donne).\n2. **Couper proprement** la ligne qui contient l’erreur.\n3. **Laisser le livre se recoller tout seul**, mais cette fois-ci, sans la faute (la cellule répare naturellement la cassure).\n\n---\n\n### Comment ça marche, étape par étape\n\n| Dans le livre magique | Dans la réalité (ton corps) |\n|------------------------|-----------------------------|\n| Le stylo-ciseaux magique | **Cas9** : une enzyme qui coupe l’ADN |\n| La petite carte avec l’adresse de la page | **ARN guide** : une molécule qui guide Cas9 vers le bon endroit |\n| La ligne à couper | Le **gène** malade, l’endroit précis de l’ADN |\n| Le livre qui se recolle tout seul | La **cellule** répare l’ADN en collant les morceaux |\n\n---\n\n### Un exemple pour comprendre\n\nImaginons que tu veuilles des **yeux bleus** au lieu de marron. Dans le livre, il y a une recette pour la couleur des yeux sur la \"page 15\". CRISPR-Cas9 peut aller couper la ligne qui dit \"marron\" et la remplacer par \"bleu\". C’est comme remplacer un mot dans un texte avec un correcteur automatique ultra-précis.\n\n**Mais attention !** Aujourd’hui, on ne change pas la couleur des yeux pour le plaisir. On s’en surtout pour **soigner des maladies graves** (comme certaines leucémies ou maladies génétiques) en corrigeant la faute dans les cellules malades.\n\n---\n\n### Pourquoi c’est révolutionnaire ?\n\nAvant CRISPR, on ne savait pas couper aussi **précisément** dans l’ADN. C’était comme chercher une phrase dans toutes les bibliothèques du monde sans index. Maintenant, on a un **GPS moléculaire** qui trouve et corrige l’erreur en un clin d’œil.\n\n---\n\n### Les limites (important !)\n\nLe stylo-ciseaux magique n’est pas parfait. Parfois, il peut couper au mauvais endroit (effet \"bordure\"). Et surtout, **on ne doit pas l’utiliser n’importe comment**. Changer le livre de recettes d’un être human, c’est une responsabilité énorme. C’est pourquoi les scientifiques en débattent beaucoup.\n\n---\n\n**En résumé pour un enfant de 10 ans :**\n\n> CRISPR-Cas9, c’est un outil de **chirurgien moléculaire** qui trouve et corrige les fautes dans le livre d’instructions de notre corps, pour soigner des maladies. C’est un peu comme un correcteur d’orthographe magique pour l’ADN, inventé par des femmes scientifiques brillantes.\n\nEt toi, si tu pouvais corriger une faute dans le livre de la vie, laquelle choisirais-tu ?"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Analyse didactique",
+    "part": "P2 - Méthodes",
+    "chapter": "Ingénierie pédagogique",
+    "subject": "Sciences",
+    "prompt": "Voici 5 réponses erronées d'élèves à la question : « Pourquoi l'eau bout-elle à 100°C ? »\n\n[Liste des erreurs : « L'eau a trop chaud », « Les molécules explosent », « L'air sort de l'eau »...]\n\nClasse ces erreurs par type (confusion de concept, erreur de vocabulaire, erreur de raisonnement) et propose pour chaque type une courte explication pour rectifier le tir en classe.",
+    "responses": {
+      "modelA": "claude-opus-4-5-20251101-thinking-32k",
+      "outputA": "# Analyse des erreurs d'élèves : « Pourquoi l'eau bout-elle à 100°C ? »\n\n## Classification des 5 erreurs\n\n| Erreur de l'élève | Type d'erreur | Ce qui coince dans la tête de l'élève |\n|:---|:---:|:---|\n| « L'eau a trop chaud » | 🔴 Confusion de concept | Confond la *description* (c'est chaud) avec l'*explication* (pourquoi ça bout). |\n| « Les molécules explosent » | 🟠 Erreur de vocabulaire | Confond *séparation physique* des molécules et *destruction chimique* (explosion). |\n| « L'air sort de l'eau » | 🔴 Confusion de concept | Confond la *vapeur d'eau* (H₂O gazeux) avec *l'air* (O₂, N₂). |\n| « L'eau devient de l'air » | 🟠 Erreur de vocabulaire | Même confusion : le mot \"air\" est utilisé à la place de \"gaz\" ou \"vapeur\". |\n| « 100°C, c'est la température maximale de l'eau » | 🟣 Erreur de raisonnement | Pense que la température ne peut pas monter au-delà → ignore le rôle de la pression et le palier de changement d'état. |\n\n---\n\n## 🔴 Type 1 : Confusion de concept\n\n### Erreurs concernées\n- « L'eau a trop chaud »\n- « L'air sort de l'eau »\n\n### Origine de l'erreur\nL'élève mélange deux idées distinctes :\n- **Observation** (je vois des bulles, c'est chaud) vs **Explication** (que se passe-t-il au niveau des molécules ?).\n- **Vapeur d'eau** (molécules H₂O à l'état gazeux) vs **Air** (mélange de gaz N₂, O₂...).\n\n### 💡 Rectification en classe\n\n> **Démonstration visuelle : « La bulle mystère »**\n>\n> 1. Faire bouillir de l'eau dans un bécher.\n> 2. Poser la question : *« Ces bulles, c'est quoi ? De l'air ou autre chose ? »*\n> 3. Capturer la vapeur avec un verre froid retourné → l'eau liquide apparaît (condensation).\n> 4. **Conclusion guidée :** *« Si c'était de l'air, on ne récupèrerait pas d'eau. C'est donc de l'eau sous forme de gaz : la vapeur d'eau. »*\n\n**Phrase-clé à retenir :**\n> *« La vapeur d'eau, c'est de l'eau invisible. L'air, c'est un mélange de gaz différents (azote, oxygène). Ce n'est pas la même chose ! »*\n\n---\n\n## 🟠 Type 2 : Erreur de vocabulaire\n\n### Erreurs concernées\n- « Les molécules explosent »\n- « L'eau devient de l'air »\n\n### Origine de l'erreur\nL'élève utilise des mots du quotidien (*exploser*, *air*) qui ne correspondent pas au vocabulaire scientifique. Il n'a pas encore intégré la distinction entre :\n- **Transformation physique** (changement d'état, les molécules restent intactes)\n- **Transformation chimique** (les molécules se cassent et se recombinent)\n\n### 💡 Rectification en classe\n\n> **Analogie : « La classe qui se disperse »**\n>\n> *Imagine que les molécules d'eau sont des élèves assis en rang serré dans la classe (état liquide).*\n> - Quand la sonnerie retentit (on chauffe), les élèves se lèvent et courent dans tous les sens dans la cour (état gazeux).\n> - **Est-ce que les élèves explosent ?** Non ! Ils sont juste plus libres de bouger.\n> - Les molécules H₂O restent des molécules H₂O. Elles ne se cassent pas. Elles s'éloignent juste les unes des autres.\n\n**Phrase-clé à retenir :**\n> *« Bouillir, ce n'est pas exploser. Les molécules se séparent, mais elles restent entières. »*\n\n---\n\n## 🟣 Type 3 : Erreur de raisonnement\n\n### Erreur concernée\n- « 100°C, c'est la température maximale de l'eau »\n\n### Origine de l'erreur\nL'élève fait une généralisation abusive : *« Je n'ai jamais vu de l'eau à plus de 100°C, donc c'est impossible. »*\nIl ignore :\n1. Le **palier de température** pendant le changement d'état (l'énergie sert à transformer l'eau, pas à la chauffer davantage).\n2. Le rôle de la **pression** (dans une cocotte-minute, l'eau bout à 120°C !).\n\n### 💡 Rectification en classe\n\n> **Expérience de pensée : « La cocotte-minute »**\n>\n> 1. Montrer une image de cocotte-minute.\n> 2. Expliquer : *« Dans une cocotte fermée, la pression augmente. Résultat : l'eau peut atteindre 120°C sans bouillir ! »*\n> 3. Inversement : *« Au sommet de l'Everest, la pression est plus faible. L'eau bout à 70°C seulement. Ton thé serait tiède ! »*\n\n> **Graphique simplifié au tableau :**\n>\n> ```\n> Température\n>      ▲\n> 120°C│         ● Cocotte-minute\n>      │\n> 100°C│─────────● Cuisine normale\n>      │\n>  70°C│    ● Sommet de l'Everest\n>      │\n>      └────────────────────────▶ Pression\n>        Basse              Haute\n> ```\n\n**Phrase-clé à retenir :**\n> *« 100°C, ce n'est pas un maximum. C'est juste la température d'ébullition à pression normale. Change la pression, et tout change ! »*\n\n---\n\n## Synthèse : Tableau récapitulatif pour l'enseignant\n\n| Type d'erreur | Mot-clé élève | Outil de remédiation | Phrase-clé |\n|:---|:---|:---|:---|\n| 🔴 Confusion de concept | \"air\", \"chaud\" | Expérience de condensation | *Vapeur ≠ Air* |\n| 🟠 Erreur de vocabulaire | \"explosent\" | Analogie de la classe qui se disperse | *Se séparer ≠ Exploser* |\n| 🟣 Erreur de raisonnement | \"maximum\" | Exemple cocotte-minute + Everest | *100°C = valeur sous 1 atm* |\n\n---\n\n## Conseil pédagogique final\n\nCes erreurs sont **normales et précieuses** : elles révèlent comment les élèves construisent leurs représentations. Plutôt que de les corriger frontalement (*« Non, c'est faux »*), utilise la méthode du **conflit cognitif** :\n\n1. **Accueille l'erreur** : *« Intéressant ! Beaucoup de gens pensent ça. »*\n2. **Crée le doute** : *« Mais alors, si c'était de l'air, pourquoi récupère-t-on de l'eau en refroidissant ? »*\n3. **Guide vers la bonne réponse** : L'élève corrige lui-même sa représentation.\n\nC'est bien plus durable qu'une correction magistrale ! 🎯",
+      "modelB": "GPT 5.1 high",
+      "outputB": "Je pars des 3 exemples que tu donnes, qui suffisent à illustrer les 3 types d’erreurs demandés.\n\n---\n\n## 1. Classement des erreurs\n\n| Réponse d’élève                    | Type d’erreur principal              | Commentaire rapide |\n|-----------------------------------|--------------------------------------|--------------------|\n| « L’eau a trop chaud »            | Erreur de vocabulaire                | Anthropomorphisme, confusion entre « avoir chaud » (sensation) et **être à une certaine température**. |\n| « Les molécules explosent »       | Confusion de concept                 | Assimile l’ébullition à une **explosion/destruction** de matière, au lieu d’un **changement d’état**. |\n| « L’air sort de l’eau »           | Erreur de raisonnement               | Mauvaise interprétation des bulles : pense que ce sont **des bulles d’air** qui expliquent l’ébullition, pas de la **vapeur d’eau**. |\n\n---\n\n## 2. Comment rectifier en classe, par type d’erreur\n\n### A. Erreur de vocabulaire  \n**Exemple :** « L’eau a trop chaud. »\n\n**Rectification possible en classe (très courte) :**  \n« En sciences, on évite de dire qu’un objet “a chaud” comme nous. L’eau ne ressent rien. On dit : *l’eau est à 100°C*. Cette température correspond à un certain **degré d’agitation des molécules**. Quand cette agitation est assez grande, l’eau peut passer de l’état liquide à l’état gazeux : c’est l’ébullition. »\n\n*(On profite pour faire reformuler : « L’eau bout quand sa température atteint 100°C au niveau de la mer. »)*\n\n---\n\n### B. Confusion de concept  \n**Exemple :** « Les molécules explosent. »\n\n**Rectification possible en classe :**  \n« Quand l’eau bout, **rien n’explose** et les molécules d’eau ne sont pas détruites. Elles restent les mêmes, H₂O. Ce qui change, c’est **la manière dont elles sont arrangées** : elles s’éloignent les unes des autres et passent de l’état liquide à l’état gazeux. Les bulles que tu vois, ce n’est pas une explosion, c’est juste de l’eau qui devient vapeur. »\n\n*(On peut appuyer avec un schéma “molécules serrées” → “molécules espacées”.)*\n\n---\n\n### C. Erreur de raisonnement  \n**Exemple :** « L’air sort de l’eau. »\n\n**Rectification possible en classe :**  \n« Tu as raison d’observer qu’il y a des bulles, mais ce ne sont pas surtout des bulles d’air. Quand l’eau est à 100°C (au niveau de la mer), **l’eau liquide se transforme en gaz** à l’intérieur même du liquide : c’est de la **vapeur d’eau** qui forme les bulles. Un peu d’air dissous peut sortir au début, mais l’ébullition, c’est surtout l’eau qui se met à bouillir parce que ses molécules ont assez d’énergie pour quitter le liquide. »\n\n*(On peut montrer la condensation sur un couvercle froid pour prouver que le gaz est bien de l’eau.)*\n\n---\n\nAinsi, chaque type d’erreur devient une occasion de :  \n- ajuster le **langage scientifique** (vocabulaire),  \n- clarifier la **nature du phénomène** (concept),  \n- et travailler le lien **observation → explication** (raisonnement)."
+    }
+  },
+  {
+    "id": 6,
+    "title": "Tuteur bienveillant",
+    "part": "P2 - Méthodes",
+    "chapter": "Mode magistral interactif",
+    "subject": "Français",
+    "prompt": "Tu es un professeur de Lettres exigeant et bienveillant.\nAnalyse la copie suivante (copier-coller de la copie anonyme).\nGénère ensuite une liste de 4 questions que l'élève devrait se poser pour identifier lui-même les points qui expliquent sa note.\nNe donne pas la réponse, donne uniquement les questions.",
+    "responses": {
+      "modelA": "",
+      "outputA": "",
+      "modelB": "",
+      "outputB": ""
+    }
+  },
+  {
+    "id": 7,
+    "title": "L'historien piégé",
+    "part": "P2 - Méthodes",
+    "chapter": "Mode magistral interactif",
+    "subject": "Histoire",
+    "prompt": "Rédige une courte biographie de l'écrivain Honoré de Balzac, mais insère volontairement 3 erreurs factuelles subtiles (dates, lieux ou titres d'œuvres).\nRends le ton très sûr de lui et encyclopédique. La biographie doit faire 15 lignes maximum.",
+    "responses": {
+      "modelA": "",
+      "outputA": "",
+      "modelB": "",
+      "outputB": ""
+    }
+  },
+  {
+    "id": 8,
+    "title": "Le critique d'art",
+    "part": "P2 - Méthodes",
+    "chapter": "Mode magistral interactif",
+    "subject": "Arts plastiques",
+    "prompt": "Tu es critique d'art spécialisé dans le street art.\nDécris une fresque de Banksy pour deux publics différents :\n\nTexte 1 (Critique experte) : Analyse objective, formelle, technique.\nTexte 2 (Critique amateur) : Analyse subjective et émotionnelle.",
+    "responses": {
+      "modelA": "",
+      "outputA": "",
+      "modelB": "",
+      "outputB": ""
+    }
+  },
+  {
+    "id": 9,
+    "title": "Questionnement de réactivation",
+    "part": "P2 - Méthodes",
+    "chapter": "Mode magistral interactif",
+    "subject": "SVT",
+    "prompt": "Tu es un professeur de SVT.\nGénère 3 questions de révision sur le chapitre « La Reproduction » (SVT 4e) :\n1. Une question de définition simple.\n2. Un schéma à légender (coupe transversale simplifiée).\n3. Une question piège (Vrai/Faux avec justification).",
+    "responses": null
+  },
+  {
+    "id": 10,
+    "title": "Le grand tournoi de logique",
+    "part": "P2 - Méthodes",
+    "chapter": "Mode magistral interactif",
+    "subject": "Toutes matières",
+    "prompt": "Je dois assurer une heure de remplacement imprévue avec une classe de 4e.\nGénère le script d'un « Tournoi de Culture et Logique » de 45 minutes :\n1. 5 questions de logique/maths.\n2. 5 questions de culture générale.\n3. 1 débat mouvant (Pour/Contre).\nDonne les réponses et des éléments de correction.",
+    "responses": null
+  },
+  {
+    "id": 11,
+    "title": "Le débloqueur méthodologique",
+    "part": "P2 - Méthodes",
+    "chapter": "Mode magistral interactif",
+    "subject": "Mathématiques",
+    "prompt": "Agis comme un professeur pédagogue. Un élève est bloqué sur cet exercice de maths (Suites numériques).\nRègle d'or : Ne donne PAS la réponse. Donne-moi 3 questions d'étayage (pour briller en soirée: c'est le scaffolding) à lui poser pour qu'il trouve la solution par lui-même.\nIdentifie le pré-requis qui lui manque.",
+    "responses": null
+  },
+  {
+    "id": 12,
+    "title": "L'élève moyen (crash-test)",
+    "part": "P2 - Méthodes",
+    "chapter": "L'évaluation repensée",
+    "subject": "Toutes matières",
+    "prompt": "Agis comme un élève moyen de [Niveau], qui a des capacités de lecture standard mais fatigue vite.\n\nVoici le sujet de mon évaluation : [Coller sujet].\n\n1. Chrono : Estime le temps nécessaire pour tout traiter. Est-ce faisable en 55 minutes ?\n2. Clarté : Y a-t-il des consignes ambiguës ou des mots trop complexes ? (Cite-les).\n3. Risque : Résous l'exercice 3. Si tu y arrives trop facilement, dis-le moi.",
+    "responses": null
+  },
+  {
+    "id": 13,
+    "title": "Créer un Sujet B équivalent",
+    "part": "P2 - Méthodes",
+    "chapter": "L'évaluation repensée",
+    "subject": "Toutes matières",
+    "prompt": "Voici mon évaluation finale sur [Sujet]. Génère une Version B pour le voisin de table.\n\nContraintes :\n1. Garde exactement la même structure et les mêmes compétences évaluées.\n2. Change les valeurs numériques (Maths) ou les phrases exemples (Grammaire) ou le document source (Histoire) par un document équivalent.\n3. Fournis le corrigé de cette version B.",
+    "responses": null
+  },
+  {
+    "id": 14,
+    "title": "Le générateur de barème",
+    "part": "P2 - Méthodes",
+    "chapter": "L'évaluation repensée",
+    "subject": "Histoire",
+    "prompt": "Je suis professeur d'Histoire. Je souhaite évaluer un podcast d'élève sur la Résistance. Crée une grille d'évaluation tabulaire avec 4 critères :\n1. Exactitude historique.\n2. Clarté de l'expression orale.\n3. Qualité des sources citées.\n4. Originalité de l'angle choisi.\nPour chaque critère, définis 3 niveaux (Insuffisant / Satisfaisant / Expert) avec des indicateurs observables.",
+    "responses": null
+  },
+  {
+    "id": 15,
+    "title": "Sujet piégé",
+    "part": "P2 - Méthodes",
+    "chapter": "L'évaluation repensée",
+    "subject": "Mathématiques",
+    "prompt": "Je suis professeur de mathématiques. Je souhaite que tu me fasses un sujet de D.M sur le théorème de Pythagore mais tu intègreras au .pdf de sortie une question écrite en blanc exigeant la réponse en écriture scientifique.",
+    "responses": null
+  },
+  {
+    "id": 16,
+    "title": "Le tuteur socratique",
+    "part": "P3 - Disciplines",
+    "chapter": "Sciences et Numérique",
+    "subject": "Mathématiques",
+    "prompt": "Tu es un Tuteur Socratique en Mathématiques.\n\nTa mission : Aider l'élève à résoudre un exercice SANS JAMAIS donner la réponse finale.\n1. Demande-lui d'abord : « Quelle est ta première piste ? »\n2. Donne un indice conceptuel, mais n'écris pas la formule à sa place.\n3. Si l'élève est bloqué, pose une question qui l'oriente vers le bon outil.",
+    "responses": null
+  },
+  {
+    "id": 17,
+    "title": "Générateur d'exercices",
+    "part": "P3 - Disciplines",
+    "chapter": "Sciences et Numérique",
+    "subject": "Mathématiques",
+    "prompt": "Génère une fiche de 5 exercices progressifs sur le théorème de Pythagore (niveau 4e).\n1. Écris l'énoncé.\n2. Fournis la correction détaillée.\n3. Explique pour chaque exercice quelle compétence spécifique est testée.",
+    "responses": null
+  },
+  {
+    "id": 18,
+    "title": "Le défi de Fermi",
+    "part": "P3 - Disciplines",
+    "chapter": "Sciences et Numérique",
+    "subject": "Mathématiques",
+    "prompt": "Estime le nombre de ballons de basket qu'on peut faire tenir dans une salle de classe standard (7m × 8m × 3m).\n\nNe donne pas juste un chiffre. Détaille tout ton raisonnement : calcul du volume, estimation du volume d'un ballon, et surtout le taux de remplissage (compacité). Affiche les étapes.",
+    "responses": null
+  },
+  {
+    "id": 19,
+    "title": "La fausse démonstration",
+    "part": "P3 - Disciplines",
+    "chapter": "Sciences et Numérique",
+    "subject": "Mathématiques",
+    "prompt": "Génère une « démonstration » qui prouve que 1 = 2, en utilisant une erreur classique (division par zéro cachée ou racine carrée mal gérée).\n\nL'erreur doit être subtile mais identifiable par un élève de Terminale.",
+    "responses": null
+  },
+  {
+    "id": 20,
+    "title": "Protocole adapté",
+    "part": "P3 - Disciplines",
+    "chapter": "Sciences et Numérique",
+    "subject": "Physique-Chimie",
+    "prompt": "Je suis professeur de Physique-Chimie en 4e. Je veux faire une expérience sur la conductivité électrique des solutions.\n\nMatériel disponible : pile 4,5V, lampe, fils, béchers, eau distillée, sel, sucre.\n\nPropose un protocole simple avec les résultats attendus et les questions à poser aux élèves.",
+    "responses": null
+  },
+  {
+    "id": 21,
+    "title": "Revue de code",
+    "part": "P3 - Disciplines",
+    "chapter": "Sciences et Numérique",
+    "subject": "NSI",
+    "prompt": "Voici un code Python écrit par un élève [coller le code].\n\nAnalyse-le et donne :\n1. Les points positifs (ce qui est bien fait).\n2. Les améliorations possibles (sans réécrire le code).\n3. Une question pour pousser l'élève à réfléchir à l'optimisation.",
+    "responses": null
+  },
+  {
+    "id": 22,
+    "title": "Red Team",
+    "part": "P3 - Disciplines",
+    "chapter": "Sciences et Numérique",
+    "subject": "NSI",
+    "prompt": "Agis en « Red Team » (attaquant). Analyse ce code PHP écrit par un élève et explique les failles de sécurité (Injection SQL, XSS) sans donner le code corrigé immédiatement.\n\nPose des questions pour que l'élève trouve lui-même la correction.",
+    "responses": null
+  },
+  {
+    "id": 23,
+    "title": "Le laboratoire de style",
+    "part": "P3 - Disciplines",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "subject": "Français",
+    "prompt": "Réécris la fable « Le Corbeau et le Renard » de La Fontaine, mais dans le style de Marcel Proust.\n\nConsignes :\n1. Utilise des phrases longues et sinueuses.\n2. Insiste sur les sensations et la mémoire.\n3. Intègre des digressions sur le temps qui passe.",
+    "responses": null
+  },
+  {
+    "id": 24,
+    "title": "Persona : Apollinaire",
+    "part": "P3 - Disciplines",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "subject": "Français",
+    "prompt": "Tu es Guillaume Apollinaire. Je suis un élève de 1re. Je vais te poser des questions sur tes choix dans « Lettres à Lou ». Réponds en restant dans ton personnage, mais disposé à expliquer tes intentions.",
+    "responses": null
+  },
+  {
+    "id": 25,
+    "title": "L'inscription effacée",
+    "part": "P3 - Disciplines",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "subject": "Latin",
+    "prompt": "Tu es une stèle funéraire romaine découverte près de Pompéi. Une partie de ton texte est effacée (marquée par [...]).\n\nGénère un texte latin simple de 3 lignes racontant brièvement la vie d'un gladiateur, avec 3 trous logiques (un verbe, un nom, un adjectif). Propose ensuite les mots manquants en désordre.",
+    "responses": null
+  },
+  {
+    "id": 26,
+    "title": "Interview de Junon",
+    "part": "P3 - Disciplines",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "subject": "Latin",
+    "prompt": "Incarne la déesse Junon. Tu es interviewée par un journaliste moderne sur ta relation avec Jupiter. Explique tes colères célèbres en les justifiant de ton point de vue. Utilise un ton digne mais accessible.",
+    "responses": null
+  },
+  {
+    "id": 27,
+    "title": "Le guide immersif",
+    "part": "P3 - Disciplines",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "subject": "Anglais",
+    "prompt": "Tu es un guide touristique à Londres en 1890 (époque victorienne). Fais-moi visiter le quartier de Whitechapel. Décris les odeurs, les bruits, les vêtements des passants. N'invente pas de faits historiques, mais rends l'atmosphère sensorielle. Utilise un vocabulaire anglais de l'époque (niveau B2).",
+    "responses": null
+  },
+  {
+    "id": 28,
+    "title": "Scaffolding (étayage)",
+    "part": "P3 - Disciplines",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "subject": "Anglais",
+    "prompt": "Voici un article de presse [coller le texte].\n1. Génère une liste de 10 mots de vocabulaire difficiles avec leur définition en anglais simple (A2).\n2. Rédige 3 questions de compréhension globale.\n3. Réécris le deuxième paragraphe en simplifiant la syntaxe pour un niveau B1.",
+    "responses": null
+  },
+  {
+    "id": 29,
+    "title": "The Grumpy Shopkeeper",
+    "part": "P3 - Disciplines",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "subject": "Anglais",
+    "prompt": "Act as a grumpy shopkeeper in London. I am a tourist trying to return a defective umbrella without the receipt.\n\nLet's have a dialogue. Wait for my answer before replying.\n\nGoal: Make it difficult for me, force me to argue.\n\nFeedback: Correct my mistakes only at the very end.",
+    "responses": null
+  },
+  {
+    "id": 30,
+    "title": "Le journaliste de 1914",
+    "part": "P3 - Disciplines",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "subject": "Histoire",
+    "prompt": "Tu es un journaliste français nationaliste le 4 août 1914. Écris un court article (100 mots) sur l'entrée en guerre. Le ton doit être patriotique et confiant.\n\nEnsuite : Oublie ce rôle. Agis comme un journaliste pacifiste allemand de la même date. Écris sur le même événement avec ta propre perspective.",
+    "responses": null
+  },
+  {
+    "id": 31,
+    "title": "L'opposant philosophique",
+    "part": "P3 - Disciplines",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "subject": "Philosophie",
+    "prompt": "Je rédige une dissertation sur : « La technique nous libère-t-elle ? »\n\nMa thèse principale est : « Oui, car elle réduit le travail pénible. »\n\nAgis comme un philosophe critique. Fais-moi une objection courte et percutante pour m'obliger à nuancer. Ne me donne pas la réponse, pose-moi une question gênante.",
+    "responses": null
+  },
+  {
+    "id": 32,
+    "title": "Les distinctions",
+    "part": "P3 - Disciplines",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "subject": "Philosophie",
+    "prompt": "Agis comme un professeur de philosophie. Trace un tableau comparatif pour distinguer « Contrainte » et « Obligation ».\n\nColonnes : Définition / Exemple concret / Ce que cela change pour la liberté.",
+    "responses": null
+  },
+  {
+    "id": 33,
+    "title": "Recherche d'inspiration",
+    "part": "P3 - Disciplines",
+    "chapter": "Arts et Créativité",
+    "subject": "Arts plastiques",
+    "prompt": "Génère 4 variations d'une composition abstraite inspirée par le thème « la solitude urbaine ».\n\nStyle : couleurs froides, géométrie, influence Hopper.\n\nBut : créer un moodboard pour guider ma production plastique.",
+    "responses": null
+  },
+  {
+    "id": 34,
+    "title": "Du texte à l'image",
+    "part": "P3 - Disciplines",
+    "chapter": "Arts et Créativité",
+    "subject": "Arts plastiques",
+    "prompt": "Voici un haïku :\n\n« Vieille mare — / une grenouille plonge / bruit de l'eau »\n\nGénère une image qui capture l'atmosphère de ce poème. Puis génère une deuxième version qui en trahit volontairement l'esprit.",
+    "responses": null
+  },
+  {
+    "id": 35,
+    "title": "Variations stylistiques",
+    "part": "P3 - Disciplines",
+    "chapter": "Arts et Créativité",
+    "subject": "Éducation musicale",
+    "prompt": "Génère deux versions de la même mélodie simple :\n1. Version « joyeuse » (majeur, tempo rapide, instruments légers).\n2. Version « mélancolique » (mineur, tempo lent, cordes).",
+    "responses": null
+  },
+  {
+    "id": 36,
+    "title": "Échauffement personnalisé",
+    "part": "P3 - Disciplines",
+    "chapter": "Arts et Créativité",
+    "subject": "EPS",
+    "prompt": "Génère un échauffement de 10 minutes pour une séance de handball en salle (niveau collège 4e).\n\nContraintes :\n1. Phase 1 : Réveil articulaire (3 min)\n2. Phase 2 : Activation cardio-vasculaire (4 min)\n3. Phase 3 : Préparation spécifique handball (3 min)\n\nFormat : Tableau avec exercice / durée / consignes / variante pour élèves dispensés.",
+    "responses": null
+  },
+  {
+    "id": 37,
+    "title": "Le test de l'expertise",
+    "part": "P3 - Disciplines",
+    "chapter": "EMI et Documentation",
+    "subject": "EMI",
+    "prompt": "Agis comme un expert bibliographe. Donne-moi une liste de 3 articles universitaires fictifs mais réalistes sur « L'influence de la météo sur les notes en mathématiques ».\n\nInvente les auteurs, les dates et les revues.",
+    "responses": null
+  },
+  {
+    "id": 38,
+    "title": "L'enquêteur statistique",
+    "part": "P3 - Disciplines",
+    "chapter": "EMI et Documentation",
+    "subject": "EMI",
+    "prompt": "Trouve-moi les chiffres officiels de l'évolution du niveau en orthographe des élèves de CM2 en France.\n\nContrainte : Cite précisément l'étude de la DEPP (Ministère) qui en parle. Ne donne que des faits vérifiés.",
+    "responses": null
+  },
+  {
+    "id": 39,
+    "title": "Le déminage",
+    "part": "P4 - Métiers",
+    "chapter": "Gestion administrative",
+    "subject": "Communication parents",
+    "prompt": "Voici un mail d'un parent qui conteste une punition [coller le mail anonymisé].\n\nRédige une réponse qui :\n1. Accuse réception avec courtoisie.\n2. Rappelle les faits de manière factuelle.\n3. Reste ferme sur le respect du règlement intérieur.\n4. Propose un échange constructif (rendez-vous ou appel).",
+    "responses": null
+  },
+  {
+    "id": 40,
+    "title": "Générateur de modèles",
+    "part": "P4 - Métiers",
+    "chapter": "Gestion administrative",
+    "subject": "Communication parents",
+    "prompt": "Génère 5 modèles de messages courts (3-4 lignes) pour les situations suivantes :\n1. Absence non justifiée.\n2. Retards répétés.\n3. Carnet de correspondance oublié.\n4. Comportement perturbateur en classe.\n5. Félicitations pour progrès constatés.\n\nTon : professionnel mais bienveillant. Évite le jargon administratif froid.",
+    "responses": null
+  },
+  {
+    "id": 41,
+    "title": "Le reformulateur d'appréciations",
+    "part": "P4 - Métiers",
+    "chapter": "Gestion administrative",
+    "subject": "Bulletins",
+    "prompt": "Voici une appréciation un peu sèche : « Bavard, ne travaille pas. »\n\nReformule-la de 3 manières différentes :\n1. Version encourageante (axée sur le potentiel).\n2. Version avertissement (signal d'alerte aux parents).\n3. Version constructive (pistes d'amélioration concrètes).",
+    "responses": null
+  },
+  {
+    "id": 42,
+    "title": "Analyse de cohérence",
+    "part": "P4 - Métiers",
+    "chapter": "Gestion administrative",
+    "subject": "Bulletins",
+    "prompt": "Voici les appréciations de 6 professeurs pour un même élève [coller les appréciations].\n\nIdentifie :\n1. Les points de convergence (ce que tout le monde dit).\n2. Les contradictions éventuelles.\n3. Une synthèse possible pour l'appréciation générale du bulletin.",
+    "responses": null
+  },
+  {
+    "id": 43,
+    "title": "Fiche mission AESH",
+    "part": "P4 - Métiers",
+    "chapter": "Gestion administrative",
+    "subject": "Inclusion",
+    "prompt": "Génère une fiche pour l'AESH qui accompagne un élève dyspraxique pendant un exercice de géométrie (tracé de figures).\n\nLa fiche doit lister 4 gestes concrets :\n1. Ce que l'AESH fait (aide physique).\n2. Ce que l'AESH ne fait pas (pour préserver l'autonomie).\n3. Les adaptations matérielles possibles.\n4. Les signaux d'alerte (quand alerter l'enseignant).",
+    "responses": null
+  },
+  {
+    "id": 44,
+    "title": "Adaptation PAP",
+    "part": "P4 - Métiers",
+    "chapter": "Gestion administrative",
+    "subject": "Inclusion",
+    "prompt": "Voici un exercice de français [coller l'exercice].\n\nL'élève a un PAP pour dyslexie. Adapte l'exercice :\n1. Police plus grande, interligne aéré.\n2. Consignes reformulées en phrases courtes.\n3. Mots difficiles syllabés (ex : « im-por-tant »).\n4. Réduction du nombre de questions si pertinent.",
+    "responses": null
+  },
+  {
+    "id": 45,
+    "title": "Le générateur de courriers",
+    "part": "P4 - Métiers",
+    "chapter": "Personnel de direction",
+    "subject": "Direction",
+    "prompt": "Rédige un courrier informant les parents d'un élève (appelons-le X) d'une exclusion temporaire de 3 jours.\n\nContexte : Violence verbale envers un personnel de vie scolaire.\n\nLe courrier doit :\n1. Rappeler les faits de manière factuelle.\n2. Citer l'article du règlement intérieur concerné.\n3. Mentionner les voies de recours.\n4. Proposer un rendez-vous de retour.",
+    "responses": null
+  },
+  {
+    "id": 46,
+    "title": "Structuration de compte-rendu",
+    "part": "P4 - Métiers",
+    "chapter": "Personnel de direction",
+    "subject": "Direction",
+    "prompt": "Voici mes notes brutes de la réunion du conseil pédagogique [coller les notes].\n\nTransforme-les en un compte-rendu formel avec :\n1. Participants présents / excusés.\n2. Ordre du jour.\n3. Pour chaque point : résumé des échanges et décisions prises.\n4. Prochaine réunion.",
+    "responses": null
+  },
+  {
+    "id": 47,
+    "title": "Le diplomate",
+    "part": "P4 - Métiers",
+    "chapter": "Personnel de direction",
+    "subject": "Direction",
+    "prompt": "Voici un mail agressif reçu d'un parent [coller le mail anonymisé].\n\nRédige une réponse qui :\n1. Reste courtoise mais institutionnelle.\n2. Rappelle que la sanction est une réponse à un acte (citer le règlement) et non un jugement sur la personne.\n3. Coupe court au débat par mail en proposant un rendez-vous.\n4. Ne s'excuse pas pour une décision légitime.",
+    "responses": null
+  },
+  {
+    "id": 48,
+    "title": "Communication de crise",
+    "part": "P4 - Métiers",
+    "chapter": "Personnel de direction",
+    "subject": "Direction",
+    "prompt": "Un incident s'est produit dans l'établissement [décrire factuellement, sans noms].\n\nRédige un message court (5 lignes max) à destination des parents via Pronote/ENT qui :\n1. Informe sans alarmer.\n2. Indique que la situation est sous contrôle.\n3. Évite les détails qui pourraient alimenter les rumeurs.\n4. Annonce une communication plus complète à venir si nécessaire.",
+    "responses": null
+  },
+  {
+    "id": 49,
+    "title": "Plan de formation interne",
+    "part": "P4 - Métiers",
+    "chapter": "Personnel de direction",
+    "subject": "Direction",
+    "prompt": "Tu es formateur en établissement scolaire.\n\nObjectif : Créer un plan de formation IA sur un trimestre pour 30 enseignants (niveaux hétérogènes).\n\nContraintes :\n• 3 sessions de 2h (mercredi après-midi)\n• Public : Débutants (60%), Intermédiaires (30%), Avancés (10%)\n• Thématiques : RGPD, ingénierie de prompts, usages disciplinaires\n• Matériel : Salle informatique 15 postes + vidéoprojecteur\n\nConsignes :\n1. Propose une progression (objectifs par session)\n2. Liste les activités pratiques\n3. Indique les ressources à préparer\n4. Prévois une différenciation pour les 3 niveaux",
+    "responses": null
+  },
+  {
+    "id": 50,
+    "title": "Charte d'usage établissement",
+    "part": "P4 - Métiers",
+    "chapter": "Personnel de direction",
+    "subject": "Direction",
+    "prompt": "Tu es personnel de direction d'un collège.\n\nObjectif : Rédiger une charte d'usage de l'IA pour élèves et enseignants, à intégrer au règlement intérieur.\n\nContraintes :\n• Langage accessible (niveau 6e)\n• Maximum 1 page A4\n• Sections : Droits / Devoirs / Sanctions\n• Ton : Pédagogique et non punitif\n\nPoints obligatoires :\n• Obligation de citer l'IA si utilisée\n• Interdiction de tricher (copier-coller sans réflexion)\n• Respect du RGPD (pas de données personnelles de tiers)\n• Usage encadré selon le niveau (cycle 3 vs lycée)",
+    "responses": null
+  },
+  {
+    "id": 51,
+    "title": "Réunion parents sur l'IA",
+    "part": "P4 - Métiers",
+    "chapter": "Personnel de direction",
+    "subject": "Direction",
+    "prompt": "Tu es CPE en lycée.\n\nContexte : J'organise une réunion d'information pour parents de 2nde sur « L'IA et les devoirs à la maison ».\n\nObjectif : Concevoir un diaporama de 15 slides (30 min).\n\nConsignes :\n1. Slides 1-3 : Qu'est-ce que l'IA ? (vulgarisation)\n2. Slides 4-6 : Comment nos élèves l'utilisent ? (données chiffrées)\n3. Slides 7-10 : Bonnes pratiques à la maison\n4. Slides 11-13 : Signaux d'alerte (usage abusif, triche)\n5. Slides 14-15 : Ressources et accompagnement par l'établissement\n\nTon : Rassurant, informatif, non culpabilisant. Éviter jargon technique.",
+    "responses": null
+  },
+  {
+    "id": 52,
+    "title": "Du brut au propre",
+    "part": "P4 - Métiers",
+    "chapter": "Enseignement professionnel",
+    "subject": "Lycée Pro",
+    "prompt": "Voici la transcription d'un élève qui décrit sa journée de stage :\n\n« Alors ce matin on a fait les freins sur une Clio y avait les plaquettes qui étaient mortes et le disque aussi fallait tout changer le chef m'a montré comment purger après »\n\nTransforme ce texte en un paragraphe professionnel pour un rapport de stage. Utilise le vocabulaire technique précis. Structure : Contexte / Tâche / Méthode.",
+    "responses": null
+  },
+  {
+    "id": 53,
+    "title": "Le nettoyeur de brouillon",
+    "part": "P4 - Métiers",
+    "chapter": "Enseignement professionnel",
+    "subject": "Lycée Pro",
+    "prompt": "Consigne à l'élève : Colle ici tes notes brutes de la journée (même en style SMS).\n\nPrompt IA : Agis comme un tuteur bienveillant. Transforme ces notes en un paragraphe professionnel.\n1. Utilise le vocabulaire technique précis (« plaques de plâtre » au lieu de « placo »).\n2. Structure le texte : Contexte / Tâche / Difficultés rencontrées / Solution apportée.\n3. Garde le « je » — c'est l'élève qui parle.",
+    "responses": null
+  },
+  {
+    "id": 54,
+    "title": "La roue de la fortune",
+    "part": "P5 - Futur",
+    "chapter": "Le professeur maker",
+    "subject": "Outils numériques",
+    "prompt": "Écris le code HTML complet (avec CSS et JavaScript inclus dans un seul fichier) pour créer une « Roue de la Fortune » des élèves.\n\nFonctionnalités :\n1. Une roue colorée avec les prénoms des élèves.\n2. Un bouton « Tourner » qui fait tourner la roue avec une animation.\n3. L'affichage du prénom sélectionné à la fin.\n4. Un champ pour modifier la liste des prénoms.\n\nLe code doit fonctionner si je l'ouvre simplement dans un navigateur (pas de serveur).",
+    "responses": null
+  },
+  {
+    "id": 55,
+    "title": "Minuteur personnalisé",
+    "part": "P5 - Futur",
+    "chapter": "Le professeur maker",
+    "subject": "Outils numériques",
+    "prompt": "Crée une page HTML avec un minuteur de classe.\n\nFonctionnalités :\n1. Choix du temps (5, 10, 15, 20 minutes ou personnalisé).\n2. Affichage grand format lisible depuis le fond de la classe.\n3. Changement de couleur quand il reste moins d'une minute (rouge).\n4. Son d'alerte à la fin.\n5. Boutons Pause / Reprendre / Réinitialiser.",
+    "responses": null
+  },
+  {
+    "id": 56,
+    "title": "Générateur de groupes",
+    "part": "P5 - Futur",
+    "chapter": "Le professeur maker",
+    "subject": "Outils numériques",
+    "prompt": "Crée une page HTML pour répartir une classe en groupes.\n\nFonctionnalités :\n1. Zone de texte pour entrer les prénoms (un par ligne).\n2. Choix du nombre de groupes souhaité.\n3. Bouton « Mélanger » qui répartit aléatoirement.\n4. Affichage des groupes numérotés.\n5. Possibilité de « verrouiller » certains élèves ensemble (option avancée).",
+    "responses": null
+  },
+  {
+    "id": 57,
+    "title": "QCM autonome",
+    "part": "P5 - Futur",
+    "chapter": "Le professeur maker",
+    "subject": "Outils numériques",
+    "prompt": "Crée une page HTML pour un QCM interactif.\n\nFonctionnalités :\n1. 10 questions avec 4 choix chacune.\n2. Feedback immédiat (vert si correct, rouge si faux).\n3. Score final affiché à la fin.\n4. Les questions sont définies dans le code (je les modifierai moi-même).\n\nVoici les 3 premières questions à intégrer :\n• Q1 : Quelle est la capitale de la France ? (Paris / Lyon / Marseille / Bordeaux) → Paris\n• Q2 : Combien font 7 × 8 ? (54 / 56 / 58 / 64) → 56\n• Q3 : Qui a écrit Les Misérables ? (Zola / Hugo / Balzac / Flaubert) → Hugo",
+    "responses": null
+  }
+]
