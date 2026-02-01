@@ -28,6 +28,12 @@ RSS_SOURCES = {
     "Google AI": "https://blog.google/technology/ai/rss/",
 }
 
+# Twitter accounts via Nitter (open-source Twitter mirror)
+TWITTER_SOURCES = {
+    "@nsi_xyz": "https://nitter.net/nsi_xyz/rss",
+    "@sophiaefrance": "https://nitter.net/sophiaefrance/rss",
+}
+
 # Keywords to filter AI-related content
 AI_KEYWORDS = [
     "ia", "ai", "intelligence artificielle", "artificial intelligence",
@@ -136,6 +142,12 @@ def main():
     all_articles = []
     for source, url in RSS_SOURCES.items():
         print(f"📡 Fetching {source}...")
+        articles = fetch_rss(url, source)
+        all_articles.extend(articles)
+    
+    # Fetch Twitter feeds via Nitter
+    for source, url in TWITTER_SOURCES.items():
+        print(f"🐦 Fetching {source}...")
         articles = fetch_rss(url, source)
         all_articles.extend(articles)
     
