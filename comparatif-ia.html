@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparatif IA - Génération d'images</title>
+    <meta name="description" content="Comparaison de différents modèles d'IA générative sur un même prompt.">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/comparatif.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo"><span class="logo-icon">📚</span><span class="logo-text">Enseigner avec
+                    l'IA</span></a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu"><i data-lucide="menu"></i></button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="conversations.html" class="nav-link">Conversations</a></li>
+                <li><a href="outils.html" class="nav-link">Outils</a></li>
+                <li><a href="formation.html" class="nav-link">Formation</a></li>
+                <li><a href="veille.html" class="nav-link">Veille</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="comparatif-main">
+        <div class="container">
+            <section class="comparatif-header">
+                <span class="section-badge"><i data-lucide="image"></i> Expérimentation</span>
+                <h1 class="page-title">Comparatif : Génération d'images par IA</h1>
+                <p class="page-subtitle">Test réalisé le <strong>1er février 2026</strong> sur <a
+                        href="https://arena.ai/fr" target="_blank" rel="noopener">arena.ai</a></p>
+            </section>
+
+            <section class="prompt-section">
+                <h2 class="prompt-label">Prompt utilisé :</h2>
+                <blockquote class="prompt-text">
+                    « Fais des photos de moi en train de corriger des copies à mon bureau.
+                    <strong>Attention, je suis gaucher, tu mettras bien en évidence mes mains.</strong> »
+                </blockquote>
+            </section>
+
+            <section class="original-section">
+                <h2 class="section-title-comparatif"><i data-lucide="camera"></i> Photo originale fournie</h2>
+                <div class="original-image-container">
+                    <img src="images%20générées%20par%20IA/photo%20originale.jpg" alt="Photo originale de l'auteur"
+                        class="original-image">
+                    <p class="image-caption">Photo de référence fournie au modèle</p>
+                </div>
+            </section>
+
+            <section class="results-section">
+                <h2 class="section-title-comparatif"><i data-lucide="sparkles"></i> Résultats des différents modèles
+                </h2>
+
+                <div class="result-grid">
+                    <!-- Seedream 4.5 - SUCCESS -->
+                    <article class="result-card result-success">
+                        <div class="result-badge success"><i data-lucide="check-circle"></i> Réussi</div>
+                        <div class="result-image-container">
+                            <img src="images%20générées%20par%20IA/seedream-4.5.jpeg" alt="Seedream 4.5"
+                                class="result-image">
+                        </div>
+                        <div class="result-info">
+                            <h3 class="result-model">Seedream 4.5</h3>
+                            <p class="result-verdict">✅ Seul modèle à respecter la consigne "gaucher"</p>
+                        </div>
+                    </article>
+
+                    <!-- GPT Image 1.5 -->
+                    <article class="result-card result-fail">
+                        <div class="result-badge fail"><i data-lucide="x-circle"></i> Échec</div>
+                        <div class="result-image-container">
+                            <img src="images%20générées%20par%20IA/gpt-image-1.5-high-fidelity_a_fais_des_photos_de_m.png"
+                                alt="GPT Image 1.5" class="result-image">
+                        </div>
+                        <div class="result-info">
+                            <h3 class="result-model">GPT Image 1.5 (High Fidelity)</h3>
+                            <p class="result-verdict">❌ Main droite utilisée</p>
+                        </div>
+                    </article>
+
+                    <!-- Gemini 3 Pro 2K -->
+                    <article class="result-card result-fail">
+                        <div class="result-badge fail"><i data-lucide="x-circle"></i> Échec</div>
+                        <div class="result-image-container">
+                            <img src="images%20générées%20par%20IA/gemini-3-pro-image-preview-2k_b_fais_des_photos_de_m.png"
+                                alt="Gemini 3 Pro 2K" class="result-image">
+                        </div>
+                        <div class="result-info">
+                            <h3 class="result-model">Gemini 3 Pro Image (2K)</h3>
+                            <p class="result-verdict">❌ Main droite utilisée</p>
+                        </div>
+                    </article>
+
+                    <!-- Gemini 3 Pro -->
+                    <article class="result-card result-fail">
+                        <div class="result-badge fail"><i data-lucide="x-circle"></i> Échec</div>
+                        <div class="result-image-container">
+                            <img src="images%20générées%20par%20IA/gemini-3-pro-image-preview_b_fais_des_photos_de_m.png"
+                                alt="Gemini 3 Pro" class="result-image">
+                        </div>
+                        <div class="result-info">
+                            <h3 class="result-model">Gemini 3 Pro Image</h3>
+                            <p class="result-verdict">❌ Main droite utilisée</p>
+                        </div>
+                    </article>
+
+                    <!-- Flux 2 Max -->
+                    <article class="result-card result-fail">
+                        <div class="result-badge fail"><i data-lucide="x-circle"></i> Échec</div>
+                        <div class="result-image-container">
+                            <img src="images%20générées%20par%20IA/flux-2-max-20251222_a_fais_des_photos_de_m.jpeg"
+                                alt="Flux 2 Max" class="result-image">
+                        </div>
+                        <div class="result-info">
+                            <h3 class="result-model">Flux 2 Max</h3>
+                            <p class="result-verdict">❌ Main droite utilisée</p>
+                        </div>
+                    </article>
+
+                    <!-- Epsilon -->
+                    <article class="result-card result-fail">
+                        <div class="result-badge fail"><i data-lucide="x-circle"></i> Échec</div>
+                        <div class="result-image-container">
+                            <img src="images%20générées%20par%20IA/epsilon_a_fais_des_photos_de_m.png" alt="Epsilon"
+                                class="result-image">
+                        </div>
+                        <div class="result-info">
+                            <h3 class="result-model">Epsilon</h3>
+                            <p class="result-verdict">❌ Main droite utilisée</p>
+                        </div>
+                    </article>
+
+                    <!-- Wan 2.6 -->
+                    <article class="result-card result-fail">
+                        <div class="result-badge fail"><i data-lucide="x-circle"></i> Échec</div>
+                        <div class="result-image-container">
+                            <img src="images%20générées%20par%20IA/wan2.6-image_b_fais_des_photos_de_m.png"
+                                alt="Wan 2.6" class="result-image">
+                        </div>
+                        <div class="result-info">
+                            <h3 class="result-model">Wan 2.6 Image</h3>
+                            <p class="result-verdict">❌ Main droite utilisée</p>
+                        </div>
+                    </article>
+
+                    <!-- Vidu Q2 -->
+                    <article class="result-card result-fail">
+                        <div class="result-badge fail"><i data-lucide="x-circle"></i> Échec</div>
+                        <div class="result-image-container">
+                            <img src="images%20générées%20par%20IA/vidu-q2-image.png" alt="Vidu Q2"
+                                class="result-image">
+                        </div>
+                        <div class="result-info">
+                            <h3 class="result-model">Vidu Q2 Image</h3>
+                            <p class="result-verdict">❌ Main droite utilisée</p>
+                        </div>
+                    </article>
+
+                    <!-- Qwen Image Edit -->
+                    <article class="result-card result-fail">
+                        <div class="result-badge fail"><i data-lucide="x-circle"></i> Échec</div>
+                        <div class="result-image-container">
+                            <img src="images%20générées%20par%20IA/qwen-image-edit-2511_a_fais_des_photos_de_m.jpeg"
+                                alt="Qwen Image Edit" class="result-image">
+                        </div>
+                        <div class="result-info">
+                            <h3 class="result-model">Qwen Image Edit</h3>
+                            <p class="result-verdict">❌ Main droite utilisée</p>
+                        </div>
+                    </article>
+
+                    <!-- P Image Edit -->
+                    <article class="result-card result-fail">
+                        <div class="result-badge fail"><i data-lucide="x-circle"></i> Échec</div>
+                        <div class="result-image-container">
+                            <img src="images%20générées%20par%20IA/p-image-edit_b_fais_des_photos_de_m.jpeg"
+                                alt="P Image Edit" class="result-image">
+                        </div>
+                        <div class="result-info">
+                            <h3 class="result-model">P Image Edit</h3>
+                            <p class="result-verdict">❌ Main droite utilisée</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="conclusion-section">
+                <h2 class="section-title-comparatif"><i data-lucide="lightbulb"></i> Conclusion</h2>
+                <div class="conclusion-box">
+                    <p>Sur <strong>10 modèles testés</strong>, seul <strong>Seedream 4.5</strong> a correctement
+                        interprété la consigne concernant la main gauche.</p>
+                    <p class="conclusion-highlight">Cela illustre une limite importante des IA génératives : la
+                        difficulté à suivre des instructions précises concernant la latéralité et l'anatomie des mains.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fabien Boyer - Éditions Ellipses.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

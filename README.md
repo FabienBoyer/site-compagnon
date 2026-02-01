@@ -4,7 +4,7 @@ Site compagnon du livre **"Les outils pour enseigner avec l'IA"** de Fabien Boye
 
 ## 🌐 Voir le site
 
-👉 **[Accéder au site](https://VOTRE_USERNAME.github.io/site-compagnon/)**
+👉 **[Accéder au site](https://fabienboyer.github.io/site-compagnon/)**
 
 ## 📖 Contenu
 
