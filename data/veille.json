@@ -1,14 +1,260 @@
 {
-    "articles": [],
-    "last_update": null,
-    "sources": [
-        "Une IA par jour",
-        "Mathix (A. Durand)",
-        "OpenAI Blog",
-        "Google AI",
-        "Anthropic",
-        "Mistral AI",
-        "Canopé",
-        "Éduscol"
-    ]
+  "articles": [
+    {
+      "title": "Vibe paint",
+      "link": "https://www.uneiaparjour.fr/vibe-paint/",
+      "date": "2026-01-31T21:41:00",
+      "source": "Une IA par jour",
+      "summary": "Vibe paint (https://vibepaint-ai-795372324720.us-west1.run.app/) transforme un dessin réalisé directement dans l&#8217;interface à partir d&#8217;un style prédéfini. Le dessin transformé peut ensuite "
+    },
+    {
+      "title": "LLM Council",
+      "link": "https://www.uneiaparjour.fr/llm-council/",
+      "date": "2026-01-29T21:08:00",
+      "source": "Une IA par jour",
+      "summary": "LLM Council (documentation : https://github.com/machine-theory/lm-council?tab=readme-ov-file, démonstration : https://huggingface.co/spaces/burtenshaw/karpathy-llm-council et présentation vidéo de la "
+    },
+    {
+      "title": "Prism",
+      "link": "https://www.uneiaparjour.fr/prism/",
+      "date": "2026-01-28T21:50:07",
+      "source": "Une IA par jour",
+      "summary": "Prism (présentation : https://openai.com/fr-FR/prism/ et application : https://prism.openai.com/) d&#8217;OpenAI est un éditeur LaTex couplé à un chatbot basé sur ChatGPT 5.2. (LaTex est un langage et"
+    },
+    {
+      "title": "Leadde",
+      "link": "https://www.uneiaparjour.fr/leadde/",
+      "date": "2026-01-27T21:16:00",
+      "source": "Une IA par jour",
+      "summary": "Leadde (https://leadde.ai) génère une vidéo explicative avec avatar etvoix à partir d&#8217;un document ou d&#8217;une présentation. Choix de l&#8217;avatar et de la voix, de la forme de la présentati"
+    },
+    {
+      "title": "Mindmaclasse",
+      "link": "https://www.uneiaparjour.fr/mindmaclasse/",
+      "date": "2026-01-26T21:27:00",
+      "source": "Une IA par jour",
+      "summary": "Mindmaclasse (https://apps4edu.fr/mindmaclasse/) génère des cartes mentales à partir d&#8217;une instruction ou d&#8217;un document ainsi que des exercices pour réviser (quiz, textes à trous et flashc"
+    },
+    {
+      "title": "Cybercut",
+      "link": "https://www.uneiaparjour.fr/cybercut/",
+      "date": "2026-01-25T21:28:00",
+      "source": "Une IA par jour",
+      "summary": "Cybercut (https://cybercut.ai/) est une application de montage vidéo assistée par l&#8217;IA. Trois fonctionnalités principales : D&#8217;autres fonctionnalités sont proposées : génération d&#8217;ima"
+    },
+    {
+      "title": "Anam",
+      "link": "https://www.uneiaparjour.fr/anam/",
+      "date": "2026-01-24T22:17:00",
+      "source": "Une IA par jour",
+      "summary": "Anam (https://anam.ai) crée des chatbots basés sur des avatars vidéo à partir d&#8217;une instruction. 8 modèles de langage, 42 avatars et 499 voix disponibles (dont 1 multilingue, 2 en français et 2 "
+    },
+    {
+      "title": "Rapidnative",
+      "link": "https://www.uneiaparjour.fr/rapidnative/",
+      "date": "2026-01-23T22:23:57",
+      "source": "Une IA par jour",
+      "summary": "Rapidnative (https://www.rapidnative.com) génère des applications mobiles à partir d&#8217;une instruction. Détection et correction des erreurs.Le mode édition objet par objet est possible.Génération "
+    },
+    {
+      "title": "Equipe : un outil pour créer des groupes d’élèves",
+      "link": "https://mathix.org/linux/archives/22061",
+      "date": "2026-02-02T07:26:31",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Bon, cette année, mes loulous de 5e, ils ont des difficultés à travailler avec les élèves du sexe opposé, les garçons restent entre garçons et les filles entre filles (sauf u"
+    },
+    {
+      "title": "LLM et FlashMD",
+      "link": "https://mathix.org/linux/archives/22055",
+      "date": "2026-01-31T10:25:11",
+      "source": "Mathix (A. Durand)",
+      "summary": "Après avoir longtemps utilisé CartesMD, je viens de découvrir FlashMD, que je trouve plus simple et plus direct pour mon usage. CartesMD est sans aucun doute plus complet, mais mon besoin est très ori"
+    },
+    {
+      "title": "Scénario didactique : Apprendre à faire des liens entre notions tout en critiquant l’IA, c’est possible ?",
+      "link": "https://mathix.org/linux/archives/22035",
+      "date": "2026-01-30T22:58:37",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Je tenais à partager une petite activité régulière que l&#8217;on peut faire avec les élèves (issue d&#8217;une idée lancée par François GUERINAUD l&#8217;année dernière, en"
+    },
+    {
+      "title": "Et si on accédait à l’IA-Albert avec les élèves ?",
+      "link": "https://mathix.org/linux/archives/22010",
+      "date": "2026-01-29T06:27:54",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Bon ce que je propose est purement expérimental &#38; basé sur l&#8217;API ALBERT d&#8217;étalab du gouvernement. J&#8217;ai eu un accès anticipé à l&#8217;API, youhou!!!. C&"
+    },
+    {
+      "title": "IA, données « anonymes »… vraiment ?",
+      "link": "https://mathix.org/linux/archives/22006",
+      "date": "2026-01-26T17:41:19",
+      "source": "Mathix (A. Durand)",
+      "summary": "Nouvelle activité autour de l’IA, mais sans utiliser l’IA. L’idée est simple : faire vivre aux élèves une expérience concrète pour comprendre ce que signifie vraiment donnée anonyme… et surtout pourqu"
+    },
+    {
+      "title": "L’utilisation de l’IA, la dette cognitive : forcément ?",
+      "link": "https://mathix.org/linux/archives/21927",
+      "date": "2026-01-25T11:55:54",
+      "source": "Mathix (A. Durand)",
+      "summary": "L&#8217;utilisation de l&#8217;IA par les élèves se révèle être un enjeu sociétal fort sur plusieurs points avec entre autres : L&#8217;IA secoue la société sur ces différents aspects, son évolution r"
+    },
+    {
+      "title": "Mettre des élèves de 5e dans la peau de chercheurs pour préparer l’usage de l’IA en 4e.",
+      "link": "https://mathix.org/linux/archives/21916",
+      "date": "2026-01-24T18:40:56",
+      "source": "Mathix (A. Durand)",
+      "summary": "VOici la 5e activité sur l&#8217;IA sans IA pour les élèves de 5e. En fin de 5e, une question finira par émerger :« En 4e, on pourra utiliser l’IA ? » question directement liée au cadre posé par la le"
+    },
+    {
+      "title": "Peut-on parler de l’impact écologique de l’IA autrement qu’avec des slogans ?",
+      "link": "https://mathix.org/linux/archives/21913",
+      "date": "2026-01-24T15:35:30",
+      "source": "Mathix (A. Durand)",
+      "summary": "Activité 4 – La pollution silencieuse Après trois activités mathématiques sans utiliser l’IA mais autour de l’IA, voici la quatrième.Son titre : « La pollution silencieuse ». L’objectif n’est pas d’as"
+    },
+    {
+      "title": "Animations sur l’IA",
+      "link": "https://mathix.org/linux/archives/21902",
+      "date": "2026-01-21T07:21:10",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! On revient d&#8217;une formation sur l&#8217;IA qu&#8217;on a mené avec Ju&#8217;. Au travers d&#8217;un diaporama fourni,on a aussi utilisé pas mal d&#8217;animations (bon p"
+    },
+    {
+      "title": "IA, RGPD et RIA : mettre un peu de clarté dans le cadre.",
+      "link": "https://mathix.org/linux/archives/21891",
+      "date": "2026-01-18T14:24:03",
+      "source": "Mathix (A. Durand)",
+      "summary": "Dans les semaines à venir, je vais intervenir auprès de chefs d’établissement ( reggroupement Nantes SUD) autour des usages de l’intelligence artificielle en milieu scolaire. Assez vite, une difficult"
+    },
+    {
+      "title": "Inside OpenAI’s in-house data agent",
+      "link": "https://openai.com/index/inside-our-in-house-data-agent",
+      "date": "2026-01-29T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes."
+    },
+    {
+      "title": "Taisei Corporation shapes the next generation of talent with ChatGPT",
+      "link": "https://openai.com/index/taisei",
+      "date": "2026-01-29T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Taisei Corporation uses ChatGPT Enterprise to support HR-led talent development and scale generative AI across its global construction business."
+    },
+    {
+      "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+      "link": "https://openai.com/index/retiring-gpt-4o-and-older-models",
+      "date": "2026-01-29T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "On February 13, 2026, alongside the previously announced retirement⁠ of GPT‑5 (Instant, Thinking, and Pro), we will retire GPT‑4o, GPT‑4.1, GPT‑4.1 mini, and OpenAI o4-mini from ChatGPT. In the API, t"
+    },
+    {
+      "title": "The next chapter for AI in the EU",
+      "link": "https://openai.com/index/the-next-chapter-for-ai-in-the-eu",
+      "date": "2026-01-28T01:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe."
+    },
+    {
+      "title": "EMEA Youth & Wellbeing Grant",
+      "link": "https://openai.com/index/emea-youth-and-wellbeing-grant",
+      "date": "2026-01-28T01:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Apply for the EMEA Youth & Wellbeing Grant, a €500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI."
+    },
+    {
+      "title": "Keeping your data safe when an AI agent clicks a link",
+      "link": "https://openai.com/index/ai-agent-link-safety",
+      "date": "2026-01-28T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how OpenAI protects user data when AI agents open links, preventing URL-based data exfiltration and prompt injection with built-in safeguards."
+    },
+    {
+      "title": "PVH reimagines the future of fashion with OpenAI",
+      "link": "https://openai.com/index/pvh-future-of-fashion",
+      "date": "2026-01-27T06:00:00",
+      "source": "OpenAI Blog",
+      "summary": "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement."
+    },
+    {
+      "title": "Introducing Prism",
+      "link": "https://openai.com/index/introducing-prism",
+      "date": "2026-01-27T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place."
+    },
+    {
+      "title": "Powering tax donations with AI powered personalized recommendations",
+      "link": "https://openai.com/index/trustbank",
+      "date": "2026-01-27T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, delivering personalized, conversational recommendations that simplify Furusato Nozei gift discovery. A multi-agent system hel"
+    },
+    {
+      "title": "How Indeed uses AI to help evolve the job search",
+      "link": "https://openai.com/index/indeed-maggie-hulce",
+      "date": "2026-01-26T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Indeed’s CRO Maggie Hulce shares how AI is transforming job search, recruiting, and talent acquisition for employers and job seekers."
+    },
+    {
+      "title": "Google AI Plus is now available everywhere our AI plans are available, including the U.S.",
+      "link": "https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/",
+      "date": "2026-01-27T18:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_AI_Plus_Hero_Visual_2096.max-600x600.format-webp_4ffr2GI.webp\" />We’re launching Google AI Plus in 35 new countries and"
+    },
+    {
+      "title": "In our latest podcast, hear how the “Smoke Jumpers” team brings Gemini to billions of people.",
+      "link": "https://blog.google/products-and-platforms/products/gemini/release-notes-podcast-smokejumpers/",
+      "date": "2026-01-27T10:28:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/thumbnails_EP24_002_ccRelease_N.max-600x600.format-webp.webp\" />Bringing Gemini to billions of users requires a massive, coord"
+    },
+    {
+      "title": "How animators and AI researchers made ‘Dear Upstairs Neighbors’",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/dear-upstairs-neighbors/",
+      "date": "2026-01-26T18:00:00",
+      "source": "Google AI",
+      "summary": "A movie poster for a film titled “Dear Upstairs Neighbors”, hand-painted in a vivid expressionist style, featuring an exasperated cartoon woman clutching her ears, surrounded by neon-colored images of"
+    },
+    {
+      "title": "Personal Intelligence in AI Mode in Search: Help that's uniquely yours",
+      "link": "https://blog.google/products-and-platforms/products/search/personal-intelligence-ai-mode-search/",
+      "date": "2026-01-22T16:00:00",
+      "source": "Google AI",
+      "summary": "Screenshot of the AI Mode page with the text, \"Hi Lukas what's on your mind?\""
+    },
+    {
+      "title": "Building a community-led future for AI in film with Sundance Institute",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/google-org/sundance-institute-ai-education/",
+      "date": "2026-01-20T20:30:00",
+      "source": "Google AI",
+      "summary": "Illustration of a cinematographer filming with a professional video camera mounted on a tripod, positioned next to a studio light and a film clapboard."
+    },
+    {
+      "title": "Learners and educators are AI’s new “super users”",
+      "link": "https://blog.google/products-and-platforms/products/education/our-life-with-ai-2025/",
+      "date": "2026-01-15T11:00:00",
+      "source": "Google AI",
+      "summary": "Teacher using a computer with students"
+    },
+    {
+      "title": "Introducing Community Benchmarks on Kaggle",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-community-benchmarks/",
+      "date": "2026-01-14T14:00:00",
+      "source": "Google AI",
+      "summary": "A drawing of three people working on laptops, with one person's screen showing \"Kaggle Benchmark Results\" with \"Gemini XXXX\" and a large \"PASS\" checkmark.1"
+    }
+  ],
+  "last_update": "2026-02-02T12:00:13.121940",
+  "sources": [
+    "Une IA par jour",
+    "Mathix (A. Durand)",
+    "OpenAI Blog",
+    "Google AI",
+    "Anthropic",
+    "Mistral AI",
+    "Canopé",
+    "Éduscol"
+  ]
 }
