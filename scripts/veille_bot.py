@@ -32,6 +32,15 @@ RSS_SOURCES = {
 TWITTER_SOURCES = {
     "@nsi_xyz": "https://nitter.net/nsi_xyz/rss",
     "@sophiaefrance": "https://nitter.net/sophiaefrance/rss",
+    # Official AI Labs
+    "@AnthropicAI": "https://nitter.net/AnthropicAI/rss",
+    "@MistralAI": "https://nitter.net/MistralAI/rss",
+    "@deepseek_ai": "https://nitter.net/deepseek_ai/rss",
+    "@OpenAI": "https://nitter.net/OpenAI/rss",
+    # EdTech Community
+    "@outiltice": "https://nitter.net/outiltice/rss",
+    "@Fabien_Mikol": "https://nitter.net/Fabien_Mikol/rss",
+    "@MIKL_Bertrand": "https://nitter.net/MIKL_Bertrand/rss",
 }
 
 # Keywords to filter AI-related content
