@@ -123,7 +123,7 @@ def generate_html_updates(articles: list) -> str:
         return ""
     
     html_items = []
-    for article in articles[:5]:  # Top 5 most recent
+    for article in articles[:20]:  # Top 20 most recent
         tag_class = "update-new" if "nouveau" in article.get('title', '').lower() else "update-update"
         html_items.append(f'''
                                 <div class="update-item {tag_class}">
@@ -198,8 +198,8 @@ def main():
         data['last_update'] = datetime.now().isoformat()
         save_data(data)
         
-        # Update HTML
-        update_veille_html(new_articles)
+    # Always update HTML with latest data (top 20)
+    update_veille_html(data['articles'])
     
     print("✅ Done!")
     return len(new_articles)
