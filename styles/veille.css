@@ -297,3 +297,13 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 640px) {
+    .sites-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title-veille {
+        font-size: 1.125rem;
+    }
+}

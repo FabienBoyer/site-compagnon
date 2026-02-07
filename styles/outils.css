@@ -389,7 +389,8 @@
         grid-template-columns: 1fr;
     }
 
-    .ia-locale-section {
+    .ia-locale-section,
+    .professeur-maker-section {
         padding: var(--spacing-2xl) var(--spacing-md);
     }
 }
