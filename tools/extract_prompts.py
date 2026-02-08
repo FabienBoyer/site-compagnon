@@ -33,21 +33,25 @@ def clean_latex(text):
     text = text.replace(r'\,', '') # Thin space
     text = text.replace(r'\\', '') # Backslashes if any left
     
-    # Remove itemize/enumerate environments but keep content
+    # REPLACE STRATEGY:
+    # 1. Protect \item by replacing with a placeholder
+    text = re.sub(r'\\item\s*', '___ITEM___', text)
+    
+    # 2. Clean LaTeX environments
     text = re.sub(r'\\begin\{itemize\}', '', text)
     text = re.sub(r'\\end\{itemize\}', '', text)
     text = re.sub(r'\\begin\{enumerate\}', '', text)
     text = re.sub(r'\\end\{enumerate\}', '', text)
-    text = re.sub(r'\\item\s*', '- ', text)
-    
-    # Handling user input lines in prompts (often indicated by [ ])
     text = re.sub(r'\\\[([^\]]+)\\\]', r'[\1]', text)
-    
-    # Remove excess whitespace
-    text = re.sub(r'\s+', ' ', text).strip()
-    
-    return text
 
+    # 3. Flatten all whitespace to single spaces (handles latex soft wrapping)
+    text = re.sub(r'\s+', ' ', text).strip()
+
+    # 4. Restore items with newlines
+    text = text.replace('___ITEM___', '\n- ')
+
+    return text
+    
 def parse_main_file(main_file_path):
     """
     Parses main.tex to find the order of included files and structure.

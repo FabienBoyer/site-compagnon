@@ -99,12 +99,32 @@ async function loadPrompts() {
                         displayTitle = titleMatch[2];
                     }
 
+                    // Reconstruct clean multi-line content for copy
+                    let copyContent = p.content;
+                    if (p.structure) {
+                        copyContent = "";
+                        const labels = {
+                            "context": "Contexte",
+                            "role": "Rôle",
+                            "task": "Objectif",
+                            "format": "Format",
+                            "input": "Input"
+                        };
+
+                        ['context', 'role', 'task', 'format', 'input'].forEach(key => {
+                            if (p.structure[key]) {
+                                // Add label and content with newlines
+                                copyContent += `${labels[key]} : ${p.structure[key].trim()}\n`;
+                            }
+                        });
+                    }
+
                     html += `
                         <article class="prompt-card">
                             <div class="prompt-header">
                                 <span class="prompt-number">${displayNumber}</span>
                                 <h3 class="prompt-title">${displayTitle}</h3>
-                                <button class="copy-btn" data-content="${encodeURIComponent(p.content)}" title="Copier"><i data-lucide="copy"></i></button>
+                                <button class="copy-btn" data-content="${encodeURIComponent(copyContent)}" title="Copier"><i data-lucide="copy"></i></button>
                             </div>
                             <div class="prompt-body">
                                 ${renderCrofi(p.structure, p.content)}
