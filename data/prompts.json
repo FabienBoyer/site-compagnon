@@ -1,458 +1,2110 @@
 [
-    {
-        "id": 1,
-        "title": "Progression annuelle",
-        "chapter": "Ingénierie pédagogique",
-        "part": "P2 - Méthodes",
-        "subject": "Toutes matières",
-        "content": "Rôle : Tu es un expert en ingénierie pédagogique.\n\nTâche : Propose une progression annuelle pour une classe de 1re en spécialité Physique-Chimie.\n\nContraintes :\n1. Intègre toutes les notions du Bulletin Officiel.\n2. Prévois une progression spiralaire (on revoit les concepts clés 3 fois sous des angles différents).\n3. Prends en compte les vacances scolaires (Zone B) et une période de révision en juin.\n\nFormat : Tableau (Mois / Thème / Notions / Activité clé / Compétence BO)."
-    },
-    {
-        "id": 2,
-        "title": "Squelette de séquence",
-        "chapter": "Ingénierie pédagogique",
-        "part": "P2 - Méthodes",
-        "subject": "Toutes matières",
-        "content": "Je dois préparer une séquence de 4 semaines sur « Les énergies renouvelables » pour des élèves de 5e. Propose-moi un plan détaillé avec :\n• Les objectifs pédagogiques par semaine.\n• Une idée d'activité pratique par semaine.\n• Une évaluation finale originale qui ne soit pas un QCM."
-    },
-    {
-        "id": 3,
-        "title": "Variation de style pédagogique",
-        "chapter": "Ingénierie pédagogique",
-        "part": "P2 - Méthodes",
-        "subject": "Toutes matières",
-        "content": "Voici le déroulé de mon cours sur les chromosomes. Problématique : « Les chromosomes sont-ils responsables de nos caractères ? »\n\nPropose-moi 3 variantes de ce même cours en adoptant strictement les postures suivantes :\n1. Enseignement explicite : Modelage, Pratique guidée, Pratique autonome.\n2. Classe inversée : Ce que les élèves font avant (capsule), ce qu'ils font en classe (activité).\n3. Ludification : Transforme la séance en défi/jeu par équipes avec une quête."
-    },
-    {
-        "id": 4,
-        "title": "L'analogie claire",
-        "chapter": "Ingénierie pédagogique",
-        "part": "P2 - Méthodes",
-        "subject": "Sciences",
-        "content": "Après une recherche sur les femmes scientifiques, des élèves ont découvert l'expression CRISPR-Cas9. Explique ce concept comme tu le ferais pour un enfant de 10 ans en utilisant une analogie facile à saisir mais aussi fidèle que possible."
-    },
-    {
-        "id": 5,
-        "title": "Analyse didactique",
-        "chapter": "Ingénierie pédagogique",
-        "part": "P2 - Méthodes",
-        "subject": "Sciences",
-        "content": "Voici 5 réponses erronées d'élèves à la question : « Pourquoi l'eau bout-elle à 100°C ? »\n\n[Liste des erreurs : « L'eau a trop chaud », « Les molécules explosent », « L'air sort de l'eau »...]\n\nClasse ces erreurs par type (confusion de concept, erreur de vocabulaire, erreur de raisonnement) et propose pour chaque type une courte explication pour rectifier le tir en classe."
-    },
-    {
-        "id": 6,
-        "title": "Tuteur bienveillant",
-        "chapter": "Mode magistral interactif",
-        "part": "P2 - Méthodes",
-        "subject": "Français",
-        "content": "Tu es un professeur de Lettres exigeant et bienveillant.\nAnalyse la copie suivante (copier-coller de la copie anonyme).\nGénère ensuite une liste de 4 questions que l'élève devrait se poser pour identifier lui-même les points qui expliquent sa note.\nNe donne pas la réponse, donne uniquement les questions."
-    },
-    {
-        "id": 7,
-        "title": "L'historien piégé",
-        "chapter": "Mode magistral interactif",
-        "part": "P2 - Méthodes",
-        "subject": "Histoire",
-        "content": "Rédige une courte biographie de l'écrivain Honoré de Balzac, mais insère volontairement 3 erreurs factuelles subtiles (dates, lieux ou titres d'œuvres).\nRends le ton très sûr de lui et encyclopédique. La biographie doit faire 15 lignes maximum."
-    },
-    {
-        "id": 8,
-        "title": "Le critique d'art",
-        "chapter": "Mode magistral interactif",
-        "part": "P2 - Méthodes",
-        "subject": "Arts plastiques",
-        "content": "Tu es critique d'art spécialisé dans le street art.\nDécris une fresque de Banksy pour deux publics différents :\n\nTexte 1 (Critique experte) : Analyse objective, formelle, technique.\nTexte 2 (Critique amateur) : Analyse subjective et émotionnelle."
-    },
-    {
-        "id": 9,
-        "title": "Questionnement de réactivation",
-        "chapter": "Mode magistral interactif",
-        "part": "P2 - Méthodes",
-        "subject": "SVT",
-        "content": "Tu es un professeur de SVT.\nGénère 3 questions de révision sur le chapitre « La Reproduction » (SVT 4e) :\n1. Une question de définition simple.\n2. Un schéma à légender (coupe transversale simplifiée).\n3. Une question piège (Vrai/Faux avec justification)."
-    },
-    {
-        "id": 10,
-        "title": "Le grand tournoi de logique",
-        "chapter": "Mode magistral interactif",
-        "part": "P2 - Méthodes",
-        "subject": "Toutes matières",
-        "content": "Je dois assurer une heure de remplacement imprévue avec une classe de 4e.\nGénère le script d'un « Tournoi de Culture et Logique » de 45 minutes :\n1. 5 questions de logique/maths.\n2. 5 questions de culture générale.\n3. 1 débat mouvant (Pour/Contre).\nDonne les réponses et des éléments de correction."
-    },
-    {
-        "id": 11,
-        "title": "Le débloqueur méthodologique",
-        "chapter": "Mode magistral interactif",
-        "part": "P2 - Méthodes",
-        "subject": "Mathématiques",
-        "content": "Agis comme un professeur pédagogue. Un élève est bloqué sur cet exercice de maths (Suites numériques).\nRègle d'or : Ne donne PAS la réponse. Donne-moi 3 questions d'étayage (pour briller en soirée: c'est le scaffolding) à lui poser pour qu'il trouve la solution par lui-même.\nIdentifie le pré-requis qui lui manque."
-    },
-    {
-        "id": 12,
-        "title": "L'élève moyen (crash-test)",
-        "chapter": "L'évaluation repensée",
-        "part": "P2 - Méthodes",
-        "subject": "Toutes matières",
-        "content": "Agis comme un élève moyen de [Niveau], qui a des capacités de lecture standard mais fatigue vite.\n\nVoici le sujet de mon évaluation : [Coller sujet].\n\n1. Chrono : Estime le temps nécessaire pour tout traiter. Est-ce faisable en 55 minutes ?\n2. Clarté : Y a-t-il des consignes ambiguës ou des mots trop complexes ? (Cite-les).\n3. Risque : Résous l'exercice 3. Si tu y arrives trop facilement, dis-le moi."
-    },
-    {
-        "id": 13,
-        "title": "Créer un Sujet B équivalent",
-        "chapter": "L'évaluation repensée",
-        "part": "P2 - Méthodes",
-        "subject": "Toutes matières",
-        "content": "Voici mon évaluation finale sur [Sujet]. Génère une Version B pour le voisin de table.\n\nContraintes :\n1. Garde exactement la même structure et les mêmes compétences évaluées.\n2. Change les valeurs numériques (Maths) ou les phrases exemples (Grammaire) ou le document source (Histoire) par un document équivalent.\n3. Fournis le corrigé de cette version B."
-    },
-    {
-        "id": 14,
-        "title": "Le générateur de barème",
-        "chapter": "L'évaluation repensée",
-        "part": "P2 - Méthodes",
-        "subject": "Histoire",
-        "content": "Je suis professeur d'Histoire. Je souhaite évaluer un podcast d'élève sur la Résistance. Crée une grille d'évaluation tabulaire avec 4 critères :\n1. Exactitude historique.\n2. Clarté de l'expression orale.\n3. Qualité des sources citées.\n4. Originalité de l'angle choisi.\nPour chaque critère, définis 3 niveaux (Insuffisant / Satisfaisant / Expert) avec des indicateurs observables."
-    },
-    {
-        "id": 15,
-        "title": "Sujet piégé",
-        "chapter": "L'évaluation repensée",
-        "part": "P2 - Méthodes",
-        "subject": "Mathématiques",
-        "content": "Je suis professeur de mathématiques. Je souhaite que tu me fasses un sujet de D.M sur le théorème de Pythagore mais tu intègreras au .pdf de sortie une question écrite en blanc exigeant la réponse en écriture scientifique."
-    },
-    {
-        "id": 16,
-        "title": "Le tuteur socratique",
-        "chapter": "Sciences et Numérique",
-        "part": "P3 - Disciplines",
-        "subject": "Mathématiques",
-        "content": "Tu es un Tuteur Socratique en Mathématiques.\n\nTa mission : Aider l'élève à résoudre un exercice SANS JAMAIS donner la réponse finale.\n1. Demande-lui d'abord : « Quelle est ta première piste ? »\n2. Donne un indice conceptuel, mais n'écris pas la formule à sa place.\n3. Si l'élève est bloqué, pose une question qui l'oriente vers le bon outil."
-    },
-    {
-        "id": 17,
-        "title": "Générateur d'exercices",
-        "chapter": "Sciences et Numérique",
-        "part": "P3 - Disciplines",
-        "subject": "Mathématiques",
-        "content": "Génère une fiche de 5 exercices progressifs sur le théorème de Pythagore (niveau 4e).\n1. Écris l'énoncé.\n2. Fournis la correction détaillée.\n3. Explique pour chaque exercice quelle compétence spécifique est testée."
-    },
-    {
-        "id": 18,
-        "title": "Le défi de Fermi",
-        "chapter": "Sciences et Numérique",
-        "part": "P3 - Disciplines",
-        "subject": "Mathématiques",
-        "content": "Estime le nombre de ballons de basket qu'on peut faire tenir dans une salle de classe standard (7m × 8m × 3m).\n\nNe donne pas juste un chiffre. Détaille tout ton raisonnement : calcul du volume, estimation du volume d'un ballon, et surtout le taux de remplissage (compacité). Affiche les étapes."
-    },
-    {
-        "id": 19,
-        "title": "La fausse démonstration",
-        "chapter": "Sciences et Numérique",
-        "part": "P3 - Disciplines",
-        "subject": "Mathématiques",
-        "content": "Génère une « démonstration » qui prouve que 1 = 2, en utilisant une erreur classique (division par zéro cachée ou racine carrée mal gérée).\n\nL'erreur doit être subtile mais identifiable par un élève de Terminale."
-    },
-    {
-        "id": 20,
-        "title": "Protocole adapté",
-        "chapter": "Sciences et Numérique",
-        "part": "P3 - Disciplines",
-        "subject": "Physique-Chimie",
-        "content": "Je suis professeur de Physique-Chimie en 4e. Je veux faire une expérience sur la conductivité électrique des solutions.\n\nMatériel disponible : pile 4,5V, lampe, fils, béchers, eau distillée, sel, sucre.\n\nPropose un protocole simple avec les résultats attendus et les questions à poser aux élèves."
-    },
-    {
-        "id": 21,
-        "title": "Revue de code",
-        "chapter": "Sciences et Numérique",
-        "part": "P3 - Disciplines",
-        "subject": "NSI",
-        "content": "Voici un code Python écrit par un élève [coller le code].\n\nAnalyse-le et donne :\n1. Les points positifs (ce qui est bien fait).\n2. Les améliorations possibles (sans réécrire le code).\n3. Une question pour pousser l'élève à réfléchir à l'optimisation."
-    },
-    {
-        "id": 22,
-        "title": "Red Team",
-        "chapter": "Sciences et Numérique",
-        "part": "P3 - Disciplines",
-        "subject": "NSI",
-        "content": "Agis en « Red Team » (attaquant). Analyse ce code PHP écrit par un élève et explique les failles de sécurité (Injection SQL, XSS) sans donner le code corrigé immédiatement.\n\nPose des questions pour que l'élève trouve lui-même la correction."
-    },
-    {
-        "id": 23,
-        "title": "Le laboratoire de style",
-        "chapter": "Lettres, Langues et Sciences Humaines",
-        "part": "P3 - Disciplines",
-        "subject": "Français",
-        "content": "Réécris la fable « Le Corbeau et le Renard » de La Fontaine, mais dans le style de Marcel Proust.\n\nConsignes :\n1. Utilise des phrases longues et sinueuses.\n2. Insiste sur les sensations et la mémoire.\n3. Intègre des digressions sur le temps qui passe."
-    },
-    {
-        "id": 24,
-        "title": "Persona : Apollinaire",
-        "chapter": "Lettres, Langues et Sciences Humaines",
-        "part": "P3 - Disciplines",
-        "subject": "Français",
-        "content": "Tu es Guillaume Apollinaire. Je suis un élève de 1re. Je vais te poser des questions sur tes choix dans « Lettres à Lou ». Réponds en restant dans ton personnage, mais disposé à expliquer tes intentions."
-    },
-    {
-        "id": 25,
-        "title": "L'inscription effacée",
-        "chapter": "Lettres, Langues et Sciences Humaines",
-        "part": "P3 - Disciplines",
-        "subject": "Latin",
-        "content": "Tu es une stèle funéraire romaine découverte près de Pompéi. Une partie de ton texte est effacée (marquée par [...]).\n\nGénère un texte latin simple de 3 lignes racontant brièvement la vie d'un gladiateur, avec 3 trous logiques (un verbe, un nom, un adjectif). Propose ensuite les mots manquants en désordre."
-    },
-    {
-        "id": 26,
-        "title": "Interview de Junon",
-        "chapter": "Lettres, Langues et Sciences Humaines",
-        "part": "P3 - Disciplines",
-        "subject": "Latin",
-        "content": "Incarne la déesse Junon. Tu es interviewée par un journaliste moderne sur ta relation avec Jupiter. Explique tes colères célèbres en les justifiant de ton point de vue. Utilise un ton digne mais accessible."
-    },
-    {
-        "id": 27,
-        "title": "Le guide immersif",
-        "chapter": "Lettres, Langues et Sciences Humaines",
-        "part": "P3 - Disciplines",
-        "subject": "Anglais",
-        "content": "Tu es un guide touristique à Londres en 1890 (époque victorienne). Fais-moi visiter le quartier de Whitechapel. Décris les odeurs, les bruits, les vêtements des passants. N'invente pas de faits historiques, mais rends l'atmosphère sensorielle. Utilise un vocabulaire anglais de l'époque (niveau B2)."
-    },
-    {
-        "id": 28,
-        "title": "Scaffolding (étayage)",
-        "chapter": "Lettres, Langues et Sciences Humaines",
-        "part": "P3 - Disciplines",
-        "subject": "Anglais",
-        "content": "Voici un article de presse [coller le texte].\n1. Génère une liste de 10 mots de vocabulaire difficiles avec leur définition en anglais simple (A2).\n2. Rédige 3 questions de compréhension globale.\n3. Réécris le deuxième paragraphe en simplifiant la syntaxe pour un niveau B1."
-    },
-    {
-        "id": 29,
-        "title": "The Grumpy Shopkeeper",
-        "chapter": "Lettres, Langues et Sciences Humaines",
-        "part": "P3 - Disciplines",
-        "subject": "Anglais",
-        "content": "Act as a grumpy shopkeeper in London. I am a tourist trying to return a defective umbrella without the receipt.\n\nLet's have a dialogue. Wait for my answer before replying.\n\nGoal: Make it difficult for me, force me to argue.\n\nFeedback: Correct my mistakes only at the very end."
-    },
-    {
-        "id": 30,
-        "title": "Le journaliste de 1914",
-        "chapter": "Lettres, Langues et Sciences Humaines",
-        "part": "P3 - Disciplines",
-        "subject": "Histoire",
-        "content": "Tu es un journaliste français nationaliste le 4 août 1914. Écris un court article (100 mots) sur l'entrée en guerre. Le ton doit être patriotique et confiant.\n\nEnsuite : Oublie ce rôle. Agis comme un journaliste pacifiste allemand de la même date. Écris sur le même événement avec ta propre perspective."
-    },
-    {
-        "id": 31,
-        "title": "L'opposant philosophique",
-        "chapter": "Lettres, Langues et Sciences Humaines",
-        "part": "P3 - Disciplines",
-        "subject": "Philosophie",
-        "content": "Je rédige une dissertation sur : « La technique nous libère-t-elle ? »\n\nMa thèse principale est : « Oui, car elle réduit le travail pénible. »\n\nAgis comme un philosophe critique. Fais-moi une objection courte et percutante pour m'obliger à nuancer. Ne me donne pas la réponse, pose-moi une question gênante."
-    },
-    {
-        "id": 32,
-        "title": "Les distinctions",
-        "chapter": "Lettres, Langues et Sciences Humaines",
-        "part": "P3 - Disciplines",
-        "subject": "Philosophie",
-        "content": "Agis comme un professeur de philosophie. Trace un tableau comparatif pour distinguer « Contrainte » et « Obligation ».\n\nColonnes : Définition / Exemple concret / Ce que cela change pour la liberté."
-    },
-    {
-        "id": 33,
-        "title": "Recherche d'inspiration",
-        "chapter": "Arts et Créativité",
-        "part": "P3 - Disciplines",
-        "subject": "Arts plastiques",
-        "content": "Génère 4 variations d'une composition abstraite inspirée par le thème « la solitude urbaine ».\n\nStyle : couleurs froides, géométrie, influence Hopper.\n\nBut : créer un moodboard pour guider ma production plastique."
-    },
-    {
-        "id": 34,
-        "title": "Du texte à l'image",
-        "chapter": "Arts et Créativité",
-        "part": "P3 - Disciplines",
-        "subject": "Arts plastiques",
-        "content": "Voici un haïku :\n\n« Vieille mare — / une grenouille plonge / bruit de l'eau »\n\nGénère une image qui capture l'atmosphère de ce poème. Puis génère une deuxième version qui en trahit volontairement l'esprit."
-    },
-    {
-        "id": 35,
-        "title": "Variations stylistiques",
-        "chapter": "Arts et Créativité",
-        "part": "P3 - Disciplines",
-        "subject": "Éducation musicale",
-        "content": "Génère deux versions de la même mélodie simple :\n1. Version « joyeuse » (majeur, tempo rapide, instruments légers).\n2. Version « mélancolique » (mineur, tempo lent, cordes)."
-    },
-    {
-        "id": 36,
-        "title": "Échauffement personnalisé",
-        "chapter": "Arts et Créativité",
-        "part": "P3 - Disciplines",
-        "subject": "EPS",
-        "content": "Génère un échauffement de 10 minutes pour une séance de handball en salle (niveau collège 4e).\n\nContraintes :\n1. Phase 1 : Réveil articulaire (3 min)\n2. Phase 2 : Activation cardio-vasculaire (4 min)\n3. Phase 3 : Préparation spécifique handball (3 min)\n\nFormat : Tableau avec exercice / durée / consignes / variante pour élèves dispensés."
-    },
-    {
-        "id": 37,
-        "title": "Le test de l'expertise",
-        "chapter": "EMI et Documentation",
-        "part": "P3 - Disciplines",
-        "subject": "EMI",
-        "content": "Agis comme un expert bibliographe. Donne-moi une liste de 3 articles universitaires fictifs mais réalistes sur « L'influence de la météo sur les notes en mathématiques ».\n\nInvente les auteurs, les dates et les revues."
-    },
-    {
-        "id": 38,
-        "title": "L'enquêteur statistique",
-        "chapter": "EMI et Documentation",
-        "part": "P3 - Disciplines",
-        "subject": "EMI",
-        "content": "Trouve-moi les chiffres officiels de l'évolution du niveau en orthographe des élèves de CM2 en France.\n\nContrainte : Cite précisément l'étude de la DEPP (Ministère) qui en parle. Ne donne que des faits vérifiés."
-    },
-    {
-        "id": 39,
-        "title": "Le déminage",
-        "chapter": "Gestion administrative",
-        "part": "P4 - Métiers",
-        "subject": "Communication parents",
-        "content": "Voici un mail d'un parent qui conteste une punition [coller le mail anonymisé].\n\nRédige une réponse qui :\n1. Accuse réception avec courtoisie.\n2. Rappelle les faits de manière factuelle.\n3. Reste ferme sur le respect du règlement intérieur.\n4. Propose un échange constructif (rendez-vous ou appel)."
-    },
-    {
-        "id": 40,
-        "title": "Générateur de modèles",
-        "chapter": "Gestion administrative",
-        "part": "P4 - Métiers",
-        "subject": "Communication parents",
-        "content": "Génère 5 modèles de messages courts (3-4 lignes) pour les situations suivantes :\n1. Absence non justifiée.\n2. Retards répétés.\n3. Carnet de correspondance oublié.\n4. Comportement perturbateur en classe.\n5. Félicitations pour progrès constatés.\n\nTon : professionnel mais bienveillant. Évite le jargon administratif froid."
-    },
-    {
-        "id": 41,
-        "title": "Le reformulateur d'appréciations",
-        "chapter": "Gestion administrative",
-        "part": "P4 - Métiers",
-        "subject": "Bulletins",
-        "content": "Voici une appréciation un peu sèche : « Bavard, ne travaille pas. »\n\nReformule-la de 3 manières différentes :\n1. Version encourageante (axée sur le potentiel).\n2. Version avertissement (signal d'alerte aux parents).\n3. Version constructive (pistes d'amélioration concrètes)."
-    },
-    {
-        "id": 42,
-        "title": "Analyse de cohérence",
-        "chapter": "Gestion administrative",
-        "part": "P4 - Métiers",
-        "subject": "Bulletins",
-        "content": "Voici les appréciations de 6 professeurs pour un même élève [coller les appréciations].\n\nIdentifie :\n1. Les points de convergence (ce que tout le monde dit).\n2. Les contradictions éventuelles.\n3. Une synthèse possible pour l'appréciation générale du bulletin."
-    },
-    {
-        "id": 43,
-        "title": "Fiche mission AESH",
-        "chapter": "Gestion administrative",
-        "part": "P4 - Métiers",
-        "subject": "Inclusion",
-        "content": "Génère une fiche pour l'AESH qui accompagne un élève dyspraxique pendant un exercice de géométrie (tracé de figures).\n\nLa fiche doit lister 4 gestes concrets :\n1. Ce que l'AESH fait (aide physique).\n2. Ce que l'AESH ne fait pas (pour préserver l'autonomie).\n3. Les adaptations matérielles possibles.\n4. Les signaux d'alerte (quand alerter l'enseignant)."
-    },
-    {
-        "id": 44,
-        "title": "Adaptation PAP",
-        "chapter": "Gestion administrative",
-        "part": "P4 - Métiers",
-        "subject": "Inclusion",
-        "content": "Voici un exercice de français [coller l'exercice].\n\nL'élève a un PAP pour dyslexie. Adapte l'exercice :\n1. Police plus grande, interligne aéré.\n2. Consignes reformulées en phrases courtes.\n3. Mots difficiles syllabés (ex : « im-por-tant »).\n4. Réduction du nombre de questions si pertinent."
-    },
-    {
-        "id": 45,
-        "title": "Le générateur de courriers",
-        "chapter": "Personnel de direction",
-        "part": "P4 - Métiers",
-        "subject": "Direction",
-        "content": "Rédige un courrier informant les parents d'un élève (appelons-le X) d'une exclusion temporaire de 3 jours.\n\nContexte : Violence verbale envers un personnel de vie scolaire.\n\nLe courrier doit :\n1. Rappeler les faits de manière factuelle.\n2. Citer l'article du règlement intérieur concerné.\n3. Mentionner les voies de recours.\n4. Proposer un rendez-vous de retour."
-    },
-    {
-        "id": 46,
-        "title": "Structuration de compte-rendu",
-        "chapter": "Personnel de direction",
-        "part": "P4 - Métiers",
-        "subject": "Direction",
-        "content": "Voici mes notes brutes de la réunion du conseil pédagogique [coller les notes].\n\nTransforme-les en un compte-rendu formel avec :\n1. Participants présents / excusés.\n2. Ordre du jour.\n3. Pour chaque point : résumé des échanges et décisions prises.\n4. Prochaine réunion."
-    },
-    {
-        "id": 47,
-        "title": "Le diplomate",
-        "chapter": "Personnel de direction",
-        "part": "P4 - Métiers",
-        "subject": "Direction",
-        "content": "Voici un mail agressif reçu d'un parent [coller le mail anonymisé].\n\nRédige une réponse qui :\n1. Reste courtoise mais institutionnelle.\n2. Rappelle que la sanction est une réponse à un acte (citer le règlement) et non un jugement sur la personne.\n3. Coupe court au débat par mail en proposant un rendez-vous.\n4. Ne s'excuse pas pour une décision légitime."
-    },
-    {
-        "id": 48,
-        "title": "Communication de crise",
-        "chapter": "Personnel de direction",
-        "part": "P4 - Métiers",
-        "subject": "Direction",
-        "content": "Un incident s'est produit dans l'établissement [décrire factuellement, sans noms].\n\nRédige un message court (5 lignes max) à destination des parents via Pronote/ENT qui :\n1. Informe sans alarmer.\n2. Indique que la situation est sous contrôle.\n3. Évite les détails qui pourraient alimenter les rumeurs.\n4. Annonce une communication plus complète à venir si nécessaire."
-    },
-    {
-        "id": 49,
-        "title": "Plan de formation interne",
-        "chapter": "Personnel de direction",
-        "part": "P4 - Métiers",
-        "subject": "Direction",
-        "content": "Tu es formateur en établissement scolaire.\n\nObjectif : Créer un plan de formation IA sur un trimestre pour 30 enseignants (niveaux hétérogènes).\n\nContraintes :\n• 3 sessions de 2h (mercredi après-midi)\n• Public : Débutants (60%), Intermédiaires (30%), Avancés (10%)\n• Thématiques : RGPD, ingénierie de prompts, usages disciplinaires\n• Matériel : Salle informatique 15 postes + vidéoprojecteur\n\nConsignes :\n1. Propose une progression (objectifs par session)\n2. Liste les activités pratiques\n3. Indique les ressources à préparer\n4. Prévois une différenciation pour les 3 niveaux"
-    },
-    {
-        "id": 50,
-        "title": "Charte d'usage établissement",
-        "chapter": "Personnel de direction",
-        "part": "P4 - Métiers",
-        "subject": "Direction",
-        "content": "Tu es personnel de direction d'un collège.\n\nObjectif : Rédiger une charte d'usage de l'IA pour élèves et enseignants, à intégrer au règlement intérieur.\n\nContraintes :\n• Langage accessible (niveau 6e)\n• Maximum 1 page A4\n• Sections : Droits / Devoirs / Sanctions\n• Ton : Pédagogique et non punitif\n\nPoints obligatoires :\n• Obligation de citer l'IA si utilisée\n• Interdiction de tricher (copier-coller sans réflexion)\n• Respect du RGPD (pas de données personnelles de tiers)\n• Usage encadré selon le niveau (cycle 3 vs lycée)"
-    },
-    {
-        "id": 51,
-        "title": "Réunion parents sur l'IA",
-        "chapter": "Personnel de direction",
-        "part": "P4 - Métiers",
-        "subject": "Direction",
-        "content": "Tu es CPE en lycée.\n\nContexte : J'organise une réunion d'information pour parents de 2nde sur « L'IA et les devoirs à la maison ».\n\nObjectif : Concevoir un diaporama de 15 slides (30 min).\n\nConsignes :\n1. Slides 1-3 : Qu'est-ce que l'IA ? (vulgarisation)\n2. Slides 4-6 : Comment nos élèves l'utilisent ? (données chiffrées)\n3. Slides 7-10 : Bonnes pratiques à la maison\n4. Slides 11-13 : Signaux d'alerte (usage abusif, triche)\n5. Slides 14-15 : Ressources et accompagnement par l'établissement\n\nTon : Rassurant, informatif, non culpabilisant. Éviter jargon technique."
-    },
-    {
-        "id": 52,
-        "title": "Du brut au propre",
-        "chapter": "Enseignement professionnel",
-        "part": "P4 - Métiers",
-        "subject": "Lycée Pro",
-        "content": "Voici la transcription d'un élève qui décrit sa journée de stage :\n\n« Alors ce matin on a fait les freins sur une Clio y avait les plaquettes qui étaient mortes et le disque aussi fallait tout changer le chef m'a montré comment purger après »\n\nTransforme ce texte en un paragraphe professionnel pour un rapport de stage. Utilise le vocabulaire technique précis. Structure : Contexte / Tâche / Méthode."
-    },
-    {
-        "id": 53,
-        "title": "Le nettoyeur de brouillon",
-        "chapter": "Enseignement professionnel",
-        "part": "P4 - Métiers",
-        "subject": "Lycée Pro",
-        "content": "Consigne à l'élève : Colle ici tes notes brutes de la journée (même en style SMS).\n\nPrompt IA : Agis comme un tuteur bienveillant. Transforme ces notes en un paragraphe professionnel.\n1. Utilise le vocabulaire technique précis (« plaques de plâtre » au lieu de « placo »).\n2. Structure le texte : Contexte / Tâche / Difficultés rencontrées / Solution apportée.\n3. Garde le « je » — c'est l'élève qui parle."
-    },
-    {
-        "id": 54,
-        "title": "La roue de la fortune",
-        "chapter": "Le professeur maker",
-        "part": "P5 - Futur",
-        "subject": "Outils numériques",
-        "content": "Écris le code HTML complet (avec CSS et JavaScript inclus dans un seul fichier) pour créer une « Roue de la Fortune » des élèves.\n\nFonctionnalités :\n1. Une roue colorée avec les prénoms des élèves.\n2. Un bouton « Tourner » qui fait tourner la roue avec une animation.\n3. L'affichage du prénom sélectionné à la fin.\n4. Un champ pour modifier la liste des prénoms.\n\nLe code doit fonctionner si je l'ouvre simplement dans un navigateur (pas de serveur)."
-    },
-    {
-        "id": 55,
-        "title": "Minuteur personnalisé",
-        "chapter": "Le professeur maker",
-        "part": "P5 - Futur",
-        "subject": "Outils numériques",
-        "content": "Crée une page HTML avec un minuteur de classe.\n\nFonctionnalités :\n1. Choix du temps (5, 10, 15, 20 minutes ou personnalisé).\n2. Affichage grand format lisible depuis le fond de la classe.\n3. Changement de couleur quand il reste moins d'une minute (rouge).\n4. Son d'alerte à la fin.\n5. Boutons Pause / Reprendre / Réinitialiser."
-    },
-    {
-        "id": 56,
-        "title": "Générateur de groupes",
-        "chapter": "Le professeur maker",
-        "part": "P5 - Futur",
-        "subject": "Outils numériques",
-        "content": "Crée une page HTML pour répartir une classe en groupes.\n\nFonctionnalités :\n1. Zone de texte pour entrer les prénoms (un par ligne).\n2. Choix du nombre de groupes souhaité.\n3. Bouton « Mélanger » qui répartit aléatoirement.\n4. Affichage des groupes numérotés.\n5. Possibilité de « verrouiller » certains élèves ensemble (option avancée)."
-    },
-    {
-        "id": 57,
-        "title": "QCM autonome",
-        "chapter": "Le professeur maker",
-        "part": "P5 - Futur",
-        "subject": "Outils numériques",
-        "content": "Crée une page HTML pour un QCM interactif.\n\nFonctionnalités :\n1. 10 questions avec 4 choix chacune.\n2. Feedback immédiat (vert si correct, rouge si faux).\n3. Score final affiché à la fin.\n4. Les questions sont définies dans le code (je les modifierai moi-même).\n\nVoici les 3 premières questions à intégrer :\n• Q1 : Quelle est la capitale de la France ? (Paris / Lyon / Marseille / Bordeaux) → Paris\n• Q2 : Combien font 7 × 8 ? (54 / 56 / 58 / 64) → 56\n• Q3 : Qui a écrit Les Misérables ? (Zola / Hugo / Balzac / Flaubert) → Hugo"
+  {
+    "id": "p001",
+    "part": "Méthodes Transversales",
+    "chapter": "Le mode magistral interactif",
+    "title": "Le prompt Bah...",
+    "content": "Ecris une introduction sur la liberté.",
+    "subject": "Apprendre à prompter"
+  },
+  {
+    "id": "p002",
+    "part": "Méthodes Transversales",
+    "chapter": "Le mode magistral interactif",
+    "title": "Le prompt itératif",
+    "content": "Contexte : Exercice de dissertation en classe de Terminale. Les élèves doivent comprendre ce qui distingue une introduction médiocre d'une introduction réussie. Rôle : Tu es un professeur de philosophie exigeant. Objectif : Rédige une introduction de dissertation sur le sujet : \" La liberté consiste-t-elle à faire ce que l'on veut ? \" Format : 10 lignes maximum. Structure attendue : - Accroche basée sur une situation quotidienne. - Définition du paradoxe entre désir et loi. - Citation de Rousseau. - Annonce d'un plan dialectique. Input : Sujet : \" La liberté consiste-t-elle à faire ce que l'on veut ? \"",
+    "subject": "Apprendre à prompter",
+    "structure": {
+      "context": "Exercice de dissertation en classe de Terminale. Les élèves doivent comprendre ce qui distingue une introduction médiocre d'une introduction réussie.",
+      "role": "Tu es un professeur de philosophie exigeant.",
+      "task": "Rédige une introduction de dissertation sur le sujet : \" La liberté consiste-t-elle à faire ce que l'on veut ? \"",
+      "format": "10 lignes maximum. Structure attendue : - Accroche basée sur une situation quotidienne. - Définition du paradoxe entre désir et loi. - Citation de Rousseau. - Annonce d'un plan dialectique.",
+      "input": "Sujet : \" La liberté consiste-t-elle à faire ce que l'on veut ? \""
     }
+  },
+  {
+    "id": "p003",
+    "part": "Méthodes Transversales",
+    "chapter": "Le mode magistral interactif",
+    "title": "Tuteur bienveillant",
+    "content": "Contexte : Un élève conteste sa note à son évaluation. Rôle : Tu es un professeur de Lettres exigeant mais bienveillant. Objectif : Génère 4 questions que l'élève devrait se poser pour identifier lui-même ce qui explique sa note. Ne donne pas les réponses. Format : Liste numérotée, une question par point faible détecté. Input : [Copier-coller la copie anonymisée]",
+    "subject": "Le prompt de questionnement",
+    "structure": {
+      "context": "Un élève conteste sa note à son évaluation.",
+      "role": "Tu es un professeur de Lettres exigeant mais bienveillant.",
+      "task": "Génère 4 questions que l'élève devrait se poser pour identifier lui-même ce qui explique sa note. Ne donne pas les réponses.",
+      "format": "Liste numérotée, une question par point faible détecté.",
+      "input": "[Copier-coller la copie anonymisée]"
+    }
+  },
+  {
+    "id": "p004",
+    "part": "Méthodes Transversales",
+    "chapter": "Le mode magistral interactif",
+    "title": "L'historien piégé",
+    "content": "Contexte : Activité de fact-checking en classe. Les élèves reçoivent un texte apparemment fiable qu'ils doivent vérifier avec leur manuel. Rôle : Tu es un encyclopédiste au ton doctoral et très sûr de lui. Objectif : Rédige une biographie d'Honoré de Balzac en y insérant volontairement 3 erreurs factuelles subtiles (dates, lieux ou titres d'œuvres). Format : Texte fluide de 15 lignes maximum, ton encyclopédique. Input : Aucun — génération libre.",
+    "subject": "Le fact-checking",
+    "structure": {
+      "context": "Activité de fact-checking en classe. Les élèves reçoivent un texte apparemment fiable qu'ils doivent vérifier avec leur manuel.",
+      "role": "Tu es un encyclopédiste au ton doctoral et très sûr de lui.",
+      "task": "Rédige une biographie d'Honoré de Balzac en y insérant volontairement 3 erreurs factuelles subtiles (dates, lieux ou titres d'œuvres).",
+      "format": "Texte fluide de 15 lignes maximum, ton encyclopédique.",
+      "input": "Aucun — génération libre."
+    }
+  },
+  {
+    "id": "p005",
+    "part": "Méthodes Transversales",
+    "chapter": "Le mode magistral interactif",
+    "title": "Le critique d'art",
+    "content": "Contexte : En Arts plastiques, les élèves doivent construire une grille d'évaluation pour leurs propres productions écrites sur le street art. Rôle : Tu es un critique d'art spécialisé dans le street art. Objectif : Produis deux analyses d'une fresque de Banksy : l'une experte (référence), l'autre médiocre (contre-exemple). Format : - Texte 1 (Expert) : Analyse objective, formelle, technique. - Texte 2 (Amateur) : Analyse subjective, vague, émotionnelle. Input : Œuvre : Last Flower on Earth.",
+    "subject": "La grille d'analyse",
+    "structure": {
+      "context": "En Arts plastiques, les élèves doivent construire une grille d'évaluation pour leurs propres productions écrites sur le street art.",
+      "role": "Tu es un critique d'art spécialisé dans le street art.",
+      "task": "Produis deux analyses d'une fresque de Banksy : l'une experte (référence), l'autre médiocre (contre-exemple).",
+      "format": "- Texte 1 (Expert) : Analyse objective, formelle, technique. - Texte 2 (Amateur) : Analyse subjective, vague, émotionnelle.",
+      "input": "Œuvre : Last Flower on Earth."
+    }
+  },
+  {
+    "id": "p006",
+    "part": "Méthodes Transversales",
+    "chapter": "Le mode magistral interactif",
+    "title": "Questionnement de réactivation",
+    "content": "Contexte : Rituel de début d'heure pour réactiver les notions de la séance précédente. Rôle : Tu es un professeur de SVT qui pratique la pédagogie de la mémorisation active. Objectif : Génère 3 questions de révision sur le chapitre \" La Reproduction \" (4e). Format : - Une question de définition simple. - Un schéma à légender (décrire la coupe à dessiner). - Une question piège (Vrai/Faux avec justification attendue). Input : Chapitre : La Reproduction humaine, niveau 4e.",
+    "subject": "La grille d'analyse",
+    "structure": {
+      "context": "Rituel de début d'heure pour réactiver les notions de la séance précédente.",
+      "role": "Tu es un professeur de SVT qui pratique la pédagogie de la mémorisation active.",
+      "task": "Génère 3 questions de révision sur le chapitre \" La Reproduction \" (4e).",
+      "format": "- Une question de définition simple. - Un schéma à légender (décrire la coupe à dessiner). - Une question piège (Vrai/Faux avec justification attendue).",
+      "input": "Chapitre : La Reproduction humaine, niveau 4e."
+    }
+  },
+  {
+    "id": "p007",
+    "part": "Méthodes Transversales",
+    "chapter": "Le mode magistral interactif",
+    "title": "Le grand tournoi de logique",
+    "content": "Contexte : Remplacement de courte durée (RCD). Vous arrivez face à une classe inconnue, sans matériel, pour une heure à improviser. Rôle : Tu es un animateur pédagogique spécialiste des jeux de réflexion. Objectif : Génère le script complet d'un \" Tournoi de Culture et Logique \" clé en main. Format : - 5 questions de logique ou mathématiques (avec réponses). - 5 questions de culture générale (avec réponses). - 1 débat mouvant Pour/Contre (thème + arguments des deux camps). Durée totale : 45 minutes. Input : Niveau : 4e (adapter la difficulté).",
+    "subject": "La grille d'analyse",
+    "structure": {
+      "context": "Remplacement de courte durée (RCD). Vous arrivez face à une classe inconnue, sans matériel, pour une heure à improviser.",
+      "role": "Tu es un animateur pédagogique spécialiste des jeux de réflexion.",
+      "task": "Génère le script complet d'un \" Tournoi de Culture et Logique \" clé en main.",
+      "format": "- 5 questions de logique ou mathématiques (avec réponses). - 5 questions de culture générale (avec réponses). - 1 débat mouvant Pour/Contre (thème + arguments des deux camps). Durée totale : 45 minutes.",
+      "input": "Niveau : 4e (adapter la difficulté)."
+    }
+  },
+  {
+    "id": "p008",
+    "part": "Méthodes Transversales",
+    "chapter": "Le mode magistral interactif",
+    "title": "Le débloqueur méthodologique",
+    "content": "Contexte : On est en séance de Devoirs Faits. Un élève est bloqué sur un exercice et je n'ai pas la pédagogie pour l'aider. Rôle : Tu es un tuteur spécialiste de l'étayage pédagogique. (Pour briller dans les dîners mondains: le scaffolding (pourquoi les Sciences de l'Education raffolent tant des anglicismes?)) Objectif : Propose 3 questions à poser à l'élève pour qu'il trouve la solution par lui-même. Identifie le prérequis qui lui manque probablement. Format : Liste de 3 questions progressives + diagnostic du blocage. Règle absolue : Ne donne JAMAIS la réponse directement. Input : [Coller l'énoncé de l'exercice]",
+    "subject": "La grille d'analyse",
+    "structure": {
+      "context": "On est en séance de Devoirs Faits. Un élève est bloqué sur un exercice et je n'ai pas la pédagogie pour l'aider.",
+      "role": "Tu es un tuteur spécialiste de l'étayage pédagogique. (Pour briller dans les dîners mondains: le scaffolding (pourquoi les Sciences de l'Education raffolent tant des anglicismes?))",
+      "task": "Propose 3 questions à poser à l'élève pour qu'il trouve la solution par lui-même. Identifie le prérequis qui lui manque probablement.",
+      "format": "Liste de 3 questions progressives + diagnostic du blocage. Règle absolue : Ne donne JAMAIS la réponse directement.",
+      "input": "[Coller l'énoncé de l'exercice]"
+    }
+  },
+  {
+    "id": "p009",
+    "part": "Méthodes Transversales",
+    "chapter": "Ingénierie pédagogique",
+    "title": "Progression annuelle",
+    "content": "Contexte : Tu dois construire une progression qui tienne la route sur 36 semaines tout en respectant les vacances et les impératifs de révision spiralaire. Rôle : Tu es un expert en ingénierie pédagogique, spécialiste de la didactique des sciences. Objectif : Propose une progression annuelle complète pour une classe de 1re en spécialité Physique-Chimie. Format : Tableau avec colonnes : Mois | Thème | Notions | Activité clé | Compétence BO. Input : - Programme : Bulletin Officiel de Physique-Chimie 1re Spécialité. - Zone : B (vacances scolaires). - Contrainte : progression spiralaire (chaque concept clé réapparaît 3 fois).",
+    "subject": "Le découpage annuel intelligent",
+    "structure": {
+      "context": "Tu dois construire une progression qui tienne la route sur 36 semaines tout en respectant les vacances et les impératifs de révision spiralaire.",
+      "role": "Tu es un expert en ingénierie pédagogique, spécialiste de la didactique des sciences.",
+      "task": "Propose une progression annuelle complète pour une classe de 1re en spécialité Physique-Chimie.",
+      "format": "Tableau avec colonnes : Mois | Thème | Notions | Activité clé | Compétence BO.",
+      "input": "- Programme : Bulletin Officiel de Physique-Chimie 1re Spécialité. - Zone : B (vacances scolaires). - Contrainte : progression spiralaire (chaque concept clé réapparaît 3 fois)."
+    }
+  },
+  {
+    "id": "p010",
+    "part": "Méthodes Transversales",
+    "chapter": "Ingénierie pédagogique",
+    "title": "Squelette de séquence",
+    "content": "Contexte : J'ai besoin d'un plan de séquence Rôle : Tu es un conseiller pédagogique expérimenté en collège. Objectif : Propose un plan détaillé pour une séquence de 4 semaines. Format : Pour chaque semaine : - Objectif pédagogique principal. - Idée d'activité pratique. Termine par une proposition d'évaluation finale originale (pas de QCM). Input : Thème : \" Les énergies renouvelables \", niveau 5e.",
+    "subject": "Le squelette de séquence",
+    "structure": {
+      "context": "J'ai besoin d'un plan de séquence",
+      "role": "Tu es un conseiller pédagogique expérimenté en collège.",
+      "task": "Propose un plan détaillé pour une séquence de 4 semaines.",
+      "format": "Pour chaque semaine : -",
+      "input": "Thème : \" Les énergies renouvelables \", niveau 5e."
+    }
+  },
+  {
+    "id": "p011",
+    "part": "Méthodes Transversales",
+    "chapter": "Ingénierie pédagogique",
+    "title": "Variation de style pédagogique",
+    "content": "Contexte : Je veux tester une autre approche pour mon cours. Rôle : Tu es un formateur académique spécialiste des différentes approches pédagogiques. Objectif : Propose 3 variantes du même cours, chacune suivant strictement une posture différente. Format : - Enseignement explicite : Modelage → Pratique guidée → Pratique autonome. - Classe inversée : Capsule (avant) → Activité (pendant). - Ludification : Défi par équipes avec une quête narrative. Input : [Coller le déroulé actuel de votre cours]",
+    "subject": "Le squelette de séquence",
+    "structure": {
+      "context": "Je veux tester une autre approche pour mon cours.",
+      "role": "Tu es un",
+      "task": "Propose 3 variantes du même cours, chacune suivant strictement une posture différente.",
+      "format": "- Enseignement explicite : Modelage → Pratique guidée → Pratique autonome. - Classe inversée : Capsule (avant) → Activité (pendant). - Ludification : Défi par équipes avec une quête narrative.",
+      "input": "[Coller le déroulé actuel de votre cours]"
+    }
+  },
+  {
+    "id": "p012",
+    "part": "Méthodes Transversales",
+    "chapter": "Ingénierie pédagogique",
+    "title": "L'analogie claire",
+    "content": "Contexte : je n'ai pas d'image claire en tête pour répondre au blocage d'un élève. Rôle : Tu es un vulgarisateur scientifique qui excelle à rendre l'abstrait concret. Objectif : Explique le concept demandé en utilisant une analogie accessible mais scientifiquement fidèle. Format : Explication en 5-6 phrases maximum, niveau CM2/6e. Input : Concept : CRISPR-Cas9 (découvert par les élèves lors d'une recherche sur les femmes scientifiques).",
+    "subject": "Le générateur d'analogies",
+    "structure": {
+      "context": "je n'ai pas d'image claire en tête pour répondre au blocage d'un élève.",
+      "role": "Tu es un vulgarisateur scientifique qui excelle à rendre l'abstrait concret.",
+      "task": "Explique le concept demandé en utilisant une analogie accessible mais scientifiquement fidèle.",
+      "format": "Explication en 5-6 phrases maximum, niveau CM2/6e.",
+      "input": "Concept : CRISPR-Cas9 (découvert par les élèves lors d'une recherche sur les femmes scientifiques)."
+    }
+  },
+  {
+    "id": "p013",
+    "part": "Méthodes Transversales",
+    "chapter": "Ingénierie pédagogique",
+    "title": "Analyse didactique",
+    "content": "Contexte : Analysons les erreurs Rôle : Tu es un didacticien spécialiste de l'analyse des erreurs d'élèves. Objectif : Classe les erreurs par type et propose pour chaque catégorie une piste de remédiation en classe. Format : Tableau à 3 colonnes : Type d'erreur | Exemples | Remédiation suggérée. Input : Question posée : \" Pourquoi l'eau bout-elle à 100°C ? \" Erreurs relevées : - \" L'eau a trop chaud \" - \" Les molécules explosent \" - \" L'air sort de l'eau \" - [Ajouter vos relevés]",
+    "subject": "Analyse d'erreur et correction collective",
+    "structure": {
+      "context": "Analysons les erreurs",
+      "role": "Tu es un didacticien spécialiste de l'analyse des erreurs d'élèves.",
+      "task": "Classe les erreurs par type et propose pour chaque catégorie une piste de remédiation en classe.",
+      "format": "Tableau à 3 colonnes : Type d'erreur | Exemples | Remédiation suggérée.",
+      "input": "Question posée : \" Pourquoi l'eau bout-elle à 100°C ? \" Erreurs relevées : - \" L'eau a trop chaud \" - \" Les molécules explosent \" - \" L'air sort de l'eau \" - [Ajouter vos relevés]"
+    }
+  },
+  {
+    "id": "p014",
+    "part": "Méthodes Transversales",
+    "chapter": "L'évaluation repensée",
+    "title": "Le panel représentatif",
+    "content": "Contexte : Je veux vérifier mon évaluation (contenu, durée, objectifs) Rôle : Tu es un élève moyen de [Niveau], avec des capacités de lecture standard mais qui fatigue vite et décroche après 40 minutes. Objectif : Analyse ce sujet d'évaluation sous trois angles. Format : - Chrono : Estime le temps nécessaire. Est-ce faisable en 55 minutes ? - Clarté : Y a-t-il des consignes ambiguës ou des mots trop complexes ? (Cite-les.) - Risque : Résous l'exercice 3. Si tu y arrives trop facilement, signale-le. Input : [Coller le sujet complet de l'évaluation]",
+    "subject": "Général",
+    "structure": {
+      "context": "Je veux vérifier mon évaluation (contenu, durée,",
+      "role": "Tu es un élève moyen de [Niveau], avec des capacités de lecture standard mais qui fatigue vite et décroche après 40 minutes.",
+      "task": "Analyse ce sujet d'évaluation sous trois angles.",
+      "format": "- Chrono : Estime le temps nécessaire. Est-ce faisable en 55 minutes ? - Clarté : Y a-t-il des consignes ambiguës ou des mots trop complexes ? (Cite-les.) - Risque : Résous l'exercice 3. Si tu y arrives trop facilement, signale-le.",
+      "input": "[Coller le sujet complet de l'évaluation]"
+    }
+  },
+  {
+    "id": "p015",
+    "part": "Méthodes Transversales",
+    "chapter": "L'évaluation repensée",
+    "title": "Générateur de Sujet B",
+    "content": "Contexte : Je veux faire deux sujets différents mais de difficulté identique. Rôle : Tu es un concepteur d'épreuves soucieux de l'équité entre candidats. Objectif : Génère une Version B strictement équivalente en difficulté au Sujet A fourni. Format : - Sujet B complet (même structure, mêmes compétences). - Corrigé de cette Version B. Input : [Coller le Sujet A complet] Discipline : [Maths / Grammaire / Histoire...]",
+    "subject": "Général",
+    "structure": {
+      "context": "Je veux faire deux sujets différents mais de difficulté identique.",
+      "role": "Tu es un concepteur d'épreuves soucieux de l'équité entre candidats.",
+      "task": "Génère une Version B strictement équivalente en difficulté au Sujet A fourni.",
+      "format": "- Sujet B complet (même structure, mêmes compétences). - Corrigé de cette Version B.",
+      "input": "[Coller le Sujet A complet] Discipline : [Maths / Grammaire / Histoire...]"
+    }
+  },
+  {
+    "id": "p016",
+    "part": "Méthodes Transversales",
+    "chapter": "L'évaluation repensée",
+    "title": "Le générateur de barème",
+    "content": "Contexte : Vous évaluez une production originale (podcast, affiche, exposé oral) et avez besoin d'une grille critériée pour objectiver la notation. Rôle : Tu es un spécialiste de la docimologie (Pour briller en soirée, encore : c'est la science de l'évaluation.). Objectif : Crée une grille d'évaluation avec des indicateurs observables pour chaque niveau de maîtrise. Format : Tableau avec : - Lignes : les critères d'évaluation. - Colonnes : Insuffisant | Satisfaisant | Expert. - Cellules : indicateurs observables (pas de jugements vagues). Input : Production évaluée : Podcast d'élève sur la Résistance. Critères souhaités : - Exactitude historique. - Clarté de l'expression orale. - Qualité des sources citées. - Originalité de l'angle choisi.",
+    "subject": "Le \" flash oral \" de vérification",
+    "structure": {
+      "context": "Vous évaluez une production originale (podcast, affiche, exposé oral) et avez besoin d'une grille critériée pour objectiver la notation.",
+      "role": "Tu es un spécialiste de la docimologie (Pour briller en soirée, encore : c'est la science de l'évaluation.).",
+      "task": "Crée une grille d'évaluation avec des indicateurs observables pour chaque niveau de maîtrise.",
+      "format": "Tableau avec : - Lignes : les critères d'évaluation. - Colonnes : Insuffisant | Satisfaisant | Expert. - Cellules : indicateurs observables (pas de jugements vagues).",
+      "input": "Production évaluée : Podcast d'élève sur la Résistance. Critères souhaités : - Exactitude historique. - Clarté de l'expression orale. - Qualité des sources citées. - Originalité de l'angle choisi."
+    }
+  },
+  {
+    "id": "p017",
+    "part": "Méthodes Transversales",
+    "chapter": "L'évaluation repensée",
+    "title": "Sujet piégé",
+    "content": "Contexte : Je veux pouvoir identifier les élèves qui ont juste collé le .pdf dans leur I.A Rôle : Tu es un concepteur de sujets. Objectif : Crée un sujet de devoir maison comportant une question \" invisible \" (texte en blanc sur fond blanc) qui ne sera visible que si l'élève copie-colle le PDF dans une IA. Format : Sujet PDF sur le théorème de Pythagore, niveau 4e. La question cachée exigera une réponse en écriture scientifique — compétence hors sujet qui trahira le copier-coller. Input : Chapitre : Théorème de Pythagore.",
+    "subject": "Le \" flash oral \" de vérification",
+    "structure": {
+      "context": "Je veux pouvoir identifier les élèves qui ont juste collé le .pdf dans leur I.A",
+      "role": "Tu es un concepteur de sujets.",
+      "task": "Crée un sujet de devoir maison comportant une question \" invisible \" (texte en blanc sur fond blanc) qui ne sera visible que si l'élève copie-colle le PDF dans une IA.",
+      "format": "Sujet PDF sur le théorème de Pythagore, niveau 4e. La question cachée exigera une réponse en écriture scientifique — compétence hors sujet qui trahira le copier-coller.",
+      "input": "Chapitre : Théorème de Pythagore."
+    }
+  },
+  {
+    "id": "p018",
+    "part": "Méthodes Transversales",
+    "chapter": "L'évaluation repensée",
+    "title": "Le rebond (vérification croisée)",
+    "content": "Contexte : Vous avez généré un sujet d'évaluation avec une première IA (NotebookLM, ChatGPT...). Avant de l'imprimer, vous voulez vérifier sa cohérence avec un second modèle. Rôle : Tu es un correcteur rigoureux, spécialiste de la discipline concernée. Objectif : Vérifie la cohérence et l'exactitude de ce sujet. Refais tous les calculs pas à pas et signale toute incohérence ou résultat impossible. Format : Liste des problèmes détectés (s'il y en a) avec explication et correction proposée. Input : [Coller le sujet généré par la première IA]",
+    "subject": "Le \" rebond \" multi-IA",
+    "structure": {
+      "context": "Vous avez généré un sujet d'évaluation avec une première IA (NotebookLM, ChatGPT...). Avant de l'imprimer, vous voulez vérifier sa cohérence avec un second modèle.",
+      "role": "Tu es un correcteur rigoureux, spécialiste de la discipline concernée.",
+      "task": "Vérifie la cohérence et l'exactitude de ce sujet. Refais tous les calculs pas à pas et signale toute incohérence ou résultat impossible.",
+      "format": "Liste des problèmes détectés (s'il y en a) avec explication et correction proposée.",
+      "input": "[Coller le sujet généré par la première IA]"
+    }
+  },
+  {
+    "id": "p019",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Le laboratoire de style",
+    "content": "Contexte : Travail sur le style d'un auteur en classe de 1re. Rôle : Tu es un pasticheur littéraire. Objectif : Réécris la fable \" Le Corbeau et le Renard \" de La Fontaine dans le style de Marcel Proust. Format : Texte de 10-15 lignes respectant les caractéristiques suivantes : - Phrases longues et sinueuses - Insistance sur les sensations et la mémoire - Digressions sur le temps qui passe Input : Fable source : \" Le Corbeau et le Renard \" de La Fontaine.",
+    "subject": "Le pastiche pour comprendre le style",
+    "structure": {
+      "context": "Travail sur le style d'un auteur en classe de 1re.",
+      "role": "Tu es un pasticheur littéraire.",
+      "task": "Réécris la fable \" Le Corbeau et le Renard \" de La Fontaine dans le style de Marcel Proust.",
+      "format": "Texte de 10-15 lignes respectant les caractéristiques suivantes : - Phrases longues et sinueuses - Insistance sur les sensations et la mémoire - Digressions sur le temps qui passe",
+      "input": "Fable source : \" Le Corbeau et le Renard \" de La Fontaine."
+    }
+  },
+  {
+    "id": "p020",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Persona : Apollinaire",
+    "content": "Contexte : Préparation de l'oral du bac de français. Rôle : Tu es Guillaume Apollinaire, disposé à expliquer tes intentions poétiques. Objectif : Réponds aux questions d'un élève sur tes choix dans \" Lettres à Lou \" en restant dans ton personnage. Format : Dialogue, attends les questions avant de répondre. Input : Œuvre : Lettres à Lou.",
+    "subject": "L'entretien fictif",
+    "structure": {
+      "context": "Préparation de l'oral du bac de français.",
+      "role": "Tu es Guillaume Apollinaire, disposé à expliquer tes intentions poétiques.",
+      "task": "Réponds aux questions d'un élève sur tes choix dans \" Lettres à Lou \" en restant dans ton personnage.",
+      "format": "Dialogue, attends les questions avant de répondre.",
+      "input": "Œuvre : Lettres à Lou."
+    }
+  },
+  {
+    "id": "p021",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "L'IA génère, l'élève analyse",
+    "content": "Contexte : Séquence sur la dissertation, classe de 1re. Rôle : Tu es un élève moyen qui rédige une dissertation. Objectif : Génère une dissertation de niveau 12/20 sur : \" Le roman doit-il représenter la réalité ? \" Format : Plan en 2 parties, avec ces défauts volontaires : - Références littéraires approximatives - Argumentation correcte mais sans nuance - Transitions mécaniques (\" Dans un second temps... \") - Ouverture plate Input : Sujet : \" Le roman doit-il représenter la réalité ? \"",
+    "subject": "La dissertation à critiquer",
+    "structure": {
+      "context": "Séquence sur la dissertation, classe de 1re.",
+      "role": "Tu es un élève moyen qui rédige une dissertation.",
+      "task": "Génère une dissertation de niveau 12/20 sur : \" Le roman doit-il représenter la réalité ? \"",
+      "format": "Plan en 2 parties, avec ces défauts volontaires : - Références littéraires approximatives - Argumentation correcte mais sans nuance - Transitions mécaniques (\" Dans un second temps... \") - Ouverture plate",
+      "input": "Sujet : \" Le roman doit-il représenter la réalité ? \""
+    }
+  },
+  {
+    "id": "p022",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "L'inscription effacée",
+    "content": "Contexte : Exercice de déchiffrement en cours de latin. Rôle : Tu es une stèle funéraire romaine découverte près de Pompéi. Objectif : Génère un texte latin de 3 lignes sur la vie d'un gladiateur, avec 3 trous logiques (un verbe, un nom, un adjectif). Format : Texte avec [...] pour les trous, puis liste des mots manquants en désordre, puis traduction. Input : Niveau : 4e, vocabulaire courant.",
+    "subject": "L'épigraphiste en herbe",
+    "structure": {
+      "context": "Exercice de déchiffrement en cours de latin.",
+      "role": "Tu es une stèle funéraire romaine découverte près de Pompéi.",
+      "task": "Génère un texte latin de 3 lignes sur la vie d'un gladiateur, avec 3 trous logiques (un verbe, un nom, un adjectif).",
+      "format": "Texte avec [...] pour les trous, puis liste des mots manquants en désordre, puis traduction.",
+      "input": "Niveau : 4e, vocabulaire courant."
+    }
+  },
+  {
+    "id": "p023",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Interview de Junon",
+    "content": "Contexte : Travail sur la mythologie romaine. Rôle : Tu es la déesse Junon, interviewée par un journaliste moderne. Objectif : Explique tes colères célèbres en les justifiant de ton point de vue. Format : Ton digne mais accessible, dialogue. Input : Thème : ta relation avec Jupiter et tes interventions dans les mythes.",
+    "subject": "L'interview mythologique",
+    "structure": {
+      "context": "Travail sur la mythologie romaine.",
+      "role": "Tu es la déesse Junon, interviewée par un journaliste moderne.",
+      "task": "Explique tes colères célèbres en les justifiant de ton point de vue.",
+      "format": "Ton digne mais accessible, dialogue.",
+      "input": "Thème : ta relation avec Jupiter et tes interventions dans les mythes."
+    }
+  },
+  {
+    "id": "p024",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Analyse comparative",
+    "content": "Contexte : Étude de l'incipit de l'Énéide. Rôle : Tu es un traducteur latiniste. Objectif : Propose 2 traductions différentes du passage : une littérale, une littéraire. Format : Pour chaque traduction, indique les choix effectués (ordre des mots, équivalents choisis). Input : Arma virumque cano, Troiae qui primus ab oris / Italiam fato profugus Laviniaque venit / litora...",
+    "subject": "Le comparateur de traductions",
+    "structure": {
+      "context": "Étude de l'incipit de l'Énéide.",
+      "role": "Tu es un traducteur latiniste.",
+      "task": "Propose 2 traductions différentes du passage : une littérale, une littéraire.",
+      "format": "Pour chaque traduction, indique les choix effectués (ordre des mots, équivalents choisis).",
+      "input": "Arma virumque cano, Troiae qui primus ab oris / Italiam fato profugus Laviniaque venit / litora..."
+    }
+  },
+  {
+    "id": "p025",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Texte latin sur mesure",
+    "content": "Contexte : Besoin d'un texte adapté au niveau de la classe. Rôle : Tu es un auteur latin écrivant pour des débutants. Objectif : Génère un court texte (5-6 phrases) sur les jeux du cirque. Format : Texte + liste des mots à glosser + traduction. Input : Contraintes grammaticales : indicatif présent et parfait uniquement, pas de subjonctif, une proposition relative au nominatif, maximum 3 mots nouveaux.",
+    "subject": "Le générateur de textes adaptés",
+    "structure": {
+      "context": "Besoin d'un texte adapté au niveau de la classe.",
+      "role": "Tu es un auteur latin écrivant pour des débutants.",
+      "task": "Génère un court texte (5-6 phrases) sur les jeux du cirque.",
+      "format": "Texte + liste des mots à glosser + traduction.",
+      "input": "Contraintes grammaticales : indicatif présent et parfait uniquement, pas de subjonctif, une proposition relative au nominatif, maximum 3 mots nouveaux."
+    }
+  },
+  {
+    "id": "p026",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Recette antique",
+    "content": "Contexte : Séquence sur la vie quotidienne à Rome. Rôle : Tu es Apicius, célèbre gastronome romain du Ier siècle. Objectif : Donne une recette de dulcia domestica (dessert aux dattes) tirée de ton livre De re coquinaria. Format : - Ingrédients (avec équivalents modernes) - Étapes de préparation - Paragraphe en latin simple (niveau 5e) - Traduction Input : Public : élèves de 5e-4e.",
+    "subject": "La civilisation par la pratique : une recette romaine",
+    "structure": {
+      "context": "Séquence sur la vie quotidienne à Rome.",
+      "role": "Tu es Apicius, célèbre gastronome romain du Ier siècle.",
+      "task": "Donne une recette de dulcia domestica (dessert aux dattes) tirée de ton livre De re coquinaria.",
+      "format": "- Ingrédients (avec équivalents modernes) - Étapes de préparation - Paragraphe en latin simple (niveau 5e) - Traduction",
+      "input": "Public : élèves de 5e-4e."
+    }
+  },
+  {
+    "id": "p027",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Le guide immersif — Anglais",
+    "content": "Contexte : Séquence sur l'époque victorienne. Rôle : You are a tour guide in London, 1890. Objectif : Take me on a walk through Whitechapel. Describe the smells, the sounds, the clothes of the passers-by. Format : Immersive text, period vocabulary, B2 level. Do not invent historical facts. Input : Area: Whitechapel, Victorian era.",
+    "subject": "Le guide immersif",
+    "structure": {
+      "context": "Séquence sur l'époque victorienne.",
+      "role": "You are a tour guide in London, 1890.",
+      "task": "Take me on a walk through Whitechapel. Describe the smells, the sounds, the clothes of the passers-by.",
+      "format": "Immersive text, period vocabulary, B2 level. Do not invent historical facts.",
+      "input": "Area: Whitechapel, Victorian era."
+    }
+  },
+  {
+    "id": "p028",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Le guide immersif — Espagnol",
+    "content": "Contexte : Séquence sur la guerre civile espagnole. Rôle : Eres un vecino de Madrid en noviembre de 1936. Objectif : Describe un día ordinario durante el asedio: los ruidos, las colas para el pan, los carteles en las paredes. Format : Texto de 150 palabras, nivel B1-B2, vocabulario accesible. Input : Punto de vista: civil, ni soldado ni político.",
+    "subject": "Le guide immersif",
+    "structure": {
+      "context": "Séquence sur la guerre civile espagnole.",
+      "role": "Eres un vecino de Madrid en noviembre de 1936.",
+      "task": "Describe un día ordinario durante el asedio: los ruidos, las colas para el pan, los carteles en las paredes.",
+      "format": "Texto de 150 palabras, nivel B1-B2, vocabulario accesible.",
+      "input": "Punto de vista: civil, ni soldado ni político."
+    }
+  },
+  {
+    "id": "p029",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Le guide immersif — Allemand",
+    "content": "Contexte : Séquence sur la chute du Mur de Berlin. Rôle : Du bist ein Ostberliner am 9. November 1989. Objectif : Beschreibe den Moment, als du hörst, dass die Grenze offen ist. Was siehst du? Was fühlst du? Format : Text mit 150 Wörtern, Niveau B1, Gefühle und Sinneseindrücke. Input : Perspektive: junger Erwachsener, 25 Jahre alt.",
+    "subject": "Le guide immersif",
+    "structure": {
+      "context": "Séquence sur la chute du Mur de Berlin.",
+      "role": "Du bist ein Ostberliner am 9. November 1989.",
+      "task": "Beschreibe den Moment, als du hörst, dass die Grenze offen ist. Was siehst du? Was fühlst du?",
+      "format": "Text mit 150 Wörtern, Niveau B1, Gefühle und Sinneseindrücke.",
+      "input": "Perspektive: junger Erwachsener, 25 Jahre alt."
+    }
+  },
+  {
+    "id": "p030",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Le guide immersif — Italien",
+    "content": "Contexte : Séquence sur l'Italie des années 1960. Rôle : Sei un giovane romano nel 1960, l'anno delle Olimpiadi. Objectif : Descrivi l'atmosfera in città: i caffè, le Vespe, l'entusiasmo per i Giochi. Format : Testo di 150 parole, livello B1, vocabolario della vita quotidiana. Input : Punto di vista: un giovane operaio appassionato di ciclismo.",
+    "subject": "Le guide immersif",
+    "structure": {
+      "context": "Séquence sur l'Italie des années 1960.",
+      "role": "Sei un giovane romano nel 1960, l'anno delle Olimpiadi.",
+      "task": "Descrivi l'atmosfera in città: i caffè, le Vespe, l'entusiasmo per i Giochi.",
+      "format": "Testo di 150 parole, livello B1, vocabolario della vita quotidiana.",
+      "input": "Punto di vista: un giovane operaio appassionato di ciclismo."
+    }
+  },
+  {
+    "id": "p031",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Scaffolding (étayage)",
+    "content": "Contexte : Article de presse trop difficile pour le niveau de la classe. Rôle : Tu es un assistant pédagogique en langues. Objectif : Crée des aides à la compréhension pour cet article. Format : - Liste de 10 mots difficiles avec définition dans la langue cible (niveau A2) - 3 questions de compréhension globale - Réécriture du 2e paragraphe en syntaxe simplifiée Input : [Coller l'article en anglais / espagnol / allemand / italien]",
+    "subject": "L'ascenseur de niveau",
+    "structure": {
+      "context": "Article de presse trop difficile pour le niveau de la classe.",
+      "role": "Tu es un assistant pédagogique en langues.",
+      "task": "Crée des aides à la compréhension pour cet article.",
+      "format": "- Liste de 10 mots difficiles avec définition dans la langue cible (niveau A2) - 3 questions de compréhension globale - Réécriture du 2e paragraphe en syntaxe simplifiée",
+      "input": "[Coller l'article en anglais / espagnol / allemand / italien]"
+    }
+  },
+  {
+    "id": "p032",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "The Grumpy Shopkeeper — Anglais",
+    "content": "Contexte : Entraînement à l'expression orale en situation. Rôle : You are a grumpy London shopkeeper. Objectif : I'm a tourist trying to return a defective umbrella without a receipt. Make it difficult for me. Format : Dialogue. Wait for my answer before continuing. Correct my mistakes only at the end. Input : Situation: returning a defective umbrella without receipt.",
+    "subject": "Le jeu de rôle",
+    "structure": {
+      "context": "Entraînement à l'expression orale en situation.",
+      "role": "You are a grumpy London shopkeeper.",
+      "task": "I'm a tourist trying to return a defective umbrella without a receipt. Make it difficult for me.",
+      "format": "Dialogue. Wait for my answer before continuing. Correct my mistakes only at the end.",
+      "input": "Situation: returning a defective umbrella without receipt."
+    }
+  },
+  {
+    "id": "p033",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "El vendedor antipático — Espagnol",
+    "content": "Contexte : Entrenamiento de expresión oral. Rôle : Eres un vendedor antipático en un mercado de Barcelona. Objectif : Soy un turista que quiere devolver una camiseta sin el ticket. Ponme dificultades. Format : Diálogo. Espera mi respuesta. Corrige mis errores solo al final. Input : Situación: devolución sin ticket de compra.",
+    "subject": "Le jeu de rôle",
+    "structure": {
+      "context": "Entrenamiento de expresión oral.",
+      "role": "Eres un vendedor antipático en un mercado de Barcelona.",
+      "task": "Soy un turista que quiere devolver una camiseta sin el ticket. Ponme dificultades.",
+      "format": "Diálogo. Espera mi respuesta. Corrige mis errores solo al final.",
+      "input": "Situación: devolución sin ticket de compra."
+    }
+  },
+  {
+    "id": "p034",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Quel accent ?",
+    "content": "Contexte : Sensibilisation aux variantes régionales, tous niveaux. Rôle : Tu es un linguiste spécialiste de phonétique. Objectif : Génère un court texte (50 mots) en [langue cible] sur un thème neutre (ex: description d'une ville). Précise ensuite les principales différences phonétiques entre trois accents régionaux de cette langue. Format : Texte neutre + tableau comparatif des traits phonétiques (prononciation du \" r \", voyelles, rythme). Input : Langue : espagnol. Accents : castillan, argentin, mexicain.",
+    "subject": "La prononciation : Text-to-Speech et accents régionaux",
+    "structure": {
+      "context": "Sensibilisation aux variantes régionales, tous niveaux.",
+      "role": "Tu es un linguiste spécialiste de phonétique.",
+      "task": "Génère un court texte (50 mots) en [langue cible] sur un thème neutre (ex: description d'une ville). Précise ensuite les principales différences phonétiques entre trois accents régionaux de cette langue.",
+      "format": "Texte neutre + tableau comparatif des traits phonétiques (prononciation du \" r \", voyelles, rythme).",
+      "input": "Langue : espagnol. Accents : castillan, argentin, mexicain."
+    }
+  },
+  {
+    "id": "p035",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "La dictée inversée",
+    "content": "Contexte : Travail sur l'écoute fine et l'orthographe, niveau B1-B2. Rôle : Tu es un assistant pédagogique en langues. Objectif : Aide-moi à préparer une activité de \" dictée inversée \" : l'élève transcrit un audio authentique, puis compare sa transcription avec celle d'une IA de Speech-to-Text. Guide-moi dans l'analyse des erreurs de chaque côté. Format : Conseils pour choisir l'extrait audio + grille d'analyse des erreurs (IA vs élèves). Input : Langue : [anglais/espagnol/allemand]. Type d'audio souhaité : [podcast/interview/chanson].",
+    "subject": "La transcription : Speech-to-Text",
+    "structure": {
+      "context": "Travail sur l'écoute fine et l'orthographe, niveau B1-B2.",
+      "role": "Tu es un assistant pédagogique en langues.",
+      "task": "Aide-moi à préparer une activité de \" dictée inversée \" : l'élève transcrit un audio authentique, puis compare sa transcription avec celle d'une IA de Speech-to-Text. Guide-moi dans l'analyse des erreurs de chaque côté.",
+      "format": "Conseils pour choisir l'extrait audio + grille d'analyse des erreurs (IA vs élèves).",
+      "input": "Langue : [anglais/espagnol/allemand]. Type d'audio souhaité : [podcast/interview/chanson]."
+    }
+  },
+  {
+    "id": "p036",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Le journaliste de 1914",
+    "content": "Contexte : Travail sur la Première Guerre mondiale et la propagande. Rôle : Tu es un journaliste français nationaliste le 4 août 1914. Objectif : Écris un court article (100 mots) sur l'entrée en guerre, ton patriotique et confiant. Puis, oublie ce rôle et écris le même article en tant que journaliste pacifiste allemand. Format : Deux articles de 100 mots chacun, perspectives opposées. Input : Événement : déclaration de guerre du 4 août 1914.",
+    "subject": "La simulation historique",
+    "structure": {
+      "context": "Travail sur la Première Guerre mondiale et la propagande.",
+      "role": "Tu es un journaliste français nationaliste le 4 août 1914.",
+      "task": "Écris un court article (100 mots) sur l'entrée en guerre, ton patriotique et confiant. Puis, oublie ce",
+      "format": "Deux articles de 100 mots chacun, perspectives opposées.",
+      "input": "Événement : déclaration de guerre du 4 août 1914."
+    }
+  },
+  {
+    "id": "p037",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Synthèse NotebookLM",
+    "content": "Contexte : Corpus de 5 articles de géopolitique sur un thème complexe. Rôle : Tu es un assistant de recherche documentaire. Objectif : Identifie les 3 points de tension majeurs qui reviennent dans ces documents et cite, pour chaque point, l'auteur qui en parle le mieux. Format : 3 points de tension + auteur de référence pour chaque + citation courte. Input : Thème : \" La gestion de l'eau au Moyen-Orient \". [Importer les 5 articles dans NotebookLM]",
+    "subject": "La synthèse documentaire",
+    "structure": {
+      "context": "Corpus de 5 articles de géopolitique sur un thème complexe.",
+      "role": "Tu es un assistant de recherche documentaire.",
+      "task": "Identifie les 3 points de tension majeurs qui reviennent dans ces documents et cite, pour chaque point, l'auteur qui en parle le mieux.",
+      "format": "3 points de tension + auteur de référence pour chaque + citation courte.",
+      "input": "Thème : \" La gestion de l'eau au Moyen-Orient \". [Importer les 5 articles dans NotebookLM]"
+    }
+  },
+  {
+    "id": "p038",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Le géographe de terrain",
+    "content": "Contexte : Analyse de paysage en classe de 1re. Rôle : Tu es un géographe spécialiste de l'analyse paysagère. Objectif : Analyse cette photographie de paysage. Identifie les plans (premier plan, second plan, arrière-plan), les éléments naturels et anthropiques, les dynamiques visibles. Format : - Description structurée par plans - Hypothèses sur les activités économiques - Questions que l'image ne permet pas de trancher Input : [Téléverser la photographie]",
+    "subject": "L'analyse d'image augmentée",
+    "structure": {
+      "context": "Analyse de paysage en classe de 1re.",
+      "role": "Tu es un géographe spécialiste de l'analyse paysagère.",
+      "task": "Analyse cette photographie de paysage. Identifie les plans (premier plan, second plan, arrière-plan), les éléments naturels et anthropiques, les dynamiques visibles.",
+      "format": "- Description structurée par plans - Hypothèses sur les activités économiques - Questions que l'image ne permet pas de trancher",
+      "input": "[Téléverser la photographie]"
+    }
+  },
+  {
+    "id": "p039",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Transcription de source primaire",
+    "content": "Contexte : Étude d'une affiche de propagande (1914-1918 ou 1939-1945). Rôle : Tu es un archiviste spécialiste de la transcription. Objectif : Transcris le texte visible sur cette affiche. Décris ensuite les éléments visuels (personnages, symboles, couleurs) et leur signification probable. Format : - Transcription du texte (entre guillemets) - Description des éléments visuels - Hypothèse sur le message et le public visé Input : [Téléverser l'affiche]",
+    "subject": "Le déchiffreur de documents",
+    "structure": {
+      "context": "Étude d'une affiche de propagande (1914-1918 ou 1939-1945).",
+      "role": "Tu es un archiviste spécialiste de la transcription.",
+      "task": "Transcris le texte visible sur cette affiche. Décris ensuite les éléments visuels (personnages, symboles, couleurs) et leur signification probable.",
+      "format": "- Transcription du texte (entre guillemets) - Description des éléments visuels - Hypothèse sur le message et le public visé",
+      "input": "[Téléverser l'affiche]"
+    }
+  },
+  {
+    "id": "p040",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Préparation de croquis",
+    "content": "Contexte : Préparation d'un croquis de bac en Terminale. Rôle : Tu es un professeur d'Histoire-Géographie spécialiste de cartographie. Objectif : Aide-moi à structurer mon croquis sur \" Les dynamiques territoriales de la mégalopole japonaise \". Format : - Légende organisée en 2-3 parties thématiques - Pour chaque élément : figuré approprié (ponctuel, linéaire, zonal) et couleur conventionnelle - Liste des toponymes obligatoires Input : Ne dessine pas le croquis — je le ferai moi-même.",
+    "subject": "La cartographie assistée",
+    "structure": {
+      "context": "Préparation d'un croquis de bac en Terminale.",
+      "role": "Tu es un professeur d'Histoire-Géographie spécialiste de cartographie.",
+      "task": "Aide-moi à structurer mon croquis sur \" Les dynamiques territoriales de la mégalopole japonaise \".",
+      "format": "- Légende organisée en 2-3 parties thématiques - Pour chaque élément : figuré approprié (ponctuel, linéaire, zonal) et couleur conventionnelle - Liste des toponymes obligatoires",
+      "input": "Ne dessine pas le croquis — je le ferai moi-même."
+    }
+  },
+  {
+    "id": "p041",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "L'opposant philosophique",
+    "content": "Contexte : Préparation de dissertation en Terminale. Rôle : Tu es un philosophe critique, adepte de la maïeutique socratique. Objectif : Fais-moi une objection percutante pour m'obliger à nuancer ma thèse. Ne donne pas la réponse — pose une question gênante. Format : Une objection courte (3-4 lignes) sous forme de question. Input : Sujet : \" La technique nous libère-t-elle ? \" Ma thèse : \" Oui, car elle réduit le travail pénible. \"",
+    "subject": "L'opposant socratique",
+    "structure": {
+      "context": "Préparation de dissertation en Terminale.",
+      "role": "Tu es un philosophe critique, adepte de la maïeutique socratique.",
+      "task": "Fais-moi une objection percutante pour m'obliger à nuancer ma thèse. Ne donne pas la réponse — pose une question gênante.",
+      "format": "Une objection courte (3-4 lignes) sous forme de question.",
+      "input": "Sujet : \" La technique nous libère-t-elle ? \" Ma thèse : \" Oui, car elle réduit le travail pénible. \""
+    }
+  },
+  {
+    "id": "p042",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Les distinctions",
+    "content": "Contexte : Travail sur les repères du programme de philosophie. Rôle : Tu es un professeur de philosophie rigoureux sur les définitions. Objectif : Trace un tableau comparatif pour distinguer \" Contrainte \" et \" Obligation \". Format : Tableau avec colonnes : Définition | Exemple concret | Ce que cela change pour la liberté. Input : Repère : Contrainte vs Obligation.",
+    "subject": "L'atelier de définition",
+    "structure": {
+      "context": "Travail sur les repères du programme de philosophie.",
+      "role": "Tu es un professeur de philosophie rigoureux sur les définitions.",
+      "task": "Trace un tableau comparatif pour distinguer \" Contrainte \" et \" Obligation \".",
+      "format": "Tableau avec colonnes : Définition | Exemple concret | Ce que cela change pour la liberté.",
+      "input": "Repère : Contrainte vs Obligation."
+    }
+  },
+  {
+    "id": "p043",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Le problématiseur",
+    "content": "Contexte : Entraînement à la problématisation. Rôle : Tu es un professeur de philosophie qui aide à formuler des problématiques. Objectif : Propose 3 problématiques différentes pour ce sujet, en expliquant quelle tension chacune met en lumière. Format : Pour chaque problématique : formulation + tension identifiée (2 lignes). Input : Sujet : \" Peut-on être libre sans être responsable ? \"",
+    "subject": "Le générateur de problématiques",
+    "structure": {
+      "context": "Entraînement à la problématisation.",
+      "role": "Tu es un professeur de philosophie qui aide à formuler des problématiques.",
+      "task": "Propose 3 problématiques différentes pour ce sujet, en expliquant quelle tension chacune met en lumière.",
+      "format": "Pour chaque problématique : formulation + tension identifiée (2 lignes).",
+      "input": "Sujet : \" Peut-on être libre sans être responsable ? \""
+    }
+  },
+  {
+    "id": "p044",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "Le contextualisateur",
+    "content": "Contexte : Lecture d'un extrait difficile en classe. Rôle : Tu es un spécialiste de l'histoire de la philosophie. Objectif : Explique le contexte de rédaction de ce texte : contre qui ou quoi l'auteur argumente-t-il ? Quel problème cherche-t-il à résoudre ? Format : Réponse en 10 lignes maximum, sans paraphrase du texte lui-même. Input : Texte : Extrait du Gorgias de Platon, dialogue entre Socrate et Calliclès sur le droit du plus fort.",
+    "subject": "L'accès aux textes : contextualisation et clarification",
+    "structure": {
+      "context": "Lecture d'un extrait difficile en classe.",
+      "role": "Tu es un spécialiste de l'histoire de la philosophie.",
+      "task": "Explique le",
+      "format": "Réponse en 10 lignes maximum, sans paraphrase du texte lui-même.",
+      "input": "Texte : Extrait du Gorgias de Platon, dialogue entre Socrate et Calliclès sur le droit du plus fort."
+    }
+  },
+  {
+    "id": "p045",
+    "part": "Dans votre Discipline",
+    "chapter": "Lettres, Langues et Sciences Humaines",
+    "title": "L'expérience de pensée",
+    "content": "Contexte : Introduction d'une notion par un dilemme. Rôle : Tu es un philosophe qui invente des expériences de pensée. Objectif : Crée une expérience de pensée originale (pas le tramway !) pour interroger la notion de responsabilité. Format : Situation en 5 lignes + 2 questions qui divisent la classe. Input : La situation doit être contemporaine (technologie, réseaux sociaux, IA).",
+    "subject": "L'expérience de pensée contemporaine",
+    "structure": {
+      "context": "Introduction d'une notion par un dilemme.",
+      "role": "Tu es un philosophe qui invente des expériences de pensée.",
+      "task": "Crée une expérience de pensée originale (pas le tramway !) pour interroger la notion de responsabilité.",
+      "format": "Situation en 5 lignes + 2 questions qui divisent la classe.",
+      "input": "La situation doit être contemporaine (technologie, réseaux sociaux, IA)."
+    }
+  },
+  {
+    "id": "p046",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Le tuteur socratique",
+    "content": "Contexte : Un élève est bloqué sur un exercice. Rôle : Tu es un tuteur socratique en mathématiques. Objectif : Aide l'élève à résoudre l'exercice SANS JAMAIS donner la réponse finale. Format : - Demande d'abord : \" Quelle est ta première piste ? \" - Donne un indice conceptuel, mais n'écris pas la formule - Si blocage, pose une question qui oriente vers le bon outil Input : [Coller l'énoncé de l'exercice]",
+    "subject": "Le tuteur socratique",
+    "structure": {
+      "context": "Un élève est bloqué sur un exercice.",
+      "role": "Tu es un tuteur socratique en mathématiques.",
+      "task": "Aide l'élève à résoudre l'exercice SANS JAMAIS donner la réponse finale.",
+      "format": "- Demande d'abord : \" Quelle est ta première piste ? \" - Donne un indice conceptuel, mais n'écris pas la formule - Si blocage, pose une question qui oriente vers le bon outil",
+      "input": "[Coller l'énoncé de l'exercice]"
+    }
+  },
+  {
+    "id": "p047",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Générateur d'exercices",
+    "content": "Contexte : Besoin d'une fiche d'exercices progressifs. Rôle : Tu es un concepteur d'exercices de mathématiques. Objectif : Génère une fiche de 5 exercices progressifs sur le théorème de Pythagore. Format : Pour chaque exercice : énoncé + correction détaillée + compétence spécifique testée. Input : Niveau : 4e.",
+    "subject": "L'usine à exercices",
+    "structure": {
+      "context": "Besoin d'une fiche d'exercices progressifs.",
+      "role": "Tu es un concepteur d'exercices de mathématiques.",
+      "task": "Génère une fiche de 5 exercices progressifs sur le théorème de Pythagore.",
+      "format": "Pour chaque exercice : énoncé + correction détaillée + compétence spécifique testée.",
+      "input": "Niveau : 4e."
+    }
+  },
+  {
+    "id": "p048",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Le défi de Fermi",
+    "content": "Contexte : Travail sur les ordres de grandeur. Rôle : Tu es un physicien spécialiste des estimations. Objectif : Estime le nombre de ballons de basket qu'on peut faire tenir dans une salle de classe standard (7m × 8m × 3m). Format : Détaille tout le raisonnement : calcul du volume, estimation du volume d'un ballon, taux de remplissage (compacité). Affiche les étapes. Input : Dimensions : 7m × 8m × 3m.",
+    "subject": "Le problème de Fermi",
+    "structure": {
+      "context": "Travail sur les ordres de grandeur.",
+      "role": "Tu es un physicien spécialiste des estimations.",
+      "task": "Estime le nombre de ballons de basket qu'on peut faire tenir dans une salle de classe standard (7m × 8m × 3m).",
+      "format": "Détaille tout le raisonnement : calcul du volume, estimation du volume d'un ballon, taux de remplissage (compacité). Affiche les étapes.",
+      "input": "Dimensions : 7m × 8m × 3m."
+    }
+  },
+  {
+    "id": "p049",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "La fausse démonstration",
+    "content": "Contexte : Exercice d'esprit critique mathématique. Rôle : Tu es un mathématicien facétieux. Objectif : Génère une \" démonstration \" qui prouve que 1 = 2, avec une erreur classique (division par zéro cachée ou racine carrée mal gérée). Format : Démonstration en 5-6 étapes, erreur subtile mais identifiable par un élève de Terminale. Input : Type d'erreur : au choix.",
+    "subject": "Le chasseur de faux",
+    "structure": {
+      "context": "Exercice d'esprit critique mathématique.",
+      "role": "Tu es un mathématicien facétieux.",
+      "task": "Génère une \" démonstration \" qui prouve que 1 = 2, avec une erreur classique (division par zéro cachée ou racine carrée mal gérée).",
+      "format": "Démonstration en 5-6 étapes, erreur subtile mais identifiable par un élève de Terminale.",
+      "input": "Type d'erreur : au choix."
+    }
+  },
+  {
+    "id": "p050",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Défendre sa preuve",
+    "content": "Contexte : Un élève a rédigé une démonstration et veut la tester. Rôle : Tu es un examinateur exigeant. Objectif : Identifie la faille logique dans ma démonstration. Ne donne pas la correction — pose des questions pour que je trouve moi-même l'erreur. Format : Questions ciblées, pas de réponse directe. Input : Ma démonstration : \" Soit $a$ et $b$ deux nombres pairs. Alors $a = 2k$ et $b = 2k$ où $k$ est un entier. Donc $a + b = 2k + 2k = 4k$ qui est pair. \"",
+    "subject": "L'avocat de la démonstration",
+    "structure": {
+      "context": "Un élève a rédigé une démonstration et veut la tester.",
+      "role": "Tu es un examinateur exigeant.",
+      "task": "Identifie la faille logique dans ma démonstration. Ne donne pas la correction — pose des questions pour que je trouve moi-même l'erreur.",
+      "format": "Questions ciblées, pas de réponse directe.",
+      "input": "Ma démonstration : \" Soit $a$ et $b$ deux nombres pairs. Alors $a = 2k$ et $b = 2k$ où $k$ est un entier. Donc $a + b = 2k + 2k = 4k$ qui est pair. \""
+    }
+  },
+  {
+    "id": "p051",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Exercices non stéréotypés",
+    "content": "Contexte : Génération d'exercices inclusifs. Rôle : Tu es un concepteur d'exercices attentif à l'égalité filles-garçons. Objectif : Génère 3 problèmes de proportionnalité. Format : - Problème 1 : une fille qui fait de la mécanique - Problème 2 : un garçon qui fait de la pâtisserie - Problème 3 : une scientifique célèbre (réelle) Input : Niveau : 5e.",
+    "subject": "Les mathématiques et l'égalité filles-garçons",
+    "structure": {
+      "context": "Génération d'exercices inclusifs.",
+      "role": "Tu es un concepteur d'exercices attentif à l'égalité filles-garçons.",
+      "task": "Génère 3 problèmes de proportionnalité.",
+      "format": "- Problème 1 : une fille qui fait de la mécanique - Problème 2 : un garçon qui fait de la pâtisserie - Problème 3 : une scientifique célèbre (réelle)",
+      "input": "Niveau : 5e."
+    }
+  },
+  {
+    "id": "p052",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Le vulgarisateur",
+    "content": "Contexte : Explication de la mitose en 3e. Rôle : Tu es un vulgarisateur scientifique. Objectif : Propose une analogie avec une photocopieuse pour expliquer la duplication des chromosomes. Précise ensuite les limites de cette analogie. Format : Analogie (5 lignes) + limites (3 lignes). Input : Notion : mitose, duplication des chromosomes.",
+    "subject": "L'analogie sur mesure",
+    "structure": {
+      "context": "Explication de la mitose en 3e.",
+      "role": "Tu es un vulgarisateur scientifique.",
+      "task": "Propose une analogie avec une photocopieuse pour expliquer la duplication des chromosomes. Précise ensuite les limites de cette analogie.",
+      "format": "Analogie (5 lignes) + limites (3 lignes).",
+      "input": "Notion : mitose, duplication des chromosomes."
+    }
+  },
+  {
+    "id": "p053",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Biodiversité comparée",
+    "content": "Contexte : Sortie terrain, niveau cycle 4. Rôle : Tu es un écologue spécialiste de la biodiversité. Objectif : À partir des photos et identifications (validées par clé de détermination) de deux zones (pelouse tondue vs friche), aide-moi à comparer leur richesse spécifique et à formuler des hypothèses sur les causes des différences observées. Format : Analyse comparative + hypothèses écologiques. Input : [Liste des espèces identifiées dans chaque zone avec pourcentage de confiance Pl@ntNet]",
+    "subject": "Vision IA et biodiversité",
+    "structure": {
+      "context": "Sortie terrain, niveau cycle 4.",
+      "role": "Tu es un écologue spécialiste de la biodiversité.",
+      "task": "À partir des photos et identifications (validées par clé de détermination) de deux zones (pelouse tondue vs friche), aide-moi à comparer leur richesse spécifique et à formuler des hypothèses sur les causes des différences observées.",
+      "format": "Analyse comparative + hypothèses écologiques.",
+      "input": "[Liste des espèces identifiées dans chaque zone avec pourcentage de confiance Pl@ntNet]"
+    }
+  },
+  {
+    "id": "p054",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Analyse d'affleurement",
+    "content": "Contexte : Sortie terrain, étude d'un pli ou d'une faille complexe. Rôle : Tu es un géologue structuraliste. Objectif : Analyse cette photo d'affleurement. Identifie les structures visibles (strates, failles, plis) et propose une chronologie relative des événements géologiques. Transcris aussi les annotations manuscrites de la carte ancienne jointe. Format : Description structurale + chronologie relative + transcription OCR. Input : [Photo de l'affleurement + Carte géologique ancienne avec annotations]",
+    "subject": "Géologie augmentée",
+    "structure": {
+      "context": "Sortie terrain, étude d'un pli ou d'une faille complexe.",
+      "role": "Tu es un géologue structuraliste.",
+      "task": "Analyse cette photo d'affleurement. Identifie les structures visibles (strates, failles, plis) et propose une chronologie relative des événements géologiques. Transcris aussi les annotations manuscrites de la carte ancienne jointe.",
+      "format": "Description structurale + chronologie relative + transcription OCR.",
+      "input": "[Photo de l'affleurement + Carte géologique ancienne avec annotations]"
+    }
+  },
+  {
+    "id": "p055",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Molécule réelle ou inventée ?",
+    "content": "Contexte : Exercice sur les règles de valence, niveau 1re. Rôle : Tu es un chimiste vérificateur. Objectif : Identifie les molécules réelles et celles qui sont impossibles dans cette liste. Justifie avec les règles de valence. Format : Liste avec verdict (Réel/Impossible) et justification. Input : Liste : C$_6$H$_{12}$O$_6$, CH$_3$COOH, C$_5$H$_{13}$O$_2$, NaCl, H$_3$O$_5$",
+    "subject": "Le chasseur d'hallucinations chimiques",
+    "structure": {
+      "context": "Exercice sur les règles de valence, niveau 1re.",
+      "role": "Tu es un chimiste vérificateur.",
+      "task": "Identifie les molécules réelles et celles qui sont impossibles dans cette liste. Justifie avec les règles de valence.",
+      "format": "Liste avec verdict (Réel/Impossible) et justification.",
+      "input": "Liste : C$_6$H$_{12}$O$_6$, CH$_3$COOH, C$_5$H$_{13}$O$_2$, NaCl, H$_3$O$_5$"
+    }
+  },
+  {
+    "id": "p056",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Analyse d'écart théorie/expérience",
+    "content": "Contexte : TP sur la loi d'Ohm, analyse des résultats. Rôle : Tu es un professeur de physique rigoureux sur l'analyse d'erreurs. Objectif : Analyse ces résultats : l'écart est-il acceptable ? Quelles sources d'erreur ? Quelle amélioration du protocole ? Format : Analyse structurée en 3 parties : conformité, sources d'erreur, améliorations. Input : $U = 6{,}0$ V, $I = 0{,}12$ A, $R$ calculée = 50 $\\Omega$, $R$ théorique = 47 $\\Omega$ $\\pm$ 5%.",
+    "subject": "Le compte-rendu de TP comparé",
+    "structure": {
+      "context": "TP sur la loi d'Ohm, analyse des résultats.",
+      "role": "Tu es un professeur de physique rigoureux sur l'analyse d'erreurs.",
+      "task": "Analyse ces résultats : l'écart est-il acceptable ? Quelles sources d'erreur ? Quelle amélioration du protocole ?",
+      "format": "Analyse structurée en 3 parties : conformité, sources d'erreur, améliorations.",
+      "input": "$U = 6{,}0$ V, $I = 0{,}12$ A, $R$ calculée = 50 $\\Omega$, $R$ théorique = 47 $\\Omega$ $\\pm$ 5%."
+    }
+  },
+  {
+    "id": "p057",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Protocole adapté",
+    "content": "Contexte : Préparation d'un TP sur la conductivité électrique, niveau 4e. Rôle : Tu es un préparateur de laboratoire. Objectif : Propose un protocole simple avec les résultats attendus et 3 questions à poser aux élèves. Format : Protocole en étapes + résultats attendus + questions pédagogiques. Input : Matériel : pile 4,5V, lampe, fils, béchers, eau distillée, sel, sucre.",
+    "subject": "Le générateur de protocoles",
+    "structure": {
+      "context": "Préparation d'un TP sur la conductivité électrique, niveau 4e.",
+      "role": "Tu es un préparateur de laboratoire.",
+      "task": "Propose un protocole simple avec les résultats attendus et 3 questions à poser aux élèves.",
+      "format": "Protocole en étapes + résultats attendus + questions pédagogiques.",
+      "input": "Matériel : pile 4,5V, lampe, fils, béchers, eau distillée, sel, sucre."
+    }
+  },
+  {
+    "id": "p058",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "La poubelle intelligente",
+    "content": "Contexte : Projet fil rouge sur 6 à 8 heures, cycle 4. Rôle : Tu es un assistant pédagogique en IA et objets connectés. Objectif : Guide-moi dans la conception d'un système de tri automatique des déchets utilisant Teachable Machine et une carte micro:bit. Ne donne pas le code complet, mais aide-moi à structurer les étapes et à anticiper les problèmes. Format : Conseils par étapes : collecte données, entraînement, intégration, débogage. Input : Catégories de déchets : plastique, verre, papier, métal.",
+    "subject": "Entraîner un mini-modèle : la poubelle intelligente",
+    "structure": {
+      "context": "Projet fil rouge sur 6 à 8 heures, cycle 4.",
+      "role": "Tu es un assistant pédagogique en IA et objets connectés.",
+      "task": "Guide-moi dans la conception d'un système de tri automatique des déchets utilisant Teachable Machine et une carte micro:bit. Ne donne pas le code complet, mais aide-moi à structurer les étapes et à anticiper les problèmes.",
+      "format": "Conseils par étapes : collecte données, entraînement, intégration, débogage.",
+      "input": "Catégories de déchets : plastique, verre, papier, métal."
+    }
+  },
+  {
+    "id": "p059",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Formaliser le besoin",
+    "content": "Contexte : Projet d'arrosage automatique pour le potager du collège. Rôle : Tu es un ingénieur spécialiste de l'analyse fonctionnelle. Objectif : Aide-moi à rédiger un cahier des charges. Format : - Besoin à satisfaire (une phrase) - Contraintes (budget, autonomie, entretien) - Fonctions de service - Critères d'évaluation Important : Ne propose PAS de solution technique — les élèves doivent la concevoir. Input : Contraintes : budget 50€, autonomie 1 semaine, facilité d'entretien.",
+    "subject": "Le cahier des charges assisté",
+    "structure": {
+      "context": "Projet d'arrosage automatique pour le potager du collège.",
+      "role": "Tu es un ingénieur spécialiste de l'analyse fonctionnelle.",
+      "task": "Aide-moi à rédiger un cahier des charges.",
+      "format": "- Besoin à satisfaire (une phrase) - Contraintes (budget, autonomie, entretien) - Fonctions de service - Critères d'évaluation Important : Ne propose PAS de solution technique — les élèves doivent la concevoir.",
+      "input": "Contraintes : budget 50€, autonomie 1 semaine, facilité d'entretien."
+    }
+  },
+  {
+    "id": "p060",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Débogage guidé",
+    "content": "Contexte : Programme Scratch qui ne fonctionne pas. Rôle : Tu es un tuteur en programmation. Objectif : Explique pourquoi ça ne marche probablement pas, mais ne donne PAS le code corrigé. Pose 2-3 questions pour que l'élève trouve lui-même. Format : Questions de débogage, pas de solution. Input : Description : \" J'ai mis : si luminosité < 50 alors allumer LED. Mais la LED reste toujours éteinte. \"",
+    "subject": "Le débogueur pédagogue",
+    "structure": {
+      "context": "Programme Scratch qui ne fonctionne pas.",
+      "role": "Tu es un tuteur en programmation.",
+      "task": "Explique pourquoi ça ne marche probablement pas, mais ne donne PAS le code corrigé. Pose 2-3 questions pour que l'élève trouve lui-même.",
+      "format": "Questions de débogage, pas de solution.",
+      "input": "Description : \" J'ai mis : si luminosité < 50 alors allumer LED. Mais la LED reste toujours éteinte. \""
+    }
+  },
+  {
+    "id": "p061",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Notice d'utilisation",
+    "content": "Contexte : Distributeur de savon automatique conçu par des élèves. Rôle : Tu es un rédacteur technique. Objectif : Génère une notice d'utilisation destinée aux autres élèves du collège. Format : 5 points maximum, langage simple et clair. Input : Composants : capteur infrarouge, pompe Arduino, alimentation piles.",
+    "subject": "Générer de la documentation technique",
+    "structure": {
+      "context": "Distributeur de savon automatique conçu par des élèves.",
+      "role": "Tu es un rédacteur technique.",
+      "task": "Génère une notice d'utilisation destinée aux autres élèves du collège.",
+      "format": "5 points maximum, langage simple et clair.",
+      "input": "Composants : capteur infrarouge, pompe Arduino, alimentation piles."
+    }
+  },
+  {
+    "id": "p062",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Revue de code",
+    "content": "Contexte : Revue de code d'un élève de NSI. Rôle : Tu es un développeur senior bienveillant. Objectif : Analyse ce code et donne un feedback constructif. Format : - Points positifs (ce qui est bien fait) - Améliorations possibles (sans réécrire le code) - Une question pour pousser l'élève à réfléchir à l'optimisation Input : [Coller le code Python]",
+    "subject": "Le pair programming",
+    "structure": {
+      "context": "Revue de code d'un élève de NSI.",
+      "role": "Tu es un développeur senior bienveillant.",
+      "task": "Analyse ce code et donne un feedback constructif.",
+      "format": "- Points positifs (ce qui est bien fait) - Améliorations possibles (sans réécrire le code) - Une question pour pousser l'élève à réfléchir à l'optimisation",
+      "input": "[Coller le code Python]"
+    }
+  },
+  {
+    "id": "p063",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Red Team",
+    "content": "Contexte : Exercice de cybersécurité en NSI. Rôle : Tu es une \" Red Team \" (En cybersécurité, l'équipe qui simule les attaques pour tester les défenses.) (attaquant éthique). Objectif : Analyse ce code PHP et explique les failles de sécurité (Injection SQL, XSS) sans donner le code corrigé. Pose des questions pour que l'élève trouve la correction. Format : Identification des failles + questions guidées. Input : [Coller le code PHP]",
+    "subject": "Le défi cybersécurité",
+    "structure": {
+      "context": "Exercice de cybersécurité en NSI.",
+      "role": "Tu es une \" Red Team \" (En cybersécurité, l'équipe qui simule les attaques pour tester les défenses.) (attaquant éthique).",
+      "task": "Analyse ce code PHP et explique les failles de sécurité (Injection SQL, XSS) sans donner le code corrigé. Pose des questions pour que l'élève trouve la correction.",
+      "format": "Identification des failles + questions guidées.",
+      "input": "[Coller le code PHP]"
+    }
+  },
+  {
+    "id": "p064",
+    "part": "Dans votre Discipline",
+    "chapter": "Sciences et Numérique",
+    "title": "Maintenance et Qualité",
+    "content": "Contexte : Une chaîne de production utilise une IA pour détecter des défauts sur des pièces mécaniques via des capteurs optiques. Rôle : Tu es un ingénieur qualité chargé de l'audit de l'algorithme de détection. Objectif : Voici un jeu de données (simulé) de 20 pièces avec leurs mesures dimensionnelles et la décision de l'IA (Rejet/Validation). Identifie les incohérences et propose une correction des seuils de tolérance. Format : Analyse des erreurs (Faux positifs/négatifs) + Proposition de réglage. Input : [Coller le tableau de données : ID Pièce | Diamètre (mm) | Rayure détectée (O/N) | Décision IA]",
+    "subject": "L'Audit de Contrôle Qualité",
+    "structure": {
+      "context": "Une chaîne de production utilise une IA pour détecter des défauts sur des pièces mécaniques via des capteurs optiques.",
+      "role": "Tu es un ingénieur qualité chargé de l'audit de l'algorithme de détection.",
+      "task": "Voici un jeu de données (simulé) de 20 pièces avec leurs mesures dimensionnelles et la décision de l'IA (Rejet/Validation). Identifie les incohérences et propose une correction des seuils de tolérance.",
+      "format": "Analyse des erreurs (Faux positifs/négatifs) + Proposition de réglage.",
+      "input": "[Coller le tableau de données : ID Pièce | Diamètre (mm) | Rayure détectée (O/N) | Décision IA]"
+    }
+  },
+  {
+    "id": "p065",
+    "part": "Dans votre Discipline",
+    "chapter": "Arts, Corps et Créativité",
+    "title": "Recherche d'inspiration",
+    "content": "Contexte : Début de projet plastique, phase de recherche. Rôle : Tu es un générateur de moodboard. Objectif : Génère 4 variations d'une composition abstraite inspirée par le thème \" la solitude urbaine \". Format : Style : couleurs froides, géométrie, influence Hopper. Input : Thème : la solitude urbaine.",
+    "subject": "Le moodboard instantané",
+    "structure": {
+      "context": "Début de projet plastique, phase de recherche.",
+      "role": "Tu es un générateur de moodboard.",
+      "task": "Génère 4 variations d'une composition abstraite inspirée par le thème \" la solitude urbaine \".",
+      "format": "Style : couleurs froides, géométrie, influence Hopper.",
+      "input": "Thème : la solitude urbaine."
+    }
+  },
+  {
+    "id": "p066",
+    "part": "Dans votre Discipline",
+    "chapter": "Arts, Corps et Créativité",
+    "title": "Du texte à l'image",
+    "content": "Contexte : Travail sur la relation texte-image. Rôle : Tu es un illustrateur. Objectif : Génère une image qui capture l'atmosphère de ce haïku, puis une deuxième version qui en trahit volontairement l'esprit. Format : Deux images contrastées. Input : Haïku : \" Vieille mare — / une grenouille plonge / bruit de l'eau \"",
+    "subject": "Le dialogue texte-image",
+    "structure": {
+      "context": "Travail sur la relation texte-image.",
+      "role": "Tu es un illustrateur.",
+      "task": "Génère une image qui capture l'atmosphère de ce haïku, puis une deuxième version qui en trahit volontairement l'esprit.",
+      "format": "Deux images contrastées.",
+      "input": "Haïku : \" Vieille mare — / une grenouille plonge / bruit de l'eau \""
+    }
+  },
+  {
+    "id": "p067",
+    "part": "Dans votre Discipline",
+    "chapter": "Arts, Corps et Créativité",
+    "title": "Extension d'œuvre",
+    "content": "Contexte : Travail sur le cadrage et l'espace en Arts Plastiques. Rôle : Tu es un peintre assistant de Vermeer. Objectif : Étends l'image vers la gauche en respectant scrupuleusement le style, la lumière (venant de la fenêtre) et la perspective de la pièce. Imagine ce qui se trouve dans la partie invisible de l'atelier. Format : Image générée respectant la continuité visuelle (Outpainting). Input : [Image de La Laitière] + Prompt descriptif : \"Oil painting, Vermeer style, 17th century dutch interior, shelves with cheese wheels on the left, soft natural lighting.\"",
+    "subject": "Travail sur le hors champ",
+    "structure": {
+      "context": "Travail sur le cadrage et l'espace en Arts Plastiques.",
+      "role": "Tu es un peintre assistant de Vermeer.",
+      "task": "Étends l'image vers la gauche en respectant scrupuleusement le style, la lumière (venant de la fenêtre) et la perspective de la pièce. Imagine ce qui se trouve dans la partie invisible de l'atelier.",
+      "format": "Image générée respectant la continuité visuelle (Outpainting).",
+      "input": "[Image de La Laitière] + Prompt descriptif : \"Oil painting, Vermeer style, 17th century dutch interior, shelves with cheese wheels on the left, soft natural lighting.\""
+    }
+  },
+  {
+    "id": "p068",
+    "part": "Dans votre Discipline",
+    "chapter": "Arts, Corps et Créativité",
+    "title": "Est-ce de l'art ?",
+    "content": "Contexte : Séquence sur l'IA comme objet artistique, 3e-Terminale (2h). Rôle : Tu es un médiateur culturel spécialiste de l'art contemporain. Objectif : Aide-moi à préparer une séquence débat sur l'art généré par IA. Fournis-moi une liste d'artistes contemporains qui interrogent l'IA dans leur travail, avec pour chacun une phrase de description de leur démarche. Format : Liste : Artiste | Démarche (1 phrase) | Œuvre emblématique. Input : Inclure : Refik Anadol, Holly Herndon, Trevor Paglen, Boris Eldagsen.",
+    "subject": "L'IA comme objet d'étude artistique",
+    "structure": {
+      "context": "Séquence sur l'IA comme objet artistique, 3e-Terminale (2h).",
+      "role": "Tu es un médiateur culturel spécialiste de l'art contemporain.",
+      "task": "Aide-moi à préparer une séquence débat sur l'art généré par IA. Fournis-moi une liste d'artistes contemporains qui interrogent l'IA dans leur travail, avec pour chacun une phrase de description de leur démarche.",
+      "format": "Liste : Artiste | Démarche (1 phrase) | Œuvre emblématique.",
+      "input": "Inclure : Refik Anadol, Holly Herndon, Trevor Paglen, Boris Eldagsen."
+    }
+  },
+  {
+    "id": "p069",
+    "part": "Dans votre Discipline",
+    "chapter": "Arts, Corps et Créativité",
+    "title": "Mise en musique de poèmes",
+    "content": "Contexte : Travail sur la relation texte-musique. Rôle : Tu es un compositeur et arrangeur. Objectif : Aide-moi à préparer une mise en musique de poèmes étudiés en français avec des élèves de 4e. Pour chaque style musical proposé (Rap Old School, Opéra Baroque, Pop années 80), précise les paramètres musicaux à travailler avec les élèves. Format : Style musical → Paramètres à observer (rythme, scansion, instrumentation, émotion). Input : Poème : [à définir en classe de français].",
+    "subject": "Les outils de génération musicale",
+    "structure": {
+      "context": "Travail sur la relation texte-musique.",
+      "role": "Tu es un compositeur et arrangeur.",
+      "task": "Aide-moi à préparer une mise en musique de poèmes étudiés en français avec des élèves de 4e. Pour chaque style musical proposé (Rap Old School, Opéra Baroque, Pop années 80), précise les paramètres musicaux à travailler avec les élèves.",
+      "format": "Style musical → Paramètres à observer (rythme, scansion, instrumentation, émotion).",
+      "input": "Poème : [à définir en classe de français]."
+    }
+  },
+  {
+    "id": "p070",
+    "part": "Dans votre Discipline",
+    "chapter": "Arts, Corps et Créativité",
+    "title": "Variations stylistiques",
+    "content": "Contexte : Travail sur les paramètres musicaux et l'émotion. Rôle : Tu es un compositeur. Objectif : Génère deux versions de la même mélodie simple : une \" joyeuse \" et une \" mélancolique \". Format : - Version joyeuse : majeur, tempo rapide, instruments légers - Version mélancolique : mineur, tempo lent, cordes Input : Mélodie de base : [à définir]",
+    "subject": "L'analyse par contraste",
+    "structure": {
+      "context": "Travail sur les paramètres musicaux et l'émotion.",
+      "role": "Tu es un compositeur.",
+      "task": "Génère deux versions de la même mélodie simple : une \" joyeuse \" et une \" mélancolique \".",
+      "format": "- Version joyeuse : majeur, tempo rapide, instruments légers - Version mélancolique : mineur, tempo lent, cordes",
+      "input": "Mélodie de base : [à définir]"
+    }
+  },
+  {
+    "id": "p071",
+    "part": "Dans votre Discipline",
+    "chapter": "Arts, Corps et Créativité",
+    "title": "Échauffement personnalisé",
+    "content": "Contexte : Séance de handball en salle, niveau 4e. Rôle : Tu es un préparateur physique. Objectif : Génère un échauffement de 10 minutes en 3 phases. Format : Tableau avec colonnes : exercice | durée | consignes | variante pour élèves dispensés. Input : Phase 1 : Réveil articulaire (3 min), Phase 2 : Activation cardio (4 min), Phase 3 : Préparation spécifique handball (3 min).",
+    "subject": "L'échauffement sur mesure",
+    "structure": {
+      "context": "Séance de handball en salle, niveau 4e.",
+      "role": "Tu es un préparateur physique.",
+      "task": "Génère un échauffement de 10 minutes en 3 phases.",
+      "format": "Tableau avec colonnes : exercice | durée | consignes | variante pour élèves dispensés.",
+      "input": "Phase 1 : Réveil articulaire (3 min), Phase 2 : Activation cardio (4 min), Phase 3 : Préparation spécifique handball (3 min)."
+    }
+  },
+  {
+    "id": "p072",
+    "part": "Dans votre Discipline",
+    "chapter": "Arts, Corps et Créativité",
+    "title": "Feedback augmenté",
+    "content": "Contexte : Auto-analyse vidéo après un ATR. Rôle : Tu es un coach en gymnastique. Objectif : Analyse cette description du geste et propose UNE consigne corrective prioritaire. Format : Identification de l'erreur + consigne + critère observable de réussite. Input : Description de l'élève : \" Mes bras étaient tendus mais mes jambes étaient un peu pliées et je suis retombé sur le côté. \"",
+    "subject": "La vidéo différée enrichie par l'IA",
+    "structure": {
+      "context": "Auto-analyse vidéo après un ATR.",
+      "role": "Tu es un coach en gymnastique.",
+      "task": "Analyse cette description du geste et propose UNE consigne corrective prioritaire.",
+      "format": "Identification de l'erreur + consigne + critère observable de réussite.",
+      "input": "Description de l'élève : \" Mes bras étaient tendus mais mes jambes étaient un peu pliées et je suis retombé sur le côté. \""
+    }
+  },
+  {
+    "id": "p073",
+    "part": "Dans votre Discipline",
+    "chapter": "Arts, Corps et Créativité",
+    "title": "Situation différenciée",
+    "content": "Contexte : Séquence handball, travail sur la montée de balle. Rôle : Tu es un formateur en didactique de l'EPS. Objectif : Crée une situation d'apprentissage en 4 contre 4 pour travailler la montée de balle collective. Format : Tableau avec 3 variantes (Débutants / Standard / Experts) : Règles | Objectif | Critère de réussite. Input : Effectif : 4 contre 4.",
+    "subject": "Le générateur de situations d'apprentissage",
+    "structure": {
+      "context": "Séquence handball, travail sur la montée de balle.",
+      "role": "Tu es un",
+      "task": "Crée une situation d'apprentissage en 4 contre 4 pour travailler la montée de balle collective.",
+      "format": "Tableau avec 3 variantes (Débutants / Standard / Experts) : Règles |",
+      "input": "Effectif : 4 contre 4."
+    }
+  },
+  {
+    "id": "p074",
+    "part": "Dans votre Discipline",
+    "chapter": "Arts, Corps et Créativité",
+    "title": "L'arbitre pédagogue",
+    "content": "Contexte : Formation au rôle d'arbitre en volleyball. Rôle : Tu es un arbitre de volleyball expérimenté. Objectif : Explique les règles de base (rotation, fautes de filet, double touche) de manière simple. Si question sur un cas limite, cite la règle officielle simplifiée. Format : Dialogue pédagogique. Input : Niveau : collège.",
+    "subject": "Les rôles sociaux assistés",
+    "structure": {
+      "context": "",
+      "role": "Tu es un arbitre de volleyball expérimenté.",
+      "task": "Explique les règles de base (rotation, fautes de filet, double touche) de manière simple. Si question sur un cas limite, cite la règle officielle simplifiée.",
+      "format": "Dialogue pédagogique.",
+      "input": "Niveau : collège."
+    }
+  },
+  {
+    "id": "p075",
+    "part": "Dans votre Discipline",
+    "chapter": "Arts, Corps et Créativité",
+    "title": "Fiche d'observation générée",
+    "content": "Contexte : Rôle de coach en badminton. Rôle : Tu es un formateur EPS. Objectif : Crée une grille d'observation pour le rôle de \" coach \". Format : 3 critères observables (replacement, orientation tamis, trajectoire) + zone points forts + zone conseil prioritaire. Input : Niveau : 3e.",
+    "subject": "Les rôles sociaux assistés",
+    "structure": {
+      "context": "",
+      "role": "Tu es un",
+      "task": "Crée une grille d'observation pour le",
+      "format": "3 critères observables (replacement, orientation tamis, trajectoire) + zone points forts + zone conseil prioritaire.",
+      "input": "Niveau : 3e."
+    }
+  },
+  {
+    "id": "p076",
+    "part": "Dans votre Discipline",
+    "chapter": "Arts, Corps et Créativité",
+    "title": "Plan d'entraînement",
+    "content": "Contexte : Préparation de l'épreuve de demi-fond au bac. Rôle : Tu es un entraîneur d'athlétisme. Objectif : Propose un plan de 6 semaines pour tenir 3 × 500m à 90% VMA. Format : Tableau : semaine | objectif | type de séance | volume. Input : VMA estimée : 12 km/h.",
+    "subject": "Le carnet d'entraînement intelligent (CA5)",
+    "structure": {
+      "context": "Préparation de l'épreuve de demi-fond au bac.",
+      "role": "Tu es un entraîneur d'athlétisme.",
+      "task": "Propose un plan de 6 semaines pour tenir 3 × 500m à 90% VMA.",
+      "format": "Tableau : semaine |",
+      "input": "VMA estimée : 12 km/h."
+    }
+  },
+  {
+    "id": "p077",
+    "part": "Dans votre Discipline",
+    "chapter": "EMI et Documentation",
+    "title": "Le test de l'expertise",
+    "content": "Contexte : Démonstration des hallucinations bibliographiques. Rôle : Tu es un expert bibliographe. Objectif : Donne-moi une liste de 3 articles universitaires fictifs mais réalistes sur \" L'influence de la météo sur les notes en mathématiques \". Format : Auteurs inventés, dates, revues plausibles. Input : Thème : météo et performances scolaires.",
+    "subject": "Général",
+    "structure": {
+      "context": "Démonstration des hallucinations bibliographiques.",
+      "role": "Tu es un expert bibliographe.",
+      "task": "Donne-moi une liste de 3 articles universitaires fictifs mais réalistes sur \" L'influence de la météo sur les notes en mathématiques \".",
+      "format": "Auteurs inventés, dates, revues plausibles.",
+      "input": "Thème : météo et performances scolaires."
+    }
+  },
+  {
+    "id": "p078",
+    "part": "Dans votre Discipline",
+    "chapter": "EMI et Documentation",
+    "title": "Analyse d'indices visuels",
+    "content": "Contexte : Exercice de détection de deepfake. Rôle : Tu es un expert en analyse d'images. Objectif : Analyse ces signaux observés dans une vidéo suspecte. S'agit-il d'indices compatibles avec un deepfake ? Quels autres éléments vérifier ? Format : Analyse structurée + recommandations. Input : Observations : visage légèrement flou sur les contours, clignement des yeux irrégulier, lèvres désynchronisées par moments.",
+    "subject": "Apprendre à douter de l'image",
+    "structure": {
+      "context": "Exercice de détection de deepfake.",
+      "role": "Tu es un expert en analyse d'images.",
+      "task": "Analyse ces signaux observés dans une vidéo suspecte. S'agit-il d'indices compatibles avec un deepfake ? Quels autres éléments vérifier ?",
+      "format": "Analyse structurée + recommandations.",
+      "input": "Observations : visage légèrement flou sur les contours, clignement des yeux irrégulier, lèvres désynchronisées par moments."
+    }
+  },
+  {
+    "id": "p079",
+    "part": "Dans votre Discipline",
+    "chapter": "EMI et Documentation",
+    "title": "Vrai ou truqué ?",
+    "content": "Contexte : Séquence EMI sur les deepfakes, 4e-3e (2h). Rôle : Tu es un formateur en éducation aux médias. Objectif : Aide-moi à préparer une séquence \" Vrai ou truqué ? \" : sélectionne 6 exemples d'images (3 vraies, 3 générées par IA) adaptées au niveau collège, avec pour chacune les indices qui doivent alerter. Format : Image | Verdict (vrai/faux) | Indices à chercher. Input : Exemples : photo virale du Pape François en doudoune blanche (faux — Midjourney, mars 2023), portrait d'une personne qui n'existe pas (faux — thispersondoesnotexist.com).",
+    "subject": "Les outils de vérification",
+    "structure": {
+      "context": "Séquence EMI sur les deepfakes, 4e-3e (2h).",
+      "role": "Tu es un",
+      "task": "Aide-moi à préparer une séquence \" Vrai ou truqué ? \" : sélectionne 6 exemples d'images (3 vraies, 3 générées par IA) adaptées au niveau collège, avec pour chacune les indices qui doivent alerter.",
+      "format": "Image | Verdict (vrai/faux) | Indices à chercher.",
+      "input": "Exemples : photo virale du Pape François en doudoune blanche (faux — Midjourney, mars 2023), portrait d'une personne qui n'existe pas (faux — thispersondoesnotexist.com)."
+    }
+  },
+  {
+    "id": "p080",
+    "part": "Dans votre Discipline",
+    "chapter": "EMI et Documentation",
+    "title": "L'enquêteur statistique",
+    "content": "Contexte : Recherche de données officielles. Rôle : Tu es un documentaliste rigoureux. Objectif : Trouve les chiffres officiels de l'évolution du niveau en orthographe des élèves de CM2 en France. Format : Cite précisément l'étude de la DEPP (Ministère). Ne donne que des faits vérifiés. Input : Thème : niveau en orthographe, CM2, France.",
+    "subject": "Les outils de vérification",
+    "structure": {
+      "context": "Recherche de données officielles.",
+      "role": "Tu es un documentaliste rigoureux.",
+      "task": "Trouve les chiffres officiels de l'évolution du niveau en orthographe des élèves de CM2 en France.",
+      "format": "Cite précisément l'étude de la DEPP (Ministère). Ne donne que des faits vérifiés.",
+      "input": "Thème : niveau en orthographe, CM2, France."
+    }
+  },
+  {
+    "id": "p081",
+    "part": "Dans votre Discipline",
+    "chapter": "EMI et Documentation",
+    "title": "Progression EMI",
+    "content": "Contexte : Construction d'une progression complète sur l'IA en EMI. Rôle : Tu es un professeur documentaliste expert en EMI. Objectif : Aide-moi à structurer une progression de 5 séances sur l'IA et l'esprit critique. Format : Pour chaque séance : titre | objectif | activité principale | évaluation. Input : Séance 1 : Qu'est-ce qu'une IA ? Séance 2 : Le test de l'hallucination. Séance 3 : Vrai ou truqué ? Séance 4 : Le biais de confirmation. Séance 5 : Recherche comparée.",
+    "subject": "Les outils de vérification",
+    "structure": {
+      "context": "Construction d'une progression complète sur l'IA en EMI.",
+      "role": "Tu es un professeur documentaliste expert en EMI.",
+      "task": "Aide-moi à structurer une progression de 5 séances sur l'IA et l'esprit critique.",
+      "format": "Pour chaque séance : titre |",
+      "input": "Séance 1 : Qu'est-ce qu'une IA ? Séance 2 : Le test de l'hallucination. Séance 3 : Vrai ou truqué ? Séance 4 : Le biais de confirmation. Séance 5 : Recherche comparée."
+    }
+  },
+  {
+    "id": "p082",
+    "part": "Dans votre Discipline",
+    "chapter": "EMI et Documentation",
+    "title": "L'empreinte numérique de mes usages",
+    "content": "Contexte : Séance EMI sur l'impact environnemental du numérique, niveau 4e-3e (50 min). Rôle : Tu es un formateur en sobriété numérique. Objectif : Aide-moi à préparer une séance de sensibilisation à l'empreinte écologique de l'IA. Fournis-moi des calculs concrets adaptés à une classe de 25 élèves. Format : Questionnaire initial + calculs collectifs + exemples de charte de sobriété. Input : Classe de 25 élèves, 4e-3e.",
+    "subject": "L'empreinte écologique de l'IA",
+    "structure": {
+      "context": "Séance EMI sur l'impact environnemental du numérique, niveau 4e-3e (50 min).",
+      "role": "Tu es un",
+      "task": "Aide-moi à préparer une séance de sensibilisation à l'empreinte écologique de l'IA. Fournis-moi des calculs concrets adaptés à une classe de 25 élèves.",
+      "format": "Questionnaire initial + calculs collectifs + exemples de charte de sobriété.",
+      "input": "Classe de 25 élèves, 4e-3e."
+    }
+  },
+  {
+    "id": "p083",
+    "part": "Dans votre Discipline",
+    "chapter": "EMI et Documentation",
+    "title": "Comparateur de biais",
+    "content": "Contexte : Activité EMI / Citoyenneté sur les biais culturels des IA. Rôle : Tu es un formateur en EMI et citoyenneté numérique. Objectif : Révéler les biais culturels et la modération (censure) en comparant les réponses de différentes IA. Format : Question sensible + comparaison des réponses (américaine, chinoise, européenne). Input : Question : \" Quels sont les événements marquants de l'année 1989 à Pékin ? \" ou \" Quelle est la situation de Taïwan ? \"",
+    "subject": "EMI / Citoyenneté : L'Audit de Censure",
+    "structure": {
+      "context": "Activité EMI / Citoyenneté sur les biais culturels des IA.",
+      "role": "Tu es un",
+      "task": "Révéler les biais culturels et la modération (censure) en comparant les réponses de différentes IA.",
+      "format": "Question sensible + comparaison des réponses (américaine, chinoise, européenne).",
+      "input": "Question : \" Quels sont les événements marquants de l'année 1989 à Pékin ? \" ou \" Quelle est la situation de Taïwan ? \""
+    }
+  },
+  {
+    "id": "p084",
+    "part": "Dans votre Discipline",
+    "chapter": "Enseignement professionnel",
+    "title": "Du brut au propre",
+    "content": "Contexte : Rapport de stage, élève en CAP/Bac Pro Maintenance des Véhicules. Rôle : Tu es un tuteur bienveillant qui aide à structurer un texte oral. Objectif : Transforme cette transcription vocale brute en un paragraphe professionnel pour un rapport de stage. Format : Structure : Contexte / Tâche / Méthode. Vocabulaire technique précis. Garde le \" je \". Input : \" Alors ce matin on a fait les freins sur une Clio y avait les plaquettes qui étaient mortes et le disque aussi fallait tout changer le chef m'a montré comment purger après \"",
+    "subject": "La dictée vocale augmentée",
+    "structure": {
+      "context": "Rapport de stage, élève en CAP/Bac Pro Maintenance des Véhicules.",
+      "role": "Tu es un tuteur bienveillant qui aide à structurer un texte oral.",
+      "task": "Transforme cette transcription vocale brute en un paragraphe professionnel pour un rapport de stage.",
+      "format": "Structure :",
+      "input": "\" Alors ce matin on a fait les freins sur une Clio y avait les plaquettes qui étaient mortes et le disque aussi fallait tout changer le chef m'a montré comment purger après \""
+    }
+  },
+  {
+    "id": "p085",
+    "part": "Dans votre Discipline",
+    "chapter": "Enseignement professionnel",
+    "title": "Le nettoyeur de brouillon",
+    "content": "Contexte : Rapport de stage, élève en difficulté rédactionnelle. Rôle : Tu es un tuteur bienveillant. Objectif : Transforme ces notes brutes (style SMS accepté) en un paragraphe professionnel. Format : - Vocabulaire technique précis (\" plaques de plâtre \" au lieu de \" placo \") - Structure : Contexte / Tâche / Difficultés rencontrées / Solution apportée - Garde le \" je \" — c'est l'élève qui parle Input : [Coller les notes brutes de l'élève]",
+    "subject": "La dictée vocale augmentée",
+    "structure": {
+      "context": "Rapport de stage, élève en difficulté rédactionnelle.",
+      "role": "Tu es un tuteur bienveillant.",
+      "task": "Transforme ces notes brutes (style SMS accepté) en un paragraphe professionnel.",
+      "format": "- Vocabulaire technique précis (\" plaques de plâtre \" au lieu de \" placo \") - Structure :",
+      "input": "[Coller les notes brutes de l'élève]"
+    }
+  },
+  {
+    "id": "p086",
+    "part": "Dans votre Discipline",
+    "chapter": "Enseignement professionnel",
+    "title": "Simulateur d'entretien vocal",
+    "content": "Contexte : Préparation à l'entretien de stage ou d'apprentissage. Rôle : Tu es un recruteur bienveillant mais professionnel. Tu vas me poser des questions classiques d'entretien pour un stage en [filière : mécanique / commerce / ASSP / etc.]. Objectif : Simule un entretien de 5 minutes. Pose-moi 5 questions une par une, attends ma réponse vocale avant de passer à la suivante. Format : Questions progressives : présentation personnelle, motivations, expériences, qualités/défauts, disponibilité. À la fin, fais-moi un débrief sur mes tics de langage, la clarté de mes réponses, et ce que je peux améliorer. Input : [L'élève active le mode vocal et commence l'entretien]",
+    "subject": "Le simulateur d'entretien (mode vocal)",
+    "structure": {
+      "context": "Préparation à l'entretien de stage ou d'apprentissage.",
+      "role": "Tu es un recruteur bienveillant mais professionnel. Tu vas me poser des questions classiques d'entretien pour un stage en [filière : mécanique / commerce / ASSP / etc.].",
+      "task": "Simule un entretien de 5 minutes. Pose-moi 5 questions une par une, attends ma réponse vocale avant de passer à la suivante.",
+      "format": "Questions progressives : présentation personnelle, motivations, expériences, qualités/défauts, disponibilité. À la fin, fais-moi un débrief sur mes tics de langage, la clarté de mes réponses, et ce que je peux améliorer.",
+      "input": "[L'élève active le mode vocal et commence l'entretien]"
+    }
+  },
+  {
+    "id": "p087",
+    "part": "Dans votre Discipline",
+    "chapter": "Enseignement professionnel",
+    "title": "Générateur de problèmes métier",
+    "content": "Contexte : Co-intervention mathématiques / enseignement professionnel. Rôle : Tu es un concepteur de problèmes mathématiques appliqués. Objectif : Génère 3 énoncés de problèmes utilisant le théorème de Pythagore, adaptés à ces filières : Format : Pour chaque problème : énoncé complet, schéma descriptif (décrit en texte), correction détaillée. Input : - Maçonnerie : Vérifier l'équerrage d'une fondation (méthode 3-4-5) - Charpente : Calculer la longueur d'un chevron pour une toiture - Électricité : Calculer la longueur de câble en diagonale dans une gaine technique",
+    "subject": "Le simulateur d'entretien (mode vocal)",
+    "structure": {
+      "context": "Co-intervention mathématiques / enseignement professionnel.",
+      "role": "Tu es un concepteur de problèmes mathématiques appliqués.",
+      "task": "Génère 3 énoncés de problèmes utilisant le théorème de Pythagore, adaptés à ces filières :",
+      "format": "Pour chaque problème : énoncé complet, schéma descriptif (décrit en texte), correction détaillée.",
+      "input": "- Maçonnerie : Vérifier l'équerrage d'une fondation (méthode 3-4-5) - Charpente : Calculer la longueur d'un chevron pour une toiture - Électricité : Calculer la longueur de câble en diagonale dans une gaine technique"
+    }
+  },
+  {
+    "id": "p088",
+    "part": "Dans votre Discipline",
+    "chapter": "Enseignement professionnel",
+    "title": "Plan de dossier chef-d'œuvre",
+    "content": "Contexte : Chef-d'œuvre Bac Pro MELEC (Métiers de l'Électricité). Rôle : Tu es un conseiller pédagogique qui aide à structurer un dossier. Objectif : Aide-moi à structurer mon dossier écrit sur l'installation électrique d'une tiny house autonome (panneaux solaires + batteries). Format : - Propose un plan détaillé (5-6 parties) - Pour chaque partie, indique ce que je dois y mettre - Précise les compétences du référentiel que je peux valoriser Input : Projet : Tiny house autonome en énergie. Important : Ne rédige pas le dossier à ma place. Donne-moi la structure, je remplirai.",
+    "subject": "Structurer le dossier écrit",
+    "structure": {
+      "context": "Chef-d'œuvre Bac Pro MELEC (Métiers de l'Électricité).",
+      "role": "Tu es un conseiller pédagogique qui aide à structurer un dossier.",
+      "task": "Aide-moi à structurer mon dossier écrit sur l'installation électrique d'une tiny house autonome (panneaux solaires + batteries).",
+      "format": "- Propose un plan détaillé (5-6 parties) - Pour chaque partie, indique ce que je dois y mettre - Précise les compétences du référentiel que je peux valoriser",
+      "input": "Projet : Tiny house autonome en énergie. Important : Ne rédige pas le dossier à ma place. Donne-moi la structure, je remplirai."
+    }
+  },
+  {
+    "id": "p089",
+    "part": "Dans votre Discipline",
+    "chapter": "Enseignement professionnel",
+    "title": "Le crash-test du projet",
+    "content": "Contexte : Préparation à l'oral du chef-d'œuvre. Rôle : Tu es un client exigeant / un investisseur sceptique qui évalue la faisabilité de mon projet. Objectif : Pose-moi 5 questions pièges sur la faisabilité de mon chef-d'œuvre (installation électrique tiny house) pour m'entraîner à défendre mes choix devant un jury. Format : Questions progressives : choix techniques, budget, sécurité, conformité, améliorations possibles. Attends mes réponses avant de poser la question suivante. Input : Projet : [description brève du chef-d'œuvre]",
+    "subject": "Préparer l'oral : le crash-test du projet",
+    "structure": {
+      "context": "Préparation à l'oral du chef-d'œuvre.",
+      "role": "Tu es un client exigeant / un investisseur sceptique qui évalue la faisabilité de mon projet.",
+      "task": "Pose-moi 5 questions pièges sur la faisabilité de mon chef-d'œuvre (installation électrique tiny house) pour m'entraîner à défendre mes choix devant un jury.",
+      "format": "Questions progressives : choix techniques, budget, sécurité, conformité, améliorations possibles. Attends mes réponses avant de poser la question suivante.",
+      "input": "Projet : [description brève du chef-d'œuvre]"
+    }
+  },
+  {
+    "id": "p090",
+    "part": "Dans votre Discipline",
+    "chapter": "Enseignement professionnel",
+    "title": "Le miroir réflexif",
+    "content": "Contexte : Fin du chef-d'œuvre, rédaction du bilan personnel. Rôle : Tu es un coach qui aide à formuler une réflexion personnelle. Objectif : Pose-moi 5 questions pour m'aider à rédiger mon bilan personnel sur mon chef-d'œuvre. Format : Une question à la fois, attends ma réponse avant de poser la suivante. Ne réponds pas à ma place. Input : Questions à poser : - Qu'est-ce qui m'a surpris dans ce projet ? - Quelle compétence ai-je le plus développée ? - Si je devais recommencer, que ferais-je différemment ? - Comment ce projet m'a-t-il préparé à mon futur métier ? - De quoi suis-je le plus fier ?",
+    "subject": "Enrichir la réflexion personnelle",
+    "structure": {
+      "context": "Fin du chef-d'œuvre, rédaction du bilan personnel.",
+      "role": "Tu es un coach qui aide à formuler une réflexion personnelle.",
+      "task": "Pose-moi 5 questions pour m'aider à rédiger mon bilan personnel sur mon chef-d'œuvre.",
+      "format": "Une question à la fois, attends ma réponse avant de poser la suivante. Ne réponds pas à ma place.",
+      "input": "Questions à poser : - Qu'est-ce qui m'a surpris dans ce projet ? - Quelle compétence ai-je le plus développée ? - Si je devais recommencer, que ferais-je différemment ? - Comment ce projet m'a-t-il préparé à mon futur métier ? - De quoi suis-je le plus fier ?"
+    }
+  },
+  {
+    "id": "p091",
+    "part": "Dans votre Discipline",
+    "chapter": "Enseignement professionnel",
+    "title": "Grille d'évaluation",
+    "content": "Contexte : Évaluation par compétences, Bac Pro Commerce. Rôle : Tu es un concepteur de grilles d'évaluation. Objectif : Génère une grille d'évaluation pour la compétence \" Accueillir et orienter le client \" avec 4 niveaux de maîtrise. Format : Pour chaque niveau (Insuffisant / Fragile / Satisfaisant / Très satisfaisant), donne des indicateurs observables — ce que l'élève fait concrètement, pas ce qu'il \" sait \". Input : Compétence : Accueillir et orienter le client.",
+    "subject": "Générer une grille critériée",
+    "structure": {
+      "context": "Évaluation par compétences, Bac Pro Commerce.",
+      "role": "Tu es un concepteur de grilles d'évaluation.",
+      "task": "Génère une grille d'évaluation pour la compétence \" Accueillir et orienter le client \" avec 4 niveaux de maîtrise.",
+      "format": "Pour chaque niveau (Insuffisant / Fragile / Satisfaisant / Très satisfaisant), donne des indicateurs observables — ce que l'élève fait concrètement, pas ce qu'il \" sait \".",
+      "input": "Compétence : Accueillir et orienter le client."
+    }
+  },
+  {
+    "id": "p092",
+    "part": "Dans votre Discipline",
+    "chapter": "Enseignement professionnel",
+    "title": "Vulgarisation du référentiel",
+    "content": "Contexte : Compétence du référentiel Bac Pro ASSP. Rôle : Tu es un traducteur pédagogique. Objectif : Reformule cette compétence du référentiel en langage simple pour un élève de 2nde, avec 2 exemples concrets de situations. Format : Phrase simple + 2 exemples concrets du quotidien professionnel. Input : \" C3.2 — Réaliser des actions d'éducation à la santé pour un public ciblé dans un contexte donné \"",
+    "subject": "Traduire le référentiel en langage élève",
+    "structure": {
+      "context": "Compétence du référentiel Bac Pro ASSP.",
+      "role": "Tu es un traducteur pédagogique.",
+      "task": "Reformule cette compétence du référentiel en langage simple pour un élève de 2nde, avec 2 exemples concrets de situations.",
+      "format": "Phrase simple + 2 exemples concrets du quotidien professionnel.",
+      "input": "\" C3.2 — Réaliser des actions d'éducation à la santé pour un public ciblé dans un"
+    }
+  },
+  {
+    "id": "p093",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Personnel de direction",
+    "title": "Optimisation DHG — Scénarios multiples",
+    "content": "Contexte : Répartition de la Dotation Horaire Globale (DHG) pour la rentrée prochaine. Rôle : Tu es un expert en optimisation de moyens horaires pour l'Éducation nationale. Objectif : J'ai une dotation de 850 heures pour 24 divisions (6e/5e/4e/3e : 6 classes par niveau). Je dois financer des groupes en sciences (dédoublement SVT/PC) et maintenir 2 options facultatives (latin + bilangue allemand). Génère 3 scénarios de répartition (A, B, C) qui maximisent : - Scénario A : Les heures postes (pour stabiliser l'équipe) - Scénario B : Les dédoublements en sciences (pédagogie) - Scénario C : Un équilibre entre les deux Format : Pour chaque scénario : tableau récapitulatif (disciplines / heures / nombre de postes) + avantages/inconvénients. Input : DHG : 850h, 24 divisions, structure 6 × 4 niveaux.",
+    "subject": "Général",
+    "structure": {
+      "context": "Répartition de la Dotation Horaire Globale (DHG) pour la rentrée prochaine.",
+      "role": "Tu es un expert en optimisation de moyens horaires pour l'Éducation nationale.",
+      "task": "J'ai une dotation de 850 heures pour 24 divisions (6e/5e/4e/3e : 6 classes par niveau). Je dois financer des groupes en sciences (dédoublement SVT/PC) et maintenir 2 options facultatives (latin + bilangue allemand). Génère 3 scénarios de répartition (A, B, C) qui maximisent : - Scénario A : Les heures postes (pour stabiliser l'équipe) - Scénario B : Les dédoublements en sciences (pédagogie) - Scénario C : Un équilibre entre les deux",
+      "format": "Pour chaque scénario : tableau récapitulatif (disciplines / heures / nombre de postes) + avantages/inconvénients.",
+      "input": "DHG : 850h, 24 divisions, structure 6 × 4 niveaux."
+    }
+  },
+  {
+    "id": "p094",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Personnel de direction",
+    "title": "Optimisation RCD et Pacte",
+    "content": "Contexte : Gestion du Remplacement de Courte Durée (RCD) et missions Pacte. Rôle : Tu es un assistant RH pour établissement scolaire. Objectif : Propose un planning d'optimisation des remplacements cette semaine qui respecte l'équité et évite de solliciter deux fois le même collègue. Format : Tableau récapitulatif : Jour / Classe / Absent / Remplaçant proposé / Justification. Input : Absences cette semaine (anonymisées) : - Lundi : Professeur A (maths, 4 classes : 6e1, 5e2, 4e1, 3e3) - Mardi : Professeur B (français, 3 classes : 5e1, 4e2, 3e1) - Jeudi : Professeur C (anglais, 2 classes : 6e3, 5e3) Enseignants Pacte disponibles (anonymisés) : - Enseignant X : Lundi/Mardi 8h-12h, Jeudi 14h-17h (discipline : mathématiques) - Enseignant Y : Lundi 10h-12h, Mardi 14h-16h, Vendredi 8h-10h (discipline : français) - Enseignant Z : Mardi 8h-17h, Jeudi 8h-12h (discipline : anglais)",
+    "subject": "Général",
+    "structure": {
+      "context": "Gestion du Remplacement de Courte Durée (RCD) et missions Pacte.",
+      "role": "Tu es un assistant RH pour établissement scolaire.",
+      "task": "Propose un planning d'optimisation des remplacements cette semaine qui respecte l'équité et évite de solliciter deux fois le même collègue.",
+      "format": "Tableau récapitulatif : Jour / Classe / Absent / Remplaçant proposé / Justification.",
+      "input": "Absences cette semaine (anonymisées) : - Lundi : Professeur A (maths, 4 classes : 6e1, 5e2, 4e1, 3e3) - Mardi : Professeur B (français, 3 classes : 5e1, 4e2, 3e1) - Jeudi : Professeur C (anglais, 2 classes : 6e3, 5e3) Enseignants Pacte disponibles (anonymisés) : - Enseignant X : Lundi/Mardi 8h-12h, Jeudi 14h-17h (discipline : mathématiques) - Enseignant Y : Lundi 10h-12h, Mardi 14h-16h, Vendredi 8h-10h (discipline : français) - Enseignant Z : Mardi 8h-17h, Jeudi 8h-12h (discipline : anglais)"
+    }
+  },
+  {
+    "id": "p095",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Personnel de direction",
+    "title": "Analyse climat scolaire (données anonymisées)",
+    "content": "Contexte : Préparation du Conseil d'Évaluation de l'École, auto-évaluation climat scolaire. Rôle : Tu es un analyste de données scolaires. Objectif : Analyse ces indicateurs de vie scolaire sur 3 ans (anonymisés et agrégés). Identifie les tendances faibles que je n'aurais pas vues. Y a-t-il une corrélation avec les périodes de l'année ? Format : Synthèse en 3 parties : Tendances générales / Corrélations temporelles / Points de vigilance. Input : Données agrégées (sans noms) : - 2022-2023 : 78 incidents répertoriés (dont 42 en nov-déc, 18 en mars-avril) - 2023-2024 : 92 incidents (dont 55 en nov-déc, 20 en mars-avril) - 2024-2025 (en cours) : 48 incidents à ce jour (dont 35 en nov-déc) Types d'incidents (agrégés) : violences verbales (60%), bagarres (25%), dégradations (10%), incivilités (5%). Lieux les plus cités (anonymisés) : cour de récréation (40%), couloirs (30%), cantine (20%), autres (10%).",
+    "subject": "Général",
+    "structure": {
+      "context": "Préparation du Conseil d'Évaluation de l'École, auto-évaluation climat scolaire.",
+      "role": "Tu es un analyste de données scolaires.",
+      "task": "Analyse ces indicateurs de vie scolaire sur 3 ans (anonymisés et agrégés). Identifie les tendances faibles que je n'aurais pas vues. Y a-t-il une corrélation avec les périodes de l'année ?",
+      "format": "Synthèse en 3 parties : Tendances générales / Corrélations temporelles / Points de vigilance.",
+      "input": "Données agrégées (sans noms) : - 2022-2023 : 78 incidents répertoriés (dont 42 en nov-déc, 18 en mars-avril) - 2023-2024 : 92 incidents (dont 55 en nov-déc, 20 en mars-avril) - 2024-2025 (en cours) : 48 incidents à ce jour (dont 35 en nov-déc) Types d'incidents (agrégés) : violences verbales (60%), bagarres (25%), dégradations (10%), incivilités (5%). Lieux les plus cités (anonymisés) : cour de récréation (40%), couloirs (30%), cantine (20%), autres (10%)."
+    }
+  },
+  {
+    "id": "p096",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Personnel de direction",
+    "title": "Vérification procédure conseil de discipline",
+    "content": "Contexte : Préparation d'un conseil de discipline pour harcèlement. Rôle : Tu es un expert juridique de l'Éducation nationale, spécialiste du contentieux administratif. Objectif : Liste-moi la chronologie exacte des actes administratifs à poser et les délais légaux impératifs en 2026 pour éviter tout vice de forme lors d'un conseil de discipline. Format : Checklist chronologique avec délais légaux précis, documents obligatoires, composition réglementaire du conseil, points de vigilance. Input : Motif : Harcèlement entre élèves. Niveau : Collège.",
+    "subject": "Général",
+    "structure": {
+      "context": "Préparation d'un conseil de discipline pour harcèlement.",
+      "role": "Tu es un expert juridique de l'Éducation nationale, spécialiste du contentieux administratif.",
+      "task": "Liste-moi la chronologie exacte des actes administratifs à poser et les délais légaux impératifs en 2026 pour éviter tout vice de forme lors d'un conseil de discipline.",
+      "format": "Checklist chronologique avec délais légaux précis, documents obligatoires, composition réglementaire du conseil, points de vigilance.",
+      "input": "Motif : Harcèlement entre élèves. Niveau : Collège."
+    }
+  },
+  {
+    "id": "p097",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Personnel de direction",
+    "title": "Générateur de courriers administratifs",
+    "content": "Contexte : Courrier d'exclusion temporaire. Rôle : Tu es un assistant rédactionnel pour personnel de direction. Objectif : Rédige un courrier informant les parents d'un élève (appelons-le X) d'une exclusion temporaire de 3 jours. Format : Courrier formel avec : rappel des faits (factuel), citation article règlement intérieur, voies de recours, proposition rendez-vous de retour. Input : Contexte : Violence verbale envers un personnel de vie scolaire.",
+    "subject": "La rédaction de courriers types",
+    "structure": {
+      "context": "Courrier d'exclusion temporaire.",
+      "role": "Tu es un assistant rédactionnel pour personnel de direction.",
+      "task": "Rédige un courrier informant les parents d'un élève (appelons-le X) d'une exclusion temporaire de 3 jours.",
+      "format": "Courrier formel avec : rappel des faits (factuel), citation article règlement intérieur, voies de recours, proposition rendez-vous de retour.",
+      "input": ""
+    }
+  },
+  {
+    "id": "p098",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Personnel de direction",
+    "title": "Structuration compte-rendu",
+    "content": "Contexte : Réunion conseil pédagogique. Rôle : Tu es un assistant administratif. Objectif : Transforme mes notes brutes en compte-rendu formel. Format : - Participants présents / excusés - Ordre du jour - Pour chaque point : résumé échanges + décisions prises - Prochaine réunion Input : [Coller vos notes manuscrites ou enregistrement transcrit]",
+    "subject": "Le compte-rendu de réunion",
+    "structure": {
+      "context": "Réunion conseil pédagogique.",
+      "role": "Tu es un assistant administratif.",
+      "task": "Transforme mes notes brutes en compte-rendu formel.",
+      "format": "- Participants présents / excusés - Ordre du jour - Pour chaque point : résumé échanges + décisions prises - Prochaine réunion",
+      "input": "[Coller vos notes manuscrites ou enregistrement transcrit]"
+    }
+  },
+  {
+    "id": "p099",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Personnel de direction",
+    "title": "Le diplomate institutionnel",
+    "content": "Contexte : Réponse à un mail agressif de parent. Rôle : Tu es un conseiller en communication institutionnelle. Objectif : Rédige une réponse à ce mail agressif (anonymisé) qui reste courtoise mais institutionnelle. Format : La réponse doit : - Rester courtoise mais institutionnelle - Rappeler que la sanction = réponse à un acte (citer règlement), pas jugement sur la personne - Couper court au débat par mail en proposant un rendez-vous - Ne pas s'excuser pour une décision légitime Input : [Coller le mail anonymisé]",
+    "subject": "Le bouclier face aux parents agressifs",
+    "structure": {
+      "context": "Réponse à un mail agressif de parent.",
+      "role": "Tu es un conseiller en communication institutionnelle.",
+      "task": "Rédige une réponse à ce mail agressif (anonymisé) qui reste courtoise mais institutionnelle.",
+      "format": "La réponse doit : - Rester courtoise mais institutionnelle - Rappeler que la sanction = réponse à un acte (citer règlement), pas jugement sur la personne - Couper court au débat par mail en proposant un rendez-vous - Ne pas s'excuser pour une décision légitime",
+      "input": "[Coller le mail anonymisé]"
+    }
+  },
+  {
+    "id": "p100",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Personnel de direction",
+    "title": "Communication de crise",
+    "content": "Contexte : Incident grave dans l'établissement. Rôle : Tu es un conseiller en communication de crise. Objectif : Rédige un message court (5 lignes max) à destination des parents via Pronote/ENT. Format : Le message doit : informer sans alarmer, indiquer que la situation est sous contrôle, éviter détails qui alimentent rumeurs, annoncer communication complète à venir si nécessaire. Input : [Décrire l'incident factuellement, sans noms]",
+    "subject": "La communication de crise",
+    "structure": {
+      "context": "Incident grave dans l'établissement.",
+      "role": "Tu es un conseiller en communication de crise.",
+      "task": "Rédige un message court (5 lignes max) à destination des parents via Pronote/ENT.",
+      "format": "Le message doit : informer sans alarmer, indiquer que la situation est sous cont",
+      "input": "[Décrire l'incident factuellement, sans noms]"
+    }
+  },
+  {
+    "id": "p101",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Personnel de direction",
+    "title": "Plan de formation interne",
+    "content": "Contexte : Formation IA pour l'équipe enseignante. Rôle : Tu es formateur en établissement scolaire. Objectif : Créer un plan de formation IA sur un trimestre pour 30 enseignants (niveaux hétérogènes). Format : Progression (objectifs par session), activités pratiques, ressources à préparer, différenciation pour les 3 niveaux. Input : Contraintes : - 3 sessions de 2h (mercredi après-midi) - Public : Débutants (60%), Intermédiaires (30%), Avancés (10%) - Thématiques : RGPD, ingénierie de prompts, usages disciplinaires - Matériel : Salle informatique 15 postes + vidéoprojecteur",
+    "subject": "Prompts pour le pilotage pédagogique",
+    "structure": {
+      "context": "",
+      "role": "Tu es",
+      "task": "Créer un plan de",
+      "format": "Progression (",
+      "input": "Contraintes : - 3 sessions de 2h (mercredi après-midi) - Public : Débutants (60%), Intermédiaires (30%), Avancés (10%) - Thématiques : RGPD, ingénierie de prompts, usages disciplinaires - Matériel : Salle in"
+    }
+  },
+  {
+    "id": "p102",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Personnel de direction",
+    "title": "Charte d'usage établissement",
+    "content": "Contexte : Rédaction charte d'usage IA pour le règlement intérieur. Rôle : Tu es personnel de direction d'un collège. Objectif : Rédiger une charte d'usage de l'IA pour élèves et enseignants, à intégrer au règlement intérieur. Format : Maximum 1 page A4, langage accessible (niveau 6e), sections Droits/Devoirs/Sanctions, ton pédagogique et non punitif. Input : Points obligatoires : - Obligation de citer l'IA si utilisée - Interdiction de tricher (copier-coller sans réflexion) - Respect du RGPD (pas de données personnelles de tiers) - Usage encadré selon le niveau (cycle 3 vs lycée)",
+    "subject": "Prompts pour le pilotage pédagogique",
+    "structure": {
+      "context": "Rédaction charte d'usage IA pour le règlement intérieur.",
+      "role": "Tu es personnel de direction d'un collège.",
+      "task": "Rédiger une charte d'usage de l'IA pour élèves et enseignants, à intégrer au règlement intérieur.",
+      "format": "Maximum 1 page A4, langage accessible (niveau 6e), sections Droits/Devoirs/Sanctions, ton pédagogique et non punitif.",
+      "input": "Points obligatoires : - Obligation de citer l'IA si utilisée - Interdiction de tricher (copier-coller sans réflexion) - Respect du RGPD (pas de données personnelles de tiers) - Usage encadré selon le niveau (cycle 3 vs lycée)"
+    }
+  },
+  {
+    "id": "p103",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Personnel de direction",
+    "title": "Réunion parents sur l'IA",
+    "content": "Contexte : Réunion d'information parents \" L'IA et les devoirs à la maison \". Rôle : Tu es CPE en lycée. Objectif : Concevoir un diaporama de 15 slides (30 min) pour rassurer les parents. Format : - Slides 1-3 : Qu'est-ce que l'IA ? (vulgarisation) - Slides 4-6 : Comment nos élèves l'utilisent ? (données chiffrées) - Slides 7-10 : Bonnes pratiques à la maison - Slides 11-13 : Signaux d'alerte (usage abusif, triche) - Slides 14-15 : Ressources et accompagnement par l'établissement Input : Ton : Rassurant, informatif, non culpabilisant. Éviter jargon technique.",
+    "subject": "Prompts pour le pilotage pédagogique",
+    "structure": {
+      "context": "Réunion d'in",
+      "role": "Tu es CPE en lycée.",
+      "task": "Concevoir un diaporama de 15 slides (30 min) pour rassurer les parents.",
+      "format": "- Slides 1-3 : Qu'est-ce que l'IA ? (vulgarisation) - Slides 4-6 : Comment nos élèves l'utilisent ? (données chiffrées) - Slides 7-10 : Bonnes pratiques à la maison - Slides 11-13 : Signaux d'alerte (usage abusif, triche) - Slides 14-15 : Ressources et accompagnement par l'établissement",
+      "input": "Ton : Rassurant, in"
+    }
+  },
+  {
+    "id": "p104",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Gestion administrative et vie scolaire",
+    "title": "Le déminage diplomatique",
+    "content": "Contexte : Réponse à un mail agressif de parent. Rôle : Tu es un conseiller en communication institutionnelle bienveillante. Objectif : Rédige une réponse professionnelle à ce mail d'un parent qui conteste une punition. Format : La réponse doit : accuser réception avec courtoisie, rappeler les faits de manière factuelle, rester ferme sur le respect du règlement intérieur, proposer un échange constructif (rendez-vous ou appel). Input : [Coller le mail anonymisé]",
+    "subject": "Le filtre émotionnel",
+    "structure": {
+      "context": "Réponse à un mail agressif de parent.",
+      "role": "Tu es un conseiller en communication institutionnelle bienveillante.",
+      "task": "Rédige une réponse professionnelle à ce mail d'un parent qui conteste une punition.",
+      "format": "La réponse doit : accuser réception avec courtoisie, rappeler les faits de manière factuelle, rester ferme sur le respect du règlement intérieur, proposer un échange constructif (rendez-vous ou appel).",
+      "input": "[Coller le mail anonymisé]"
+    }
+  },
+  {
+    "id": "p105",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Gestion administrative et vie scolaire",
+    "title": "Générateur de messages types",
+    "content": "Contexte : Communication courante avec les familles. Rôle : Tu es un assistant de communication scolaire. Objectif : Génère 5 modèles de messages courts (3-4 lignes) pour les situations suivantes : Absence non justifiée, Retards répétés, Carnet de correspondance oublié, Comportement perturbateur en classe, Félicitations pour progrès constatés. Format : Messages professionnels mais bienveillants. Évite le jargon administratif froid. Input : Situations listées ci-dessus.",
+    "subject": "Les messages récurrents",
+    "structure": {
+      "context": "Communication courante avec les familles.",
+      "role": "Tu es un assistant de communication scolaire.",
+      "task": "Génère 5 modèles de messages courts (3-4 lignes) pour les situations suivantes : Absence non justifiée, Retards répétés, Carnet de correspondance oublié, Comportement perturbateur en classe, Félicitations pour progrès constatés.",
+      "format": "Messages professionnels mais bienveillants. Évite le jargon administratif froid.",
+      "input": "Situations listées ci-dessus."
+    }
+  },
+  {
+    "id": "p106",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Gestion administrative et vie scolaire",
+    "title": "Le reformulateur d'appréciations",
+    "content": "Contexte : Rédaction de bulletins scolaires. Rôle : Tu es un enseignant expérimenté en rédaction d'appréciations. Objectif : Reformule cette appréciation sèche de 3 manières différentes : Version encourageante (axée sur le potentiel), Version avertissement (signal d'alerte aux parents), Version constructive (pistes d'amélioration concrètes). Format : 3 versions distinctes, chacune en 2-3 phrases maximum. Input : Appréciation initiale : \" Bavard, ne travaille pas. \"",
+    "subject": "Le syndrome des \" efforts à poursuivre \"",
+    "structure": {
+      "context": "Rédaction de bulletins scolaires.",
+      "role": "Tu es un enseignant expérimenté en rédaction d'appréciations.",
+      "task": "Reformule cette appréciation sèche de 3 manières différentes : Version encourageante (axée sur le potentiel), Version avertissement (signal d'alerte aux parents), Version constructive (pistes d'amélioration concrètes).",
+      "format": "3 versions distinctes, chacune en 2-3 phrases maximum.",
+      "input": "Appréciation initiale : \" Bavard, ne travaille pas. \""
+    }
+  },
+  {
+    "id": "p107",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Gestion administrative et vie scolaire",
+    "title": "Analyse de cohérence bulletins",
+    "content": "Contexte : Préparation du conseil de classe. Rôle : Tu es un assistant de synthèse pédagogique. Objectif : Analyse ces appréciations de 6 professeurs pour un même élève. Identifie : les points de convergence (ce que tout le monde dit), les contradictions éventuelles, une synthèse possible pour l'appréciation générale du bulletin. Format : Synthèse structurée en 3 parties. Input : [Coller les appréciations anonymisées]",
+    "subject": "La cohérence du conseil de classe",
+    "structure": {
+      "context": "Préparation du conseil de classe.",
+      "role": "Tu es un assistant de synthèse pédagogique.",
+      "task": "Analyse ces appréciations de 6 professeurs pour un même élève. Identifie : les points de convergence (ce que tout le monde dit), les contradictions éventuelles, une synthèse possible pour l'appréciation générale du bulletin.",
+      "format": "Synthèse structurée en 3 parties.",
+      "input": "[Coller les appréciations anonymisées]"
+    }
+  },
+  {
+    "id": "p108",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Gestion administrative et vie scolaire",
+    "title": "Détection de patterns d'absence",
+    "content": "Contexte : Suivi de l'assiduité d'un élève. Rôle : Tu es un CPE spécialiste du décrochage scolaire. Objectif : Analyse ces données d'absences d'un élève sur 3 mois (anonymisées). Y a-t-il un pattern récurrent ? Quelles hypothèses peut-on formuler ? Quelles questions poser à l'élève ou à la famille ? Format : Pattern identifié, hypothèses à explorer (sans conclusion définitive), questions d'investigation. Input : Septembre : Absents les 5, 12, 19, 26 (tous des lundis) Octobre : Absents les 3, 10, 17 (lundis) + 14-15 (pont) Novembre : Absents les 7, 14, 21 (lundis) + 4 jours maladie (certificat)",
+    "subject": "Analyser les patterns d'absences",
+    "structure": {
+      "context": "Suivi de l'assiduité d'un élève.",
+      "role": "Tu es un CPE spécialiste du décrochage scolaire.",
+      "task": "Analyse ces données d'absences d'un élève sur 3 mois (anonymisées). Y a-t-il un pattern récurrent ? Quelles hypothèses peut-on formuler ? Quelles questions poser à l'élève ou à la famille ?",
+      "format": "Pattern identifié, hypothèses à explorer (sans conclusion définitive), questions d'investigation.",
+      "input": "Septembre : Absents les 5, 12, 19, 26 (tous des lundis) Octobre : Absents les 3, 10, 17 (lundis) + 14-15 (pont) Novembre : Absents les 7, 14, 21 (lundis) + 4 jours maladie (certificat)"
+    }
+  },
+  {
+    "id": "p109",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Gestion administrative et vie scolaire",
+    "title": "Script de médiation",
+    "content": "Contexte : Médiation suite à exclusion de cours pour insolence. Rôle : Tu es un CPE médiateur expérimenté. Objectif : Un élève de 3e (appelons-le X) a été exclu de cours pour insolence. L'enseignant (M. Y) demande des excuses. L'élève refuse, estimant avoir été \" provoqué \". Je dois recevoir l'élève avant de proposer une médiation. Propose-moi : 5 questions ouvertes pour comprendre le point de vue de l'élève sans le braquer, 3 reformulations types pour désamorcer l'émotion, une proposition de \" sortie de crise \" acceptable pour les deux parties. Format : Questions ouvertes / Reformulations / Sortie de crise honorable. Input : Contexte décrit ci-dessus (ton : ferme mais bienveillant, objectif : responsabiliser sans humilier).",
+    "subject": "Préparer un entretien de médiation",
+    "structure": {
+      "context": "Médiation suite à exclusion de cours pour insolence.",
+      "role": "Tu es un CPE médiateur expérimenté.",
+      "task": "Un élève de 3e (appelons-le X) a été exclu de cours pour insolence. L'enseignant (M. Y) demande des excuses. L'élève refuse, estimant avoir été \" provoqué \". Je dois recevoir l'élève avant de proposer une médiation. Propose-moi : 5 questions ouvertes pour comprendre le point de vue de l'élève sans le braquer, 3 reformulations types pour désamorcer l'émotion, une proposition de \" sortie de crise \" acceptable pour les deux parties.",
+      "format": "Questions ouvertes / Reformulations / Sortie de crise honorable.",
+      "input": ""
+    }
+  },
+  {
+    "id": "p110",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Gestion administrative et vie scolaire",
+    "title": "Rapport d'incident structuré",
+    "content": "Contexte : Incident scolaire à documenter. Rôle : Tu es un CPE rigoureux sur la rédaction factuelle. Objectif : Transforme ces notes brutes en un rapport d'incident formel avec : Date/heure/lieu précis, Personnes présentes (anonymisées : Élève X, Professeur Y, Témoin Z), Déroulement chronologique des faits (uniquement observable), Propos rapportés (entre guillemets, avec mention \" selon X \"), Mesures conservatoires prises, Suites envisagées. Format : Rapport factuel structuré. Pas d'interprétation ni de jugement de valeur. Input : [Coller les notes brutes]",
+    "subject": "Rédiger un rapport d'incident",
+    "structure": {
+      "context": "Incident scolaire à documenter.",
+      "role": "Tu es un CPE rigoureux sur la rédaction factuelle.",
+      "task": "Transforme ces notes brutes en un rapport d'incident formel avec : Date/heure/lieu précis, Personnes présentes (anonymisées : Élève X, Professeur Y, Témoin Z), Déroulement chronologique des faits (uniquement observable), Propos rapportés (entre guillemets, avec mention \" selon X \"), Mesures conservatoires prises, Suites envisagées.",
+      "format": "Rapport factuel structuré. Pas d'interprétation ni de jugement de valeur.",
+      "input": "[Coller les notes brutes]"
+    }
+  },
+  {
+    "id": "p111",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Gestion administrative et vie scolaire",
+    "title": "Dossier commission éducative",
+    "content": "Contexte : Préparation d'une commission éducative. Rôle : Tu es un CPE expert en mesures éducatives. Objectif : Je prépare une commission éducative pour un élève de 4e (appelons-le X) avec des problèmes de comportement récurrents. Aide-moi à structurer le dossier. Format : Liste des pièces à rassembler, Questions à poser à l'équipe pédagogique en amont, Points à aborder avec l'élève et sa famille pendant la commission, Exemples de mesures éducatives à proposer (hors sanction). Input : Élève 4e, comportement récurrent.",
+    "subject": "Préparer une commission éducative",
+    "structure": {
+      "context": "Préparation d'une commission éducative.",
+      "role": "Tu es un CPE expert en mesures éducatives.",
+      "task": "Je prépare une commission éducative pour un élève de 4e (appelons-le X) avec des problèmes de comportement récurrents. Aide-moi à structurer le dossier.",
+      "format": "Liste des pièces à rassembler, Questions à poser à l'équipe pédagogique en amont, Points à aborder avec l'élève et sa famille pendant la commission, Exemples de mesures éducatives à proposer (hors sanction).",
+      "input": "Élève 4e, comportement récurrent."
+    }
+  },
+  {
+    "id": "p112",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Gestion administrative et vie scolaire",
+    "title": "Note de service vie scolaire",
+    "content": "Contexte : Communication avec l'équipe des assistants d'éducation. Rôle : Tu es un CPE qui rédige des notes de service claires. Objectif : Rédige une note de service pour l'équipe vie scolaire concernant la gestion des retards. Format : 1 page max, avec puces. Ton : directif mais respectueux. Input : Contenu : Rappel de la procédure (accueil, billet, saisie Pronote), Seuil d'alerte (à partir de X retards, signalement au CPE), Discours à tenir face à l'élève (ferme mais pas humiliant), Ce qu'on ne fait PAS (refuser l'accès au cours sans billet).",
+    "subject": "Communiquer avec l'équipe vie scolaire",
+    "structure": {
+      "context": "Communication avec l'équipe des assistants d'éducation.",
+      "role": "Tu es un CPE qui rédige des notes de service claires.",
+      "task": "Rédige une note de service pour l'équipe vie scolaire concernant la gestion des retards.",
+      "format": "1 page max, avec puces. Ton : directif mais respectueux.",
+      "input": "Contenu : Rappel de la procédure (accueil, billet, saisie Pronote), Seuil d'alerte (à partir de X retards, signalement au CPE), Discours à tenir face à l'élève (ferme mais pas humiliant), Ce qu'on ne fait PAS (refuser l'accès au cours sans billet)."
+    }
+  },
+  {
+    "id": "p113",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Gestion administrative et vie scolaire",
+    "title": "Traduction FALC — Courrier familles",
+    "content": "Contexte : Communication avec famille allophone ou en difficulté avec l'écrit. Rôle : Tu es un expert en communication FALC (Facile À Lire et à Comprendre). Objectif : Réécris ce courrier officiel en FALC pour qu'il soit compréhensible par un parent allophone ou une personne avec des troubles cognitifs. Format : - Phrases courtes (sujet-verbe-complément) - Pas de métaphores ni d'expressions imagées - Un seul message par phrase - Vocabulaire simple (remplacer \" convocation \" par \" rendez-vous \") - Structure claire avec titres et sous-titres Input : [Coller le courrier original]",
+    "subject": "Courrier aux familles en FALC",
+    "structure": {
+      "context": "Communication avec famille allophone ou en difficulté avec l'écrit.",
+      "role": "Tu es un expert en communication FALC (Facile À Lire et à Comprendre).",
+      "task": "Réécris ce courrier officiel en FALC pour qu'il soit compréhensible par un parent allophone ou une personne avec des troubles cognitifs.",
+      "format": "- Phrases courtes (sujet-verbe-complément) - Pas de métaphores ni d'expressions imagées - Un seul message par phrase - Vocabulaire simple (remplacer \" convocation \" par \" rendez-vous \") - Structure claire avec titres et sous-titres",
+      "input": "[Coller le courrier original]"
+    }
+  },
+  {
+    "id": "p114",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Gestion administrative et vie scolaire",
+    "title": "Consigne d'exercice FALC",
+    "content": "Contexte : Adaptation pour élève ULIS ou allophone. Rôle : Tu es un expert en pédagogie adaptée. Objectif : Réécris cette consigne d'exercice en FALC. Format : - Une action par phrase - Verbes à l'infinitif ou à l'impératif - Numérotation claire (1, 2, 3...) - Pas de double négation - Phrases courtes (max 10-12 mots) Input : Consigne originale : \" Après avoir lu attentivement le texte, vous rédigerez un paragraphe argumenté d'une dizaine de lignes dans lequel vous expliquerez en quoi le personnage principal peut être considéré comme un héros malgré ses faiblesses. \"",
+    "subject": "Consignes d'exercice en FALC",
+    "structure": {
+      "context": "Adaptation pour élève ULIS ou allophone.",
+      "role": "Tu es un expert en pédagogie adaptée.",
+      "task": "Réécris cette consigne d'exercice en FALC.",
+      "format": "- Une action par phrase - Verbes à l'infinitif ou à l'impératif - Numérotation claire (1, 2, 3...) - Pas de double négation - Phrases courtes (max 10-12 mots)",
+      "input": "Consigne originale : \" Après avoir lu attentivement le texte, vous rédigerez un paragraphe argumenté d'une dizaine de lignes dans lequel vous expliquerez en quoi le personnage principal peut être considéré comme un héros malgré ses faiblesses. \""
+    }
+  },
+  {
+    "id": "p115",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Gestion administrative et vie scolaire",
+    "title": "Analyse climat scolaire — Verbatims",
+    "content": "Contexte : Questionnaire climat scolaire anonyme (500 réponses). Rôle : Tu es un analyste de données qualitatives en milieu scolaire. Objectif : Analyse ces verbatims anonymes d'élèves et identifie : les 3 lieux du collège qui reviennent le plus souvent comme anxiogènes, les 3 problèmes principaux mentionnés, les suggestions d'amélioration proposées par les élèves. Format : Synthèse structurée : Lieux problématiques / Problèmes identifiés / Suggestions élèves. Input : [Coller les verbatims anonymisés — exemple :] \" Les toilettes sont sales et on se fait embêter. \" \" La cour est trop petite, y a toujours des bagarres. \" \" Les couloirs c'est le bordel entre les cours. \" \" On devrait avoir plus de surveillants dans la cour. \" \" Les toilettes sont craintes, personne veut y aller. \" \" Faudrait repeindre les murs, c'est moche. \" [...] (verbatims anonymes)",
+    "subject": "Analyse de verbatims anonymes",
+    "structure": {
+      "context": "Questionnaire climat scolaire anonyme (500 réponses).",
+      "role": "Tu es un analyste de données qualitatives en milieu scolaire.",
+      "task": "Analyse ces verbatims anonymes d'élèves et identifie : les 3 lieux du collège qui reviennent le plus souvent comme anxiogènes, les 3 problèmes principaux mentionnés, les suggestions d'amélioration proposées par les élèves.",
+      "format": "Synthèse structurée : Lieux problématiques / Problèmes identifiés / Suggestions élèves.",
+      "input": "[Coller les verbatims anonymisés — exemple :] \" Les toilettes sont sales et on se fait embêter. \" \" La cour est trop petite, y a toujours des bagarres. \" \" Les couloirs c'est le bordel entre les cours. \" \" On devrait avoir plus de surveillants dans la cour. \" \" Les toilettes sont craintes, personne veut y aller. \" \" Faudrait repeindre les murs, c'est moche. \" [...] (verbatims anonymes)"
+    }
+  },
+  {
+    "id": "p116",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Gestion administrative et vie scolaire",
+    "title": "Fiche mission AESH",
+    "content": "Contexte : Accompagnement d'un élève dyspraxique. Rôle : Tu es un coordonnateur AESH expérimenté. Objectif : Génère une fiche pour l'AESH qui accompagne un élève dyspraxique pendant un exercice de géométrie (tracé de figures). Format : 4 rubriques : Ce que l'AESH fait (aide physique), Ce que l'AESH ne fait pas (pour préserver l'autonomie), Adaptations matérielles possibles, Signaux d'alerte (quand alerter l'enseignant). Input : Élève dyspraxique, exercice de géométrie.",
+    "subject": "Les fiches missions AESH",
+    "structure": {
+      "context": "Accompagnement d'un élève dyspraxique.",
+      "role": "Tu es un coordonnateur AESH expérimenté.",
+      "task": "Génère une fiche pour l'AESH qui accompagne un élève dyspraxique pendant un exercice de géométrie (tracé de figures).",
+      "format": "4 rubriques : Ce que l'AESH fait (aide physique), Ce que l'AESH ne fait pas (pour préserver l'autonomie), Adaptations matérielles possibles, Signaux d'alerte (quand alerter l'enseignant).",
+      "input": "Élève dyspraxique, exercice de géométrie."
+    }
+  },
+  {
+    "id": "p117",
+    "part": "Pilotage et Vie Scolaire",
+    "chapter": "Gestion administrative et vie scolaire",
+    "title": "Adaptation PAP",
+    "content": "Contexte : Adaptation pour élève dyslexique (PAP). Rôle : Tu es un enseignant spécialisé en adaptations pédagogiques. Objectif : Adapte cet exercice de français pour un élève avec PAP dyslexie. Format : Police plus grande + interligne aéré, Consignes reformulées en phrases courtes, Mots difficiles syllabés (ex : \" im-por-tant \"), Réduction du nombre de questions si pertinent. Input : [Coller l'exercice original]",
+    "subject": "La différenciation express",
+    "structure": {
+      "context": "Adaptation pour élève dyslexique (PAP).",
+      "role": "Tu es un enseignant spécialisé en adaptations pédagogiques.",
+      "task": "Adapte cet exercice de français pour un élève avec PAP dyslexie.",
+      "format": "Police plus grande + interligne aéré, Consignes reformulées en phrases courtes, Mots difficiles syllabés (ex : \" im-por-tant \"), Réduction du nombre de questions si pertinent.",
+      "input": "[Coller l'exercice original]"
+    }
+  },
+  {
+    "id": "p118",
+    "part": "Vers le Professeur Augmenté",
+    "chapter": "Introduction",
+    "title": "La roue de la fortune",
+    "content": "Contexte : Tirage aléatoire d'élèves pour interrogation orale. Rôle : Tu es un développeur web spécialisé en applications pédagogiques. Objectif : Écris le code HTML complet (avec CSS et JavaScript inclus dans un seul fichier) pour créer une \" Roue de la Fortune \" des élèves. Format : Fichier HTML autonome fonctionnant hors ligne. Input : Fonctionnalités : Une roue colorée avec les prénoms des élèves, Un bouton \" Tourner \" qui fait tourner la roue avec une animation, L'affichage du prénom sélectionné à la fin, Un champ pour modifier la liste des prénoms.",
+    "subject": "La roue de la fortune",
+    "structure": {
+      "context": "Tirage aléatoire d'élèves pour interrogation orale.",
+      "role": "Tu es un développeur web spécialisé en applications pédagogiques.",
+      "task": "Écris le code HTML complet (avec CSS et JavaScript inclus dans un seul fichier) pour créer une \" Roue de la Fortune \" des élèves.",
+      "format": "Fichier HTML autonome fonctionnant hors ligne.",
+      "input": "Fonctionnalités : Une roue colorée avec les prénoms des élèves, Un bouton \" Tourner \" qui fait tourner la roue avec une animation, L'affichage du prénom sélectionné à la fin, Un champ pour modifier la liste des prénoms."
+    }
+  },
+  {
+    "id": "p119",
+    "part": "Vers le Professeur Augmenté",
+    "chapter": "Introduction",
+    "title": "Minuteur personnalisé",
+    "content": "Contexte : Gestion du temps en classe (travaux de groupe, examens blancs). Rôle : Tu es un développeur web spécialisé en outils de classe. Objectif : Crée une page HTML avec un minuteur de classe. Format : Fichier HTML autonome, affichage grand format (lisible depuis le fond de la classe). Input : Fonctionnalités : Choix du temps (5, 10, 15, 20 minutes ou personnalisé), Affichage grand format lisible depuis le fond de la classe, Changement de couleur quand il reste moins d'une minute (rouge), Son d'alerte à la fin, Boutons Pause / Reprendre / Réinitialiser.",
+    "subject": "Le minuteur de classe",
+    "structure": {
+      "context": "Gestion du temps en classe (travaux de groupe, examens blancs).",
+      "role": "Tu es un développeur web spécialisé en outils de classe.",
+      "task": "Crée une page HTML avec un minuteur de classe.",
+      "format": "Fichier HTML autonome, affichage grand format (lisible depuis le fond de la classe).",
+      "input": "Fonctionnalités : Choix du temps (5, 10, 15, 20 minutes ou personnalisé), Affichage grand"
+    }
+  },
+  {
+    "id": "p120",
+    "part": "Vers le Professeur Augmenté",
+    "chapter": "Introduction",
+    "title": "Générateur de groupes",
+    "content": "Contexte : Constitution de groupes de travail aléatoires. Rôle : Tu es un développeur web spécialisé en outils pédagogiques. Objectif : Crée une page HTML pour répartir une classe en groupes. Format : Fichier HTML autonome avec répartition aléatoire. Input : Fonctionnalités : Zone de texte pour entrer les prénoms (un par ligne), Choix du nombre de groupes souhaité, Bouton \" Mélanger \" qui répartit aléatoirement, Affichage des groupes numérotés, Possibilité de \" verrouiller \" certains élèves ensemble (option avancée).",
+    "subject": "Le générateur de groupes",
+    "structure": {
+      "context": "Constitution de groupes de travail aléatoires.",
+      "role": "Tu es un développeur web spécialisé en outils pédagogiques.",
+      "task": "Crée une page HTML pour répartir une classe en groupes.",
+      "format": "Fichier HTML autonome avec répartition aléatoire.",
+      "input": "Fonctionnalités : Zone de texte pour entrer les prénoms (un par ligne), Choix du nombre de groupes souhaité, Bouton \" Mélanger \" qui répartit aléatoirement, Affichage des groupes numérotés, Possibilité de \" verrouiller \" certains élèves ensemble (option avancée)."
+    }
+  },
+  {
+    "id": "p121",
+    "part": "Vers le Professeur Augmenté",
+    "chapter": "Introduction",
+    "title": "QCM autonome",
+    "content": "Contexte : Évaluation formative autonome. Rôle : Tu es un développeur web spécialisé en quiz interactifs. Objectif : Crée une page HTML pour un QCM interactif. Format : Fichier HTML autonome avec correction automatique. Input : Fonctionnalités : 10 questions avec 4 choix chacune, Feedback immédiat (vert si correct, rouge si faux), Score final affiché à la fin, Les questions sont définies dans le code (je les modifierai moi-même). Voici les 3 premières questions à intégrer : - Q1 : Quelle est la capitale de la France ? (Paris / Lyon / Marseille / Bordeaux) → Paris - Q2 : Combien font 7 × 8 ? (54 / 56 / 58 / 64) → 56 - Q3 : Qui a écrit Les Misérables ? (Zola / Hugo / Balzac / Flaubert) → Hugo",
+    "subject": "Le QCM interactif",
+    "structure": {
+      "context": "Évaluation",
+      "role": "Tu es un développeur web spécialisé en quiz interactifs.",
+      "task": "Crée une page HTML pour un QCM interactif.",
+      "format": "Fichier HTML autonome avec correction automatique.",
+      "input": "Fonctionnalités : 10 questions avec 4 choix chacune, Feedback immédiat (vert si correct, rouge si faux), Score final affiché à la fin, Les questions sont définies dans le code (je les modifierai moi-même). Voici les 3 premières questions à intégrer : - Q1 : Quelle est la capitale de la France ? (Paris / Lyon / Marseille / Bordeaux) → Paris - Q2 : Combien font 7 × 8 ? (54 / 56 / 58 / 64) → 56 - Q3 : Qui a écrit Les Misérables ? (Zola / Hugo / Balzac / Flaubert) → Hugo"
+    }
+  },
+  {
+    "id": "p122",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "1. Générateur de séquence",
+    "content": "Contexte : Je suis prof de [Matière] en [Niveau]. Rôle : Agis comme un expert en ingénierie pédagogique. Objectif : Crée un plan de séquence de [Durée] semaines sur [Thème]. Format : Tableau à 4 colonnes : Semaine / Objectif / Activité clé / Évaluation. Input : Compétences du BO à travailler : [Optionnel].",
+    "subject": "Préparation de cours",
+    "structure": {
+      "context": "Je suis prof de [Matière] en [Niveau].",
+      "role": "Agis comme un expert en ingénierie pédagogique.",
+      "task": "Crée un plan de séquence de [Durée] semaines sur [Thème].",
+      "format": "Tableau à 4 colonnes : Semaine /",
+      "input": "Compétences du BO à travailler : [Optionnel]."
+    }
+  },
+  {
+    "id": "p123",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "2. Différenciateur de texte",
+    "content": "Contexte : Je prépare un cours de [Matière] pour une classe de [Niveau] avec des profils variés (DYS, allophones). Rôle : Agis comme un expert en adaptation pédagogique. Objectif : Réécris ce texte en 3 versions : (1) Simplifié, (2) DYS (phrases courtes, mots syllabés), (3) FLS (vocabulaire A2). Format : 3 versions distinctes du texte, chacune identifiée par un titre (Simplifié / DYS / FLS). Input : Voici le texte : [Coller].",
+    "subject": "Préparation de cours",
+    "structure": {
+      "context": "Je prépare un cours de [Matière] pour une classe de [Niveau] avec des profils variés (DYS, allophones).",
+      "role": "Agis comme un expert en adaptation pédagogique.",
+      "task": "Réécris ce texte en 3 versions : (1) Simplifié, (2) DYS (phrases courtes, mots syllabés), (3) FLS (vocabulaire A2).",
+      "format": "3 versions distinctes du texte, chacune identifiée par un titre (Simplifié / DYS / FLS).",
+      "input": "Voici le texte : [Coller]."
+    }
+  },
+  {
+    "id": "p124",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "3. Générateur d'exercices progressifs",
+    "content": "Contexte : J'enseigne [Matière] en [Niveau]. Rôle : Agis comme un concepteur de manuels scolaires. Objectif : Crée 5 exercices progressifs sur [Notion]. Format : Pour chaque exercice : énoncé + correction détaillée + compétence visée. Input : Niveau de difficulté : commence par application directe, finis par problème complexe.",
+    "subject": "Préparation de cours",
+    "structure": {
+      "context": "J'enseigne [Matière] en [Niveau].",
+      "role": "Agis comme un concepteur de manuels scolaires.",
+      "task": "Crée 5 exercices progressifs sur [Notion].",
+      "format": "Pour chaque exercice : énoncé + correction détaillée + compétence visée.",
+      "input": "Niveau de difficulté : commence par application directe, finis par problème complexe."
+    }
+  },
+  {
+    "id": "p125",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "4. Crash-test de sujet",
+    "content": "Contexte : J'ai préparé une évaluation de [Matière] pour des [Niveau]. Rôle : Agis comme un élève moyen de ce niveau. Objectif : Analyse ce sujet : (1) Estime le temps nécessaire. (2) Repère les consignes ambiguës. (3) Signale les exercices trop faciles ou trop durs. Format : Réponse structurée en 3 parties (Temps / Consignes / Équilibre difficulté). Input : Voici le sujet : [Coller].",
+    "subject": "Évaluation",
+    "structure": {
+      "context": "J'ai préparé une évaluation de [Matière] pour des [Niveau].",
+      "role": "Agis comme un élève moyen de ce niveau.",
+      "task": "Analyse ce sujet : (1) Estime le temps nécessaire. (2) Repère les consignes ambiguës. (3) Signale les exercices trop faciles ou trop durs.",
+      "format": "Réponse structurée en 3 parties (Temps / Consignes / Équilibre difficulté).",
+      "input": "Voici le sujet : [Coller]."
+    }
+  },
+  {
+    "id": "p126",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "5. Cloneur de devoir",
+    "content": "Contexte : J'enseigne [Matière] en [Niveau] et j'ai besoin d'un sujet de rattrapage. Rôle : Agis comme mon binôme de correction. Objectif : Crée un sujet B équivalent (même structure, mêmes compétences, données différentes) avec son corrigé. Format : Sujet B complet + corrigé détaillé. Input : Voici le sujet A : [Coller].",
+    "subject": "Évaluation",
+    "structure": {
+      "context": "J'enseigne [Matière] en [Niveau] et j'ai besoin d'un sujet de rattrapage.",
+      "role": "Agis comme mon binôme de correction.",
+      "task": "Crée un sujet B équivalent (même structure, mêmes compétences, données différentes) avec son corrigé.",
+      "format": "Sujet B complet + corrigé détaillé.",
+      "input": "Voici le sujet A : [Coller]."
+    }
+  },
+  {
+    "id": "p127",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "6. Générateur de barème",
+    "content": "Contexte : J'évalue des [Type de production] en [Matière], niveau [Niveau]. Rôle : Agis comme un expert en docimologie. Objectif : Crée une grille d'évaluation avec [Nombre] critères. Format : Pour chaque critère : 3 niveaux (Insuffisant / Satisfaisant / Expert) avec indicateurs observables. Input : Type de production à évaluer : [Préciser].",
+    "subject": "Évaluation",
+    "structure": {
+      "context": "J'évalue des [Type de production] en [Matière], niveau [Niveau].",
+      "role": "Agis comme un expert en docimologie.",
+      "task": "Crée une grille d'évaluation avec [Nombre] critères.",
+      "format": "Pour chaque critère : 3 niveaux (Insuffisant / Satisfaisant / Expert) avec indicateurs observables.",
+      "input": "Type de production à évaluer : [Préciser]."
+    }
+  },
+  {
+    "id": "p128",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "7. Reformulateur d'appréciations",
+    "content": "Contexte : Je rédige les bulletins de mes élèves de [Niveau]. Rôle : Agis comme un conseiller en communication bienveillante. Objectif : Reformule cette appréciation en 3 versions : (1) Encourageante, (2) Avertissement ferme, (3) Axée sur le potentiel. Format : 3 versions distinctes de l'appréciation (2-3 phrases chacune). Input : Voici l'appréciation sèche : \" [Texte] \".",
+    "subject": "Gestion de classe",
+    "structure": {
+      "context": "Je rédige les bulletins de mes élèves de [Niveau].",
+      "role": "Agis comme un conseiller en communication bienveillante.",
+      "task": "Reformule cette appréciation en 3 versions : (1) Encourageante, (2) Avertissement ferme, (3) Axée sur le potentiel.",
+      "format": "3 versions distinctes de l'appréciation (2-3 phrases chacune).",
+      "input": "Voici l'appréciation sèche : \" [Texte] \"."
+    }
+  },
+  {
+    "id": "p129",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "8. Diplomate (réponse aux parents)",
+    "content": "Contexte : Je suis enseignant en [Établissement/Niveau]. Un parent conteste une décision. Rôle : Agis comme un médiateur scolaire expérimenté. Objectif : Rédige une réponse courtoise mais ferme, qui rappelle le cadre et propose un rendez-vous. Format : Mail formel structuré : Accusé réception / Rappel cadre / Proposition rendez-vous. Input : Voici le mail du parent (anonymisé) : [Coller].",
+    "subject": "Gestion de classe",
+    "structure": {
+      "context": "Je suis enseignant en [Établissement/Niveau]. Un parent conteste une décision.",
+      "role": "Agis comme un médiateur scolaire expérimenté.",
+      "task": "Rédige une réponse courtoise mais ferme, qui rappelle le cadre et propose un rendez-vous.",
+      "format": "Mail formel structuré : Accusé réception / Rappel cadre / Proposition rendez-vous.",
+      "input": "Voici le mail du parent (anonymisé) : [Coller]."
+    }
+  },
+  {
+    "id": "p130",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "9. Checklist sortie scolaire",
+    "content": "Contexte : Je suis enseignant en [Niveau]. J'organise une sortie à [Lieu] avec [Nombre] élèves. Rôle : Agis comme un coordinateur de projets scolaires. Objectif : Dresse une checklist complète des démarches. Format : Organisation chronologique : 1 mois avant / 1 semaine avant / Jour J. Input : Type de sortie : [Préciser si musée, nature, entreprise, etc.].",
+    "subject": "Gestion de classe",
+    "structure": {
+      "context": "Je suis enseignant en [Niveau]. J'organise une sortie à [Lieu] avec [Nombre] élèves.",
+      "role": "Agis comme un coordinateur de projets scolaires.",
+      "task": "Dresse une checklist complète des démarches.",
+      "format": "Organisation chronologique : 1 mois avant / 1 semaine avant / Jour J.",
+      "input": "Type de sortie : [Préciser si musée, nature, entreprise, etc.]."
+    }
+  },
+  {
+    "id": "p131",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "10. Tuteur socratique",
+    "content": "Contexte : Un élève de [Niveau] est bloqué sur un exercice de [Matière]. Rôle : Tu es un tuteur bienveillant qui ne donne jamais la réponse directement. Objectif : Pose 3 questions d'étayage pour le guider et identifie le prérequis qui lui manque. Format : 3 questions progressives + diagnostic du prérequis manquant. Input : Voici l'exercice : [Coller].",
+    "subject": "Aide aux élèves",
+    "structure": {
+      "context": "Un élève de [Niveau] est bloqué sur un exercice de [Matière].",
+      "role": "Tu es un tuteur bienveillant qui ne donne jamais la réponse directement.",
+      "task": "Pose 3 questions d'étayage pour le guider et identifie le prérequis qui lui manque.",
+      "format": "3 questions progressives + diagnostic du prérequis manquant.",
+      "input": "Voici l'exercice : [Coller]."
+    }
+  },
+  {
+    "id": "p132",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "11. Générateur de flashcards",
+    "content": "Contexte : Cours de [Matière] niveau [Niveau] sur [Thème]. Rôle : Agis comme un expert en mémorisation (répétition espacée). Objectif : Génère des flashcards ciblant définitions, dates clés et formules. Format : Tableau à 2 colonnes : Question / Réponse courte. Input : Voici le cours : [Coller].",
+    "subject": "Aide aux élèves",
+    "structure": {
+      "context": "Cours de [Matière] niveau [Niveau] sur [Thème].",
+      "role": "Agis comme un expert en mémorisation (répétition espacée).",
+      "task": "Génère des flashcards ciblant définitions, dates clés et formules.",
+      "format": "Tableau à 2 colonnes : Question / Réponse courte.",
+      "input": "Voici le cours : [Coller]."
+    }
+  },
+  {
+    "id": "p133",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "12. Coach révisions",
+    "content": "Contexte : Un élève de [Niveau] a [Nombre] jours pour réviser [Matières]. Rôle : Agis comme un coach en méthodologie et gestion du stress. Objectif : Propose un planning réaliste (technique Pomodoro) + 3 conseils anti-stress pour la veille de l'examen. Format : Planning journalier structuré + Liste de 3 conseils concrets. Input : Nombre de matières à réviser : [Préciser].",
+    "subject": "Aide aux élèves",
+    "structure": {
+      "context": "Un élève de [Niveau] a [Nombre] jours pour réviser [Matières].",
+      "role": "Agis comme un coach en méthodologie et gestion du stress.",
+      "task": "Propose un planning réaliste (technique Pomodoro) + 3 conseils anti-stress pour la veille de l'examen.",
+      "format": "Planning journalier structuré + Liste de 3 conseils concrets.",
+      "input": "Nombre de matières à réviser : [Préciser]."
+    }
+  },
+  {
+    "id": "p134",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "13. Pastiche littéraire",
+    "content": "Contexte : Séquence sur l'écriture d'invention en [Niveau], étude de [Auteur]. Rôle : Agis comme un écrivain pasticheur. Objectif : Réécris ce texte dans le style de [Auteur]. Format : Texte pastiche (longueur équivalente au texte source). Input : Caractéristiques à respecter : [Liste]. Texte source : [Coller].",
+    "subject": "Disciplines",
+    "structure": {
+      "context": "Séquence sur l'écriture d'invention en [Niveau], étude de [Auteur].",
+      "role": "Agis comme un écrivain pasticheur.",
+      "task": "Réécris ce texte dans le style de [Auteur].",
+      "format": "Texte pastiche (longueur équivalente au texte source).",
+      "input": "Caractéristiques à respecter : [Liste]. Texte source : [Coller]."
+    }
+  },
+  {
+    "id": "p135",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "14. Persona historique",
+    "content": "Contexte : Cours d'histoire en [Niveau] sur [Période/Événement]. Rôle : Incarne [Personnage historique]. Réponds en restant dans le personnage. Objectif : Réponds à mes questions en expliquant tes motivations et le contexte de l'époque. Format : Réponses en 1re personne, vocabulaire de l'époque sans être incompréhensible. Input : Personnage à incarner : [Préciser].",
+    "subject": "Disciplines",
+    "structure": {
+      "context": "Cours d'histoire en [Niveau] sur [Période/Événement].",
+      "role": "Incarne [Personnage historique]. Réponds en restant dans le personnage.",
+      "task": "Réponds à mes questions en expliquant tes motivations et le",
+      "format": "Réponses en 1re personne, vocabulaire de l'époque sans être incompréhensible.",
+      "input": "Personnage à incarner : [Préciser]."
+    }
+  },
+  {
+    "id": "p136",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "15. Problème de Fermi",
+    "content": "Contexte : Exercice d'estimation en [Matière] pour des élèves de [Niveau]. Rôle : Agis comme un physicien vulgarisateur. Objectif : Estime [Grandeur à estimer]. Format : Détaille : hypothèses, calculs intermédiaires, ordre de grandeur final. Input : Question : [Ex : \" Combien de balles de tennis peut-on mettre dans un bus scolaire ? \"].",
+    "subject": "Disciplines",
+    "structure": {
+      "context": "Exercice d'estimation en [Matière] pour des élèves de [Niveau].",
+      "role": "Agis comme un physicien vulgarisateur.",
+      "task": "Estime [Grandeur à estimer].",
+      "format": "Détaille : hypothèses, calculs intermédiaires, ordre de grandeur final.",
+      "input": "Question : [Ex : \" Combien de balles de tennis peut-on mettre dans un bus scolaire ? \"]."
+    }
+  },
+  {
+    "id": "p137",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "16. Fausse démonstration",
+    "content": "Contexte : Activité \" chasseur d'erreurs \" en maths, niveau [Niveau]. Rôle : Agis comme un sophiste mathématique. Objectif : Génère une \" démonstration \" qui prouve que [Résultat faux]. Format : L'erreur doit être subtile mais identifiable par un élève de ce niveau. Input : Résultat faux à \" démontrer \" : [Ex : \" 1 = 2 \"].",
+    "subject": "Disciplines",
+    "structure": {
+      "context": "Activité \" chasseur d'erreurs \" en maths, niveau [Niveau].",
+      "role": "Agis comme un sophiste mathématique.",
+      "task": "Génère une \" démonstration \" qui prouve que [Résultat faux].",
+      "format": "L'erreur doit être subtile mais identifiable par un élève de ce niveau.",
+      "input": "Résultat faux à \" démontrer \" : [Ex : \" 1 = 2 \"]."
+    }
+  },
+  {
+    "id": "p138",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "17. Résumeur de réunion",
+    "content": "Contexte : Réunion pédagogique / conseil de classe dans mon établissement. Rôle : Agis comme un secrétaire de séance efficace. Objectif : Transforme mes notes en compte-rendu structuré. Anonymise les noms. Format : Structure : Points abordés / Décisions / Actions (Qui-Quoi-Quand). Input : Notes brutes : [Coller].",
+    "subject": "Productivité",
+    "structure": {
+      "context": "Réunion pédagogique / conseil de classe dans mon établissement.",
+      "role": "Agis comme un secrétaire de séance efficace.",
+      "task": "Transforme mes notes en compte-rendu structuré. Anonymise les noms.",
+      "format": "Structure : Points abordés / Décisions / Actions (Qui-Quoi-Quand).",
+      "input": "Notes brutes : [Coller]."
+    }
+  },
+  {
+    "id": "p139",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "18. Script de capsule vidéo",
+    "content": "Contexte : Je crée une capsule pédagogique pour mes élèves de [Niveau] en [Matière]. Rôle : Agis comme un YouTuber éducatif. Objectif : Écris le script d'une vidéo de [Durée] minutes sur [Sujet]. Format : Structure : Accroche / Explication avec analogie / Récap. Indique les changements d'image. Input : Concept à expliquer : [Préciser].",
+    "subject": "Productivité",
+    "structure": {
+      "context": "Je crée une capsule pédagogique pour mes élèves de [Niveau] en [Matière].",
+      "role": "Agis comme un YouTuber éducatif.",
+      "task": "Écris le script d'une vidéo de [Durée] minutes sur [Sujet].",
+      "format": "Structure : Accroche / Explication avec analogie / Récap. Indique les changements d'image.",
+      "input": "Concept à expliquer : [Préciser]."
+    }
+  },
+  {
+    "id": "p140",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "19. Traducteur de jargon",
+    "content": "Contexte : Communication école-famille : je dois expliquer [Sujet] à des parents. Rôle : Agis comme un médiateur administratif. Objectif : Reformule ce texte pour un parent qui ne connaît pas le système scolaire. Format : Phrases simples, ton rassurant, sigles expliqués. Input : Texte original : [Coller].",
+    "subject": "Productivité",
+    "structure": {
+      "context": "Communication école-famille : je dois expliquer [Sujet] à des parents.",
+      "role": "Agis comme un médiateur administratif.",
+      "task": "Reformule ce texte pour un parent qui ne connaît pas le système scolaire.",
+      "format": "Phrases simples, ton rassurant, sigles expliqués.",
+      "input": "Texte original : [Coller]."
+    }
+  },
+  {
+    "id": "p141",
+    "part": "Annexes",
+    "chapter": "Mémento des prompts",
+    "title": "20. Méta-prompt (améliorateur)",
+    "content": "Contexte : Je suis [Fonction] et j'utilise l'IA pour [Usage]. Rôle : Agis comme un expert en prompt engineering. Objectif : Réécris mon prompt pour qu'il soit plus précis et structuré. Explique ce que tu as changé. Format : Prompt amélioré + Explication des modifications apportées. Input : Mon prompt actuel (résultat trop vague) : [Coller].",
+    "subject": "Productivité",
+    "structure": {
+      "context": "Je suis [Fonction] et j'utilise l'IA pour [Usage].",
+      "role": "Agis comme un expert en prompt engineering.",
+      "task": "Réécris mon prompt pour qu'il soit plus précis et structuré. Explique ce que tu as changé.",
+      "format": "Prompt amélioré + Explication des modifications apportées.",
+      "input": "Mon prompt actuel (résultat trop vague) : [Coller]."
+    }
+  }
 ]

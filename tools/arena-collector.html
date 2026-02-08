@@ -318,6 +318,28 @@
                 align-items: flex-start;
             }
         }
+
+        /* C.R.O.F.I Styling */
+        .crofi-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .crofi-item {
+            display: flex;
+            gap: 1rem;
+            align-items: baseline;
+        }
+
+        .crofi-label {
+            font-weight: 700;
+            color: var(--primary);
+            min-width: 80px;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.05em;
+        }
     </style>
 </head>
 
@@ -336,8 +358,10 @@
         <div class="prompt-card">
             <div class="prompt-header">
                 <div class="prompt-meta">
-                    <span class="badge" id="prompt-part">P2 - Méthodes</span>
-                    <span class="badge chapter" id="prompt-chapter">Ingénierie pédagogique</span>
+                    <span class="badge" id="prompt-part">Partie</span>
+                    <span class="badge chapter" id="prompt-chapter">Chapitre</span>
+                    <span class="badge subject" id="prompt-subject"
+                        style="background:var(--warning); color:black">Matière</span>
                 </div>
                 <span class="status-indicator">
                     <span class="status-dot" id="status-dot"></span>
@@ -411,8 +435,26 @@
             const p = prompts[currentIndex];
             document.getElementById('prompt-part').textContent = p.part;
             document.getElementById('prompt-chapter').textContent = p.chapter;
+            document.getElementById('prompt-subject').textContent = p.subject;
             document.getElementById('prompt-title').textContent = p.title;
-            document.getElementById('prompt-content').textContent = p.content;
+
+            const contentContainer = document.getElementById('prompt-content');
+
+            if (p.structure) {
+                // Render structured C.R.O.F.I
+                let html = '<div class="crofi-container">';
+                if (p.structure.context) html += `<div class="crofi-item"><span class="crofi-label">Contexte</span> ${p.structure.context}</div>`;
+                if (p.structure.role) html += `<div class="crofi-item"><span class="crofi-label">Rôle</span> ${p.structure.role}</div>`;
+                if (p.structure.task) html += `<div class="crofi-item"><span class="crofi-label">Objectif</span> ${p.structure.task}</div>`;
+                if (p.structure.format) html += `<div class="crofi-item"><span class="crofi-label">Format</span> ${p.structure.format}</div>`;
+                if (p.structure.input) html += `<div class="crofi-item"><span class="crofi-label">Input</span> ${p.structure.input}</div>`;
+                html += '</div>';
+                contentContainer.innerHTML = html;
+            } else {
+                // Fallback to raw text
+                contentContainer.textContent = p.content;
+            }
+
             document.getElementById('nav-info').textContent = `${currentIndex + 1} / ${prompts.length}`;
 
             // Load saved data for this prompt
