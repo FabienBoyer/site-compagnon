@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexique de Survie - Les outils pour enseigner avec l'IA</title>
+    <meta name="description"
+        content="Définitions simples des termes techniques de l'IA : Prompt, LLM, RAG, Hallucination, Token... Pour tout comprendre sans jargon inutile.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        .lexicon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: var(--spacing-lg);
+            margin-top: var(--spacing-2xl);
+        }
+
+        .term-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            transition: all var(--transition-base);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .term-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--color-primary-light);
+        }
+
+        .term-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: var(--spacing-md);
+            padding-bottom: var(--spacing-sm);
+            border-bottom: 2px solid var(--border-color-light);
+        }
+
+        .term-name {
+            font-size: 1.25rem;
+            color: var(--color-primary);
+            font-weight: 700;
+        }
+
+        .term-icon {
+            color: var(--text-tertiary);
+        }
+
+        .term-definition {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">Enseigner avec l'IA</span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+
+                                    <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="debuter.html" class="nav-link">Débuter</a></li>
+                <li><a href="disciplines.html" class="nav-link">Disciplines</a></li>
+                <li><a href="conversations.html" class="nav-link">Conversations</a></li>
+                <li><a href="outils.html" class="nav-link">Outils</a></li>
+                <li><a href="ressources.html" class="nav-link">Ressources</a></li>
+                <li><a href="lexique.html" class="nav-link active">Lexique</a></li>
+                <li><a href="formation.html" class="nav-link">Formation</a></li>
+                <li><a href="veille.html" class="nav-link">Veille</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                </button>
+                <a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener" class="btn btn-primary">
+                    <i data-lucide="shopping-cart"></i>
+                    <span>Commander</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding: 6rem var(--spacing-lg) 4rem;">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="container" style="text-align: center;">
+            <span class="hero-badge">
+                <i data-lucide="book-a"></i>
+                Glossaire
+            </span>
+            <h1 class="hero-title">Lexique de survie</h1>
+            <p class="hero-subtitle" style="margin-left: auto; margin-right: auto;">
+                Pour briller en conseil d'enseignement ou comprendre les articles techniques.
+            </p>
+        </div>
+    </section>
+
+    <!-- Lexicon Grid -->
+    <section class="features">
+        <div class="container">
+            <!-- Search bar could go here later -->
+
+            <div class="lexicon-grid">
+
+                <!-- API -->
+                <div class="term-card">
+                    <div class="term-header">
+                        <h3 class="term-name">API</h3>
+                        <i data-lucide="network" class="term-icon"></i>
+                    </div>
+                    <p class="term-definition">
+                        Interface permettant à des logiciels de communiquer entre eux. Quand un site utilise ChatGPT «
+                        sous le capot », il passe par l'API d'OpenAI.
+                    </p>
+                </div>
+
+                <!-- Contexte -->
+                <div class="term-card">
+                    <div class="term-header">
+                        <h3 class="term-name">Contexte</h3>
+                        <i data-lucide="maximize" class="term-icon"></i>
+                    </div>
+                    <p class="term-definition">
+                        La « mémoire de travail » de l'IA pendant une conversation. Plus le contexte est grand, plus
+                        l'IA peut se souvenir de ce qui a été dit. Mesuré en « tokens ».
+                    </p>
+                </div>
+
+                <!-- Fine-tuning -->
+                <div class="term-card">
+                    <div class="term-header">
+                        <h3 class="term-name">Fine-tuning</h3>
+                        <i data-lucide="sliders" class="term-icon"></i>
+                    </div>
+                    <p class="term-definition">
+                        Entraînement supplémentaire d'un modèle sur des données spécifiques pour le spécialiser (ex :
+                        fine-tuning sur des copies d'élèves pour mieux les corriger).
+                    </p>
+                </div>
+
+                <!-- Hallucination -->
+                <div class="term-card">
+                    <div class="term-header">
+                        <h3 class="term-name">Hallucination</h3>
+                        <i data-lucide="ghost" class="term-icon" style="color: var(--color-error)"></i>
+                    </div>
+                    <p class="term-definition">
+                        Lorsque l'IA invente des faits, des citations ou des sources avec un aplomb total. C'est son
+                        défaut majeur : elle ne distingue pas le vrai du plausible.
+                    </p>
+                </div>
+
+                <!-- LLM -->
+                <div class="term-card">
+                    <div class="term-header">
+                        <h3 class="term-name">LLM</h3>
+                        <i data-lucide="bot" class="term-icon"></i>
+                    </div>
+                    <p class="term-definition">
+                        <strong>Large Language Model (Modèle de Langage Massif)</strong>. C'est le « moteur » sous le
+                        capot des IA génératives (GPT-4, Claude, Mistral, Gemini). Il prédit le mot suivant le plus
+                        probable.
+                    </p>
+                </div>
+
+                <!-- Local -->
+                <div class="term-card">
+                    <div class="term-header">
+                        <h3 class="term-name">Local (IA)</h3>
+                        <i data-lucide="hard-drive" class="term-icon"></i>
+                    </div>
+                    <p class="term-definition">
+                        Une IA qui tourne directement sur votre ordinateur, sans connexion internet. Solution ultime
+                        pour le RGPD : aucune donnée ne quitte votre machine.
+                    </p>
+                </div>
+
+                <!-- Multimodal -->
+                <div class="term-card">
+                    <div class="term-header">
+                        <h3 class="term-name">Multimodal</h3>
+                        <i data-lucide="image-plus" class="term-icon"></i>
+                    </div>
+                    <p class="term-definition">
+                        Capacité d'une IA à traiter plusieurs types de contenus : texte, image, audio, vidéo. Les
+                        modèles récents sont de plus en plus multimodaux.
+                    </p>
+                </div>
+
+                <!-- Prompt -->
+                <div class="term-card">
+                    <div class="term-header">
+                        <h3 class="term-name">Prompt</h3>
+                        <i data-lucide="terminal-square" class="term-icon"></i>
+                    </div>
+                    <p class="term-definition">
+                        La consigne que vous donnez à l'IA. La qualité de la réponse en dépend à 80%. C'est pourquoi on
+                        parle de « prompt engineering ».
+                    </p>
+                </div>
+
+                <!-- RAG -->
+                <div class="term-card">
+                    <div class="term-header">
+                        <h3 class="term-name">RAG</h3>
+                        <i data-lucide="library" class="term-icon"></i>
+                    </div>
+                    <p class="term-definition">
+                        <strong>Retrieval-Augmented Generation</strong>. Technique consistant à fournir vos propres
+                        documents à l'IA pour qu'elle travaille dessus. NotebookLM utilise le RAG : l'IA ne répond qu'à
+                        partir de vos sources.
+                    </p>
+                </div>
+
+                <!-- Raisonnement -->
+                <div class="term-card">
+                    <div class="term-header">
+                        <h3 class="term-name">Raisonnement</h3>
+                        <i data-lucide="brain-circuit" class="term-icon"></i>
+                    </div>
+                    <p class="term-definition">
+                        Nouvelle génération de modèles (o1, R1) qui « réfléchissent » avant de répondre, affichant leur
+                        cheminement logique. Plus lents mais plus fiables sur les problèmes complexes.
+                    </p>
+                </div>
+
+                <!-- Token -->
+                <div class="term-card">
+                    <div class="term-header">
+                        <h3 class="term-name">Token</h3>
+                        <i data-lucide="coins" class="term-icon"></i>
+                    </div>
+                    <p class="term-definition">
+                        Unité de mesure du texte pour l'IA. Un token ≈ 0,75 mot en anglais, un peu moins en français.
+                        Les limites des modèles sont exprimées en tokens.
+                    </p>
+                </div>
+
+                <!-- Wrapper -->
+                <div class="term-card">
+                    <div class="term-header">
+                        <h3 class="term-name">Wrapper</h3>
+                        <i data-lucide="package" class="term-icon"></i>
+                    </div>
+                    <p class="term-definition">
+                        Application qui « emballe » un modèle d'IA pour le rendre plus simple ou plus sécurisé. Mizou
+                        est un wrapper qui permet de créer des chatbots bridés pour les élèves.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+        <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">📚</span>
+                        <span class="logo-text">Enseigner avec l'IA</span>
+                    </a>
+                    <p class="footer-description">
+                        Site compagnon du livre "Les outils pour enseigner avec l'IA"
+                        de Fabien Boyer, publié aux Éditions Ellipses.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="debuter.html">Débuter</a></li>
+                        <li><a href="disciplines.html">Disciplines</a></li>
+                        <li><a href="conversations.html">Conversations</a></li>
+                        <li><a href="outils.html">Outils</a></li>
+                        <li><a href="ressources.html">Ressources</a></li>
+                        <li><a href="lexique.html">Lexique</a></li>
+                        <li><a href="formation.html">Formation</a></li>
+                        <li><a href="veille.html">Veille</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Informations</h4>
+                    <ul>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener">Éditions Ellipses</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul>
+                         <li>
+                            <a href="https://twitter.com/" target="_blank" rel="noopener">
+                                <i data-lucide="twitter"></i>
+                                Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fabien Boyer - Éditions Ellipses. Tous droits réservés.</p>
+                <div style="margin-top: 10px; opacity: 0.8;">
+                    <script data-goatcounter="https://fabienboyer.goatcounter.com/count"
+                        async src="//gc.zgo.at/count.js"></script>
+                    <noscript>
+                        <img src="https://fabienboyer.goatcounter.com/count?p=/index.html">
+                    </noscript>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

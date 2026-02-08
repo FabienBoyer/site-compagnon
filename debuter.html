@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premiers Pas avec l'IA - Les outils pour enseigner avec l'IA</title>
+    <meta name="description"
+        content="Guide débutant : par où commencer avec l'IA en classe ? Choisir son outil, écrire son premier prompt (méthode CROFI) et éviter les pièges.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        .step-container {
+            position: relative;
+            padding-left: 3rem;
+            margin-bottom: var(--spacing-3xl);
+            border-left: 2px solid var(--border-color);
+        }
+
+        .step-number {
+            position: absolute;
+            left: -1.25rem;
+            top: 0;
+            width: 2.5rem;
+            height: 2.5rem;
+            background: var(--color-primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.25rem;
+            box-shadow: 0 0 0 4px var(--bg-primary);
+        }
+
+        .step-content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .step-title {
+            margin-bottom: var(--spacing-md);
+            color: var(--color-primary);
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-lg);
+        }
+
+        .tool-choice {
+            padding: var(--spacing-md);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            text-align: center;
+            transition: all var(--transition-base);
+        }
+
+        .tool-choice:hover {
+            border-color: var(--color-primary);
+            background: var(--bg-secondary);
+        }
+
+        .crofi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing-sm);
+            margin-top: var(--spacing-md);
+        }
+
+        .crofi-item {
+            background: var(--bg-secondary);
+            padding: var(--spacing-md);
+            border-radius: var(--radius-md);
+            text-align: center;
+        }
+
+        .crofi-letter {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-primary);
+            display: block;
+            margin-bottom: var(--spacing-xs);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">Enseigner avec l'IA</span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+
+                                    <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="debuter.html" class="nav-link active">Débuter</a></li>
+                <li><a href="disciplines.html" class="nav-link">Disciplines</a></li>
+                <li><a href="conversations.html" class="nav-link">Conversations</a></li>
+                <li><a href="outils.html" class="nav-link">Outils</a></li>
+                <li><a href="ressources.html" class="nav-link">Ressources</a></li>
+                <li><a href="lexique.html" class="nav-link">Lexique</a></li>
+                <li><a href="formation.html" class="nav-link">Formation</a></li>
+                <li><a href="veille.html" class="nav-link">Veille</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                </button>
+                <a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener" class="btn btn-primary">
+                    <i data-lucide="shopping-cart"></i>
+                    <span>Commander</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding: 6rem var(--spacing-lg) 4rem;">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="container" style="text-align: center;">
+            <span class="hero-badge">
+                <i data-lucide="flag"></i>
+                Guide de démarrage
+            </span>
+            <h1 class="hero-title">Premiers Pas</h1>
+            <p class="hero-subtitle" style="margin-left: auto; margin-right: auto;">
+                Vous n'avez jamais utilisé d'IA ? Pas de panique. Suivez le guide en 3 étapes.
+            </p>
+        </div>
+    </section>
+
+    <div class="container" style="max-width: 800px;">
+
+        <!-- STEP 1 -->
+        <div class="step-container">
+            <div class="step-number">1</div>
+            <div class="step-content">
+                <h2 class="step-title">Choisir son outil</h2>
+                <p>Pour débuter, inutile de multiplier les comptes. Choisissez un seul outil généraliste. Voici les 3
+                    valeurs sûres du moment (tous ont une version gratuite).</p>
+
+                <div class="tools-grid">
+                    <a href="https://chatgpt.com" target="_blank" class="tool-choice">
+                        <i data-lucide="message-square" style="color: #10a37f; margin-bottom: 0.5rem;"></i>
+                        <h3>ChatGPT</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Le plus polyvalent. Idéal pour
+                            débuter.</p>
+                    </a>
+
+                    <a href="https://claude.ai" target="_blank" class="tool-choice">
+                        <i data-lucide="sparkles" style="color: #d946ef; margin-bottom: 0.5rem;"></i>
+                        <h3>Claude</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Le plus littéraire et nuancé.
+                            Excellent rédacteur.</p>
+                    </a>
+
+                    <a href="https://gemini.google.com" target="_blank" class="tool-choice">
+                        <i data-lucide="zap" style="color: #3b82f6; margin-bottom: 0.5rem;"></i>
+                        <h3>Gemini</h3>
+                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Connecté à Google. Bon pour les
+                            recherches récentes.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="step-container">
+            <div class="step-number">2</div>
+            <div class="step-content">
+                <h2 class="step-title">Écrire son premier prompt (Méthode C.R.O.F.I.)</h2>
+                <p>Parler à une IA, c'est comme donner une consigne à un élève très littéral. Si vous êtes vague, le
+                    résultat sera vague. Utilisez la méthode <strong>C.R.O.F.I.</strong> détaillée dans le livre :</p>
+
+                <div class="crofi-grid">
+                    <div class="crofi-item">
+                        <span class="crofi-letter">C</span>
+                        <strong>Contexte</strong>
+                        <div style="font-size: 0.8rem;">Qui êtes-vous ? Quel est le scénario ?</div>
+                    </div>
+                    <div class="crofi-item">
+                        <span class="crofi-letter">R</span>
+                        <strong>Rôle</strong>
+                        <div style="font-size: 0.8rem;">Qui doit être l'IA ? (Expert, critique...)</div>
+                    </div>
+                    <div class="crofi-item">
+                        <span class="crofi-letter">O</span>
+                        <strong>Objectif</strong>
+                        <div style="font-size: 0.8rem;">Que voulez-vous exactement ?</div>
+                    </div>
+                    <div class="crofi-item">
+                        <span class="crofi-letter">F</span>
+                        <strong>Format</strong>
+                        <div style="font-size: 0.8rem;">Tableau, liste, texte court ?</div>
+                    </div>
+                    <div class="crofi-item">
+                        <span class="crofi-letter">I</span>
+                        <strong>Input</strong>
+                        <div style="font-size: 0.8rem;">Les données à traiter.</div>
+                    </div>
+                </div>
+
+                <div
+                    style="background: var(--bg-secondary); padding: 1rem; border-radius: 0.5rem; margin-top: 1rem; font-family: monospace;">
+                    <strong>Exemple :</strong><br>
+                    "Agis comme un expert en pédagogie (Rôle). Crée un QCM de 5 questions (Format) sur la Révolution
+                    Française (Contexte/Input) pour des élèves de 4e. L'objectif est de vérifier la compréhension des
+                    dates clés (Objectif)."
+                </div>
+            </div>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="step-container">
+            <div class="step-number">3</div>
+            <div class="step-content">
+                <h2 class="step-title">Vérifier (Toujours !)</h2>
+                <p>L'IA peut se tromper avec beaucoup d'assurance. C'est ce qu'on appelle une "hallucination".</p>
+
+                <ul style="list-style: none; margin-top: 1rem;">
+                    <li style="display: flex; gap: 1rem; margin-bottom: 0.5rem;">
+                        <i data-lucide="alert-triangle" style="color: var(--color-warning);"></i>
+                        Elle peut inventer des citations.
+                    </li>
+                    <li style="display: flex; gap: 1rem; margin-bottom: 0.5rem;">
+                        <i data-lucide="alert-triangle" style="color: var(--color-warning);"></i>
+                        Elle peut faire des erreurs de calcul simples.
+                    </li>
+                    <li style="display: flex; gap: 1rem; margin-bottom: 0.5rem;">
+                        <i data-lucide="check-circle" style="color: var(--color-success);"></i>
+                        <strong>Règle d'or :</strong> Ne lui faites jamais confiance aveuglément. Vous restez l'expert.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 4rem;">
+            <a href="prompts.html" class="btn btn-primary btn-lg">
+                <i data-lucide="zap"></i>
+                Voir des exemples de prompts
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+        <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">📚</span>
+                        <span class="logo-text">Enseigner avec l'IA</span>
+                    </a>
+                    <p class="footer-description">
+                        Site compagnon du livre "Les outils pour enseigner avec l'IA"
+                        de Fabien Boyer, publié aux Éditions Ellipses.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="debuter.html">Débuter</a></li>
+                        <li><a href="disciplines.html">Disciplines</a></li>
+                        <li><a href="conversations.html">Conversations</a></li>
+                        <li><a href="outils.html">Outils</a></li>
+                        <li><a href="ressources.html">Ressources</a></li>
+                        <li><a href="lexique.html">Lexique</a></li>
+                        <li><a href="formation.html">Formation</a></li>
+                        <li><a href="veille.html">Veille</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Informations</h4>
+                    <ul>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener">Éditions Ellipses</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul>
+                         <li>
+                            <a href="https://twitter.com/" target="_blank" rel="noopener">
+                                <i data-lucide="twitter"></i>
+                                Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fabien Boyer - Éditions Ellipses. Tous droits réservés.</p>
+                <div style="margin-top: 10px; opacity: 0.8;">
+                    <script data-goatcounter="https://fabienboyer.goatcounter.com/count"
+                        async src="//gc.zgo.at/count.js"></script>
+                    <noscript>
+                        <img src="https://fabienboyer.goatcounter.com/count?p=/index.html">
+                    </noscript>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
