@@ -55,6 +55,7 @@
                         <label for="filter-part">Partie</label>
                         <select id="filter-part">
                             <option value="">Toutes les parties</option>
+                            <option value="P1 - Comprendre">P1 - Comprendre</option>
                             <option value="P2 - Méthodes">P2 - Méthodes</option>
                             <option value="P3 - Disciplines">P3 - Disciplines</option>
                             <option value="P4 - Métiers">P4 - Métiers</option>
@@ -165,13 +166,13 @@
                                 ${hasResponses.modelA && hasResponses.outputA ? `
                                     <div class="response-block">
                                         <div class="model-name">${escapeHtml(hasResponses.modelA)}</div>
-                                        <div class="model-output">${marked.parse(hasResponses.outputA)}</div>
+                                        <div class="model-output">${renderOutput(hasResponses.outputA)}</div>
                                     </div>
                                 ` : ''}
                                 ${hasResponses.modelB && hasResponses.outputB ? `
                                     <div class="response-block">
                                         <div class="model-name">${escapeHtml(hasResponses.modelB)}</div>
-                                        <div class="model-output">${marked.parse(hasResponses.outputB)}</div>
+                                        <div class="model-output">${renderOutput(hasResponses.outputB)}</div>
                                     </div>
                                 ` : ''}
                             </div>
@@ -229,6 +230,20 @@
             const div = document.createElement('div');
             div.textContent = text;
             return div.innerHTML;
+        }
+
+        // Render output - detect images vs text
+        function renderOutput(output) {
+            // Check if output is an image URL
+            if (/^https?:\/\/.+\.(png|jpg|jpeg|gif|webp|svg)(\?.*)?$/i.test(output.trim())) {
+                return `<img src="${escapeHtml(output.trim())}" alt="Réponse IA" class="response-image" loading="lazy">`;
+            }
+            // Check if output is a local image path
+            if (/^(assets|images|data)\/.*\.(png|jpg|jpeg|gif|webp|svg)$/i.test(output.trim())) {
+                return `<img src="${escapeHtml(output.trim())}" alt="Réponse IA" class="response-image" loading="lazy">`;
+            }
+            // Otherwise render as markdown
+            return marked.parse(output);
         }
 
         // Filter prompts
