@@ -409,22 +409,43 @@
         let results = {};
 
         // Load prompts from JSON
-        fetch('../data/prompts.json')
-            .then(r => r.json())
-            .then(data => {
-                prompts = data;
-                loadSavedResults();
+        // Load prompts and saved results (server + local)
+        Promise.all([
+            fetch('../data/prompts.json').then(r => r.json()),
+            fetch('../data/arena-results.json').then(r => r.ok ? r.json() : []).catch(() => [])
+        ])
+            .then(([promptsData, serverResultsData]) => {
+                prompts = promptsData;
+
+                // 1. Extract Server Results (convert from Export Array to Internal Map)
+                const serverResults = {};
+                if (Array.isArray(serverResultsData)) {
+                    serverResultsData.forEach(item => {
+                        if (item.responses) {
+                            serverResults[item.id] = item.responses;
+                        }
+                    });
+                }
+
+                // 2. Load Local Results (localStorage)
+                const localSaved = localStorage.getItem('arena-collector-results');
+                const localResults = localSaved ? JSON.parse(localSaved) : {};
+
+                // 3. Merge: Local overrides Server (to preserve work in progress)
+                // But this allows Server data to fill in gaps or appear if Local is empty
+                results = {
+                    ...serverResults,
+                    ...localResults
+                };
+
                 renderPrompt();
+                updateProgress();
             })
             .catch(e => {
+                console.error(e);
                 document.getElementById('prompt-title').textContent = 'Erreur de chargement';
-                document.getElementById('prompt-content').textContent = 'Impossible de charger prompts.json. Vérifiez que le fichier existe.';
+                document.getElementById('prompt-content').textContent = 'Impossible de charger les données (prompts.json ou arena-results.json).';
             });
-
-        function loadSavedResults() {
-            const saved = localStorage.getItem('arena-collector-results');
-            if (saved) results = JSON.parse(saved);
-        }
 
         function saveResults() {
             localStorage.setItem('arena-collector-results', JSON.stringify(results));
