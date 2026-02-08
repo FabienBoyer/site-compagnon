@@ -19,12 +19,18 @@ async function loadPrompts() {
 
         const allPrompts = await response.json();
 
-        // Filter for "Annexes" prompts mostly, or just check if they have C.R.O.F.I structure
-        // Based on annexe_prompts.tex, these are the ones we want.
-        // In extract_prompts.py, "Annexes" part prompts have subject as category.
+        // Filter for prompts that have C.R.O.F.I structure
+        // This includes all prompts with a valid structure object
+        const prompts = allPrompts.filter(p => p.structure && Object.keys(p.structure).length > 0);
 
-        const targetPart = "Annexes";
-        const prompts = allPrompts.filter(p => p.part === targetPart);
+        // Update the page title with actual count
+        const pageTitle = document.querySelector('.page-title');
+        if (pageTitle) {
+            pageTitle.textContent = `${prompts.length} Prompts prêts à l'emploi`;
+        }
+
+        // Update the HTML title
+        document.title = `${prompts.length} Prompts CROFI - Enseigner avec l'IA`;
 
         if (prompts.length === 0) {
             container.innerHTML = '<p class="error-message">Aucun prompt trouvé.</p>';
@@ -49,13 +55,21 @@ async function loadPrompts() {
             "Gestion de classe": "users",
             "Aide aux élèves": "heart-handshake",
             "Disciplines": "graduation-cap",
-            "Productivité": "rocket"
+            "Productivité": "rocket",
+            "Apprendre à prompter": "sparkles",
+            "Découverte de l'IA": "brain",
+            "Méthodes transversales": "layers",
+            "Pensée critique": "lightbulb",
+            "Sciences": "atom",
+            "Lettres": "book-text",
+            "EMI": "shield",
+            "Direction": "building",
+            "Arts": "palette"
         };
 
         // Render categories
         let html = '';
 
-        // Order keys if needed, or just iterate
         // The original order in annexe_prompts.tex:
         // Préparation de cours, Évaluation, Gestion de classe, Aide aux élèves, Disciplines, Productivité
         const orderedCategories = [
@@ -64,7 +78,11 @@ async function loadPrompts() {
             "Gestion de classe",
             "Aide aux élèves",
             "Disciplines",
-            "Productivité"
+            "Productivité",
+            "Apprendre à prompter",
+            "Découverte de l'IA",
+            "Méthodes transversales",
+            "Pensée critique"
         ];
 
         // Add any extra categories found

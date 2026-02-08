@@ -314,8 +314,8 @@
 }
 
 [data-theme="dark"] .crofi-i .crofi-badge {
-    background: rgba(79, 70, 229, 0.2);
-    color: #818cf8;
+    background: rgba(129, 140, 248, 0.25);
+    color: #a5b4fc;
 }
 
 [data-theme="dark"] .legend-c .legend-letter {
@@ -339,8 +339,8 @@
 }
 
 [data-theme="dark"] .legend-i .legend-letter {
-    background: rgba(79, 70, 229, 0.2);
-    color: #818cf8;
+    background: rgba(129, 140, 248, 0.25);
+    color: #a5b4fc;
 }
 
 /* =============================================================================
