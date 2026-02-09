@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Weavy",
+      "link": "https://www.uneiaparjour.fr/weavy/",
+      "date": "2026-02-08T22:58:31",
+      "source": "Une IA par jour",
+      "summary": "Weavy (https://www.weavy.ai/) regroupe plusieurs dizaines de modèles de génération d&#8217;images et de vidéos « combinables » sur un tableau infini. À partir d&#8217;une image générée avec un modèle,"
+    },
+    {
+      "title": "Parliant",
+      "link": "https://www.uneiaparjour.fr/parliant/",
+      "date": "2026-02-07T20:29:00",
+      "source": "Une IA par jour",
+      "summary": "Parliant (https://www.parliant.ai) ets une application d&#8217;enquêtes et de sondages où l&#8217;IA générative peut produire le texte des questions ouvertes à partir d&#8217;un sujet donné. Lorsque l"
+    },
+    {
+      "title": "Table mystère version 3",
+      "link": "https://mathix.org/linux/archives/22086",
+      "date": "2026-02-08T09:01:13",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Bon et bien fort du succès sur les tables mystères pour la multiplication, j&#8217;ai poussé le concept un peu plus loin. J&#8217;ai voulu forcer le lien entre division, mul"
+    },
+    {
       "title": "André",
       "link": "https://www.uneiaparjour.fr/andre/",
       "date": "2026-02-06T21:12:00",
@@ -386,7 +407,7 @@
       "summary": "A drawing of three people working on laptops, with one person's screen showing \"Kaggle Benchmark Results\" with \"Gemini XXXX\" and a large \"PASS\" checkmark.1"
     }
   ],
-  "last_update": "2026-02-07T07:59:49.877623",
+  "last_update": "2026-02-09T08:40:28.108452",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
