@@ -26,6 +26,7 @@ RSS_SOURCES = {
     "Mathix (A. Durand)": "https://mathix.org/linux/feed",
     "OpenAI Blog": "https://openai.com/blog/rss.xml",
     "Google AI": "https://blog.google/technology/ai/rss/",
+    "Perdir (Padlet)": "https://padlet.com/feed/frederic_vedrenne/l-ia-pour-les-perdir-yruwibp5pviv2te3",
 }
 
 # Twitter accounts via Nitter (open-source Twitter mirror)
