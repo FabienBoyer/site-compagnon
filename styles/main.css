@@ -98,6 +98,11 @@
     --text-secondary: #cbd5e1;
     --text-tertiary: #64748b;
 
+    /* Override primary color for better contrast in dark mode */
+    --color-primary: #60a5fa;
+    --color-primary-light: #93c5fd;
+    --color-primary-dark: #3b82f6;
+
     --border-color: #334155;
     --border-color-light: #1e293b;
 

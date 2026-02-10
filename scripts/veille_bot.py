@@ -49,15 +49,20 @@ AI_KEYWORDS = [
     "ia", "ai", "intelligence artificielle", "artificial intelligence",
     "chatgpt", "claude", "gemini", "gpt", "llm", "machine learning",
     "deep learning", "neural", "génératif", "generative", "mistral",
-    "openai", "anthropic",
-    # Éducation
+    "openai", "anthropic", "llama", "deepseek", "qwen", "falcon",
+    "perplexity", "copilot", "midjourney", "stable diffusion",
+    # Concepts spécifiques IA
+    "prompt", "prompting", "token", "chatbot", "agent", "rag",
+    "rag", "fine-tuning",
+    # Éducation + IA (combinaisons)
+    "ia en classe", "ia à l'école", "ia pour les profs", "ia pédagogique"
+]
+
+EDUCATION_KEYWORDS = [
     "éducation", "enseignement", "pédagogie", "élève", "professeur",
     "classe", "cours", "apprentissage", "formation",
-    # Correction et évaluation
     "correction", "copies", "évaluation", "notation", "barème",
-    "feedback", "appréciation", "compétences",
-    # Outils spécifiques
-    "prompt", "prompting", "automatisation", "robot", "assistant"
+    "feedback", "appréciation", "compétences"
 ]
 
 def nitter_to_twitter(url: str) -> str:
@@ -100,7 +105,17 @@ def filter_ai_content(articles: list) -> list:
     filtered = []
     for article in articles:
         text = f"{article['title']} {article['summary']}".lower()
-        if any(kw in text for kw in AI_KEYWORDS):
+        
+        # Check for AI keywords (Mandatory)
+        has_ai = any(kw in text for kw in AI_KEYWORDS)
+        
+        # Check for Education keywords (Optional context, but kept as requested)
+        has_edu = any(kw in text for kw in EDUCATION_KEYWORDS)
+        
+        # Logic: Must have AI keywords. 
+        # Education keywords alone are not enough (avoids generic education news),
+        # but they are preserved in the codebase for potential future scoring/tagging.
+        if has_ai:
             filtered.append(article)
     return filtered
 
