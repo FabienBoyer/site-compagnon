@@ -21,6 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize animations
     initScrollAnimations();
+
+    // Initialize dropdown menus
+    initDropdowns();
 });
 
 /* ----------------------------------------
@@ -245,5 +248,37 @@ function initTabs() {
                 }
             });
         });
+    });
+}
+
+/* ----------------------------------------
+   Dropdown Menus (Mobile Click Handling)
+   ---------------------------------------- */
+function initDropdowns() {
+    const dropdownItems = document.querySelectorAll('.nav-item');
+
+    dropdownItems.forEach(item => {
+        const link = item.querySelector('.nav-link-dropdown');
+        const menu = item.querySelector('.dropdown-menu');
+
+        if (link && menu) {
+            link.addEventListener('click', (e) => {
+                // On mobile, toggle dropdown on click
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    menu.classList.toggle('active');
+
+                    // Close other dropdowns
+                    dropdownItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            const otherMenu = otherItem.querySelector('.dropdown-menu');
+                            if (otherMenu) {
+                                otherMenu.classList.remove('active');
+                            }
+                        }
+                    });
+                }
+            });
+        }
     });
 }
