@@ -1018,7 +1018,8 @@ button {
 .nav-links .dropdown-menu {
     display: none !important;
     position: absolute;
-    top: 100%;
+    top: calc(100% - 2px);
+    /* Overlap by 2px to eliminate gap */
     left: 0;
     min-width: 220px;
     background: var(--bg-card);
@@ -1026,7 +1027,8 @@ button {
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);
     padding: var(--spacing-sm);
-    margin-top: var(--spacing-xs);
+    margin-top: 0;
+    /* No margin to avoid hover zone gap */
     z-index: var(--z-dropdown);
 }
 
