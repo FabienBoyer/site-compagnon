@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistant IA du Livre - Les outils pour enseigner avec l'IA</title>
+    <meta name="description"
+        content="Discutez avec l'assistant IA du livre. Posez vos questions sur le contenu, les outils et les méthodes recommandées.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        .chatbot-section {
+            padding: 3rem var(--spacing-lg);
+            min-height: calc(100vh - 200px);
+        }
+
+        .chatbot-intro {
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            text-align: center;
+        }
+
+        .chatbot-intro h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .chatbot-intro p {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .chatbot-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+
+        .chatbot-iframe {
+            width: 100%;
+            height: 700px;
+            border: none;
+            display: block;
+        }
+
+        .chatbot-note {
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            margin-top: 2rem;
+            border-radius: var(--radius-md);
+            border-left: 4px solid var(--color-primary);
+        }
+
+        .chatbot-note h3 {
+            margin-bottom: 0.75rem;
+            color: var(--color-primary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .chatbot-note ul {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+
+        .chatbot-note li {
+            margin-bottom: 0.5rem;
+            color: var(--text-secondary);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-lg);
+            margin-top: 2rem;
+        }
+
+        .feature-box {
+            background: var(--bg-card);
+            padding: var(--spacing-lg);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            text-align: center;
+        }
+
+        .feature-box i {
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .feature-box h3 {
+            margin-bottom: var(--spacing-sm);
+            color: var(--text-primary);
+        }
+
+        .feature-box p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">Enseigner avec l'IA</span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link nav-link-dropdown">
+                        Comprendre
+                        <i data-lucide="chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="debuter.html">Débuter avec l'IA</a>
+                        <a href="ethique.html">Cadre Légal & Éthique</a>
+                        <a href="lexique.html">Lexique</a>
+                        <a href="formation.html">Formation</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link nav-link-dropdown active">
+                        Pratiquer
+                        <i data-lucide="chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="outils.html">Outils & Prompts</a>
+                        <a href="disciplines.html">Disciplines</a>
+                        <a href="conversations.html">Conversations du Livre</a>
+                        <a href="comparatif-ia.html">Comparatif IA Images</a>
+                        <a href="chatbot.html" class="active">Assistant IA</a>
+                    </div>
+                </li>
+
+                <li><a href="veille.html" class="nav-link">Veille</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                </button>
+                <a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener" class="btn btn-primary">
+                    <i data-lucide="shopping-cart"></i>
+                    <span>Commander</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="chatbot-section">
+        <div class="container">
+            <div class="chatbot-intro">
+                <h1>🤖 Assistant IA du Livre</h1>
+                <p>
+                    Posez toutes vos questions sur le livre "Les outils pour enseigner avec l'IA" et ses ressources.
+                    L'assistant utilise la technologie RAG (Retrieval-Augmented Generation) pour vous fournir des
+                    réponses précises basées sur le contenu complet du livre.
+                </p>
+            </div>
+
+            <!-- Placeholder iframe - À remplacer par l'URL Hugging Face Spaces une fois déployé -->
+            <div class="chatbot-container">
+                <div style="padding: 3rem; text-align: center;">
+                    <i data-lucide="bot"
+                        style="width: 64px; height: 64px; color: var(--color-primary); margin-bottom: 1rem;"></i>
+                    <h2>Chatbot en cours de déploiement</h2>
+                    <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+                        L'assistant IA sera bientôt disponible ici. Il sera hébergé sur Hugging Face Spaces.
+                    </p>
+
+                    <!-- Une fois déployé, remplacer cette section par : -->
+                    <!--
+                    <iframe 
+                        class="chatbot-iframe"
+                        src="https://huggingface.co/spaces/VOTRE-USERNAME/livre-ia-chatbot"
+                        title="Assistant IA du Livre">
+                    </iframe>
+                    -->
+
+                    <a href="https://huggingface.co/" target="_blank" class="btn btn-primary">
+                        <i data-lucide="external-link"></i>
+                        En savoir plus sur Hugging Face
+                    </a>
+                </div>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="features-grid">
+                <div class="feature-box">
+                    <i data-lucide="search" style="width: 48px; height: 48px;"></i>
+                    <h3>Recherche Sémantique</h3>
+                    <p>L'assistant comprend vos questions et recherche dans tout le contenu du livre.</p>
+                </div>
+
+                <div class="feature-box">
+                    <i data-lucide="book-open" style="width: 48px; height: 48px;"></i>
+                    <h3>Citations Précises</h3>
+                    <p>Chaque réponse est accompagnée de la source exacte dans le livre.</p>
+                </div>
+
+                <div class="feature-box">
+                    <i data-lucide="zap" style="width: 48px; height: 48px;"></i>
+                    <h3>Réponses Instantanées</h3>
+                    <p>Obtenez des réponses rapides à vos questions pédagogiques.</p>
+                </div>
+
+                <div class="feature-box">
+                    <i data-lucide="shield" style="width: 48px; height: 48px;"></i>
+                    <h3>Gratuit et Sans Compte</h3>
+                    <p>Accès public sans inscription ni limitation d'utilisation.</p>
+                </div>
+            </div>
+
+            <!-- Note explicative -->
+            <div class="chatbot-note">
+                <h3>
+                    <i data-lucide="info"></i>
+                    Comment utiliser l'assistant ?
+                </h3>
+                <ul>
+                    <li>
+                        <strong>Posez des questions précises :</strong> "Qu'est-ce que la méthode CROFI ?" ou "Quels
+                        outils pour créer des quiz ?"
+                    </li>
+                    <li>
+                        <strong>Explorez les ressources :</strong> Demandez des détails sur les outils, les prompts ou
+                        les cas d'usage.
+                    </li>
+                    <li>
+                        <strong>Vérifiez toujours :</strong> L'IA peut faire des erreurs. Consultez le livre pour
+                        confirmation.
+                    </li>
+                    <li>
+                        <strong>Respectez la vie privée :</strong> N'entrez jamais de données personnelles d'élèves.
+                    </li>
+                </ul>
+            </div>
+
+            <!-- CTA -->
+            <div style="text-align: center; margin-top: 3rem;">
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+                    Vous n'avez pas encore le livre ?
+                </p>
+                <a href="https://www.editions-ellipses.fr/" target="_blank" class="btn btn-primary btn-lg">
+                    <i data-lucide="shopping-cart"></i>
+                    Commander le livre
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">📚</span>
+                        <span class="logo-text">Enseigner avec l'IA</span>
+                    </a>
+                    <p class="footer-description">
+                        Site compagnon du livre "Les outils pour enseigner avec l'IA"
+                        de Fabien Boyer, publié aux Éditions Ellipses.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="debuter.html">Débuter</a></li>
+                        <li><a href="disciplines.html">Disciplines</a></li>
+                        <li><a href="conversations.html">Conversations</a></li>
+                        <li><a href="outils.html">Outils</a></li>
+                        <li><a href="chatbot.html">Assistant IA</a></li>
+                        <li><a href="ethique.html">Ressources</a></li>
+                        <li><a href="lexique.html">Lexique</a></li>
+                        <li><a href="formation.html">Formation</a></li>
+                        <li><a href="veille.html">Veille</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Informations</h4>
+                    <ul>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener">Éditions
+                                Ellipses</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank" rel="noopener">
+                                <i data-lucide="twitter"></i>
+                                Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fabien Boyer - Éditions Ellipses. Tous droits réservés.</p>
+                <div style="margin-top: 10px; opacity: 0.8;">
+                    <script data-goatcounter="https://fabienboyer.goatcounter.com/count" async
+                        src="//gc.zgo.at/count.js"></script>
+                    <noscript>
+                        <img src="https://fabienboyer.goatcounter.com/count?p=/chatbot.html">
+                    </noscript>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
