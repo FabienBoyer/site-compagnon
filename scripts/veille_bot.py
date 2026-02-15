@@ -12,6 +12,10 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import urllib.request
 import urllib.error
+import socket
+
+# Set global timeout for all socket operations (including feedparser)
+socket.setdefaulttimeout(15)
 
 # Configuration
 SCRIPT_DIR = Path(__file__).parent
@@ -78,6 +82,12 @@ def fetch_rss(url: str, source_name: str, is_twitter: bool = False) -> list:
     articles = []
     try:
         feed = feedparser.parse(url)
+        
+        # Check if feedparser encountered an error (bozo exception)
+        if feed.bozo:
+             # Just log it but try to process entries if any
+             print(f"⚠️ Warning parsing {source_name}: {feed.bozo_exception}")
+
         for entry in feed.entries[:10]:  # Last 10 entries
             pub_date = None
             if hasattr(entry, 'published_parsed') and entry.published_parsed:
@@ -97,8 +107,10 @@ def fetch_rss(url: str, source_name: str, is_twitter: bool = False) -> list:
                 "source": source_name,
                 "summary": entry.get("summary", "")[:200] if entry.get("summary") else ""
             })
+    except (socket.timeout, urllib.error.URLError) as e:
+        print(f"❌ Network error fetching {source_name}: {e}")
     except Exception as e:
-        print(f"Error fetching {source_name}: {e}")
+        print(f"❌ Error fetching {source_name}: {e}")
     return articles
 
 def filter_ai_content(articles: list) -> list:
@@ -153,28 +165,84 @@ def generate_html_updates(articles: list) -> str:
     return "\n".join(html_items)
 
 def update_veille_html(new_articles: list):
-    """Update veille.html with new content"""
+    """Update veille.html with new content, handling month transitions"""
     if not VEILLE_HTML.exists():
         print("veille.html not found")
         return
     
+    if not new_articles:
+        print("No new articles to include.")
+        return
+
     with open(VEILLE_HTML, 'r', encoding='utf-8') as f:
         html = f.read()
     
     # Generate new update items
     new_html = generate_html_updates(new_articles)
     
-    # Find and update the current month section
-    current_month = datetime.now().strftime("%B %Y").capitalize()
+    # Logic to check the current month section
+    # We use French month names as used in existing HTML
+    months = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", 
+              "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"]
+    now = datetime.now()
+    current_month_str = f"{months[now.month - 1]} {now.year}"
     
-    # Simple replacement - add after update-items div
-    marker = '<div class="update-items">'
-    if marker in html and new_html:
-        html = html.replace(marker, marker + new_html, 1)
+    # Check if current month section exists as the "current" card
+    # Pattern: <article class="update-card update-card-current">...<span class="update-month">MONTH YEAR</span>
+    # We accept checking for the string inside the first update-card-current
+    
+    is_same_month = False
+    
+    # Extract the month from the current card using regex
+    match = re.search(r'<article class="update-card update-card-current">.*?<span class="update-month">(.*?)</span>', html, re.DOTALL)
+    
+    if match:
+        existing_month = match.group(1).strip()
+        print(f"Current section in HTML is: {existing_month}")
+        if existing_month == current_month_str:
+            is_same_month = True
+    
+    if is_same_month:
+        print(f"Same month ({current_month_str}). Appending to existing section.")
+        # Simple replacement - add after update-items div
+        marker = '<div class="update-items">'
+        if marker in html:
+            # Insert AFTER the marker
+            html = html.replace(marker, marker + new_html, 1)
+    else:
+        print(f"New month detected ({current_month_str})! Creating new section.")
         
-        with open(VEILLE_HTML, 'w', encoding='utf-8') as f:
-            f.write(html)
-        print(f"Updated veille.html with {len(new_articles)} new articles")
+        # 1. Archive the old current section (if any)
+        # Remove 'update-card-current' class and 'Actuel' badge from the OLD current card
+        # Regex replacement to turn the first update-card-current into update-card
+        # and remove the "Actuel" badge inside it.
+        
+        # We process the file content. 
+        # First, find the start of the current card to ensure we edit the right one.
+        if match:
+             # We need to replace "update-card update-card-current" with "update-card" for the first occurrence
+             html = html.replace('class="update-card update-card-current"', 'class="update-card"', 1)
+             
+             # Remove the <span class="update-badge">Actuel</span> (first occurrence)
+             html = html.replace('<span class="update-badge">Actuel</span>', '', 1)
+        
+        # 2. Create the new section
+        new_section = f'''<article class="update-card update-card-current">
+                            <div class="update-header"><span class="update-month">{current_month_str}</span><span
+                                    class="update-badge">Actuel</span></div>
+                            <div class="update-items">{new_html}
+                            </div>
+                        </article>'''
+        
+        # 3. Insert new section at the top of the list
+        # We look for the container header
+        insert_marker = '<h2 class="section-title-veille"><i data-lucide="calendar"></i>Mises à jour mensuelles</h2>'
+        if insert_marker in html:
+            html = html.replace(insert_marker, insert_marker + '\n' + new_section, 1)
+        
+    with open(VEILLE_HTML, 'w', encoding='utf-8') as f:
+        f.write(html)
+    print(f"Updated veille.html with {len(new_articles)} new articles")
 
 def main():
     print("🤖 Veille Bot - Starting...")

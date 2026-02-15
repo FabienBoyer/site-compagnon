@@ -3,7 +3,7 @@ name: Veille Update
 on:
   schedule:
     # Every Monday at 8:00 AM UTC
-    - cron: '0 8 * * 1'
+    - cron: '0 8 * * *'
   workflow_dispatch:  # Manual trigger
 
 jobs:
