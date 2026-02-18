@@ -63,11 +63,11 @@ site-compagnon/
 - [x] Mode sombre / clair
 - [x] Design responsive mobile
 - [x] Page `conversations.html` : bibliothèque de prompts avec filtres intelligents (Discipline auto-déduite), affichage des réponses IA en Markdown, support images
-- [x] Page `veille.html` : veille mensuelle avec cartes d'articles
-- [x] Page `outils.html` : outils IA (NotebookLM, Vittascience, Guidde, etc.)
-- [x] Page `disciplines.html` : ressources par discipline (Premier Degré, Lettres, Sciences...)
+- [x] Page `veille.html` : veille mensuelle avec cartes filtrées par **scoring intelligent** (anti-spam, détection sujet)
+- [x] Page `outils.html` : outils IA enrichis (Poe, ComparIA, Nolej, NotebookLM, etc.)
+- [x] Page `disciplines.html` : ressources par discipline enrichies (Scénarios TraAM, Projets 1er degré, Lettres/Sciences...)
 - [x] Page `formation.html` : ressources de formation (Kit IA, Jeu 7 familles, Café Péda, TraAM...)
-- [x] Page `ethique.html` : cadre légal (Projet AUDIT, Jurisprudence, Charte...)
+- [x] Page `ethique.html` : cadre légal enrichi (Jurisprudence Sanction, Article Mathix RGPD, Projet AUDIT...)
 - [x] Page `comparatif-ia.html` : comparatif IA images
 - [x] Chatbot RAG (Hugging Face, Mistral-Nemo-Instruct-2407 + fallback Mistral-7B)
 
@@ -75,6 +75,7 @@ site-compagnon/
 - [x] `prompts.json` : tous les prompts du livre structurés
 - [x] `arena-results.json` : réponses IA collectées (Claude, GPT, Gemini, Grok, etc.)
 - [x] `data/images/` : dossier créé pour les images des prompts/réponses
+- [x] `script/veille_bot.py` : scoring intelligent et nettoyage rétroactif des contenus
 
 ### Automatisation
 - [x] Migration Zapier → GitHub Actions (`veille-update.yml`)
@@ -89,11 +90,10 @@ site-compagnon/
 
 ## 🚧 En cours / Priorités
 
-### 1. Intégration des signets Twitter (ROADMAP_SIGNETS_TWITTER.md)
-- Fichier de roadmap créé : `ROADMAP_SIGNETS_TWITTER.md`
-- Signets du 15 février et 18 février exportés
-- **À faire** : intégrer les signets pertinents dans les pages du site (veille, outils, disciplines, formation)
-- Voir le fichier `ROADMAP_SIGNETS_TWITTER.md` pour le détail des actions par page
+### 1. Finalisation Intégration Signets Twitter
+- Roadmap : `ROADMAP_SIGNETS_TWITTER.md`
+- **État** : Majorité des ressources intégrées (Outils, Disciplines, Éthique).
+- **Reste à faire** : Quelques ressources mineures (Infographie SOPHIAE, Kit IA 1er degré).
 
 ### 2. Images dans les conversations
 - Support ajouté dans `conversations.html` pour :
