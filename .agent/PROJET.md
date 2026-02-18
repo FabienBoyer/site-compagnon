@@ -170,4 +170,4 @@ site-compagnon/
 3. **Le script `veille_bot.py`** doit rester sans emojis dans les `print()` (Windows incompatible)
 4. **GitHub Pages** met 1-3 minutes à se déployer après un push
 5. **Le chatbot RAG** est sur Hugging Face, pas dans ce dépôt
-6. Utiliser le workflow `/push-site-compagnon` pour commiter et pousser les modifications du site
+7. **RAPPEL SYSTÉMATIQUE** : Au début de chaque session, suggérer à l'utilisateur de consulter le dossier `.agent` (PROJET.md, ROADMAP_SIGNETS_TWITTER.md) pour suivre l'avancement.
