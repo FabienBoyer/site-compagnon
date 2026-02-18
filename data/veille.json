@@ -99,13 +99,6 @@
       "summary": "<p>Voici la bande-annonce sous-titrée en français de « Le documentaire sur l’IA : ou comment je suis devenu apocaloptimiste »<br />\n<br />\nTitre original : The AI ​​Doc : Or How I Became an Apocalopti"
     },
     {
-      "title": "RT by @Fabien_Mikol: 🔥«Yann Le Cun a tort !»\n👉 Aymeric Roucher explique que malgré les critiques, l’évolution rapide des llm semble valider la “Bitter Lesson” : des réseaux simples, entraînés à grande échelle, finissent par dépasser les approches plus complexes.\n🎧👉 https://audmns.com/SvRZQhW",
-      "link": "https://twitter.com/JeromeColombain/status/2023786661776421079#m",
-      "date": "2026-02-17T15:48:34",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>🔥«Yann Le Cun a tort !»<br />\n👉 Aymeric Roucher explique que malgré les critiques, l’évolution rapide des llm semble valider la “Bitter Lesson” : des réseaux simples, entraînés à grande échelle, fi"
-    },
-    {
       "title": "\"Les principes ne peuvent s'inscrire dans du code informatique. Un modèle d'IA ne se pilote pas. A tout le moins, on l'oriente, on l'élague avec plus ou moins de bonheur\"\nBon rappel de l'aspect très superficiel du RLHF comme tentative d'alignement des modèles après le pretraining",
       "link": "https://twitter.com/Fabien_Mikol/status/2023796187950969172#m",
       "date": "2026-02-17T16:26:26",
@@ -118,34 +111,6 @@
       "date": "2026-02-17T13:01:10",
       "source": "@Fabien_Mikol",
       "summary": "<p>Très intéressant, anthropologiquement parlant. Le carnaval d'Andorre perpétue, sans le savoir (?), un rite antijudaïque très ancien, celui du \"bûcher de Judas\". <br />\nIl consistait à brûler en eff"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Source de l'extrait :\nhttps://www.youtube.com/watch?v=T-PGbZHiWvM",
-      "link": "https://twitter.com/Fabien_Mikol/status/2023729973043875962#m",
-      "date": "2026-02-17T12:03:19",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Source de l'extrait :<br />\n<a href=\"https://piped.video/watch?v=T-PGbZHiWvM\">piped.video/watch?v=T-PGbZHi…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2023717455927939072%2Fs9LHe9Zf%3Fform"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Sur l'essai \"Situational Awareness\" mentionné dans l'extrait :\nhttps://x.com/leopoldasch/status/1798016486700884233",
-      "link": "https://twitter.com/Fabien_Mikol/status/2023729967247306949#m",
-      "date": "2026-02-17T12:03:17",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Sur l'essai \"Situational Awareness\" mentionné dans l'extrait :<br />\n<a href=\"https://nitter.net/leopoldasch/status/1798016486700884233\">nitter.net/leopoldasch/status/179…</a></p>\n<hr />\n<blockquot"
-    },
-    {
-      "title": "Weavy",
-      "link": "https://www.uneiaparjour.fr/weavy/",
-      "date": "2026-02-08T22:58:31",
-      "source": "Une IA par jour",
-      "summary": "Weavy (https://www.weavy.ai/) regroupe plusieurs dizaines de modèles de génération d&#8217;images et de vidéos « combinables » sur un tableau infini. À partir d&#8217;une image générée avec un modèle,"
-    },
-    {
-      "title": "Table mystère version 3",
-      "link": "https://mathix.org/linux/archives/22086",
-      "date": "2026-02-08T09:01:13",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Bon et bien fort du succès sur les tables mystères pour la multiplication, j&#8217;ai poussé le concept un peu plus loin. J&#8217;ai voulu forcer le lien entre division, mul"
     },
     {
       "title": "Discussion entre @AymericRoucher et @nico16184 sur l'amnésie des LLM et l'importance ou non du \"continual learning\" : en débloquant tout simplement l'accès aux fichiers de l'ordinateur, les agents peuvent désormais mettre à jour une forme de \"journal\" contextuel, et cela suffit !",
@@ -232,13 +197,6 @@
       "summary": "Bonjour à toutes et tous ! Je représente donc mon exerciseur sur les transformations ! (voir article ou article) J&#8217;ai revu un peu le style . De manière classique on peut toujours s&#8217;entraîn"
     },
     {
-      "title": "Equipe : un outil pour créer des groupes d’élèves",
-      "link": "https://mathix.org/linux/archives/22061",
-      "date": "2026-02-02T07:26:31",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Bon, cette année, mes loulous de 5e, ils ont des difficultés à travailler avec les élèves du sexe opposé, les garçons restent entre garçons et les filles entre filles (sauf u"
-    },
-    {
       "title": "LLM et FlashMD",
       "link": "https://mathix.org/linux/archives/22055",
       "date": "2026-01-31T10:25:11",
@@ -316,32 +274,11 @@
       "summary": "A four-part vertical collage showing a cotton-top tamarin, an ibex, a golden lion tamarin, and a penguin."
     },
     {
-      "title": "Advancing AI benchmarking with Game Arena",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/",
-      "date": "2026-02-02T17:00:00",
-      "source": "Google AI",
-      "summary": "An illustration of a King and Ace playing card, a wolf's head, two chess pieces, a poker chip, and other abstract shapes on a white background.1"
-    },
-    {
       "title": "Doodle Duel",
       "link": "https://www.uneiaparjour.fr/doodle-duel/",
       "date": "2026-02-17T20:34:11",
       "source": "Une IA par jour",
       "summary": "Doodle Duel (https://doodleduel.ai/) est un jeu de dessin où il faut dessiner le mot ou l&#8217;expression donnés le plus rapidement possible. L&#8217;IA juge si le dessin représente suffisamment ce q"
-    },
-    {
-      "title": "VoooAI",
-      "link": "https://www.uneiaparjour.fr/voooai/",
-      "date": "2026-02-16T20:31:30",
-      "source": "Une IA par jour",
-      "summary": "VoooAI (https://voooai.com/) génère des images, vidéos et morceaux de musique à partir d&#8217;un flux de production (« workflow ») : une instruction génère un contenu qui devient source d&#8217;une a"
-    },
-    {
-      "title": "Inkr",
-      "link": "https://www.uneiaparjour.fr/inkr/",
-      "date": "2026-02-15T20:42:00",
-      "source": "Une IA par jour",
-      "summary": "Inkr (https://inkr.app/) retranscrit de l&#8217;audio issu de fichiers audio ou vidéo, d&#8217;une URL ou d&#8217;un enregistrement en direct. La transcription est proposée dans une interface de trait"
     },
     {
       "title": "Muses",
@@ -351,25 +288,11 @@
       "summary": "Muses (https://muses.my/) est un traitement de texte combiné à un chatbot et à une bibliothèque de documents, d&#8217;url et d&#8217;images. À partir d&#8217;un sujet, l&#8217;utilisateur peut écrire "
     },
     {
-      "title": "Eler",
-      "link": "https://www.uneiaparjour.fr/eler/",
-      "date": "2026-02-13T21:35:10",
-      "source": "Une IA par jour",
-      "summary": "Eler (https://www.eler.ai/) transforme des images 3D en photos réalistes. Trois modes sont proposés : de puis un fichier sjetchup (skp), un fichier 3D (glb) ou l&#8217;édition d&#8217;images de type r"
-    },
-    {
       "title": "Veeso",
       "link": "https://www.uneiaparjour.fr/veeso/",
       "date": "2026-02-12T21:49:00",
       "source": "Une IA par jour",
       "summary": "Veeso (https://veeso.ai/) génère des contenus de communication (affiche, flyers, infographies&#8230;) à partir d&#8217;une instruction détaillée. Une fenêtre de chatbot avec agents et réflexion s&#821"
-    },
-    {
-      "title": "Sesame",
-      "link": "https://www.uneiaparjour.fr/sesame/",
-      "date": "2026-02-09T20:55:00",
-      "source": "Une IA par jour",
-      "summary": "Sesame (https://www.sesame.com/) est un modèle de conversation orale actuellement en version recherche, basé sur le modèle open source csm (https://github.com/SesameAILabs/csm). Les recherches actuell"
     },
     {
       "title": "Exerciseur : Construction de triangles  CCC, CAC et ACA",
@@ -512,20 +435,6 @@
       "summary": "<p>Gemini 3 pro est capable d'écrire directement le corrigé sur l'image du sujet. 🤩</p>\n<img src=\"https://nitter.net/pic/media%2FHBR4TNVXEAA62Sk.jpg\" />\n<img src=\"https://nitter.net/pic/media%2FHBR4S-"
     },
     {
-      "title": "RT by @nsi_xyz:",
-      "link": "https://twitter.com/epelboin/status/2023310706129392011#m",
-      "date": "2026-02-16T08:17:18",
-      "source": "@nsi_xyz",
-      "summary": "<p></p>\n<img src=\"https://nitter.net/pic/media%2FHBQ-WzAXoAEbmkl.jpg\" />\n<hr />\n<blockquote>\n<b>Jeune Afrique (@jeune_afrique)</b>\n<p>\n<p>Najat Vallaud-Belkacem : « Le numérique crée une nouvelle form"
-    },
-    {
-      "title": "En pause jusqu'à 13h.",
-      "link": "https://twitter.com/nsi_xyz/status/2022970642698481973#m",
-      "date": "2026-02-15T09:46:00",
-      "source": "@nsi_xyz",
-      "summary": "<p>En pause jusqu'à 13h.</p>\n<img src=\"https://nitter.net/pic/media%2FHBMJFGPWMAAXFYd.jpg\" />"
-    },
-    {
       "title": "Je dois laver ma voiture. La station de lavage est à 150m. J'y vais à pied ou en voiture ?",
       "link": "https://twitter.com/nsi_xyz/status/2022729224407363836#m",
       "date": "2026-02-14T17:46:42",
@@ -643,13 +552,6 @@
       "date": "2026-02-13T13:20:20",
       "source": "@AnthropicAI",
       "summary": "<p>Anthropic is partnering with <a href=\"https://nitter.net/codepath\" title=\"CodePath\">@CodePath</a>, the US's largest collegiate computer science program, to bring Claude and Claude Code to 20,000+ s"
-    },
-    {
-      "title": "R to @AnthropicAI: Our run-rate revenue is $14 billion, and has grown over 10x in each of the past 3 years. This growth has been driven by our position as the intelligence platform of choice for enterprises and developers.\n\nRead more: https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
-      "link": "https://twitter.com/AnthropicAI/status/2022023156513616220#m",
-      "date": "2026-02-12T19:01:02",
-      "source": "@AnthropicAI",
-      "summary": "<p>Our run-rate revenue is $14 billion, and has grown over 10x in each of the past 3 years. This growth has been driven by our position as the intelligence platform of choice for enterprises and devel"
     },
     {
       "title": "We’ve raised $30B in funding at a $380B post-money valuation.\n\nThis investment will help us deepen our research, continue to innovate in products, and ensure we have the resources to power our infrastructure expansion as we make Claude available everywhere our customers are.",
