@@ -1,1258 +1,855 @@
 <!DOCTYPE html>
+
 <html lang="fr">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veille et nouveautés - Enseigner avec l'IA</title>
-    <meta name="description" content="Actualités IA et mises à jour mensuelles.">
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
-        rel="stylesheet">
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/veille.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Veille et nouveautés - Enseigner avec l'IA</title>
+<meta content="Actualités IA et mises à jour mensuelles." name="description"/>
+<link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<link href="styles/main.css" rel="stylesheet"/>
+<link href="styles/veille.css" rel="stylesheet"/>
 </head>
-
 <body>
-    <header class="header">
-        <nav class="nav-container">
-            <a href="index.html" class="logo"><span class="logo-icon">📚</span><span class="logo-text">Enseigner avec
+<header class="header">
+<nav class="nav-container">
+<a class="logo" href="index.html"><span class="logo-icon">📚</span><span class="logo-text">Enseigner avec
                     l'IA</span></a>
-            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu"><i data-lucide="menu"></i></button>
-            <ul class="nav-links" id="nav-links">
-                <li><a href="index.html" class="nav-link">Accueil</a></li>
-
-                <li class="nav-item">
-                    <a href="#" class="nav-link nav-link-dropdown">
+<button aria-label="Menu" class="mobile-menu-btn" id="mobile-menu-btn"><i data-lucide="menu"></i></button>
+<ul class="nav-links" id="nav-links">
+<li><a class="nav-link" href="index.html">Accueil</a></li>
+<li class="nav-item">
+<a class="nav-link nav-link-dropdown" href="#">
                         Comprendre
                         <i data-lucide="chevron-down"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                        <a href="debuter.html">Débuter avec l'IA</a>
-                        <a href="ethique.html">Cadre Légal & Éthique</a>
-                        <a href="lexique.html">Lexique</a>
-                        <a href="formation.html">Formation</a>
-                    </div>
-                </li>
-
-                <li class="nav-item">
-                    <a href="#" class="nav-link nav-link-dropdown">
+</a>
+<div class="dropdown-menu">
+<a href="debuter.html">Débuter avec l'IA</a>
+<a href="ethique.html">Cadre Légal &amp; Éthique</a>
+<a href="lexique.html">Lexique</a>
+<a href="formation.html">Formation</a>
+</div>
+</li>
+<li class="nav-item">
+<a class="nav-link nav-link-dropdown" href="#">
                         Pratiquer
                         <i data-lucide="chevron-down"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                        <a href="outils.html">Outils & Prompts</a>
-                        <a href="disciplines.html">Disciplines</a>
-                        <a href="conversations.html">Conversations du Livre</a>
-                        <a href="comparatif-ia.html">Comparatif IA Images</a>
-                    </div>
-                </li>
-
-                <li><a href="veille.html" class="nav-link active">Veille</a></li>
-            </ul>
-            <div class="nav-actions">
-                <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
-                    <i data-lucide="sun" class="theme-icon-light"></i>
-                    <i data-lucide="moon" class="theme-icon-dark"></i>
-                </button>
-                <a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener" class="btn btn-primary">
-                    <i data-lucide="shopping-cart"></i><span>Commander</span>
-                </a>
-            </div>
-        </nav>
-    </header>
-
-    <section class="page-header">
-        <div class="container">
-            <span class="section-badge"><i data-lucide="rss"></i>Actualités</span>
-            <h1 class="page-title">Veille et nouveautés</h1>
-            <p class="page-subtitle">Actualités IA, nouveaux outils et mises à jour mensuelles.</p>
-        </div>
-    </section>
-
-    <main class="veille-main">
-        <div class="container">
-            <div class="veille-layout">
-                <div class="veille-content">
-                    <section class="veille-section">
-                        <h2 class="section-title-veille"><i data-lucide="globe"></i>Sites de veille recommandés</h2>
-                        <div class="sites-grid">
-                            <a href="https://www.uneiaparjour.fr/" target="_blank" rel="noopener"
-                                class="site-card site-card-featured">
-                                <div class="site-header">
-                                    <div class="site-icon"><i data-lucide="sparkles"></i></div><span
-                                        class="site-badge">Recommandé</span>
-                                </div>
-                                <h3 class="site-title">Une IA par jour</h3>
-                                <p class="site-description">Veille quotidienne sur les outils IA. Le site de référence.
+</a>
+<div class="dropdown-menu">
+<a href="outils.html">Outils &amp; Prompts</a>
+<a href="disciplines.html">Disciplines</a>
+<a href="conversations.html">Conversations du Livre</a>
+<a href="comparatif-ia.html">Comparatif IA Images</a>
+</div>
+</li>
+<li><a class="nav-link active" href="veille.html">Veille</a></li>
+</ul>
+<div class="nav-actions">
+<button aria-label="Changer le thème" class="theme-toggle" id="theme-toggle">
+<i class="theme-icon-light" data-lucide="sun"></i>
+<i class="theme-icon-dark" data-lucide="moon"></i>
+</button>
+<a class="btn btn-primary" href="https://www.editions-ellipses.fr/" rel="noopener" target="_blank">
+<i data-lucide="shopping-cart"></i><span>Commander</span>
+</a>
+</div>
+</nav>
+</header>
+<section class="page-header">
+<div class="container">
+<span class="section-badge"><i data-lucide="rss"></i>Actualités</span>
+<h1 class="page-title">Veille et nouveautés</h1>
+<p class="page-subtitle">Actualités IA, nouveaux outils et mises à jour mensuelles.</p>
+</div>
+</section>
+<main class="veille-main">
+<div class="container">
+<div class="veille-layout">
+<div class="veille-content">
+<section class="veille-section">
+<h2 class="section-title-veille"><i data-lucide="globe"></i>Sites de veille recommandés</h2>
+<div class="sites-grid">
+<a class="site-card site-card-featured" href="https://www.uneiaparjour.fr/" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon"><i data-lucide="sparkles"></i></div><span class="site-badge">Recommandé</span>
+</div>
+<h3 class="site-title">Une IA par jour</h3>
+<p class="site-description">Veille quotidienne sur les outils IA. Le site de référence.
                                 </p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-
-                            <a href="https://openai.com/blog" target="_blank" rel="noopener" class="site-card">
-                                <div class="site-header">
-                                    <div class="site-icon site-icon-green"><i data-lucide="rss"></i></div>
-                                </div>
-                                <h3 class="site-title">OpenAI Blog</h3>
-                                <p class="site-description">Actualités et recherches officielles d'OpenAI.</p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-
-                            <a href="https://www.anthropic.com/news" target="_blank" rel="noopener" class="site-card">
-                                <div class="site-header">
-                                    <div class="site-icon site-icon-orange"><i data-lucide="rss"></i></div>
-                                </div>
-                                <h3 class="site-title">Anthropic</h3>
-                                <p class="site-description">Nouvelles et annonces autour de Claude.</p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-
-                            <a href="https://mistral.ai/news" target="_blank" rel="noopener" class="site-card">
-                                <div class="site-header">
-                                    <div class="site-icon site-icon-purple"><i data-lucide="rss"></i></div>
-                                </div>
-                                <h3 class="site-title">Mistral AI</h3>
-                                <p class="site-description">Le champion européen de l'IA (blog officiel).</p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-
-                            <a href="https://mathix.org/linux/" target="_blank" rel="noopener" class="site-card">
-                                <div class="site-header">
-                                    <div class="site-icon site-icon-blue"><i data-lucide="calculator"></i></div>
-                                </div>
-                                <h3 class="site-title">Mathix</h3>
-                                <p class="site-description">Blog d'Arnaud Durand : IA et mathématiques.</p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-
-                            <a href="https://www.canope.fr/" target="_blank" rel="noopener" class="site-card">
-                                <div class="site-header">
-                                    <div class="site-icon site-icon-green"><i data-lucide="book"></i></div>
-                                </div>
-                                <h3 class="site-title">Réseau Canopé</h3>
-                                <p class="site-description">Ressources officielles du ministère sur l'IA.</p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-
-                            <a href="https://padlet.com/frederic_vedrenne/l-ia-pour-les-perdir-yruwibp5pviv2te3"
-                                target="_blank" rel="noopener" class="site-card">
-                                <div class="site-header">
-                                    <div class="site-icon site-icon-purple"><i data-lucide="layout-dashboard"></i></div>
-                                </div>
-                                <h3 class="site-title">IA pour Perdir</h3>
-                                <p class="site-description">Veille spécifique pour les personnels de direction.</p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-
-                            <a href="https://eduscol.education.fr/692/les-travaux-academiques-mutualises-traam"
-                                target="_blank" rel="noopener" class="site-card">
-                                <div class="site-header">
-                                    <div class="site-icon site-icon-blue"><i data-lucide="graduation-cap"></i></div>
-                                </div>
-                                <h3 class="site-title">TraAM (Éduscol)</h3>
-                                <p class="site-description">Scénarios pédagogiques IA par discipline (banque Édubase).
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+<a class="site-card" href="https://openai.com/blog" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon site-icon-green"><i data-lucide="rss"></i></div>
+</div>
+<h3 class="site-title">OpenAI Blog</h3>
+<p class="site-description">Actualités et recherches officielles d'OpenAI.</p>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+<a class="site-card" href="https://www.anthropic.com/news" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon site-icon-orange"><i data-lucide="rss"></i></div>
+</div>
+<h3 class="site-title">Anthropic</h3>
+<p class="site-description">Nouvelles et annonces autour de Claude.</p>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+<a class="site-card" href="https://mistral.ai/news" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon site-icon-purple"><i data-lucide="rss"></i></div>
+</div>
+<h3 class="site-title">Mistral AI</h3>
+<p class="site-description">Le champion européen de l'IA (blog officiel).</p>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+<a class="site-card" href="https://mathix.org/linux/" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon site-icon-blue"><i data-lucide="calculator"></i></div>
+</div>
+<h3 class="site-title">Mathix</h3>
+<p class="site-description">Blog d'Arnaud Durand : IA et mathématiques.</p>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+<a class="site-card" href="https://www.canope.fr/" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon site-icon-green"><i data-lucide="book"></i></div>
+</div>
+<h3 class="site-title">Réseau Canopé</h3>
+<p class="site-description">Ressources officielles du ministère sur l'IA.</p>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+<a class="site-card" href="https://padlet.com/frederic_vedrenne/l-ia-pour-les-perdir-yruwibp5pviv2te3" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon site-icon-purple"><i data-lucide="layout-dashboard"></i></div>
+</div>
+<h3 class="site-title">IA pour Perdir</h3>
+<p class="site-description">Veille spécifique pour les personnels de direction.</p>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+<a class="site-card" href="https://eduscol.education.fr/692/les-travaux-academiques-mutualises-traam" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon site-icon-blue"><i data-lucide="graduation-cap"></i></div>
+</div>
+<h3 class="site-title">TraAM (Éduscol)</h3>
+<p class="site-description">Scénarios pédagogiques IA par discipline (banque Édubase).
                                 </p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-                        </div>
-                    </section>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+</div>
+</section>
+<section class="veille-section">
+<h2 class="section-title-veille"><i data-lucide="calendar"></i>Mises à jour mensuelles</h2>
+<article class="update-card update-card-current">
+<div class="update-header"><span class="update-month">Février 2026</span><span class="update-badge">Actuel</span></div>
+<div class="update-items">
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/MistralAI/status/2001669581275033741#m" rel="noopener" target="_blank">Introducing Mistral OCR 3, a new frontier in document intelligence! 🧵👇</a></strong>
+<span class="update-source">— @MistralAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/MistralAI/status/2001669585330934053#m" rel="noopener" target="_blank">R to @MistralAI: We'd love for you to try the API or check out the Document AI playground! Both available on Mistral AI Studio.</a></strong>
+<span class="update-source">— @MistralAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/deepseek_ai/status/1970117808035074215#m" rel="noopener" target="_blank">🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus
+The latest update builds on V3.1’s strengths while addressing key user feedback.
 
-                    <section class="veille-section">
-                        <h2 class="section-title-veille"><i data-lucide="calendar"></i>Mises à jour mensuelles</h2>
-                        <article class="update-card update-card-current">
-                            <div class="update-header"><span class="update-month">Février 2026</span><span
-                                    class="update-badge">Actuel</span></div>
-                            <div class="update-items">
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/doodle-duel/" target="_blank" rel="noopener">Doodle Duel</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
+✨ What’s improved?
+🌐 Language consistency: fewer CN/EN mix-ups &amp; no more random chars.
+🤖 Agent upgrades: stronger Code Agent &amp; Search Agent performance.
 
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/weavy/" target="_blank" rel="noopener">Weavy</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
+1/2</a></strong>
+<span class="update-source">— @deepseek_ai</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/deepseek_ai/status/1970117812279718197#m" rel="noopener" target="_blank">R to @deepseek_ai: 📊 DeepSeek-V3.1-Terminus delivers more stable &amp; reliable outputs across benchmarks compared to the previous version.
 
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://mathix.org/linux/archives/22106" target="_blank" rel="noopener">Exerciseur : Construction de triangles  CCC, CAC et ACA</a></strong>
-                                        <span class="update-source">— Mathix (A. Durand)</span>
-                                    </div>
-                                </div>
+👉 Available now on: App / Web / API
+🔗 Open-source weights here: https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus
 
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://mathix.org/linux/archives/22086" target="_blank" rel="noopener">Table mystère version 3</a></strong>
-                                        <span class="update-source">— Mathix (A. Durand)</span>
-                                    </div>
-                                </div>
+Thanks to everyone for your feedback. It drives us to keep improving and refining the experience! 🚀
 
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/" target="_blank" rel="noopener">Our 2026 Responsible AI Progress Report</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
+2/2</a></strong>
+<span class="update-source">— @deepseek_ai</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/deepseek_ai/status/1958417062008918312#m" rel="noopener" target="_blank">Introducing DeepSeek-V3.1: our first step toward the agent era! 🚀
 
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/nsi_xyz/status/2024025383557877914#m" target="_blank" rel="noopener">Le multithreading expliqué aux élèves 😅 (spé NSI)</a></strong>
-                                        <span class="update-source">— @nsi_xyz</span>
-                                    </div>
-                                </div>
+🧠 Hybrid inference: Think &amp; Non-Think — one model, two modes
+⚡️ Faster thinking: DeepSeek-V3.1-Think reaches answers in less time vs. DeepSeek-R1-0528
+🛠️ Stronger agent skills: Post-training boosts tool use and multi-step agent tasks
 
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/nsi_xyz/status/2023827844359401655#m" target="_blank" rel="noopener">On n'oublie jamais son premier zombie. 🧟‍♂️
-« On ne tue pas un zombie, il est déjà mort. » — Même Gemini se fout de ma gueule. 😭 🤣 
-Seuls les vrais savent qu'on ne tue pas l'enfant, on achève le parent. 💀💻 #Linux</a></strong>
-                                        <span class="update-source">— @nsi_xyz</span>
-                                    </div>
-                                </div>
+Try it now — toggle Think/Non-Think via the "DeepThink" button: https://chat.deepseek.com/
 
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/claudeai/status/2023817132581208353#m" target="_blank" rel="noopener">RT by @AnthropicAI: This is Claude Sonnet 4.6: our most capable Sonnet model yet.
+1/5</a></strong>
+<span class="update-source">— @deepseek_ai</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022390104237707667#m" rel="noopener" target="_blank">R to @OpenAI: Thank you to our collaborators for their partnership. The preprint is available on arXiv and is being submitted for publication. 
 
-It’s a full upgrade across coding, computer use, long-context reasoning, agent planning, knowledge work, and design.
+We welcome feedback from the community. https://arxiv.org/abs/2602.12176</a></strong>
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022390103017161216#m" rel="noopener" target="_blank">R to @OpenAI: In modern amplitude theory, simple formulas often signal deeper structure. 
 
-It also features a 1M token context window in beta.</a></strong>
-                                        <span class="update-source">— @AnthropicAI</span>
-                                    </div>
-                                </div>
+Showing that a case long thought to be empty actually contains structure sharpens our understanding of the mathematics of the strong force and opens new directions, including extensions to gravity and related amplitude relations. 
 
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/AnthropicAI/status/2023789983711326380#m" target="_blank" rel="noopener">We've signed an MOU with the Government of Rwanda—the first partnership of its kind in Africa—to bring AI to health, education, and other public sectors.
+Some of these generalizations are also amenable to solution via this new AI methodology and will be reported on elsewhere.</a></strong>
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022390101670854878#m" rel="noopener" target="_blank">R to @OpenAI: The authors of the preprint realized this a year ago and sought to find the correct formula for interactions involving any number n of gluons, going up to n=6 by hand but obtaining complicated expressions that they sought to simplify, without success. 
 
-Read more: https://anthropic.com/news/anthropic-rwanda-mou</a></strong>
-                                        <span class="update-source">— @AnthropicAI</span>
-                                    </div>
-                                </div>
+GPT-5.2 simplified these expressions and then conjectured a simple formula for the general case. 
 
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/OpenAI/status/2022390096625078389#m" target="_blank" rel="noopener">GPT-5.2 derived a new result in theoretical physics.
+Next, a separate scaffolded internal OpenAI model spent roughly 12 hours reasoning through the problem, independently deriving the same formula and producing a formal proof. 
+
+The final result was then verified by the authors.</a></strong>
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022390100055986540#m" rel="noopener" target="_blank">R to @OpenAI: For decades, one specific gluon interaction (“single-minus” at tree level) was widely treated as having zero amplitude, meaning it was assumed not to occur. 
+
+When an amplitude is zero, physicists may ignore it. But this preprint shows that the conclusion is too strong: in a carefully defined situation — where the particles’ motions satisfy a specific alignment condition — the amplitude is not zero.</a></strong>
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022390098495721597#m" rel="noopener" target="_blank">R to @OpenAI: Gluons carry the strong nuclear force, which is the force that binds quarks together inside protons and neutrons. 
+
+Without the strong force, atomic nuclei would not exist. 
+
+It is one of the four fundamental forces of nature and a core part of the Standard Model of particle physics.</a></strong>
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022390096625078389#m" rel="noopener" target="_blank">GPT-5.2 derived a new result in theoretical physics.
 
 We’re releasing the result in a preprint with researchers from @the_IAS, @VanderbiltU, @Cambridge_Uni, and @Harvard. It shows that a gluon interaction many physicists expected would not occur can arise under specific conditions.
 
 https://openai.com/index/new-result-theoretical-physics/</a></strong>
-                                        <span class="update-source">— @OpenAI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/OpenAI/status/2022009582210715925#m" target="_blank" rel="noopener">GPT-5.3-Codex-Spark is now in research preview.
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022009583653576787#m" rel="noopener" target="_blank">R to @OpenAI: Rolling out today to ChatGPT Pro users in the Codex app, CLI, and IDE extension. 
+https://openai.com/index/introducing-gpt-5-3-codex-spark/</a></strong>
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022009582210715925#m" rel="noopener" target="_blank">GPT-5.3-Codex-Spark is now in research preview.
 
 You can just build things—faster.</a></strong>
-                                        <span class="update-source">— @OpenAI</span>
-                                    </div>
-                                </div>
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/ComprendreLIA/status/2023952934728257981#m" rel="noopener" target="_blank">RT by @Fabien_Mikol: Voici la bande-annonce sous-titrée en français de « Le documentaire sur l’IA : ou comment je suis devenu apocaloptimiste »
 
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/OpenAI/status/2022009583653576787#m" target="_blank" rel="noopener">R to @OpenAI: Rolling out today to ChatGPT Pro users in the Codex app, CLI, and IDE extension. 
-https://openai.com/index/introducing-gpt-5-3-codex-spark/</a></strong>
-                                        <span class="update-source">— @OpenAI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/JeromeColombain/status/2023786661776421079#m" target="_blank" rel="noopener">RT by @Fabien_Mikol: 🔥«Yann Le Cun a tort !»
+Titre original : The AI ​​Doc : Or How I Became an Apocaloptimist
+Bande annonce sous-titrée par : Moi !
+Sortie en salles le 27 mars 2026.</a></strong>
+<span class="update-source">— @Fabien_Mikol</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/JeromeColombain/status/2023786661776421079#m" rel="noopener" target="_blank">RT by @Fabien_Mikol: 🔥«Yann Le Cun a tort !»
 👉 Aymeric Roucher explique que malgré les critiques, l’évolution rapide des llm semble valider la “Bitter Lesson” : des réseaux simples, entraînés à grande échelle, finissent par dépasser les approches plus complexes.
 🎧👉 https://audmns.com/SvRZQhW</a></strong>
-                                        <span class="update-source">— @Fabien_Mikol</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/Fabien_Mikol/status/2023796187950969172#m" target="_blank" rel="noopener">"Les principes ne peuvent s'inscrire dans du code informatique. Un modèle d'IA ne se pilote pas. A tout le moins, on l'oriente, on l'élague avec plus ou moins de bonheur"
+<span class="update-source">— @Fabien_Mikol</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/Fabien_Mikol/status/2023796187950969172#m" rel="noopener" target="_blank">"Les principes ne peuvent s'inscrire dans du code informatique. Un modèle d'IA ne se pilote pas. A tout le moins, on l'oriente, on l'élague avec plus ou moins de bonheur"
 Bon rappel de l'aspect très superficiel du RLHF comme tentative d'alignement des modèles après le pretraining</a></strong>
-                                        <span class="update-source">— @Fabien_Mikol</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-new">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/JZefka/status/2023744533045907727#m" target="_blank" rel="noopener">RT by @Fabien_Mikol: Très intéressant, anthropologiquement parlant. Le carnaval d'Andorre perpétue, sans le savoir (?), un rite antijudaïque très ancien, celui du "bûcher de Judas". 
+<span class="update-source">— @Fabien_Mikol</span>
+</div>
+</div>
+<div class="update-item update-new">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/JZefka/status/2023744533045907727#m" rel="noopener" target="_blank">RT by @Fabien_Mikol: Très intéressant, anthropologiquement parlant. Le carnaval d'Andorre perpétue, sans le savoir (?), un rite antijudaïque très ancien, celui du "bûcher de Judas". 
 Il consistait à brûler en effigie un mannequin représentant Judas (doté de traits juifs parfaitement identificables). Le sens de ce rite était clair : au moment où l'on célébrait la Passion du Christ, c'était une manière de châtier le peuple déicide à travers la figure emblématique du traître responsable de la mort de Jésus. Il s'agissait aussi d'affimer, dans ce catholicisme préconcilaire, l'irrémédiable séparation entre l'Eglise et la Synagogue. Les fêtes de Pâques se sont longtemps accompagnées, au demeurant, de violences antijuives.
 Cette pratique sociale s'est perpétuée plus longtemps qu'on ne croit : un monsieur de 90 ans que je connais de près m'a certifié que, dans son camp de scouts alsacien, on avait coutume de "brûler le juif" au moment de Pâques jusqu'à la fin des années quarante...
 Evidemment, il était impensable de maintenir longtemps le "brûlement de Judas" après que des millions de vrais Juifs avaient fini dans les fours crématoires du IIIe Reich. Hitler avait déshonoré l'antisémitisme, pour reprendre le mot douteux de Bernanos, et Vatican II a fait le reste. Le rite avait donc disparu.
 Mais voici qu'il revient, sous de nouveaux atours, et une parfaite innocence. La continuité anthropologique est fascinante. Une infime modification, et le tour est joué. On ne brûle plus une effigie de Judas, mais un mannequin d'Israël, frappé de l'étoile de David. 
 J'entends déjà ceux qui se récrieront : "Ce n'est pas de l'antisémitisme, ni même de l'antijudaïsme : c'est de l'antisionisme !"
 On les croit, à la lumière de mille ans d'histoire.</a></strong>
-                                        <span class="update-source">— @Fabien_Mikol</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/Fabien_Mikol/status/2023729973043875962#m" target="_blank" rel="noopener">R to @Fabien_Mikol: Source de l'extrait :
+<span class="update-source">— @Fabien_Mikol</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/Fabien_Mikol/status/2023729973043875962#m" rel="noopener" target="_blank">R to @Fabien_Mikol: Source de l'extrait :
 https://www.youtube.com/watch?v=T-PGbZHiWvM</a></strong>
-                                        <span class="update-source">— @Fabien_Mikol</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/Fabien_Mikol/status/2023729967247306949#m" target="_blank" rel="noopener">R to @Fabien_Mikol: Sur l'essai "Situational Awareness" mentionné dans l'extrait :
+<span class="update-source">— @Fabien_Mikol</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/Fabien_Mikol/status/2023729967247306949#m" rel="noopener" target="_blank">R to @Fabien_Mikol: Sur l'essai "Situational Awareness" mentionné dans l'extrait :
 https://x.com/leopoldasch/status/1798016486700884233</a></strong>
-                                        <span class="update-source">— @Fabien_Mikol</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/Fabien_Mikol/status/2023717465713479875#m" target="_blank" rel="noopener">Discussion entre @AymericRoucher et @nico16184 sur l'amnésie des LLM et l'importance ou non du "continual learning" : en débloquant tout simplement l'accès aux fichiers de l'ordinateur, les agents peuvent désormais mettre à jour une forme de "journal" contextuel, et cela suffit !</a></strong>
-                                        <span class="update-source">— @Fabien_Mikol</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/MIKL_Bertrand/status/2022355927584645154#m" target="_blank" rel="noopener">« Commander sur Shein, n’est-ce pas aussi participer à un système d’exploitation humaine ? Que diront les historiens de nos choix dans 200 ans ? »
-🤔 L’histoire est un outil pour comprendre le présent, décrypter l’info, et former des citoyens critiques.
-🔗 https://www.rtbf.be/article/in-sophie-garcia-montero-we-trust-transmettre-l-histoire-pour-mieux-apprehender-le-monde-11667108</a></strong>
-                                        <span class="update-source">— @MIKL_Bertrand</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/MIKL_Bertrand/status/2021993379546988942#m" target="_blank" rel="noopener">« Trouver des degrés où il n’y en a point » — Léon Bourgeois, 1890.
-📊 La note sur 20 n’a pas été créée pour faire apprendre, mais pour classer.
-À l’heure où l’on parle santé mentale des élèves, ce cadre concurrentiel interroge.
-📖 https://www.cafepedagogique.net/2026/01/28/dou-vient-la-note-sur-20/</a></strong>
-                                        <span class="update-source">— @MIKL_Bertrand</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/voooai/" target="_blank" rel="noopener">VoooAI</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://mathix.org/linux/archives/22079" target="_blank" rel="noopener">Exerciseur sur les transformations intégrés à suivi.mathix.org</a></strong>
-                                        <span class="update-source">— Mathix (A. Durand)</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://mathix.org/linux/archives/22061" target="_blank" rel="noopener">Equipe : un outil pour créer des groupes d’élèves</a></strong>
-                                        <span class="update-source">— Mathix (A. Durand)</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://mathix.org/linux/archives/22055" target="_blank" rel="noopener">LLM et FlashMD</a></strong>
-                                        <span class="update-source">— Mathix (A. Durand)</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://mathix.org/linux/archives/22035" target="_blank" rel="noopener">Scénario didactique : Apprendre à faire des liens entre notions tout en critiquant l’IA, c’est possible ?</a></strong>
-                                        <span class="update-source">— Mathix (A. Durand)</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://mathix.org/linux/archives/22010" target="_blank" rel="noopener">Et si on accédait à l’IA-Albert avec les élèves ?</a></strong>
-                                        <span class="update-source">— Mathix (A. Durand)</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://mathix.org/linux/archives/22006" target="_blank" rel="noopener">IA, données « anonymes »… vraiment ?</a></strong>
-                                        <span class="update-source">— Mathix (A. Durand)</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://mathix.org/linux/archives/21927" target="_blank" rel="noopener">L’utilisation de l’IA, la dette cognitive : forcément ?</a></strong>
-                                        <span class="update-source">— Mathix (A. Durand)</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/our-approach-to-localization" target="_blank" rel="noopener">Making AI work for everyone, everywhere: our approach to localization</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/gpt-5-lowers-protein-synthesis-cost" target="_blank" rel="noopener">GPT-5 lowers the cost of cell-free protein synthesis</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/" target="_blank" rel="noopener">Natively Adaptive Interfaces: A new framework for AI accessibility</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/" target="_blank" rel="noopener">How Google Cloud is helping Team USA elevate their tricks with AI</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/" target="_blank" rel="noopener">Watch our new Gemini ad ahead of football’s biggest weekend</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://blog.google/innovation-and-ai/products/google-ai-updates-january-2026/" target="_blank" rel="noopener">The latest AI news we announced in January</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/" target="_blank" rel="noopener">How we’re helping preserve the genetic information of endangered species with AI</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/" target="_blank" rel="noopener">Advancing AI benchmarking with Game Arena</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/vinceflibustier/status/2023397062554087446#m" target="_blank" rel="noopener">RT by @nsi_xyz: J'ai créé cette image par ia, c'est génial, maintenant utilise l'IA pour analyser l'image et commenter !</a></strong>
-                                        <span class="update-source">— @nsi_xyz</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/nsi_xyz/status/2023412769907786012#m" target="_blank" rel="noopener">Une élève a peiné à m'expliquer sa correction, assisté par IA, et surtout non reproductible.
-Ni une, ni deux, j'ai demandé à l'IA une analyse et par un tour de magie secret j'ai orienté son analyse. 🤪 
-https://gemini.google.com/share/2da9e14693d7</a></strong>
-                                        <span class="update-source">— @nsi_xyz</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/nsi_xyz/status/2023374406559436959#m" target="_blank" rel="noopener">Gemini 3 pro est capable d'écrire directement le corrigé sur l'image du sujet. 🤩</a></strong>
-                                        <span class="update-source">— @nsi_xyz</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/epelboin/status/2023310706129392011#m" target="_blank" rel="noopener">RT by @nsi_xyz:</a></strong>
-                                        <span class="update-source">— @nsi_xyz</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/inkr/" target="_blank" rel="noopener">Inkr</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/muses/" target="_blank" rel="noopener">Muses</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/eler/" target="_blank" rel="noopener">Eler</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/veeso/" target="_blank" rel="noopener">Veeso</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/sesame/" target="_blank" rel="noopener">Sesame</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://mathix.org/linux/archives/22098" target="_blank" rel="noopener">Vous prendrez ce matin un peu de Kelop’s?</a></strong>
-                                        <span class="update-source">— Mathix (A. Durand)</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://mathix.org/linux/archives/22092" target="_blank" rel="noopener">Partage de pratiques avec l’APMEP au Mans</a></strong>
-                                        <span class="update-source">— Mathix (A. Durand)</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/new-result-theoretical-physics" target="_blank" rel="noopener">GPT-5.2 derives a new result in theoretical physics</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt" target="_blank" rel="noopener">Introducing Lockdown Mode and Elevated Risk labels in ChatGPT</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/beyond-rate-limits" target="_blank" rel="noopener">Beyond rate limits: scaling access to Codex and Sora</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/scaling-social-science-research" target="_blank" rel="noopener">Scaling social science research</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/introducing-gpt-5-3-codex-spark" target="_blank" rel="noopener">Introducing GPT-5.3-Codex-Spark</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/harness-engineering" target="_blank" rel="noopener">Harness engineering: leveraging Codex in an agent-first world</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/testing-ads-in-chatgpt" target="_blank" rel="noopener">Testing ads in ChatGPT</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/bringing-chatgpt-to-genaimil" target="_blank" rel="noopener">Bringing ChatGPT to GenAI.mil</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/" target="_blank" rel="noopener">Gemini 3 Deep Think: Advancing science, research and engineering</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://blog.google/products-and-platforms/products/photos/ask-button-ask-photos-tips/" target="_blank" rel="noopener">9 fun questions to try asking Google Photos</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://blog.google/innovation-and-ai/technology/safety-security/safer-internet-day-2026-kids-teens/" target="_blank" rel="noopener">Helping kids and teens learn and grow online on Safer Internet Day</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/nsi_xyz/status/2022970642698481973#m" target="_blank" rel="noopener">En pause jusqu'à 13h.</a></strong>
-                                        <span class="update-source">— @nsi_xyz</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/nsi_xyz/status/2022729224407363836#m" target="_blank" rel="noopener">Je dois laver ma voiture. La station de lavage est à 150m. J'y vais à pied ou en voiture ?</a></strong>
-                                        <span class="update-source">— @nsi_xyz</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/weavy/" target="_blank"
-                                                rel="noopener">Weavy</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/parliant/" target="_blank"
-                                                rel="noopener">Parliant</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://mathix.org/linux/archives/22086" target="_blank"
-                                                rel="noopener">Table mystère version 3</a></strong>
-                                        <span class="update-source">— Mathix (A. Durand)</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/andre/" target="_blank"
-                                                rel="noopener">André</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/voxtral/" target="_blank"
-                                                rel="noopener">Voxtral</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/hugging-chat/" target="_blank"
-                                                rel="noopener">Hugging Chat</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/otio/" target="_blank"
-                                                rel="noopener">Otio</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/dokie/" target="_blank"
-                                                rel="noopener">Dokie</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://mathix.org/linux/archives/22079" target="_blank"
-                                                rel="noopener">Exerciseur sur les transformations intégrés à
+<span class="update-source">— @Fabien_Mikol</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/weavy/" rel="noopener" target="_blank">Weavy</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/weavy/" rel="noopener" target="_blank">Weavy</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/parliant/" rel="noopener" target="_blank">Parliant</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://mathix.org/linux/archives/22086" rel="noopener" target="_blank">Table mystère version 3</a></strong>
+<span class="update-source">— Mathix (A. Durand)</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/andre/" rel="noopener" target="_blank">André</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/voxtral/" rel="noopener" target="_blank">Voxtral</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/hugging-chat/" rel="noopener" target="_blank">Hugging Chat</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/otio/" rel="noopener" target="_blank">Otio</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://primabord.eduscol.education.fr/planifier-facilement-les-rappels-memoriels" rel="noopener" target="_blank">Générateur de rappels
+                                                mémoriels</a></strong>
+<span class="update-source">— Primabord (Éduscol)</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://cartographie.forge.apps.education.fr/caramel/" rel="noopener" target="_blank">Caramel - Création d'activités
+                                                IA</a></strong>
+<span class="update-source">— Forge Éducation</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://cafepedagogique.net/2026/01/19/theodore-carloux-ecrire-en-college-a-lheure-de-lia/" rel="noopener" target="_blank">Écrire en collège à l'heure de
+                                                l'IA</a></strong>
+<span class="update-source">— Le Café Pédagogique</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://mathix.org/linux/archives/21891" rel="noopener" target="_blank">IA, RGPD et RIA : mettre de la clarté</a></strong>
+<span class="update-source">— Mathix (A. Durand)</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://cafepedagogique.net/2026/01/17/13-ressources-pedagogiques-mises-en-avant-par-le-cafe-pedagogique/" rel="noopener" target="_blank">13 ressources pédagogiques</a></strong>
+<span class="update-source">— Le Café Pédagogique</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/dokie/" rel="noopener" target="_blank">Dokie</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://mathix.org/linux/archives/22079" rel="noopener" target="_blank">Exerciseur sur les transformations intégrés à
                                                 suivi.mathix.org</a></strong>
-                                        <span class="update-source">— Mathix (A. Durand)</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/our-approach-to-localization"
-                                                target="_blank" rel="noopener">Making AI work for everyone, everywhere:
+<span class="update-source">— Mathix (A. Durand)</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/our-approach-to-localization" rel="noopener" target="_blank">Making AI work for everyone, everywhere:
                                                 our approach to localization</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/gpt-5-lowers-protein-synthesis-cost"
-                                                target="_blank" rel="noopener">GPT-5 lowers the cost of cell-free
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/gpt-5-lowers-protein-synthesis-cost" rel="noopener" target="_blank">GPT-5 lowers the cost of cell-free
                                                 protein synthesis</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/trusted-access-for-cyber"
-                                                target="_blank" rel="noopener">Introducing Trusted Access for
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/trusted-access-for-cyber" rel="noopener" target="_blank">Introducing Trusted Access for
                                                 Cyber</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/introducing-openai-frontier"
-                                                target="_blank" rel="noopener">Introducing OpenAI Frontier</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/introducing-gpt-5-3-codex"
-                                                target="_blank" rel="noopener">Introducing GPT-5.3-Codex</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/gpt-5-3-codex-system-card"
-                                                target="_blank" rel="noopener">GPT-5.3-Codex System Card</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/navigating-health-questions"
-                                                target="_blank" rel="noopener">Navigating health questions with
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/introducing-openai-frontier" rel="noopener" target="_blank">Introducing OpenAI Frontier</a></strong>
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/introducing-gpt-5-3-codex" rel="noopener" target="_blank">Introducing GPT-5.3-Codex</a></strong>
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/gpt-5-3-codex-system-card" rel="noopener" target="_blank">GPT-5.3-Codex System Card</a></strong>
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/navigating-health-questions" rel="noopener" target="_blank">Navigating health questions with
                                                 ChatGPT</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/vfl-wolfsburg" target="_blank"
-                                                rel="noopener">VfL Wolfsburg turns ChatGPT into a club-wide
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/vfl-wolfsburg" rel="noopener" target="_blank">VfL Wolfsburg turns ChatGPT into a club-wide
                                                 capability</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a
-                                                href="https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/"
-                                                target="_blank" rel="noopener">Natively Adaptive Interfaces: A new
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/" rel="noopener" target="_blank">Natively Adaptive Interfaces: A new
                                                 framework for AI accessibility</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a
-                                                href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/"
-                                                target="_blank" rel="noopener">How Google Cloud is helping Team USA
+<span class="update-source">— Google AI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/" rel="noopener" target="_blank">How Google Cloud is helping Team USA
                                                 elevate their tricks with AI</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a
-                                                href="https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/"
-                                                target="_blank" rel="noopener">Watch our new Gemini ad ahead of
+<span class="update-source">— Google AI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/" rel="noopener" target="_blank">Watch our new Gemini ad ahead of
                                                 football’s biggest weekend</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/andre/" target="_blank"
-                                                rel="noopener">André</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/voxtral/" target="_blank"
-                                                rel="noopener">Voxtral</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/hugging-chat/" target="_blank"
-                                                rel="noopener">Hugging Chat</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/otio/" target="_blank"
-                                                rel="noopener">Otio</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/dokie/" target="_blank"
-                                                rel="noopener">Dokie</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://mathix.org/linux/archives/22079" target="_blank"
-                                                rel="noopener">Exerciseur sur les transformations intégrés à
+<span class="update-source">— Google AI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/andre/" rel="noopener" target="_blank">André</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/voxtral/" rel="noopener" target="_blank">Voxtral</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/hugging-chat/" rel="noopener" target="_blank">Hugging Chat</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/otio/" rel="noopener" target="_blank">Otio</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/dokie/" rel="noopener" target="_blank">Dokie</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://mathix.org/linux/archives/22079" rel="noopener" target="_blank">Exerciseur sur les transformations intégrés à
                                                 suivi.mathix.org</a></strong>
-                                        <span class="update-source">— Mathix (A. Durand)</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/our-approach-to-localization"
-                                                target="_blank" rel="noopener">Making AI work for everyone, everywhere:
+<span class="update-source">— Mathix (A. Durand)</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/our-approach-to-localization" rel="noopener" target="_blank">Making AI work for everyone, everywhere:
                                                 our approach to localization</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/gpt-5-lowers-protein-synthesis-cost"
-                                                target="_blank" rel="noopener">GPT-5 lowers the cost of cell-free
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/gpt-5-lowers-protein-synthesis-cost" rel="noopener" target="_blank">GPT-5 lowers the cost of cell-free
                                                 protein synthesis</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/trusted-access-for-cyber"
-                                                target="_blank" rel="noopener">Introducing Trusted Access for
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/trusted-access-for-cyber" rel="noopener" target="_blank">Introducing Trusted Access for
                                                 Cyber</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/introducing-openai-frontier"
-                                                target="_blank" rel="noopener">Introducing OpenAI Frontier</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/introducing-gpt-5-3-codex"
-                                                target="_blank" rel="noopener">Introducing GPT-5.3-Codex</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/gpt-5-3-codex-system-card"
-                                                target="_blank" rel="noopener">GPT-5.3-Codex System Card</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/navigating-health-questions"
-                                                target="_blank" rel="noopener">Navigating health questions with
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/introducing-openai-frontier" rel="noopener" target="_blank">Introducing OpenAI Frontier</a></strong>
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/introducing-gpt-5-3-codex" rel="noopener" target="_blank">Introducing GPT-5.3-Codex</a></strong>
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/gpt-5-3-codex-system-card" rel="noopener" target="_blank">GPT-5.3-Codex System Card</a></strong>
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/navigating-health-questions" rel="noopener" target="_blank">Navigating health questions with
                                                 ChatGPT</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://openai.com/index/vfl-wolfsburg" target="_blank"
-                                                rel="noopener">VfL Wolfsburg turns ChatGPT into a club-wide
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/vfl-wolfsburg" rel="noopener" target="_blank">VfL Wolfsburg turns ChatGPT into a club-wide
                                                 capability</a></strong>
-                                        <span class="update-source">— OpenAI Blog</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a
-                                                href="https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/"
-                                                target="_blank" rel="noopener">Natively Adaptive Interfaces: A new
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/" rel="noopener" target="_blank">Natively Adaptive Interfaces: A new
                                                 framework for AI accessibility</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a
-                                                href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/"
-                                                target="_blank" rel="noopener">How Google Cloud is helping Team USA
+<span class="update-source">— Google AI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/" rel="noopener" target="_blank">How Google Cloud is helping Team USA
                                                 elevate their tricks with AI</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a
-                                                href="https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/"
-                                                target="_blank" rel="noopener">Watch our new Gemini ad ahead of
+<span class="update-source">— Google AI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/" rel="noopener" target="_blank">Watch our new Gemini ad ahead of
                                                 football’s biggest weekend</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a
-                                                href="https://blog.google/innovation-and-ai/products/google-ai-updates-january-2026/"
-                                                target="_blank" rel="noopener">The latest AI news we announced in
+<span class="update-source">— Google AI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://blog.google/innovation-and-ai/products/google-ai-updates-january-2026/" rel="noopener" target="_blank">The latest AI news we announced in
                                                 January</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a
-                                                href="https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/"
-                                                target="_blank" rel="noopener">How we’re helping preserve the genetic
+<span class="update-source">— Google AI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/" rel="noopener" target="_blank">How we’re helping preserve the genetic
                                                 information of endangered species with AI</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a
-                                                href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/"
-                                                target="_blank" rel="noopener">Advancing AI benchmarking with Game
+<span class="update-source">— Google AI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/" rel="noopener" target="_blank">Advancing AI benchmarking with Game
                                                 Arena</a></strong>
-                                        <span class="update-source">— Google AI</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/andre/" target="_blank"
-                                                rel="noopener">André</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/voxtral/" target="_blank"
-                                                rel="noopener">Voxtral</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/hugging-chat/" target="_blank"
-                                                rel="noopener">Hugging Chat</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/otio/" target="_blank"
-                                                rel="noopener">Otio</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/dokie/" target="_blank"
-                                                rel="noopener">Dokie</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/vibe-paint/" target="_blank"
-                                                rel="noopener">Vibe paint</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/llm-council/" target="_blank"
-                                                rel="noopener">LLM Council</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/prism/" target="_blank"
-                                                rel="noopener">Prism</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/leadde/" target="_blank"
-                                                rel="noopener">Leadde</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://www.uneiaparjour.fr/mindmaclasse/" target="_blank"
-                                                rel="noopener">Mindmaclasse</a></strong>
-                                        <span class="update-source">— Une IA par jour</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-new"><span class="update-tag">Nouveau</span>
-                                    <div class="update-content"><strong>ChatGPT 4.5</strong> - Meilleure compréhension
+<span class="update-source">— Google AI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/andre/" rel="noopener" target="_blank">André</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/voxtral/" rel="noopener" target="_blank">Voxtral</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/hugging-chat/" rel="noopener" target="_blank">Hugging Chat</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/otio/" rel="noopener" target="_blank">Otio</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/dokie/" rel="noopener" target="_blank">Dokie</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/vibe-paint/" rel="noopener" target="_blank">Vibe paint</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/llm-council/" rel="noopener" target="_blank">LLM Council</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/prism/" rel="noopener" target="_blank">Prism</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/leadde/" rel="noopener" target="_blank">Leadde</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/mindmaclasse/" rel="noopener" target="_blank">Mindmaclasse</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-new"><span class="update-tag">Nouveau</span>
+<div class="update-content"><strong>ChatGPT 4.5</strong> - Meilleure compréhension
                                         du français.</div>
-                                </div>
-                                <div class="update-item update-update"><span class="update-tag">Mise à jour</span>
-                                    <div class="update-content"><strong>NotebookLM</strong> - Support vidéo amélioré.
+</div>
+<div class="update-item update-update"><span class="update-tag">Mise à jour</span>
+<div class="update-content"><strong>NotebookLM</strong> - Support vidéo amélioré.
                                     </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="update-card">
-                            <div class="update-header"><span class="update-month">Janvier 2026</span></div>
-                            <div class="update-items">
-                                <div class="update-item update-new"><span class="update-tag">Nouveau</span>
-                                    <div class="update-content"><strong>Gemini 2.0 Pro</strong> - Raisonnement intégré.
+</div>
+</div>
+</article>
+<article class="update-card">
+<div class="update-header"><span class="update-month">Janvier 2026</span></div>
+<div class="update-items">
+<div class="update-item update-new"><span class="update-tag">Nouveau</span>
+<div class="update-content"><strong>Gemini 2.0 Pro</strong> - Raisonnement intégré.
                                     </div>
-                                </div>
-                                <div class="update-item update-new"><span class="update-tag">Nouveau</span>
-                                    <div class="update-content"><strong>Fobizz Éducation</strong> - Suite européenne
+</div>
+<div class="update-item update-new"><span class="update-tag">Nouveau</span>
+<div class="update-content"><strong>Fobizz Éducation</strong> - Suite européenne
                                         RGPD.</div>
-                                </div>
-                            </div>
-                        </article>
-                    </section>
-                </div>
-                <aside class="veille-sidebar">
-                    <div class="sidebar-card">
-                        <h3 class="sidebar-title"><i data-lucide="bell"></i>Restez informé</h3>
-                        <p class="sidebar-text">Page mise à jour chaque mois.</p>
-                        <div class="sidebar-meta"><i data-lucide="refresh-cw"></i>Février 2026</div>
-                    </div>
-                </aside>
-            </div>
-        </div>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <a href="index.html" class="logo">
-                        <span class="logo-icon">📚</span>
-                        <span class="logo-text">Enseigner avec l'IA</span>
-                    </a>
-                    <p class="footer-description">
+</div>
+</div>
+</article>
+</section>
+</div>
+<aside class="veille-sidebar">
+<div class="sidebar-card">
+<h3 class="sidebar-title"><i data-lucide="bell"></i>Restez informé</h3>
+<p class="sidebar-text">Page mise à jour chaque mois.</p>
+<div class="sidebar-meta"><i data-lucide="refresh-cw"></i>Février 2026</div>
+</div>
+</aside>
+</div>
+</div>
+</main>
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="logo" href="index.html">
+<span class="logo-icon">📚</span>
+<span class="logo-text">Enseigner avec l'IA</span>
+</a>
+<p class="footer-description">
                         Site compagnon du livre "Les outils pour enseigner avec l'IA"
                         de Fabien Boyer, publié aux Éditions Ellipses.
                     </p>
-                </div>
-
-                <div class="footer-links">
-                    <h4 class="footer-title">Navigation</h4>
-                    <ul>
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="debuter.html">Débuter</a></li>
-                        <li><a href="disciplines.html">Disciplines</a></li>
-                        <li><a href="conversations.html">Conversations</a></li>
-                        <li><a href="outils.html">Outils</a></li>
-                        <li><a href="ethique.html">Ressources</a></li>
-                        <li><a href="lexique.html">Lexique</a></li>
-                        <li><a href="formation.html">Formation</a></li>
-                        <li><a href="veille.html">Veille</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-links">
-                    <h4 class="footer-title">Informations</h4>
-                    <ul>
-                        <li><a href="a-propos.html">À propos</a></li>
-                        <li><a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener">Éditions
+</div>
+<div class="footer-links">
+<h4 class="footer-title">Navigation</h4>
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="debuter.html">Débuter</a></li>
+<li><a href="disciplines.html">Disciplines</a></li>
+<li><a href="conversations.html">Conversations</a></li>
+<li><a href="outils.html">Outils</a></li>
+<li><a href="ethique.html">Ressources</a></li>
+<li><a href="lexique.html">Lexique</a></li>
+<li><a href="formation.html">Formation</a></li>
+<li><a href="veille.html">Veille</a></li>
+</ul>
+</div>
+<div class="footer-links">
+<h4 class="footer-title">Informations</h4>
+<ul>
+<li><a href="a-propos.html">À propos</a></li>
+<li><a href="https://www.editions-ellipses.fr/" rel="noopener" target="_blank">Éditions
                                 Ellipses</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-links">
-                    <h4 class="footer-title">Contact</h4>
-                    <ul>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank" rel="noopener">
-                                <i data-lucide="twitter"></i>
+</ul>
+</div>
+<div class="footer-links">
+<h4 class="footer-title">Contact</h4>
+<ul>
+<li>
+<a href="https://twitter.com/" rel="noopener" target="_blank">
+<i data-lucide="twitter"></i>
                                 Twitter
                             </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2026 Fabien Boyer - Éditions Ellipses. Tous droits réservés.</p>
-                <div style="margin-top: 10px; opacity: 0.8;">
-                    <script data-goatcounter="https://fabienboyer.goatcounter.com/count" async
-                        src="//gc.zgo.at/count.js"></script>
-                    <noscript>
-                        <img src="https://fabienboyer.goatcounter.com/count?p=/index.html">
-                    </noscript>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="scripts/main.js"></script>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 Fabien Boyer - Éditions Ellipses. Tous droits réservés.</p>
+<div style="margin-top: 10px; opacity: 0.8;">
+<script async="" data-goatcounter="https://fabienboyer.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+<noscript>
+<img src="https://fabienboyer.goatcounter.com/count?p=/index.html"/>
+</noscript>
+</div>
+</div>
+</div>
+</footer>
+<script src="scripts/main.js"></script>
 </body>
-
 </html>
