@@ -1,6 +1,195 @@
 {
   "articles": [
     {
+      "title": "Doodle Duel",
+      "link": "https://www.uneiaparjour.fr/doodle-duel/",
+      "date": "2026-02-17T20:34:11",
+      "source": "Une IA par jour",
+      "summary": "Doodle Duel (https://doodleduel.ai/) est un jeu de dessin où il faut dessiner le mot ou l&#8217;expression donnés le plus rapidement possible. L&#8217;IA juge si le dessin représente suffisamment ce q"
+    },
+    {
+      "title": "Weavy",
+      "link": "https://www.uneiaparjour.fr/weavy/",
+      "date": "2026-02-08T22:58:31",
+      "source": "Une IA par jour",
+      "summary": "Weavy (https://www.weavy.ai/) regroupe plusieurs dizaines de modèles de génération d&#8217;images et de vidéos « combinables » sur un tableau infini. À partir d&#8217;une image générée avec un modèle,"
+    },
+    {
+      "title": "Exerciseur : Construction de triangles  CCC, CAC et ACA",
+      "link": "https://mathix.org/linux/archives/22106",
+      "date": "2026-02-17T09:25:53",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Je vous présente un exerciseur alors je suis quasiment parti sur du vibe-coding, une manière de tester Gemini, &#8230; et ce que je n&#8217;arrivais pas à faire il y a quelq"
+    },
+    {
+      "title": "Table mystère version 3",
+      "link": "https://mathix.org/linux/archives/22086",
+      "date": "2026-02-08T09:01:13",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Bon et bien fort du succès sur les tables mystères pour la multiplication, j&#8217;ai poussé le concept un peu plus loin. J&#8217;ai voulu forcer le lien entre division, mul"
+    },
+    {
+      "title": "Our 2026 Responsible AI Progress Report",
+      "link": "https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/",
+      "date": "2026-02-17T22:30:00",
+      "source": "Google AI",
+      "summary": "an illustration of blue and white cubes"
+    },
+    {
+      "title": "Le multithreading expliqué aux élèves 😅 (spé NSI)",
+      "link": "https://twitter.com/nsi_xyz/status/2024025383557877914#m",
+      "date": "2026-02-18T07:37:10",
+      "source": "@nsi_xyz",
+      "summary": "<p>Le multithreading expliqué aux élèves 😅 (spé NSI)</p>\n<hr />\n<blockquote>\n<b>PCMR (@OfficialPCMR)</b>\n<p>\n<p>Take a look at this multithreading.</p>\n<a href=\"https://nitter.net/OfficialPCMR/status/"
+    },
+    {
+      "title": "On n'oublie jamais son premier zombie. 🧟‍♂️\n« On ne tue pas un zombie, il est déjà mort. » — Même Gemini se fout de ma gueule. 😭 🤣 \nSeuls les vrais savent qu'on ne tue pas l'enfant, on achève le parent. 💀💻 #Linux",
+      "link": "https://twitter.com/nsi_xyz/status/2023827844359401655#m",
+      "date": "2026-02-17T18:32:13",
+      "source": "@nsi_xyz",
+      "summary": "<p>On n'oublie jamais son premier zombie. 🧟‍♂️<br />\n« On ne tue pas un zombie, il est déjà mort. » — Même Gemini se fout de ma gueule. 😭 🤣 <br />\nSeuls les vrais savent qu'on ne tue pas l'enfant, on "
+    },
+    {
+      "title": "RT by @AnthropicAI: This is Claude Sonnet 4.6: our most capable Sonnet model yet.\n\nIt’s a full upgrade across coding, computer use, long-context reasoning, agent planning, knowledge work, and design.\n\nIt also features a 1M token context window in beta.",
+      "link": "https://twitter.com/claudeai/status/2023817132581208353#m",
+      "date": "2026-02-17T17:49:39",
+      "source": "@AnthropicAI",
+      "summary": "<p>This is Claude Sonnet 4.6: our most capable Sonnet model yet.<br />\n<br />\nIt’s a full upgrade across coding, computer use, long-context reasoning, agent planning, knowledge work, and design.<br />"
+    },
+    {
+      "title": "We've signed an MOU with the Government of Rwanda—the first partnership of its kind in Africa—to bring AI to health, education, and other public sectors.\n\nRead more: https://anthropic.com/news/anthropic-rwanda-mou",
+      "link": "https://twitter.com/AnthropicAI/status/2023789983711326380#m",
+      "date": "2026-02-17T16:01:46",
+      "source": "@AnthropicAI",
+      "summary": "<p>We've signed an MOU with the Government of Rwanda—the first partnership of its kind in Africa—to bring AI to health, education, and other public sectors.<br />\n<br />\nRead more: <a href=\"https://an"
+    },
+    {
+      "title": "GPT-5.2 derived a new result in theoretical physics.\n\nWe’re releasing the result in a preprint with researchers from @the_IAS, @VanderbiltU, @Cambridge_Uni, and @Harvard. It shows that a gluon interaction many physicists expected would not occur can arise under specific conditions.\n\nhttps://openai.com/index/new-result-theoretical-physics/",
+      "link": "https://twitter.com/OpenAI/status/2022390096625078389#m",
+      "date": "2026-02-13T19:19:07",
+      "source": "@OpenAI",
+      "summary": "<p>GPT-5.2 derived a new result in theoretical physics.<br />\n<br />\nWe’re releasing the result in a preprint with researchers from <a href=\"https://nitter.net/the_IAS\" title=\"Institute for Advanced S"
+    },
+    {
+      "title": "GPT-5.3-Codex-Spark is now in research preview.\n\nYou can just build things—faster.",
+      "link": "https://twitter.com/OpenAI/status/2022009582210715925#m",
+      "date": "2026-02-12T18:07:06",
+      "source": "@OpenAI",
+      "summary": "<p>GPT-5.3-Codex-Spark is now in research preview.<br />\n<br />\nYou can just build things—faster.</p>\n<a href=\"https://nitter.net/OpenAI/status/2022009582210715925#m\">\n<br />Video<br />\n  <img src=\"ht"
+    },
+    {
+      "title": "R to @OpenAI: Rolling out today to ChatGPT Pro users in the Codex app, CLI, and IDE extension. \nhttps://openai.com/index/introducing-gpt-5-3-codex-spark/",
+      "link": "https://twitter.com/OpenAI/status/2022009583653576787#m",
+      "date": "2026-02-12T18:07:06",
+      "source": "@OpenAI",
+      "summary": "<p>Rolling out today to ChatGPT Pro users in the Codex app, CLI, and IDE extension. <br />\n<a href=\"https://openai.com/index/introducing-gpt-5-3-codex-spark/\">openai.com/index/introducing…</a></p>\n<im"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: 🔥«Yann Le Cun a tort !»\n👉 Aymeric Roucher explique que malgré les critiques, l’évolution rapide des llm semble valider la “Bitter Lesson” : des réseaux simples, entraînés à grande échelle, finissent par dépasser les approches plus complexes.\n🎧👉 https://audmns.com/SvRZQhW",
+      "link": "https://twitter.com/JeromeColombain/status/2023786661776421079#m",
+      "date": "2026-02-17T15:48:34",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>🔥«Yann Le Cun a tort !»<br />\n👉 Aymeric Roucher explique que malgré les critiques, l’évolution rapide des llm semble valider la “Bitter Lesson” : des réseaux simples, entraînés à grande échelle, fi"
+    },
+    {
+      "title": "\"Les principes ne peuvent s'inscrire dans du code informatique. Un modèle d'IA ne se pilote pas. A tout le moins, on l'oriente, on l'élague avec plus ou moins de bonheur\"\nBon rappel de l'aspect très superficiel du RLHF comme tentative d'alignement des modèles après le pretraining",
+      "link": "https://twitter.com/Fabien_Mikol/status/2023796187950969172#m",
+      "date": "2026-02-17T16:26:26",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"Les principes ne peuvent s'inscrire dans du code informatique. Un modèle d'IA ne se pilote pas. A tout le moins, on l'oriente, on l'élague avec plus ou moins de bonheur\"<br />\nBon rappel de l'aspe"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: Très intéressant, anthropologiquement parlant. Le carnaval d'Andorre perpétue, sans le savoir (?), un rite antijudaïque très ancien, celui du \"bûcher de Judas\". \nIl consistait à brûler en effigie un mannequin représentant Judas (doté de traits juifs parfaitement identificables). Le sens de ce rite était clair : au moment où l'on célébrait la Passion du Christ, c'était une manière de châtier le peuple déicide à travers la figure emblématique du traître responsable de la mort de Jésus. Il s'agissait aussi d'affimer, dans ce catholicisme préconcilaire, l'irrémédiable séparation entre l'Eglise et la Synagogue. Les fêtes de Pâques se sont longtemps accompagnées, au demeurant, de violences antijuives.\nCette pratique sociale s'est perpétuée plus longtemps qu'on ne croit : un monsieur de 90 ans que je connais de près m'a certifié que, dans son camp de scouts alsacien, on avait coutume de \"brûler le juif\" au moment de Pâques jusqu'à la fin des années quarante...\nEvidemment, il était impensable de maintenir longtemps le \"brûlement de Judas\" après que des millions de vrais Juifs avaient fini dans les fours crématoires du IIIe Reich. Hitler avait déshonoré l'antisémitisme, pour reprendre le mot douteux de Bernanos, et Vatican II a fait le reste. Le rite avait donc disparu.\nMais voici qu'il revient, sous de nouveaux atours, et une parfaite innocence. La continuité anthropologique est fascinante. Une infime modification, et le tour est joué. On ne brûle plus une effigie de Judas, mais un mannequin d'Israël, frappé de l'étoile de David. \nJ'entends déjà ceux qui se récrieront : \"Ce n'est pas de l'antisémitisme, ni même de l'antijudaïsme : c'est de l'antisionisme !\"\nOn les croit, à la lumière de mille ans d'histoire.",
+      "link": "https://twitter.com/JZefka/status/2023744533045907727#m",
+      "date": "2026-02-17T13:01:10",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Très intéressant, anthropologiquement parlant. Le carnaval d'Andorre perpétue, sans le savoir (?), un rite antijudaïque très ancien, celui du \"bûcher de Judas\". <br />\nIl consistait à brûler en eff"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Source de l'extrait :\nhttps://www.youtube.com/watch?v=T-PGbZHiWvM",
+      "link": "https://twitter.com/Fabien_Mikol/status/2023729973043875962#m",
+      "date": "2026-02-17T12:03:19",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Source de l'extrait :<br />\n<a href=\"https://piped.video/watch?v=T-PGbZHiWvM\">piped.video/watch?v=T-PGbZHi…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2023717455927939072%2Fs9LHe9Zf%3Fform"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Sur l'essai \"Situational Awareness\" mentionné dans l'extrait :\nhttps://x.com/leopoldasch/status/1798016486700884233",
+      "link": "https://twitter.com/Fabien_Mikol/status/2023729967247306949#m",
+      "date": "2026-02-17T12:03:17",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Sur l'essai \"Situational Awareness\" mentionné dans l'extrait :<br />\n<a href=\"https://nitter.net/leopoldasch/status/1798016486700884233\">nitter.net/leopoldasch/status/179…</a></p>\n<hr />\n<blockquot"
+    },
+    {
+      "title": "Discussion entre @AymericRoucher et @nico16184 sur l'amnésie des LLM et l'importance ou non du \"continual learning\" : en débloquant tout simplement l'accès aux fichiers de l'ordinateur, les agents peuvent désormais mettre à jour une forme de \"journal\" contextuel, et cela suffit !",
+      "link": "https://twitter.com/Fabien_Mikol/status/2023717465713479875#m",
+      "date": "2026-02-17T11:13:37",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Discussion entre <a href=\"https://nitter.net/AymericRoucher\" title=\"m_ric\">@AymericRoucher</a> et <a href=\"https://nitter.net/nico16184\" title=\"Nicolas Guyon - e/acc\">@nico16184</a> sur l'amnésie d"
+    },
+    {
+      "title": "« Commander sur Shein, n’est-ce pas aussi participer à un système d’exploitation humaine ? Que diront les historiens de nos choix dans 200 ans ? »\n🤔 L’histoire est un outil pour comprendre le présent, décrypter l’info, et former des citoyens critiques.\n🔗 https://www.rtbf.be/article/in-sophie-garcia-montero-we-trust-transmettre-l-histoire-pour-mieux-apprehender-le-monde-11667108",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2022355927584645154#m",
+      "date": "2026-02-13T17:03:21",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>« Commander sur Shein, n’est-ce pas aussi participer à un système d’exploitation humaine ? Que diront les historiens de nos choix dans 200 ans ? »<br />\n🤔 L’histoire est un outil pour comprendre le"
+    },
+    {
+      "title": "« Trouver des degrés où il n’y en a point » — Léon Bourgeois, 1890.\n📊 La note sur 20 n’a pas été créée pour faire apprendre, mais pour classer.\nÀ l’heure où l’on parle santé mentale des élèves, ce cadre concurrentiel interroge.\n📖 https://www.cafepedagogique.net/2026/01/28/dou-vient-la-note-sur-20/",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2021993379546988942#m",
+      "date": "2026-02-12T17:02:43",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>« Trouver des degrés où il n’y en a point » — Léon Bourgeois, 1890.<br />\n📊 La note sur 20 n’a pas été créée pour faire apprendre, mais pour classer.<br />\nÀ l’heure où l’on parle santé mentale des"
+    },
+    {
+      "title": "✍️ IA & écriture : écrire mieux, pas à la place des élèves.\nLe coach d’écriture de Khan Academy + Google aide à structurer la pensée, sans rédiger le texte final. https://www.lageekdeservice.com/khan-academy-et-google-ce-que-jai-retenu-de-lechange-entre-sal-khan-et-ben-gomes/ \n🇫🇷 Un équivalent français existe depuis plusieurs mois : Ecrivor\n🔗 https://www.ecrivor.com/",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2021631014129271049#m",
+      "date": "2026-02-11T17:02:48",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>✍️ IA &amp; écriture : écrire mieux, pas à la place des élèves.<br />\nLe coach d’écriture de Khan Academy + Google aide à structurer la pensée, sans rédiger le texte final. <a href=\"https://www.lag"
+    },
+    {
+      "title": "« Je ne laisse pas mon IA me parler comme ça » \nOn croit toujours utiliser l’IA plus intelligemment que les autres.\nGuillemette Faure met en lumière la relation étrange qui se construit entre l’humain et la machine.\n🔗 https://www.lemonde.fr/m-le-mag/article/2026/01/24/je-ne-laisse-pas-mon-ia-me-parler-comme-ca_6663926_4500055.html",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2021268757067219335#m",
+      "date": "2026-02-10T17:03:19",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>« Je ne laisse pas mon IA me parler comme ça » <br />\nOn croit toujours utiliser l’IA plus intelligemment que les autres.<br />\nGuillemette Faure met en lumière la relation étrange qui se construit"
+    },
+    {
+      "title": "🎓 Et si l’on prenait le temps de penser collectivement l’École de demain ?\nLe Café pédagogique lance #NotreÉcole2027 : un appel à contributions pour construire un projet éducatif ambitieux et humaniste.\n✍️ Jusqu’au 20 février\n🔗 https://www.cafepedagogique.net/2026/01/12/lappel-du-cafe-pedagogique-pour-notre-ecole-2027-construisons-ensemble-un-vrai-projet-educatif-global-demancipation-et-de-solidarite/",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2020906305808912411#m",
+      "date": "2026-02-09T17:03:04",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🎓 Et si l’on prenait le temps de penser collectivement l’École de demain ?<br />\nLe Café pédagogique lance <a href=\"https://nitter.net/search?f=tweets&amp;q=%23NotreÉcole2027\">#NotreÉcole2027</a> :"
+    },
+    {
+      "title": "C'est LA vidéo qu'il faut regarder avant de se lancer dans des stratégies de ludicisation en classe !  🤩 🤩 🤩\nBravo Ségolène, Romain et toute l'équipe derrière cette production incroyable. \n 🎮 https://www.youtube.com/watch?v=gMou-MSe1r0",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2019819201423090010#m",
+      "date": "2026-02-06T17:03:18",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>C'est LA vidéo qu'il faut regarder avant de se lancer dans des stratégies de ludicisation en classe !  🤩 🤩 🤩<br />\nBravo Ségolène, Romain et toute l'équipe derrière cette production incroyable. <br"
+    },
+    {
+      "title": "🎥 IA & éducation : un reportage tout en nuances.\n\n🇪🇪 Estonie | 🇮🇳 Inde | 🇬🇧 UK\n👩🏫 Enseignants, 🎓 élèves, 🧠 chercheurs\n➡️ usages concrets, atouts et limites\n➡️ ni panique morale, ni solution miracle\n\n📽️ https://www.youtube.com/watch?v=g_gRHW4SJtI\n\n#Éducation #IA #Pédagogie #EspritCritique 🤖📚",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2019456629335343577#m",
+      "date": "2026-02-05T17:02:34",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🎥 IA &amp; éducation : un reportage tout en nuances.<br />\n<br />\n🇪🇪 Estonie | 🇮🇳 Inde | 🇬🇧 UK<br />\n👩🏫 Enseignants, 🎓 élèves, 🧠 chercheurs<br />\n➡️ usages concrets, atouts et limites<br />\n➡️ ni p"
+    },
+    {
+      "title": "🤔 Quelles activités valent encore la peine d’être enseignées lorsqu’une IA peut produire une réponse en quelques secondes ?\nCarter Moulton propose 6 valeurs (pouvoir d’agir, esprit critique, appartenance,…) pour garder l’humain dans la boucle.\n🔗 https://www.analoginspiration.ai/speaking",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2019094908846379166#m",
+      "date": "2026-02-04T17:05:13",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🤔 Quelles activités valent encore la peine d’être enseignées lorsqu’une IA peut produire une réponse en quelques secondes ?<br />\nCarter Moulton propose 6 valeurs (pouvoir d’agir, esprit critique, "
+    },
+    {
+      "title": "🧠 Plus l’IA entre à l’école, plus les risques augmentent.\n📘 Le rapport 2025 du CDT est clair : l’adoption massive de l’IA doit s’accompagner de formation et de gouvernance, pas seulement d’outils.\n🔗 https://cdt.org/insights/hand-in-hand-schools-embrace-of-ai-connected-to-increased-risks-to-students/ \n#IA #Éducation #NumériqueResponsable #Gouvernance",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2018731913037365645#m",
+      "date": "2026-02-03T17:02:48",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🧠 Plus l’IA entre à l’école, plus les risques augmentent.<br />\n📘 Le rapport 2025 du CDT est clair : l’adoption massive de l’IA doit s’accompagner de formation et de gouvernance, pas seulement d’ou"
+    },
+    {
       "title": "VoooAI",
       "link": "https://www.uneiaparjour.fr/voooai/",
       "date": "2026-02-16T20:31:30",
@@ -510,198 +699,9 @@
       "date": "2026-02-11T01:36:42",
       "source": "@AnthropicAI",
       "summary": "<p>Rather than making difficult calls about blurry thresholds, we decided to preemptively meet the higher ASL-4 safety bar by developing the report, which assesses Opus 4.6’s AI R&amp;D risks in great"
-    },
-    {
-      "title": "When we released Claude Opus 4.5, we knew future models would be close to our AI Safety Level 4 threshold for autonomous AI R&D. We therefore committed to writing sabotage risk reports for future frontier models.\n\nToday we’re delivering on that commitment for Claude Opus 4.6.",
-      "link": "https://twitter.com/AnthropicAI/status/2021397952791707696#m",
-      "date": "2026-02-11T01:36:42",
-      "source": "@AnthropicAI",
-      "summary": "<p>When we released Claude Opus 4.5, we knew future models would be close to our AI Safety Level 4 threshold for autonomous AI R&amp;D. We therefore committed to writing sabotage risk reports for futu"
-    },
-    {
-      "title": "Nonprofits on Team and Enterprise plans now have access to Claude Opus 4.6, our most capable model, at no extra cost.\n\nNonprofits tackle some of society’s most difficult problems. Frontier AI tools can help maximize their impact.\n\nLearn more: https://claude.com/solutions/nonprofits",
-      "link": "https://twitter.com/AnthropicAI/status/2020908471936323584#m",
-      "date": "2026-02-09T17:11:41",
-      "source": "@AnthropicAI",
-      "summary": "<p>Nonprofits on Team and Enterprise plans now have access to Claude Opus 4.6, our most capable model, at no extra cost.<br />\n<br />\nNonprofits tackle some of society’s most difficult problems. Front"
-    },
-    {
-      "title": "RT by @AnthropicAI: Our teams have been building with a 2.5x-faster version of Claude Opus 4.6.\n\nWe’re now making it available as an early experiment via Claude Code and our API.",
-      "link": "https://twitter.com/claudeai/status/2020207322124132504#m",
-      "date": "2026-02-07T18:45:33",
-      "source": "@AnthropicAI",
-      "summary": "<p>Our teams have been building with a 2.5x-faster version of Claude Opus 4.6.<br />\n<br />\nWe’re now making it available as an early experiment via Claude Code and our API.</p>"
-    },
-    {
-      "title": "R to @wandb: worldwide-hackathon.mistral.…",
-      "link": "https://twitter.com/MistralAI/status/2021239601503912409#m",
-      "date": "2026-02-10T15:07:28",
-      "source": "@MistralAI",
-      "summary": "<p><a href=\"https://worldwide-hackathon.mistral.ai/\">worldwide-hackathon.mistral.…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2021239595283705856%2FpuSRqI5k%3Fformat%3Djpg%26name%3D800x419\" /"
-    },
-    {
-      "title": "Introducing Mistral AI's biggest hackathon ever!\n📅 Feb 28 - Mar 1\n🌍 Paris | London | NY | SF | Tokyo | Singapore | Sydney & online\n48 hours. The best hackers.\n🤝 Partners: >@wandb @nvidia @awscloud @HackIterate\n🏆 $200K in prizes. Special awards from @elevenlabsio @huggingface @JUmp @whitecircle @supercell\nLink in 🧵",
-      "link": "https://twitter.com/MistralAI/status/2021238361227186462#m",
-      "date": "2026-02-10T15:02:32",
-      "source": "@MistralAI",
-      "summary": "<p>Introducing Mistral AI's biggest hackathon ever!<br />\n📅 Feb 28 - Mar 1<br />\n🌍 Paris | London | NY | SF | Tokyo | Singapore | Sydney & online<br />\n48 hours. The best hackers.<br />\n🤝 Partners: <a"
-    },
-    {
-      "title": "R to @MistralAI: Available now. Mini Transcribe 2 via API at $0.003/min. Realtime via API at $0.006/min, plus open weights.\n\nGet started → http://console.mistral.ai/build/audio/speech-to-text",
-      "link": "https://twitter.com/MistralAI/status/2019068838009074155#m",
-      "date": "2026-02-04T15:21:38",
-      "source": "@MistralAI",
-      "summary": "<p>Available now. Mini Transcribe 2 via API at $0.003/min. Realtime via API at $0.006/min, plus open weights.<br />\n<br />\nGet started → <a href=\"http://console.mistral.ai/build/audio/speech-to-text\">"
-    },
-    {
-      "title": "R to @MistralAI: Start experimenting with Voxtral Mini Transcribe 2 in the new audio playground on Mistral Studio. Upload files, toggle diarization, add context bias, and get instant transcriptions.",
-      "link": "https://twitter.com/MistralAI/status/2019068835626631438#m",
-      "date": "2026-02-04T15:21:37",
-      "source": "@MistralAI",
-      "summary": "<p>Start experimenting with Voxtral Mini Transcribe 2 in the new audio playground on Mistral Studio. Upload files, toggle diarization, add context bias, and get instant transcriptions.</p>\n<a href=\"ht"
-    },
-    {
-      "title": "R to @MistralAI: Voxtral Mini Transcribe 2 handles batch transcription with the best price-performance of any transcription API: 4% WER on FLEURS at $0.003/min. Includes speaker diarization, context biasing, and word-level timestamps across 13 languages.",
-      "link": "https://twitter.com/MistralAI/status/2019068832405443046#m",
-      "date": "2026-02-04T15:21:36",
-      "source": "@MistralAI",
-      "summary": "<p>Voxtral Mini Transcribe 2 handles batch transcription with the best price-performance of any transcription API: 4% WER on FLEURS at $0.003/min. Includes speaker diarization, context biasing, and wo"
-    },
-    {
-      "title": "R to @MistralAI: Voxtral Realtime is built for voice agents and live applications. Its natively streaming architecture delivers latency configurable to sub-200ms. And at 480ms, it stays within 1-2% WER of our offline model. We release the model as open weights under Apache 2.0.",
-      "link": "https://twitter.com/MistralAI/status/2019068828257333466#m",
-      "date": "2026-02-04T15:21:35",
-      "source": "@MistralAI",
-      "summary": "<p>Voxtral Realtime is built for voice agents and live applications. Its natively streaming architecture delivers latency configurable to sub-200ms. And at 480ms, it stays within 1-2% WER of our offli"
-    },
-    {
-      "title": "Introducing Voxtral Transcribe 2, next-gen speech-to-text models by @MistralAI.\nState-of-the-art transcription, speaker diarization, sub-200ms real-time latency. \nDetails in 🧵",
-      "link": "https://twitter.com/MistralAI/status/2019068826097213953#m",
-      "date": "2026-02-04T15:21:35",
-      "source": "@MistralAI",
-      "summary": "<p>Introducing Voxtral Transcribe 2, next-gen speech-to-text models by <a href=\"https://nitter.net/MistralAI\" title=\"Mistral AI\">@MistralAI</a>.<br />\nState-of-the-art transcription, speaker diarizati"
-    },
-    {
-      "title": "RT by @MistralAI: Mistral Vibe 2.0 is now available on Le Chat Pro and Team plans.\nBuild, maintain, and ship code faster with the terminal-native coding agent by @MistralAI. Here’s what’s new 🧵",
-      "link": "https://twitter.com/mistralvibe/status/2016179799689928986#m",
-      "date": "2026-01-27T16:01:37",
-      "source": "@MistralAI",
-      "summary": "<p>Mistral Vibe 2.0 is now available on Le Chat Pro and Team plans.<br />\nBuild, maintain, and ship code faster with the terminal-native coding agent by <a href=\"https://nitter.net/MistralAI\" title=\"M"
-    },
-    {
-      "title": "RT by @MistralAI: The Devstral 2 models are free to use. Let's build!",
-      "link": "https://twitter.com/mistralvibe/status/2010743826399232238#m",
-      "date": "2026-01-12T16:01:00",
-      "source": "@MistralAI",
-      "summary": "<p>The Devstral 2 models are free to use. Let's build!</p>"
-    },
-    {
-      "title": "🎄 We've shipped Skills for Vibe CLI: your dev expertise and rules, bundled and reusable across projects. Plus reasoning model support and native terminal themes.\nTry Vibe CLI now and happy shipping!\n→ uv tool install mistral-vibe",
-      "link": "https://twitter.com/MistralAI/status/2003843358054068327#m",
-      "date": "2025-12-24T15:01:00",
-      "source": "@MistralAI",
-      "summary": "<p>🎄 We've shipped Skills for Vibe CLI: your dev expertise and rules, bundled and reusable across projects. Plus reasoning model support and native terminal themes.<br />\nTry Vibe CLI now and happy sh"
-    },
-    {
-      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n📦 DeepSeek-V3.2 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2\n📦 DeepSeek-V3.2-Speciale Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n5/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452658149405148#m",
-      "date": "2025-12-01T11:19:22",
-      "source": "@deepseek_ai",
-      "summary": "<p>🛠 Open Source Release<br />\n<br />\n📦 DeepSeek-V3.2 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2\">huggingface.co/deepseek-ai/D…</a><br />\n📦 DeepSeek-V3.2-Speciale Model: <a href="
-    },
-    {
-      "title": "R to @deepseek_ai: 💻 API Update\n\n🔹 V3.2: Same usage pattern as V3.2-Exp.\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"https://api.deepseek.com/v3.2_speciale_expires_on_20251215\". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time).\n💡 V3.2 now supports Thinking in Tool-Use — details: https://api-docs.deepseek.com/guides/thinking_mode\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452654659805334#m",
-      "date": "2025-12-01T11:19:21",
-      "source": "@deepseek_ai",
-      "summary": "<p>💻 API Update<br />\n<br />\n🔹 V3.2: Same usage pattern as V3.2-Exp.<br />\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"<a href=\"https://api.deepseek.com/v3.2_speciale_expires_on_202512"
-    },
-    {
-      "title": "R to @deepseek_ai: 🤖 Thinking in Tool-Use\n\n🔹 Introduces a new massive agent training data synthesis method covering 1,800+ environments & 85k+ complex instructions.\n🔹 DeepSeek-V3.2 is our first model to integrate thinking directly into tool-use, and also supports tool-use in both thinking and non-thinking modes.\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452650557763728#m",
-      "date": "2025-12-01T11:19:20",
-      "source": "@deepseek_ai",
-      "summary": "<p>🤖 Thinking in Tool-Use<br />\n<br />\n🔹 Introduces a new massive agent training data synthesis method covering 1,800+ environments & 85k+ complex instructions.<br />\n🔹 DeepSeek-V3.2 is our first mode"
-    },
-    {
-      "title": "R to @deepseek_ai: 🏆 World-Leading Reasoning\n\n🔹 V3.2: Balanced inference vs. length. Your daily driver at GPT-5 level performance.\n🔹 V3.2-Speciale: Maxed-out reasoning capabilities. Rivals Gemini-3.0-Pro.\n🥇 Gold-Medal Performance: V3.2-Speciale attains gold-level results in IMO, CMO, ICPC World Finals & IOI 2025.\n\n📝 Note: V3.2-Speciale dominates complex tasks but requires higher token usage. Currently API-only (no tool-use) to support community evaluation & research.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452646459858977#m",
-      "date": "2025-12-01T11:19:19",
-      "source": "@deepseek_ai",
-      "summary": "<p>🏆 World-Leading Reasoning<br />\n<br />\n🔹 V3.2: Balanced inference vs. length. Your daily driver at GPT-5 level performance.<br />\n🔹 V3.2-Speciale: Maxed-out reasoning capabilities. Rivals Gemini-3."
-    },
-    {
-      "title": "🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!\n\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.\n🔹 DeepSeek-V3.2-Speciale: Pushing the boundaries of reasoning capabilities. API-only for now.\n\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452641430651132#m",
-      "date": "2025-12-01T11:19:18",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!<br />\n<br />\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.<br />\n🔹 DeepS"
-    },
-    {
-      "title": "Pinned: ⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-interleaved input, MLA RoPE expects interleaved. Fixed in https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/tree/main/inference.",
-      "link": "https://twitter.com/deepseek_ai/status/1990616182161068094#m",
-      "date": "2025-11-18T03:00:56",
-      "source": "@deepseek_ai",
-      "summary": "<p>⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-"
-    },
-    {
-      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n🔗 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\n🔗 Tech report: https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/DeepSeek_V3_2.pdf\n🔗 Key GPU kernels in TileLang & CUDA (use TileLang for rapid research prototyping!)\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604780469239843#m",
-      "date": "2025-09-29T10:10:03",
-      "source": "@deepseek_ai",
-      "summary": "<p>🛠 Open Source Release<br />\n<br />\n🔗 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\">huggingface.co/deepseek-ai/D…</a><br />\n🔗 Tech report: <a href=\"https://github.com/deepsee"
-    },
-    {
-      "title": "R to @deepseek_ai: 💻 API Update\n\n🎉 Lower costs, same access!\n💰 DeepSeek API prices drop 50%+, effective immediately.\n\n🔹 For comparison testing, V3.1-Terminus remains available via a temporary API until Oct 15th, 2025, 15:59 (UTC Time). Details: https://api-docs.deepseek.com/guides/comparison_testing\n🔹 Feedback welcome: https://feedback.deepseek.com/dsa\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604777474458033#m",
-      "date": "2025-09-29T10:10:02",
-      "source": "@deepseek_ai",
-      "summary": "<p>💻 API Update<br />\n<br />\n🎉 Lower costs, same access!<br />\n💰 DeepSeek API prices drop 50%+, effective immediately.<br />\n<br />\n🔹 For comparison testing, V3.1-Terminus remains available via a temp"
-    },
-    {
-      "title": "R to @deepseek_ai: ⚡️ Efficiency Gains\n\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.\n📊 Benchmarks show V3.2-Exp performs on par with V3.1-Terminus.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604772042637477#m",
-      "date": "2025-09-29T10:10:01",
-      "source": "@deepseek_ai",
-      "summary": "<p>⚡️ Efficiency Gains<br />\n<br />\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.<br />\n📊 Benchmarks s"
-    },
-    {
-      "title": "🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!\n\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on long context.\n👉 Now live on App, Web, and API.\n💰 API prices cut by 50%+!\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604768309871061#m",
-      "date": "2025-09-29T10:10:00",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!<br />\n<br />\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on l"
-    },
-    {
-      "title": "RT by @OpenAI: Peter Steinberger is joining OpenAI to drive the next generation of personal agents. He is a genius with a lot of amazing ideas about the future of very smart agents interacting with each other to do very useful things for people. We expect this will quickly become core to our product offerings.\n\nOpenClaw will live in a foundation as an open source project that OpenAI will continue to support. The future is going to be extremely multi-agent and it's important to us to support open source as part of that.",
-      "link": "https://twitter.com/sama/status/2023150230905159801#m",
-      "date": "2026-02-15T21:39:38",
-      "source": "@OpenAI",
-      "summary": "<p>Peter Steinberger is joining OpenAI to drive the next generation of personal agents. He is a genius with a lot of amazing ideas about the future of very smart agents interacting with each other to "
-    },
-    {
-      "title": "RT by @OpenAI: Very excited about the \"First Proof\" challenge. I believe novel frontier research is perhaps the most important way to evaluate capabilities of the next generation of AI models.\n\nWe have run our internal model with limited human supervision on the ten proposed problems. The problems require expertise in their respective domains and are not easy to verify; based on feedback from experts, we believe at least six solutions (2, 4, 5, 6, 9, 10) have a high chance of being correct, and some further ones look promising.\n\nWe will only publish the solution attempts after midnight (PT), per the authors' guidance - the sha256 hash of the PDF is d74f090af16fc8a19debf4c1fec11c0975be7d612bd5ae43c24ca939cd272b1a .\n\nThis was a side-sprint executed in a week mostly by querying one of the models we're currently training; as such, the methodology we employed leaves a lot to be desired. We didn't provide proof ideas or mathematical suggestions to the model during this evaluation; for some solutions, we asked the model to expand upon some proofs, per expert feedback. We also manually facilitated a back-and-forth between this model and ChatGPT for verification, formatting and style. For some problems, we present the best of a few attempts according to human judgement.\n\nWe are looking forward to more controlled evaluations in the next round!\n\nhttp://1stproof.org #1stProof",
-      "link": "https://twitter.com/merettm/status/2022517085193277874#m",
-      "date": "2026-02-14T03:43:44",
-      "source": "@OpenAI",
-      "summary": "<p>Very excited about the \"First Proof\" challenge. I believe novel frontier research is perhaps the most important way to evaluate capabilities of the next generation of AI models.<br />\n<br />\nWe hav"
-    },
-    {
-      "title": "R to @OpenAI: Thank you to our collaborators for their partnership. The preprint is available on arXiv and is being submitted for publication. \n\nWe welcome feedback from the community. https://arxiv.org/abs/2602.12176",
-      "link": "https://twitter.com/OpenAI/status/2022390104237707667#m",
-      "date": "2026-02-13T19:19:09",
-      "source": "@OpenAI",
-      "summary": "<p>Thank you to our collaborators for their partnership. The preprint is available on arXiv and is being submitted for publication. <br />\n<br />\nWe welcome feedback from the community. <a href=\"https"
-    },
-    {
-      "title": "R to @OpenAI: In modern amplitude theory, simple formulas often signal deeper structure. \n\nShowing that a case long thought to be empty actually contains structure sharpens our understanding of the mathematics of the strong force and opens new directions, including extensions to gravity and related amplitude relations. \n\nSome of these generalizations are also amenable to solution via this new AI methodology and will be reported on elsewhere.",
-      "link": "https://twitter.com/OpenAI/status/2022390103017161216#m",
-      "date": "2026-02-13T19:19:09",
-      "source": "@OpenAI",
-      "summary": "<p>In modern amplitude theory, simple formulas often signal deeper structure. <br />\n<br />\nShowing that a case long thought to be empty actually contains structure sharpens our understanding of the m"
     }
   ],
-  "last_update": "2026-02-17T08:34:20.463309",
+  "last_update": "2026-02-18T08:34:48.440431",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
