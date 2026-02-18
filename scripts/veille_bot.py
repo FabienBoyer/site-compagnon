@@ -13,6 +13,7 @@ from pathlib import Path
 import urllib.request
 import urllib.error
 import socket
+from bs4 import BeautifulSoup
 
 # Set global timeout for all socket operations (including feedparser)
 socket.setdefaulttimeout(15)
@@ -86,7 +87,7 @@ def fetch_rss(url: str, source_name: str, is_twitter: bool = False) -> list:
         # Check if feedparser encountered an error (bozo exception)
         if feed.bozo:
              # Just log it but try to process entries if any
-             print(f"⚠️ Warning parsing {source_name}: {feed.bozo_exception}")
+             print(f"Warning parsing {source_name}: {feed.bozo_exception}")
 
         for entry in feed.entries[:10]:  # Last 10 entries
             pub_date = None
@@ -108,9 +109,9 @@ def fetch_rss(url: str, source_name: str, is_twitter: bool = False) -> list:
                 "summary": entry.get("summary", "")[:200] if entry.get("summary") else ""
             })
     except (socket.timeout, urllib.error.URLError) as e:
-        print(f"❌ Network error fetching {source_name}: {e}")
+        print(f"Network error fetching {source_name}: {e}")
     except Exception as e:
-        print(f"❌ Error fetching {source_name}: {e}")
+        print(f"Error fetching {source_name}: {e}")
     return articles
 
 def filter_ai_content(articles: list) -> list:
@@ -179,74 +180,105 @@ def update_veille_html(new_articles: list):
     
     # Generate new update items
     new_html = generate_html_updates(new_articles)
+
+    soup = BeautifulSoup(html, 'html.parser')
     
-    # Logic to check the current month section
-    # We use French month names as used in existing HTML
-    months = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", 
-              "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"]
+    # French month names mapping
+    months_fr = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", 
+                 "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"]
     now = datetime.now()
-    current_month_str = f"{months[now.month - 1]} {now.year}"
+    current_month_str = f"{months_fr[now.month - 1]} {now.year}"
     
-    # Check if current month section exists as the "current" card
-    # Pattern: <article class="update-card update-card-current">...<span class="update-month">MONTH YEAR</span>
-    # We accept checking for the string inside the first update-card-current
+    # Find the container for monthly updates
+    # We look for the h2 with "Mises à jour mensuelles"
+    monthly_section_title = None
     
-    is_same_month = False
+    # Method 1: Find by text content (robust to nested tags)
+    for h2 in soup.find_all('h2'):
+        if "Mises à jour mensuelles" in h2.get_text():
+            monthly_section_title = h2
+            break
+            
+    # Method 2: Find specifically by class if Method 1 fails
+    if not monthly_section_title:
+        monthly_section_title = soup.find('h2', class_='section-title-veille')
+        # verify text just in case
+        if monthly_section_title and "Mises à jour mensuelles" not in monthly_section_title.get_text():
+             # If the first one isn't it, look at others
+             for h2 in soup.find_all('h2', class_='section-title-veille'):
+                 if "Mises à jour mensuelles" in h2.get_text():
+                     monthly_section_title = h2
+                     break
     
-    # Extract the month from the current card using regex
-    match = re.search(r'<article class="update-card update-card-current">.*?<span class="update-month">(.*?)</span>', html, re.DOTALL)
+    if not monthly_section_title:
+        print("Could not find 'Mises à jour mensuelles' section.")
+        return
+
+    # The cards are siblings after the h2, or in a container? 
+    # In the file: <h2...></h2> <article class="update-card" ...>
+    # They seem to be siblings of the h2 in the same parent section.
     
-    if match:
-        existing_month = match.group(1).strip()
-        print(f"Current section in HTML is: {existing_month}")
-        if existing_month == current_month_str:
-            is_same_month = True
+    # Find the first article card after the title
+    first_card = monthly_section_title.find_next_sibling('article', class_='update-card')
     
-    if is_same_month:
-        print(f"Same month ({current_month_str}). Appending to existing section.")
-        # Simple replacement - add after update-items div
-        marker = '<div class="update-items">'
-        if marker in html:
-            # Insert AFTER the marker
-            html = html.replace(marker, marker + new_html, 1)
+    current_card = None
+    if first_card:
+        # Check if it corresponds to the current month
+        month_span = first_card.find('span', class_='update-month')
+        if month_span and month_span.text.strip() == current_month_str:
+            current_card = first_card
+            print(f"Found existing card for {current_month_str}")
+    
+    if current_card:
+        # Append to existing card
+        items_container = current_card.find('div', class_='update-items')
+        if items_container:
+            # We need to prepend new items to the top of the items list in this card? 
+            # Or append? Usually specific updates are at the top.
+            # Parse new HTML fragment
+            new_items_soup = BeautifulSoup(new_html, 'html.parser')
+            # Insert at beginning of items_container
+            if items_container.contents:
+                items_container.insert(0, new_items_soup)
+            else:
+                items_container.append(new_items_soup)
     else:
-        print(f"New month detected ({current_month_str})! Creating new section.")
+        print(f"Creating new card for {current_month_str}")
         
-        # 1. Archive the old current section (if any)
-        # Remove 'update-card-current' class and 'Actuel' badge from the OLD current card
-        # Regex replacement to turn the first update-card-current into update-card
-        # and remove the "Actuel" badge inside it.
+        # 1. Demote old current card if it exists
+        if first_card and 'update-card-current' in first_card.get('class', []):
+            first_card['class'].remove('update-card-current')
+            # Remove "Actuel" badge
+            badge = first_card.find('span', class_='update-badge')
+            if badge:
+                badge.decompose()
         
-        # We process the file content. 
-        # First, find the start of the current card to ensure we edit the right one.
-        if match:
-             # We need to replace "update-card update-card-current" with "update-card" for the first occurrence
-             html = html.replace('class="update-card update-card-current"', 'class="update-card"', 1)
-             
-             # Remove the <span class="update-badge">Actuel</span> (first occurrence)
-             html = html.replace('<span class="update-badge">Actuel</span>', '', 1)
+        # 2. Create new card
+        new_card_html = f'''
+        <article class="update-card update-card-current">
+            <div class="update-header">
+                <span class="update-month">{current_month_str}</span>
+                <span class="update-badge">Actuel</span>
+            </div>
+            <div class="update-items">
+                {new_html}
+            </div>
+        </article>
+        '''
+        new_card_soup = BeautifulSoup(new_card_html, 'html.parser')
         
-        # 2. Create the new section
-        new_section = f'''<article class="update-card update-card-current">
-                            <div class="update-header"><span class="update-month">{current_month_str}</span><span
-                                    class="update-badge">Actuel</span></div>
-                            <div class="update-items">{new_html}
-                            </div>
-                        </article>'''
-        
-        # 3. Insert new section at the top of the list
-        # We look for the container header
-        insert_marker = '<h2 class="section-title-veille"><i data-lucide="calendar"></i>Mises à jour mensuelles</h2>'
-        if insert_marker in html:
-            html = html.replace(insert_marker, insert_marker + '\n' + new_section, 1)
-        
+        # 3. Insert after the title
+        monthly_section_title.insert_after(new_card_soup)
+
+    # Save changes
     with open(VEILLE_HTML, 'w', encoding='utf-8') as f:
-        f.write(html)
+        f.write(str(soup)) # soup.prettify() might mess up formatting, str() is safer for minor edits but check output
+        
     print(f"Updated veille.html with {len(new_articles)} new articles")
 
 def main():
-    print("🤖 Veille Bot - Starting...")
-    print(f"📅 {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print("Veille Bot - Starting...")
+    print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     
     # Load existing data
     data = load_existing_data()
@@ -255,25 +287,25 @@ def main():
     # Fetch all RSS feeds
     all_articles = []
     for source, url in RSS_SOURCES.items():
-        print(f"📡 Fetching {source}...")
+        print(f"Fetching {source}...")
         articles = fetch_rss(url, source)
         all_articles.extend(articles)
     
     # Fetch Twitter feeds via Nitter (links converted to twitter.com)
     for source, url in TWITTER_SOURCES.items():
-        print(f"🐦 Fetching {source}...")
+        print(f"Fetching {source} (Twitter)...")
         articles = fetch_rss(url, source, is_twitter=True)
         all_articles.extend(articles)
     
-    print(f"📥 Total fetched: {len(all_articles)} articles")
+    print(f"Total fetched: {len(all_articles)} articles")
     
     # Filter for AI content
     ai_articles = filter_ai_content(all_articles)
-    print(f"🎯 AI-related: {len(ai_articles)} articles")
+    print(f"AI-related: {len(ai_articles)} articles")
     
     # Find new articles
     new_articles = [a for a in ai_articles if a['link'] not in existing_links]
-    print(f"✨ New articles: {len(new_articles)}")
+    print(f"New articles: {len(new_articles)}")
     
     if new_articles:
         # Update data
@@ -285,7 +317,7 @@ def main():
     # Always update HTML with latest data (top 20)
     update_veille_html(data['articles'])
     
-    print("✅ Done!")
+    print("Done!")
     return len(new_articles)
 
 if __name__ == "__main__":

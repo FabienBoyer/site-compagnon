@@ -1,0 +1,147 @@
+ANALYSIS OF signets twitter 18 février.htm
+Total bookmarks found: 15
+==================================================
+
+ITEM #1
+Date: 2026-02-09T15:59:41.000Z
+Author: Stéphanie de Vanssay  @2vanssay · 9 févr.
+Link: https://x.com/2vanssay/status/2020890352429768821
+Content: [IA & Éducation] Parcours Pix IA obligatoires dès 2025-2026 : des contenus sérieux et utiles pour aborder biais, hallucinations et enjeux de l’ #IA ... mais sans formation des personnels et conditions matérielles, ils ne peuvent suffire !
+------------------------------
+ITEM #2
+Date: 2026-02-10T13:15:29.000Z
+Author: Fidel Navamuel @outilstice · 10 févr.
+Link: https://x.com/outilstice/status/2021211422009507882
+Content: Besoin d’expliquer une manip numérique à vos élèves… pour la 15e fois ?  
+Et si vous créiez un tuto vidéo automatisé en 2 minutes chrono ?
+Guidde le fait pour vous.
+    https:// outilstice.com/2023/02/guidde -creer-des-guides-et-tutos-en-ligne/ … 
+ #Pédagogie   #NumeriqueEducatif   #Prof   #TICE
+------------------------------
+ITEM #3
+Date: 2026-02-10T08:12:20.000Z
+Author: Fidel Navamuel @outilstice · 10 févr.
+Link: https://x.com/outilstice/status/2021135128932626545
+Content: Créer des activités H5P prend du temps… sauf quand une IA vous aide.
+Avec Caramel, vous générez quiz, textes à trous ou frises chrono à partir d’un simple cours.
+  Gratuit
+  Sans inscription
+  Données locales (RGPD OK)
+------------------------------
+ITEM #4
+Date: 2024-07-02T08:14:00.000Z
+Author: Benoit Raphael @benoitraphael · 2 juil. 2024
+Link: https://x.com/benoitraphael/status/1808051483117867127
+Content: L'IA sans y passer des heures ? C'est la promesse de Génération IA
+
+  17 500+ lecteurs nous font confiance
+  Guides, tutos, décryptages.. par un duo journaliste/ingénieur
+  Pour intégrer l'IA au quotidien
+  Et avec une touche d'humour
+
+Rejoignez-nous, on vous guide
+------------------------------
+ITEM #5
+Date: 2026-02-09T17:04:59.000Z
+Author: Le café pédagogique @cafepedagogique · 9 févr.
+Link: https://x.com/cafepedagogique/status/2020906787403190292
+Content: Un format rassurant et engageant : le postit pour créer une dynamique de lecture partagée de l’œuvre. Présentation par Antoine Marteil :  https:// cafepedagogique.net/2026/02/09/ant oine-marteil-quand-les-eleves-lisent-avec-des-post-it/ …
+------------------------------
+ITEM #6
+Date: 2026-02-09T07:18:43.000Z
+Author: Bernard Appy @bernardappy · 9 févr.
+Link: https://x.com/bernardappy/status/2020759251015065805
+Content: Form@PEx : Actions de l'enseignant et des élèves dans les cinq phases de l'enseignement explicite
+ http:// formapex.com/telechargement public/jury2024b.jpg …
+------------------------------
+ITEM #7
+Date: 2026-02-09T06:20:00.000Z
+Author: Enseigner la technologie avec le numérique @techno_edu_num · 9 févr.
+Link: https://x.com/techno_edu_num/status/2020744471240171694
+Content: [Veille]
+Découvrez le kit  #IA  du CP à la  e pour :
+  acculturer les équipes à l’ #IntelligenceArtificielle 
+  outiller les enseignants avec des scénarios pédagogiques
+  sensibiliser les élèves aux enjeux éthiques, environnementaux et sociétaux.
+   https:// pedagogie.ac-aix-marseille.fr/jcms/c_1149008 1/fr/kit-de-sensibilisation-a-l-ia …
+------------------------------
+ITEM #8
+Date: 2026-02-08T07:00:39.000Z
+Author: Le numérique au service de la Documentation @DOC_edu_num · 8 févr.
+Link: https://x.com/DOC_edu_num/status/2020392313038819346
+Content: [ #DimanchePodcast ]
+ "Un océan de données" de la  @CNIL 
+A destination des 11-15ans, parents,  enseignants, éducateurs.
+ Comprendre les usages numériques,
+ Apprendre à mieux protéger ses données personnelles et sa vie privée en ligne.
+ https:// video.cnil.fr/w/eAfTpsmb4meP o4RYK8ZdT9 …
+------------------------------
+ITEM #9
+Date: 2026-02-09T14:08:24.000Z
+Author: Fidel Navamuel @outilstice · 9 févr.
+Link: https://x.com/outilstice/status/2020862347871420435
+Content: Vos PDF de cours prennent la poussière ?
+Et si vous les transformiez en quiz interactifs en quelques minutes ?
+Caramel est un outil open source qui génère activités et exercices à partir de vos documents grâce à l’IA.
+------------------------------
+ITEM #10
+Date: 2026-02-09T10:41:45.000Z
+Author: Vittascience @Vittascience · 9 févr.
+Link: https://x.com/Vittascience/status/2020810344914977042
+Content: Et si vos textes prenaient enfin la parole ?  
+
+Découvrez notre nouvelle interface d’intelligence artificielle dédiée à la synthèse vocale, conçue pour donner vie à vos projets pédagogiques, créatifs ou expérimentaux.
+
+Vous pouvez, dès maintenant :
+
+  Générer des voix à partir
+------------------------------
+ITEM #11
+Date: 2026-02-09T11:28:44.000Z
+Author: Mark Kretschmann @mark_k · 9 févr.
+Link: https://x.com/mark_k/status/2020822166984372373
+Content: February 2026 is shaping up to be an exceptional month for AI  
+
+*  @Anthropic  Opus 4.6  
+*  @OpenAI  GPT-5.3-Codex  
+* Seedance 2.0  
+*  @GoogleDeepMind  Gemini 3 Pro GA (Expected ~Feb 10)
+* Seedream 5.0 (Expected mid-Feb)
+* Sonnet 5 (Expected mid-Feb)
+* GPT-5.3 (Expected ~Feb
+------------------------------
+ITEM #12
+Date: 2026-02-09T06:00:00.000Z
+Author: Enseigner les Lettres avec le numérique @Lettres_edu_num · 9 févr.
+Link: https://x.com/Lettres_edu_num/status/2020739440084390358
+Content: #IA  | Faire  #écrire 
+  « La réécriture à l’heure de l’IA : corriger pour progresser » – Un scénario  #Édubase   @AcademieNice  pour amener les élèves de 2de à enrichir leur écrit à l’aide de l’IA avec la plateforme d’assistance à l’écriture  #Écrivor 
+   https:// edubase.eduscol.education.fr/fiche/24028
+------------------------------
+ITEM #13
+Date: 2026-02-09T05:45:02.000Z
+Author: SOPHIAE @sophiaefrance · 9 févr.
+Link: https://x.com/sophiaefrance/status/2020735674085728436
+Content: Démystifier l’IA(G) en jouant ?  
+Ce jeu des 7 familles conçu par Learning lab-UO  @univ_orleans  introduit les concepts clés de l’ #IA  de façon ludique et collaborative pour mieux comprendre les IA génératives. 
+   https:// univ-orleans.fr/fr/learninglab -uo/le-lluo/intelligence-artificielle/la-decouverte-de-lintelligence-artificielle-le-jeu … 
+ #éducation   #jeu   #TICE   #pédagogie
+------------------------------
+ITEM #14
+Date: 2026-02-08T12:48:00.000Z
+Author: MathémaTICE @MathemaTICEel · 8 févr.
+Link: https://x.com/MathemaTICEel/status/2020479729338327049
+Content: Le n°98 est en ligne !
+Vincent Brault est confronté, comme beaucoup d’enseignants, aux défis pédagogiques de l’utilisation de l’IA par ses étudiants et il a bien l’intention de les relever ! Premier article d'une série de 3.  À suivre donc !
+
+ http:// bit.ly/4ks3HfN
+------------------------------
+ITEM #15
+Date: 2026-02-08T06:00:00.000Z
+Author: Enseigner les Lettres avec le numérique @Lettres_edu_num · 8 févr.
+Link: https://x.com/Lettres_edu_num/status/2020377050712883606
+Content: #IA  |  #EspritCritique 
+  Comment sensibiliser les élèves aux failles de l’IA ? Sur La Forge des Communs numériques, le  #ProjetAUDIT  propose 5 séquences pour leur permettre d’appréhender par eux-mêmes les biais de cet outil :
+
+   … https://intelligence-artificielle-esprit-critique-et -enseignement.forge.apps.education.fr/audit-ia/index .html …
+------------------------------

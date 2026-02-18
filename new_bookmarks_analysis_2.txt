@@ -1,0 +1,161 @@
+ANALYSIS OF signets twitter 18 février 2.htm
+Total bookmarks found: 20
+==================================================
+
+ITEM #1
+Date: 2026-02-18T06:49:18.000Z
+Author: Fabien SEO  @fabienr34 · 1h
+Link: https://x.com/fabienr34/status/2024013335432216650
+Content: NotebookLM vient d’activer deux fonctionnalités très demandées, ce qui transforme profondément son utilisation dans les contextes éducatifs et professionnels.
+
+La première est particulièrement intéressante : la révision de présentations par prompt. Il suffit désormais d’indiquer
+------------------------------
+ITEM #2
+Date: 2026-02-18T06:33:49.000Z
+Author: Gérald Tirot @TirotG · 1h
+Link: https://x.com/TirotG/status/2024009440366674091
+Content: L’intelligence artificielle oblige-t-elle à repenser la définition essentielle de l’ #autonomie  ? Qu’est-ce que cela change pour le monde de la  #formation  ?
+ @StephaneDIEB
+------------------------------
+ITEM #3
+Date: 2026-02-17T21:45:36.000Z
+Author: Olivier Heckendorn @o_heckendorn · 10h
+Link: https://x.com/o_heckendorn/status/2023876512207016433
+Content: J'ai passé un peu de temps à regarder le papier sur  HalluHard (Fan et al., 2026) et ça m'a donné envie de poser quelques questions à voix haute. 
+
+30% d'hallucination, c'est aussi 70% de réussite sur des tâches expertes en quelques secondes. Le juge et le modèle partagent le
+------------------------------
+ITEM #4
+Date: 2026-02-18T07:00:53.000Z
+Author: Gérald Tirot @TirotG · 51 min
+Link: https://x.com/TirotG/status/2024016251450741238
+Content: La Faculté des sciences de l’ #éducation  de  @universitelaval  propose sur la  #plateforme  de  #formation  «  #BRIO  », dans le cadre du projet  #URIAGe  (Usage Raisonné et éthique de l’ #IA  Générative), une formation ouverte à tous et gratuite.
+ #edutwitter   #eduX
+------------------------------
+ITEM #5
+Date: 2026-02-17T16:33:11.000Z
+Author: Gisa w'I Rwanda @EmmyGisa3 · 15h
+Link: https://x.com/EmmyGisa3/status/2023797886295961939
+Content: DIY laptop stand from a hanger.
+------------------------------
+ITEM #6
+Date: 2026-02-17T20:04:59.000Z
+Author: NotebookLM @NotebookLM · 11h
+Link: https://x.com/NotebookLM/status/2023851190102986970
+Content: Because you wouldn’t let it slide… these are rolling out today for our most requested feature:
+
+Prompt-Based Revisions: Tweak, tailor, and tune your slides just by prompting the revisions you want
+
+PPTX Support: You can now export your Slide Decks (Google Slides coming next!)
+------------------------------
+ITEM #7
+Date: 2026-02-17T20:14:02.000Z
+Author: Dr Jérôme BARRIERE, MD. @barriere_dr · 11h
+Link: https://x.com/barriere_dr/status/2023853467220021632
+Content: Une étude publiée dans  @Nature  analyse l'impact de l'IA sur la recherche scientifique, révélant que les scientifiques assistés par l'IA publient 3,02 fois plus d'articles et reçoivent 4,84 fois plus de citations que leurs pairs. 
+
+La première donnée suggère que la productivité
+------------------------------
+ITEM #8
+Date: 2026-02-17T18:02:24.000Z
+Author: Nicolas Hervieu @N_Hervieu · 13h
+Link: https://x.com/N_Hervieu/status/2023820339143376925
+Content: Université & intelligence artificielle : En référé,  le refus de sanctionner une étudiante (en droit) qui aurait rédigé son mémoire de Master avec l'IA n'est pas suspendu.
+
+Faute pour l'Université d'avoir fixé des règles qui encadrent l'utilisation de l'IA par les étudiants...
+------------------------------
+ITEM #9
+Date: 2026-02-17T07:00:06.000Z
+Author: Mike Codeur @MikeCodeur · 17 févr.
+Link: https://x.com/MikeCodeur/status/2023653668101521765
+Content: Anthropic vient de publier un guide de 33 pages sur une feature de Claude Code dont personne ne parle : les Skills.
+
+Pas un article de blog. Un vrai guide technique, avec des patterns, des exemples, et une méthodologie complète.
+
+J'ai tout lu. Tout testé. Et j'ai construit 24
+------------------------------
+ITEM #10
+Date: 2026-02-16T10:41:06.000Z
+Author: Enseigner la physique-chimie avec le numérique @physchi_edu_num · 16 févr.
+Link: https://x.com/physchi_edu_num/status/2023346895788052679
+Content: Un nouvel outil à explorer pour développer les usages du numérique
+------------------------------
+ITEM #11
+Date: 2026-02-17T07:00:01.000Z
+Author: Enseigner les mathématiques avec le numérique @maths_edu_num · 17 févr.
+Link: https://x.com/maths_edu_num/status/2023653644869267776
+Content: La page  @Eduscol  sur l' #ia  recense des éléments de cadrage et des pistes d'utilisations en classe. Pour le 2nd degré, des scénarios pédagogiques issus de la plateforme  #Édubase  proposent une variété d'activités possibles
+------------------------------
+ITEM #12
+Date: 2026-02-17T10:26:09.000Z
+Author: Fabien @Fabien_Mikol · 21h
+Link: https://x.com/Fabien_Mikol/status/2023705522138980614
+Content: @AymericRoucher  sur la hausse de productivité et les pertes d'emploi avec l'IA: il restera des humains dans la boucle, mais comme il feront le travail de 20 personnes on n'aura plus besoin des 19 autres ; on s'est moqué de Dario Amodei mais il avait raison sur le métier de codeur
+------------------------------
+ITEM #13
+Date: 2026-02-16T18:52:11.000Z
+Author: Gérald Tirot @TirotG · 16 févr.
+Link: https://x.com/TirotG/status/2023470478984417300
+Content: Enseignant de physique-chimie,  @RomBourdel  explore depuis plusieurs mois les usages concrets de l’ #IA  au service des  #enseignants  et des  #élèves . Une démarche qu’il est venu présenter au salon  @educatechexpo .
+ @aurelie_julien   @ludomag 
+ #edutwitter   #eduX
+------------------------------
+ITEM #14
+Date: 2026-02-16T12:30:25.000Z
+Author: nsi.xyz  @nsi_xyz · 16 févr.
+Link: https://x.com/nsi_xyz/status/2023374406559436959
+Content: Gemini 3 pro est capable d'écrire directement le corrigé sur l'image du sujet.
+------------------------------
+ITEM #15
+Date: 2026-02-16T15:02:52.000Z
+Author: nsi.xyz  @nsi_xyz · 16 févr.
+Link: https://x.com/nsi_xyz/status/2023412769907786012
+Content: Une élève a peiné à m'expliquer sa correction, assisté par IA, et surtout non reproductible.
+Ni une, ni deux, j'ai demandé à l'IA une analyse et par un tour de magie secret j'ai orienté son analyse.  
+ https:// gemini.google.com/share/2da9e146 93d7 …
+------------------------------
+ITEM #16
+Date: 2026-02-15T22:49:19.000Z
+Author: Géographe refoulé  @DobryHoruze · 15 févr.
+Link: https://x.com/DobryHoruze/status/2023167771060686978
+Content: Mais certains ont utilisé l'outil.. sans donner l'ensemble des critères. Mais je trouve ca vraiment dommage.. car pour le coup la grande majorité de mes élèves ont joué le jeu..
+------------------------------
+ITEM #17
+Date: 2026-02-15T22:53:52.000Z
+Author: Géographe refoulé  @DobryHoruze · 15 févr.
+Link: https://x.com/DobryHoruze/status/2023168914885157372
+Content: J'en donne que 2 dans l'année: une cartographie (l'I.A est encore nulle surtout sur des travaux inédits).. et une remédiation d'un développement construit : la plupart joue vraiment le jeu (car lire mes commentaires, leur production et le cours.. ça fait beaucoup à donner à l'IA)
+------------------------------
+ITEM #18
+Date: 2026-02-15T15:30:37.000Z
+Author: Wasim @WasimShips · 15 févr.
+Link: https://x.com/WasimShips/status/2023057366904631685
+Content: This Reddit user shared his Ultimate $0 Stack
+
+Bookmark to RIGHT NOW !
+
+1. IDE - Google's AntiGravity (100% free + higher access if you use student ID)
+2. Al Documentation - SuperDocs (100% free & open source)
+3. Database - Supabase (Nano plan free, enough for basic needs)
+4.
+------------------------------
+ITEM #19
+Date: 2026-02-14T17:56:40.000Z
+Author: 1PEparmidautres @1peparmidautres · 14 févr.
+Link: https://x.com/1peparmidautres/status/2022731731602936169
+Content: THREAD
+Apprendre l'IA à mes élèves de CM2 avec des robots.
+Pas de la théorie. Du concret.
+10 séances, 6 robots, 12 iPad.
+
+ #IA   #Robotique   #CM2   #canva  
+Voici ce que j’ai prévu
+------------------------------
+ITEM #20
+Date: 2026-02-15T14:51:17.000Z
+Author: Jean-Paul K. Tsasa @paul_tsasa · 15 févr.
+Link: https://x.com/paul_tsasa/status/2023047467718119756
+Content: Dès l’année prochaine, j’autoriserai mes étudiants à utiliser librement l’intelligence artificielle dans le cadre de tous mes cours (~de mathématiques et d’économétrie)*. 
+
+2/ L’année passée, j’avais longuement réfléchi au cadre pédagogique et méthodologique qui permettrait de
+------------------------------
