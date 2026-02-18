@@ -393,6 +393,57 @@
     box-shadow: var(--shadow-md);
 }
 
+/* Image jointe au prompt (input) */
+.prompt-image-wrapper {
+    margin: 0;
+    padding: 1rem 1.25rem;
+    background: var(--color-bg-secondary);
+    border-top: 1px solid var(--color-border);
+}
+
+.prompt-image-label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.prompt-image-label i {
+    width: 14px;
+    height: 14px;
+}
+
+.prompt-input-image {
+    max-width: 100%;
+    max-height: 400px;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow-md);
+    display: block;
+    cursor: zoom-in;
+    transition: transform 0.2s ease;
+}
+
+.prompt-input-image:hover {
+    transform: scale(1.01);
+}
+
+/* Placeholder quand image non disponible */
+.response-image-placeholder {
+    padding: 1rem;
+    background: var(--color-bg-secondary);
+    border: 1px dashed var(--color-border);
+    border-radius: 0.5rem;
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    text-align: center;
+}
+
 /* =============================================================================
    RESPONSIVE
    ============================================================================= */

@@ -272,6 +272,11 @@
                     <h3 class="prompt-title">${prompt.title}</h3>
                     <span class="prompt-subject">${prompt.subject}</span>
                     <pre class="prompt-content">${escapeHtml(prompt.content)}</pre>
+                    ${prompt.image ? `
+                    <div class="prompt-image-wrapper">
+                        <span class="prompt-image-label"><i data-lucide="image"></i> Image jointe au prompt</span>
+                        <img src="${escapeHtml(prompt.image)}" alt="Image du prompt" class="prompt-input-image" loading="lazy">
+                    </div>` : ''}
                     ${responsesHTML}
                 `;
 
@@ -314,13 +319,18 @@
 
         // Render output - detect images vs text
         function renderOutput(output) {
-            // Check if output is an image URL
-            if (/^https?:\/\/.+\.(png|jpg|jpeg|gif|webp|svg)(\?.*)?$/i.test(output.trim())) {
-                return `<img src="${escapeHtml(output.trim())}" alt="Réponse IA" class="response-image" loading="lazy">`;
+            const trimmed = output.trim();
+            // Check if output is an image URL (external)
+            if (/^https?:\/\/.+\.(png|jpg|jpeg|gif|webp|svg)(\?.*)?$/i.test(trimmed)) {
+                return `<img src="${escapeHtml(trimmed)}" alt="Réponse IA" class="response-image" loading="lazy">`;
             }
-            // Check if output is a local image path
-            if (/^(assets|images|data)\/.*\.(png|jpg|jpeg|gif|webp|svg)$/i.test(output.trim())) {
-                return `<img src="${escapeHtml(output.trim())}" alt="Réponse IA" class="response-image" loading="lazy">`;
+            // Check if output is a local image path (data/images/, assets/, images/)
+            if (/^(data\/images|assets|images)\/[^\s]+\.(png|jpg|jpeg|gif|webp|svg)$/i.test(trimmed)) {
+                return `<img src="${escapeHtml(trimmed)}" alt="Réponse IA" class="response-image" loading="lazy">`;
+            }
+            // Placeholder text for missing images
+            if (/^\[image/i.test(trimmed)) {
+                return `<div class="response-image-placeholder"><i>🖼️ Image non disponible — à ajouter dans data/images/</i></div>`;
             }
             // Otherwise render as markdown
             return marked.parse(output);
