@@ -106,8 +106,8 @@
 
 ### Phase 2 - Enrichissement disciplinaire (2-3h)
 4. ✅ Créer une fiche **"Écrire avec l'IA au collège"** dans `disciplines.html`
-5. ✅ Ajouter les ressources **Café Pédagogique** à `formation.html`
-6. ✅ Renforcer section **TraAM** dans `formation.html`
+5. ✅ Ajouter les ressources **Café Pédagogique** à `formation.html` (Via section Théodore Carloux)
+6. ✅ Renforcer section **TraAM** dans `disciplines.html` (Lettres, Physique)
 
 ### Phase 3 - Contenu éditorial (optionnel, 3-5h)
 7. 📝 Rédiger un article dédié **"Correction automatisée : opportunité ou dérive ?"**
@@ -115,16 +115,16 @@
 
 ---
 
-## 🔗 Liens à récupérer
+## 🔗 Liens à récupérer (Traités)
 
-| Ressource | URL à vérifier/nettoyer |
-|-----------|-------------------------|
-| Caramel | https://cartographie.forge.apps.education.fr/caramel/ |
-| Rappels mémoriels | https://primabord.eduscol.education.fr/planifier-facilement-les-rappels-memoriels |
-| Article écriture collège | https://cafepedagogique.net/2026/01/19/theodore-carloux-ecrire-en-college-a-lheure-de-lia/ |
-| 13 ressources | https://cafepedagogique.net/2026/01/17/13-ressources-pedagogiques-mises-en-avant-par-le-cafe-pedagogique/ |
-| Mathix RGPD | https://mathix.org/linux/archives/21891 |
-| Infographie SOPHIAE | https://x.com/sophiaefrance/status/2013125532158718267 (tweet avec image) |
+| Ressource | URL | État |
+|-----------|-----|------|
+| Caramel | https://cartographie.forge.apps.education.fr/caramel/ | ✅ Fait (Outils)|
+| Rappels mémoriels | https://primabord.eduscol.education.fr/planifier-facilement-les-rappels-memoriels | ✅ Fait (Outils)|
+| Article écriture collège | https://cafepedagogique.net/2026/01/19/theodore-carloux-ecrire-en-college-a-lheure-de-lia/ | ✅ Fait (Disciplines)|
+| 13 ressources | https://cafepedagogique.net/2026/01/17/13-ressources-pedagogiques-mises-en-avant-par-le-cafe-pedagogique/ | ✅ Fait (Formation)|
+| Mathix RGPD | https://mathix.org/linux/archives/21891 | ✅ Fait (Éthique)|
+| Infographie SOPHIAE | https://x.com/sophiaefrance/status/2013125532158718267 (tweet avec image) | ⏳ À faire|
 
 ---
 
@@ -136,9 +136,9 @@
 
 Source : `signets twitter 18 février 2.htm` (20 items analysés). Pas de doublons avec le Batch 1.
 
-### 🎯 Fortement prioritaire (Batch 2)
+### 🎯 Fortement prioritaire (Batch 2) - FAIT
 
-#### 1. **Outils pédagogiques**
+#### 1. **Outils pédagogiques** - ✅ TRAITÉ
 - **NotebookLM : Révisions par prompt & Slides** 
   - Source : NotebookLM officiel + Fabien SEO
   - Action : Ajouter note "Nouveauté Février 2026" dans `outils.html` (NotebookLM) ou `veille.html`
@@ -146,6 +146,8 @@ Source : `signets twitter 18 février 2.htm` (20 items analysés). Pas de doublo
   - Source : Fidel Navamuel / Vittascience
   - Note : Caramel et Guidde déjà identifiés, Vittascience (TTS) à ajouter.
   - Action : Ajouter **Vittascience (Synthèse vocale)** à `outils.html`.
+- **Poe & ComparIA** : ✅ Ajoutés (Outils majeurs).
+- **Nolej** : ✅ Ajouté.
 
 #### 2. **Ressources / Formation**
 - **Kit IA du CP à la 3e** (Académie Aix-Marseille)
@@ -161,7 +163,7 @@ Source : `signets twitter 18 février 2.htm` (20 items analysés). Pas de doublo
   - URL : `https://univ-orleans.fr/.../la-decouverte-de-lintelligence-artificielle-le-jeu`
   - Action : Ajouter à `formation.html` (Section "Ludification").
 
-### 📚 Enrichissement disciplinaire (Batch 2)
+### 📚 Enrichissement disciplinaire (Batch 2) - ✅ TRAITÉ
 
 - **Primaire (CM2)** : Robots et IA (10 séances)
   - Source : @1peparmidautres
@@ -174,7 +176,7 @@ Source : `signets twitter 18 février 2.htm` (20 items analysés). Pas de doublo
   - Gemini 3 Pro pour correction (NSI)
   - Action : Ajouter liens dans `disciplines.html`.
 
-### ⚖️ Veille & Éthique (Batch 2)
+### ⚖️ Veille & Éthique (Batch 2) - ✅ TRAITÉ
 
 - **Juridique** : Refus de sanctionner une étudiante (Nicolas Hervieu)
   - Action : Ajouter encart "Jurisprudence" dans `ethique.html` (Cadre réglementaire).
@@ -182,4 +184,4 @@ Source : `signets twitter 18 février 2.htm` (20 items analysés). Pas de doublo
   - Action : Ajouter à `veille.html`.
 - **Enseignement Sup** : Politique "IA Autorisée" (Jean-Paul K. Tsasa)
   - Action : Exemple de charte/politique dans `ethique.html`.
-
+- **RGPD** : ✅ Ajouté article Mathix.
