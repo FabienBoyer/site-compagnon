@@ -62,7 +62,7 @@ site-compagnon/
 - [x] Footer avec compteur GoatCounter (privacy-friendly)
 - [x] Mode sombre / clair
 - [x] Design responsive mobile
-- [x] Page `conversations.html` : bibliothèque de prompts avec filtres, affichage des réponses IA en Markdown, support images
+- [x] Page `conversations.html` : bibliothèque de prompts avec filtres intelligents (Discipline auto-déduite), affichage des réponses IA en Markdown, support images
 - [x] Page `veille.html` : veille mensuelle avec cartes d'articles
 - [x] Page `outils.html` : outils IA (NotebookLM, Vittascience, Guidde, etc.)
 - [x] Page `disciplines.html` : ressources par discipline (Premier Degré, Lettres, Sciences...)
