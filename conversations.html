@@ -87,9 +87,20 @@
                         </select>
                     </div>
                     <div class="filter-group">
-                        <label for="filter-subject">Matière</label>
+                        <label for="filter-discipline">Discipline (Déduit)</label>
+                        <select id="filter-discipline">
+                            <option value="">Toutes les disciplines</option>
+                            <option value="Lettres">Lettres & Langues</option>
+                            <option value="Histoire-Géo">Histoire-Géo & SES</option>
+                            <option value="Philo">Philosophie & Culture</option>
+                            <option value="Sciences">Sciences & Maths</option>
+                            <option value="Transversal">Transversal / Pédagogie</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="filter-subject">Thème</label>
                         <select id="filter-subject">
-                            <option value="">Toutes les matières</option>
+                            <option value="">Tous les thèmes</option>
                         </select>
                     </div>
                     <div class="filter-group">
@@ -339,12 +350,16 @@
         // Filter prompts
         function filterPrompts() {
             const part = document.getElementById('filter-part').value;
+            const discipline = document.getElementById('filter-discipline').value;
             const subject = document.getElementById('filter-subject').value;
             const tested = document.getElementById('filter-tested').value;
             const search = document.getElementById('filter-search').value.toLowerCase();
 
             const filtered = allPrompts.filter(p => {
+                const pDiscipline = getDiscipline(p);
+
                 const matchPart = !part || p.part === part;
+                const matchDiscipline = !discipline || pDiscipline === discipline;
                 const matchSubject = !subject || p.subject === subject;
                 const matchTested = !tested ||
                     (tested === 'tested' && arenaResults[p.id]) ||
@@ -352,15 +367,41 @@
                 const matchSearch = !search ||
                     p.title.toLowerCase().includes(search) ||
                     p.content.toLowerCase().includes(search) ||
-                    p.chapter.toLowerCase().includes(search);
-                return matchPart && matchSubject && matchTested && matchSearch;
+                    p.chapter.toLowerCase().includes(search) ||
+                    (p.subject && p.subject.toLowerCase().includes(search));
+
+                return matchPart && matchDiscipline && matchSubject && matchTested && matchSearch;
             });
 
             renderPrompts(filtered);
+            document.getElementById('results-count').textContent = filtered.length;
+        }
+
+        // Helper: Déduire la discipline depuis le contenu du prompt
+        function getDiscipline(prompt) {
+            const text = (prompt.content + " " + prompt.title + " " + prompt.chapter + " " + (prompt.subject || "")).toLowerCase();
+
+            // Ordre de priorité important (du plus spécifique au plus général)
+
+            // Philosophie & Culture
+            if (text.match(/philosophie|philo|arts|littéraire|proust|musique|culture|débat|dissertation|épicurisme|stoïcisme|platon|aristote|hegel/)) return "Philo";
+
+            // Lettres & Langues
+            if (text.match(/lettres|français|anglais|espagnol|allemand|italien|latin|grec|langue|orthographe|grammaire|rédaction|poésie|conjugaison|vocabulaire|traduction/)) return "Lettres";
+
+            // Histoire-Géo & SES
+            if (text.match(/histoire|géographie|géo|ses|économie|sociale|politique|guerre|rome|japon|moyen-orient|carte|croquis|chronologie/)) return "Histoire-Géo";
+
+            // Sciences & Maths
+            if (text.match(/math|physique|chimie|svt|biologie|science|numérique|technologie|programmation|python|calcul|théorème|algebre|géométrie|mitose|chromosomes|énergie/)) return "Sciences";
+
+            // Par défaut
+            return "Transversal";
         }
 
         // Event listeners
         document.getElementById('filter-part').addEventListener('change', filterPrompts);
+        document.getElementById('filter-discipline').addEventListener('change', filterPrompts); // New event listener
         document.getElementById('filter-subject').addEventListener('change', filterPrompts);
         document.getElementById('filter-tested').addEventListener('change', filterPrompts);
         document.getElementById('filter-search').addEventListener('input', filterPrompts);
@@ -368,3 +409,4 @@
 </body>
 
 </html>
+```
