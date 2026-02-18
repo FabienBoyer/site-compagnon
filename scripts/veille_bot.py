@@ -68,7 +68,21 @@ EDUCATION_KEYWORDS = [
     "éducation", "enseignement", "pédagogie", "élève", "professeur",
     "classe", "cours", "apprentissage", "formation",
     "correction", "copies", "évaluation", "notation", "barème",
-    "feedback", "appréciation", "compétences"
+    "feedback", "appréciation", "compétences", "lycée", "collège",
+    "école", "université", "académique", "didactique", "enseignant"
+]
+
+BUSINESS_KEYWORDS = [
+    "crypto", "cryptomonnaie", "bitcoin", "nft", "blockchain",
+    "bourse", "stocks", "trading", "investisseur", "levée de fonds",
+    "fundraising", "startup", "licorne", "business", "marketing",
+    "seo", "vente", "revenu", "profit", "marché", "finance",
+    "banque", "assurance", "immobilier", "e-commerce", "publicité"
+]
+
+SPAM_KEYWORDS = [
+    "casino", "poker", "viagra", "crédit", "rencontre", "sex",
+    "porn", "arnaque", "betting", "gambling"
 ]
 
 def nitter_to_twitter(url: str) -> str:
@@ -114,23 +128,75 @@ def fetch_rss(url: str, source_name: str, is_twitter: bool = False) -> list:
         print(f"Error fetching {source_name}: {e}")
     return articles
 
+def calculate_score(article: dict) -> int:
+    """Calculate relevance score for an article"""
+    score = 0
+    text = (article.get('title', '') + " " + article.get('summary', '')).lower()
+    
+    # 1. Check Keywords
+    # AI Keywords (+5 points each, max 15)
+    ai_matches = sum(1 for kw in AI_KEYWORDS if kw in text)
+    score += min(ai_matches * 5, 15)
+    
+    # Education Keywords (+10 points each, max 30)
+    edu_matches = sum(1 for kw in EDUCATION_KEYWORDS if kw in text)
+    score += min(edu_matches * 10, 30)
+    
+    # Business Keywords (-20 points each)
+    biz_matches = sum(1 for kw in BUSINESS_KEYWORDS if kw in text)
+    score -= biz_matches * 20
+    
+    # Spam Keywords (-100 points each)
+    spam_matches = sum(1 for kw in SPAM_KEYWORDS if kw in text)
+    score -= spam_matches * 100
+    
+    # 2. Source Bonus/Malus
+    source = article.get('source', '')
+    if "OpenAI" in source or "Google" in source or "Anthropic" in source:
+        # Technical blogs provided they talk about new models are relevant
+        # but could be business-oriented. We trust them a bit more on AI relevance.
+        score += 5
+    elif "Perdir" in source:
+        # Curated source, highly trusted
+        score += 20
+        
+    return score
+
 def filter_ai_content(articles: list) -> list:
-    """Filter articles related to AI"""
+    """Filter articles based on score"""
     filtered = []
+    seen_titles = set()
+    
+    print(f"Filtering {len(articles)} articles...")
+    
     for article in articles:
-        text = f"{article['title']} {article['summary']}".lower()
+        # Deduplication
+        title_slug = re.sub(r'\W+', '', article['title'].lower())
+        if title_slug in seen_titles:
+            continue
+        seen_titles.add(title_slug)
         
-        # Check for AI keywords (Mandatory)
-        has_ai = any(kw in text for kw in AI_KEYWORDS)
+        # Scoring
+        score = calculate_score(article)
         
-        # Check for Education keywords (Optional context, but kept as requested)
-        has_edu = any(kw in text for kw in EDUCATION_KEYWORDS)
+        # Threshold logic
+        # Default threshold is 10
+        # This means:
+        # - 1 Edu keyword (10) = Pass
+        # - 2 AI keywords (10) = Pass
+        # - 1 AI + 1 Edu (15) = Pass
+        # - 1 AI (5) = Fail
+        # - 1 Edu + 1 Business (10-20 = -10) = Fail
         
-        # Logic: Must have AI keywords. 
-        # Education keywords alone are not enough (avoids generic education news),
-        # but they are preserved in the codebase for potential future scoring/tagging.
-        if has_ai:
+        # For trusted sources (Perdir), they get +20 bonus so they almost always pass unless spam
+        
+        if score >= 10:
+            # print(f"  [KEEP] Score {score}: {article['title']}") # Debug
             filtered.append(article)
+        else:
+            # print(f"  [DROP] Score {score}: {article['title']}") # Debug
+            pass
+            
     return filtered
 
 def load_existing_data() -> dict:
