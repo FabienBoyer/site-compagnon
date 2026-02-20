@@ -93,7 +93,14 @@ site-compagnon/
 ### 1. Analyse Nouveaux Signets (20 Février)
 - Analyser `bookmarks 20 février.htm` pour en extraire des nouveautés à intégrer (prévu pour la prochaine session).
 
-### 2. Images dans les conversations
+### 2. Double Chatbot : Local vs NotebookLM
+- **Objectif pédagogique** : Permettre aux utilisateurs de comparer la puissance d'un modèle open-source léger (Mistral sur Hugging Face) avec un modèle propriétaire lourd (Gemini Pro via NotebookLM).
+- **Implémentation prévue** :
+  - Créer un NotebookLM public basé sur le livre.
+  - Ajouter un lien/bouton clair sur la page `chatbot.html` proposant cette alternative "Premium".
+  - **Crucial** : Ajouter un disclaimer expliquant pourquoi on propose un outil fermé (nécessitant un compte Google) en opposition à la philosophie open-source du livre, en justifiant par l'intérêt pédagogique de la comparaison des capacités.
+
+### 3. Images dans les conversations
 - Support ajouté dans `conversations.html` pour :
   - Champ `image` dans le JSON (image jointe au prompt)
   - Réponse image via chemin `data/images/xxx.png`
@@ -101,7 +108,7 @@ site-compagnon/
 - **À faire** : ajouter les images manquantes dans `data/images/` et mettre à jour `arena-results.json`
 - Convention de nommage : `[id]_input.png`, `[id]_outputA_[modele].png`, `[id]_outputB_[modele].png`
 
-### 3. Enrichissement arena-results.json
+### 4. Enrichissement arena-results.json
 - Continuer à collecter des réponses IA via `arena-collector.html`
 - Ajouter les images générées par les modèles (Hunyuan, DALL-E, etc.)
 
