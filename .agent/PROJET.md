@@ -70,7 +70,7 @@ site-compagnon/
 - [x] Page `ethique.html` : cadre légal enrichi (Jurisprudence Sanction, Article Mathix RGPD, Projet AUDIT...)
 - [x] Page `comparatif-ia.html` : comparatif IA images
 - [x] Chatbot RAG (Hugging Face, Mistral-Nemo-Instruct-2407 + fallback Mistral-7B)
-
+- [x] Intégration de la roadmap Twitter : ajout de nouveaux outils (Caramel, Guidde, Vittascience, etc.), fiches disciplines, veille, éthique et formation.
 ### Données
 - [x] `prompts.json` : tous les prompts du livre structurés
 - [x] `arena-results.json` : réponses IA collectées (Claude, GPT, Gemini, Grok, etc.)
@@ -80,7 +80,7 @@ site-compagnon/
 ### Automatisation
 - [x] Migration Zapier → GitHub Actions (`veille-update.yml`)
 - [x] `veille_bot.py` amélioré : BeautifulSoup, gestion mois, sans emojis (Windows-compatible)
-- [x] Veille auto quotidienne via GitHub Actions
+- [x] Veille auto quotidienne via GitHub Actions (dépendances corrigées le 20 fév)
 
 ### Outils internes
 - [x] `arena-collector.html` : outil de collecte des réponses IA (export JSON)
@@ -90,9 +90,8 @@ site-compagnon/
 
 ## 🚧 En cours / Priorités
 
-### 1. Finalisation Intégration Signets Twitter
-- Roadmap : `ROADMAP_SIGNETS_TWITTER.md`
-- **État** : Complète ✅. Toutes les ressources pertinentes identifiées ont été intégrées (Outils, Disciplines, Éthique, Formation, Débuter, Veille).
+### 1. Analyse Nouveaux Signets (20 Février)
+- Analyser `bookmarks 20 février.htm` pour en extraire des nouveautés à intégrer (prévu pour la prochaine session).
 
 ### 2. Images dans les conversations
 - Support ajouté dans `conversations.html` pour :
