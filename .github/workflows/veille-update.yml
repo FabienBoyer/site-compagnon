@@ -23,7 +23,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install feedparser
+          pip install feedparser bs4
       
       - name: Run veille bot
         run: |
