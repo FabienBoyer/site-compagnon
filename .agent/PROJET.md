@@ -2,7 +2,7 @@
 > Auteur : Fabien Boyer  
 > Dépôt GitHub : https://github.com/FabienBoyer/site-compagnon  
 > Site en ligne : https://fabienboyer.github.io/site-compagnon/  
-> Dernière mise à jour de ce fichier : 2026-02-18
+> Dernière mise à jour de ce fichier : 2026-02-20
 
 ---
 
@@ -63,7 +63,7 @@ site-compagnon/
 - [x] Mode sombre / clair
 - [x] Design responsive mobile
 - [x] Page `conversations.html` : bibliothèque de prompts avec filtres intelligents (Discipline auto-déduite), affichage des réponses IA en Markdown, support images
-- [x] Page `veille.html` : veille mensuelle avec cartes filtrées par **scoring intelligent** (anti-spam, détection sujet)
+- [x] Page `veille.html` : veille mensuelle avec cartes filtrées par **scoring intelligent** (anti-spam, détection sujet) + Nouvelle intégration manuelle (Études OCDE/Tirot, NotebookLM)
 - [x] Page `outils.html` : outils IA enrichis (Poe, ComparIA, Nolej, NotebookLM, etc.)
 - [x] Page `disciplines.html` : ressources par discipline enrichies (Scénarios TraAM, Projets 1er degré, Lettres/Sciences...)
 - [x] Page `formation.html` : ressources de formation (Kit IA, Jeu 7 familles, Café Péda, TraAM...)
