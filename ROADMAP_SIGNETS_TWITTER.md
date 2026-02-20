@@ -124,7 +124,7 @@
 | Article écriture collège | https://cafepedagogique.net/2026/01/19/theodore-carloux-ecrire-en-college-a-lheure-de-lia/ | ✅ Fait (Disciplines)|
 | 13 ressources | https://cafepedagogique.net/2026/01/17/13-ressources-pedagogiques-mises-en-avant-par-le-cafe-pedagogique/ | ✅ Fait (Formation)|
 | Mathix RGPD | https://mathix.org/linux/archives/21891 | ✅ Fait (Éthique)|
-| Infographie SOPHIAE | https://x.com/sophiaefrance/status/2013125532158718267 (tweet avec image) | ⏳ À faire|
+| Infographie SOPHIAE | https://x.com/sophiaefrance/status/2013125532158718267 (tweet avec image) | ✅ Fait (Débuter)|
 
 ---
 
@@ -141,27 +141,27 @@ Source : `signets twitter 18 février 2.htm` (20 items analysés). Pas de doublo
 #### 1. **Outils pédagogiques** - ✅ TRAITÉ
 - **NotebookLM : Révisions par prompt & Slides** 
   - Source : NotebookLM officiel + Fabien SEO
-  - Action : Ajouter note "Nouveauté Février 2026" dans `outils.html` (NotebookLM) ou `veille.html`
+  - Action : ✅ Ajouté note "Nouveauté Février 2026" dans `outils.html` (NotebookLM) ou `veille.html`
 - **Caramel & Guidde & Vittascience**
   - Source : Fidel Navamuel / Vittascience
   - Note : Caramel et Guidde déjà identifiés, Vittascience (TTS) à ajouter.
-  - Action : Ajouter **Vittascience (Synthèse vocale)** à `outils.html`.
+  - Action : ✅ Ajouté **Vittascience (Synthèse vocale)** à `outils.html`.
 - **Poe & ComparIA** : ✅ Ajoutés (Outils majeurs).
 - **Nolej** : ✅ Ajouté.
 
-#### 2. **Ressources / Formation**
+#### 2. **Ressources / Formation** - ✅ TRAITÉ
 - **Kit IA du CP à la 3e** (Académie Aix-Marseille)
   - Source : @techno_edu_num
   - URL : `https://pedagogie.ac-aix-marseille.fr/.../kit-de-sensibilisation-a-l-ia`
-  - Action : Ajouter à `formation.html` (ou `debuter.html`).
+  - Action : ✅ Ajouté à `formation.html`.
 - **Projet AUDIT (Esprit Critique)** (La Forge)
   - Source : @Lettres_edu_num
   - URL : `https://intelligence-artificielle-esprit-critique-et-enseignement.forge.apps.education.fr/audit-ia/index.html`
-  - Action : Ajouter à `ethique.html` (Biais/Esprit critique).
+  - Action : ✅ Ajouté à `ethique.html` (Biais/Esprit critique).
 - **Jeu 7 Familles IA** (Univ Orléans)
   - Source : @sophiaefrance
   - URL : `https://univ-orleans.fr/.../la-decouverte-de-lintelligence-artificielle-le-jeu`
-  - Action : Ajouter à `formation.html` (Section "Ludification").
+  - Action : ✅ Ajouté à `formation.html` (Section "Ludification").
 
 ### 📚 Enrichissement disciplinaire (Batch 2) - ✅ TRAITÉ
 

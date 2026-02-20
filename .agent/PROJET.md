@@ -92,8 +92,7 @@ site-compagnon/
 
 ### 1. Finalisation Intégration Signets Twitter
 - Roadmap : `ROADMAP_SIGNETS_TWITTER.md`
-- **État** : Majorité des ressources intégrées (Outils, Disciplines, Éthique).
-- **Reste à faire** : Quelques ressources mineures (Infographie SOPHIAE, Kit IA 1er degré).
+- **État** : Complète ✅. Toutes les ressources pertinentes identifiées ont été intégrées (Outils, Disciplines, Éthique, Formation, Débuter, Veille).
 
 ### 2. Images dans les conversations
 - Support ajouté dans `conversations.html` pour :
