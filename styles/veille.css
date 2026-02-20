@@ -307,3 +307,275 @@
         font-size: 1.125rem;
     }
 }
+
+/* ========================================
+   BOOTSTRAP COMPATIBILITY LAYER
+   ======================================== */
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.pt-5 {
+    padding-top: 3rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+}
+
+.card-body {
+    padding: var(--spacing-lg);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+}
+
+.card-text {
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-md);
+}
+
+.shadow-sm {
+    box-shadow: var(--shadow-sm);
+}
+
+.border-top {
+    border-top: 1px solid var(--border-color);
+}
+
+.border-danger {
+    border-color: var(--color-error) !important;
+}
+
+.border-warning {
+    border-color: var(--color-warning) !important;
+}
+
+.bg-light {
+    background-color: var(--bg-tertiary) !important;
+    color: var(--text-primary);
+}
+
+.bg-primary {
+    background-color: var(--color-primary) !important;
+    color: white;
+}
+
+.bg-success {
+    background-color: var(--color-success) !important;
+    color: white;
+}
+
+.bg-warning {
+    background-color: var(--color-warning) !important;
+    color: white;
+}
+
+.bg-danger {
+    background-color: var(--color-error) !important;
+    color: white;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.text-dark {
+    color: #1f2937 !important;
+}
+
+.text-muted {
+    color: var(--text-tertiary) !important;
+}
+
+.small {
+    font-size: 0.875rem;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+
+.btn-outline-primary {
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    background: transparent;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: var(--color-primary);
+}
+
+.btn-outline-secondary {
+    color: var(--text-secondary);
+    border: 1px solid var(--text-secondary);
+    background: transparent;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: var(--text-secondary);
+}
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+/* Accordion simplified */
+.accordion-item {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+
+.accordion-body {
+    padding: 1rem 1.25rem;
+}
+
+.collapse {
+    /* Using simple connection for now as JS is needed for full collapse */
+    display: block;
+}
+
+/* If using JS for collapse, we'd need more. For now, let's make them always open or use Details/Summary? 
+   Actually, the plan includes JS attributes like data-bs-toggle.
+   If I don't include Bootstrap JS, these buttons won't work.
+   I should probably implement a simple JS script for the accordion or use <details><summary>.
+   The plan uses <div class="accordion">.
+   I will add a small script in the HTML or use <details> tags instead.
+   <details> is safer for "Zero-code" solution if no JS library is guaranteed.
+   But the user plan explicitly gives the HTML.
+   I'll stick to the HTML and add a tiny script to toggle .collapse in `veille.html` or `accordion.js`.
+   Or I will just set .collapse { display: none; } and .collapse.show { display: block; } and add a script.
+*/
+.collapse {
+    display: none;
+}
+
+.collapse.show {
+    display: block;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-8,
+.col-md-4 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .col-md-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+
+    .col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
