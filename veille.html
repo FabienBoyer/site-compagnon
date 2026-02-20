@@ -1,947 +1,1040 @@
 <!DOCTYPE html>
 
 <html lang="fr">
-
 <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Veille et nouveautés - Enseigner avec l'IA</title>
-    <meta content="Actualités IA et mises à jour mensuelles." name="description" />
-    <link href="assets/favicon.svg" rel="icon" type="image/svg+xml" />
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;500;600&amp;display=swap"
-        rel="stylesheet" />
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-    <link href="styles/main.css" rel="stylesheet" />
-    <link href="styles/veille.css" rel="stylesheet" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Veille et nouveautés - Enseigner avec l'IA</title>
+<meta content="Actualités IA et mises à jour mensuelles." name="description"/>
+<link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<link href="styles/main.css" rel="stylesheet"/>
+<link href="styles/veille.css" rel="stylesheet"/>
 </head>
-
 <body>
-    <header class="header">
-        <nav class="nav-container">
-            <a class="logo" href="index.html"><span class="logo-icon">📚</span><span class="logo-text">Enseigner avec
+<header class="header">
+<nav class="nav-container">
+<a class="logo" href="index.html"><span class="logo-icon">📚</span><span class="logo-text">Enseigner avec
                     l'IA</span></a>
-            <button aria-label="Menu" class="mobile-menu-btn" id="mobile-menu-btn"><i data-lucide="menu"></i></button>
-            <ul class="nav-links" id="nav-links">
-                <li><a class="nav-link" href="index.html">Accueil</a></li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-dropdown" href="#">
+<button aria-label="Menu" class="mobile-menu-btn" id="mobile-menu-btn"><i data-lucide="menu"></i></button>
+<ul class="nav-links" id="nav-links">
+<li><a class="nav-link" href="index.html">Accueil</a></li>
+<li class="nav-item">
+<a class="nav-link nav-link-dropdown" href="#">
                         Comprendre
                         <i data-lucide="chevron-down"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                        <a href="debuter.html">Débuter avec l'IA</a>
-                        <a href="ethique.html">Cadre Légal &amp; Éthique</a>
-                        <a href="lexique.html">Lexique</a>
-                        <a href="formation.html">Formation</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-dropdown" href="#">
+</a>
+<div class="dropdown-menu">
+<a href="debuter.html">Débuter avec l'IA</a>
+<a href="ethique.html">Cadre Légal &amp; Éthique</a>
+<a href="lexique.html">Lexique</a>
+<a href="formation.html">Formation</a>
+</div>
+</li>
+<li class="nav-item">
+<a class="nav-link nav-link-dropdown" href="#">
                         Pratiquer
                         <i data-lucide="chevron-down"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                        <a href="outils.html">Outils &amp; Prompts</a>
-                        <a href="disciplines.html">Disciplines</a>
-                        <a href="conversations.html">Conversations du Livre</a>
-                        <a href="comparatif-ia.html">Comparatif IA Images</a>
-                    </div>
-                </li>
-                <li><a class="nav-link active" href="veille.html">Veille</a></li>
-            </ul>
-            <div class="nav-actions">
-                <button aria-label="Changer le thème" class="theme-toggle" id="theme-toggle">
-                    <i class="theme-icon-light" data-lucide="sun"></i>
-                    <i class="theme-icon-dark" data-lucide="moon"></i>
-                </button>
-                <a class="btn btn-primary" href="https://www.editions-ellipses.fr/" rel="noopener" target="_blank">
-                    <i data-lucide="shopping-cart"></i><span>Commander</span>
-                </a>
-            </div>
-        </nav>
-    </header>
-    <section class="page-header">
-        <div class="container">
-            <span class="section-badge"><i data-lucide="rss"></i>Actualités</span>
-            <h1 class="page-title">Veille & Actualités IA</h1>
-            <p class="page-subtitle">
+</a>
+<div class="dropdown-menu">
+<a href="outils.html">Outils &amp; Prompts</a>
+<a href="disciplines.html">Disciplines</a>
+<a href="conversations.html">Conversations du Livre</a>
+<a href="comparatif-ia.html">Comparatif IA Images</a>
+</div>
+</li>
+<li><a class="nav-link active" href="veille.html">Veille</a></li>
+</ul>
+<div class="nav-actions">
+<button aria-label="Changer le thème" class="theme-toggle" id="theme-toggle">
+<i class="theme-icon-light" data-lucide="sun"></i>
+<i class="theme-icon-dark" data-lucide="moon"></i>
+</button>
+<a class="btn btn-primary" href="https://www.editions-ellipses.fr/" rel="noopener" target="_blank">
+<i data-lucide="shopping-cart"></i><span>Commander</span>
+</a>
+</div>
+</nav>
+</header>
+<section class="page-header">
+<div class="container">
+<span class="section-badge"><i data-lucide="rss"></i>Actualités</span>
+<h1 class="page-title">Veille &amp; Actualités IA</h1>
+<p class="page-subtitle">
                 Les dernières avancées en IA et éducation, mises à jour régulièrement.
                 Ces ressources complètent le livre avec les évolutions récentes.
             </p>
-            <div class="alert alert-info" style="max-width: 600px; margin: 2rem auto 0;">
-                <strong>🆕 Mis à jour :</strong> Février 2026 — 4 nouvelles ressources majeures
+<div class="alert alert-info" style="max-width: 600px; margin: 2rem auto 0;">
+<strong>🆕 Mis à jour :</strong> Février 2026 — 4 nouvelles ressources majeures
             </div>
-        </div>
-    </section>
-    <main class="veille-main">
-        <div class="container">
-            <div class="veille-layout">
-                <div class="veille-content">
-
-                    <!-- SECTION FEVRIER 2026 MAJOR RESOURCES -->
-                    <section class="mb-5" id="fevrier-2026">
-                        <h2>Février 2026 : Ressources Majeures</h2>
-                        <p>Quatre avancées significatives qui impactent l'enseignement avec l'IA</p>
-
-                        <!-- Card 1 : Souveraineté cognitive -->
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h3 class="card-title mb-0">🧠 La souveraineté cognitive de l'élève</h3>
-                                    <span class="badge bg-primary">Philosophie</span>
-                                </div>
-                                <p class="text-muted small">Stéphane Diebold • AFFEN • Janvier 2026</p>
-                                <p class="card-text mt-3">
+</div>
+</section>
+<main class="veille-main">
+<div class="container">
+<div class="veille-layout">
+<div class="veille-content">
+<!-- SECTION FEVRIER 2026 MAJOR RESOURCES -->
+<section class="mb-5" id="fevrier-2026">
+<h2>Février 2026 : Ressources Majeures</h2>
+<p>Quatre avancées significatives qui impactent l'enseignement avec l'IA</p>
+<!-- Card 1 : Souveraineté cognitive -->
+<div class="card mb-4 shadow-sm">
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h3 class="card-title mb-0">🧠 La souveraineté cognitive de l'élève</h3>
+<span class="badge bg-primary">Philosophie</span>
+</div>
+<p class="text-muted small">Stéphane Diebold • AFFEN • Janvier 2026</p>
+<p class="card-text mt-3">
                                     L'autonomie classique (Descartes, Kant) ne suffit plus à l'ère de l'IA.
                                     Le philosophe Bernard Stiegler propose le concept de <strong>souveraineté
                                         cognitive</strong> :
                                     reprendre le contrôle sur son attention, ses désirs et sa réflexivité.
                                 </p>
-                                <p class="card-text">
-                                    <strong>Les 3 piliers :</strong>
-                                </p>
-                                <ul>
-                                    <li><strong>Souveraineté attentionnelle</strong> — Résister à la fragmentation
+<p class="card-text">
+<strong>Les 3 piliers :</strong>
+</p>
+<ul>
+<li><strong>Souveraineté attentionnelle</strong> — Résister à la fragmentation
                                         cognitive</li>
-                                    <li><strong>Souveraineté du désir</strong> — Distinguer désir intériorisé vs
+<li><strong>Souveraineté du désir</strong> — Distinguer désir intériorisé vs
                                         prescrit</li>
-                                    <li><strong>Métacognition</strong> — Penser sa pensée, garder la capacité de
+<li><strong>Métacognition</strong> — Penser sa pensée, garder la capacité de
                                         jugement</li>
-                                </ul>
-                                <div class="mt-3">
-                                    <a href="#souverainete-cognitive" class="btn btn-outline-primary btn-sm">
+</ul>
+<div class="mt-3">
+<a class="btn btn-outline-primary btn-sm" href="#souverainete-cognitive">
                                         Lire l'analyse complète ↓
                                     </a>
-                                    <a href="https://affen.fr/pedagogie/lautonomie-de-lapprenant-est-elle-encore-possible-la-reponse-de-la-souverainete-cognitive/"
-                                        class="btn btn-outline-secondary btn-sm" target="_blank">
+<a class="btn btn-outline-secondary btn-sm" href="https://affen.fr/pedagogie/lautonomie-de-lapprenant-est-elle-encore-possible-la-reponse-de-la-souverainete-cognitive/" target="_blank">
                                         Article original →
                                     </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 2 : OCDE -->
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h3 class="card-title mb-0">📊 Indicateurs OCDE sur les capacités de l'IA</h3>
-                                    <span class="badge bg-success">Institutionnel</span>
-                                </div>
-                                <p class="text-muted small">OCDE • Juin 2025 • 100+ experts</p>
-                                <p class="card-text mt-3">
+</div>
+</div>
+</div>
+<!-- Card 2 : OCDE -->
+<div class="card mb-4 shadow-sm">
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h3 class="card-title mb-0">📊 Indicateurs OCDE sur les capacités de l'IA</h3>
+<span class="badge bg-success">Institutionnel</span>
+</div>
+<p class="text-muted small">OCDE • Juin 2025 • 100+ experts</p>
+<p class="card-text mt-3">
                                     Premier cadre international pour évaluer les capacités de l'IA par rapport
                                     aux capacités humaines sur 9 domaines : langage, raisonnement, perception,
                                     interaction sociale, manipulation manuelle.
                                 </p>
-                                <p class="card-text">
-                                    <strong>Chiffres clés (janvier 2026) :</strong>
-                                </p>
-                                <ul>
-                                    <li><strong>75% des étudiants 16+</strong> ont utilisé l'IA générative en 2025</li>
-                                    <li><strong>1/3 des individus OCDE</strong> utilisent l'IA générative</li>
-                                    <li><strong>20,2% des entreprises</strong> utilisent l'IA (vs 8,7% en 2023)</li>
-                                    <li><strong>Écart d'âge : 53,6 points</strong> (plus forte disparité)</li>
-                                </ul>
-                                <div class="mt-3">
-                                    <a href="#ocde-indicateurs" class="btn btn-outline-primary btn-sm">
+<p class="card-text">
+<strong>Chiffres clés (janvier 2026) :</strong>
+</p>
+<ul>
+<li><strong>75% des étudiants 16+</strong> ont utilisé l'IA générative en 2025</li>
+<li><strong>1/3 des individus OCDE</strong> utilisent l'IA générative</li>
+<li><strong>20,2% des entreprises</strong> utilisent l'IA (vs 8,7% en 2023)</li>
+<li><strong>Écart d'âge : 53,6 points</strong> (plus forte disparité)</li>
+</ul>
+<div class="mt-3">
+<a class="btn btn-outline-primary btn-sm" href="#ocde-indicateurs">
                                         Voir l'analyse détaillée ↓
                                     </a>
-                                    <a href="https://www.oecd.org/fr/publications/2025/06/introducing-the-oecd-ai-capability-indicators_7c0731f0.html"
-                                        class="btn btn-outline-secondary btn-sm" target="_blank">
+<a class="btn btn-outline-secondary btn-sm" href="https://www.oecd.org/fr/publications/2025/06/introducing-the-oecd-ai-capability-indicators_7c0731f0.html" target="_blank">
                                         Rapport OCDE →
                                     </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 3 : Prompt Repetition -->
-                        <div class="card mb-4 shadow-sm">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h3 class="card-title mb-0">🔧 Prompt Repetition : +76% de précision</h3>
-                                    <span class="badge bg-warning text-dark">Technique</span>
-                                </div>
-                                <p class="text-muted small">Google Research • Décembre 2025 • 7 modèles testés</p>
-                                <p class="card-text mt-3">
+</div>
+</div>
+</div>
+<!-- Card 3 : Prompt Repetition -->
+<div class="card mb-4 shadow-sm">
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h3 class="card-title mb-0">🔧 Prompt Repetition : +76% de précision</h3>
+<span class="badge bg-warning text-dark">Technique</span>
+</div>
+<p class="text-muted small">Google Research • Décembre 2025 • 7 modèles testés</p>
+<p class="card-text mt-3">
                                     Une découverte surprenante : répéter le prompt deux fois améliore significativement
                                     la qualité des réponses de l'IA — sans augmenter le temps de réponse ni la longueur.
                                 </p>
-                                <p class="card-text">
-                                    <strong>Résultats :</strong>
-                                </p>
-                                <ul>
-                                    <li><strong>+76 points de précision</strong> sur certains benchmarks (21% → 97%)
+<p class="card-text">
+<strong>Résultats :</strong>
+</p>
+<ul>
+<li><strong>+76 points de précision</strong> sur certains benchmarks (21% → 97%)
                                     </li>
-                                    <li><strong>47 victoires / 0 défaite</strong> sur 70 tests (7 modèles)</li>
-                                    <li><strong>Aucun coût supplémentaire</strong> (temps/tokens)</li>
-                                    <li><strong>Fonctionne sur tous les modèles</strong> (Gemini, GPT, Claude, DeepSeek)
+<li><strong>47 victoires / 0 défaite</strong> sur 70 tests (7 modèles)</li>
+<li><strong>Aucun coût supplémentaire</strong> (temps/tokens)</li>
+<li><strong>Fonctionne sur tous les modèles</strong> (Gemini, GPT, Claude, DeepSeek)
                                     </li>
-                                </ul>
-                                <div class="mt-3">
-                                    <a href="#prompt-repetition" class="btn btn-outline-primary btn-sm">
+</ul>
+<div class="mt-3">
+<a class="btn btn-outline-primary btn-sm" href="#prompt-repetition">
                                         Tutoriel complet ↓
                                     </a>
-                                    <a href="https://arxiv.org/pdf/2512.14982" class="btn btn-outline-secondary btn-sm"
-                                        target="_blank">
+<a class="btn btn-outline-secondary btn-sm" href="https://arxiv.org/pdf/2512.14982" target="_blank">
                                         Paper arXiv →
                                     </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 4 : Examens oraux ⭐ NOUVEAU -->
-                        <div class="card mb-4 shadow-sm border-danger">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h3 class="card-title mb-0">🎤 Le retour des examens oraux</h3>
-                                    <span class="badge bg-danger">Évaluation</span>
-                                </div>
-                                <p class="text-muted small">Andrea Fenton • Educational Researcher • Juin 2025</p>
-                                <p class="card-text mt-3">
+</div>
+</div>
+</div>
+<!-- Card 4 : Examens oraux ⭐ NOUVEAU -->
+<div class="card mb-4 shadow-sm border-danger">
+<div class="card-body">
+<div class="d-flex justify-content-between align-items-center">
+<h3 class="card-title mb-0">🎤 Le retour des examens oraux</h3>
+<span class="badge bg-danger">Évaluation</span>
+</div>
+<p class="text-muted small">Andrea Fenton • Educational Researcher • Juin 2025</p>
+<p class="card-text mt-3">
                                     Face à ChatGPT qui réussit les examens avec 78,9%+, une solution ancienne
                                     revient en force : <strong>l'examen oral</strong>. Une alternative concrète
                                     pour maintenir l'intégrité académique et évaluer authentiquement.
                                 </p>
-                                <p class="card-text">
-                                    <strong>Bénéfices majeurs :</strong>
-                                </p>
-                                <ul>
-                                    <li><strong>Intégrité académique</strong> — Difficilement trichable avec l'IA</li>
-                                    <li><strong>Pensée critique en temps réel</strong> — Force l'argumentation, pas de
+<p class="card-text">
+<strong>Bénéfices majeurs :</strong>
+</p>
+<ul>
+<li><strong>Intégrité académique</strong> — Difficilement trichable avec l'IA</li>
+<li><strong>Pensée critique en temps réel</strong> — Force l'argumentation, pas de
                                         copier-coller</li>
-                                    <li><strong>Compétences professionnelles</strong> — Mimique entretiens,
+<li><strong>Compétences professionnelles</strong> — Mimique entretiens,
                                         présentations</li>
-                                    <li><strong>Communication orale</strong> — Développe confiance et expression</li>
-                                </ul>
-                                <div class="mt-3">
-                                    <a href="#examens-oraux" class="btn btn-outline-primary btn-sm">
+<li><strong>Communication orale</strong> — Développe confiance et expression</li>
+</ul>
+<div class="mt-3">
+<a class="btn btn-outline-primary btn-sm" href="#examens-oraux">
                                         Guide pratique complet ↓
                                     </a>
-                                    <a href="https://journals.sagepub.com/doi/full/10.3102/0013189X251333638"
-                                        class="btn btn-outline-secondary btn-sm" target="_blank">
+<a class="btn btn-outline-secondary btn-sm" href="https://journals.sagepub.com/doi/full/10.3102/0013189X251333638" target="_blank">
                                         Article Educational Researcher →
                                     </a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </section>
-
-                    <!-- DETAILED SECTIONS -->
-
-                    <!-- 1. Souveraineté Cognitive -->
-                    <section id="souverainete-cognitive" class="mt-5 pt-5 border-top">
-                        <h2>🧠 La souveraineté cognitive de l'élève</h2>
-                        <p class="lead">Vers une nouvelle forme d'autonomie à l'ère des algorithmes</p>
-
-                        <div class="row mt-4">
-                            <div class="col-md-8">
-                                <p>Le concept d'autonomie traditionnellement enseigné à l'école (inspiré de Descartes et
+</div>
+</div>
+</div>
+</section>
+<!-- DETAILED SECTIONS -->
+<!-- 1. Souveraineté Cognitive -->
+<section class="mt-5 pt-5 border-top" id="souverainete-cognitive">
+<h2>🧠 La souveraineté cognitive de l'élève</h2>
+<p class="lead">Vers une nouvelle forme d'autonomie à l'ère des algorithmes</p>
+<div class="row mt-4">
+<div class="col-md-8">
+<p>Le concept d'autonomie traditionnellement enseigné à l'école (inspiré de Descartes et
                                     Kant) suppose un sujet capable de se donner sa propre loi. Or, comme le soulignait
                                     Bernard Stiegler, l'économie de l'attention et désormais l'IA générative viennent
                                     court-circuiter cette capacité.</p>
-
-                                <p>Sous la plume de Stéphane Diebold (AFFEN), la <strong>souveraineté cognitive</strong>
+<p>Sous la plume de Stéphane Diebold (AFFEN), la <strong>souveraineté cognitive</strong>
                                     apparaît comme une réponse nécessaire. Il ne s'agit plus seulement d'être autonome
                                     "dans" l'apprentissage, mais d'être souverain sur ses propres processus
                                     attentionnels.</p>
-
-                                <h4 class="mt-4">Les 3 piliers de la souveraineté</h4>
-                                <ul>
-                                    <li><strong>Souveraineté attentionnelle :</strong> Capacité à résister à la
+<h4 class="mt-4">Les 3 piliers de la souveraineté</h4>
+<ul>
+<li><strong>Souveraineté attentionnelle :</strong> Capacité à résister à la
                                         captation algorithmique. L'élève doit apprendre à diriger son attention
                                         volontairement plutôt que de réagir aux stimuli.</li>
-                                    <li><strong>Souveraineté du désir :</strong> Savoir distinguer ce que je veux
+<li><strong>Souveraineté du désir :</strong> Savoir distinguer ce que je veux
                                         vraiment de ce que l'algorithme "veut que je veuille" (recommendation systems).
                                     </li>
-                                    <li><strong>Métacognition critique :</strong> "Penser sa pensée". Face à une réponse
+<li><strong>Métacognition critique :</strong> "Penser sa pensée". Face à une réponse
                                         d'IA, ai-je les moyens de l'évaluer ? Si non, je perds ma souveraineté.</li>
-                                </ul>
-
-                                <div class="alert alert-info mt-3">
-                                    <strong>Application pédagogique :</strong> Ne pas interdire l'IA, mais exiger que
+</ul>
+<div class="alert alert-info mt-3">
+<strong>Application pédagogique :</strong> Ne pas interdire l'IA, mais exiger que
                                     l'élève soit capable de justifier pourquoi il accepte ou rejette la proposition de
                                     l'IA. "L'IA propose, l'élève dispose."
                                 </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- 2. Indicateurs OCDE -->
-                    <section id="ocde-indicateurs" class="mt-5 pt-5 border-top">
-                        <h2>📊 Indicateurs OCDE sur les capacités de l'IA</h2>
-                        <p class="lead">Le premier référentiel mondial pour comparer IA et Humain</p>
-
-                        <div class="row mt-4">
-                            <div class="col-md-8">
-                                <p>En juin 2025, l'OCDE a publié un cadre de référence attendu pour objectiver les
+</div>
+</div>
+</section>
+<!-- 2. Indicateurs OCDE -->
+<section class="mt-5 pt-5 border-top" id="ocde-indicateurs">
+<h2>📊 Indicateurs OCDE sur les capacités de l'IA</h2>
+<p class="lead">Le premier référentiel mondial pour comparer IA et Humain</p>
+<div class="row mt-4">
+<div class="col-md-8">
+<p>En juin 2025, l'OCDE a publié un cadre de référence attendu pour objectiver les
                                     capacités des systèmes d'IA. L'objectif : sortir du "hype" et mesurer concrètement
                                     ce que l'IA fait mieux, moins bien, ou différemment de l'humain.</p>
-
-                                <p>Le rapport définit <strong>9 domaines de compétences</strong> (Vision, Langage,
+<p>Le rapport définit <strong>9 domaines de compétences</strong> (Vision, Langage,
                                     Raisonnement, etc.) et établit des benchmarks standardisés.</p>
-
-                                <h4 class="mt-4">Ce que cela change pour l'école</h4>
-                                <p>Les chiffres sont sans appel : l'adoption est massive.</p>
-                                <ul>
-                                    <li><strong>75% des étudiants de plus de 16 ans</strong> ont déjà utilisé l'IA pour
+<h4 class="mt-4">Ce que cela change pour l'école</h4>
+<p>Les chiffres sont sans appel : l'adoption est massive.</p>
+<ul>
+<li><strong>75% des étudiants de plus de 16 ans</strong> ont déjà utilisé l'IA pour
                                         leurs études.</li>
-                                    <li>L'écart générationnel est de <strong>53 points</strong>, le plus élevé jamais
+<li>L'écart générationnel est de <strong>53 points</strong>, le plus élevé jamais
                                         mesuré pour une technologie numérique.</li>
-                                </ul>
-                                <p>Cela signifie que les enseignants font face à une classe où l'usage est hétérogène
+</ul>
+<p>Cela signifie que les enseignants font face à une classe où l'usage est hétérogène
                                     mais majoritaire, créant une fracture non plus d'accès, mais d'usage expert.</p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- 3. Prompt Repetition -->
-                    <section id="prompt-repetition" class="mt-5 pt-5 border-top">
-                        <h2>🔧 Prompt Repetition : Une technique simple mais redoutable</h2>
-                        <p class="lead">Google Research dévoile une astuce contre-intuitive pour fiabiliser les LLM</p>
-
-                        <div class="row mt-4">
-                            <div class="col-md-8">
-                                <p>Dans un papier de décembre 2025, les chercheurs de Google DeepMind ont testé une
+</div>
+</div>
+</section>
+<!-- 3. Prompt Repetition -->
+<section class="mt-5 pt-5 border-top" id="prompt-repetition">
+<h2>🔧 Prompt Repetition : Une technique simple mais redoutable</h2>
+<p class="lead">Google Research dévoile une astuce contre-intuitive pour fiabiliser les LLM</p>
+<div class="row mt-4">
+<div class="col-md-8">
+<p>Dans un papier de décembre 2025, les chercheurs de Google DeepMind ont testé une
                                     hypothèse surprenante : et si répéter la consigne aidait le modèle à mieux se
                                     concentrer ?</p>
-
-                                <div class="card bg-light mb-3">
-                                    <div class="card-body">
-                                        <strong>Le Prompt :</strong><br>
-                                        <code>"Résous ce problème de maths. Résous ce problème de maths."</code>
-                                    </div>
-                                </div>
-
-                                <p>Les résultats sont spectaculaires :</p>
-                                <ul>
-                                    <li>Sur le benchmark GSM8K (maths), la précision passe de <strong>21% à 97%</strong>
+<div class="card bg-light mb-3">
+<div class="card-body">
+<strong>Le Prompt :</strong><br/>
+<code>"Résous ce problème de maths. Résous ce problème de maths."</code>
+</div>
+</div>
+<p>Les résultats sont spectaculaires :</p>
+<ul>
+<li>Sur le benchmark GSM8K (maths), la précision passe de <strong>21% à 97%</strong>
                                         pour certains petits modèles en répétant simplement l'instruction.</li>
-                                    <li>Cela fonctionne sur <strong>tous les modèles testés</strong> (Gemini, GPT-4,
+<li>Cela fonctionne sur <strong>tous les modèles testés</strong> (Gemini, GPT-4,
                                         Llama).</li>
-                                </ul>
-
-                                <h4 class="mt-4">Pourquoi ça marche ?</h4>
-                                <p>L'hypothèse technique est liée au mécanisme d'attention des Transformers. Répéter le
+</ul>
+<h4 class="mt-4">Pourquoi ça marche ?</h4>
+<p>L'hypothèse technique est liée au mécanisme d'attention des Transformers. Répéter le
                                     token de l'instruction augmente son "poids" dans le calcul de l'attention, forçant
                                     le modèle à ne pas l'oublier au profit du contexte long.</p>
-
-                                <p><strong>Conseil pratique :</strong> Si l'IA ignore une contrainte (ex: "ne mets pas
+<p><strong>Conseil pratique :</strong> Si l'IA ignore une contrainte (ex: "ne mets pas
                                     de liste à puces"), répétez cette contrainte à la fin du prompt ou deux fois au
                                     début.</p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- 4. Examens Oraux (Contenu Plan V2) -->
-                    <section id="examens-oraux" class="mt-5 pt-5 border-top">
-                        <h2>🎤 Le retour des examens oraux à l'ère de l'IA</h2>
-                        <p class="lead">
+</div>
+</div>
+</section>
+<!-- 4. Examens Oraux (Contenu Plan V2) -->
+<section class="mt-5 pt-5 border-top" id="examens-oraux">
+<h2>🎤 Le retour des examens oraux à l'ère de l'IA</h2>
+<p class="lead">
                             Une solution ancienne pour un problème moderne : évaluer authentiquement malgré ChatGPT
                         </p>
-
-                        <div class="row mt-4">
-                            <div class="col-md-8">
-                                <h3>Le contexte</h3>
-                                <p>
+<div class="row mt-4">
+<div class="col-md-8">
+<h3>Le contexte</h3>
+<p>
                                     Depuis l'arrivée de ChatGPT en novembre 2022, les enseignants font face à
                                     un défi majeur : <strong>comment évaluer quand l'IA peut générer des devoirs
                                         de qualité ?</strong>
-                                </p>
-                                <p>
+</p>
+<p>
                                     Une étude récente (Herrmann-Werner et al., 2024) montre que ChatGPT-4
                                     <strong>réussit les examens de médecine avec un minimum de 78,9%</strong>,
                                     quel que soit le prompt utilisé.
                                 </p>
-
-                                <div class="alert alert-warning">
-                                    <h5>⚠️ Le problème des devoirs écrits traditionnels</h5>
-                                    <ul class="mb-0">
-                                        <li>Facilement générables par IA (dissertations, rapports, analyses)</li>
-                                        <li>Détection difficile (l'IA devient de plus en plus "humaine")</li>
-                                        <li>Course aux armements (détecteurs vs contournements)</li>
-                                        <li>Climat de suspicion généralisée (perte de confiance élève-enseignant)</li>
-                                    </ul>
-                                </div>
-
-                                <h3 class="mt-5">La solution : Les examens oraux</h3>
-                                <p>
+<div class="alert alert-warning">
+<h5>⚠️ Le problème des devoirs écrits traditionnels</h5>
+<ul class="mb-0">
+<li>Facilement générables par IA (dissertations, rapports, analyses)</li>
+<li>Détection difficile (l'IA devient de plus en plus "humaine")</li>
+<li>Course aux armements (détecteurs vs contournements)</li>
+<li>Climat de suspicion généralisée (perte de confiance élève-enseignant)</li>
+</ul>
+</div>
+<h3 class="mt-5">La solution : Les examens oraux</h3>
+<p>
                                     Dans un article publié en juin 2025 dans <em>Educational Researcher</em>,
                                     Andrea Fenton propose de <strong>reconsidérer les examens oraux</strong>
                                     comme alternative aux évaluations écrites traditionnelles.
                                 </p>
-
-                                <div class="alert alert-success">
-                                    <h5>✅ Pourquoi les examens oraux fonctionnent</h5>
-                                    <ol>
-                                        <li><strong>Intégrité académique naturelle</strong> — Impossible d'utiliser
+<div class="alert alert-success">
+<h5>✅ Pourquoi les examens oraux fonctionnent</h5>
+<ol>
+<li><strong>Intégrité académique naturelle</strong> — Impossible d'utiliser
                                             l'IA en temps réel pendant un oral (sauf écouteur, détectable)</li>
-                                        <li><strong>Évaluation authentique</strong> — Teste la pensée critique en
+<li><strong>Évaluation authentique</strong> — Teste la pensée critique en
                                             temps réel, pas la capacité à copier-coller</li>
-                                        <li><strong>Préparation professionnelle</strong> — Mimique les situations
+<li><strong>Préparation professionnelle</strong> — Mimique les situations
                                             réelles (entretiens d'embauche, soutenances, présentations)</li>
-                                        <li><strong>Compétences transversales</strong> — Développe communication
+<li><strong>Compétences transversales</strong> — Développe communication
                                             orale, confiance, gestion du stress</li>
-                                        <li><strong>Apprentissage profond</strong> — Force la compréhension réelle,
+<li><strong>Apprentissage profond</strong> — Force la compréhension réelle,
                                             pas la mémorisation superficielle</li>
-                                    </ol>
-                                </div>
-
-                                <h3 class="mt-5">Types d'examens oraux</h3>
-
-                                <div class="card mb-3">
-                                    <div class="card-header bg-primary text-white" style="padding: 10px 20px;">
-                                        <h5 class="mb-0">1. Entretien individuel (10-15 min)</h5>
-                                    </div>
-                                    <div class="card-body">
-                                        <p><strong>Format :</strong> Discussion structurée 1-à-1 avec l'enseignant</p>
-                                        <p><strong>Usages :</strong></p>
-                                        <ul>
-                                            <li>Défendre un travail écrit déjà rendu (« Expliquez votre démarche »)</li>
-                                            <li>Approfondir un thème du cours (« Que pensez-vous de... ? »)</li>
-                                            <li>Vérifier la compréhension d'un concept clé</li>
-                                        </ul>
-                                        <p><strong>Exemple (Philosophie) :</strong> « Vous avez écrit sur la liberté.
+</ol>
+</div>
+<h3 class="mt-5">Types d'examens oraux</h3>
+<div class="card mb-3">
+<div class="card-header bg-primary text-white" style="padding: 10px 20px;">
+<h5 class="mb-0">1. Entretien individuel (10-15 min)</h5>
+</div>
+<div class="card-body">
+<p><strong>Format :</strong> Discussion structurée 1-à-1 avec l'enseignant</p>
+<p><strong>Usages :</strong></p>
+<ul>
+<li>Défendre un travail écrit déjà rendu (« Expliquez votre démarche »)</li>
+<li>Approfondir un thème du cours (« Que pensez-vous de... ? »)</li>
+<li>Vérifier la compréhension d'un concept clé</li>
+</ul>
+<p><strong>Exemple (Philosophie) :</strong> « Vous avez écrit sur la liberté.
                                             Expliquez-moi la distinction entre liberté négative et liberté positive.
                                             Comment l'appliquez-vous à votre exemple ? »</p>
-                                    </div>
-                                </div>
-
-                                <div class="card mb-3">
-                                    <div class="card-header bg-success text-white" style="padding: 10px 20px;">
-                                        <h5 class="mb-0">2. Présentation orale + questions (15-20 min)</h5>
-                                    </div>
-                                    <div class="card-body">
-                                        <p><strong>Format :</strong> Exposé structuré (5-10 min) suivi de questions
+</div>
+</div>
+<div class="card mb-3">
+<div class="card-header bg-success text-white" style="padding: 10px 20px;">
+<h5 class="mb-0">2. Présentation orale + questions (15-20 min)</h5>
+</div>
+<div class="card-body">
+<p><strong>Format :</strong> Exposé structuré (5-10 min) suivi de questions
                                             (5-10 min)</p>
-                                        <p><strong>Usages :</strong></p>
-                                        <ul>
-                                            <li>Restitution de projet de recherche</li>
-                                            <li>Analyse d'une œuvre (littérature, histoire de l'art)</li>
-                                            <li>Défense de thèse (TPE, mémoire, grand oral)</li>
-                                        </ul>
-                                        <p><strong>Exemple (Histoire) :</strong> « Présentez les causes de la Première
+<p><strong>Usages :</strong></p>
+<ul>
+<li>Restitution de projet de recherche</li>
+<li>Analyse d'une œuvre (littérature, histoire de l'art)</li>
+<li>Défense de thèse (TPE, mémoire, grand oral)</li>
+</ul>
+<p><strong>Exemple (Histoire) :</strong> « Présentez les causes de la Première
                                             Guerre mondiale en 8 minutes, puis répondez à mes questions sur les
                                             alliances. »</p>
-                                    </div>
-                                </div>
-
-                                <div class="card mb-3">
-                                    <div class="card-header bg-warning text-dark" style="padding: 10px 20px;">
-                                        <h5 class="mb-0">3. Examen oral collectif / Débat (30-45 min)</h5>
-                                    </div>
-                                    <div class="card-body">
-                                        <p><strong>Format :</strong> Groupes de 3-5 élèves débattent devant l'enseignant
+</div>
+</div>
+<div class="card mb-3">
+<div class="card-header bg-warning text-dark" style="padding: 10px 20px;">
+<h5 class="mb-0">3. Examen oral collectif / Débat (30-45 min)</h5>
+</div>
+<div class="card-body">
+<p><strong>Format :</strong> Groupes de 3-5 élèves débattent devant l'enseignant
                                         </p>
-                                        <p><strong>Usages :</strong></p>
-                                        <ul>
-                                            <li>Débat structuré sur une controverse (sciences, philosophie, EMC)</li>
-                                            <li>Résolution collaborative de problème (maths, physique)</li>
-                                            <li>Simulation professionnelle (gestion, économie)</li>
-                                        </ul>
-                                        <p><strong>Exemple (SVT) :</strong> « Débat : Faut-il autoriser les OGM en
+<p><strong>Usages :</strong></p>
+<ul>
+<li>Débat structuré sur une controverse (sciences, philosophie, EMC)</li>
+<li>Résolution collaborative de problème (maths, physique)</li>
+<li>Simulation professionnelle (gestion, économie)</li>
+</ul>
+<p><strong>Exemple (SVT) :</strong> « Débat : Faut-il autoriser les OGM en
                                             agriculture ? 2 élèves pour, 2 contre, 10 min de préparation, 20 min de
                                             débat. »</p>
-                                    </div>
-                                </div>
-
-                                <h3 class="mt-5">Guide pratique de mise en œuvre</h3>
-
-                                <div class="accordion" id="accordionGuide">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#step1">
+</div>
+</div>
+<h3 class="mt-5">Guide pratique de mise en œuvre</h3>
+<div class="accordion" id="accordionGuide">
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button" data-bs-target="#step1" data-bs-toggle="collapse" type="button">
                                                 Étape 1 : Définir l'objectif pédagogique
                                             </button>
-                                        </h2>
-                                        <div id="step1" class="accordion-collapse collapse show"
-                                            data-bs-parent="#accordionGuide">
-                                            <div class="accordion-body">
-                                                <p><strong>Questions à se poser :</strong></p>
-                                                <ul>
-                                                    <li>Qu'est-ce que je veux vraiment évaluer ? (Compréhension ?
+</h2>
+<div class="accordion-collapse collapse show" data-bs-parent="#accordionGuide" id="step1">
+<div class="accordion-body">
+<p><strong>Questions à se poser :</strong></p>
+<ul>
+<li>Qu'est-ce que je veux vraiment évaluer ? (Compréhension ?
                                                         Argumentation ?
                                                         Créativité ?)</li>
-                                                    <li>Est-ce que l'oral est le meilleur format pour ça ?</li>
-                                                    <li>Quelle compétence transversale je souhaite développer ?
+<li>Est-ce que l'oral est le meilleur format pour ça ?</li>
+<li>Quelle compétence transversale je souhaite développer ?
                                                         (Oral ? Confiance ?)</li>
-                                                </ul>
-                                                <p><strong>Conseil :</strong> Commencez par un oral à faible enjeu
+</ul>
+<p><strong>Conseil :</strong> Commencez par un oral à faible enjeu
                                                     (coefficient 1-2) pour tester le format.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#step2">
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#step2" data-bs-toggle="collapse" type="button">
                                                 Étape 2 : Créer la grille d'évaluation
                                             </button>
-                                        </h2>
-                                        <div id="step2" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordionGuide">
-                                            <div class="accordion-body">
-                                                <p><strong>Critères recommandés (adaptables) :</strong></p>
-                                                <table class="table table-sm"
-                                                    style="width:100%; border-collapse: collapse;">
-                                                    <thead style="background: #f8f9fa;">
-                                                        <tr>
-                                                            <th style="padding: 8px;">Critère</th>
-                                                            <th style="padding: 8px;">Points</th>
-                                                            <th style="padding: 8px;">Indicateurs</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
-                                                                <strong>Maîtrise du contenu</strong>
-                                                            </td>
-                                                            <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#accordionGuide" id="step2">
+<div class="accordion-body">
+<p><strong>Critères recommandés (adaptables) :</strong></p>
+<table class="table table-sm" style="width:100%; border-collapse: collapse;">
+<thead style="background: #f8f9fa;">
+<tr>
+<th style="padding: 8px;">Critère</th>
+<th style="padding: 8px;">Points</th>
+<th style="padding: 8px;">Indicateurs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
+<strong>Maîtrise du contenu</strong>
+</td>
+<td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
                                                                 40%</td>
-                                                            <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
+<td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
                                                                 Concepts clairs, exemples pertinents, profondeur</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
-                                                                <strong>Argumentation</strong>
-                                                            </td>
-                                                            <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
+</tr>
+<tr>
+<td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
+<strong>Argumentation</strong>
+</td>
+<td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
                                                                 30%</td>
-                                                            <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
+<td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
                                                                 Logique, nuances, anticipation objections</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
-                                                                <strong>Communication orale</strong>
-                                                            </td>
-                                                            <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
+</tr>
+<tr>
+<td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
+<strong>Communication orale</strong>
+</td>
+<td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
                                                                 20%</td>
-                                                            <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
+<td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
                                                                 Clarté, débit, regard, gestion du temps</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
-                                                                <strong>Réactivité aux questions</strong>
-                                                            </td>
-                                                            <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
+</tr>
+<tr>
+<td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
+<strong>Réactivité aux questions</strong>
+</td>
+<td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
                                                                 10%</td>
-                                                            <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
+<td style="padding: 8px; border-bottom: 1px solid #dee2e6;">
                                                                 Écoute, adaptation, honnêteté ("je ne sais pas")</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                                <p class="small text-muted" style="margin-top: 10px;">
-                                                    <strong>Note :</strong> Évitez de sur-pénaliser le stress ou la
+</tr>
+</tbody>
+</table>
+<p class="small text-muted" style="margin-top: 10px;">
+<strong>Note :</strong> Évitez de sur-pénaliser le stress ou la
                                                     timidité. Valorisez la préparation et l'effort.
                                                 </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#step3">
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#step3" data-bs-toggle="collapse" type="button">
                                                 Étape 3 : Préparer les élèves
                                             </button>
-                                        </h2>
-                                        <div id="step3" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordionGuide">
-                                            <div class="accordion-body">
-                                                <p><strong>Actions essentielles :</strong></p>
-                                                <ol>
-                                                    <li><strong>Annoncer l'oral au moins 2 semaines à l'avance</strong>
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#accordionGuide" id="step3">
+<div class="accordion-body">
+<p><strong>Actions essentielles :</strong></p>
+<ol>
+<li><strong>Annoncer l'oral au moins 2 semaines à l'avance</strong>
                                                         (temps de préparation)</li>
-                                                    <li><strong>Donner les critères d'évaluation dès le départ</strong>
+<li><strong>Donner les critères d'évaluation dès le départ</strong>
                                                         (transparence)</li>
-                                                    <li><strong>Faire un oral "blanc"</strong> non noté en classe
+<li><strong>Faire un oral "blanc"</strong> non noté en classe
                                                         (familiarisation)</li>
-                                                    <li><strong>Proposer des ressources</strong> : vidéos d'exemples,
+<li><strong>Proposer des ressources</strong> : vidéos d'exemples,
                                                         conseils de prise de parole</li>
-                                                    <li><strong>Autoriser des notes</strong> (mots-clés, schémas)
+<li><strong>Autoriser des notes</strong> (mots-clés, schémas)
                                                         — pas de texte rédigé</li>
-                                                </ol>
-                                                <p><strong>Pour les élèves anxieux :</strong></p>
-                                                <ul>
-                                                    <li>Possibilité de passer en petit groupe (3 élèves + enseignant)
+</ol>
+<p><strong>Pour les élèves anxieux :</strong></p>
+<ul>
+<li>Possibilité de passer en petit groupe (3 élèves + enseignant)
                                                     </li>
-                                                    <li>Temps de préparation sur place (5-10 min avant oral)</li>
-                                                    <li>Format "conversation" plutôt qu'interrogatoire</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#step4">
+<li>Temps de préparation sur place (5-10 min avant oral)</li>
+<li>Format "conversation" plutôt qu'interrogatoire</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#step4" data-bs-toggle="collapse" type="button">
                                                 Étape 4 : Organiser la logistique
                                             </button>
-                                        </h2>
-                                        <div id="step4" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordionGuide">
-                                            <div class="accordion-body">
-                                                <p><strong>Planification :</strong></p>
-                                                <ul>
-                                                    <li><strong>Durée par élève</strong> : 10-15 min (oral individuel)
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#accordionGuide" id="step4">
+<div class="accordion-body">
+<p><strong>Planification :</strong></p>
+<ul>
+<li><strong>Durée par élève</strong> : 10-15 min (oral individuel)
                                                         ou 5-8 min (défense de projet)</li>
-                                                    <li><strong>Classe de 30 élèves</strong> : 5-7,5h au total</li>
-                                                    <li><strong>Solution pratique</strong> : Étaler sur 2-3 semaines,
+<li><strong>Classe de 30 élèves</strong> : 5-7,5h au total</li>
+<li><strong>Solution pratique</strong> : Étaler sur 2-3 semaines,
                                                         5 élèves par séance pendant que les autres travaillent en
                                                         autonomie</li>
-                                                </ul>
-                                                <p><strong>Salle :</strong></p>
-                                                <ul>
-                                                    <li>Isolée (pas de bruit externe)</li>
-                                                    <li>Configuration : table en U ou face-à-face</li>
-                                                    <li>Matériel : chronomètre visible, grille d'évaluation</li>
-                                                </ul>
-                                                <p><strong>Astuce gain de temps :</strong> Oral collectif (3 élèves
+</ul>
+<p><strong>Salle :</strong></p>
+<ul>
+<li>Isolée (pas de bruit externe)</li>
+<li>Configuration : table en U ou face-à-face</li>
+<li>Matériel : chronomètre visible, grille d'évaluation</li>
+</ul>
+<p><strong>Astuce gain de temps :</strong> Oral collectif (3 élèves
                                                     en même temps) ou examen en doublon avec un collègue.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header">
-                                            <button class="accordion-button collapsed" type="button"
-                                                data-bs-toggle="collapse" data-bs-target="#step5">
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" data-bs-target="#step5" data-bs-toggle="collapse" type="button">
                                                 Étape 5 : Conduire l'oral et évaluer
                                             </button>
-                                        </h2>
-                                        <div id="step5" class="accordion-collapse collapse"
-                                            data-bs-parent="#accordionGuide">
-                                            <div class="accordion-body">
-                                                <p><strong>Pendant l'oral :</strong></p>
-                                                <ol>
-                                                    <li><strong>Accueil bienveillant</strong> — Mettre l'élève à l'aise
+</h2>
+<div class="accordion-collapse collapse" data-bs-parent="#accordionGuide" id="step5">
+<div class="accordion-body">
+<p><strong>Pendant l'oral :</strong></p>
+<ol>
+<li><strong>Accueil bienveillant</strong> — Mettre l'élève à l'aise
                                                         (« Respire, prends ton temps »)</li>
-                                                    <li><strong>Écoute active</strong> — Laisser finir, ne pas couper
+<li><strong>Écoute active</strong> — Laisser finir, ne pas couper
                                                     </li>
-                                                    <li><strong>Questions de relance</strong> — « Peux-tu développer ?
+<li><strong>Questions de relance</strong> — « Peux-tu développer ?
                                                         »,
                                                         « Qu'est-ce qui te fait dire ça ? »</li>
-                                                    <li><strong>Valoriser l'effort</strong> — Même si réponse imparfaite
+<li><strong>Valoriser l'effort</strong> — Même si réponse imparfaite
                                                     </li>
-                                                    <li><strong>Noter immédiatement</strong> (grille pré-remplie) —
+<li><strong>Noter immédiatement</strong> (grille pré-remplie) —
                                                         Sinon effet de halo</li>
-                                                </ol>
-                                                <p><strong>Après l'oral :</strong></p>
-                                                <ul>
-                                                    <li><strong>Feedback oral immédiat</strong> (2-3 points forts/axes
+</ol>
+<p><strong>Après l'oral :</strong></p>
+<ul>
+<li><strong>Feedback oral immédiat</strong> (2-3 points forts/axes
                                                         amélioration)</li>
-                                                    <li><strong>Note rendue rapidement</strong> (48h max) avec
+<li><strong>Note rendue rapidement</strong> (48h max) avec
                                                         commentaire écrit</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <h3 class="mt-5">Réponses aux objections fréquentes</h3>
-
-                                <div class="card mb-3 border-warning">
-                                    <div class="card-body">
-                                        <h5>❓ « C'est trop chronophage ! »</h5>
-                                        <p><strong>Réponse :</strong></p>
-                                        <ul>
-                                            <li>Oui, mais vous gagnez du temps sur la correction de copies
+</ul>
+</div>
+</div>
+</div>
+</div>
+<h3 class="mt-5">Réponses aux objections fréquentes</h3>
+<div class="card mb-3 border-warning">
+<div class="card-body">
+<h5>❓ « C'est trop chronophage ! »</h5>
+<p><strong>Réponse :</strong></p>
+<ul>
+<li>Oui, mais vous gagnez du temps sur la correction de copies
                                                 (pas de rédaction à lire)</li>
-                                            <li>Réservez l'oral aux évaluations majeures (1-2 par trimestre)</li>
-                                            <li>Format court (5-8 min) + oraux groupés = 2-3h pour 30 élèves</li>
-                                            <li>L'investissement en vaut la peine : apprentissage profond +
+<li>Réservez l'oral aux évaluations majeures (1-2 par trimestre)</li>
+<li>Format court (5-8 min) + oraux groupés = 2-3h pour 30 élèves</li>
+<li>L'investissement en vaut la peine : apprentissage profond +
                                                 relation pédagogique renforcée</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="card mb-3 border-warning">
-                                    <div class="card-body">
-                                        <h5>❓ « Les élèves sont trop stressés ! »</h5>
-                                        <p><strong>Réponse :</strong></p>
-                                        <ul>
-                                            <li>Le stress diminue avec la pratique régulière (oral "blanc" +
+</ul>
+</div>
+</div>
+<div class="card mb-3 border-warning">
+<div class="card-body">
+<h5>❓ « Les élèves sont trop stressés ! »</h5>
+<p><strong>Réponse :</strong></p>
+<ul>
+<li>Le stress diminue avec la pratique régulière (oral "blanc" +
                                                 plusieurs oraux dans l'année)</li>
-                                            <li>Format "conversation" plutôt qu'interrogatoire</li>
-                                            <li>Autoriser les notes préparées (pas rédigées)</li>
-                                            <li>Le stress fait partie de la compétence à développer
+<li>Format "conversation" plutôt qu'interrogatoire</li>
+<li>Autoriser les notes préparées (pas rédigées)</li>
+<li>Le stress fait partie de la compétence à développer
                                                 (gestion émotionnelle)</li>
-                                            <li>Alternative : oral en binôme pour élèves très anxieux</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="card mb-3 border-warning">
-                                    <div class="card-body">
-                                        <h5>❓ « Comment assurer l'équité entre élèves ? »</h5>
-                                        <p><strong>Réponse :</strong></p>
-                                        <ul>
-                                            <li><strong>Grille d'évaluation stricte</strong> communiquée à l'avance</li>
-                                            <li><strong>Mêmes questions de base</strong> pour tous (avec variations
+<li>Alternative : oral en binôme pour élèves très anxieux</li>
+</ul>
+</div>
+</div>
+<div class="card mb-3 border-warning">
+<div class="card-body">
+<h5>❓ « Comment assurer l'équité entre élèves ? »</h5>
+<p><strong>Réponse :</strong></p>
+<ul>
+<li><strong>Grille d'évaluation stricte</strong> communiquée à l'avance</li>
+<li><strong>Mêmes questions de base</strong> pour tous (avec variations
                                                 de relance)</li>
-                                            <li><strong>Enregistrement audio</strong> (si possible) pour revoir en
+<li><strong>Enregistrement audio</strong> (si possible) pour revoir en
                                                 cas de contestation</li>
-                                            <li><strong>Double correction</strong> possible (collègue assiste à l'oral
+<li><strong>Double correction</strong> possible (collègue assiste à l'oral
                                                 ou écoute enregistrement)</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="card mb-3 border-warning">
-                                    <div class="card-body">
-                                        <h5>❓ « L'élève peut quand même utiliser l'IA pour préparer ! »</h5>
-                                        <p><strong>Réponse :</strong></p>
-                                        <ul>
-                                            <li>Oui, et c'est acceptable pour la préparation (recherche, structure)</li>
-                                            <li>Mais l'oral teste la <strong>compréhension</strong>, pas la
+</ul>
+</div>
+</div>
+<div class="card mb-3 border-warning">
+<div class="card-body">
+<h5>❓ « L'élève peut quand même utiliser l'IA pour préparer ! »</h5>
+<p><strong>Réponse :</strong></p>
+<ul>
+<li>Oui, et c'est acceptable pour la préparation (recherche, structure)</li>
+<li>Mais l'oral teste la <strong>compréhension</strong>, pas la
                                                 mémorisation</li>
-                                            <li>Questions de relance et approfondissement détectent vite la
+<li>Questions de relance et approfondissement détectent vite la
                                                 non-compréhension</li>
-                                            <li>« Expliquez avec vos propres mots » / « Donnez un exemple personnel »
+<li>« Expliquez avec vos propres mots » / « Donnez un exemple personnel »
                                                 = impossibles à préparer avec IA</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <h3 class="mt-5">Ressources téléchargeables</h3>
-                                <div class="list-group">
-                                    <a class="list-group-item list-group-item-action disabled"
-                                        style=" cursor: not-allowed; opacity: 0.6;">
-                                        <div class="d-flex w-100 justify-content-between">
-                                            <h5 class="mb-1">📄 Grille d'évaluation oral individuel (PDF)</h5>
-                                            <small class="text-muted">Bientôt disponible</small>
-                                        </div>
-                                        <p class="mb-1">Template modifiable pour créer votre grille</p>
-                                    </a>
-                                    <a class="list-group-item list-group-item-action disabled"
-                                        style=" cursor: not-allowed; opacity: 0.6;">
-                                        <div class="d-flex w-100 justify-content-between">
-                                            <h5 class="mb-1">📄 Grille d'évaluation présentation orale (PDF)</h5>
-                                            <small class="text-muted">Bientôt disponible</small>
-                                        </div>
-                                        <p class="mb-1">Critères adaptés aux exposés</p>
-                                    </a>
-                                    <a class="list-group-item list-group-item-action disabled"
-                                        style=" cursor: not-allowed; opacity: 0.6;">
-                                        <div class="d-flex w-100 justify-content-between">
-                                            <h5 class="mb-1">📄 Checklist organisationnelle (PDF)</h5>
-                                            <small class="text-muted">Bientôt disponible</small>
-                                        </div>
-                                        <p class="mb-1">Planification semaine par semaine</p>
-                                    </a>
-                                    <a class="list-group-item list-group-item-action disabled"
-                                        style=" cursor: not-allowed; opacity: 0.6;">
-                                        <div class="d-flex w-100 justify-content-between">
-                                            <h5 class="mb-1">📄 Fiche conseil élèves (PDF)</h5>
-                                            <small class="text-muted">Bientôt disponible</small>
-                                        </div>
-                                        <p class="mb-1">Comment se préparer efficacement à un oral</p>
-                                    </a>
-                                </div>
-
-                            </div>
-
-                            <div class="col-md-4">
-                                <div class="card bg-light mb-3">
-                                    <div class="card-body">
-                                        <h5>📚 Référence</h5>
-                                        <p class="small">
-                                            <strong>Auteure :</strong> Andrea Fenton<br>
-                                            <strong>Journal :</strong> Educational Researcher<br>
-                                            <strong>Date :</strong> Juin 2025<br>
-                                            <strong>Impact Factor :</strong> 4.9
+</ul>
+</div>
+</div>
+<h3 class="mt-5">Ressources téléchargeables</h3>
+<div class="list-group">
+<a class="list-group-item list-group-item-action disabled" style=" cursor: not-allowed; opacity: 0.6;">
+<div class="d-flex w-100 justify-content-between">
+<h5 class="mb-1">📄 Grille d'évaluation oral individuel (PDF)</h5>
+<small class="text-muted">Bientôt disponible</small>
+</div>
+<p class="mb-1">Template modifiable pour créer votre grille</p>
+</a>
+<a class="list-group-item list-group-item-action disabled" style=" cursor: not-allowed; opacity: 0.6;">
+<div class="d-flex w-100 justify-content-between">
+<h5 class="mb-1">📄 Grille d'évaluation présentation orale (PDF)</h5>
+<small class="text-muted">Bientôt disponible</small>
+</div>
+<p class="mb-1">Critères adaptés aux exposés</p>
+</a>
+<a class="list-group-item list-group-item-action disabled" style=" cursor: not-allowed; opacity: 0.6;">
+<div class="d-flex w-100 justify-content-between">
+<h5 class="mb-1">📄 Checklist organisationnelle (PDF)</h5>
+<small class="text-muted">Bientôt disponible</small>
+</div>
+<p class="mb-1">Planification semaine par semaine</p>
+</a>
+<a class="list-group-item list-group-item-action disabled" style=" cursor: not-allowed; opacity: 0.6;">
+<div class="d-flex w-100 justify-content-between">
+<h5 class="mb-1">📄 Fiche conseil élèves (PDF)</h5>
+<small class="text-muted">Bientôt disponible</small>
+</div>
+<p class="mb-1">Comment se préparer efficacement à un oral</p>
+</a>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card bg-light mb-3">
+<div class="card-body">
+<h5>📚 Référence</h5>
+<p class="small">
+<strong>Auteure :</strong> Andrea Fenton<br/>
+<strong>Journal :</strong> Educational Researcher<br/>
+<strong>Date :</strong> Juin 2025<br/>
+<strong>Impact Factor :</strong> 4.9
                                         </p>
-                                        <a href="https://journals.sagepub.com/doi/full/10.3102/0013189X251333638"
-                                            class="btn btn-sm btn-outline-primary" target="_blank">
+<a class="btn btn-sm btn-outline-primary" href="https://journals.sagepub.com/doi/full/10.3102/0013189X251333638" target="_blank">
                                             Lire l'article complet →
                                         </a>
-                                    </div>
-                                </div>
-
-                                <div class="card bg-light mb-3">
-                                    <div class="card-body">
-                                        <h5>💡 Points clés recherche</h5>
-                                        <ul class="small mb-0">
-                                            <li>ChatGPT-4 réussit examens médicaux avec 78,9%+ minimum</li>
-                                            <li>Examens oraux = évaluation authentique compétences critiques</li>
-                                            <li>Développe communication orale (compétence pro clé)</li>
-                                            <li>Renforce relation pédagogique enseignant-élève</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="card bg-light mb-3">
-                                    <div class="card-body">
-                                        <h5>🎯 Disciplines concernées</h5>
-                                        <p class="small">
-                                            <strong>Particulièrement adapté pour :</strong>
-                                        </p>
-                                        <ul class="small mb-0">
-                                            <li>Lettres, Philosophie, HGGSP</li>
-                                            <li>Langues vivantes (pratique orale)</li>
-                                            <li>Sciences (défense de protocole expérimental)</li>
-                                            <li>Enseignement professionnel (simulation situation pro)</li>
-                                            <li>Grand Oral (Terminale)</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="card bg-light">
-                                    <div class="card-body">
-                                        <h5>📖 Dans le livre</h5>
-                                        <p class="small mb-0">
+</div>
+</div>
+<div class="card bg-light mb-3">
+<div class="card-body">
+<h5>💡 Points clés recherche</h5>
+<ul class="small mb-0">
+<li>ChatGPT-4 réussit examens médicaux avec 78,9%+ minimum</li>
+<li>Examens oraux = évaluation authentique compétences critiques</li>
+<li>Développe communication orale (compétence pro clé)</li>
+<li>Renforce relation pédagogique enseignant-élève</li>
+</ul>
+</div>
+</div>
+<div class="card bg-light mb-3">
+<div class="card-body">
+<h5>🎯 Disciplines concernées</h5>
+<p class="small">
+<strong>Particulièrement adapté pour :</strong>
+</p>
+<ul class="small mb-0">
+<li>Lettres, Philosophie, HGGSP</li>
+<li>Langues vivantes (pratique orale)</li>
+<li>Sciences (défense de protocole expérimental)</li>
+<li>Enseignement professionnel (simulation situation pro)</li>
+<li>Grand Oral (Terminale)</li>
+</ul>
+</div>
+</div>
+<div class="card bg-light">
+<div class="card-body">
+<h5>📖 Dans le livre</h5>
+<p class="small mb-0">
                                             Encadré "Alternative : Le retour des examens oraux" dans le
                                             Chapitre "L'évaluation repensée", après la section sur la
                                             détection de l'usage de l'IA.
                                         </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="veille-section">
+<h2 class="section-title-veille"><i data-lucide="globe"></i>Sites de veille recommandés</h2>
+<div class="sites-grid">
+<a class="site-card site-card-featured" href="https://www.uneiaparjour.fr/" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon"><i data-lucide="sparkles"></i></div><span class="site-badge">Recommandé</span>
+</div>
+<h3 class="site-title">Une IA par jour</h3>
+<p class="site-description">Veille quotidienne sur les outils IA. Le site de référence.
+                                </p>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+<a class="site-card" href="https://openai.com/blog" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon site-icon-green"><i data-lucide="rss"></i></div>
+</div>
+<h3 class="site-title">OpenAI Blog</h3>
+<p class="site-description">Actualités et recherches officielles d'OpenAI.</p>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+<a class="site-card" href="https://www.anthropic.com/news" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon site-icon-orange"><i data-lucide="rss"></i></div>
+</div>
+<h3 class="site-title">Anthropic</h3>
+<p class="site-description">Nouvelles et annonces autour de Claude.</p>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+<a class="site-card" href="https://mistral.ai/news" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon site-icon-purple"><i data-lucide="rss"></i></div>
+</div>
+<h3 class="site-title">Mistral AI</h3>
+<p class="site-description">Le champion européen de l'IA (blog officiel).</p>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+<a class="site-card" href="https://mathix.org/linux/" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon site-icon-blue"><i data-lucide="calculator"></i></div>
+</div>
+<h3 class="site-title">Mathix</h3>
+<p class="site-description">Blog d'Arnaud Durand : IA et mathématiques.</p>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+<a class="site-card" href="https://www.canope.fr/" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon site-icon-green"><i data-lucide="book"></i></div>
+</div>
+<h3 class="site-title">Réseau Canopé</h3>
+<p class="site-description">Ressources officielles du ministère sur l'IA.</p>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+<a class="site-card" href="https://padlet.com/frederic_vedrenne/l-ia-pour-les-perdir-yruwibp5pviv2te3" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon site-icon-purple"><i data-lucide="layout-dashboard"></i></div>
+</div>
+<h3 class="site-title">IA pour Perdir</h3>
+<p class="site-description">Veille spécifique pour les personnels de direction.</p>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+<a class="site-card" href="https://eduscol.education.fr/692/les-travaux-academiques-mutualises-traam" rel="noopener" target="_blank">
+<div class="site-header">
+<div class="site-icon site-icon-blue"><i data-lucide="graduation-cap"></i></div>
+</div>
+<h3 class="site-title">TraAM (Éduscol)</h3>
+<p class="site-description">Scénarios pédagogiques IA par discipline (banque Édubase).
+                                </p>
+<span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
+</a>
+</div>
+</section>
+<section class="veille-section">
+<h2 class="section-title-veille"><i data-lucide="calendar"></i>Mises à jour mensuelles</h2>
+<article class="update-card update-card-current">
+<div class="update-header"><span class="update-month">Février 2026</span><span class="update-badge">Actuel</span></div>
+<div class="update-items">
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://www.uneiaparjour.fr/teachermatics/" rel="noopener" target="_blank">Teachermatics</a></strong>
+<span class="update-source">— Une IA par jour</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/advancing-independent-research-ai-alignment" rel="noopener" target="_blank">Advancing independent research on AI alignment</a></strong>
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://openai.com/index/openai-for-india" rel="noopener" target="_blank">Introducing OpenAI for India</a></strong>
+<span class="update-source">— OpenAI Blog</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://blog.google/company-news/inside-google/message-ceo/sundar-pichai-ai-impact-summit-2026/" rel="noopener" target="_blank">“No technology has me dreaming bigger than AI”</a></strong>
+<span class="update-source">— Google AI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-collection/" rel="noopener" target="_blank">AI Impact Summit 2026</a></strong>
+<span class="update-source">— Google AI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/" rel="noopener" target="_blank">A new way to express yourself: Gemini can now create music</a></strong>
+<span class="update-source">— Google AI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-india/" rel="noopener" target="_blank">AI Impact Summit 2026: How we’re partnering to make AI work for everyone</a></strong>
+<span class="update-source">— Google AI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/nsi_xyz/status/2024749940275077210#m" rel="noopener" target="_blank">R to @nsi_xyz: La réponse de Gemini 3.1 pro :
+https://gemini.google.com/share/2855b3922153
+La question pour les humains est dans le tweet précédent.</a></strong>
+<span class="update-source">— @nsi_xyz</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/nsi_xyz/status/2024749502020612564#m" rel="noopener" target="_blank">Gemini 3.1 pro résout parfaitement cette énigme : 
+Vous pensez qu'elle l'a générée en :
+1. "réfléchissant" 
+2. "Cherchant" sur internet 
+3. "Cherchant" dans son réseau de neurones 
+4. "Déduisant" d'un problème similaire
+5. "Copiant" la réponse qu'elle a déjà servi à un tiers.</a></strong>
+<span class="update-source">— @nsi_xyz</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/JeffDean/status/2024525132266688757#m" rel="noopener" target="_blank">RT by @nsi_xyz: Today, we’re continuing to push the boundaries of AI with our release of Gemini 3.1 Pro.
 
-                    <section class="veille-section">
-                        <h2 class="section-title-veille"><i data-lucide="globe"></i>Sites de veille recommandés</h2>
-                        <div class="sites-grid">
-                            <a class="site-card site-card-featured" href="https://www.uneiaparjour.fr/" rel="noopener"
-                                target="_blank">
-                                <div class="site-header">
-                                    <div class="site-icon"><i data-lucide="sparkles"></i></div><span
-                                        class="site-badge">Recommandé</span>
-                                </div>
-                                <h3 class="site-title">Une IA par jour</h3>
-                                <p class="site-description">Veille quotidienne sur les outils IA. Le site de référence.
-                                </p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-                            <a class="site-card" href="https://openai.com/blog" rel="noopener" target="_blank">
-                                <div class="site-header">
-                                    <div class="site-icon site-icon-green"><i data-lucide="rss"></i></div>
-                                </div>
-                                <h3 class="site-title">OpenAI Blog</h3>
-                                <p class="site-description">Actualités et recherches officielles d'OpenAI.</p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-                            <a class="site-card" href="https://www.anthropic.com/news" rel="noopener" target="_blank">
-                                <div class="site-header">
-                                    <div class="site-icon site-icon-orange"><i data-lucide="rss"></i></div>
-                                </div>
-                                <h3 class="site-title">Anthropic</h3>
-                                <p class="site-description">Nouvelles et annonces autour de Claude.</p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-                            <a class="site-card" href="https://mistral.ai/news" rel="noopener" target="_blank">
-                                <div class="site-header">
-                                    <div class="site-icon site-icon-purple"><i data-lucide="rss"></i></div>
-                                </div>
-                                <h3 class="site-title">Mistral AI</h3>
-                                <p class="site-description">Le champion européen de l'IA (blog officiel).</p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-                            <a class="site-card" href="https://mathix.org/linux/" rel="noopener" target="_blank">
-                                <div class="site-header">
-                                    <div class="site-icon site-icon-blue"><i data-lucide="calculator"></i></div>
-                                </div>
-                                <h3 class="site-title">Mathix</h3>
-                                <p class="site-description">Blog d'Arnaud Durand : IA et mathématiques.</p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-                            <a class="site-card" href="https://www.canope.fr/" rel="noopener" target="_blank">
-                                <div class="site-header">
-                                    <div class="site-icon site-icon-green"><i data-lucide="book"></i></div>
-                                </div>
-                                <h3 class="site-title">Réseau Canopé</h3>
-                                <p class="site-description">Ressources officielles du ministère sur l'IA.</p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-                            <a class="site-card"
-                                href="https://padlet.com/frederic_vedrenne/l-ia-pour-les-perdir-yruwibp5pviv2te3"
-                                rel="noopener" target="_blank">
-                                <div class="site-header">
-                                    <div class="site-icon site-icon-purple"><i data-lucide="layout-dashboard"></i></div>
-                                </div>
-                                <h3 class="site-title">IA pour Perdir</h3>
-                                <p class="site-description">Veille spécifique pour les personnels de direction.</p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-                            <a class="site-card"
-                                href="https://eduscol.education.fr/692/les-travaux-academiques-mutualises-traam"
-                                rel="noopener" target="_blank">
-                                <div class="site-header">
-                                    <div class="site-icon site-icon-blue"><i data-lucide="graduation-cap"></i></div>
-                                </div>
-                                <h3 class="site-title">TraAM (Éduscol)</h3>
-                                <p class="site-description">Scénarios pédagogiques IA par discipline (banque Édubase).
-                                </p>
-                                <span class="site-link">Consulter<i data-lucide="arrow-right"></i></span>
-                            </a>
-                        </div>
-                    </section>
-                    <section class="veille-section">
-                        <h2 class="section-title-veille"><i data-lucide="calendar"></i>Mises à jour mensuelles</h2>
-                        <article class="update-card update-card-current">
-                            <div class="update-header"><span class="update-month">Février 2026</span><span
-                                    class="update-badge">Actuel</span></div>
-                            <div class="update-items">
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Étude</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://t.co/Cfzrv1044z" rel="noopener" target="_blank">Enquête
+This updated model scores 77.1% on ARC-AGI-2, more than double the reasoning performance of its predecessor, Gemini 3 Pro.
+
+Check out the visible improvement in this side-by-side comparison, showing Gemini 3.1 Pro’s crisp animation built with pure code.
+
+Read more about today’s 3.1 Pro update: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro</a></strong>
+<span class="update-source">— @nsi_xyz</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/MathdeProf/status/2024570914587676743#m" rel="noopener" target="_blank">RT by @nsi_xyz: Par exemple:
+- Que choisir entre A et B?
+- A est bien meilleurs
+- Mais B a quand même cet avantage X, non?
+- Oui bien sûr, A est totalement obsolète, B est bien meilleurs
+- Tu te contredis
+- Vous avez raison, en tant que LLM je ne suis pas fiable
+😤</a></strong>
+<span class="update-source">— @nsi_xyz</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/nsi_xyz/status/2024540842816417811#m" rel="noopener" target="_blank">L'Enseignement Explicite : Ce que dit VRAIMENT la science 🧠 
+https://www.youtube.com/watch?v=WrqIUWrJr10</a></strong>
+<span class="update-source">— @nsi_xyz</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/nsi_xyz/status/2024482605706453205#m" rel="noopener" target="_blank">Infographie sur l'enseignement explicite.</a></strong>
+<span class="update-source">— @nsi_xyz</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/sophiaefrance/status/2024105376690372610#m" rel="noopener" target="_blank">🚀 60 outils d’#IA générative (gratuits ou freemium) à découvrir !
+Classés en 10 catégories : éducation, chatbots, docs, présentations, quiz, musique, voix, image, apps, etc.
+👉 https://www.uneiaparjour.fr/selection/
+#IA #éducation #enseignants #EdTech 
+✍️ @bertrandformet</a></strong>
+<span class="update-source">— @sophiaefrance</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/AnthropicAI/status/2024210056871629072#m" rel="noopener" target="_blank">R to @AnthropicAI: A central lesson of this work is that autonomy is co-constructed by the model, user, and product. It can't be fully characterized by pre-deployment evaluations alone.
+
+For full details, and our recommendations to developers and policymakers, see the blog: https://www.anthropic.com/research/measuring-agent-autonomy</a></strong>
+<span class="update-source">— @AnthropicAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/AnthropicAI/status/2024210053369385192#m" rel="noopener" target="_blank">R to @AnthropicAI: Software engineering makes up ~50% of agentic tool calls on our API, but we see emerging use in other industries. 
+
+As the frontier of risk and autonomy expands, post-deployment monitoring becomes essential. We encourage other model developers to extend this research.</a></strong>
+<span class="update-source">— @AnthropicAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/AnthropicAI/status/2024210050718585017#m" rel="noopener" target="_blank">R to @AnthropicAI: Most agent actions on our API are low risk. 73% of tool calls appear to have a human in the loop, and only 0.8% are irreversible.
+
+But at the frontier, we see agents acting on security systems, financial transactions, and production deployments (though some may be evals).</a></strong>
+<span class="update-source">— @AnthropicAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/AnthropicAI/status/2024210048516575324#m" rel="noopener" target="_blank">R to @AnthropicAI: Claude Code also encourages oversight by stopping to ask questions.
+
+On complex tasks, Claude Code pauses for clarification more than twice as often as humans interrupt it. Training models to recognize uncertainty is an important, under-appreciated safety property.</a></strong>
+<span class="update-source">— @AnthropicAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/AnthropicAI/status/2024210044917891361#m" rel="noopener" target="_blank">R to @AnthropicAI: But interruptions also increase with experience. New users interrupt Claude Code in 5% of turns, compared to 9% for more experienced users.
+
+This suggests a shift from approving each action to delegating and interrupting when needed.</a></strong>
+<span class="update-source">— @AnthropicAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/AnthropicAI/status/2024210041684054238#m" rel="noopener" target="_blank">R to @AnthropicAI: As users gain experience, their oversight strategy shifts.
+
+New users approve each action individually. By 750 sessions, over 40% of sessions are fully auto-approved.</a></strong>
+<span class="update-source">— @AnthropicAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Étude</span>
+<div class="update-content">
+<strong><a href="https://t.co/Cfzrv1044z" rel="noopener" target="_blank">Enquête
                                                 TALIS de l’OCDE : Près d’un prof sur 4 utilisant l’IA s’en sert pour
                                                 noter ses élèves. Comment utiliser l’IA de manière responsable à l’école
                                                 ?</a></strong>
-                                        <span class="update-source">— @OCDE_fr</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Réflexion</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://t.co/VT4OYitgsi" rel="noopener"
-                                                target="_blank">L’intelligence artificielle oblige-t-elle à repenser la
+<span class="update-source">— @OCDE_fr</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Réflexion</span>
+<div class="update-content">
+<strong><a href="https://t.co/VT4OYitgsi" rel="noopener" target="_blank">L’intelligence artificielle oblige-t-elle à repenser la
                                                 définition essentielle de l’autonomie de l'apprenant ?</a></strong>
-                                        <span class="update-source">— @TirotG (affen.fr)</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://x.com/fabienr34/status/2024013335432216650"
-                                                rel="noopener" target="_blank">NotebookLM active la révision de
+<span class="update-source">— @TirotG (affen.fr)</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://x.com/fabienr34/status/2024013335432216650" rel="noopener" target="_blank">NotebookLM active la révision de
                                                 présentations par prompt : une transformation pour les contextes
                                                 éducatifs.</a></strong>
-                                        <span class="update-source">— @fabienr34</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/MistralAI/status/2001669581275033741#m"
-                                                rel="noopener" target="_blank">Introducing Mistral OCR 3, a new frontier
+<span class="update-source">— @fabienr34</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/MistralAI/status/2001669581275033741#m" rel="noopener" target="_blank">Introducing Mistral OCR 3, a new frontier
                                                 in document intelligence! 🧵👇</a></strong>
-                                        <span class="update-source">— @MistralAI</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/MistralAI/status/2001669585330934053#m"
-                                                rel="noopener" target="_blank">R to @MistralAI: We'd love for you to try
+<span class="update-source">— @MistralAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/MistralAI/status/2001669585330934053#m" rel="noopener" target="_blank">R to @MistralAI: We'd love for you to try
                                                 the API or check out the Document AI playground! Both available on
                                                 Mistral AI Studio.</a></strong>
-                                        <span class="update-source">— @MistralAI</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/deepseek_ai/status/1970117808035074215#m"
-                                                rel="noopener" target="_blank">🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus
+<span class="update-source">— @MistralAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/deepseek_ai/status/1970117808035074215#m" rel="noopener" target="_blank">🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus
                                                 The latest update builds on V3.1’s strengths while addressing key user
                                                 feedback.
 
@@ -950,14 +1043,13 @@
                                                 🤖 Agent upgrades: stronger Code Agent &amp; Search Agent performance.
 
                                                 1/2</a></strong>
-                                        <span class="update-source">— @deepseek_ai</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/deepseek_ai/status/1970117812279718197#m"
-                                                rel="noopener" target="_blank">R to @deepseek_ai: 📊
+<span class="update-source">— @deepseek_ai</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/deepseek_ai/status/1970117812279718197#m" rel="noopener" target="_blank">R to @deepseek_ai: 📊
                                                 DeepSeek-V3.1-Terminus delivers more stable &amp; reliable outputs
                                                 across benchmarks compared to the previous version.
 
@@ -969,14 +1061,13 @@
                                                 refining the experience! 🚀
 
                                                 2/2</a></strong>
-                                        <span class="update-source">— @deepseek_ai</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/deepseek_ai/status/1958417062008918312#m"
-                                                rel="noopener" target="_blank">Introducing DeepSeek-V3.1: our first step
+<span class="update-source">— @deepseek_ai</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/deepseek_ai/status/1958417062008918312#m" rel="noopener" target="_blank">Introducing DeepSeek-V3.1: our first step
                                                 toward the agent era! 🚀
 
                                                 🧠 Hybrid inference: Think &amp; Non-Think — one model, two modes
@@ -989,27 +1080,25 @@
                                                 https://chat.deepseek.com/
 
                                                 1/5</a></strong>
-                                        <span class="update-source">— @deepseek_ai</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/OpenAI/status/2022390104237707667#m"
-                                                rel="noopener" target="_blank">R to @OpenAI: Thank you to our
+<span class="update-source">— @deepseek_ai</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022390104237707667#m" rel="noopener" target="_blank">R to @OpenAI: Thank you to our
                                                 collaborators for their partnership. The preprint is available on arXiv
                                                 and is being submitted for publication.
 
                                                 We welcome feedback from the community.
                                                 https://arxiv.org/abs/2602.12176</a></strong>
-                                        <span class="update-source">— @OpenAI</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/OpenAI/status/2022390103017161216#m"
-                                                rel="noopener" target="_blank">R to @OpenAI: In modern amplitude theory,
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022390103017161216#m" rel="noopener" target="_blank">R to @OpenAI: In modern amplitude theory,
                                                 simple formulas often signal deeper structure.
 
                                                 Showing that a case long thought to be empty actually contains structure
@@ -1019,14 +1108,13 @@
 
                                                 Some of these generalizations are also amenable to solution via this new
                                                 AI methodology and will be reported on elsewhere.</a></strong>
-                                        <span class="update-source">— @OpenAI</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/OpenAI/status/2022390101670854878#m"
-                                                rel="noopener" target="_blank">R to @OpenAI: The authors of the preprint
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022390101670854878#m" rel="noopener" target="_blank">R to @OpenAI: The authors of the preprint
                                                 realized this a year ago and sought to find the correct formula for
                                                 interactions involving any number n of gluons, going up to n=6 by hand
                                                 but obtaining complicated expressions that they sought to simplify,
@@ -1040,14 +1128,13 @@
                                                 and producing a formal proof.
 
                                                 The final result was then verified by the authors.</a></strong>
-                                        <span class="update-source">— @OpenAI</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/OpenAI/status/2022390100055986540#m"
-                                                rel="noopener" target="_blank">R to @OpenAI: For decades, one specific
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022390100055986540#m" rel="noopener" target="_blank">R to @OpenAI: For decades, one specific
                                                 gluon interaction (“single-minus” at tree level) was widely treated as
                                                 having zero amplitude, meaning it was assumed not to occur.
 
@@ -1055,14 +1142,13 @@
                                                 shows that the conclusion is too strong: in a carefully defined
                                                 situation — where the particles’ motions satisfy a specific alignment
                                                 condition — the amplitude is not zero.</a></strong>
-                                        <span class="update-source">— @OpenAI</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/OpenAI/status/2022390098495721597#m"
-                                                rel="noopener" target="_blank">R to @OpenAI: Gluons carry the strong
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022390098495721597#m" rel="noopener" target="_blank">R to @OpenAI: Gluons carry the strong
                                                 nuclear force, which is the force that binds quarks together inside
                                                 protons and neutrons.
 
@@ -1070,14 +1156,13 @@
 
                                                 It is one of the four fundamental forces of nature and a core part of
                                                 the Standard Model of particle physics.</a></strong>
-                                        <span class="update-source">— @OpenAI</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/OpenAI/status/2022390096625078389#m"
-                                                rel="noopener" target="_blank">GPT-5.2 derived a new result in
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022390096625078389#m" rel="noopener" target="_blank">GPT-5.2 derived a new result in
                                                 theoretical physics.
 
                                                 We’re releasing the result in a preprint with researchers from @the_IAS,
@@ -1086,61 +1171,56 @@
                                                 specific conditions.
 
                                                 https://openai.com/index/new-result-theoretical-physics/</a></strong>
-                                        <span class="update-source">— @OpenAI</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/OpenAI/status/2022009583653576787#m"
-                                                rel="noopener" target="_blank">R to @OpenAI: Rolling out today to
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022009583653576787#m" rel="noopener" target="_blank">R to @OpenAI: Rolling out today to
                                                 ChatGPT Pro users in the Codex app, CLI, and IDE extension.
                                                 https://openai.com/index/introducing-gpt-5-3-codex-spark/</a></strong>
-                                        <span class="update-source">— @OpenAI</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/OpenAI/status/2022009582210715925#m"
-                                                rel="noopener" target="_blank">GPT-5.3-Codex-Spark is now in research
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/OpenAI/status/2022009582210715925#m" rel="noopener" target="_blank">GPT-5.3-Codex-Spark is now in research
                                                 preview.
 
                                                 You can just build things—faster.</a></strong>
-                                        <span class="update-source">— @OpenAI</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/ComprendreLIA/status/2023952934728257981#m"
-                                                rel="noopener" target="_blank">RT by @Fabien_Mikol: Voici la
+<span class="update-source">— @OpenAI</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/ComprendreLIA/status/2023952934728257981#m" rel="noopener" target="_blank">RT by @Fabien_Mikol: Voici la
                                                 bande-annonce sous-titrée en français de « Le documentaire sur l’IA : ou
                                                 comment je suis devenu apocaloptimiste »
 
                                                 Titre original : The AI ​​Doc : Or How I Became an Apocaloptimist
                                                 Bande annonce sous-titrée par : Moi !
                                                 Sortie en salles le 27 mars 2026.</a></strong>
-                                        <span class="update-source">— @Fabien_Mikol</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/Fabien_Mikol/status/2023796187950969172#m"
-                                                rel="noopener" target="_blank">"Les principes ne peuvent s'inscrire dans
+<span class="update-source">— @Fabien_Mikol</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/Fabien_Mikol/status/2023796187950969172#m" rel="noopener" target="_blank">"Les principes ne peuvent s'inscrire dans
                                                 du code informatique. Un modèle d'IA ne se pilote pas. A tout le moins,
                                                 on l'oriente, on l'élague avec plus ou moins de bonheur"
                                                 Bon rappel de l'aspect très superficiel du RLHF comme tentative
                                                 d'alignement des modèles après le pretraining</a></strong>
-                                        <span class="update-source">— @Fabien_Mikol</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-new">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/JZefka/status/2023744533045907727#m"
-                                                rel="noopener" target="_blank">RT by @Fabien_Mikol: Très intéressant,
+<span class="update-source">— @Fabien_Mikol</span>
+</div>
+</div>
+<div class="update-item update-new">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/JZefka/status/2023744533045907727#m" rel="noopener" target="_blank">RT by @Fabien_Mikol: Très intéressant,
                                                 anthropologiquement parlant. Le carnaval d'Andorre perpétue, sans le
                                                 savoir (?), un rite antijudaïque très ancien, celui du "bûcher de
                                                 Judas".
@@ -1168,54 +1248,50 @@
                                                 J'entends déjà ceux qui se récrieront : "Ce n'est pas de
                                                 l'antisémitisme, ni même de l'antijudaïsme : c'est de l'antisionisme !"
                                                 On les croit, à la lumière de mille ans d'histoire.</a></strong>
-                                        <span class="update-source">— @Fabien_Mikol</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/Fabien_Mikol/status/2023717465713479875#m"
-                                                rel="noopener" target="_blank">Discussion entre @AymericRoucher et
+<span class="update-source">— @Fabien_Mikol</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/Fabien_Mikol/status/2023717465713479875#m" rel="noopener" target="_blank">Discussion entre @AymericRoucher et
                                                 @nico16184 sur l'amnésie des LLM et l'importance ou non du "continual
                                                 learning" : en débloquant tout simplement l'accès aux fichiers de
                                                 l'ordinateur, les agents peuvent désormais mettre à jour une forme de
                                                 "journal" contextuel, et cela suffit !</a></strong>
-                                        <span class="update-source">— @Fabien_Mikol</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/MIKL_Bertrand/status/2023443038350025183#m"
-                                                rel="noopener" target="_blank">IA &amp; éducation à Shanghai
+<span class="update-source">— @Fabien_Mikol</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/MIKL_Bertrand/status/2023443038350025183#m" rel="noopener" target="_blank">IA &amp; éducation à Shanghai
                                                 Selon Julia Rafal-Baer, élèves et enseignants utilisent l’IA de façon
                                                 systémique : collaboration, assistants IA, etc.
                                                 ⚠️ Témoignage local, non généralisable.
                                                 💡 Mais une base précieuse pour penser éducation à l’IA et avec l’IA.
                                                 🔗
                                                 https://www.k12dive.com/news/what-can-us-schools-learn-about-ai-education-from-their-chinese-counterpa/809618/?_bhlid=e24b1cf200df564c764a18af83ee0a9f116475ea</a></strong>
-                                        <span class="update-source">— @MIKL_Bertrand</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/MIKL_Bertrand/status/2022355927584645154#m"
-                                                rel="noopener" target="_blank">« Commander sur Shein, n’est-ce pas aussi
+<span class="update-source">— @MIKL_Bertrand</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/MIKL_Bertrand/status/2022355927584645154#m" rel="noopener" target="_blank">« Commander sur Shein, n’est-ce pas aussi
                                                 participer à un système d’exploitation humaine ? Que diront les
                                                 historiens de nos choix dans 200 ans ? »
                                                 🤔 L’histoire est un outil pour comprendre le présent, décrypter l’info,
                                                 et former des citoyens critiques.
                                                 🔗
                                                 https://www.rtbf.be/article/in-sophie-garcia-montero-we-trust-transmettre-l-histoire-pour-mieux-apprehender-le-monde-11667108</a></strong>
-                                        <span class="update-source">— @MIKL_Bertrand</span>
-                                    </div>
-                                </div>
-                                <div class="update-item update-update">
-                                    <span class="update-tag">Nouveau</span>
-                                    <div class="update-content">
-                                        <strong><a href="https://twitter.com/MIKL_Bertrand/status/2021993379546988942#m"
-                                                rel="noopener" target="_blank">« Trouver des degrés où il n’y en a point
+<span class="update-source">— @MIKL_Bertrand</span>
+</div>
+</div>
+<div class="update-item update-update">
+<span class="update-tag">Nouveau</span>
+<div class="update-content">
+<strong><a href="https://twitter.com/MIKL_Bertrand/status/2021993379546988942#m" rel="noopener" target="_blank">« Trouver des degrés où il n’y en a point
                                                 » — Léon Bourgeois, 1890.
                                                 📊 La note sur 20 n’a pas été créée pour faire apprendre, mais pour
                                                 classer.
@@ -1223,97 +1299,96 @@
                                                 interroge.
                                                 📖
                                                 https://www.cafepedagogique.net/2026/01/28/dou-vient-la-note-sur-20/</a></strong>
-                                        <span class="update-source">— @MIKL_Bertrand</span>
+<span class="update-source">— @MIKL_Bertrand</span>
+</div>
+</div>
+</div>
+</article>
+<article class="update-card">
+<div class="update-header"><span class="update-month">Janvier 2026</span></div>
+<div class="update-items">
+<div class="update-item update-new"><span class="update-tag">Nouveau</span>
+<div class="update-content"><strong>Gemini 2.0 Pro</strong> - Raisonnement intégré.
                                     </div>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="update-card">
-                            <div class="update-header"><span class="update-month">Janvier 2026</span></div>
-                            <div class="update-items">
-                                <div class="update-item update-new"><span class="update-tag">Nouveau</span>
-                                    <div class="update-content"><strong>Gemini 2.0 Pro</strong> - Raisonnement intégré.
-                                    </div>
-                                </div>
-                                <div class="update-item update-new"><span class="update-tag">Nouveau</span>
-                                    <div class="update-content"><strong>Fobizz Éducation</strong> - Suite européenne
+</div>
+<div class="update-item update-new"><span class="update-tag">Nouveau</span>
+<div class="update-content"><strong>Fobizz Éducation</strong> - Suite européenne
                                         RGPD.</div>
-                                </div>
-                            </div>
-                        </article>
-                    </section>
-                </div>
-                <aside class="veille-sidebar">
-                    <div class="sidebar-card">
-                        <h3 class="sidebar-title"><i data-lucide="bell"></i>Restez informé</h3>
-                        <p class="sidebar-text">Page mise à jour chaque mois.</p>
-                        <div class="sidebar-meta"><i data-lucide="refresh-cw"></i>Février 2026</div>
-                    </div>
-                </aside>
-            </div>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <a class="logo" href="index.html">
-                        <span class="logo-icon">📚</span>
-                        <span class="logo-text">Enseigner avec l'IA</span>
-                    </a>
-                    <p class="footer-description">
+</div>
+</div>
+</article>
+</section>
+</div>
+<aside class="veille-sidebar">
+<div class="sidebar-card">
+<h3 class="sidebar-title"><i data-lucide="bell"></i>Restez informé</h3>
+<p class="sidebar-text">Page mise à jour chaque mois.</p>
+<div class="sidebar-meta"><i data-lucide="refresh-cw"></i>Février 2026</div>
+</div>
+</aside>
+</div>
+</div>
+</main>
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a class="logo" href="index.html">
+<span class="logo-icon">📚</span>
+<span class="logo-text">Enseigner avec l'IA</span>
+</a>
+<p class="footer-description">
                         Site compagnon du livre "Les outils pour enseigner avec l'IA"
                         de Fabien Boyer, publié aux Éditions Ellipses.
                     </p>
-                </div>
-                <div class="footer-links">
-                    <h4 class="footer-title">Navigation</h4>
-                    <ul>
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="debuter.html">Débuter</a></li>
-                        <li><a href="disciplines.html">Disciplines</a></li>
-                        <li><a href="conversations.html">Conversations</a></li>
-                        <li><a href="outils.html">Outils</a></li>
-                        <li><a href="ethique.html">Ressources</a></li>
-                        <li><a href="lexique.html">Lexique</a></li>
-                        <li><a href="formation.html">Formation</a></li>
-                        <li><a href="veille.html">Veille</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4 class="footer-title">Informations</h4>
-                    <ul>
-                        <li><a href="a-propos.html">À propos</a></li>
-                        <li><a href="https://www.editions-ellipses.fr/" rel="noopener" target="_blank">Éditions
+</div>
+<div class="footer-links">
+<h4 class="footer-title">Navigation</h4>
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="debuter.html">Débuter</a></li>
+<li><a href="disciplines.html">Disciplines</a></li>
+<li><a href="conversations.html">Conversations</a></li>
+<li><a href="outils.html">Outils</a></li>
+<li><a href="ethique.html">Ressources</a></li>
+<li><a href="lexique.html">Lexique</a></li>
+<li><a href="formation.html">Formation</a></li>
+<li><a href="veille.html">Veille</a></li>
+</ul>
+</div>
+<div class="footer-links">
+<h4 class="footer-title">Informations</h4>
+<ul>
+<li><a href="a-propos.html">À propos</a></li>
+<li><a href="https://www.editions-ellipses.fr/" rel="noopener" target="_blank">Éditions
                                 Ellipses</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4 class="footer-title">Contact</h4>
-                    <ul>
-                        <li>
-                            <a href="https://twitter.com/" rel="noopener" target="_blank">
-                                <i data-lucide="twitter"></i>
+</ul>
+</div>
+<div class="footer-links">
+<h4 class="footer-title">Contact</h4>
+<ul>
+<li>
+<a href="https://twitter.com/" rel="noopener" target="_blank">
+<i data-lucide="twitter"></i>
                                 Twitter
                             </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© 2026 Fabien Boyer - Éditions Ellipses. Tous droits réservés.</p>
-                <div style="margin-top: 10px; opacity: 0.8;">
-                    <script async="" data-goatcounter="https://fabienboyer.goatcounter.com/count"
-                        src="//gc.zgo.at/count.js"></script>
-                    <noscript>
-                        <img src="https://fabienboyer.goatcounter.com/count?p=/index.html" />
-                    </noscript>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="scripts/main.js"></script>
-    <script>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 Fabien Boyer - Éditions Ellipses. Tous droits réservés.</p>
+<div style="margin-top: 10px; opacity: 0.8;">
+<script async="" data-goatcounter="https://fabienboyer.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+<noscript>
+<img src="https://fabienboyer.goatcounter.com/count?p=/index.html"/>
+</noscript>
+</div>
+</div>
+</div>
+</footer>
+<script src="scripts/main.js"></script>
+<script>
         // Simple accordion script
         document.addEventListener('DOMContentLoaded', () => {
             const triggers = document.querySelectorAll('.accordion-button');
@@ -1337,5 +1412,4 @@
         });
     </script>
 </body>
-
 </html>
