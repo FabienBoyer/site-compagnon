@@ -1,6 +1,216 @@
 {
   "articles": [
     {
+      "title": "Our First Proof submissions",
+      "link": "https://openai.com/index/first-proof-submissions",
+      "date": "2026-02-20T14:30:00",
+      "source": "OpenAI Blog",
+      "summary": "We share our AI model’s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems."
+    },
+    {
+      "title": "Bringing ChatGPT to GenAI.mil",
+      "link": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+      "date": "2026-02-09T11:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams."
+    },
+    {
+      "title": "Our 2026 Responsible AI Progress Report",
+      "link": "https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/",
+      "date": "2026-02-17T22:30:00",
+      "source": "Google AI",
+      "summary": "an illustration of blue and white cubes"
+    },
+    {
+      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+      "date": "2026-02-12T16:13:00",
+      "source": "Google AI",
+      "summary": "Gemini 3 Deep Think logo"
+    },
+    {
+      "title": "9 fun questions to try asking Google Photos",
+      "link": "https://blog.google/products-and-platforms/products/photos/ask-button-ask-photos-tips/",
+      "date": "2026-02-10T17:00:00",
+      "source": "Google AI",
+      "summary": "A collage of outdoor images, a blue icon that say \"Ask Photos,\" and examples of Ask Photos prompts."
+    },
+    {
+      "title": "Helping kids and teens learn and grow online on Safer Internet Day",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/safer-internet-day-2026-kids-teens/",
+      "date": "2026-02-10T02:30:00",
+      "source": "Google AI",
+      "summary": "User profile on smartphone connected to security, media, and settings icons."
+    },
+    {
+      "title": "RT by @nsi_xyz: Votre rappel du jour: TIMSS est évaluation standardisée, les performances endiquées par les barres noires et grises sont constantes. \n\nLa France est passé de 15% d'élèves au niveau avancé à 1%, et de 64% d'élèves au niveau élevé à 11%.",
+      "link": "https://twitter.com/CyniqueDeGauche/status/2024822710426100086#m",
+      "date": "2026-02-20T12:25:28",
+      "source": "@nsi_xyz",
+      "summary": "<p>Votre rappel du jour: TIMSS est évaluation standardisée, les performances endiquées par les barres noires et grises sont constantes. <br />\n<br />\nLa France est passé de 15% d'élèves au niveau avan"
+    },
+    {
+      "title": "R to @nsi_xyz: Pour la blague, on m'a envoyé ceci en image. Mais je cherche la porte d'accès.",
+      "link": "https://twitter.com/nsi_xyz/status/2024780626524795063#m",
+      "date": "2026-02-20T09:38:14",
+      "source": "@nsi_xyz",
+      "summary": "<p>Pour la blague, on m'a envoyé ceci en image. Mais je cherche la porte d'accès.</p>\n<img src=\"https://nitter.net/pic/media%2FHBl3D4JWYAA_eTM.jpg\" />"
+    },
+    {
+      "title": "R to @nsi_xyz: J'ai trouvé le lien, et sans utiliser Gemini !\nhttps://demo.miaseconde.fr/\nOn a une IA bien française, les américains peuvent trembler !",
+      "link": "https://twitter.com/nsi_xyz/status/2024774432351219746#m",
+      "date": "2026-02-20T09:13:37",
+      "source": "@nsi_xyz",
+      "summary": "<p>J'ai trouvé le lien, et sans utiliser Gemini !<br />\n<a href=\"https://demo.miaseconde.fr/\">demo.miaseconde.fr/</a><br />\nOn a une IA bien française, les américains peuvent trembler !</p>\n<img src=\""
+    },
+    {
+      "title": "Qui a testé MIA Seconde, l'IA qui équipe nos élèves de seconde depuis la rentrée 2024 ? (annoncé par le ministre de l'époque)\nJe ne trouve pas le lien pour y accéder ni pour la télécharger.",
+      "link": "https://twitter.com/nsi_xyz/status/2024773970466127901#m",
+      "date": "2026-02-20T09:11:47",
+      "source": "@nsi_xyz",
+      "summary": "<p>Qui a testé MIA Seconde, l'IA qui équipe nos élèves de seconde depuis la rentrée 2024 ? (annoncé par le ministre de l'époque)<br />\nJe ne trouve pas le lien pour y accéder ni pour la télécharger.</"
+    },
+    {
+      "title": "Il est où le parcours IA obligatoire pour les élèves sur la plateforme PIX, parcours obligatoire annoncé par la ministre de l'époque ?",
+      "link": "https://twitter.com/nsi_xyz/status/2024770932997255425#m",
+      "date": "2026-02-20T08:59:43",
+      "source": "@nsi_xyz",
+      "summary": "<p>Il est où le parcours IA obligatoire pour les élèves sur la plateforme PIX, parcours obligatoire annoncé par la ministre de l'époque ?</p>\n<img src=\"https://nitter.net/pic/media%2FHBlubvoXQAERoxa.j"
+    },
+    {
+      "title": "📱 🔐 FantomApp, l’app de la @CNIL, aide les ados à mieux protéger leur vie privée sur les réseaux sociaux. Cyberharcèlement, paramètres de confidentialité, mots de passe: des conseils concrets pour adopter les bons réflexes numériques.\n👉 https://www.cnil.fr/fr/fantomapp #TICE #education",
+      "link": "https://twitter.com/sophiaefrance/status/2024798693824647506#m",
+      "date": "2026-02-20T10:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>📱 🔐 FantomApp, l’app de la <a href=\"https://nitter.net/CNIL\" title=\"CNIL\">@CNIL</a>, aide les ados à mieux protéger leur vie privée sur les réseaux sociaux. Cyberharcèlement, paramètres de confiden"
+    },
+    {
+      "title": "Et si les élèves entraient dans la #lecture selon leur météo intérieure ? 🌦📚\nUn parcours poétique, à choisir selon son humeur et ses ressentis : calme, espoir, curiosité, rêverie… Une lecture différenciée, sensible et autonome\n🔗 https://ameliemariottat.my.canva.site/poemes-du-matin \n✍️ @mariottatAmelie",
+      "link": "https://twitter.com/sophiaefrance/status/2023272391116267696#m",
+      "date": "2026-02-16T05:45:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>Et si les élèves entraient dans la <a href=\"https://nitter.net/search?f=tweets&amp;q=%23lecture\">#lecture</a> selon leur météo intérieure ? 🌦📚<br />\nUn parcours poétique, à choisir selon son humeur"
+    },
+    {
+      "title": "🤖 L’IA en éducation ne doit pas se limiter à l’automatisation. Et si elle devenait un partenaire créatif de l’apprentissage ? \nCet article de #recherche défend des usages favorisant créativité, réflexion et agentivité des enseignants et des élèves. \n🔗 https://edunumrech.hypotheses.org/15778",
+      "link": "https://twitter.com/sophiaefrance/status/2022261979021266957#m",
+      "date": "2026-02-13T10:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 L’IA en éducation ne doit pas se limiter à l’automatisation. Et si elle devenait un partenaire créatif de l’apprentissage ? <br />\nCet article de <a href=\"https://nitter.net/search?f=tweets&amp;q"
+    },
+    {
+      "title": "Classe inversée ou classe renversée ? \n2️⃣ approches souvent confondues, mais aux logiques bien distinctes.\n🔎 Cette fiche claire et synthétique d'Élise Cornu @Univ_Lorraine éclaire leurs spécificités et enjeux péda. Un must pour repenser sa posture !\n👉 https://drive.google.com/file/d/1zvPpObVUUcU3fzDCRx9tYWGxf1WL4oj0/view?usp=sharing",
+      "link": "https://twitter.com/sophiaefrance/status/2021568661371117751#m",
+      "date": "2026-02-11T12:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Classe inversée ou classe renversée ? <br />\n2️⃣ approches souvent confondues, mais aux logiques bien distinctes.<br />\n🔎 Cette fiche claire et synthétique d'Élise Cornu <a href=\"https://nitter.net"
+    },
+    {
+      "title": "🤖 Démystifier l’IA(G) en jouant ? ✅\nCe jeu des 7 familles conçu par Learning lab-UO @univ_orleans introduit les concepts clés de l’#IA de façon ludique et collaborative pour mieux comprendre les IA génératives. \n👉 https://www.univ-orleans.fr/fr/learninglab-uo/le-lluo/intelligence-artificielle/la-decouverte-de-lintelligence-artificielle-le-jeu \n#éducation #jeu #TICE #pédagogie",
+      "link": "https://twitter.com/sophiaefrance/status/2020735674085728436#m",
+      "date": "2026-02-09T05:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 Démystifier l’IA(G) en jouant ? ✅<br />\nCe jeu des 7 familles conçu par Learning lab-UO <a href=\"https://nitter.net/Univ_Orleans\" title=\"Université d'Orléans\">@univ_orleans</a> introduit les conc"
+    },
+    {
+      "title": "🧩 Avec PuzzleGenio, créez facilement des jeux éducatifs personnalisés (mots croisés, mêlés, sudokus, puzzles…) à imprimer ou partager avec vos élèves !\nUn site gratuit, sans inscription pour apprendre en jouant 🚀\n🔗 https://puzzlegenio.com/fr \nvia @Outilstice",
+      "link": "https://twitter.com/sophiaefrance/status/2019725263391576180#m",
+      "date": "2026-02-06T10:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧩 Avec PuzzleGenio, créez facilement des jeux éducatifs personnalisés (mots croisés, mêlés, sudokus, puzzles…) à imprimer ou partager avec vos élèves !<br />\nUn site gratuit, sans inscription pour "
+    },
+    {
+      "title": "🤖 Intégrer l’#IA générative en #pédagogie, ce n’est pas “autoriser ou interdire” : c’est réaligner objectifs, activités, évaluations, former à l’esprit critique, et clarifier les règles d’usage avec exemples concrets à l’appui. \n🔗https://oer.uclouvain.be/jspui/bitstream/20.500.12279/1089.3/6/CahierLLL_IAG_OKOER.pdf \n✍️ @LouvainLL",
+      "link": "https://twitter.com/sophiaefrance/status/2019031946475474952#m",
+      "date": "2026-02-04T12:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 Intégrer l’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> générative en <a href=\"https://nitter.net/search?f=tweets&amp;q=%23pédagogie\">#pédagogie</a>, ce n’est pas “autoriser o"
+    },
+    {
+      "title": "🎲 Et si jouer ensemble apprenait aussi à vivre ensemble ? 🤝\nLes jeux coopératifs développent entraide, confiance et respect, tt en améliorant le climat de classe. Un classeur riche en idées concrètes pr apprendre autrement, par le corps et la coopération https://drive.google.com/file/d/1gth_H6FAdo3UrJLGT30Vc7WnRdKFmHDI/view?usp=sharing",
+      "link": "https://twitter.com/sophiaefrance/status/2018198962109309023#m",
+      "date": "2026-02-02T05:45:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>🎲 Et si jouer ensemble apprenait aussi à vivre ensemble ? 🤝<br />\nLes jeux coopératifs développent entraide, confiance et respect, tt en améliorant le climat de classe. Un classeur riche en idées c"
+    },
+    {
+      "title": "🤖 IA en éducation : rupture ou continuité ?\nL’essor de l’IA générative questionne l’évaluation, l’éthique, la formation des enseignants et notre rapport au savoir. Plus que des outils, ce sont nos priorités éducatives qu’il faut repenser. \n🔗 https://veille-et-analyses.ens-lyon.fr/DA/detailsDossier.php?parent=accueil&dossier=154&lang=fr \n✍️ @educIFE",
+      "link": "https://twitter.com/sophiaefrance/status/2017188547720003641#m",
+      "date": "2026-01-30T10:50:01",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 IA en éducation : rupture ou continuité ?<br />\nL’essor de l’IA générative questionne l’évaluation, l’éthique, la formation des enseignants et notre rapport au savoir. Plus que des outils, ce son"
+    },
+    {
+      "title": "RT by @AnthropicAI: Introducing Claude Code Security, now in limited research preview.\n\nIt scans codebases for vulnerabilities and suggests targeted software patches for human review, allowing teams to find and fix issues that traditional tools often miss.\n\nLearn more: https://www.anthropic.com/news/claude-code-security",
+      "link": "https://twitter.com/claudeai/status/2024907535145468326#m",
+      "date": "2026-02-20T18:02:31",
+      "source": "@AnthropicAI",
+      "summary": "<p>Introducing Claude Code Security, now in limited research preview.<br />\n<br />\nIt scans codebases for vulnerabilities and suggests targeted software patches for human review, allowing teams to fin"
+    },
+    {
+      "title": "R to @wandb: worldwide-hackathon.mistral.…",
+      "link": "https://twitter.com/MistralAI/status/2021239601503912409#m",
+      "date": "2026-02-10T15:07:28",
+      "source": "@MistralAI",
+      "summary": "<p><a href=\"https://worldwide-hackathon.mistral.ai/\">worldwide-hackathon.mistral.…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2023776473790742528%2FaFT7u20d%3Fformat%3Djpg%26name%3D800x419\" /"
+    },
+    {
+      "title": "Introducing Mistral AI's biggest hackathon ever!\n📅 Feb 28 - Mar 1\n🌍 Paris | London | NY | SF | Tokyo | Singapore | Sydney & online\n48 hours. The best hackers.\n🤝 Partners: >@wandb @nvidia @awscloud @HackIterate\n🏆 $200K in prizes. Special awards from @elevenlabsio @huggingface @JUmp @whitecircle @supercell\nLink in 🧵",
+      "link": "https://twitter.com/MistralAI/status/2021238361227186462#m",
+      "date": "2026-02-10T15:02:32",
+      "source": "@MistralAI",
+      "summary": "<p>Introducing Mistral AI's biggest hackathon ever!<br />\n📅 Feb 28 - Mar 1<br />\n🌍 Paris | London | NY | SF | Tokyo | Singapore | Sydney & online<br />\n48 hours. The best hackers.<br />\n🤝 Partners: <a"
+    },
+    {
+      "title": "R to @MistralAI: Available now. Mini Transcribe 2 via API at $0.003/min. Realtime via API at $0.006/min, plus open weights.\n\nGet started → http://console.mistral.ai/build/audio/speech-to-text",
+      "link": "https://twitter.com/MistralAI/status/2019068838009074155#m",
+      "date": "2026-02-04T15:21:38",
+      "source": "@MistralAI",
+      "summary": "<p>Available now. Mini Transcribe 2 via API at $0.003/min. Realtime via API at $0.006/min, plus open weights.<br />\n<br />\nGet started → <a href=\"http://console.mistral.ai/build/audio/speech-to-text\">"
+    },
+    {
+      "title": "Deep research in ChatGPT is now powered by GPT-5.2.\n\nRolling out starting today with more improvements.",
+      "link": "https://twitter.com/OpenAI/status/2021299935678026168#m",
+      "date": "2026-02-10T19:07:13",
+      "source": "@OpenAI",
+      "summary": "<p>Deep research in ChatGPT is now powered by GPT-5.2.<br />\n<br />\nRolling out starting today with more improvements.</p>\n<a href=\"https://nitter.net/OpenAI/status/2021299935678026168#m\">\n<br />Video"
+    },
+    {
+      "title": "R to @OpenAI: Now in deep research you can:\n\n- Connect to apps in ChatGPT and search specific sites\n\n- Track real-time progress and interrupt with follow-ups or new sources\n\n- View fullscreen reports",
+      "link": "https://twitter.com/OpenAI/status/2021299936948781095#m",
+      "date": "2026-02-10T19:07:13",
+      "source": "@OpenAI",
+      "summary": "<p>Now in deep research you can:<br />\n<br />\n- Connect to apps in ChatGPT and search specific sites<br />\n<br />\n- Track real-time progress and interrupt with follow-ups or new sources<br />\n<br />\n-"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Alors je relève un certain nombre d'erreurs de métrique (je ne sais pas si c'est ce qu'il compte parmi ses \"licences\"), mais les progrès en quelques mois me paraissent tout de même très substantiels.\nhttps://claude.ai/share/e7e305c8-13d3-4c09-b0ec-35c0b3abc33d",
+      "link": "https://twitter.com/Fabien_Mikol/status/2024994346706063458#m",
+      "date": "2026-02-20T23:47:29",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Alors je relève un certain nombre d'erreurs de métrique (je ne sais pas si c'est ce qu'il compte parmi ses \"licences\"), mais les progrès en quelques mois me paraissent tout de même très substantiel"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: Update.",
+      "link": "https://twitter.com/AndrewCurran_/status/2024926393965183472#m",
+      "date": "2026-02-20T19:17:28",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Update.</p>\n<img src=\"https://nitter.net/pic/media%2FHBn70jDbgAArk8L.jpg\" />\n<hr />\n<blockquote>\n<b>METR (@METR_Evals)</b>\n<p>\n<p>We estimate that Claude Opus 4.6 has a 50%-time-horizon of around 1"
+    },
+    {
+      "title": "Alain Damasio : je travaille avec Claude sur l'écriture de mon prochain roman, \"je suis sidéré par ses capacités de création sur les univers imaginaires\" ; elle est \"quasiment au même niveau que mon artisanat, et que ça va continuer à progresser\", au risque d'une \"crise d'ego\"...",
+      "link": "https://twitter.com/Fabien_Mikol/status/2024773227386446070#m",
+      "date": "2026-02-20T09:08:50",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Alain Damasio : je travaille avec Claude sur l'écriture de mon prochain roman, \"je suis sidéré par ses capacités de création sur les univers imaginaires\" ; elle est \"quasiment au même niveau que mo"
+    },
+    {
+      "title": "🧭 L’EN annonce un “Comité d’anticipation en éducation”.\nLa prospective implique néanmoins de croiser les regards pour ouvrir des possibles, sans prétendre “prédire”.\nUne démarche notamment adoptée par Céline Cael et Laurent Reynaud. \nÀ suivre.\nhttps://www.education.gouv.fr/creation-du-comite-d-anticipation-en-education-et-deploiement-du-parcours-pix-ia-l-ecole-se-prepare-452242",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2024892552571191342#m",
+      "date": "2026-02-20T17:02:59",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🧭 L’EN annonce un “Comité d’anticipation en éducation”.<br />\nLa prospective implique néanmoins de croiser les regards pour ouvrir des possibles, sans prétendre “prédire”.<br />\nUne démarche notamm"
+    },
+    {
       "title": "Teachermatics",
       "link": "https://www.uneiaparjour.fr/teachermatics/",
       "date": "2026-02-19T21:06:00",
@@ -489,219 +699,9 @@
       "date": "2026-02-11T17:02:48",
       "source": "@MIKL_Bertrand",
       "summary": "<p>✍️ IA &amp; écriture : écrire mieux, pas à la place des élèves.<br />\nLe coach d’écriture de Khan Academy + Google aide à structurer la pensée, sans rédiger le texte final. <a href=\"https://www.lag"
-    },
-    {
-      "title": "« Je ne laisse pas mon IA me parler comme ça » \nOn croit toujours utiliser l’IA plus intelligemment que les autres.\nGuillemette Faure met en lumière la relation étrange qui se construit entre l’humain et la machine.\n🔗 https://www.lemonde.fr/m-le-mag/article/2026/01/24/je-ne-laisse-pas-mon-ia-me-parler-comme-ca_6663926_4500055.html",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2021268757067219335#m",
-      "date": "2026-02-10T17:03:19",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>« Je ne laisse pas mon IA me parler comme ça » <br />\nOn croit toujours utiliser l’IA plus intelligemment que les autres.<br />\nGuillemette Faure met en lumière la relation étrange qui se construit"
-    },
-    {
-      "title": "🎓 Et si l’on prenait le temps de penser collectivement l’École de demain ?\nLe Café pédagogique lance #NotreÉcole2027 : un appel à contributions pour construire un projet éducatif ambitieux et humaniste.\n✍️ Jusqu’au 20 février\n🔗 https://www.cafepedagogique.net/2026/01/12/lappel-du-cafe-pedagogique-pour-notre-ecole-2027-construisons-ensemble-un-vrai-projet-educatif-global-demancipation-et-de-solidarite/",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2020906305808912411#m",
-      "date": "2026-02-09T17:03:04",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🎓 Et si l’on prenait le temps de penser collectivement l’École de demain ?<br />\nLe Café pédagogique lance <a href=\"https://nitter.net/search?f=tweets&amp;q=%23NotreÉcole2027\">#NotreÉcole2027</a> :"
-    },
-    {
-      "title": "C'est LA vidéo qu'il faut regarder avant de se lancer dans des stratégies de ludicisation en classe !  🤩 🤩 🤩\nBravo Ségolène, Romain et toute l'équipe derrière cette production incroyable. \n 🎮 https://www.youtube.com/watch?v=gMou-MSe1r0",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2019819201423090010#m",
-      "date": "2026-02-06T17:03:18",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>C'est LA vidéo qu'il faut regarder avant de se lancer dans des stratégies de ludicisation en classe !  🤩 🤩 🤩<br />\nBravo Ségolène, Romain et toute l'équipe derrière cette production incroyable. <br"
-    },
-    {
-      "title": "🎥 IA & éducation : un reportage tout en nuances.\n\n🇪🇪 Estonie | 🇮🇳 Inde | 🇬🇧 UK\n👩🏫 Enseignants, 🎓 élèves, 🧠 chercheurs\n➡️ usages concrets, atouts et limites\n➡️ ni panique morale, ni solution miracle\n\n📽️ https://www.youtube.com/watch?v=g_gRHW4SJtI\n\n#Éducation #IA #Pédagogie #EspritCritique 🤖📚",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2019456629335343577#m",
-      "date": "2026-02-05T17:02:34",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🎥 IA &amp; éducation : un reportage tout en nuances.<br />\n<br />\n🇪🇪 Estonie | 🇮🇳 Inde | 🇬🇧 UK<br />\n👩🏫 Enseignants, 🎓 élèves, 🧠 chercheurs<br />\n➡️ usages concrets, atouts et limites<br />\n➡️ ni p"
-    },
-    {
-      "title": "🤔 Quelles activités valent encore la peine d’être enseignées lorsqu’une IA peut produire une réponse en quelques secondes ?\nCarter Moulton propose 6 valeurs (pouvoir d’agir, esprit critique, appartenance,…) pour garder l’humain dans la boucle.\n🔗 https://www.analoginspiration.ai/speaking",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2019094908846379166#m",
-      "date": "2026-02-04T17:05:13",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🤔 Quelles activités valent encore la peine d’être enseignées lorsqu’une IA peut produire une réponse en quelques secondes ?<br />\nCarter Moulton propose 6 valeurs (pouvoir d’agir, esprit critique, "
-    },
-    {
-      "title": "🧠 Plus l’IA entre à l’école, plus les risques augmentent.\n📘 Le rapport 2025 du CDT est clair : l’adoption massive de l’IA doit s’accompagner de formation et de gouvernance, pas seulement d’outils.\n🔗 https://cdt.org/insights/hand-in-hand-schools-embrace-of-ai-connected-to-increased-risks-to-students/ \n#IA #Éducation #NumériqueResponsable #Gouvernance",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2018731913037365645#m",
-      "date": "2026-02-03T17:02:48",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🧠 Plus l’IA entre à l’école, plus les risques augmentent.<br />\n📘 Le rapport 2025 du CDT est clair : l’adoption massive de l’IA doit s’accompagner de formation et de gouvernance, pas seulement d’ou"
-    },
-    {
-      "title": "Exerciseur sur les transformations intégrés à suivi.mathix.org",
-      "link": "https://mathix.org/linux/archives/22079",
-      "date": "2026-02-06T06:54:59",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Je représente donc mon exerciseur sur les transformations ! (voir article ou article) J&#8217;ai revu un peu le style . De manière classique on peut toujours s&#8217;entraîn"
-    },
-    {
-      "title": "LLM et FlashMD",
-      "link": "https://mathix.org/linux/archives/22055",
-      "date": "2026-01-31T10:25:11",
-      "source": "Mathix (A. Durand)",
-      "summary": "Après avoir longtemps utilisé CartesMD, je viens de découvrir FlashMD, que je trouve plus simple et plus direct pour mon usage. CartesMD est sans aucun doute plus complet, mais mon besoin est très ori"
-    },
-    {
-      "title": "Scénario didactique : Apprendre à faire des liens entre notions tout en critiquant l’IA, c’est possible ?",
-      "link": "https://mathix.org/linux/archives/22035",
-      "date": "2026-01-30T22:58:37",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Je tenais à partager une petite activité régulière que l&#8217;on peut faire avec les élèves (issue d&#8217;une idée lancée par François GUERINEAU l&#8217;année dernière, en"
-    },
-    {
-      "title": "Et si on accédait à l’IA-Albert avec les élèves ?",
-      "link": "https://mathix.org/linux/archives/22010",
-      "date": "2026-01-29T06:27:54",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Bon ce que je propose est purement expérimental &#38; basé sur l&#8217;API ALBERT d&#8217;étalab du gouvernement. J&#8217;ai eu un accès anticipé à l&#8217;API, youhou!!!. C&"
-    },
-    {
-      "title": "IA, données « anonymes »… vraiment ?",
-      "link": "https://mathix.org/linux/archives/22006",
-      "date": "2026-01-26T17:41:19",
-      "source": "Mathix (A. Durand)",
-      "summary": "Nouvelle activité autour de l’IA, mais sans utiliser l’IA. L’idée est simple : faire vivre aux élèves une expérience concrète pour comprendre ce que signifie vraiment donnée anonyme… et surtout pourqu"
-    },
-    {
-      "title": "Making AI work for everyone, everywhere: our approach to localization",
-      "link": "https://openai.com/index/our-approach-to-localization",
-      "date": "2026-02-06T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety."
-    },
-    {
-      "title": "GPT-5 lowers the cost of cell-free protein synthesis",
-      "link": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
-      "date": "2026-02-05T11:00:00",
-      "source": "OpenAI Blog",
-      "summary": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation."
-    },
-    {
-      "title": "Natively Adaptive Interfaces: A new framework for AI accessibility",
-      "link": "https://blog.google/company-news/outreach-and-initiatives/accessibility/natively-adaptive-interfaces-ai-accessibility/",
-      "date": "2026-02-05T17:00:00",
-      "source": "Google AI",
-      "summary": "A collage of four images, the first of a woman with curly hair in front of a silver laptop, the second of the same woman and a man with short black hair speaking on a stairwell, the third of a the sam"
-    },
-    {
-      "title": "How Google Cloud is helping Team USA elevate their tricks with AI",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/us-ski-snowboard-tool-winter-olympics-2026/",
-      "date": "2026-02-05T16:00:00",
-      "source": "Google AI",
-      "summary": "A woman outdoors in the snow looks at a tablet. A half pipe is behind her."
-    },
-    {
-      "title": "Watch our new Gemini ad ahead of football’s biggest weekend",
-      "link": "https://blog.google/company-news/inside-google/company-announcements/gemini-ad-new-home/",
-      "date": "2026-02-05T14:30:00",
-      "source": "Google AI",
-      "summary": "A toddler in a blue and yellow striped shirt sits on a kitchen counter eating a red apple. Text in the corner reads: 'New Home, Google Gemini SB Commercial’"
-    },
-    {
-      "title": "The latest AI news we announced in January",
-      "link": "https://blog.google/innovation-and-ai/products/google-ai-updates-january-2026/",
-      "date": "2026-02-04T16:55:00",
-      "source": "Google AI",
-      "summary": "mp4 showing a carousel of images including a card reading \"Help that's made for you\""
-    },
-    {
-      "title": "How we’re helping preserve the genetic information of endangered species with AI",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/ai-to-preserve-endangered-species/",
-      "date": "2026-02-02T18:00:00",
-      "source": "Google AI",
-      "summary": "A four-part vertical collage showing a cotton-top tamarin, an ibex, a golden lion tamarin, and a penguin."
-    },
-    {
-      "title": "Doodle Duel",
-      "link": "https://www.uneiaparjour.fr/doodle-duel/",
-      "date": "2026-02-17T20:34:11",
-      "source": "Une IA par jour",
-      "summary": "Doodle Duel (https://doodleduel.ai/) est un jeu de dessin où il faut dessiner le mot ou l&#8217;expression donnés le plus rapidement possible. L&#8217;IA juge si le dessin représente suffisamment ce q"
-    },
-    {
-      "title": "Muses",
-      "link": "https://www.uneiaparjour.fr/muses/",
-      "date": "2026-02-14T19:46:00",
-      "source": "Une IA par jour",
-      "summary": "Muses (https://muses.my/) est un traitement de texte combiné à un chatbot et à une bibliothèque de documents, d&#8217;url et d&#8217;images. À partir d&#8217;un sujet, l&#8217;utilisateur peut écrire "
-    },
-    {
-      "title": "Veeso",
-      "link": "https://www.uneiaparjour.fr/veeso/",
-      "date": "2026-02-12T21:49:00",
-      "source": "Une IA par jour",
-      "summary": "Veeso (https://veeso.ai/) génère des contenus de communication (affiche, flyers, infographies&#8230;) à partir d&#8217;une instruction détaillée. Une fenêtre de chatbot avec agents et réflexion s&#821"
-    },
-    {
-      "title": "Exerciseur : Construction de triangles  CCC, CAC et ACA",
-      "link": "https://mathix.org/linux/archives/22106",
-      "date": "2026-02-17T09:25:53",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Je vous présente un exerciseur alors je suis quasiment parti sur du vibe-coding, une manière de tester Gemini, &#8230; et ce que je n&#8217;arrivais pas à faire il y a quelq"
-    },
-    {
-      "title": "Vous prendrez ce matin un peu de Kelop’s?",
-      "link": "https://mathix.org/linux/archives/22098",
-      "date": "2026-02-15T18:12:37",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Bon, j&#8217;ai craqué un peu sur le nom, mais je voulais faire travailler les élèves sur le sens des opérations notamment par quelle opération résoudre une opération à trou "
-    },
-    {
-      "title": "Partage de pratiques avec l’APMEP au Mans",
-      "link": "https://mathix.org/linux/archives/22092",
-      "date": "2026-02-11T17:22:07",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Et bien voilà j&#8217;ai fait un partage de pratique et de réflexion pour l&#8217;APMEP au Lycée Malraux au Mans. Sophie DESRUELLE présentait « Match Line » , je présentais "
-    },
-    {
-      "title": "GPT-5.2 derives a new result in theoretical physics",
-      "link": "https://openai.com/index/new-result-theoretical-physics",
-      "date": "2026-02-13T11:00:00",
-      "source": "OpenAI Blog",
-      "summary": "A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators."
-    },
-    {
-      "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
-      "link": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
-      "date": "2026-02-13T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT to help organizations defend against prompt injection and AI-driven data exfiltration."
-    },
-    {
-      "title": "Beyond rate limits: scaling access to Codex and Sora",
-      "link": "https://openai.com/index/beyond-rate-limits",
-      "date": "2026-02-13T09:00:00",
-      "source": "OpenAI Blog",
-      "summary": "How OpenAI built a real-time access system combining rate limits, usage tracking, and credits to power continuous access to Sora and Codex."
-    },
-    {
-      "title": "Scaling social science research",
-      "link": "https://openai.com/index/scaling-social-science-research",
-      "date": "2026-02-13T09:00:00",
-      "source": "OpenAI Blog",
-      "summary": "GABRIEL is a new open-source toolkit from OpenAI that uses GPT to turn qualitative text and images into quantitative data, helping social scientists analyze research at scale."
-    },
-    {
-      "title": "Introducing GPT-5.3-Codex-Spark",
-      "link": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
-      "date": "2026-02-12T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Introducing GPT-5.3-Codex-Spark—our first real-time coding model. 15x faster generation, 128k context, now in research preview for ChatGPT Pro users."
-    },
-    {
-      "title": "Harness engineering: leveraging Codex in an agent-first world",
-      "link": "https://openai.com/index/harness-engineering",
-      "date": "2026-02-11T09:00:00",
-      "source": "OpenAI Blog",
-      "summary": "By Ryan Lopopolo, Member of the Technical Staff"
     }
   ],
-  "last_update": "2026-02-20T08:31:19.941560",
+  "last_update": "2026-02-21T08:20:16.305798",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
