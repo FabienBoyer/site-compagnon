@@ -100,6 +100,10 @@ site-compagnon/
 - [x] Fichier `app.py` local mis à jour pour utiliser `mistralai/Mistral-Nemo-Instruct-2407`.
 - [ ] 🚨 **ACTION IMMÉDIATE (PROCHAINE SESSION)** : Vérifier et mettre à jour *manuellement* le modèle sur l'espace [Hugging Face](https://huggingface.co/spaces/dw4rf/chatbot-livre-ia) (modifier `app.py` en ligne, remplacer Qwen par `mistralai/Mistral-Nemo-Instruct-2407` puis commit pour forcer le rebuild).
 
+### 3. Création d'une page Études & Sources
+- [ ] **À FAIRE** : Créer une page ou un onglet dédié (ex: `sources.html` ou intégré à `ethique.html`/`veille.html`) pour répertorier de manière exhaustive toutes les études scientifiques et les sondages mentionnés dans le livre (ex: OCDE TALIS, Tirot, nature, HalluHard...).
+- [ ] Connecter cette page dans la barre de navigation.
+
 ### 3. Images dans les conversations
 - Support ajouté dans `conversations.html` pour :
   - Champ `image` dans le JSON (image jointe au prompt)
