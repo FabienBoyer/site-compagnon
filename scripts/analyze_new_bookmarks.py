@@ -5,8 +5,8 @@ from datetime import datetime
 import os
 
 # Path to the new file
-FILE_PATH = "signets twitter 18 février 2.htm"
-OUTPUT_FILE = "new_bookmarks_analysis_2.txt"
+FILE_PATH = "bookmarks 20 février.htm"
+OUTPUT_FILE = "bookmarks_20_fevrier_analysis.txt"
 
 def parse_bookmarks():
     print(f"Reading {FILE_PATH}...")

@@ -185,3 +185,48 @@ Source : `signets twitter 18 février 2.htm` (20 items analysés). Pas de doublo
 - **Enseignement Sup** : Politique "IA Autorisée" (Jean-Paul K. Tsasa)
   - Action : Exemple de charte/politique dans `ethique.html`.
 - **RGPD** : ✅ Ajouté article Mathix.
+
+---
+
+## 📌 Mise à jour - Batch 3 (20 Février)
+
+Source : `bookmarks 20 février.htm` (19 items analysés).
+
+### 🎯 Fortement prioritaire (Batch 3)
+
+#### 1. **Ressources Pédagogiques Institutionnelles**
+- **Enquête TALIS de l'OCDE** 
+  - Source : @OCDE_fr
+  - Info : Près d'un prof sur 4 utilisant l'IA s'en sert pour noter ses élèves. Soulève des questions de biais et d'équité.
+  - Action : ✅ Ajouté encart dans `ethique.html` concernant l'équité.
+- **Scénarios Éduscol & Édubase (2nd degré)**
+  - Source : @maths_edu_num
+  - Info : Pistes d'utilisations en classe pour le 2nd degré.
+  - Action : ✅ Ajouté à `formation.html` (Ressources Institutionnelles).
+- **Formation "BRIO" (Université Laval)**
+  - Source : @TirotG
+  - Info : URIAGe (Usage Raisonné et éthique de l'IA Générative), formation ouverte et gratuite.
+  - Action : ✅ Ajouté à `formation.html` (MOOC et Formations).
+
+### 💡 Pistes de réflexion et de terrain
+
+- **Limites de l'évaluation (Histoire-Géo)**
+  - Source : @DobryHoruze
+  - Info : Évaluation résistante à l'IA via cartographie inédite et remédiation sur le développement construit.
+  - Action : ✅ Ajouté encadré "Témoignage terrain" dans `disciplines.html`.
+- **Esprit critique (NSI)**
+  - Source : @nsi_xyz
+  - Info : Élève ne pouvant expliquer sa correction IA hors-sujet. L'enseignant utilise une IA orientée pour analyser avec l'élève.
+  - Action : ✅ Ajouté comme cas d'usage dans `ethique.html`.
+
+### 🔎 Veille & Hallucinations
+
+- **Étude HalluHard (Fan et al., 2026)**
+  - Source : @o_heckendorn
+  - Info : 30% d'hallucinations mais 70% de réussite sur des tâches expertes.
+  - Action : ✅ Ajouté au débat sur les hallucinations dans `ethique.html`.
+- **Productivité avec l'IA (Étude Nature)**
+  - Source : @barriere_dr
+  - Info : Scientifiques assistés par IA publient 3x plus.
+  - Action : À utiliser pour un futur article sur la productivité (potentiellement `veille.html`).
+
