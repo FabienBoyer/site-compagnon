@@ -91,14 +91,14 @@ site-compagnon/
 ## 🚧 En cours / Priorités
 
 ### 1. Analyse Nouveaux Signets (20 Février)
-- Analyser `bookmarks 20 février.htm` pour en extraire des nouveautés à intégrer (prévu pour la prochaine session).
+- [x] Analyse effectuée et signets intéressants extraits (Batch 3).
+- [x] Ressources pédagogiques intégrées sur les pages du site (`formation.html`, `ethique.html`, `disciplines.html`).
+- [ ] **À FAIRE** : Intégrer ces m.à.j. dans les fichiers `.tex` du livre (via Claude) avec l'enquête OCDE, l'étude HalluHard, et les retours d'usage de terrain (NSI et Hist-Géo).
 
 ### 2. Double Chatbot : Local vs NotebookLM
-- **Objectif pédagogique** : Permettre aux utilisateurs de comparer la puissance d'un modèle open-source léger (Mistral sur Hugging Face) avec un modèle propriétaire lourd (Gemini Pro via NotebookLM).
-- **Implémentation prévue** :
-  - Créer un NotebookLM public basé sur le livre.
-  - Ajouter un lien/bouton clair sur la page `chatbot.html` proposant cette alternative "Premium".
-  - **Crucial** : Ajouter un disclaimer expliquant pourquoi on propose un outil fermé (nécessitant un compte Google) en opposition à la philosophie open-source du livre, en justifiant par l'intérêt pédagogique de la comparaison des capacités.
+- [x] Interface `chatbot.html` mise à jour avec une double offre bien distincte (NotebookLM vs Assistant HF Rapide).
+- [x] Fichier `app.py` local mis à jour pour utiliser `mistralai/Mistral-Nemo-Instruct-2407`.
+- [ ] 🚨 **ACTION IMMÉDIATE (PROCHAINE SESSION)** : Vérifier et mettre à jour *manuellement* le modèle sur l'espace [Hugging Face](https://huggingface.co/spaces/dw4rf/chatbot-livre-ia) (modifier `app.py` en ligne, remplacer Qwen par `mistralai/Mistral-Nemo-Instruct-2407` puis commit pour forcer le rebuild).
 
 ### 3. Images dans les conversations
 - Support ajouté dans `conversations.html` pour :
