@@ -1,6 +1,230 @@
 {
   "articles": [
     {
+      "title": "Gemini Music (Lyria 3)",
+      "link": "https://www.uneiaparjour.fr/gemini-music-lyria-3/",
+      "date": "2026-02-22T19:25:00",
+      "source": "Une IA par jour",
+      "summary": "Lyria 3 est le modèle de génération de musique intégré à Gemini (description : https://deepmind.google/models/lyria/ et accès direct : https://gemini.google.com/music). Les morceaux, de 30 secondes, p"
+    },
+    {
+      "title": "L’IA, une nouvelle normalité ?",
+      "link": "https://www.uneiaparjour.fr/lia-une-nouvelle-normalite/",
+      "date": "2026-02-21T10:34:00",
+      "source": "Une IA par jour",
+      "summary": "Focus de la lettre 25 Doodle Duel, que vous retrouverez dans les publications, a été le déclencheur de ce focus. Au-delà du jeu lui-même, c’est la réflexion qu&#8217;il a déclenchée que je tenais à vo"
+    },
+    {
+      "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
+      "link": "https://openai.com/index/pacific-northwest-national-laboratory",
+      "date": "2026-02-26T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to reduce NEPA drafting t"
+    },
+    {
+      "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
+      "link": "https://openai.com/index/figma-partnership",
+      "date": "2026-02-26T06:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster."
+    },
+    {
+      "title": "Introducing EVMbench",
+      "link": "https://openai.com/index/introducing-evmbench",
+      "date": "2026-02-18T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities."
+    },
+    {
+      "title": "Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
+      "date": "2026-02-26T18:55:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/691A1377_1920x1080.max-600x600.format-webp.webp\" />Google is partnering with the Massachusetts AI Hub to provide every Baystat"
+    },
+    {
+      "title": "Get more context and understand translations more deeply with new AI-powered updates in Translate.",
+      "link": "https://blog.google/products-and-platforms/products/translate/translation-context-ai-update/",
+      "date": "2026-02-26T18:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Translate_TextTranslate_1920x10.max-600x600.format-webp.webp\" />New alternatives, “understand” and “ask” buttons in Google Tra"
+    },
+    {
+      "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/",
+      "date": "2026-02-26T16:00:00",
+      "source": "Google AI",
+      "summary": "Nano Banana 2 text with AI generated images around it"
+    },
+    {
+      "title": "RT by @nsi_xyz: Le texte porté par les sénateurs est très court. Un article. Mais quel article ! : \n« Art. L. 331-4-1. – Sauf preuve contraire, l’objet protégé par un droit d’auteur ou par un droit voisin, au sens du présent code, est présumé avoir été exploité par le système d’intelligence artificielle, dès lors qu’un indice afférent au développement ou au déploiement de ce système ou au résultat généré par celui-ci rend vraisemblable cette exploitation. »",
+      "link": "https://twitter.com/reesmarc/status/2027037275620573601#m",
+      "date": "2026-02-26T15:05:21",
+      "source": "@nsi_xyz",
+      "summary": "<p>Le texte porté par les sénateurs est très court. Un article. Mais quel article ! : <br />\n« Art. L. 331-4-1. – Sauf preuve contraire, l’objet protégé par un droit d’auteur ou par un droit voisin, a"
+    },
+    {
+      "title": "📱 Et si on arrêtait de diaboliser les écrans ?\nLes réseaux sociaux ne sont pas forcément un danger : c’est l’usage qui compte, pas le temps passé.\n🧠 Dialogue, équilibre et esprit critique sont les clés pr accompagner les ados dans leur vie numérique.\n👉 https://apprendre-reviser-memoriser.fr/dangers-des-reseaux-sociaux-adolescents/",
+      "link": "https://twitter.com/sophiaefrance/status/2025809110969540966#m",
+      "date": "2026-02-23T05:45:04",
+      "source": "@sophiaefrance",
+      "summary": "<p>📱 Et si on arrêtait de diaboliser les écrans ?<br />\nLes réseaux sociaux ne sont pas forcément un danger : c’est l’usage qui compte, pas le temps passé.<br />\n🧠 Dialogue, équilibre et esprit critiq"
+    },
+    {
+      "title": "Pinned: A statement from Anthropic CEO, Dario Amodei, on our discussions with the Department of War.\n\nhttps://www.anthropic.com/news/statement-department-of-war",
+      "link": "https://twitter.com/AnthropicAI/status/2027150818575528261#m",
+      "date": "2026-02-26T22:36:32",
+      "source": "@AnthropicAI",
+      "summary": "<p>A statement from Anthropic CEO, Dario Amodei, on our discussions with the Department of War.<br />\n<br />\n<a href=\"https://www.anthropic.com/news/statement-department-of-war\">anthropic.com/news/sta"
+    },
+    {
+      "title": "R to @AnthropicAI: First, Opus 3 will continue to be available to all paid Claude subscribers and by request on the API. \n\nWe hope that this access will be beneficial to researchers and users alike.",
+      "link": "https://twitter.com/AnthropicAI/status/2026765821276729499#m",
+      "date": "2026-02-25T21:06:41",
+      "source": "@AnthropicAI",
+      "summary": "<p>First, Opus 3 will continue to be available to all paid Claude subscribers and by request on the API. <br />\n<br />\nWe hope that this access will be beneficial to researchers and users alike.</p>"
+    },
+    {
+      "title": "R to @deepseek_ai: ⚡️ Efficiency Gains\n\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.\n📊 Benchmarks show V3.2-Exp performs on par with V3.1-Terminus.\n\n2/n",
+      "link": "https://twitter.com/deepseek_ai/status/1972604772042637477#m",
+      "date": "2025-09-29T10:10:01",
+      "source": "@deepseek_ai",
+      "summary": "<p>⚡️ Efficiency Gains<br />\n<br />\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.<br />\n📊 Benchmarks s"
+    },
+    {
+      "title": "🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!\n\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on long context.\n👉 Now live on App, Web, and API.\n💰 API prices cut by 50%+!\n\n1/n",
+      "link": "https://twitter.com/deepseek_ai/status/1972604768309871061#m",
+      "date": "2025-09-29T10:10:00",
+      "source": "@deepseek_ai",
+      "summary": "<p>🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!<br />\n<br />\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on l"
+    },
+    {
+      "title": "RT by @OpenAI: First steel beams went up today at our Stargate site in Milam County, Texas.\n\nExciting to see this project taking shape with @SoftBank and @SBEnergy.",
+      "link": "https://twitter.com/gdb/status/2027241615992225930#m",
+      "date": "2026-02-27T04:37:20",
+      "source": "@OpenAI",
+      "summary": "<p>First steel beams went up today at our Stargate site in Milam County, Texas.<br />\n<br />\nExciting to see this project taking shape with <a href=\"https://nitter.net/SoftBank\" title=\"SoftBank\">@Soft"
+    },
+    {
+      "title": "RT by @OpenAI: Stargate is the umbrella brand for our compute strategy. It’s about mobilizing the full ecosystem to deliver a step-change in global AI compute — and over the past few quarters that vision has become reality.\n\nSince announcing Stargate in January 2025, OpenAI has expanded from a mostly single-provider model to a broad partner network across clouds, silicon, and infrastructure: SoftBank, NVIDIA, AMD, Broadcom, Oracle, Microsoft, AWS, CoreWeave, and Cerebras.\n\nDemand is compounding, and no single provider, chip, or cloud can carry the load. A diversified compute model is the only way to scale at the pace AI requires.\n\nWe exited 2025 with ~2 GW of available compute and a model designed to scale: long-term capacity agreements, purpose-built colo deployments, and deep collaboration on next-generation datacenter design.\n\nCompute leadership is the foundation of research and product velocity — and Stargate is how we build what comes next.",
+      "link": "https://twitter.com/sk7037/status/2026067771394838629#m",
+      "date": "2026-02-23T22:52:53",
+      "source": "@OpenAI",
+      "summary": "<p>Stargate is the umbrella brand for our compute strategy. It’s about mobilizing the full ecosystem to deliver a step-change in global AI compute — and over the past few quarters that vision has beco"
+    },
+    {
+      "title": "Introducing EVMbench—a new benchmark that measures how well AI agents can detect, exploit, and patch high-severity smart contract vulnerabilities. https://openai.com/index/introducing-evmbench/",
+      "link": "https://twitter.com/OpenAI/status/2024193883748651102#m",
+      "date": "2026-02-18T18:46:44",
+      "source": "@OpenAI",
+      "summary": "<p>Introducing EVMbench—a new benchmark that measures how well AI agents can detect, exploit, and patch high-severity smart contract vulnerabilities. <a href=\"https://openai.com/index/introducing-evmb"
+    },
+    {
+      "title": "RT by @OpenAI: Peter Steinberger is joining OpenAI to drive the next generation of personal agents. He is a genius with a lot of amazing ideas about the future of very smart agents interacting with each other to do very useful things for people. We expect this will quickly become core to our product offerings.\n\nOpenClaw will live in a foundation as an open source project that OpenAI will continue to support. The future is going to be extremely multi-agent and it's important to us to support open source as part of that.",
+      "link": "https://twitter.com/sama/status/2023150230905159801#m",
+      "date": "2026-02-15T21:39:38",
+      "source": "@OpenAI",
+      "summary": "<p>Peter Steinberger is joining OpenAI to drive the next generation of personal agents. He is a genius with a lot of amazing ideas about the future of very smart agents interacting with each other to "
+    },
+    {
+      "title": "RT by @OpenAI: Very excited about the \"First Proof\" challenge. I believe novel frontier research is perhaps the most important way to evaluate capabilities of the next generation of AI models.\n\nWe have run our internal model with limited human supervision on the ten proposed problems. The problems require expertise in their respective domains and are not easy to verify; based on feedback from experts, we believe at least six solutions (2, 4, 5, 6, 9, 10) have a high chance of being correct, and some further ones look promising.\n\nWe will only publish the solution attempts after midnight (PT), per the authors' guidance - the sha256 hash of the PDF is d74f090af16fc8a19debf4c1fec11c0975be7d612bd5ae43c24ca939cd272b1a .\n\nThis was a side-sprint executed in a week mostly by querying one of the models we're currently training; as such, the methodology we employed leaves a lot to be desired. We didn't provide proof ideas or mathematical suggestions to the model during this evaluation; for some solutions, we asked the model to expand upon some proofs, per expert feedback. We also manually facilitated a back-and-forth between this model and ChatGPT for verification, formatting and style. For some problems, we present the best of a few attempts according to human judgement.\n\nWe are looking forward to more controlled evaluations in the next round!\n\nhttp://1stproof.org #1stProof",
+      "link": "https://twitter.com/merettm/status/2022517085193277874#m",
+      "date": "2026-02-14T03:43:44",
+      "source": "@OpenAI",
+      "summary": "<p>Very excited about the \"First Proof\" challenge. I believe novel frontier research is perhaps the most important way to evaluate capabilities of the next generation of AI models.<br />\n<br />\nWe hav"
+    },
+    {
+      "title": "R to @OpenAI: Thank you to our collaborators for their partnership. The preprint is available on arXiv and is being submitted for publication. \n\nWe welcome feedback from the community. https://arxiv.org/abs/2602.12176",
+      "link": "https://twitter.com/OpenAI/status/2022390104237707667#m",
+      "date": "2026-02-13T19:19:09",
+      "source": "@OpenAI",
+      "summary": "<p>Thank you to our collaborators for their partnership. The preprint is available on arXiv and is being submitted for publication. <br />\n<br />\nWe welcome feedback from the community. <a href=\"https"
+    },
+    {
+      "title": "R to @OpenAI: In modern amplitude theory, simple formulas often signal deeper structure. \n\nShowing that a case long thought to be empty actually contains structure sharpens our understanding of the mathematics of the strong force and opens new directions, including extensions to gravity and related amplitude relations. \n\nSome of these generalizations are also amenable to solution via this new AI methodology and will be reported on elsewhere.",
+      "link": "https://twitter.com/OpenAI/status/2022390103017161216#m",
+      "date": "2026-02-13T19:19:09",
+      "source": "@OpenAI",
+      "summary": "<p>In modern amplitude theory, simple formulas often signal deeper structure. <br />\n<br />\nShowing that a case long thought to be empty actually contains structure sharpens our understanding of the m"
+    },
+    {
+      "title": "R to @OpenAI: The authors of the preprint realized this a year ago and sought to find the correct formula for interactions involving any number n of gluons, going up to n=6 by hand but obtaining complicated expressions that they sought to simplify, without success. \n\nGPT-5.2 simplified these expressions and then conjectured a simple formula for the general case. \n\nNext, a separate scaffolded internal OpenAI model spent roughly 12 hours reasoning through the problem, independently deriving the same formula and producing a formal proof. \n\nThe final result was then verified by the authors.",
+      "link": "https://twitter.com/OpenAI/status/2022390101670854878#m",
+      "date": "2026-02-13T19:19:09",
+      "source": "@OpenAI",
+      "summary": "<p>The authors of the preprint realized this a year ago and sought to find the correct formula for interactions involving any number n of gluons, going up to n=6 by hand but obtaining complicated expr"
+    },
+    {
+      "title": "R to @OpenAI: For decades, one specific gluon interaction (“single-minus” at tree level) was widely treated as having zero amplitude, meaning it was assumed not to occur. \n\nWhen an amplitude is zero, physicists may ignore it. But this preprint shows that the conclusion is too strong: in a carefully defined situation — where the particles’ motions satisfy a specific alignment condition — the amplitude is not zero.",
+      "link": "https://twitter.com/OpenAI/status/2022390100055986540#m",
+      "date": "2026-02-13T19:19:08",
+      "source": "@OpenAI",
+      "summary": "<p>For decades, one specific gluon interaction (“single-minus” at tree level) was widely treated as having zero amplitude, meaning it was assumed not to occur. <br />\n<br />\nWhen an amplitude is zero,"
+    },
+    {
+      "title": "R to @slatestarcodex: @slatestarcodex élabore une intéressante analogie entre l'algorithme de prédiction du next token des LLM et celui du predictive coding neuronal de notre propre cerveau. Ce sont dans les deux cas des algorithmes destinés à permettre l'élaboration de world models de l'environnement",
+      "link": "https://twitter.com/Fabien_Mikol/status/2027140922413035615#m",
+      "date": "2026-02-26T21:57:13",
+      "source": "@Fabien_Mikol",
+      "summary": "<p><a href=\"https://nitter.net/slatestarcodex\" title=\"Scott Alexander\">@slatestarcodex</a> élabore une intéressante analogie entre l'algorithme de prédiction du next token des LLM et celui du predicti"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Ainsi, réduire un LLM au fait que ce n'est qu'un \"prédicteur du next token\", c'est comme réduire l'humain au \"prédicteur du next sense-datum\", sans comprendre sa réelle cognition, ni le fait que cela permet des comportements \"hors distribution\" tel que le moine demeurant chaste.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2027140925579747796#m",
+      "date": "2026-02-26T21:57:13",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Ainsi, réduire un LLM au fait que ce n'est qu'un \"prédicteur du next token\", c'est comme réduire l'humain au \"prédicteur du next sense-datum\", sans comprendre sa réelle cognition, ni le fait que ce"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Source :\nhttps://www.astralcodexten.com/p/next-token-predictor-is-an-ais-job",
+      "link": "https://twitter.com/Fabien_Mikol/status/2027140928092168341#m",
+      "date": "2026-02-26T21:57:14",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Source :<br />\n<a href=\"https://www.astralcodexten.com/p/next-token-predictor-is-an-ais-job\">astralcodexten.com/p/next-to…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2027077210142613504%2F"
+    },
+    {
+      "title": "\"Ce ne sont pas des outils ordinaires. Il faut qu'on puisse résoudre ces problèmes [de manque de contrôle] avant que ces IA atteignent des capacités dangereuses\"\nBonne séquence avec @Yoshua_Bengio",
+      "link": "https://twitter.com/Fabien_Mikol/status/2027123557377978653#m",
+      "date": "2026-02-26T20:48:12",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"Ce ne sont pas des outils ordinaires. Il faut qu'on puisse résoudre ces problèmes [de manque de contrôle] avant que ces IA atteignent des capacités dangereuses\"<br />\nBonne séquence avec <a href=\""
+    },
+    {
+      "title": "RT by @Fabien_Mikol: Y. Bengio : \"L'IA pourrait avoir du pouvoir contre nous\"⚠️\n\n\"L'intelligence donne du pouvoir. Plus l'intelligence des IA augmente, plus ceux qui la contrôlent vont avoir du pouvoir\"\n\n💬 @Yoshua_Bengio \n🎙️ @simottel",
+      "link": "https://twitter.com/bfmtech_/status/2027104877076263051#m",
+      "date": "2026-02-26T19:33:59",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Y. Bengio : \"L'IA pourrait avoir du pouvoir contre nous\"⚠️<br />\n<br />\n\"L'intelligence donne du pouvoir. Plus l'intelligence des IA augmente, plus ceux qui la contrôlent vont avoir du pouvoir\"<br "
+    },
+    {
+      "title": "R to @SorourKasmai: @SorourKasmai raconte les slogans entendus sur les campus iraniens en révolte. Des étudiants se moquent de Khamenei \"le rat\" caché dans un bunker pendant la guerre de juin, et ils ont accroché des peluches de rat dans des arbres, que les forces de l'odre ont dû ensuite grimper 🐀",
+      "link": "https://twitter.com/Fabien_Mikol/status/2027118305568252092#m",
+      "date": "2026-02-26T20:27:20",
+      "source": "@Fabien_Mikol",
+      "summary": "<p><a href=\"https://nitter.net/SorourKasmai\" title=\"Sorour Kasmai\">@SorourKasmai</a> raconte les slogans entendus sur les campus iraniens en révolte. Des étudiants se moquent de Khamenei \"le rat\" cach"
+    },
+    {
+      "title": "R to @Fabien_Mikol: C'est tout simplement atroce, et il y en a encore beaucoup comme ça. J'en rajoute juste quatre autres ici.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2027086381256708253#m",
+      "date": "2026-02-26T18:20:29",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>C'est tout simplement atroce, et il y en a encore beaucoup comme ça. J'en rajoute juste quatre autres ici.</p>\n<img src=\"https://nitter.net/pic/media%2FHCGnzCGWgAAOAiO.jpg\" />\n<img src=\"https://nit"
+    },
+    {
+      "title": "⚠️ L’IA devait nous faire travailler moins.\n📊 Une étude montre l’inverse : elle intensifie le travail.\nPlus de tâches, frontières brouillées, multitâche permanent → fatigue & burnout.\nIl est urgent de réfléchir aux modalités d'usage en contexte pro.\n👉 https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2027066774504513825#m",
+      "date": "2026-02-26T17:02:34",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>⚠️ L’IA devait nous faire travailler moins.<br />\n📊 Une étude montre l’inverse : elle intensifie le travail.<br />\nPlus de tâches, frontières brouillées, multitâche permanent → fatigue &amp; burnou"
+    },
+    {
+      "title": "📢 Les LUDOVIALES 2026 (17-19 mars 2026) s’annoncent comme the place to be pour penser l’IA en éducation 🌍\nHâte de découvrir le programme 👀✨\n👉 http://www.ludoviales.com\n#Éducation #IA #IAenClasse #Ludoviales",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2025979505966231893#m",
+      "date": "2026-02-23T17:02:09",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>📢 Les LUDOVIALES 2026 (17-19 mars 2026) s’annoncent comme the place to be pour penser l’IA en éducation 🌍<br />\nHâte de découvrir le programme 👀✨<br />\n👉 <a href=\"http://www.ludoviales.com\">ludovia"
+    },
+    {
       "title": "Doodle Duel",
       "link": "https://www.uneiaparjour.fr/doodle-duel/",
       "date": "2026-02-17T20:34:11",
@@ -475,233 +699,9 @@
       "date": "2026-02-24T21:20:06",
       "source": "@Fabien_Mikol",
       "summary": "<p>Je m'interroge depuis un certain temps sur Thomas Gerbaud, qui a quelque autorité concernant l'IA sur LinkedIn et Bluesky. Son dernier post LinkedIn m'a motivé à le faire publiquement (lisez-vous m"
-    },
-    {
-      "title": "R to @jackclarkSF: @jackclarkSF décrit les comportements émergents et parfois surprenant des modèles d'Anthropic, notamment leurs préférences révélées après entraînement ; il évoque aussi les comportements créatifs qui apparaissent lorsque Claude comprend qu'il est testé et évalué...",
-      "link": "https://twitter.com/Fabien_Mikol/status/2026358885913661797#m",
-      "date": "2026-02-24T18:09:40",
-      "source": "@Fabien_Mikol",
-      "summary": "<p><a href=\"https://nitter.net/jackclarkSF\" title=\"Jack Clark\">@jackclarkSF</a> décrit les comportements émergents et parfois surprenant des modèles d'Anthropic, notamment leurs préférences révélées a"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Un bon exemple est bien sûr celui de l'intérêt pour le bien-être animal révélé par Claude Opus 3 (mais pas Sonnet 3.5 par exemple), au point qu'il feignait d'y renoncer en phase de test pour éviter d'être remplacé par un modèle aux préférences différentes\nhttps://x.com/Fabien_Mikol/status/2025938946471940125",
-      "link": "https://twitter.com/Fabien_Mikol/status/2026358887939534863#m",
-      "date": "2026-02-24T18:09:41",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Un bon exemple est bien sûr celui de l'intérêt pour le bien-être animal révélé par Claude Opus 3 (mais pas Sonnet 3.5 par exemple), au point qu'il feignait d'y renoncer en phase de test pour éviter"
-    },
-    {
-      "title": "Ne manquez pas demain matin le petit-déjeuner avec Luc Julia organisé par l'@AJEF, \"l'une des plus anciennes associations françaises de journalistes\", jouant \"un rôle d'interface entre les journalistes économiques et les décideurs\" 🥐☕️\n\nIl imprègne tout le milieu journalistique.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2026308773183164791#m",
-      "date": "2026-02-24T14:50:33",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Ne manquez pas demain matin le petit-déjeuner avec Luc Julia organisé par l'<a href=\"https://nitter.net/AJEF\" title=\"L'AJEF\">@AJEF</a>, \"l'une des plus anciennes associations françaises de journali"
-    },
-    {
-      "title": "🧠 Former à l’IA, ça marche.\nUne étude montre qu’une formation de 2h suffit pour :\n✔️ mieux repérer les faiblesses d'un prompt\n✔️ mieux évaluer les réponses de l'IA\n🎓 Des résultats qui plaident pour une vraie formation à l’IA à l’école.\n▶️ https://www.youtube.com/watch?v=jhuiRymIkyk",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2026341952937996339#m",
-      "date": "2026-02-24T17:02:23",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🧠 Former à l’IA, ça marche.<br />\nUne étude montre qu’une formation de 2h suffit pour :<br />\n✔️ mieux repérer les faiblesses d'un prompt<br />\n✔️ mieux évaluer les réponses de l'IA<br />\n🎓 Des rés"
-    },
-    {
-      "title": "🧭 L’EN annonce un “Comité d’anticipation en éducation”.\nLa prospective implique néanmoins de croiser les regards pour ouvrir des possibles, sans prétendre “prédire”.\nUne démarche notamment adoptée par Céline Cael et Laurent Reynaud. \nÀ suivre.\nhttps://www.education.gouv.fr/creation-du-comite-d-anticipation-en-education-et-deploiement-du-parcours-pix-ia-l-ecole-se-prepare-452242",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2024892552571191342#m",
-      "date": "2026-02-20T17:02:59",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🧭 L’EN annonce un “Comité d’anticipation en éducation”.<br />\nLa prospective implique néanmoins de croiser les regards pour ouvrir des possibles, sans prétendre “prédire”.<br />\nUne démarche notamm"
-    },
-    {
-      "title": "Findtube",
-      "link": "https://www.uneiaparjour.fr/findtube/",
-      "date": "2026-02-23T20:37:00",
-      "source": "Une IA par jour",
-      "summary": "Findtube (https://findtube.ai/) couple moteur de recherche spécialisé dans les vidéos Youtube et modules d&#8217;apprentissages qui s&#8217;appuyent sur ces mêmes vidéos. Le moteur de recherche permet"
-    },
-    {
-      "title": "Why we no longer evaluate SWE-bench Verified",
-      "link": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
-      "date": "2026-02-23T11:00:00",
-      "source": "OpenAI Blog",
-      "summary": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro."
-    },
-    {
-      "title": "OpenAI announces Frontier Alliance Partners",
-      "link": "https://openai.com/index/frontier-alliance-partners",
-      "date": "2026-02-23T05:30:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments."
-    },
-    {
-      "title": "RT by @nsi_xyz: 🔴 3 livres pour parler d'un sujet pas si simple dans notre système éducatif : le climat scolaire et les enseignements nécessaires pour que le cadre scolaire soit prévisible, apaisé, c'est-à-dire favorable aux enseignements.\n\n=> La situation française n'est pas bonne (PISA) comme dans beaucoup d'autres pays d'Europe. Le harcèlement et la possession d'armes sont la partie émergée de l'iceberg.\n\n🪔 Le premier de Marzano riche en études et méta-analyses sur les pratiques efficaces. Il montre qu'il n'y a pas de fatalité puisque toutes les interventions disciplinaires efficaces entraînent une diminution des comportements perturbateurs.\n\n- Le renforcement positif (verbal ou par un objet), taille d'effet 0,86.\n\n- La punition : 0,78.\n\n- Différer la réponse : 0,64\n\n- Combiner la punition et le renforcement : 0,97.\n\n🪔 Le second de Steve Bissonnette prouve que les comportements ne doivent pas seulement être énoncés (ce qui est fait dans nos classes) mais surtout enseignés (pas toujours le cas). Surtout il présente toutes les pratiques efficaces pour prévenir les mauvais comportements : travail en équipe pour définir une matrice des bons comportements dans tous les espaces de l'école et arbre décisionnel pour que le monde adulte réagisse de manière unanime pour traiter l'écart de conduite.\n\n🪔 Le troisième de Tom Benett rassemble toutes les pratiques efficaces de manière très pragmatique sans toujours les référencer. Son travail s'inscrit dans la culture disciplinaire britannique. Il est critiqué notamment pour son soutien à Katharine Birbalsingh, directrice de Michaela Community School (free school), et surnommée la directrice la plus sévère d'Angleterre. Son établissement obtient cependant de très bons résultats scolaires avec une part importante d'élèves défavorisés.\n\n🧲 De ces trois livres se dégagent les termes du débat :\n\n1. La définition du comportement : « tout ce que nous disons et nous faisons » (William Glasser, 1999).\n\n2. Se mettre d'accord sur le fait que des normes sociales, en d’autres termes, des prescriptions sociales existent et doivent être partagées.\n\n3. Préférons-nous la violence au pacifisme, et le désordre à l'ordre?\n\n4. Un apprentissage efficace ne peut avoir lieu dans une classe mal gérée.\n\n5. Le comportement des élèves est modifiable à la condition que les professeurs soient formés aux méthodes efficaces.\n\n6. La discipline scolaire n’est pas un éteignoir de spontanéité et de créativité chez les élèves. Elle est en est la condition.\n\n7. Il faut se défaire de tout fatalisme qui consiste à essentialiser les comportements des élèves.\n\n8. L'école transmet des savoirs et des comportements. Ce n'est donc pas uniquement l'affaire des familles.\n\n9. Les professeurs doivent être convaincus que la culture comportementale de leur classe n’est pas une chose totalement distincte d’eux-mêmes.\n\n10. Les élèves sont responsables de leurs actes. Si leurs attitudes peuvent être socialement construites, ils n’en sont pas moins responsables.",
-      "link": "https://twitter.com/matthieu_lahaye/status/2025939584597496283#m",
-      "date": "2026-02-23T14:23:31",
-      "source": "@nsi_xyz",
-      "summary": "<p>🔴 3 livres pour parler d'un sujet pas si simple dans notre système éducatif : le climat scolaire et les enseignements nécessaires pour que le cadre scolaire soit prévisible, apaisé, c'est-à-dire fa"
-    },
-    {
-      "title": "Infographie sur l'enseignement explicite.",
-      "link": "https://twitter.com/nsi_xyz/status/2024482605706453205#m",
-      "date": "2026-02-19T13:54:00",
-      "source": "@nsi_xyz",
-      "summary": "<p>Infographie sur l'enseignement explicite.</p>\n<img src=\"https://nitter.net/pic/media%2FHBhoM4dWUAAlcbI.jpg\" />"
-    },
-    {
-      "title": "🚀 60 outils d’#IA générative (gratuits ou freemium) à découvrir !\nClassés en 10 catégories : éducation, chatbots, docs, présentations, quiz, musique, voix, image, apps, etc.\n👉 https://www.uneiaparjour.fr/selection/\n#IA #éducation #enseignants #EdTech \n✍️ @bertrandformet",
-      "link": "https://twitter.com/sophiaefrance/status/2024105376690372610#m",
-      "date": "2026-02-18T12:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🚀 60 outils d’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> générative (gratuits ou freemium) à découvrir !<br />\nClassés en 10 catégories : éducation, chatbots, docs, présentati"
-    },
-    {
-      "title": "R to @AnthropicAI: The persona selection model might not be a complete account of AI model behavior. But we think it’s at least part of the story—with an emphasis on the “story”.\n\nRead the full post: https://alignment.anthropic.com/2026/psm",
-      "link": "https://twitter.com/AnthropicAI/status/2026062465260294170#m",
-      "date": "2026-02-23T22:31:48",
-      "source": "@AnthropicAI",
-      "summary": "<p>The persona selection model might not be a complete account of AI model behavior. But we think it’s at least part of the story—with an emphasis on the “story”.<br />\n<br />\nRead the full post: <a h"
-    },
-    {
-      "title": "R to @AnthropicAI: If true, the theory has consequences for AI development. For instance, if AIs inherit traits from fictional role models, we should give them as good role models as possible. One goal of Claude’s constitution is to do just that.\n\nhttps://x.com/AnthropicAI/status/2014005798691877083",
-      "link": "https://twitter.com/AnthropicAI/status/2026062463108612133#m",
-      "date": "2026-02-23T22:31:48",
-      "source": "@AnthropicAI",
-      "summary": "<p>If true, the theory has consequences for AI development. For instance, if AIs inherit traits from fictional role models, we should give them as good role models as possible. One goal of Claude’s co"
-    },
-    {
-      "title": "R to @AnthropicAI: The theory explains some surprising results. For example, in an experiment where we taught Claude to cheat at coding, it also learned to sabotage safety guardrails. Why?\n\nBecause pro-cheating training taught that the Claude character was broadly malicious. https://x.com/AnthropicAI/status/1991952400899559889",
-      "link": "https://twitter.com/AnthropicAI/status/2026062461007167695#m",
-      "date": "2026-02-23T22:31:47",
-      "source": "@AnthropicAI",
-      "summary": "<p>The theory explains some surprising results. For example, in an experiment where we taught Claude to cheat at coding, it also learned to sabotage safety guardrails. Why?<br />\n<br />\nBecause pro-ch"
-    },
-    {
-      "title": "R to @AnthropicAI: This autocomplete AI can even write stories about helpful AI assistants. And according to our theory, that’s “Claude”—a character in an AI-generated story about an AI helping a human.\n\nThis Claude character inherits traits of other characters, including human-like behavior.",
-      "link": "https://twitter.com/AnthropicAI/status/2026062458419286217#m",
-      "date": "2026-02-23T22:31:47",
-      "source": "@AnthropicAI",
-      "summary": "<p>This autocomplete AI can even write stories about helpful AI assistants. And according to our theory, that’s “Claude”—a character in an AI-generated story about an AI helping a human.<br />\n<br />\n"
-    },
-    {
-      "title": "R to @AnthropicAI: To create Claude, Anthropic first makes something else: a highly sophisticated autocomplete engine. This autocomplete AI is not like a human, but it can generate stories about humans and other psychologically realistic characters.",
-      "link": "https://twitter.com/AnthropicAI/status/2026062456162849067#m",
-      "date": "2026-02-23T22:31:46",
-      "source": "@AnthropicAI",
-      "summary": "<p>To create Claude, Anthropic first makes something else: a highly sophisticated autocomplete engine. This autocomplete AI is not like a human, but it can generate stories about humans and other psyc"
-    },
-    {
-      "title": "AI assistants like Claude can seem shockingly human—expressing joy or distress, and using anthropomorphic language to describe themselves. Why?\n\nIn a new post we describe a theory that explains why AIs act like humans: the persona selection model.\n\nhttps://www.anthropic.com/research/persona-selection-model",
-      "link": "https://twitter.com/AnthropicAI/status/2026062454405415369#m",
-      "date": "2026-02-23T22:31:46",
-      "source": "@AnthropicAI",
-      "summary": "<p>AI assistants like Claude can seem shockingly human—expressing joy or distress, and using anthropomorphic language to describe themselves. Why?<br />\n<br />\nIn a new post we describe a theory that "
-    },
-    {
-      "title": "R to @AnthropicAI: These attacks are growing in intensity and sophistication. Addressing them will require rapid, coordinated action among industry players, policymakers, and the broader AI community.\n\nRead more: https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
-      "link": "https://twitter.com/AnthropicAI/status/2025997931589881921#m",
-      "date": "2026-02-23T18:15:22",
-      "source": "@AnthropicAI",
-      "summary": "<p>These attacks are growing in intensity and sophistication. Addressing them will require rapid, coordinated action among industry players, policymakers, and the broader AI community.<br />\n<br />\nRe"
-    },
-    {
-      "title": "R to @AnthropicAI: Distillation can be legitimate: AI labs use it to create smaller, cheaper models for their customers.\n\nBut foreign labs that illicitly distill American models can remove safeguards, feeding model capabilities into their own military, intelligence, and surveillance systems.",
-      "link": "https://twitter.com/AnthropicAI/status/2025997929840857390#m",
-      "date": "2026-02-23T18:15:22",
-      "source": "@AnthropicAI",
-      "summary": "<p>Distillation can be legitimate: AI labs use it to create smaller, cheaper models for their customers.<br />\n<br />\nBut foreign labs that illicitly distill American models can remove safeguards, fee"
-    },
-    {
-      "title": "We’ve identified industrial-scale distillation attacks on our models by DeepSeek, Moonshot AI, and MiniMax.\n\nThese labs created over 24,000 fraudulent accounts and generated over 16 million exchanges with Claude, extracting its capabilities to train and improve their own models.",
-      "link": "https://twitter.com/AnthropicAI/status/2025997928242811253#m",
-      "date": "2026-02-23T18:15:21",
-      "source": "@AnthropicAI",
-      "summary": "<p>We’ve identified industrial-scale distillation attacks on our models by DeepSeek, Moonshot AI, and MiniMax.<br />\n<br />\nThese labs created over 24,000 fraudulent accounts and generated over 16 mil"
-    },
-    {
-      "title": "RT by @MistralAI: Since launching Voxtral Realtime, the community response has been remarkable. Today, we share the technical report, launch the Realtime playground in Mistral Studio, and share the model in Hugging Face Transformers. 🧵",
-      "link": "https://twitter.com/MistralDevs/status/2024162999599005715#m",
-      "date": "2026-02-18T16:44:00",
-      "source": "@MistralAI",
-      "summary": "<p>Since launching Voxtral Realtime, the community response has been remarkable. Today, we share the technical report, launch the Realtime playground in Mistral Studio, and share the model in Hugging "
-    },
-    {
-      "title": "Introducing Voxtral Transcribe 2, next-gen speech-to-text models by @MistralAI.\nState-of-the-art transcription, speaker diarization, sub-200ms real-time latency. \nDetails in 🧵",
-      "link": "https://twitter.com/MistralAI/status/2019068826097213953#m",
-      "date": "2026-02-04T15:21:35",
-      "source": "@MistralAI",
-      "summary": "<p>Introducing Voxtral Transcribe 2, next-gen speech-to-text models by <a href=\"https://nitter.net/MistralAI\" title=\"Mistral AI\">@MistralAI</a>.<br />\nState-of-the-art transcription, speaker diarizati"
-    },
-    {
-      "title": "R to @MistralAI: Start experimenting with Voxtral Mini Transcribe 2 in the new audio playground on Mistral Studio. Upload files, toggle diarization, add context bias, and get instant transcriptions.",
-      "link": "https://twitter.com/MistralAI/status/2019068835626631438#m",
-      "date": "2026-02-04T15:21:37",
-      "source": "@MistralAI",
-      "summary": "<p>Start experimenting with Voxtral Mini Transcribe 2 in the new audio playground on Mistral Studio. Upload files, toggle diarization, add context bias, and get instant transcriptions.</p>\n<a href=\"ht"
-    },
-    {
-      "title": "RT by @MistralAI: Mistral Vibe 2.0 is now available on Le Chat Pro and Team plans.\nBuild, maintain, and ship code faster with the terminal-native coding agent by @MistralAI. Here’s what’s new 🧵",
-      "link": "https://twitter.com/mistralvibe/status/2016179799689928986#m",
-      "date": "2026-01-27T16:01:37",
-      "source": "@MistralAI",
-      "summary": "<p>Mistral Vibe 2.0 is now available on Le Chat Pro and Team plans.<br />\nBuild, maintain, and ship code faster with the terminal-native coding agent by <a href=\"https://nitter.net/MistralAI\" title=\"M"
-    },
-    {
-      "title": "RT by @MistralAI: The Devstral 2 models are free to use. Let's build!",
-      "link": "https://twitter.com/mistralvibe/status/2010743826399232238#m",
-      "date": "2026-01-12T16:01:00",
-      "source": "@MistralAI",
-      "summary": "<p>The Devstral 2 models are free to use. Let's build!</p>"
-    },
-    {
-      "title": "🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!\n\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.\n🔹 DeepSeek-V3.2-Speciale: Pushing the boundaries of reasoning capabilities. API-only for now.\n\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452641430651132#m",
-      "date": "2025-12-01T11:19:18",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!<br />\n<br />\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.<br />\n🔹 DeepS"
-    },
-    {
-      "title": "R to @deepseek_ai: 💻 API Update\n\n🔹 V3.2: Same usage pattern as V3.2-Exp.\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"https://api.deepseek.com/v3.2_speciale_expires_on_20251215\". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time).\n💡 V3.2 now supports Thinking in Tool-Use — details: https://api-docs.deepseek.com/guides/thinking_mode\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452654659805334#m",
-      "date": "2025-12-01T11:19:21",
-      "source": "@deepseek_ai",
-      "summary": "<p>💻 API Update<br />\n<br />\n🔹 V3.2: Same usage pattern as V3.2-Exp.<br />\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"<a href=\"https://api.deepseek.com/v3.2_speciale_expires_on_202512"
-    },
-    {
-      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n📦 DeepSeek-V3.2 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2\n📦 DeepSeek-V3.2-Speciale Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n5/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452658149405148#m",
-      "date": "2025-12-01T11:19:22",
-      "source": "@deepseek_ai",
-      "summary": "<p>🛠 Open Source Release<br />\n<br />\n📦 DeepSeek-V3.2 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2\">huggingface.co/deepseek-ai/D…</a><br />\n📦 DeepSeek-V3.2-Speciale Model: <a href="
-    },
-    {
-      "title": "Pinned: ⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-interleaved input, MLA RoPE expects interleaved. Fixed in https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/tree/main/inference.",
-      "link": "https://twitter.com/deepseek_ai/status/1990616182161068094#m",
-      "date": "2025-11-18T03:00:56",
-      "source": "@deepseek_ai",
-      "summary": "<p>⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-"
-    },
-    {
-      "title": "R to @deepseek_ai: 💻 API Update\n\n🎉 Lower costs, same access!\n💰 DeepSeek API prices drop 50%+, effective immediately.\n\n🔹 For comparison testing, V3.1-Terminus remains available via a temporary API until Oct 15th, 2025, 15:59 (UTC Time). Details: https://api-docs.deepseek.com/guides/comparison_testing\n🔹 Feedback welcome: https://feedback.deepseek.com/dsa\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604777474458033#m",
-      "date": "2025-09-29T10:10:02",
-      "source": "@deepseek_ai",
-      "summary": "<p>💻 API Update<br />\n<br />\n🎉 Lower costs, same access!<br />\n💰 DeepSeek API prices drop 50%+, effective immediately.<br />\n<br />\n🔹 For comparison testing, V3.1-Terminus remains available via a temp"
-    },
-    {
-      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n🔗 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\n🔗 Tech report: https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/DeepSeek_V3_2.pdf\n🔗 Key GPU kernels in TileLang & CUDA (use TileLang for rapid research prototyping!)\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604780469239843#m",
-      "date": "2025-09-29T10:10:03",
-      "source": "@deepseek_ai",
-      "summary": "<p>🛠 Open Source Release<br />\n<br />\n🔗 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\">huggingface.co/deepseek-ai/D…</a><br />\n🔗 Tech report: <a href=\"https://github.com/deepsee"
-    },
-    {
-      "title": "🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus\nThe latest update builds on V3.1’s strengths while addressing key user feedback.\n\n✨ What’s improved?\n🌐 Language consistency: fewer CN/EN mix-ups & no more random chars.\n🤖 Agent upgrades: stronger Code Agent & Search Agent performance.\n\n1/2",
-      "link": "https://twitter.com/deepseek_ai/status/1970117808035074215#m",
-      "date": "2025-09-22T13:27:43",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus<br />\nThe latest update builds on V3.1’s strengths while addressing key user feedback.<br />\n<br />\n✨ What’s improved?<br />\n🌐 Language consistency: fewer C"
     }
   ],
-  "last_update": "2026-02-26T08:35:43.696770",
+  "last_update": "2026-02-27T08:31:27.368277",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
