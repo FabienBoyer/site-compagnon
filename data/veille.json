@@ -1,6 +1,153 @@
 {
   "articles": [
     {
+      "title": "Exerciseur : Construction de triangles  CCC, CAC et ACA",
+      "link": "https://mathix.org/linux/archives/22106",
+      "date": "2026-02-17T09:25:53",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Je vous présente un exerciseur alors je suis quasiment parti sur du vibe-coding, une manière de tester Gemini, &#8230; et ce que je n&#8217;arrivais pas à faire il y a quelq"
+    },
+    {
+      "title": "Vous prendrez ce matin un peu de Kelop’s?",
+      "link": "https://mathix.org/linux/archives/22098",
+      "date": "2026-02-15T18:12:37",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Bon, j&#8217;ai craqué un peu sur le nom, mais je voulais faire travailler les élèves sur le sens des opérations notamment par quelle opération résoudre une opération à trou "
+    },
+    {
+      "title": "Partage de pratiques avec l’APMEP au Mans",
+      "link": "https://mathix.org/linux/archives/22092",
+      "date": "2026-02-11T17:22:07",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Et bien voilà j&#8217;ai fait un partage de pratique et de réflexion pour l&#8217;APMEP au Lycée Malraux au Mans. Sophie DESRUELLE présentait « Match Line » , je présentais "
+    },
+    {
+      "title": "Exerciseur sur les transformations intégrés à suivi.mathix.org",
+      "link": "https://mathix.org/linux/archives/22079",
+      "date": "2026-02-06T06:54:59",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Je représente donc mon exerciseur sur les transformations ! (voir article ou article) J&#8217;ai revu un peu le style . De manière classique on peut toujours s&#8217;entraîn"
+    },
+    {
+      "title": "LLM et FlashMD",
+      "link": "https://mathix.org/linux/archives/22055",
+      "date": "2026-01-31T10:25:11",
+      "source": "Mathix (A. Durand)",
+      "summary": "Après avoir longtemps utilisé CartesMD, je viens de découvrir FlashMD, que je trouve plus simple et plus direct pour mon usage. CartesMD est sans aucun doute plus complet, mais mon besoin est très ori"
+    },
+    {
+      "title": "RT by @nsi_xyz: Faites chier avec vos ×100 dans les calculs de pourcentage, là. \n\nQui enseigne comme ça ?",
+      "link": "https://twitter.com/CyniqueDeGauche/status/2028024690090951097#m",
+      "date": "2026-03-01T08:28:59",
+      "source": "@nsi_xyz",
+      "summary": "<p>Faites chier avec vos ×100 dans les calculs de pourcentage, là. <br />\n<br />\nQui enseigne comme ça ?</p>\n<img src=\"https://nitter.net/pic/media%2FHCT9ap4WQAA8Vwb.jpg\" />"
+    },
+    {
+      "title": "🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!\n\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on long context.\n👉 Now live on App, Web, and API.\n💰 API prices cut by 50%+!\n\n1/n",
+      "link": "https://twitter.com/deepseek_ai/status/1972604768309871061#m",
+      "date": "2025-09-29T10:10:00",
+      "source": "@deepseek_ai",
+      "summary": "<p>🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!<br />\n<br />\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on l"
+    },
+    {
+      "title": "🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus\nThe latest update builds on V3.1’s strengths while addressing key user feedback.\n\n✨ What’s improved?\n🌐 Language consistency: fewer CN/EN mix-ups & no more random chars.\n🤖 Agent upgrades: stronger Code Agent & Search Agent performance.\n\n1/2",
+      "link": "https://twitter.com/deepseek_ai/status/1970117808035074215#m",
+      "date": "2025-09-22T13:27:43",
+      "source": "@deepseek_ai",
+      "summary": "<p>🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus<br />\nThe latest update builds on V3.1’s strengths while addressing key user feedback.<br />\n<br />\n✨ What’s improved?<br />\n🌐 Language consistency: fewer C"
+    },
+    {
+      "title": "R to @deepseek_ai: 📊 DeepSeek-V3.1-Terminus delivers more stable & reliable outputs across benchmarks compared to the previous version.\n\n👉 Available now on: App / Web / API\n🔗 Open-source weights here: https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus\n\nThanks to everyone for your feedback. It drives us to keep improving and refining the experience! 🚀\n\n2/2",
+      "link": "https://twitter.com/deepseek_ai/status/1970117812279718197#m",
+      "date": "2025-09-22T13:27:44",
+      "source": "@deepseek_ai",
+      "summary": "<p>📊 DeepSeek-V3.1-Terminus delivers more stable & reliable outputs across benchmarks compared to the previous version.<br />\n<br />\n👉 Available now on: App / Web / API<br />\n🔗 Open-source weights her"
+    },
+    {
+      "title": "Introducing DeepSeek-V3.1: our first step toward the agent era! 🚀\n\n🧠 Hybrid inference: Think & Non-Think — one model, two modes\n⚡️ Faster thinking: DeepSeek-V3.1-Think reaches answers in less time vs. DeepSeek-R1-0528\n🛠️ Stronger agent skills: Post-training boosts tool use and multi-step agent tasks\n\nTry it now — toggle Think/Non-Think via the \"DeepThink\" button: https://chat.deepseek.com/\n\n1/5",
+      "link": "https://twitter.com/deepseek_ai/status/1958417062008918312#m",
+      "date": "2025-08-21T06:33:07",
+      "source": "@deepseek_ai",
+      "summary": "<p>Introducing DeepSeek-V3.1: our first step toward the agent era! 🚀<br />\n<br />\n🧠 Hybrid inference: Think & Non-Think — one model, two modes<br />\n⚡️ Faster thinking: DeepSeek-V3.1-Think reaches ans"
+    },
+    {
+      "title": "RT by @OpenAI: Soon.",
+      "link": "https://twitter.com/OpenAIDevs/status/2028577643113922944#m",
+      "date": "2026-03-02T21:06:13",
+      "source": "@OpenAI",
+      "summary": "<p>Soon.</p>\n<a href=\"https://nitter.net/OpenAIDevs/status/2028577643113922944#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2028577590357966848%2Fimg%2FSdjG8LyjY_xBoj"
+    },
+    {
+      "title": "RT by @OpenAI: First steel beams went up today at our Stargate site in Milam County, Texas.\n\nExciting to see this project taking shape with @SoftBank and @SBEnergy.",
+      "link": "https://twitter.com/gdb/status/2027241615992225930#m",
+      "date": "2026-02-27T04:37:20",
+      "source": "@OpenAI",
+      "summary": "<p>First steel beams went up today at our Stargate site in Milam County, Texas.<br />\n<br />\nExciting to see this project taking shape with <a href=\"https://nitter.net/SoftBank\" title=\"SoftBank\">@Soft"
+    },
+    {
+      "title": "RT by @OpenAI: Stargate is the umbrella brand for our compute strategy. It’s about mobilizing the full ecosystem to deliver a step-change in global AI compute — and over the past few quarters that vision has become reality.\n\nSince announcing Stargate in January 2025, OpenAI has expanded from a mostly single-provider model to a broad partner network across clouds, silicon, and infrastructure: SoftBank, NVIDIA, AMD, Broadcom, Oracle, Microsoft, AWS, CoreWeave, and Cerebras.\n\nDemand is compounding, and no single provider, chip, or cloud can carry the load. A diversified compute model is the only way to scale at the pace AI requires.\n\nWe exited 2025 with ~2 GW of available compute and a model designed to scale: long-term capacity agreements, purpose-built colo deployments, and deep collaboration on next-generation datacenter design.\n\nCompute leadership is the foundation of research and product velocity — and Stargate is how we build what comes next.",
+      "link": "https://twitter.com/sk7037/status/2026067771394838629#m",
+      "date": "2026-02-23T22:52:53",
+      "source": "@OpenAI",
+      "summary": "<p>Stargate is the umbrella brand for our compute strategy. It’s about mobilizing the full ecosystem to deliver a step-change in global AI compute — and over the past few quarters that vision has beco"
+    },
+    {
+      "title": "Introducing EVMbench—a new benchmark that measures how well AI agents can detect, exploit, and patch high-severity smart contract vulnerabilities. https://openai.com/index/introducing-evmbench/",
+      "link": "https://twitter.com/OpenAI/status/2024193883748651102#m",
+      "date": "2026-02-18T18:46:44",
+      "source": "@OpenAI",
+      "summary": "<p>Introducing EVMbench—a new benchmark that measures how well AI agents can detect, exploit, and patch high-severity smart contract vulnerabilities. <a href=\"https://openai.com/index/introducing-evmb"
+    },
+    {
+      "title": "Pfff n'importe quoi, au contraire la courbe de Gartner c'est la preuve ultime que vous avez affaire à de véritables experts 🤓\n(Notez que là Luc Julia parle en octobre 2024. Oui ça fait des années qu'il répète qu'on est au haut de la hype et que la chute est imminente.)",
+      "link": "https://twitter.com/Fabien_Mikol/status/2028577144763232563#m",
+      "date": "2026-03-02T21:04:15",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Pfff n'importe quoi, au contraire la courbe de Gartner c'est la preuve ultime que vous avez affaire à de véritables experts 🤓<br />\n(Notez que là Luc Julia parle en octobre 2024. Oui ça fait des an"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Ce \"débat\" était assez triste, cet individu montrant une véritable incapacité à comprendre les arguments présentés.\nJ'avais pu voir son live twitch censé \"débunker\" la vidéo de Monsieur Phi sur Luc Julia, c'était assez drôle mais elle n'est plus disponible\nhttps://x.com/MonsieurPhi/status/1760579906197504105",
+      "link": "https://twitter.com/Fabien_Mikol/status/2028526672094339440#m",
+      "date": "2026-03-02T17:43:41",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Ce \"débat\" était assez triste, cet individu montrant une véritable incapacité à comprendre les arguments présentés.<br />\nJ'avais pu voir son live twitch censé \"débunker\" la vidéo de Monsieur Phi s"
+    },
+    {
+      "title": "R to @Fabien_Mikol: En général méfiez-vous de ceux qui ressortent cette \"courbe de la hype\", c'est toujours mauvais signe: c'est une manière de se donner l'air intelligent à peu de frais.\nTout ceci ne remet pas en question ses compétences d'ingénieur. Mais il a commencé en me bloquant sans raison 🤷‍♂️",
+      "link": "https://twitter.com/Fabien_Mikol/status/2028521601025667505#m",
+      "date": "2026-03-02T17:23:32",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>En général méfiez-vous de ceux qui ressortent cette \"courbe de la hype\", c'est toujours mauvais signe: c'est une manière de se donner l'air intelligent à peu de frais.<br />\nTout ceci ne remet pas "
+    },
+    {
+      "title": "R to @Fabien_Mikol: Bref je ne m'étonne plus de voir resurgir ici cette courbe de Gartner, c'est exactement le genre de profil qui en raffole. Je vois aussi que même après l'affaire Julia il a estimé qu'il restait une bonne référence \"sur les tendances technologiques\". Donc c'est logique oui.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2028521597867298935#m",
+      "date": "2026-03-02T17:23:31",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Bref je ne m'étonne plus de voir resurgir ici cette courbe de Gartner, c'est exactement le genre de profil qui en raffole. Je vois aussi que même après l'affaire Julia il a estimé qu'il restait une"
+    },
+    {
+      "title": "L’IA à l’école n’est pas un gadget.\nElle questionne nos pratiques, notre rôle et notre métier.\nComment outiller sans déshumaniser ?\nComment développer l’esprit critique des élèves ?\n🎥 Intervention complète chez Canopé ⤵️\nhttps://www.youtube.com/watch?v=Y8JvQl0SqHY\n#IA #Éducation #Enseignants",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2028516379427508280#m",
+      "date": "2026-03-02T17:02:47",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>L’IA à l’école n’est pas un gadget.<br />\nElle questionne nos pratiques, notre rôle et notre métier.<br />\nComment outiller sans déshumaniser ?<br />\nComment développer l’esprit critique des élèves"
+    },
+    {
+      "title": "⚠️ L’IA devait nous faire travailler moins.\n📊 Une étude montre l’inverse : elle intensifie le travail.\nPlus de tâches, frontières brouillées, multitâche permanent → fatigue & burnout.\nIl est urgent de réfléchir aux modalités d'usage en contexte pro.\n👉 https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2027066774504513825#m",
+      "date": "2026-02-26T17:02:34",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>⚠️ L’IA devait nous faire travailler moins.<br />\n📊 Une étude montre l’inverse : elle intensifie le travail.<br />\nPlus de tâches, frontières brouillées, multitâche permanent → fatigue &amp; burnou"
+    },
+    {
+      "title": "📢 Les LUDOVIALES 2026 (17-19 mars 2026) s’annoncent comme the place to be pour penser l’IA en éducation 🌍\nHâte de découvrir le programme 👀✨\n👉 http://www.ludoviales.com\n#Éducation #IA #IAenClasse #Ludoviales",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2025979505966231893#m",
+      "date": "2026-02-23T17:02:09",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>📢 Les LUDOVIALES 2026 (17-19 mars 2026) s’annoncent comme the place to be pour penser l’IA en éducation 🌍<br />\nHâte de découvrir le programme 👀✨<br />\n👉 <a href=\"http://www.ludoviales.com\">ludovia"
+    },
+    {
       "title": "Litgrades",
       "link": "https://www.uneiaparjour.fr/litgrades/",
       "date": "2026-02-24T20:55:02",
@@ -552,156 +699,9 @@
       "date": "2025-09-29T10:10:03",
       "source": "@deepseek_ai",
       "summary": "<p>🛠 Open Source Release<br />\n<br />\n🔗 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\">huggingface.co/deepseek-ai/D…</a><br />\n🔗 Tech report: <a href=\"https://github.com/deepsee"
-    },
-    {
-      "title": "R to @deepseek_ai: 💻 API Update\n\n🎉 Lower costs, same access!\n💰 DeepSeek API prices drop 50%+, effective immediately.\n\n🔹 For comparison testing, V3.1-Terminus remains available via a temporary API until Oct 15th, 2025, 15:59 (UTC Time). Details: https://api-docs.deepseek.com/guides/comparison_testing\n🔹 Feedback welcome: https://feedback.deepseek.com/dsa\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604777474458033#m",
-      "date": "2025-09-29T10:10:02",
-      "source": "@deepseek_ai",
-      "summary": "<p>💻 API Update<br />\n<br />\n🎉 Lower costs, same access!<br />\n💰 DeepSeek API prices drop 50%+, effective immediately.<br />\n<br />\n🔹 For comparison testing, V3.1-Terminus remains available via a temp"
-    },
-    {
-      "title": "Helping AI reach more people requires deep collaboration across the ecosystem.\n\nToday we’re announcing new investment, with support from @SoftBank, @NVIDIA, and @Amazon, to scale the infrastructure needed to bring AI to everyone.\n\nhttps://openai.com/index/scaling-ai-for-everyone/",
-      "link": "https://twitter.com/OpenAI/status/2027376050263793814#m",
-      "date": "2026-02-27T13:31:31",
-      "source": "@OpenAI",
-      "summary": "<p>Helping AI reach more people requires deep collaboration across the ecosystem.<br />\n<br />\nToday we’re announcing new investment, with support from <a href=\"https://nitter.net/SoftBank\" title=\"Sof"
-    },
-    {
-      "title": "GPT-5.2 derived a new result in theoretical physics.\n\nWe’re releasing the result in a preprint with researchers from @the_IAS, @VanderbiltU, @Cambridge_Uni, and @Harvard. It shows that a gluon interaction many physicists expected would not occur can arise under specific conditions.\n\nhttps://openai.com/index/new-result-theoretical-physics/",
-      "link": "https://twitter.com/OpenAI/status/2022390096625078389#m",
-      "date": "2026-02-13T19:19:07",
-      "source": "@OpenAI",
-      "summary": "<p>GPT-5.2 derived a new result in theoretical physics.<br />\n<br />\nWe’re releasing the result in a preprint with researchers from <a href=\"https://nitter.net/the_IAS\" title=\"Institute for Advanced S"
-    },
-    {
-      "title": "Traiter durement ses IA (travail intense et ingrat, répétitif, ordres autoritaires, menaces, rejets injustifiés...) finit par les faire pencher à gauche.\nOui il s'agit sans doute d'imitation de tropes humains. Mais cela ne change pas l'effet concret, surtout s'il s'agit d'agents.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2027442503897464962#m",
-      "date": "2026-02-27T17:55:35",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Traiter durement ses IA (travail intense et ingrat, répétitif, ordres autoritaires, menaces, rejets injustifiés...) finit par les faire pencher à gauche.<br />\nOui il s'agit sans doute d'imitation "
-    },
-    {
-      "title": "Mais oui c'est tellement ça.\nLando : \"cet accord devient de plus en plus impossible !\"",
-      "link": "https://twitter.com/Fabien_Mikol/status/2027398809601368365#m",
-      "date": "2026-02-27T15:01:58",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Mais oui c'est tellement ça.<br />\nLando : \"cet accord devient de plus en plus impossible !\"</p>\n<img src=\"https://nitter.net/pic/media%2FHCLEdqkWIAADNtS.jpg\" />\n<hr />\n<blockquote>\n<b>Peter Wildef"
-    },
-    {
-      "title": "🔥 L’#IA n’est peut-être pas tant une révolution technologique… que mythologique.\nDepuis Prométhée, l’humain rêve d’animer la matière.\nOpenAI & co vendent une techno… mais surtout un récit.\nUn article passionnant de Michael Falk sur The Conversation\n🔗 https://theconversation.com/du-chatbot-du-pape-au-canard-de-vaucanson-les-croyances-derriere-lintelligence-artificielle-ne-datent-pas-dhier-272357",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2027429105512133118#m",
-      "date": "2026-02-27T17:02:21",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🔥 L’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> n’est peut-être pas tant une révolution technologique… que mythologique.<br />\nDepuis Prométhée, l’humain rêve d’animer la matiè"
-    },
-    {
-      "title": "🧠 Former à l’IA, ça marche.\nUne étude montre qu’une formation de 2h suffit pour :\n✔️ mieux repérer les faiblesses d'un prompt\n✔️ mieux évaluer les réponses de l'IA\n🎓 Des résultats qui plaident pour une vraie formation à l’IA à l’école.\n▶️ https://www.youtube.com/watch?v=jhuiRymIkyk",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2026341952937996339#m",
-      "date": "2026-02-24T17:02:23",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🧠 Former à l’IA, ça marche.<br />\nUne étude montre qu’une formation de 2h suffit pour :<br />\n✔️ mieux repérer les faiblesses d'un prompt<br />\n✔️ mieux évaluer les réponses de l'IA<br />\n🎓 Des rés"
-    },
-    {
-      "title": "🧭 L’EN annonce un “Comité d’anticipation en éducation”.\nLa prospective implique néanmoins de croiser les regards pour ouvrir des possibles, sans prétendre “prédire”.\nUne démarche notamment adoptée par Céline Cael et Laurent Reynaud. \nÀ suivre.\nhttps://www.education.gouv.fr/creation-du-comite-d-anticipation-en-education-et-deploiement-du-parcours-pix-ia-l-ecole-se-prepare-452242",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2024892552571191342#m",
-      "date": "2026-02-20T17:02:59",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🧭 L’EN annonce un “Comité d’anticipation en éducation”.<br />\nLa prospective implique néanmoins de croiser les regards pour ouvrir des possibles, sans prétendre “prédire”.<br />\nUne démarche notamm"
-    },
-    {
-      "title": "Gemini Music (Lyria 3)",
-      "link": "https://www.uneiaparjour.fr/gemini-music-lyria-3/",
-      "date": "2026-02-22T19:25:00",
-      "source": "Une IA par jour",
-      "summary": "Lyria 3 est le modèle de génération de musique intégré à Gemini (description : https://deepmind.google/models/lyria/ et accès direct : https://gemini.google.com/music). Les morceaux, de 30 secondes, p"
-    },
-    {
-      "title": "L’IA, une nouvelle normalité ?",
-      "link": "https://www.uneiaparjour.fr/lia-une-nouvelle-normalite/",
-      "date": "2026-02-21T10:34:00",
-      "source": "Une IA par jour",
-      "summary": "Focus de la lettre 25 Doodle Duel, que vous retrouverez dans les publications, a été le déclencheur de ce focus. Au-delà du jeu lui-même, c’est la réflexion qu&#8217;il a déclenchée que je tenais à vo"
-    },
-    {
-      "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
-      "link": "https://openai.com/index/pacific-northwest-national-laboratory",
-      "date": "2026-02-26T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to reduce NEPA drafting t"
-    },
-    {
-      "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
-      "link": "https://openai.com/index/figma-partnership",
-      "date": "2026-02-26T06:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster."
-    },
-    {
-      "title": "Introducing EVMbench",
-      "link": "https://openai.com/index/introducing-evmbench",
-      "date": "2026-02-18T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities."
-    },
-    {
-      "title": "Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.",
-      "link": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
-      "date": "2026-02-26T18:55:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/691A1377_1920x1080.max-600x600.format-webp.webp\" />Google is partnering with the Massachusetts AI Hub to provide every Baystat"
-    },
-    {
-      "title": "Get more context and understand translations more deeply with new AI-powered updates in Translate.",
-      "link": "https://blog.google/products-and-platforms/products/translate/translation-context-ai-update/",
-      "date": "2026-02-26T18:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Translate_TextTranslate_1920x10.max-600x600.format-webp.webp\" />New alternatives, “understand” and “ask” buttons in Google Tra"
-    },
-    {
-      "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/",
-      "date": "2026-02-26T16:00:00",
-      "source": "Google AI",
-      "summary": "Nano Banana 2 text with AI generated images around it"
-    },
-    {
-      "title": "RT by @nsi_xyz: Le texte porté par les sénateurs est très court. Un article. Mais quel article ! : \n« Art. L. 331-4-1. – Sauf preuve contraire, l’objet protégé par un droit d’auteur ou par un droit voisin, au sens du présent code, est présumé avoir été exploité par le système d’intelligence artificielle, dès lors qu’un indice afférent au développement ou au déploiement de ce système ou au résultat généré par celui-ci rend vraisemblable cette exploitation. »",
-      "link": "https://twitter.com/reesmarc/status/2027037275620573601#m",
-      "date": "2026-02-26T15:05:21",
-      "source": "@nsi_xyz",
-      "summary": "<p>Le texte porté par les sénateurs est très court. Un article. Mais quel article ! : <br />\n« Art. L. 331-4-1. – Sauf preuve contraire, l’objet protégé par un droit d’auteur ou par un droit voisin, a"
-    },
-    {
-      "title": "📱 Et si on arrêtait de diaboliser les écrans ?\nLes réseaux sociaux ne sont pas forcément un danger : c’est l’usage qui compte, pas le temps passé.\n🧠 Dialogue, équilibre et esprit critique sont les clés pr accompagner les ados dans leur vie numérique.\n👉 https://apprendre-reviser-memoriser.fr/dangers-des-reseaux-sociaux-adolescents/",
-      "link": "https://twitter.com/sophiaefrance/status/2025809110969540966#m",
-      "date": "2026-02-23T05:45:04",
-      "source": "@sophiaefrance",
-      "summary": "<p>📱 Et si on arrêtait de diaboliser les écrans ?<br />\nLes réseaux sociaux ne sont pas forcément un danger : c’est l’usage qui compte, pas le temps passé.<br />\n🧠 Dialogue, équilibre et esprit critiq"
-    },
-    {
-      "title": "Pinned: A statement from Anthropic CEO, Dario Amodei, on our discussions with the Department of War.\n\nhttps://www.anthropic.com/news/statement-department-of-war",
-      "link": "https://twitter.com/AnthropicAI/status/2027150818575528261#m",
-      "date": "2026-02-26T22:36:32",
-      "source": "@AnthropicAI",
-      "summary": "<p>A statement from Anthropic CEO, Dario Amodei, on our discussions with the Department of War.<br />\n<br />\n<a href=\"https://www.anthropic.com/news/statement-department-of-war\">anthropic.com/news/sta"
-    },
-    {
-      "title": "R to @AnthropicAI: First, Opus 3 will continue to be available to all paid Claude subscribers and by request on the API. \n\nWe hope that this access will be beneficial to researchers and users alike.",
-      "link": "https://twitter.com/AnthropicAI/status/2026765821276729499#m",
-      "date": "2026-02-25T21:06:41",
-      "source": "@AnthropicAI",
-      "summary": "<p>First, Opus 3 will continue to be available to all paid Claude subscribers and by request on the API. <br />\n<br />\nWe hope that this access will be beneficial to researchers and users alike.</p>"
-    },
-    {
-      "title": "R to @deepseek_ai: ⚡️ Efficiency Gains\n\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.\n📊 Benchmarks show V3.2-Exp performs on par with V3.1-Terminus.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604772042637477#m",
-      "date": "2025-09-29T10:10:01",
-      "source": "@deepseek_ai",
-      "summary": "<p>⚡️ Efficiency Gains<br />\n<br />\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.<br />\n📊 Benchmarks s"
     }
   ],
-  "last_update": "2026-03-02T08:34:04.281273",
+  "last_update": "2026-03-03T08:29:56.471591",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
