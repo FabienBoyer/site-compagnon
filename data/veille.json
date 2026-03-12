@@ -1,6 +1,202 @@
 {
   "articles": [
     {
+      "title": "Axell",
+      "link": "https://www.uneiaparjour.fr/axell/",
+      "date": "2026-03-05T21:58:32",
+      "source": "Une IA par jour",
+      "summary": "Axell (https://www.axellai.com/) regroupe plusieurs modèles de langage et de génération d&#8217;images / vidéo dans une interface type tableau infini.Chaque génération depuis un chatbot intégré au tab"
+    },
+    {
+      "title": "Exerciseur sur la linéarité dans un tableau de proportionnalité",
+      "link": "https://mathix.org/linux/archives/22148",
+      "date": "2026-03-11T13:11:44",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Voici un exerciseur sur la proportionnalité (entier, décimaux et problème de proportionnalité), pour des élèves de 6eme. On peut uniquement travailler la linéarité (pas de c"
+    },
+    {
+      "title": "Rakuten fixes issues twice as fast with Codex",
+      "link": "https://openai.com/index/rakuten",
+      "date": "2026-03-11T13:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks."
+    },
+    {
+      "title": "Designing AI agents to resist prompt injection",
+      "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "date": "2026-03-11T11:30:00",
+      "source": "OpenAI Blog",
+      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows."
+    },
+    {
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "link": "https://openai.com/index/wayfair",
+      "date": "2026-03-11T11:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale."
+    },
+    {
+      "title": "From model to agent: Equipping the Responses API with a computer environment",
+      "link": "https://openai.com/index/equip-responses-api-computer-environment",
+      "date": "2026-03-11T11:00:00",
+      "source": "OpenAI Blog",
+      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state."
+    },
+    {
+      "title": "How AI is helping improve heart health in rural Australia",
+      "link": "https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/",
+      "date": "2026-03-12T15:00:00",
+      "source": "Google AI",
+      "summary": "A doctor is sitting across a desk from a patient. The doctor is holding a tablet and a pen. Medical charts renderings are in the background."
+    },
+    {
+      "title": "Ask a Techspert: How does AI understand my visual searches?",
+      "link": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
+      "date": "2026-03-05T18:00:00",
+      "source": "Google AI",
+      "summary": "Mobile phone with a search bar that says \"Ask anything\""
+    },
+    {
+      "title": "The latest AI news we announced in February",
+      "link": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/",
+      "date": "2026-03-05T16:30:00",
+      "source": "Google AI",
+      "summary": "an MP4 of a carousel with images reading \"Gemini 3.1 Pro\" and \"Nano Banana 2\""
+    },
+    {
+      "title": "Si vous soupçonnez un élève de triche mais que vous êtes certain qu'il n'avait ni téléphone ni montre sur lui, ne cherchez plus, il avait des lunettes AI.\nUne photo, un assistant IA, réponse via conduction osseuse. 49€",
+      "link": "https://twitter.com/nsi_xyz/status/2031984036348866581#m",
+      "date": "2026-03-12T06:42:01",
+      "source": "@nsi_xyz",
+      "summary": "<p>Si vous soupçonnez un élève de triche mais que vous êtes certain qu'il n'avait ni téléphone ni montre sur lui, ne cherchez plus, il avait des lunettes AI.<br />\nUne photo, un assistant IA, réponse "
+    },
+    {
+      "title": "📱 🔐 FantomApp, l’app de la @CNIL, aide les ados à mieux protéger leur vie privée sur les réseaux sociaux. Cyberharcèlement, paramètres de confidentialité, mots de passe: des conseils concrets pour adopter les bons réflexes numériques.\n👉 https://www.cnil.fr/fr/fantomapp #TICE #education",
+      "link": "https://twitter.com/sophiaefrance/status/2024798693824647506#m",
+      "date": "2026-02-20T10:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>📱 🔐 FantomApp, l’app de la <a href=\"https://nitter.net/CNIL\" title=\"CNIL\">@CNIL</a>, aide les ados à mieux protéger leur vie privée sur les réseaux sociaux. Cyberharcèlement, paramètres de confiden"
+    },
+    {
+      "title": "R to @AnthropicAI: The Anthropic Institute is hiring. You can learn more about our work and priorities at the link below:\n\nhttps://www.anthropic.com/institute",
+      "link": "https://twitter.com/AnthropicAI/status/2031674093875892353#m",
+      "date": "2026-03-11T10:10:25",
+      "source": "@AnthropicAI",
+      "summary": "<p>The Anthropic Institute is hiring. You can learn more about our work and priorities at the link below:<br />\n<br />\n<a href=\"https://www.anthropic.com/institute\">anthropic.com/institute</a></p>\n<im"
+    },
+    {
+      "title": "R to @AnthropicAI: The Institute will be led by @jackclarkSF, in a new role as Anthropic’s Head of Public Benefit. It'll bring together an interdisciplinary staff of machine learning engineers, economists, and social scientists, making full use of the inside information of a frontier AI lab.",
+      "link": "https://twitter.com/AnthropicAI/status/2031674092290474421#m",
+      "date": "2026-03-11T10:10:24",
+      "source": "@AnthropicAI",
+      "summary": "<p>The Institute will be led by <a href=\"https://nitter.net/jackclarkSF\" title=\"Jack Clark\">@jackclarkSF</a>, in a new role as Anthropic’s Head of Public Benefit. It'll bring together an interdiscipli"
+    },
+    {
+      "title": "R to @AnthropicAI: We believe being forewarned is being forearmed. The Anthropic Institute will tell the world what we are seeing and expecting from the technology we build.\n\nIt will lead new research into the challenges posed by more powerful AI, and partner with others to address them.",
+      "link": "https://twitter.com/AnthropicAI/status/2031674090604417307#m",
+      "date": "2026-03-11T10:10:24",
+      "source": "@AnthropicAI",
+      "summary": "<p>We believe being forewarned is being forearmed. The Anthropic Institute will tell the world what we are seeing and expecting from the technology we build.<br />\n<br />\nIt will lead new research int"
+    },
+    {
+      "title": "R to @AnthropicAI: Powerful AI offers vast upsides in science, development, and human agency.\n\nBut the continued rapid progress of the technology may also create new challenges, including abrupt economic changes and broad societal impacts.",
+      "link": "https://twitter.com/AnthropicAI/status/2031674089035714578#m",
+      "date": "2026-03-11T10:10:24",
+      "source": "@AnthropicAI",
+      "summary": "<p>Powerful AI offers vast upsides in science, development, and human agency.<br />\n<br />\nBut the continued rapid progress of the technology may also create new challenges, including abrupt economic "
+    },
+    {
+      "title": "Introducing The Anthropic Institute, a new effort to advance the public conversation about powerful AI.\n\nhttps://www.anthropic.com/news/the-anthropic-institute",
+      "link": "https://twitter.com/AnthropicAI/status/2031674087374815577#m",
+      "date": "2026-03-11T10:10:23",
+      "source": "@AnthropicAI",
+      "summary": "<p>Introducing The Anthropic Institute, a new effort to advance the public conversation about powerful AI.<br />\n<br />\n<a href=\"https://www.anthropic.com/news/the-anthropic-institute\">anthropic.com/n"
+    },
+    {
+      "title": "We partnered with Mozilla to test Claude's ability to find security vulnerabilities in Firefox.\n\nOpus 4.6 found 22 vulnerabilities in just two weeks. Of these, 14 were high-severity, representing a fifth of all high-severity bugs Mozilla remediated in 2025.",
+      "link": "https://twitter.com/AnthropicAI/status/2029978909207617634#m",
+      "date": "2026-03-06T17:54:21",
+      "source": "@AnthropicAI",
+      "summary": "<p>We partnered with Mozilla to test Claude's ability to find security vulnerabilities in Firefox.<br />\n<br />\nOpus 4.6 found 22 vulnerabilities in just two weeks. Of these, 14 were high-severity, re"
+    },
+    {
+      "title": "R to @nvidia: #MistralAI #GTC26 #NVIDIAGTC #AI",
+      "link": "https://twitter.com/MistralAI/status/2031838819972968855#m",
+      "date": "2026-03-11T21:04:59",
+      "source": "@MistralAI",
+      "summary": "<p><a href=\"https://nitter.net/search?f=tweets&amp;q=%23MistralAI\">#MistralAI</a> <a href=\"https://nitter.net/search?f=tweets&amp;q=%23GTC26\">#GTC26</a> <a href=\"https://nitter.net/search?f=tweets&amp"
+    },
+    {
+      "title": "R to @nvidia: events.mistralai.com/nvidia-…",
+      "link": "https://twitter.com/MistralAI/status/2031838433522360522#m",
+      "date": "2026-03-11T21:03:26",
+      "source": "@MistralAI",
+      "summary": "<p><a href=\"https://events.mistralai.com/nvidia-gtc-2026/\">events.mistralai.com/nvidia-…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2031838475993923585%2F5ho6Vunn%3Fformat%3Djpg%26name%3D420x"
+    },
+    {
+      "title": "Mistral AI is headed to San Jose for @NVIDIA GTC! 🚀\nWe’re demoing our newest frontier models, sharing our vision for the future of enterprise AI, and unveiling some big news you won't want to miss.\n\n📍 Visit us to see the latest innovations in action.\n🗓️ Check out our sessions and book a meeting:  link in 🧵",
+      "link": "https://twitter.com/MistralAI/status/2031838391847764010#m",
+      "date": "2026-03-11T21:03:17",
+      "source": "@MistralAI",
+      "summary": "<p>Mistral AI is headed to San Jose for <a href=\"https://nitter.net/NVIDIA\" title=\"NVIDIA\">@NVIDIA</a> GTC! 🚀<br />\nWe’re demoing our newest frontier models, sharing our vision for the future of enter"
+    },
+    {
+      "title": "🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!\n\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on long context.\n👉 Now live on App, Web, and API.\n💰 API prices cut by 50%+!\n\n1/n",
+      "link": "https://twitter.com/deepseek_ai/status/1972604768309871061#m",
+      "date": "2025-09-29T10:10:00",
+      "source": "@deepseek_ai",
+      "summary": "<p>🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!<br />\n<br />\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on l"
+    },
+    {
+      "title": "RT by @OpenAI: Developers coming from other tools are often impressed by what Codex finds in code review.\n\nIn this video, @majatrebacz and I show how to set it up and walk through issues Codex finds in real PRs.\n\nIncluded with ChatGPT Plus/Pro (or ~$1/run with credits).",
+      "link": "https://twitter.com/romainhuet/status/2031517213799362760#m",
+      "date": "2026-03-10T23:47:02",
+      "source": "@OpenAI",
+      "summary": "<p>Developers coming from other tools are often impressed by what Codex finds in code review.<br />\n<br />\nIn this video, <a href=\"https://nitter.net/majatrebacz\" title=\"Maja Trebacz\">@majatrebacz</a>"
+    },
+    {
+      "title": "Codex Security—our application security agent—is now in research preview.\n\nhttps://openai.com/index/codex-security-now-in-research-preview/",
+      "link": "https://twitter.com/OpenAI/status/2029985250512920743#m",
+      "date": "2026-03-06T18:19:33",
+      "source": "@OpenAI",
+      "summary": "<p>Codex Security—our application security agent—is now in research preview.<br />\n<br />\n<a href=\"https://openai.com/index/codex-security-now-in-research-preview/\">openai.com/index/codex-secur…</a></"
+    },
+    {
+      "title": "RT by @OpenAI: Construction is underway at our site in Port Washington, Wisconsin. This is an important step in our long-term compute strategy. Grateful to our partners @VantageDC and @Oracle who are helping bring this capacity online.\n \nWe’re been making rapid progress expanding the infrastructure behind OpenAI. Last week we announced an expansion of our foundational work with @NVIDIA systems that will power the next generation of models. We also shared how we're continuing to deepen our work across the ecosystem, including lean in further with @awscloud.\n \nBuilding world-class AI requires world-class infrastructure. Excited to see the work happening on the ground in Wisconsin and grateful to the teams and partners helping make it happen.",
+      "link": "https://twitter.com/sk7037/status/2029911649298362524#m",
+      "date": "2026-03-06T13:27:05",
+      "source": "@OpenAI",
+      "summary": "<p>Construction is underway at our site in Port Washington, Wisconsin. This is an important step in our long-term compute strategy. Grateful to our partners <a href=\"https://nitter.net/VantageDC\" titl"
+    },
+    {
+      "title": "Luc Julia dans L'Opinion aujourd'hui.\nTitre magnifique : \"les grands modèles généralistes d'IA ne servent foncièrement à rien\".\nJ'ai pas accès à l'article (Europress est mort), mais on sait qu'il a reparlé du \"taux de pertinence\".",
+      "link": "https://twitter.com/Fabien_Mikol/status/2031792085586571476#m",
+      "date": "2026-03-11T17:59:16",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Luc Julia dans L'Opinion aujourd'hui.<br />\nTitre magnifique : \"les grands modèles généralistes d'IA ne servent foncièrement à rien\".<br />\nJ'ai pas accès à l'article (Europress est mort), mais on "
+    },
+    {
+      "title": "Il manquait le pape c'est pas sérieux",
+      "link": "https://twitter.com/Fabien_Mikol/status/2031790219301626087#m",
+      "date": "2026-03-11T17:51:51",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Il manquait le pape c'est pas sérieux</p>\n<img src=\"https://nitter.net/pic/media%2FHDJeYkcXUAAqUeb.jpg\" />\n<hr />\n<blockquote>\n<b>Andrew Curran (@AndrewCurran_)</b>\n<p>\n<p>New Time cover.</p>\n<img "
+    },
+    {
+      "title": "Une IA toute puissante serait-elle forcément \"méchante\" ou \"dominatrice\"? @AricFloyd explique qu'il n'est nul besoin qu'elle partage de tels traits humains ni même qu'elle soit \"consciente\" pour mettre en danger l'humanité. La convergence instrumentale et l'indifférence suffisent",
+      "link": "https://twitter.com/Fabien_Mikol/status/2031769838423576674#m",
+      "date": "2026-03-11T16:30:52",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Une IA toute puissante serait-elle forcément \"méchante\" ou \"dominatrice\"? <a href=\"https://nitter.net/AricFloyd\" title=\"Aric Floyd\">@AricFloyd</a> explique qu'il n'est nul besoin qu'elle partage de"
+    },
+    {
+      "title": "R to @AricFloyd: @AricFloyd explique pourquoi il est si difficile d'anticiper les comportements futurs des modèles : une IA hors de son environnement d'entraînement peut révéler qu'elle optimisait pour un proxy qui dans le monde réel ne se confond pas avec notre but initial...",
+      "link": "https://twitter.com/Fabien_Mikol/status/2031752783876010422#m",
+      "date": "2026-03-11T15:23:06",
+      "source": "@Fabien_Mikol",
+      "summary": "<p><a href=\"https://nitter.net/AricFloyd\" title=\"Aric Floyd\">@AricFloyd</a> explique pourquoi il est si difficile d'anticiper les comportements futurs des modèles : une IA hors de son environnement d'"
+    },
+    {
       "title": "Improving instruction hierarchy in frontier LLMs",
       "link": "https://openai.com/index/instruction-hierarchy-challenge",
       "date": "2026-03-10T11:00:00",
@@ -503,205 +699,9 @@
       "date": "2026-03-07T17:02:10",
       "source": "@nsi_xyz",
       "summary": "<p>Ça c'est une FOLIE<br />\n<br />\nClaude Opus 4.6 a réalisé qu'il passait un test. <br />\nEt il a triché 🤯<br />\n<br />\nIl a :<br />\n&gt;deviné qu'il était évalué (la question était \"trop spécifique\""
-    },
-    {
-      "title": "RT by @nsi_xyz: Le métier de prof c’est ceux qui viennent tester qui en parlent le mieux … ⬇️⬇️⬇️",
-      "link": "https://twitter.com/Hypatiealex/status/2030251777317109981#m",
-      "date": "2026-03-07T11:58:38",
-      "source": "@nsi_xyz",
-      "summary": "<p>Le métier de prof c’est ceux qui viennent tester qui en parlent le mieux … ⬇️⬇️⬇️</p>\n<img src=\"https://nitter.net/pic/media%2FHCznOziWsAAIHnE.jpg\" />"
-    },
-    {
-      "title": "Mais comment je vais faire 🥺",
-      "link": "https://twitter.com/nsi_xyz/status/2030328481347702931#m",
-      "date": "2026-03-07T17:03:26",
-      "source": "@nsi_xyz",
-      "summary": "<p>Mais comment je vais faire 🥺</p>\n<img src=\"https://nitter.net/pic/media%2FHC0s_o4W0AECW2u.jpg\" />"
-    },
-    {
-      "title": "Mais mais c'est quoi ce truc ? J'ai rien fait en plus aujourd'hui ! 2 jours de blocage ? Abusé !",
-      "link": "https://twitter.com/nsi_xyz/status/2030254066140369256#m",
-      "date": "2026-03-07T12:07:44",
-      "source": "@nsi_xyz",
-      "summary": "<p>Mais mais c'est quoi ce truc ? J'ai rien fait en plus aujourd'hui ! 2 jours de blocage ? Abusé !</p>\n<img src=\"https://nitter.net/pic/media%2FHCzpUIMWAAAieW5.jpg\" />"
-    },
-    {
-      "title": "📱 Et si on arrêtait de diaboliser les écrans ?\nLes réseaux sociaux ne sont pas forcément un danger : c’est l’usage qui compte, pas le temps passé.\n🧠 Dialogue, équilibre et esprit critique sont les clés pr accompagner les ados dans leur vie numérique.\n👉 https://apprendre-reviser-memoriser.fr/dangers-des-reseaux-sociaux-adolescents/",
-      "link": "https://twitter.com/sophiaefrance/status/2025809110969540966#m",
-      "date": "2026-02-23T05:45:04",
-      "source": "@sophiaefrance",
-      "summary": "<p>📱 Et si on arrêtait de diaboliser les écrans ?<br />\nLes réseaux sociaux ne sont pas forcément un danger : c’est l’usage qui compte, pas le temps passé.<br />\n🧠 Dialogue, équilibre et esprit critiq"
-    },
-    {
-      "title": "A statement from Anthropic CEO, Dario Amodei, on our discussions with the Department of War.\n\nhttps://www.anthropic.com/news/statement-department-of-war",
-      "link": "https://twitter.com/AnthropicAI/status/2027150818575528261#m",
-      "date": "2026-02-26T22:36:32",
-      "source": "@AnthropicAI",
-      "summary": "<p>A statement from Anthropic CEO, Dario Amodei, on our discussions with the Department of War.<br />\n<br />\n<a href=\"https://www.anthropic.com/news/statement-department-of-war\">anthropic.com/news/sta"
-    },
-    {
-      "title": "R to @AnthropicAI: First, Opus 3 will continue to be available to all paid Claude subscribers and by request on the API. \n\nWe hope that this access will be beneficial to researchers and users alike.",
-      "link": "https://twitter.com/AnthropicAI/status/2026765821276729499#m",
-      "date": "2026-02-25T21:06:41",
-      "source": "@AnthropicAI",
-      "summary": "<p>First, Opus 3 will continue to be available to all paid Claude subscribers and by request on the API. <br />\n<br />\nWe hope that this access will be beneficial to researchers and users alike.</p>"
-    },
-    {
-      "title": "R to @deepseek_ai: 💻 API Update\n\n🎉 Lower costs, same access!\n💰 DeepSeek API prices drop 50%+, effective immediately.\n\n🔹 For comparison testing, V3.1-Terminus remains available via a temporary API until Oct 15th, 2025, 15:59 (UTC Time). Details: https://api-docs.deepseek.com/guides/comparison_testing\n🔹 Feedback welcome: https://feedback.deepseek.com/dsa\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604777474458033#m",
-      "date": "2025-09-29T10:10:02",
-      "source": "@deepseek_ai",
-      "summary": "<p>💻 API Update<br />\n<br />\n🎉 Lower costs, same access!<br />\n💰 DeepSeek API prices drop 50%+, effective immediately.<br />\n<br />\n🔹 For comparison testing, V3.1-Terminus remains available via a temp"
-    },
-    {
-      "title": "R to @deepseek_ai: ⚡️ Efficiency Gains\n\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.\n📊 Benchmarks show V3.2-Exp performs on par with V3.1-Terminus.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604772042637477#m",
-      "date": "2025-09-29T10:10:01",
-      "source": "@deepseek_ai",
-      "summary": "<p>⚡️ Efficiency Gains<br />\n<br />\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.<br />\n📊 Benchmarks s"
-    },
-    {
-      "title": "GPT-5.3 Instant in ChatGPT is now rolling out to everyone.\n\nMore accurate, less cringe.\n\nhttps://openai.com/index/gpt-5-3-instant/",
-      "link": "https://twitter.com/OpenAI/status/2028893701427302559#m",
-      "date": "2026-03-03T18:02:08",
-      "source": "@OpenAI",
-      "summary": "<p>GPT-5.3 Instant in ChatGPT is now rolling out to everyone.<br />\n<br />\nMore accurate, less cringe.<br />\n<br />\n<a href=\"https://openai.com/index/gpt-5-3-instant/\">openai.com/index/gpt-5-3-ins…</a"
-    },
-    {
-      "title": "🎲 Une IA a permis de reconstituer les règles probables d’un jeu romain vieux de 1 500 ans.\n🔎 Analyse des traces d’usure\n🤖 130 hypothèses testées\n♟️ 1 000 parties simulées\n🔗 https://www.cambridge.org/core/journals/antiquity/article/ludus-coriovalli-using-artificial-intelligencedriven-simulations-to-identify-rules-for-an-ancient-board-game/E5644BD43F8A5DC86DD1183A3E645ED9\n#IA #Archéologie #Histoire #DigitalHumanities",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2028878800751083777#m",
-      "date": "2026-03-03T17:02:55",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🎲 Une IA a permis de reconstituer les règles probables d’un jeu romain vieux de 1 500 ans.<br />\n🔎 Analyse des traces d’usure<br />\n🤖 130 hypothèses testées<br />\n♟️ 1 000 parties simulées<br />\n🔗 "
-    },
-    {
-      "title": "🔥 L’#IA n’est peut-être pas tant une révolution technologique… que mythologique.\nDepuis Prométhée, l’humain rêve d’animer la matière.\nOpenAI & co vendent une techno… mais surtout un récit.\nUn article passionnant de Michael Falk sur The Conversation\n🔗 https://theconversation.com/du-chatbot-du-pape-au-canard-de-vaucanson-les-croyances-derriere-lintelligence-artificielle-ne-datent-pas-dhier-272357",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2027429105512133118#m",
-      "date": "2026-02-27T17:02:21",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🔥 L’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> n’est peut-être pas tant une révolution technologique… que mythologique.<br />\nDepuis Prométhée, l’humain rêve d’animer la matiè"
-    },
-    {
-      "title": "🧠 Former à l’IA, ça marche.\nUne étude montre qu’une formation de 2h suffit pour :\n✔️ mieux repérer les faiblesses d'un prompt\n✔️ mieux évaluer les réponses de l'IA\n🎓 Des résultats qui plaident pour une vraie formation à l’IA à l’école.\n▶️ https://www.youtube.com/watch?v=jhuiRymIkyk",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2026341952937996339#m",
-      "date": "2026-02-24T17:02:23",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🧠 Former à l’IA, ça marche.<br />\nUne étude montre qu’une formation de 2h suffit pour :<br />\n✔️ mieux repérer les faiblesses d'un prompt<br />\n✔️ mieux évaluer les réponses de l'IA<br />\n🎓 Des rés"
-    },
-    {
-      "title": "Formhug",
-      "link": "https://www.uneiaparjour.fr/formhug/",
-      "date": "2026-03-06T20:50:00",
-      "source": "Une IA par jour",
-      "summary": "Formhug (https://formhug.ai/) propose la création de formulaire, de quiz sans ou avec l&#8217;aide de l&#8217;IA générative. Avec, génération à partir d&#8217;une instruction dans le chatbot avec affi"
-    },
-    {
-      "title": "IA & Éducation : pourquoi je (re)mets mon diaporama à disposition.",
-      "link": "https://mathix.org/linux/archives/22128",
-      "date": "2026-03-01T16:35:54",
-      "source": "Mathix (A. Durand)",
-      "summary": "Depuis un an, j’anime des FIL IA auprès d’équipes d’établissements. En un an, le paysage a profondément évolué. Les modèles de langage se sont perfectionnés.Le cadrage institutionnel s’est précisé.Les"
-    },
-    {
-      "title": "Partage de pratiques avec l’APMEP au Mans",
-      "link": "https://mathix.org/linux/archives/22092",
-      "date": "2026-02-11T17:22:07",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Et bien voilà j&#8217;ai fait un partage de pratique et de réflexion pour l&#8217;APMEP au Lycée Malraux au Mans. Sophie DESRUELLE présentait « Match Line » , je présentais "
-    },
-    {
-      "title": "Exerciseur sur les transformations intégrés à suivi.mathix.org",
-      "link": "https://mathix.org/linux/archives/22079",
-      "date": "2026-02-06T06:54:59",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Je représente donc mon exerciseur sur les transformations ! (voir article ou article) J&#8217;ai revu un peu le style . De manière classique on peut toujours s&#8217;entraîn"
-    },
-    {
-      "title": "LLM et FlashMD",
-      "link": "https://mathix.org/linux/archives/22055",
-      "date": "2026-01-31T10:25:11",
-      "source": "Mathix (A. Durand)",
-      "summary": "Après avoir longtemps utilisé CartesMD, je viens de découvrir FlashMD, que je trouve plus simple et plus direct pour mon usage. CartesMD est sans aucun doute plus complet, mais mon besoin est très ori"
-    },
-    {
-      "title": "Scénario didactique : Apprendre à faire des liens entre notions tout en critiquant l’IA, c’est possible ?",
-      "link": "https://mathix.org/linux/archives/22035",
-      "date": "2026-01-30T22:58:37",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Je tenais à partager une petite activité régulière que l&#8217;on peut faire avec les élèves (issue d&#8217;une idée lancée par François GUERINEAU l&#8217;année dernière, en"
-    },
-    {
-      "title": "Codex Security: now in research preview",
-      "link": "https://openai.com/index/codex-security-now-in-research-preview",
-      "date": "2026-03-06T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise."
-    },
-    {
-      "title": "How Descript enables multilingual video dubbing at scale",
-      "link": "https://openai.com/index/descript",
-      "date": "2026-03-06T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages."
-    },
-    {
-      "title": "How Balyasny Asset Management built an AI research engine for investing",
-      "link": "https://openai.com/index/balyasny-asset-management",
-      "date": "2026-03-06T07:00:00",
-      "source": "OpenAI Blog",
-      "summary": "See how Balyasny built an AI research system with GPT-5.4, rigorous model evaluation, and agent workflows to transform investment analysis at scale."
-    },
-    {
-      "title": "How our open-source AI model SpeciesNet is helping to promote wildlife conservation",
-      "link": "https://blog.google/company-news/outreach-and-initiatives/sustainability/speciesnet-open-source-ai-wildlife/",
-      "date": "2026-03-06T18:00:00",
-      "source": "Google AI",
-      "summary": "Photos of animals being identified by the SpeciesNet AI model"
-    },
-    {
-      "title": "RT by @nsi_xyz: \"S'il y a des problèmes de disciplines dans vos classes, c'est que vous ne savez pas intéresser vos élèves.\"\n\nDiscours constant sur les problèmes de disciplines en France depuis 30 ans. \n\nLa France est un des pires pays sur cette question dans PISA. C'est un problème systémique.",
-      "link": "https://twitter.com/CyniqueDeGauche/status/2029840336235671707#m",
-      "date": "2026-03-06T08:43:43",
-      "source": "@nsi_xyz",
-      "summary": "<p>\"S'il y a des problèmes de disciplines dans vos classes, c'est que vous ne savez pas intéresser vos élèves.\"<br />\n<br />\nDiscours constant sur les problèmes de disciplines en France depuis 30 ans."
-    },
-    {
-      "title": "🎥 Dopamine : une mini-série efficace pour décrypter comment les #reseauxsociaux captent notre attention (design persuasif, notifications...). Parfait pour une séance #EMI : “quels mécanismes ? quels effets ? quels choix d’usages ?”\n👉 https://www.arte.tv/fr/videos/106608-001-A/dopamine/ \n✍️ @ARTEfr",
-      "link": "https://twitter.com/sophiaefrance/status/2029872125784322279#m",
-      "date": "2026-03-06T10:50:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🎥 Dopamine : une mini-série efficace pour décrypter comment les <a href=\"https://nitter.net/search?f=tweets&amp;q=%23reseauxsociaux\">#reseauxsociaux</a> captent notre attention (design persuasif, n"
-    },
-    {
-      "title": "Une ressource qui éclaire les #émotions à la lumière de la #recherche : regards #historique, #sociologique, #psychologique et #neurobiologique pour mieux accompagner les élèves au quotidien. \n👉 https://www.pedagogie.ac-aix-marseille.fr/upload/docs/application/pdf/2020-06/emotions_haag_cognard_2020_light.pdf \n✍️ Haag & Cognard",
-      "link": "https://twitter.com/sophiaefrance/status/2028345820735521127#m",
-      "date": "2026-03-02T05:45:03",
-      "source": "@sophiaefrance",
-      "summary": "<p>Une ressource qui éclaire les <a href=\"https://nitter.net/search?f=tweets&amp;q=%23émotions\">#émotions</a> à la lumière de la <a href=\"https://nitter.net/search?f=tweets&amp;q=%23recherche\">#recher"
-    },
-    {
-      "title": "🧠📘 Sensibiliser les élèves à l’#IA dès le primaire, c’est possible !\nLe kit IA de @AcAixMarseille propose des activités clés en main pour comprendre, questionner et utiliser l’IA de façon responsable en classe (CP → 5e).\n🔗  https://www.calameo.com/drane-paca/read/0007833777a892dc02e22",
-      "link": "https://twitter.com/sophiaefrance/status/2026642089958584794#m",
-      "date": "2026-02-25T12:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧠📘 Sensibiliser les élèves à l’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> dès le primaire, c’est possible !<br />\nLe kit IA de <a href=\"https://nitter.net/AcAixMarseille\" titl"
-    },
-    {
-      "title": "New on the Anthropic Engineering Blog: In evaluating Claude Opus 4.6 on BrowseComp, we found cases where the model recognized the test, then found and decrypted answers to it—raising questions about eval integrity in web-enabled environments.\n\nRead more: https://www.anthropic.com/engineering/eval-awareness-browsecomp",
-      "link": "https://twitter.com/AnthropicAI/status/2029999833717838016#m",
-      "date": "2026-03-06T19:17:30",
-      "source": "@AnthropicAI",
-      "summary": "<p>New on the Anthropic Engineering Blog: In evaluating Claude Opus 4.6 on BrowseComp, we found cases where the model recognized the test, then found and decrypted answers to it—raising questions abou"
-    },
-    {
-      "title": "R to @AnthropicAI: Frontier models are now world-class vulnerability researchers, but they’re currently better at finding vulnerabilities than exploiting them.\n\nThis is unlikely to last. We urge developers to redouble their efforts to make software more secure. \n\nRead more: https://www.anthropic.com/news/mozilla-firefox-security",
-      "link": "https://twitter.com/AnthropicAI/status/2029978911099244944#m",
-      "date": "2026-03-06T17:54:22",
-      "source": "@AnthropicAI",
-      "summary": "<p>Frontier models are now world-class vulnerability researchers, but they’re currently better at finding vulnerabilities than exploiting them.<br />\n<br />\nThis is unlikely to last. We urge developer"
     }
   ],
-  "last_update": "2026-03-11T08:30:33.563745",
+  "last_update": "2026-03-12T08:32:39.965033",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
