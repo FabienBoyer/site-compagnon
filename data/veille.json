@@ -1,6 +1,139 @@
 {
   "articles": [
     {
+      "title": "Ai pdf reader",
+      "link": "https://www.uneiaparjour.fr/ai-pdf-reader/",
+      "date": "2026-03-08T21:11:20",
+      "source": "Une IA par jour",
+      "summary": "Ai pdf reader (https://aipdfreader.net/fr) résume des documents pdf et permet de les interroger via un chatbot. Pas de limitation repérée pendant les tests. Sans compte, illimité et gratuit. Tests dep"
+    },
+    {
+      "title": "Use Canvas in AI Mode to get things done and bring your ideas to life, right in Search.",
+      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/",
+      "date": "2026-03-04T17:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIMMode_Social.max-600x600.format-webp.webp\" />Canvas in AI Mode is now available for everyone in the U.S. Plus, it can now he"
+    },
+    {
+      "title": "RT by @nsi_xyz: Je trouve ça dingue, les gens qui critiquent les profs sur leur durée de travail.\nEssayez de donner un cours magistral de maths pendant 2h, et regardez dans quel état vous êtes à la fin.",
+      "link": "https://twitter.com/MathieuL1/status/2032733378848432293#m",
+      "date": "2026-03-14T08:19:38",
+      "source": "@nsi_xyz",
+      "summary": "<p>Je trouve ça dingue, les gens qui critiquent les profs sur leur durée de travail.<br />\nEssayez de donner un cours magistral de maths pendant 2h, et regardez dans quel état vous êtes à la fin.</p>\n"
+    },
+    {
+      "title": "RT by @nsi_xyz: ℹ️✍️\nÉpreuve du 12 mars du CAPES de mathématiques à bac+5 pour devenir enseignant.",
+      "link": "https://twitter.com/Ithyphallique/status/2032781820186558907#m",
+      "date": "2026-03-14T11:32:07",
+      "source": "@nsi_xyz",
+      "summary": "<p>ℹ️✍️<br />\nÉpreuve du 12 mars du CAPES de mathématiques à bac+5 pour devenir enseignant.</p>\n<img src=\"https://nitter.net/pic/media%2FHDXkJwWW4AAbsd4.jpg\" />\n\n<img src=\"https://nitter.net/pic/media"
+    },
+    {
+      "title": "RT by @nsi_xyz: 🤖 L'IA VIENT DE METTRE LES POLITICIENS AU CHÔMAGE.\n\nLe Japon vient de basculer dans le futur.\nLe parti \"Team Mirai\" (composé d'ingénieurs et de codeurs) vient de faire un braquage aux dernières législatives avec 11 élus.\n\nLeur programme ? Confier les problèmes du pays à l'Intelligence Artificielle.\n\nMieux encore : une autre formation politique a carrément nommé un chatbot IA (sous forme de pingouin virtuel) à la tête de son parti.\n\nEt honnêtement... est-ce une si mauvaise idée ?\nUne IA ne détourne pas d'argent public.\nUne IA lit réellement les dossiers avant de voter.\nUne IA n'a pas d'ego démesuré.\n\nPendant qu'on débat sur l'utilisation de ChatGPT à l'école, le Japon l'envoie siéger à l'Assemblée.\n\nPrêts à voter pour un algorithme en 2027 ou dystopie totale ? 👇",
+      "link": "https://twitter.com/futureradar_FR/status/2032715397766508759#m",
+      "date": "2026-03-14T07:08:11",
+      "source": "@nsi_xyz",
+      "summary": "<p>🤖 L'IA VIENT DE METTRE LES POLITICIENS AU CHÔMAGE.<br />\n<br />\nLe Japon vient de basculer dans le futur.<br />\nLe parti \"Team Mirai\" (composé d'ingénieurs et de codeurs) vient de faire un braquage"
+    },
+    {
+      "title": "🤖 L’#IA générative accélère la #recherche mais risque de faire disparaître “la question floue”:cette zone d’inconfort (friction cognitive) où se construit la #pensée #critique.\n👩🏻‍🏫 À enseigner : optimiser un prompt ≠ approfondir une question. \nhttps://www.unesco.org/en/articles/disappearance-unclear-question \n✍️ @UNESCO",
+      "link": "https://twitter.com/sophiaefrance/status/2029178803898007723#m",
+      "date": "2026-03-04T12:55:01",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 L’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> générative accélère la <a href=\"https://nitter.net/search?f=tweets&amp;q=%23recherche\">#recherche</a> mais risque de faire dispa"
+    },
+    {
+      "title": "🤖 Et si l’#IA devenait votre “assistant de #différenciation” ? ✨\nGénérer des versions adaptées d’une activité sans perdre le fil collectif : un même cap et plusieurs chemins possibles pour atteindre les objectifs d’#apprentissage 🚀  \nhttps://ecolebranchee.com/differenciation-pedagogique-ia-adapter-sans-epuiser/ \n✍️ @ecolebranchee",
+      "link": "https://twitter.com/sophiaefrance/status/2027335410406322213#m",
+      "date": "2026-02-27T10:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 Et si l’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> devenait votre “assistant de <a href=\"https://nitter.net/search?f=tweets&amp;q=%23différenciation\">#différenciation</a>” ?"
+    },
+    {
+      "title": "RT by @MistralAI: Since launching Voxtral Realtime, the community response has been remarkable. Today, we share the technical report, launch the Realtime playground in Mistral Studio, and share the model in Hugging Face Transformers. 🧵",
+      "link": "https://twitter.com/MistralDevs/status/2024162999599005715#m",
+      "date": "2026-02-18T16:44:00",
+      "source": "@MistralAI",
+      "summary": "<p>Since launching Voxtral Realtime, the community response has been remarkable. Today, we share the technical report, launch the Realtime playground in Mistral Studio, and share the model in Hugging "
+    },
+    {
+      "title": "R to @MistralAI: Start experimenting with Voxtral Mini Transcribe 2 in the new audio playground on Mistral Studio. Upload files, toggle diarization, add context bias, and get instant transcriptions.",
+      "link": "https://twitter.com/MistralAI/status/2019068835626631438#m",
+      "date": "2026-02-04T15:21:37",
+      "source": "@MistralAI",
+      "summary": "<p>Start experimenting with Voxtral Mini Transcribe 2 in the new audio playground on Mistral Studio. Upload files, toggle diarization, add context bias, and get instant transcriptions.</p>\n<a href=\"ht"
+    },
+    {
+      "title": "We’re acquiring Promptfoo.\n\nTheir technology will strengthen agentic security testing and evaluation capabilities in OpenAI Frontier. Promptfoo will remain open source under the current license, and we will continue to service and support current customers.\n\nhttps://openai.com/index/openai-to-acquire-promptfoo/",
+      "link": "https://twitter.com/OpenAI/status/2031052793835106753#m",
+      "date": "2026-03-09T17:01:35",
+      "source": "@OpenAI",
+      "summary": "<p>We’re acquiring Promptfoo.<br />\n<br />\nTheir technology will strengthen agentic security testing and evaluation capabilities in OpenAI Frontier. Promptfoo will remain open source under the current"
+    },
+    {
+      "title": "R to @OpenAI: GPT-5.4 Thinking and Pro are rolling out gradually starting today across ChatGPT, the API, and Codex. \nhttp://openai.com/index/introducing-gpt-5-4/",
+      "link": "https://twitter.com/OpenAI/status/2029620624923189283#m",
+      "date": "2026-03-05T18:10:40",
+      "source": "@OpenAI",
+      "summary": "<p>GPT-5.4 Thinking and Pro are rolling out gradually starting today across ChatGPT, the API, and Codex. <br />\n<a href=\"http://openai.com/index/introducing-gpt-5-4/\">openai.com/index/introducing…</a>"
+    },
+    {
+      "title": "R to @OpenAI: GPT-5.4 is our most factual and efficient model: fewer tokens, faster speed.\n\nIn ChatGPT, GPT-5.4 Thinking has improved deep web research, better context retention when it thinks for longer—and oh—you can now interrupt the model and add instructions or adjust its direction mid-response.\n\nSteering is available this week on Android and web. iOS coming soon.",
+      "link": "https://twitter.com/OpenAI/status/2029620623199326334#m",
+      "date": "2026-03-05T18:10:39",
+      "source": "@OpenAI",
+      "summary": "<p>GPT-5.4 is our most factual and efficient model: fewer tokens, faster speed.<br />\n<br />\nIn ChatGPT, GPT-5.4 Thinking has improved deep web research, better context retention when it thinks for lo"
+    },
+    {
+      "title": "Pinned: GPT-5.4 Thinking and GPT-5.4 Pro are rolling out now in ChatGPT.\n\nGPT-5.4 is also now available in the API and Codex.\n\nGPT-5.4 brings our advances in reasoning, coding, and agentic workflows into one frontier model.",
+      "link": "https://twitter.com/OpenAI/status/2029620619743219811#m",
+      "date": "2026-03-05T18:10:38",
+      "source": "@OpenAI",
+      "summary": "<p>GPT-5.4 Thinking and GPT-5.4 Pro are rolling out now in ChatGPT.<br />\n<br />\nGPT-5.4 is also now available in the API and Codex.<br />\n<br />\nGPT-5.4 brings our advances in reasoning, coding, and "
+    },
+    {
+      "title": "RT by @Fabien_Mikol: A few people asked me to make an image of how much irrigated farmland would use the same water required for ALL ChatGPT usage, including every part of the process. I did a botec and my best guess right now is that inference uses about as much water as training, and power generation uses ~5x as much water as the data centers themselves, so it looks something like this. The water cost of manufacturing chips is marginal compared to how much water they use over their lifetimes.",
+      "link": "https://twitter.com/AndyMasley/status/2032858292184117748#m",
+      "date": "2026-03-14T16:36:00",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>A few people asked me to make an image of how much irrigated farmland would use the same water required for ALL ChatGPT usage, including every part of the process. I did a botec and my best guess r"
+    },
+    {
+      "title": "\"They're not reasoning. They're rationalizing their gut intuitions\" ; \"we found that AI was moralized at levels comparable to GMOs and vaccines\"\nEtude sur les raisons psychologiques derrière tant d'arguments étranges contre l'IA (même s'il existe de réels problèmes et risques)",
+      "link": "https://twitter.com/Fabien_Mikol/status/2032767899400569154#m",
+      "date": "2026-03-14T10:36:48",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"They're not reasoning. They're rationalizing their gut intuitions\" ; \"we found that AI was moralized at levels comparable to GMOs and vaccines\"<br />\nEtude sur les raisons psychologiques derrière "
+    },
+    {
+      "title": "R to @Fabien_Mikol: J'avais parlé de lui il y a quelques mois pour son témoignage sur l'aide que l'IA lui fournit pour ses travaux en théorie de la complexité quantique. Son blog mérite d'être suivi\nhttps://x.com/Fabien_Mikol/status/2009269949559193721",
+      "link": "https://twitter.com/Fabien_Mikol/status/2032760292820582523#m",
+      "date": "2026-03-14T10:06:35",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>J'avais parlé de lui il y a quelques mois pour son témoignage sur l'aide que l'IA lui fournit pour ses travaux en théorie de la complexité quantique. Son blog mérite d'être suivi<br />\n<a href=\"htt"
+    },
+    {
+      "title": "Scott Aaronson évoque ses inquiétudes concernant le développement futur de l'IA dans les 25 prochaines années, qu'il compare à la création d'une nouvelle espèce. Il serait plus rassuré s'il avait l'impression que les leaders et décideurs étaient plus compétents...",
+      "link": "https://twitter.com/Fabien_Mikol/status/2032760289888739692#m",
+      "date": "2026-03-14T10:06:34",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Scott Aaronson évoque ses inquiétudes concernant le développement futur de l'IA dans les 25 prochaines années, qu'il compare à la création d'une nouvelle espèce. Il serait plus rassuré s'il avait l"
+    },
+    {
+      "title": "📊 48 % des Français ont déjà utilisé — ou envisagent d’utiliser — une IA pour s’informer sur la politique.\nL’IA pourrait devenir déterminante dans le vote des citoyens.\nD'où l'urgence d'encadrer pour assurer transparence, sources, responsabilité.\n🔗 https://www.ipsos.com/fr-fr/pres-dun-francais-sur-deux-pret-utiliser-lia-generative-pour-sinformer-sur-la-politique",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2031052916144976221#m",
+      "date": "2026-03-09T17:02:05",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>📊 48 % des Français ont déjà utilisé — ou envisagent d’utiliser — une IA pour s’informer sur la politique.<br />\nL’IA pourrait devenir déterminante dans le vote des citoyens.<br />\nD'où l'urgence d"
+    },
+    {
+      "title": "📘 Une des ressources les plus solides pour travailler l’IA en classe\n✅ Scénarios prêts à l’emploi pour le collège et le lycée \n🤔 Les élèves apprennent à détecter, piéger, questionner l’IA en exerçant leur esprit critique. \n🔗 https://intelligence-artificielle-esprit-critique-et-enseignement.forge.apps.education.fr/audit-ia/index.html\n#IA #Éducation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2029603386463510729#m",
+      "date": "2026-03-05T17:02:10",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>📘 Une des ressources les plus solides pour travailler l’IA en classe<br />\n✅ Scénarios prêts à l’emploi pour le collège et le lycée <br />\n🤔 Les élèves apprennent à détecter, piéger, questionner l’"
+    },
+    {
       "title": "Exerciseur : Construction de triangles  CCC, CAC et ACA",
       "link": "https://mathix.org/linux/archives/22106",
       "date": "2026-02-17T09:25:53",
@@ -566,142 +699,9 @@
       "date": "2026-03-10T19:12:11",
       "source": "@nsi_xyz",
       "summary": "<p>🇫🇷 ALERTE INFO | Un sondage (qui paraîtra demain) qualifierait Jean-Luc Mélenchon et Jordan Bardella pour le second tour de l’élection présidentielle de 2027. (via <a href=\"https://nitter.net/cleme"
-    },
-    {
-      "title": "RT by @nsi_xyz: Un des premiers trucs que je fais faire aux étudiants avec Python : \n>>>0.1+0.2\nÇa a toujours son petit effet.",
-      "link": "https://twitter.com/SuperCyprien/status/2031473386065428710#m",
-      "date": "2026-03-10T20:52:52",
-      "source": "@nsi_xyz",
-      "summary": "<p>Un des premiers trucs que je fais faire aux étudiants avec Python : <br />\n&gt;&gt;&gt;0.1+0.2<br />\nÇa a toujours son petit effet.</p>\n<hr />\n<blockquote>\n<b>Professeur Karré (@KarreProfesseur)</b"
-    },
-    {
-      "title": "RT by @nsi_xyz: Merci, @stevebissonnett, pour cette remarquable infographie et pour avoir si clairement mis en lumière les raisons de nos progrès.\n\nRésumé de la conférence de Nuno Crato, ancien ministre de l’éducation du Portugal . https://lnkd.in/e4KXQ2pS",
-      "link": "https://twitter.com/CratoNuno/status/2031410234430746826#m",
-      "date": "2026-03-10T16:41:56",
-      "source": "@nsi_xyz",
-      "summary": "<p>Merci, <a href=\"https://nitter.net/stevebissonnett\" title=\"Steve Bissonnette\">@stevebissonnett</a>, pour cette remarquable infographie et pour avoir si clairement mis en lumière les raisons de nos "
-    },
-    {
-      "title": "RT by @nsi_xyz: Le saviez-vous ?\nLes profs les mieux payés de l'éducation nationale sont retraités.\nLes retraites sont indexées sur l'inflation et le point d'indice est gelé depuis des années donc un prof parti à la retraite il y a 15 ans gagne maintenant plus qu'un vieux prof en fonction.",
-      "link": "https://twitter.com/EnergieDuVide_/status/2031135705057964371#m",
-      "date": "2026-03-09T22:31:03",
-      "source": "@nsi_xyz",
-      "summary": "<p>Le saviez-vous ?<br />\nLes profs les mieux payés de l'éducation nationale sont retraités.<br />\nLes retraites sont indexées sur l'inflation et le point d'indice est gelé depuis des années donc un p"
-    },
-    {
-      "title": "Pinned: A statement from Anthropic CEO Dario Amodei: https://www.anthropic.com/news/where-stand-department-war",
-      "link": "https://twitter.com/AnthropicAI/status/2029719864533721481#m",
-      "date": "2026-03-06T00:45:00",
-      "source": "@AnthropicAI",
-      "summary": "<p>A statement from Anthropic CEO Dario Amodei: <a href=\"https://www.anthropic.com/news/where-stand-department-war\">anthropic.com/news/where-sta…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F20"
-    },
-    {
-      "title": "R to @wandb: worldwide-hackathon.mistral.…",
-      "link": "https://twitter.com/MistralAI/status/2021239601503912409#m",
-      "date": "2026-02-10T15:07:28",
-      "source": "@MistralAI",
-      "summary": "<p><a href=\"https://worldwide-hackathon.mistral.ai/\">worldwide-hackathon.mistral.…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2031387042589061122%2Fn1DqLKnK%3Fformat%3Djpg%26name%3D800x419\" /"
-    },
-    {
-      "title": "Introducing Mistral AI's biggest hackathon ever!\n📅 Feb 28 - Mar 1\n🌍 Paris | London | NY | SF | Tokyo | Singapore | Sydney & online\n48 hours. The best hackers.\n🤝 Partners: >@wandb @nvidia @awscloud @HackIterate\n🏆 $200K in prizes. Special awards from @elevenlabsio @huggingface @JUmp @whitecircle @supercell\nLink in 🧵",
-      "link": "https://twitter.com/MistralAI/status/2021238361227186462#m",
-      "date": "2026-02-10T15:02:32",
-      "source": "@MistralAI",
-      "summary": "<p>Introducing Mistral AI's biggest hackathon ever!<br />\n📅 Feb 28 - Mar 1<br />\n🌍 Paris | London | NY | SF | Tokyo | Singapore | Sydney & online<br />\n48 hours. The best hackers.<br />\n🤝 Partners: <a"
-    },
-    {
-      "title": "R to @MistralAI: Available now. Mini Transcribe 2 via API at $0.003/min. Realtime via API at $0.006/min, plus open weights.\n\nGet started → http://console.mistral.ai/build/audio/speech-to-text",
-      "link": "https://twitter.com/MistralAI/status/2019068838009074155#m",
-      "date": "2026-02-04T15:21:38",
-      "source": "@MistralAI",
-      "summary": "<p>Available now. Mini Transcribe 2 via API at $0.003/min. Realtime via API at $0.006/min, plus open weights.<br />\n<br />\nGet started → <a href=\"http://console.mistral.ai/build/audio/speech-to-text\">"
-    },
-    {
-      "title": "R to @MistralAI: Voxtral Mini Transcribe 2 handles batch transcription with the best price-performance of any transcription API: 4% WER on FLEURS at $0.003/min. Includes speaker diarization, context biasing, and word-level timestamps across 13 languages.",
-      "link": "https://twitter.com/MistralAI/status/2019068832405443046#m",
-      "date": "2026-02-04T15:21:36",
-      "source": "@MistralAI",
-      "summary": "<p>Voxtral Mini Transcribe 2 handles batch transcription with the best price-performance of any transcription API: 4% WER on FLEURS at $0.003/min. Includes speaker diarization, context biasing, and wo"
-    },
-    {
-      "title": "R to @MistralAI: Voxtral Realtime is built for voice agents and live applications. Its natively streaming architecture delivers latency configurable to sub-200ms. And at 480ms, it stays within 1-2% WER of our offline model. We release the model as open weights under Apache 2.0.",
-      "link": "https://twitter.com/MistralAI/status/2019068828257333466#m",
-      "date": "2026-02-04T15:21:35",
-      "source": "@MistralAI",
-      "summary": "<p>Voxtral Realtime is built for voice agents and live applications. Its natively streaming architecture delivers latency configurable to sub-200ms. And at 480ms, it stays within 1-2% WER of our offli"
-    },
-    {
-      "title": "R to @deepseek_ai: 🤖 Thinking in Tool-Use\n\n🔹 Introduces a new massive agent training data synthesis method covering 1,800+ environments & 85k+ complex instructions.\n🔹 DeepSeek-V3.2 is our first model to integrate thinking directly into tool-use, and also supports tool-use in both thinking and non-thinking modes.\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452650557763728#m",
-      "date": "2025-12-01T11:19:20",
-      "source": "@deepseek_ai",
-      "summary": "<p>🤖 Thinking in Tool-Use<br />\n<br />\n🔹 Introduces a new massive agent training data synthesis method covering 1,800+ environments & 85k+ complex instructions.<br />\n🔹 DeepSeek-V3.2 is our first mode"
-    },
-    {
-      "title": "R to @deepseek_ai: 🏆 World-Leading Reasoning\n\n🔹 V3.2: Balanced inference vs. length. Your daily driver at GPT-5 level performance.\n🔹 V3.2-Speciale: Maxed-out reasoning capabilities. Rivals Gemini-3.0-Pro.\n🥇 Gold-Medal Performance: V3.2-Speciale attains gold-level results in IMO, CMO, ICPC World Finals & IOI 2025.\n\n📝 Note: V3.2-Speciale dominates complex tasks but requires higher token usage. Currently API-only (no tool-use) to support community evaluation & research.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452646459858977#m",
-      "date": "2025-12-01T11:19:19",
-      "source": "@deepseek_ai",
-      "summary": "<p>🏆 World-Leading Reasoning<br />\n<br />\n🔹 V3.2: Balanced inference vs. length. Your daily driver at GPT-5 level performance.<br />\n🔹 V3.2-Speciale: Maxed-out reasoning capabilities. Rivals Gemini-3."
-    },
-    {
-      "title": "We're publishing a new evaluation suite and research paper on Chain-of-Thought (CoT) Controllability.\n\nWe find that GPT-5.4 Thinking shows low ability to obscure its reasoning—suggesting CoT monitoring remains a useful safety tool. https://openai.com/index/reasoning-models-chain-of-thought-controllability/",
-      "link": "https://twitter.com/OpenAI/status/2029650046002811280#m",
-      "date": "2026-03-05T20:07:34",
-      "source": "@OpenAI",
-      "summary": "<p>We're publishing a new evaluation suite and research paper on Chain-of-Thought (CoT) Controllability.<br />\n<br />\nWe find that GPT-5.4 Thinking shows low ability to obscure its reasoning—suggestin"
-    },
-    {
-      "title": "RT by @Fabien_Mikol: We are investigating a possible solution by GPT-5.4 Pro to what could be the first FrontierMath Open Problem to be solved. If the solution holds, it would be a publishable result. We will announce the result in @EpochAIResearch after the problem author reviews.",
-      "link": "https://twitter.com/Jsevillamol/status/2031453639735431408#m",
-      "date": "2026-03-10T19:34:24",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>We are investigating a possible solution by GPT-5.4 Pro to what could be the first FrontierMath Open Problem to be solved. If the solution holds, it would be a publishable result. We will announce "
-    },
-    {
-      "title": "\"I don't think that intelligence and human morality are actually as separable as econ models (and AI doomers) tend to assume\"\nNot in the simulated behaviors of chatbots, indeed. But let's not forget that Anthropic still considers this image of shoggoths to be a possibility ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2031493116209823945#m",
-      "date": "2026-03-10T22:11:16",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>\"I don't think that intelligence and human morality are actually as separable as econ models (and AI doomers) tend to assume\"<br />\nNot in the simulated behaviors of chatbots, indeed. But let's not"
-    },
-    {
-      "title": "R to @ThoreG: @ThoreG : les LLM ont révélé un raccourci vers la performance grâce à toute \"l'intelligence cristallisée\" contenue dans les données textuelles, mais pour dépasser le niveau humain comme l'a fait AlphaZero, on mobilise de nouveau les méthodes de RL où DeepMind fut pionnière",
-      "link": "https://twitter.com/Fabien_Mikol/status/2031490361361596640#m",
-      "date": "2026-03-10T22:00:20",
-      "source": "@Fabien_Mikol",
-      "summary": "<p><a href=\"https://nitter.net/ThoreG\" title=\"Thore Graepel\">@ThoreG</a> : les LLM ont révélé un raccourci vers la performance grâce à toute \"l'intelligence cristallisée\" contenue dans les données tex"
-    },
-    {
-      "title": "\"La voix des enseignants en classe, les récitations des poèmes par les enfants, et leurs rires, ne devraient jamais être couverts par le bruit des bottes ni des bombes.\" \nSolidarité avec les collègues & élèves des établissements français de l’étranger au Proche et au Moyen-Orient",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2031415146040472060#m",
-      "date": "2026-03-10T17:01:27",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>\"La voix des enseignants en classe, les récitations des poèmes par les enfants, et leurs rires, ne devraient jamais être couverts par le bruit des bottes ni des bombes.\" <br />\nSolidarité avec les "
-    },
-    {
-      "title": "Pandada",
-      "link": "https://www.uneiaparjour.fr/pandada/",
-      "date": "2026-03-09T21:30:50",
-      "source": "Une IA par jour",
-      "summary": "Pandada (https://pandada.ai/) est un chatbot spécialisé dans l&#8217;analyse de données et dans les recherches complexes. Nombreux outils de conversation de données disponibles et intégrables à l&#821"
-    },
-    {
-      "title": "Komos",
-      "link": "https://www.uneiaparjour.fr/komos/",
-      "date": "2026-03-04T21:34:36",
-      "source": "Une IA par jour",
-      "summary": "Komos (https://www.komos.ai/) est un ensemble d&#8217;agents qui permettent d&#8217;automatiser des tâches sur le web. Les flux d&#8217;automatisation peuvent être réalisés manuellement, avec l&#8217;"
-    },
-    {
-      "title": "OpenAI to acquire Promptfoo",
-      "link": "https://openai.com/index/openai-to-acquire-promptfoo",
-      "date": "2026-03-09T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development."
     }
   ],
-  "last_update": "2026-03-14T08:24:10.943536",
+  "last_update": "2026-03-15T08:27:10.668945",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
