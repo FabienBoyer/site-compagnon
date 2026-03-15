@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premiers Pas avec l'IA - Les outils pour enseigner avec l'IA</title>
+    <title>Outpainting Vermeer - Les outils pour enseigner avec l'IA</title>
     <meta name="description"
         content="Guide débutant : par où commencer avec l'IA en classe ? Choisir son outil, écrire son premier prompt (méthode CROFI) et éviter les pièges.">
 
@@ -176,150 +176,53 @@
         </div>
         <div class="container" style="text-align: center;">
             <span class="hero-badge">
-                <i data-lucide="flag"></i>
-                Guide de démarrage
+                <i data-lucide="image"></i>
+                Arts Plastiques
             </span>
-            <h1 class="hero-title">Premiers Pas</h1>
+            <h1 class="hero-title">L'Outpainting de Vermeer</h1>
             <p class="hero-subtitle" style="margin-left: auto; margin-right: auto;">
-                Vous n'avez jamais utilisé d'IA ? Pas de panique. Suivez le guide en 3 étapes.
+                Étendre le cadre d'un chef-d'œuvre avec l'IA pour travailler sur le hors-champ et la narration visuelle.
             </p>
         </div>
     </section>
 
-    <div class="container" style="max-width: 800px;">
-
-        <!-- STEP 1 -->
-        <div class="step-container">
-            <div class="step-number">1</div>
-            <div class="step-content">
-                <h2 class="step-title">Choisir son outil</h2>
-                <p>Pour débuter, inutile de multiplier les comptes. Choisissez un seul outil généraliste. Voici les 3
-                    valeurs sûres du moment (tous ont une version gratuite).</p>
-
-                <div class="tools-grid">
-                    <a href="https://chatgpt.com" target="_blank" class="tool-choice">
-                        <i data-lucide="message-square" style="color: #10a37f; margin-bottom: 0.5rem;"></i>
-                        <h3>ChatGPT</h3>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Le plus polyvalent. Idéal pour
-                            débuter.</p>
-                    </a>
-
-                    <a href="https://claude.ai" target="_blank" class="tool-choice">
-                        <i data-lucide="sparkles" style="color: #d946ef; margin-bottom: 0.5rem;"></i>
-                        <h3>Claude</h3>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Le plus littéraire et nuancé.
-                            Excellent rédacteur.</p>
-                    </a>
-
-                    <a href="https://gemini.google.com" target="_blank" class="tool-choice">
-                        <i data-lucide="zap" style="color: #3b82f6; margin-bottom: 0.5rem;"></i>
-                        <h3>Gemini</h3>
-                        <p style="font-size: 0.9rem; color: var(--text-secondary);">Connecté à Google. Bon pour les
-                            recherches récentes.</p>
-                    </a>
-                </div>
+    <div class="container" style="max-width: 1000px; padding-bottom: 4rem;">
+        <div class="step-content mb-4">
+            <h2 class="step-title">L'exercice du "Hors-Champ"</h2>
+            <p>En Arts Plastiques, l'IA permet de visualiser ce qui se cache au-delà des limites fixées par le créateur du tableau original. Cet exercice d'"Outpainting" demande de respecter le style de l'artiste, la perspective, et la direction de la lumière pour recréer virtuellement l'environnement non peint.</p>
+            
+            <div class="prompt-box mb-4 mt-4" style="background: var(--bg-secondary); padding: 1.5rem; border-radius: var(--radius-lg); border-left: 4px solid var(--color-primary);">
+                <strong style="color: var(--color-primary); font-size:1.1rem;">Le Prompt structuré :</strong><br>
+                <div style="font-family: monospace; font-size: 0.95rem; margin-top: 1rem; white-space: pre-wrap; line-height: 1.6;"><strong>Contexte :</strong> Travail sur le cadrage et l'espace en Arts Plastiques.
+<strong>Rôle :</strong> Tu es un peintre assistant de Vermeer.
+<strong>Objectif :</strong> Étends l'image vers la gauche en respectant scrupuleusement le style, la lumière (venant de la fenêtre) et la perspective de la pièce. Imagine ce qui se trouve dans la partie invisible de l'atelier.
+<strong>Format :</strong> Image générée respectant la continuité visuelle (Outpainting).
+<strong>Input :</strong> [Image de La Laitière] + Prompt descriptif : "Oil painting, Vermeer style, 17th century dutch interior, shelves with cheese wheels on the left, soft natural lighting."</div>
             </div>
-        </div>
 
-        <!-- STEP 2 -->
-        <div class="step-container">
-            <div class="step-number">2</div>
-            <div class="step-content">
-                <h2 class="step-title">Écrire son premier prompt (Méthode C.R.O.F.I.)</h2>
-                <p>Parler à une IA, c'est comme donner une consigne à un élève très littéral. Si vous êtes vague, le
-                    résultat sera vague. Utilisez la méthode <strong>C.R.O.F.I.</strong> détaillée dans le livre :</p>
-
-                <div class="crofi-grid">
-                    <div class="crofi-item">
-                        <span class="crofi-letter">C</span>
-                        <strong>Contexte</strong>
-                        <div style="font-size: 0.8rem;">Qui êtes-vous ? Quel est le scénario ?</div>
-                    </div>
-                    <div class="crofi-item">
-                        <span class="crofi-letter">R</span>
-                        <strong>Rôle</strong>
-                        <div style="font-size: 0.8rem;">Qui doit être l'IA ? (Expert, critique...)</div>
-                    </div>
-                    <div class="crofi-item">
-                        <span class="crofi-letter">O</span>
-                        <strong>Objectif</strong>
-                        <div style="font-size: 0.8rem;">Que voulez-vous exactement ?</div>
-                    </div>
-                    <div class="crofi-item">
-                        <span class="crofi-letter">F</span>
-                        <strong>Format</strong>
-                        <div style="font-size: 0.8rem;">Tableau, liste, texte court ?</div>
-                    </div>
-                    <div class="crofi-item">
-                        <span class="crofi-letter">I</span>
-                        <strong>Input</strong>
-                        <div style="font-size: 0.8rem;">Les données à traiter.</div>
+            <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 3rem; justify-content: center;">
+                <div style="flex: 1; min-width: 300px; text-align: center;">
+                    <h3 style="margin-bottom: 1rem;">L'œuvre originale</h3>
+                    <div style="background: var(--bg-primary); padding: 1rem; border-radius: var(--radius-md); border: 1px dashed var(--border-color);">
+                        <p style="color: var(--text-secondary);">[ La Laitière (c. 1658) - Johannes Vermeer ]</p>
+                        <p style="font-size: 0.9rem; margin-top: 1rem;">L'original se concentre sur l'action en limitant le champ visuel autour du personnage.</p>
                     </div>
                 </div>
-
-                <div
-                    style="background: var(--bg-secondary); padding: 1rem; border-radius: 0.5rem; margin-top: 1rem; font-family: monospace;">
-                    <strong>Exemple :</strong><br>
-                    "Agis comme un expert en pédagogie (Rôle). Crée un QCM de 5 questions (Format) sur la Révolution
-                    Française (Contexte/Input) pour des élèves de 4e. L'objectif est de vérifier la compréhension des
-                    dates clés (Objectif)."
+                <div style="flex: 1; min-width: 300px; text-align: center;">
+                    <h3 style="margin-bottom: 1rem;">Proposition de l'IA (Outpainting)</h3>
+                    <div style="background: var(--bg-primary); padding: 1rem; border-radius: var(--radius-md); border: 1px dashed var(--color-primary);">
+                        <p style="color: var(--text-secondary);">[ Image Étendue par IA ]</p>
+                        <p style="font-size: 0.9rem; margin-top: 1rem;">L'IA interprète l'éclairage de gauche, imagine du mobilier, des fromages, et donne une nouvelle ampleur à la scène.</p>
+                    </div>
                 </div>
             </div>
+            
+            <p class="mt-5" style="background: var(--bg-secondary); padding: 1.5rem; border-radius: 0.5rem;">
+                <strong>Analyse Pédagogique :</strong> L'exercice ne s'arrête pas à la génération. Il s'agit ensuite d'exercer l'esprit critique de l'élève en le confrontant à la proposition statistique de la machine. L'IA a-t-elle correctement respecté le comportement de la lumière ? Les nouveaux objets inventés sont-ils cohérents historiquement ou trouve-t-on des anachronismes ?
+            </p>
         </div>
-
-        <!-- STEP 3 -->
-        <div class="step-container">
-            <div class="step-number">3</div>
-            <div class="step-content">
-                <h2 class="step-title">Vérifier (Toujours !)</h2>
-                <p>L'IA peut se tromper avec beaucoup d'assurance. C'est ce qu'on appelle une "hallucination".</p>
-
-                <ul style="list-style: none; margin-top: 1rem;">
-                    <li style="display: flex; gap: 1rem; margin-bottom: 0.5rem;">
-                        <i data-lucide="alert-triangle" style="color: var(--color-warning);"></i>
-                        Elle peut inventer des citations.
-                    </li>
-                    <li style="display: flex; gap: 1rem; margin-bottom: 0.5rem;">
-                        <i data-lucide="alert-triangle" style="color: var(--color-warning);"></i>
-                        Elle peut faire des erreurs de calcul simples.
-                    </li>
-                    <li style="display: flex; gap: 1rem; margin-bottom: 0.5rem;">
-                        <i data-lucide="check-circle" style="color: var(--color-success);"></i>
-                        <strong>Règle d'or :</strong> Ne lui faites jamais confiance aveuglément. Vous restez l'expert.
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- POUR ALLER PLUS LOIN -->
-        <div class="step-container">
-            <div class="step-number" style="background: var(--color-secondary); color: white;"><i
-                    data-lucide="plus"></i></div>
-            <div class="step-content" style="border-left: 4px solid var(--color-secondary);">
-                <h2 class="step-title" style="color: var(--color-secondary);">Pour aller plus loin : L'illusion de la
-                    maîtrise</h2>
-                <p>Découvrez l'excellente infographie de SOPHIAE (Jérôme Sacard) sur les enjeux de l'IA en éducation :
-                    "IA & éducation : illusion ou maîtrise ?". Une synthèse visuelle brillante sur la dépendance
-                    cognitive et l'esprit critique.</p>
-                <div style="margin-top: 1.5rem;">
-                    <a href="https://x.com/sophiaefrance/status/2013125532158718267" target="_blank" rel="noopener"
-                        class="btn btn-secondary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
-                        <i data-lucide="external-link"></i> Voir l'infographie
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div style="text-align: center; margin-top: 4rem;">
-            <a href="prompts.html" class="btn btn-primary btn-lg">
-                <i data-lucide="zap"></i>
-                Voir des exemples de prompts
-            </a>
-        </div>
-
     </div>
-
-    <!-- Footer -->
+<!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">

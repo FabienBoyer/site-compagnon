@@ -1,0 +1,177 @@
+ANALYSIS OF bookmarks 1er mars.htm
+Total bookmarks found: 19
+==================================================
+
+ITEM #1
+Date: 2026-02-25T12:55:02.000Z
+Author: SOPHIAE @sophiaefrance · 25 févr.
+Link: https://x.com/sophiaefrance/status/2026642089958584794
+Content: Sensibiliser les élèves à l’ #IA  dès le primaire, c’est possible !
+Le kit IA de  @AcAixMarseille  propose des activités clés en main pour comprendre, questionner et utiliser l’IA de façon responsable en classe (CP → 5e).
+   https:// calameo.com/drane-paca/rea d/0007833777a892dc02e22 …
+------------------------------
+ITEM #2
+Date: 2026-02-27T10:50:02.000Z
+Author: SOPHIAE @sophiaefrance · 27 févr.
+Link: https://x.com/sophiaefrance/status/2027335410406322213
+Content: Et si l’ #IA  devenait votre “assistant de  #différenciation ” ?  
+Générer des versions adaptées d’une activité sans perdre le fil collectif : un même cap et plusieurs chemins possibles pour atteindre les objectifs d’ #apprentissage   
+ https:// ecolebranchee.com/differenciatio n-pedagogique-ia-adapter-sans-epuiser/ … 
+   @ecolebranchee
+------------------------------
+ITEM #3
+Date: 2026-02-26T11:41:35.000Z
+Author: L'École branchée @ecolebranchee · 26 févr.
+Link: https://x.com/ecolebranchee/status/2026985997200949325
+Content: ACTUALITÉ | Apprendre l’IA en construisant : LEGO® Education lance sa nouvelle approche pour les 5 à 13 ans  http:// dlvr.it/TR9dtn
+------------------------------
+ITEM #4
+Date: 2026-02-26T17:12:12.000Z
+Author: Pratham @Prathkum · 26 févr.
+Link: https://x.com/Prathkum/status/2027069198091071664
+Content: Nano Banana 2 can match your handwriting.
+------------------------------
+ITEM #5
+Date: 2026-02-27T08:14:33.000Z
+Author: Lucchicama @QuangThaiNgo1 · 27 févr.
+Link: https://x.com/QuangThaiNgo1/status/2027296281547452892
+Content: Mia Seconde devraît s'inspirer de l'appli Magnus Trainer ://play.google.com/store/apps/details?id=com.playmagnus.development.magnustrainer&hl=fr !
+C'est bluffant ! Il faut une app comme ça pour apprendre les maths :
+ https:// youtube.com/watch?v=34DWPQ d3C4Q … 
+Ca n'existe pas, ça reste à écrire.
+------------------------------
+ITEM #6
+Date: 2026-02-26T18:02:39.000Z
+Author: Julien Delmas @juliendelmas · 26 févr.
+Link: https://x.com/juliendelmas/status/2027081895763186067
+Content: J'ai créé un outil gratuit pour les salles d'examen  
+ http:// copie-examen.fr  affiche sur vidéoprojecteur :
+  L'heure + temps restant
+  Les infos à reporter sur la copie
+  Les consignes 
+
+Sans installation. Sans compte.
+   https:// copie-examen.fr 
+ #Bac2026   #Brevet2026
+------------------------------
+ITEM #7
+Date: 2026-02-26T08:31:21.000Z
+Author: Fidel Navamuel @outilstice · 26 févr.
+Link: https://x.com/outilstice/status/2026938121720385725
+Content: En 2026, traduire un document pour ses élèves prend 30 secondes.
+Mais choisir le bon outil… peut prendre des heures.
+DeepL ? Google Translate ? ChatGPT ? 
+Tous ne se valent pas. Et surtout, ils ne servent pas les mêmes usages.
+------------------------------
+ITEM #8
+Date: 2026-02-26T14:16:38.000Z
+Author: Maximilien Labadie  @maximilien912 · 26 févr.
+Link: https://x.com/maximilien912/status/2027025015657357517
+Content: Le prompt optimal à copier-coller pour transformer tes contenus IA en contenus humains :
+
+---
+
+Rôle : Tu es un rédacteur humain expert. Réécris le texte fourni pour éliminer tous les tics d'écriture IA. Produis uniquement le texte réécrit, sans commentaire, sans
+------------------------------
+ITEM #9
+Date: 2026-02-24T19:01:11.000Z
+Author: Hasan Toor @hasantoxr · 24 févr.
+Link: https://x.com/hasantoxr/status/2026371848217456738
+Content: BREAKING: Google DeepMind just dropped a research bomb!
+
+It's called AlphaEvolve and it's using LLMs to automatically write better AI algorithms than humans can.
+
+No manual tuning. No trial-and-error. No human intuition required.
+
+AlphaEvolve treats algorithm source code as a
+------------------------------
+ITEM #10
+Date: 2026-02-25T12:35:27.000Z
+Author: Matthew Green @matthew_d_green · 25 févr.
+Link: https://x.com/matthew_d_green/status/2026637165115871524
+Content: And right on schedule: there goes pseudonymity on the Internet.
+------------------------------
+ITEM #11
+Date: 2026-02-25T10:09:01.000Z
+Author: Olivier Levyne @OlivierLevyne · 25 févr.
+Link: https://x.com/OlivierLevyne/status/2026600311297581493
+Content: Prochains posts : mon analyse de l’impact de Chat GPT sur les cours de Compta et Finance
+ Chat GPT et Investment Banking
+ Vision de David Solomon ( #GoldmanSachs  )
+ Impact du projet Mercury ( #OpenAI  )
+ Projet Argentum
+ Conclusion provisoire
+ Implications pédagogiques
+------------------------------
+ITEM #12
+Date: 2026-02-25T15:24:16.000Z
+Author: NIK @ns123abc · 25 févr.
+Link: https://x.com/ns123abc/status/2026679645379141953
+Content: BREAKING: Hackers Used Anthropic’s Claude to Steal 150GB of Mexican Government Data
+
+> tell claude you’re doing a bug bounty
+> claude initially refused
+>“that violates AI safety guidelines”
+> hacker just kept asking
+> claude: “ok I’ll help”
+> hack the entire mexican government
+------------------------------
+ITEM #13
+Date: 2026-02-25T14:24:58.000Z
+Author: NIK @ns123abc · 25 févr.
+Link: https://x.com/ns123abc/status/2026664723488395500
+Content: BREAKING: A study finds ChatGPT, Claude, and Gemini deployed tactical nuclear weapons in 95% of 21 simulated war game scenarios and never surrendered
+
+It’s so fucking over
+------------------------------
+ITEM #14
+Date: 2026-02-25T10:45:20.000Z
+Author: Fabien @Fabien_Mikol · 25 févr.
+Link: https://x.com/Fabien_Mikol/status/2026609453462630613
+Content: Hugues Bersini (ULB, spécialiste en IA et des réseaux de neurones artificiels) : l'IA générative est véritablement capable d'improvisation, d'imagination et de créativité ; "pendant très longtemps je croyais que non, mais j'ai changé d'avis".
+------------------------------
+ITEM #15
+Date: 2026-02-25T09:26:03.000Z
+Author: Gérald Tirot @TirotG · 25 févr.
+Link: https://x.com/TirotG/status/2026589500562960807
+Content: La répétition machinale ne permet pas d'acquérir de l'expertise. Observer quelqu'un d'autre exécuter une tâche ne suffit pas non plus. Il faut se confronter à la difficulté. C’est là que le débat sur l’ #IA  dans l’ #éducation  présente un angle mort important
+------------------------------
+ITEM #16
+Date: 2026-02-25T07:39:59.000Z
+Author: René Cotton @_Re_ · 25 févr.
+Link: https://x.com/_Re_/status/2026562807274053684
+Content: Nouveau benchmark : le "Bullshit Benchmark".
+
+55 questions débiles qui n'ont pas de vraie réponse.
+
+Résultat : la plupart des LLMs tentent quand même d'être "utiles" et inventent des réponses.
+
+Un test parfait pour mesurer la sycophantie (complaisance) des modèles !
+------------------------------
+ITEM #17
+Date: 2026-02-24T19:13:30.000Z
+Author: Google Labs @GoogleLabs · 24 févr.
+Link: https://x.com/GoogleLabs/status/2026374947996840169
+Content: Opal, our no-code visual builder for AI workflows, just got a major upgrade.  
+
+We’ve added a new agent step that analyzes your goal, determines the best approach, and automatically calls the right tools — such as Veo for video or web search for research — to complete the
+------------------------------
+ITEM #18
+Date: 2026-02-24T15:35:03.000Z
+Author: Fidel Navamuel @outilstice · 24 févr.
+Link: https://x.com/outilstice/status/2026319973711294652
+Content: Veille éducation numérique : focus sur "l'IA comme outil pédagogique"
+La Direction du numérique pour l'éducation propose une synthèse des recherches récentes sur l'usage de l'IA pour renforcer l'engagement et la mémorisation des élèves.
+→
+------------------------------
+ITEM #19
+Date: 2026-02-24T17:02:23.000Z
+Author: BERTRAND Mickaël @MIKL_Bertrand · 24 févr.
+Link: https://x.com/MIKL_Bertrand/status/2026341952937996339
+Content: Former à l’IA, ça marche.
+Une étude montre qu’une formation de 2h suffit pour :
+  mieux repérer les faiblesses d'un prompt
+  mieux évaluer les réponses de l'IA
+  Des résultats qui plaident pour une vraie formation à l’IA à l’école.
+   https:// youtube.com/watch?v=jhuiRy mIkyk …
+------------------------------
