@@ -4,35 +4,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prompts CROFI - Enseigner avec l'IA</title>
-    <meta name="description" content="Prompts prêts à l'emploi structurés avec la méthode CROFI pour les enseignants.">
+    <title>RAG Local - Les outils pour enseigner avec l'IA</title>
+    <meta name="description"
+        content="Guide débutant : par où commencer avec l'IA en classe ? Choisir son outil, écrire son premier prompt (méthode CROFI) et éviter les pièges.">
+
+    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
         rel="stylesheet">
+
+    <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+    <!-- Styles -->
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/prompts.css">
+    <style>
+        .step-container {
+            position: relative;
+            padding-left: 3rem;
+            margin-bottom: var(--spacing-3xl);
+            border-left: 2px solid var(--border-color);
+        }
+
+        .step-number {
+            position: absolute;
+            left: -1.25rem;
+            top: 0;
+            width: 2.5rem;
+            height: 2.5rem;
+            background: var(--color-primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.25rem;
+            box-shadow: 0 0 0 4px var(--bg-primary);
+        }
+
+        .step-content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .step-title {
+            margin-bottom: var(--spacing-md);
+            color: var(--color-primary);
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-lg);
+        }
+
+        .tool-choice {
+            padding: var(--spacing-md);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            text-align: center;
+            transition: all var(--transition-base);
+        }
+
+        .tool-choice:hover {
+            border-color: var(--color-primary);
+            background: var(--bg-secondary);
+        }
+
+        .crofi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing-sm);
+            margin-top: var(--spacing-md);
+        }
+
+        .crofi-item {
+            background: var(--bg-secondary);
+            padding: var(--spacing-md);
+            border-radius: var(--radius-md);
+            text-align: center;
+        }
+
+        .crofi-letter {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-primary);
+            display: block;
+            margin-bottom: var(--spacing-xs);
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Header -->
     <header class="header">
         <nav class="nav-container">
-            <a href="index.html" class="logo"><span class="logo-icon">📚</span><span class="logo-text">Enseigner avec
-                    l'IA</span></a>
-            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu"><i data-lucide="menu"></i></button>
+            <a href="index.html" class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">Enseigner avec l'IA</span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+
             <ul class="nav-links" id="nav-links">
                 <li><a href="index.html" class="nav-link">Accueil</a></li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link nav-link-dropdown">
+                    <a href="#" class="nav-link nav-link-dropdown active">
                         Comprendre
                         <i data-lucide="chevron-down"></i>
                     </a>
                     <div class="dropdown-menu">
-                        <a href="debuter.html">Débuter avec l'IA</a>
+                        <a href="debuter.html" class="active">Débuter avec l'IA</a>
                         <a href="ethique.html">Cadre Légal & Éthique</a>
                         <a href="lexique.html">Lexique</a>
                         <a href="formation.html">Formation</a>
@@ -49,6 +144,7 @@
                         <a href="disciplines.html">Disciplines</a>
                         <a href="conversations.html">Conversations du Livre</a>
                         <a href="comparatif-ia.html">Comparatif IA Images</a>
+                        <a href="chatbot.html">Assistant IA</a>
                                             <div class="dropdown-divider" style="height: 1px; background-color: var(--border-color); margin: 0.5rem 0;"></div>
                         <a href="ia-locale.html">Tutoriel IA Locale</a>
                         <a href="rag-local.html">Mon RAG 1-Clic</a>
@@ -59,52 +155,55 @@
 
                 <li><a href="veille.html" class="nav-link">Veille</a></li>
             </ul>
+
             <div class="nav-actions">
                 <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
                     <i data-lucide="sun" class="theme-icon-light"></i>
                     <i data-lucide="moon" class="theme-icon-dark"></i>
                 </button>
+                <a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener" class="btn btn-primary">
+                    <i data-lucide="shopping-cart"></i>
+                    <span>Commander</span>
+                </a>
             </div>
         </nav>
     </header>
 
-    <main class="prompts-main">
-        <div class="container">
-            <section class="prompts-header">
-                <span class="section-badge"><i data-lucide="zap"></i> Annexe B</span>
-                <h1 class="page-title">Prompts prêts à l'emploi</h1>
-                <p class="page-subtitle">Structurés avec la méthode <strong>C.R.O.F.I.</strong></p>
-            </section>
-
-            <!-- CROFI Legend -->
-            <section class="crofi-legend">
-                <h2 class="legend-title">La structure C.R.O.F.I.</h2>
-                <div class="legend-grid">
-                    <div class="legend-item legend-c"><span class="legend-letter">C</span><span
-                            class="legend-text">Contexte</span><span class="legend-desc">Qui êtes-vous ?</span></div>
-                    <div class="legend-item legend-r"><span class="legend-letter">R</span><span
-                            class="legend-text">Rôle</span><span class="legend-desc">Quel expert l'IA doit-elle incarner
-                            ?</span></div>
-                    <div class="legend-item legend-o"><span class="legend-letter">O</span><span
-                            class="legend-text">Objectif</span><span class="legend-desc">Que voulez-vous précisément
-                            ?</span></div>
-                    <div class="legend-item legend-f"><span class="legend-letter">F</span><span
-                            class="legend-text">Format</span><span class="legend-desc">Sous quelle forme ?</span></div>
-                    <div class="legend-item legend-i"><span class="legend-letter">I</span><span
-                            class="legend-text">Input</span><span class="legend-desc">Les données de départ</span></div>
-                </div>
-            </section>
-
-            <!-- Dynamic Prompts Container -->
-            <div id="prompts-loader" class="prompts-loader">
-                <div class="loader-spinner"></div>
-                <p>Chargement des prompts...</p>
-            </div>
-            <div id="prompts-container"></div>
-
+    <!-- Page Header -->
+    <section class="hero" style="padding: 6rem var(--spacing-lg) 4rem;">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
         </div>
-    </main>
+        <div class="container" style="text-align: center;">
+            <span class="hero-badge">
+                <i data-lucide="database"></i>
+                RAG Local
+            </span>
+            <h1 class="hero-title">Votre RAG Maison en 1 Clic</h1>
+            <p class="hero-subtitle" style="margin-left: auto; margin-right: auto;">
+                Interrogez vos propres cours et documents (PDF, Word) en toute sécurité avec une IA locale.
+            </p>
+        </div>
+    </section>
 
+    <div class="container" style="max-width: 800px; padding-bottom: 4rem;">
+        <div class="step-content" style="text-align: center; margin-bottom: 2rem;">
+            <h2 class="step-title">Télécharger l'installateur</h2>
+            <p>Nous avons créé un script (batch Windows) qui installe et configure pour vous un environnement RAG complet pour faire discuter l'IA avec vos documents.</p>
+            
+            <div style="margin: 2rem 0;">
+                <a href="../installateurs/Installer_MonRAG_Studio_1Clic.bat" download class="btn btn-primary btn-lg" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; font-size: 1.1rem;">
+                    <i data-lucide="download"></i> Télécharger Installer_MonRAG_Studio_1Clic.bat
+                </a>
+            </div>
+            
+            <div style="text-align: left; background: var(--bg-secondary); padding: 1.5rem; border-radius: 0.5rem; margin-top: 1rem; border-left: 4px solid var(--color-warning);">
+                <h4 style="margin-top:0; color:var(--color-warning);"><i data-lucide="alert-triangle" style="display:inline; vertical-align:middle;"></i> Pré-requis indispensable</h4>
+                <p style="margin-bottom:0;">L'outil nécessite <strong>Ollama</strong> préalablement installé sur votre système Windows. Assurez-vous d'avoir téléchargé et installé Ollama avant de lancer ce script (voir <a href="ia-locale.html" style="text-decoration: underline;">le tutoriel précédent</a>).</p>
+            </div>
+        </div>
+    </div>
+<!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
@@ -169,28 +268,11 @@
         </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="scripts/main.js"></script>
     <script>
-        // Copy prompt functionality
-        document.querySelectorAll('.copy-btn').forEach(btn => {
-            btn.addEventListener('click', function () {
-                const card = this.closest('.prompt-card');
-                const lines = card.querySelectorAll('.crofi-line');
-                let promptText = '';
-                lines.forEach(line => {
-                    promptText += line.textContent.trim().substring(1) + '\n';
-                });
-                navigator.clipboard.writeText(promptText.trim());
-                this.innerHTML = '<i data-lucide="check"></i>';
-                lucide.createIcons();
-                setTimeout(() => {
-                    this.innerHTML = '<i data-lucide="copy"></i>';
-                    lucide.createIcons();
-                }, 2000);
-            });
-        });
+        lucide.createIcons();
     </script>
-    <script src="scripts/prompts.js"></script>
 </body>
 
 </html>
