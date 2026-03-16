@@ -1,6 +1,104 @@
 {
   "articles": [
     {
+      "title": "Pandada",
+      "link": "https://www.uneiaparjour.fr/pandada/",
+      "date": "2026-03-09T21:30:50",
+      "source": "Une IA par jour",
+      "summary": "Pandada (https://pandada.ai/) est un chatbot spécialisé dans l&#8217;analyse de données et dans les recherches complexes. Nombreux outils de conversation de données disponibles et intégrables à l&#821"
+    },
+    {
+      "title": "OpenAI to acquire Promptfoo",
+      "link": "https://openai.com/index/openai-to-acquire-promptfoo",
+      "date": "2026-03-09T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development."
+    },
+    {
+      "title": "La \"Danse des Fonctions\" ! 🕺📈\nCette vidéo utilise la visualisation corporelle : en associant la position des bras à la courbe du graphique, ce petit bonhomme nous offre un moyen mnémotechnique incroyable pour ne plus confondre une fonction linéaire avec une fonction inverse !",
+      "link": "https://twitter.com/sophiaefrance/status/2033419255446737385#m",
+      "date": "2026-03-16T05:45:04",
+      "source": "@sophiaefrance",
+      "summary": "<p>La \"Danse des Fonctions\" ! 🕺📈<br />\nCette vidéo utilise la visualisation corporelle : en associant la position des bras à la courbe du graphique, ce petit bonhomme nous offre un moyen mnémotechniqu"
+    },
+    {
+      "title": "Pinned: A statement from Anthropic CEO Dario Amodei: https://www.anthropic.com/news/where-stand-department-war",
+      "link": "https://twitter.com/AnthropicAI/status/2029719864533721481#m",
+      "date": "2026-03-06T00:45:00",
+      "source": "@AnthropicAI",
+      "summary": "<p>A statement from Anthropic CEO Dario Amodei: <a href=\"https://www.anthropic.com/news/where-stand-department-war\">anthropic.com/news/where-sta…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F20"
+    },
+    {
+      "title": "Introducing Mistral AI's biggest hackathon ever!\n📅 Feb 28 - Mar 1\n🌍 Paris | London | NY | SF | Tokyo | Singapore | Sydney & online\n48 hours. The best hackers.\n🤝 Partners: >@wandb @nvidia @awscloud @HackIterate\n🏆 $200K in prizes. Special awards from @elevenlabsio @huggingface @JUmp @whitecircle @supercell\nLink in 🧵",
+      "link": "https://twitter.com/MistralAI/status/2021238361227186462#m",
+      "date": "2026-02-10T15:02:32",
+      "source": "@MistralAI",
+      "summary": "<p>Introducing Mistral AI's biggest hackathon ever!<br />\n📅 Feb 28 - Mar 1<br />\n🌍 Paris | London | NY | SF | Tokyo | Singapore | Sydney & online<br />\n48 hours. The best hackers.<br />\n🤝 Partners: <a"
+    },
+    {
+      "title": "R to @wandb: worldwide-hackathon.mistral.…",
+      "link": "https://twitter.com/MistralAI/status/2021239601503912409#m",
+      "date": "2026-02-10T15:07:28",
+      "source": "@MistralAI",
+      "summary": "<p><a href=\"https://worldwide-hackathon.mistral.ai/\">worldwide-hackathon.mistral.…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2031387042589061122%2Fn1DqLKnK%3Fformat%3Djpg%26name%3D800x419\" /"
+    },
+    {
+      "title": "Introducing Voxtral Transcribe 2, next-gen speech-to-text models by @MistralAI.\nState-of-the-art transcription, speaker diarization, sub-200ms real-time latency. \nDetails in 🧵",
+      "link": "https://twitter.com/MistralAI/status/2019068826097213953#m",
+      "date": "2026-02-04T15:21:35",
+      "source": "@MistralAI",
+      "summary": "<p>Introducing Voxtral Transcribe 2, next-gen speech-to-text models by <a href=\"https://nitter.net/MistralAI\" title=\"Mistral AI\">@MistralAI</a>.<br />\nState-of-the-art transcription, speaker diarizati"
+    },
+    {
+      "title": "R to @MistralAI: Available now. Mini Transcribe 2 via API at $0.003/min. Realtime via API at $0.006/min, plus open weights.\n\nGet started → http://console.mistral.ai/build/audio/speech-to-text",
+      "link": "https://twitter.com/MistralAI/status/2019068838009074155#m",
+      "date": "2026-02-04T15:21:38",
+      "source": "@MistralAI",
+      "summary": "<p>Available now. Mini Transcribe 2 via API at $0.003/min. Realtime via API at $0.006/min, plus open weights.<br />\n<br />\nGet started → <a href=\"http://console.mistral.ai/build/audio/speech-to-text\">"
+    },
+    {
+      "title": "🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus\nThe latest update builds on V3.1’s strengths while addressing key user feedback.\n\n✨ What’s improved?\n🌐 Language consistency: fewer CN/EN mix-ups & no more random chars.\n🤖 Agent upgrades: stronger Code Agent & Search Agent performance.\n\n1/2",
+      "link": "https://twitter.com/deepseek_ai/status/1970117808035074215#m",
+      "date": "2025-09-22T13:27:43",
+      "source": "@deepseek_ai",
+      "summary": "<p>🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus<br />\nThe latest update builds on V3.1’s strengths while addressing key user feedback.<br />\n<br />\n✨ What’s improved?<br />\n🌐 Language consistency: fewer C"
+    },
+    {
+      "title": "R to @deepseek_ai: 📊 DeepSeek-V3.1-Terminus delivers more stable & reliable outputs across benchmarks compared to the previous version.\n\n👉 Available now on: App / Web / API\n🔗 Open-source weights here: https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus\n\nThanks to everyone for your feedback. It drives us to keep improving and refining the experience! 🚀\n\n2/2",
+      "link": "https://twitter.com/deepseek_ai/status/1970117812279718197#m",
+      "date": "2025-09-22T13:27:44",
+      "source": "@deepseek_ai",
+      "summary": "<p>📊 DeepSeek-V3.1-Terminus delivers more stable & reliable outputs across benchmarks compared to the previous version.<br />\n<br />\n👉 Available now on: App / Web / API<br />\n🔗 Open-source weights her"
+    },
+    {
+      "title": "Introducing DeepSeek-V3.1: our first step toward the agent era! 🚀\n\n🧠 Hybrid inference: Think & Non-Think — one model, two modes\n⚡️ Faster thinking: DeepSeek-V3.1-Think reaches answers in less time vs. DeepSeek-R1-0528\n🛠️ Stronger agent skills: Post-training boosts tool use and multi-step agent tasks\n\nTry it now — toggle Think/Non-Think via the \"DeepThink\" button: https://chat.deepseek.com/\n\n1/5",
+      "link": "https://twitter.com/deepseek_ai/status/1958417062008918312#m",
+      "date": "2025-08-21T06:33:07",
+      "source": "@deepseek_ai",
+      "summary": "<p>Introducing DeepSeek-V3.1: our first step toward the agent era! 🚀<br />\n<br />\n🧠 Hybrid inference: Think & Non-Think — one model, two modes<br />\n⚡️ Faster thinking: DeepSeek-V3.1-Think reaches ans"
+    },
+    {
+      "title": "We're publishing a new evaluation suite and research paper on Chain-of-Thought (CoT) Controllability.\n\nWe find that GPT-5.4 Thinking shows low ability to obscure its reasoning—suggesting CoT monitoring remains a useful safety tool. https://openai.com/index/reasoning-models-chain-of-thought-controllability/",
+      "link": "https://twitter.com/OpenAI/status/2029650046002811280#m",
+      "date": "2026-03-05T20:07:34",
+      "source": "@OpenAI",
+      "summary": "<p>We're publishing a new evaluation suite and research paper on Chain-of-Thought (CoT) Controllability.<br />\n<br />\nWe find that GPT-5.4 Thinking shows low ability to obscure its reasoning—suggestin"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: this is actually insane\n\n> be tech guy in australia\n> adopt cancer riddled rescue dog, months to live\n> not_going_to_give_you_up.mp4\n> pay $3,000 to sequence her tumor DNA\n> feed it to ChatGPT and AlphaFold\n> zero background in biology\n> identify mutated proteins, match them to drug targets\n> design a custom mRNA cancer vaccine from scratch\n> genomics professor is “gobsmacked” that some puppy lover did this on his own\n> need ethics approval to administer it\n> red tape takes longer than designing the vaccine\n> 3 months, finally approved\n> drive 10 hours to get rosie her first injection\n> tumor halves\n> coat gets glossy again\n> dog is alive and happy\n> professor: “if we can do this for a dog, why aren’t we rolling this out to humans?”\n\none man with a chatbot, and $3,000 just outperformed the entire pharmaceutical discovery pipeline. \n\nwe are going to cure so many diseases. \nI dont think people realize how good things are going to get",
+      "link": "https://twitter.com/IterIntellectus/status/2032858964858228817#m",
+      "date": "2026-03-14T16:38:40",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>this is actually insane<br />\n<br />\n&gt; be tech guy in australia<br />\n&gt; adopt cancer riddled rescue dog, months to live<br />\n&gt; not_going_to_give_you_up.mp4<br />\n&gt; pay $3,000 to sequen"
+    },
+    {
+      "title": "\"La voix des enseignants en classe, les récitations des poèmes par les enfants, et leurs rires, ne devraient jamais être couverts par le bruit des bottes ni des bombes.\" \nSolidarité avec les collègues & élèves des établissements français de l’étranger au Proche et au Moyen-Orient",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2031415146040472060#m",
+      "date": "2026-03-10T17:01:27",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>\"La voix des enseignants en classe, les récitations des poèmes par les enfants, et leurs rires, ne devraient jamais être couverts par le bruit des bottes ni des bombes.\" <br />\nSolidarité avec les "
+    },
+    {
       "title": "Ai pdf reader",
       "link": "https://www.uneiaparjour.fr/ai-pdf-reader/",
       "date": "2026-03-08T21:11:20",
@@ -601,107 +699,9 @@
       "date": "2026-03-11T21:04:59",
       "source": "@MistralAI",
       "summary": "<p><a href=\"https://nitter.net/search?f=tweets&amp;q=%23MistralAI\">#MistralAI</a> <a href=\"https://nitter.net/search?f=tweets&amp;q=%23GTC26\">#GTC26</a> <a href=\"https://nitter.net/search?f=tweets&amp"
-    },
-    {
-      "title": "R to @nvidia: events.mistralai.com/nvidia-…",
-      "link": "https://twitter.com/MistralAI/status/2031838433522360522#m",
-      "date": "2026-03-11T21:03:26",
-      "source": "@MistralAI",
-      "summary": "<p><a href=\"https://events.mistralai.com/nvidia-gtc-2026/\">events.mistralai.com/nvidia-…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2031838475993923585%2F5ho6Vunn%3Fformat%3Djpg%26name%3D420x"
-    },
-    {
-      "title": "Mistral AI is headed to San Jose for @NVIDIA GTC! 🚀\nWe’re demoing our newest frontier models, sharing our vision for the future of enterprise AI, and unveiling some big news you won't want to miss.\n\n📍 Visit us to see the latest innovations in action.\n🗓️ Check out our sessions and book a meeting:  link in 🧵",
-      "link": "https://twitter.com/MistralAI/status/2031838391847764010#m",
-      "date": "2026-03-11T21:03:17",
-      "source": "@MistralAI",
-      "summary": "<p>Mistral AI is headed to San Jose for <a href=\"https://nitter.net/NVIDIA\" title=\"NVIDIA\">@NVIDIA</a> GTC! 🚀<br />\nWe’re demoing our newest frontier models, sharing our vision for the future of enter"
-    },
-    {
-      "title": "🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!\n\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on long context.\n👉 Now live on App, Web, and API.\n💰 API prices cut by 50%+!\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604768309871061#m",
-      "date": "2025-09-29T10:10:00",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!<br />\n<br />\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on l"
-    },
-    {
-      "title": "RT by @OpenAI: Developers coming from other tools are often impressed by what Codex finds in code review.\n\nIn this video, @majatrebacz and I show how to set it up and walk through issues Codex finds in real PRs.\n\nIncluded with ChatGPT Plus/Pro (or ~$1/run with credits).",
-      "link": "https://twitter.com/romainhuet/status/2031517213799362760#m",
-      "date": "2026-03-10T23:47:02",
-      "source": "@OpenAI",
-      "summary": "<p>Developers coming from other tools are often impressed by what Codex finds in code review.<br />\n<br />\nIn this video, <a href=\"https://nitter.net/majatrebacz\" title=\"Maja Trebacz\">@majatrebacz</a>"
-    },
-    {
-      "title": "Codex Security—our application security agent—is now in research preview.\n\nhttps://openai.com/index/codex-security-now-in-research-preview/",
-      "link": "https://twitter.com/OpenAI/status/2029985250512920743#m",
-      "date": "2026-03-06T18:19:33",
-      "source": "@OpenAI",
-      "summary": "<p>Codex Security—our application security agent—is now in research preview.<br />\n<br />\n<a href=\"https://openai.com/index/codex-security-now-in-research-preview/\">openai.com/index/codex-secur…</a></"
-    },
-    {
-      "title": "RT by @OpenAI: Construction is underway at our site in Port Washington, Wisconsin. This is an important step in our long-term compute strategy. Grateful to our partners @VantageDC and @Oracle who are helping bring this capacity online.\n \nWe’re been making rapid progress expanding the infrastructure behind OpenAI. Last week we announced an expansion of our foundational work with @NVIDIA systems that will power the next generation of models. We also shared how we're continuing to deepen our work across the ecosystem, including lean in further with @awscloud.\n \nBuilding world-class AI requires world-class infrastructure. Excited to see the work happening on the ground in Wisconsin and grateful to the teams and partners helping make it happen.",
-      "link": "https://twitter.com/sk7037/status/2029911649298362524#m",
-      "date": "2026-03-06T13:27:05",
-      "source": "@OpenAI",
-      "summary": "<p>Construction is underway at our site in Port Washington, Wisconsin. This is an important step in our long-term compute strategy. Grateful to our partners <a href=\"https://nitter.net/VantageDC\" titl"
-    },
-    {
-      "title": "Luc Julia dans L'Opinion aujourd'hui.\nTitre magnifique : \"les grands modèles généralistes d'IA ne servent foncièrement à rien\".\nJ'ai pas accès à l'article (Europress est mort), mais on sait qu'il a reparlé du \"taux de pertinence\".",
-      "link": "https://twitter.com/Fabien_Mikol/status/2031792085586571476#m",
-      "date": "2026-03-11T17:59:16",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Luc Julia dans L'Opinion aujourd'hui.<br />\nTitre magnifique : \"les grands modèles généralistes d'IA ne servent foncièrement à rien\".<br />\nJ'ai pas accès à l'article (Europress est mort), mais on "
-    },
-    {
-      "title": "Il manquait le pape c'est pas sérieux",
-      "link": "https://twitter.com/Fabien_Mikol/status/2031790219301626087#m",
-      "date": "2026-03-11T17:51:51",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Il manquait le pape c'est pas sérieux</p>\n<img src=\"https://nitter.net/pic/media%2FHDJeYkcXUAAqUeb.jpg\" />\n<hr />\n<blockquote>\n<b>Andrew Curran (@AndrewCurran_)</b>\n<p>\n<p>New Time cover.</p>\n<img "
-    },
-    {
-      "title": "Une IA toute puissante serait-elle forcément \"méchante\" ou \"dominatrice\"? @AricFloyd explique qu'il n'est nul besoin qu'elle partage de tels traits humains ni même qu'elle soit \"consciente\" pour mettre en danger l'humanité. La convergence instrumentale et l'indifférence suffisent",
-      "link": "https://twitter.com/Fabien_Mikol/status/2031769838423576674#m",
-      "date": "2026-03-11T16:30:52",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Une IA toute puissante serait-elle forcément \"méchante\" ou \"dominatrice\"? <a href=\"https://nitter.net/AricFloyd\" title=\"Aric Floyd\">@AricFloyd</a> explique qu'il n'est nul besoin qu'elle partage de"
-    },
-    {
-      "title": "R to @AricFloyd: @AricFloyd explique pourquoi il est si difficile d'anticiper les comportements futurs des modèles : une IA hors de son environnement d'entraînement peut révéler qu'elle optimisait pour un proxy qui dans le monde réel ne se confond pas avec notre but initial...",
-      "link": "https://twitter.com/Fabien_Mikol/status/2031752783876010422#m",
-      "date": "2026-03-11T15:23:06",
-      "source": "@Fabien_Mikol",
-      "summary": "<p><a href=\"https://nitter.net/AricFloyd\" title=\"Aric Floyd\">@AricFloyd</a> explique pourquoi il est si difficile d'anticiper les comportements futurs des modèles : une IA hors de son environnement d'"
-    },
-    {
-      "title": "Improving instruction hierarchy in frontier LLMs",
-      "link": "https://openai.com/index/instruction-hierarchy-challenge",
-      "date": "2026-03-10T11:00:00",
-      "source": "OpenAI Blog",
-      "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks."
-    },
-    {
-      "title": "New ways to learn math and science in ChatGPT",
-      "link": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt",
-      "date": "2026-03-10T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time."
-    },
-    {
-      "title": "Gemini in Google Sheets just achieved state-of-the-art performance.",
-      "link": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
-      "date": "2026-03-10T13:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Workspace_Jan_Moment_Sheets_Blo.max-600x600.format-webp.webp\" />Today we announced new beta features for Gemini in Sheets to h"
-    },
-    {
-      "title": "RT by @nsi_xyz: 🇫🇷 ALERTE INFO | Un sondage (qui paraîtra demain) qualifierait Jean-Luc Mélenchon et Jordan Bardella pour le second tour de l’élection présidentielle de 2027. (via @clement_mci)",
-      "link": "https://twitter.com/AlertesInfos/status/2031448047553581540#m",
-      "date": "2026-03-10T19:12:11",
-      "source": "@nsi_xyz",
-      "summary": "<p>🇫🇷 ALERTE INFO | Un sondage (qui paraîtra demain) qualifierait Jean-Luc Mélenchon et Jordan Bardella pour le second tour de l’élection présidentielle de 2027. (via <a href=\"https://nitter.net/cleme"
     }
   ],
-  "last_update": "2026-03-15T08:27:10.668945",
+  "last_update": "2026-03-16T08:45:07.531936",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
