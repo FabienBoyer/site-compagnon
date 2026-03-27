@@ -1,6 +1,188 @@
 {
   "articles": [
     {
+      "title": "Public ai",
+      "link": "https://www.uneiaparjour.fr/public-ai/",
+      "date": "2026-03-26T22:13:02",
+      "source": "Une IA par jour",
+      "summary": "Public Ai (Chatbot : https://chat.publicai.co, site du projet : https://publicai.co/ et documentation : https://github.com/forpublicai) est un chatbot open source basé sur le modèle de langage Apertus"
+    },
+    {
+      "title": "Watch James Manyika talk AI and creativity with LL COOL J.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/",
+      "date": "2026-03-26T17:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Approved_thumbnail_with_logo.max-600x600.format-webp.webp\" />In the latest episode of our Dialogues on Technology and Society "
+    },
+    {
+      "title": "Transform your headphones into a live personal translator on iOS.",
+      "link": "https://blog.google/products-and-platforms/products/translate/live-translate-with-headphones/",
+      "date": "2026-03-26T16:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Static-InterstitialscreenJapane.max-600x600.format-webp.webp\" />Google Translate’s Live translate with headphones is officiall"
+    },
+    {
+      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
+      "date": "2026-03-26T15:21:00",
+      "source": "Google AI",
+      "summary": "The Gemini emblem sits next to text reading 'Gemini 3.1 Flash Live'. The background has blue, multicolored dots making up a microphone icon"
+    },
+    {
+      "title": "Gemini in Google Sheets just achieved state-of-the-art performance.",
+      "link": "https://blog.google/products-and-platforms/products/workspace/gemini-google-sheets-state-of-the-art/",
+      "date": "2026-03-10T13:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Workspace_Jan_Moment_Sheets_Blo.max-600x600.format-webp.webp\" />Today we announced new beta features for Gemini in Sheets to h"
+    },
+    {
+      "title": "La \"Danse des Fonctions\" ! 🕺📈\nCette vidéo utilise la visualisation corporelle : en associant la position des bras à la courbe du graphique, ce petit bonhomme nous offre un moyen mnémotechnique incroyable pour ne plus confondre une fonction linéaire avec une fonction inverse !",
+      "link": "https://twitter.com/sophiaefrance/status/2033419255446737385#m",
+      "date": "2026-03-16T05:45:04",
+      "source": "@sophiaefrance",
+      "summary": "<p>La \"Danse des Fonctions\" ! 🕺📈<br />\nCette vidéo utilise la visualisation corporelle : en associant la position des bras à la courbe du graphique, ce petit bonhomme nous offre un moyen mnémotechniqu"
+    },
+    {
+      "title": "R to @MistralAI: Check out our blog post for details: https://mistral.ai/news/voxtral-tts",
+      "link": "https://twitter.com/MistralAI/status/2037183035121029375#m",
+      "date": "2026-03-26T15:00:59",
+      "source": "@MistralAI",
+      "summary": "<p>Check out our blog post for details: <a href=\"https://mistral.ai/news/voxtral-tts\">mistral.ai/news/voxtral-tts</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2036639236762341376%2FZiV1XzGA%3Ff"
+    },
+    {
+      "title": "R to @MistralAI: Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.",
+      "link": "https://twitter.com/MistralAI/status/2037183032856076527#m",
+      "date": "2026-03-26T15:00:58",
+      "source": "@MistralAI",
+      "summary": "<p>Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.</p>\n<a href=\"https://nitter.net/MistralAI/status/2037183032856076527#m\">\n"
+    },
+    {
+      "title": "R to @MistralAI: State-of-the-art performance.\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to the original voice.",
+      "link": "https://twitter.com/MistralAI/status/2037183030935105578#m",
+      "date": "2026-03-26T15:00:58",
+      "source": "@MistralAI",
+      "summary": "<p>State-of-the-art performance.<br />\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to t"
+    },
+    {
+      "title": "RT by @MistralAI: Video",
+      "link": "https://twitter.com/MistralDevs/status/2037181411283648646#m",
+      "date": "2026-03-26T14:54:32",
+      "source": "@MistralAI",
+      "summary": "<p></p>\n<a href=\"https://nitter.net/MistralDevs/status/2037181411283648646#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2037180981619417088%2Fimg%2FokcXQ4aexytMNJjd.j"
+    },
+    {
+      "title": "R to @MistralAI: 📖 Learn more here: https://mistral.ai/news/forge",
+      "link": "https://twitter.com/MistralAI/status/2034012033809604870#m",
+      "date": "2026-03-17T21:00:33",
+      "source": "@MistralAI",
+      "summary": "<p>📖 Learn more here: <a href=\"https://mistral.ai/news/forge\">mistral.ai/news/forge</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2035327663125176320%2FJDvWr8rI%3Fformat%3Dpng%26name%3D800x419\" "
+    },
+    {
+      "title": "R to @MistralAI: 🤝 This will be the first project we build together with Nvidia as we become a founding member of the Nemotron Coalition. \n\nDetails: https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models",
+      "link": "https://twitter.com/MistralAI/status/2033642113791848669#m",
+      "date": "2026-03-16T20:30:37",
+      "source": "@MistralAI",
+      "summary": "<p>🤝 This will be the first project we build together with Nvidia as we become a founding member of the Nemotron Coalition. <br />\n<br />\nDetails: <a href=\"https://mistral.ai/news/mistral-ai-and-nvidi"
+    },
+    {
+      "title": "🚀Announcing a strategic partnership with NVIDIA to co-develop frontier open-source AI models, combining Mistral AI’s frontier model architecture and full-stack AI offering with NVIDIA’s leading compute infrastructure and development tools.",
+      "link": "https://twitter.com/MistralAI/status/2033642111984177247#m",
+      "date": "2026-03-16T20:30:37",
+      "source": "@MistralAI",
+      "summary": "<p>🚀Announcing a strategic partnership with NVIDIA to co-develop frontier open-source AI models, combining Mistral AI’s frontier model architecture and full-stack AI offering with NVIDIA’s leading com"
+    },
+    {
+      "title": "R to @deepseek_ai: 🤖 Thinking in Tool-Use\n\n🔹 Introduces a new massive agent training data synthesis method covering 1,800+ environments & 85k+ complex instructions.\n🔹 DeepSeek-V3.2 is our first model to integrate thinking directly into tool-use, and also supports tool-use in both thinking and non-thinking modes.\n\n3/n",
+      "link": "https://twitter.com/deepseek_ai/status/1995452650557763728#m",
+      "date": "2025-12-01T11:19:20",
+      "source": "@deepseek_ai",
+      "summary": "<p>🤖 Thinking in Tool-Use<br />\n<br />\n🔹 Introduces a new massive agent training data synthesis method covering 1,800+ environments & 85k+ complex instructions.<br />\n🔹 DeepSeek-V3.2 is our first mode"
+    },
+    {
+      "title": "R to @deepseek_ai: 🏆 World-Leading Reasoning\n\n🔹 V3.2: Balanced inference vs. length. Your daily driver at GPT-5 level performance.\n🔹 V3.2-Speciale: Maxed-out reasoning capabilities. Rivals Gemini-3.0-Pro.\n🥇 Gold-Medal Performance: V3.2-Speciale attains gold-level results in IMO, CMO, ICPC World Finals & IOI 2025.\n\n📝 Note: V3.2-Speciale dominates complex tasks but requires higher token usage. Currently API-only (no tool-use) to support community evaluation & research.\n\n2/n",
+      "link": "https://twitter.com/deepseek_ai/status/1995452646459858977#m",
+      "date": "2025-12-01T11:19:19",
+      "source": "@deepseek_ai",
+      "summary": "<p>🏆 World-Leading Reasoning<br />\n<br />\n🔹 V3.2: Balanced inference vs. length. Your daily driver at GPT-5 level performance.<br />\n🔹 V3.2-Speciale: Maxed-out reasoning capabilities. Rivals Gemini-3."
+    },
+    {
+      "title": "R to @deepseek_ai: ⚡️ Efficiency Gains\n\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.\n📊 Benchmarks show V3.2-Exp performs on par with V3.1-Terminus.\n\n2/n",
+      "link": "https://twitter.com/deepseek_ai/status/1972604772042637477#m",
+      "date": "2025-09-29T10:10:01",
+      "source": "@deepseek_ai",
+      "summary": "<p>⚡️ Efficiency Gains<br />\n<br />\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.<br />\n📊 Benchmarks s"
+    },
+    {
+      "title": "🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!\n\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on long context.\n👉 Now live on App, Web, and API.\n💰 API prices cut by 50%+!\n\n1/n",
+      "link": "https://twitter.com/deepseek_ai/status/1972604768309871061#m",
+      "date": "2025-09-29T10:10:00",
+      "source": "@deepseek_ai",
+      "summary": "<p>🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!<br />\n<br />\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on l"
+    },
+    {
+      "title": "RT by @OpenAI: We're rolling out plugins in Codex.\n\nCodex now works seamlessly out of the box with the most important tools builders already use, like @SlackHQ, @Figma, @NotionHQ, @gmail, and more.\n\nhttp://developers.openai.com/codex/plugins",
+      "link": "https://twitter.com/OpenAIDevs/status/2037296316104282119#m",
+      "date": "2026-03-26T22:31:07",
+      "source": "@OpenAI",
+      "summary": "<p>We're rolling out plugins in Codex.<br />\n<br />\nCodex now works seamlessly out of the box with the most important tools builders already use, like <a href=\"https://nitter.net/SlackHQ\" title=\"Slack"
+    },
+    {
+      "title": "RT by @OpenAI: Meet Codex for Students.\n\nWe're offering college students in the U.S. and Canada $100 in Codex credits.\n\nOur goal is to support students to learn by building, breaking, and fixing things.\n\nhttp://chatgpt.com/codex/students",
+      "link": "https://twitter.com/OpenAIDevs/status/2035033703274201109#m",
+      "date": "2026-03-20T16:40:18",
+      "source": "@OpenAI",
+      "summary": "<p>Meet Codex for Students.<br />\n<br />\nWe're offering college students in the U.S. and Canada $100 in Codex credits.<br />\n<br />\nOur goal is to support students to learn by building, breaking, and "
+    },
+    {
+      "title": "GPT-5.4 mini is available today in ChatGPT, Codex, and the API.\n\nOptimized for coding, computer use, multimodal understanding, and subagents. And it’s 2x faster than GPT-5 mini.\n\nhttps://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+      "link": "https://twitter.com/OpenAI/status/2033953592424731072#m",
+      "date": "2026-03-17T17:08:20",
+      "source": "@OpenAI",
+      "summary": "<p>GPT-5.4 mini is available today in ChatGPT, Codex, and the API.<br />\n<br />\nOptimized for coding, computer use, multimodal understanding, and subagents. And it’s 2x faster than GPT-5 mini.<br />\n<"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Addendum : l'auteur nous dit aussi que le LLM \"mobilise les occurrences présentes dans ses bases d'entraînement\", laissant clairement entendre qu'il fouillerait dans ses \"bases de données\".\nC'est une idée totalement fausse, cf. l'article ci-dessous...\nhttps://x.com/Fabien_Mikol/status/1999046703463194979",
+      "link": "https://twitter.com/Fabien_Mikol/status/2037228176191934644#m",
+      "date": "2026-03-26T18:00:21",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Addendum : l'auteur nous dit aussi que le LLM \"mobilise les occurrences présentes dans ses bases d'entraînement\", laissant clairement entendre qu'il fouillerait dans ses \"bases de données\".<br />\nC"
+    },
+    {
+      "title": "R to @Fabien_Mikol: 3- \"L'IA générative a un impact extraordinairement négatif sur l'environnement\" (on en parlerait peu dans les médias!), et une \"empreinte carbone très significative\"...\nalors que ça ne représente rien en comparaison des transports/chauffage/alimentation ⤵️\nhttps://x.com/Fabien_Mikol/status/2012246092876751144",
+      "link": "https://twitter.com/Fabien_Mikol/status/2037223654883242272#m",
+      "date": "2026-03-26T17:42:23",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>3- \"L'IA générative a un impact extraordinairement négatif sur l'environnement\" (on en parlerait peu dans les médias!), et une \"empreinte carbone très significative\"...<br />\nalors que ça ne représ"
+    },
+    {
+      "title": "R to @Fabien_Mikol: 2- \"l'IA ne sera jamais capable de remplacer la créativité humaine\", qui demeure notre \"apanage\", car c'est une \"impossibilité par nature\" et une \"limitation fondamentale\" des IA...\nC'est beau cette certitude 🥲\nSinon on peut aussi écouter Oudeyer ⤵️\nhttps://x.com/Fabien_Mikol/status/2013386466567520347",
+      "link": "https://twitter.com/Fabien_Mikol/status/2037223651422986667#m",
+      "date": "2026-03-26T17:42:22",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>2- \"l'IA ne sera jamais capable de remplacer la créativité humaine\", qui demeure notre \"apanage\", car c'est une \"impossibilité par nature\" et une \"limitation fondamentale\" des IA...<br />\nC'est bea"
+    },
+    {
+      "title": "Un livre pour aider les juristes et étudiants en droit à utiliser l'IA vient de sortir. C'est très révélateur et je propose donc un fil exposant certains des \"pires\" passages 🧵\n1- Les IA par nature sont incapables de compréhension, de raisonnement logique et de démonstration 🤪",
+      "link": "https://twitter.com/Fabien_Mikol/status/2037223647786434985#m",
+      "date": "2026-03-26T17:42:22",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Un livre pour aider les juristes et étudiants en droit à utiliser l'IA vient de sortir. C'est très révélateur et je propose donc un fil exposant certains des \"pires\" passages 🧵<br />\n1- Les IA par "
+    },
+    {
+      "title": "🧠 Si l’IA automatise de plus en plus le travail intellectuel, à quoi serviront encore les universités ?\nMachine à produire diplômes et publications…\nou écosystème qui forme expertise, jugement et responsabilité ?\nUn article stimulant 👇\nhttps://theconversation.com/the-greatest-risk-of-ai-in-higher-education-isnt-cheating-its-the-erosion-of-learning-itself-270243\n#IA #Recherche",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2037213579384950959#m",
+      "date": "2026-03-26T17:02:21",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🧠 Si l’IA automatise de plus en plus le travail intellectuel, à quoi serviront encore les universités ?<br />\nMachine à produire diplômes et publications…<br />\nou écosystème qui forme expertise, j"
+    },
+    {
+      "title": "📊 Les ados utilisent déjà massivement l’IA :\n🔹 57 % pour chercher des infos\n🔹 54 % pour les devoirs\n🔹 59 % estiment que la triche avec l’IA est courante\nMais seuls 25 % se sentent confiants dans leurs usages.\nSource : Pew Research Center, 2025\nhttps://www.pewresearch.org/internet/2026/02/24/how-teens-use-and-view-ai/?utm_source=www.therundown.ai&utm_medium=newsletter&utm_campaign=the-new-top-banana-in-ai-image-generation&_bhlid=563afa60c6997c6230c9243fabbb43e9d4146d0d",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2033952057225294223#m",
+      "date": "2026-03-17T17:02:14",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>📊 Les ados utilisent déjà massivement l’IA :<br />\n🔹 57 % pour chercher des infos<br />\n🔹 54 % pour les devoirs<br />\n🔹 59 % estiment que la triche avec l’IA est courante<br />\nMais seuls 25 % se s"
+    },
+    {
       "title": "Video notes",
       "link": "https://www.uneiaparjour.fr/video-notes/",
       "date": "2026-03-25T21:21:59",
@@ -517,191 +699,9 @@
       "date": "2026-03-24T00:05:56",
       "source": "@Fabien_Mikol",
       "summary": "<p>Nouvel article sur les bonnes capacités \"créatives\" des LLM (ici, générer des idées de nouvelles fonctionnalités pour 10 produits du quotidien), évaluées même comme produisant des idées plus origin"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Sa préface est extrêmement creuse, et je suis à peu près persuadé que Julia n'a pas lu le livre, qui contredit à peu près totalement l'ensemble de son discours répété partout depuis des années... Regardez par vous-même : la préface de Julia, puis le propos de l'auteur lui-même ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036231108736483805#m",
-      "date": "2026-03-23T23:58:22",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Sa préface est extrêmement creuse, et je suis à peu près persuadé que Julia n'a pas lu le livre, qui contredit à peu près totalement l'ensemble de son discours répété partout depuis des années... R"
-    },
-    {
-      "title": "Ethan Mollick découvre que Luc Julia dit des choses complètement datées et déconnectées de la réalité. Mais le pire, c'est que je crains qu'il ignore que Luc Julia est l'auteur d'une (très mauvaise) préface pour la traduction française de son (très bon) bouquin...",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036231104730911040#m",
-      "date": "2026-03-23T23:58:21",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Ethan Mollick découvre que Luc Julia dit des choses complètement datées et déconnectées de la réalité. Mais le pire, c'est que je crains qu'il ignore que Luc Julia est l'auteur d'une (très mauvaise"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Bon bien sûr Claude s'appuie entre autres sur Wikipédia, donc mon reproche est un peu injuste, mais sa recherche multiplie les sources, y compris au sein de Wikipédia.\nPour finir, un autre exemple qui m'a bluffé : son explication des horribles massacres napoléoniens à Jaffa ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036190587259421068#m",
-      "date": "2026-03-23T21:17:21",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Bon bien sûr Claude s'appuie entre autres sur Wikipédia, donc mon reproche est un peu injuste, mais sa recherche multiplie les sources, y compris au sein de Wikipédia.<br />\nPour finir, un autre ex"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Souvent les AI sceptics disent \"attention ça hallucine tout le temps, et pourquoi ne pas simplement aller sur Wikipédia ?\"\nEh bien justement, si j'avais fait ça, j'ignorerais tout de l'antisémitisme eliminationniste du Kaiser. Et Claude remarque bien cette \"omission considérable\"",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036190584210169932#m",
-      "date": "2026-03-23T21:17:20",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Souvent les AI sceptics disent \"attention ça hallucine tout le temps, et pourquoi ne pas simplement aller sur Wikipédia ?\"<br />\nEh bien justement, si j'avais fait ça, j'ignorerais tout de l'antisé"
-    },
-    {
-      "title": "R to @Fabien_Mikol: En discutant avec Claude Opus j'ai eu droit à un petit cours personnalisé instructif sur l'antisémitisme éliminationniste pré-hitlérien, les débats historiographiques à ce sujet, la spécificité du Kaiser, les autres précurseurs... Et bien sûr le tout de manière interactive ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036190581186072952#m",
-      "date": "2026-03-23T21:17:19",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>En discutant avec Claude Opus j'ai eu droit à un petit cours personnalisé instructif sur l'antisémitisme éliminationniste pré-hitlérien, les débats historiographiques à ce sujet, la spécificité du "
-    },
-    {
-      "title": "En lisant Jérusalem de @simonmontefiore j'apprends que Guillaume II bien avant Hitler et le nazisme proposait déjà \"d'exterminer les Juifs en les gazant\".\nC'est un exemple parfait pour montrer la supériorité d'un bon LLM par rapport à Wikipédia pour accompagner la lecture.\nFil 🧵",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036190577415299194#m",
-      "date": "2026-03-23T21:17:18",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>En lisant Jérusalem de <a href=\"https://nitter.net/simonmontefiore\" title=\"S Sebag Montefiore\">@simonmontefiore</a> j'apprends que Guillaume II bien avant Hitler et le nazisme proposait déjà \"d'ext"
-    },
-    {
-      "title": "R to @davidneiladam: C'est pas du tout une \"revue\" du livre, c'est un résumé complaisant et insipide entrecoupé de sous-titres sous forme interrogative, c'est ce qui m'a induit en erreur 😅\nPas super classe de la part de Nature.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036142333012386133#m",
-      "date": "2026-03-23T18:05:36",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>C'est pas du tout une \"revue\" du livre, c'est un résumé complaisant et insipide entrecoupé de sous-titres sous forme interrogative, c'est ce qui m'a induit en erreur 😅<br />\nPas super classe de la "
-    },
-    {
-      "title": "R to @Fabien_Mikol: C'est assez triste, il n'y a pas grand chose d'autre à relever, on ne trouve pas de véritables arguments ni références.\nTout cet entretien qui semble rédigé par un vieux et médiocre LLM est justifié par la sortie de la traduction anglaise de son livre :\nhttps://x.com/Fabien_Mikol/status/2018022610441826642",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036135797783462272#m",
-      "date": "2026-03-23T17:39:38",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>C'est assez triste, il n'y a pas grand chose d'autre à relever, on ne trouve pas de véritables arguments ni références.<br />\nTout cet entretien qui semble rédigé par un vieux et médiocre LLM est j"
-    },
-    {
-      "title": "« L’IA n’est qu’un perroquet statistique. »\nLa formule est populaire… mais trompeuse.\nLes modèles prédisent des mots... mais ils développent aussi des représentations internes complexes et peuvent inférer certaines intentions humaines.\nhttps://sydologie.com/2026/02/comprendre-le-fonctionnement-de-lia-en-termes-simples/?utm_source=substack&utm_medium=email",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2036126239363039510#m",
-      "date": "2026-03-23T17:01:39",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>« L’IA n’est qu’un perroquet statistique. »<br />\nLa formule est populaire… mais trompeuse.<br />\nLes modèles prédisent des mots... mais ils développent aussi des représentations internes complexes"
-    },
-    {
-      "title": "Heureux et honoré de participer au Forum Éducation et innovation pédagogique aux côtés de collègues aussi talentueux que prestigieux.\nAu programme : Enseigner à l’ère de l’IA : opportunités, défis et pratiques concrètes\n👉 Inscriptions : https://forumeduceic.fr/\n#Éducation #IA",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2034314187594183025#m",
-      "date": "2026-03-18T17:01:12",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Heureux et honoré de participer au Forum Éducation et innovation pédagogique aux côtés de collègues aussi talentueux que prestigieux.<br />\nAu programme : Enseigner à l’ère de l’IA : opportunités, "
-    },
-    {
-      "title": "💬 « Former des humains de premier ordre, pas des robots de second ordre. » — Andreas Schleicher\nFace à l’IA, les universités développent de nouveaux cursus et outils pédagogiques.\n🔗 https://www.lemonde.fr/campus/article/2026/03/01/intelligence-artificielle-l-enseignement-superieur-au-defi-de-former-des-generations-d-etudiants_6668754_4401467.html\n#IA #EnseignementSupérieur #Éducation",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2032502525207728613#m",
-      "date": "2026-03-13T17:02:18",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>💬 « Former des humains de premier ordre, pas des robots de second ordre. » — Andreas Schleicher<br />\nFace à l’IA, les universités développent de nouveaux cursus et outils pédagogiques.<br />\n🔗 <a "
-    },
-    {
-      "title": "🇫🇷 Depuis New Delhi, Anne Le Hénanff lance un appel international à contributions scientifiques sur les effets de l’IA générative sur les mineurs.\nObjectif : évaluer les risques et proposer des normes communes dans le cadre du G7.\n🔗 https://ambafrance.org/Effets-des-usages-de-l-IA-generative-sur-les-mineurs-lancement-d-un-appel?xtor=RSS-1 \n#IA #G7",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2032140158519124096#m",
-      "date": "2026-03-12T17:02:23",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🇫🇷 Depuis New Delhi, Anne Le Hénanff lance un appel international à contributions scientifiques sur les effets de l’IA générative sur les mineurs.<br />\nObjectif : évaluer les risques et proposer d"
-    },
-    {
-      "title": "From model to agent: Equipping the Responses API with a computer environment",
-      "link": "https://openai.com/index/equip-responses-api-computer-environment",
-      "date": "2026-03-11T11:00:00",
-      "source": "OpenAI Blog",
-      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state."
-    },
-    {
-      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-      "link": "https://openai.com/index/wayfair",
-      "date": "2026-03-11T11:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale."
-    },
-    {
-      "title": "Bringing the power of Personal Intelligence to more people",
-      "link": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
-      "date": "2026-03-17T16:00:00",
-      "source": "Google AI",
-      "summary": "Bubble that says \"Personal Intelligence\" with Google G, Google Photos logo, and Gmail logo around it"
-    },
-    {
-      "title": "Our latest investment in open source security for the AI era",
-      "link": "https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/",
-      "date": "2026-03-17T16:00:00",
-      "source": "Google AI",
-      "summary": "A collage including security icons and photos of hands clasped, a man looking at a computer, and two people pointing at something off camera"
-    },
-    {
-      "title": "How AI is helping improve heart health in rural Australia",
-      "link": "https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/",
-      "date": "2026-03-12T15:00:00",
-      "source": "Google AI",
-      "summary": "A doctor is sitting across a desk from a patient. The doctor is holding a tablet and a pen. Medical charts renderings are in the background."
-    },
-    {
-      "title": "Ask a Techspert: How does AI understand my visual searches?",
-      "link": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
-      "date": "2026-03-05T18:00:00",
-      "source": "Google AI",
-      "summary": "Mobile phone with a search bar that says \"Ask anything\""
-    },
-    {
-      "title": "The latest AI news we announced in February",
-      "link": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/",
-      "date": "2026-03-05T16:30:00",
-      "source": "Google AI",
-      "summary": "an MP4 of a carousel with images reading \"Gemini 3.1 Pro\" and \"Nano Banana 2\""
-    },
-    {
-      "title": "Gemini prend ses aises et critique mes erreurs de frappe ! 🤣",
-      "link": "https://twitter.com/nsi_xyz/status/2035748882177573367#m",
-      "date": "2026-03-22T16:02:10",
-      "source": "@nsi_xyz",
-      "summary": "<p>Gemini prend ses aises et critique mes erreurs de frappe ! 🤣</p>\n<img src=\"https://nitter.net/pic/media%2FHEBu0hpXIAAk_ch.jpg\" />"
-    },
-    {
-      "title": "L’enjeu n’est pas de “motiver” artificiellement les élèves, mais de construire un cadre qui soutienne leur engagement et leurs progrès. Une approche utile, appuyée sur la recherche, mise en avant par le #CSEN https://www.reseau-canope.fr/conseil-scientifique-de-leducation-nationale-site-officiel/publications-et-ressources/boite-a-idees-du-csen.html #Education #Enseignement #Recherche",
-      "link": "https://twitter.com/sophiaefrance/status/2035955966944887097#m",
-      "date": "2026-03-23T05:45:03",
-      "source": "@sophiaefrance",
-      "summary": "<p>L’enjeu n’est pas de “motiver” artificiellement les élèves, mais de construire un cadre qui soutienne leur engagement et leurs progrès. Une approche utile, appuyée sur la recherche, mise en avant p"
-    },
-    {
-      "title": "The open source ecosystem underpins nearly every software system in the world. As AI grows more capable, open source security becomes increasingly important.\n\nWe're donating to the Linux Foundation to continue to help secure the foundations AI runs on.",
-      "link": "https://twitter.com/AnthropicAI/status/2033939283313402138#m",
-      "date": "2026-03-17T16:11:28",
-      "source": "@AnthropicAI",
-      "summary": "<p>The open source ecosystem underpins nearly every software system in the world. As AI grows more capable, open source security becomes increasingly important.<br />\n<br />\nWe're donating to the Linu"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Poke @McRogueD @FredericEncel @BrunoTertrais @DrLiz16 @mapirzadeh @MayaKhadra @ThermeClement @FaridVahiid @arminarefi @EmmanuelRuimy @JZefka @halteconnerie @InfoEquitable @frog_of_war @sarah_scialom @cohaerentiat \n\nSource :\nhttps://www.radiofrance.fr/franceinter/podcasts/le-journal-de-13h-du-week-end",
-      "link": "https://twitter.com/Fabien_Mikol/status/2035721284248621156#m",
-      "date": "2026-03-22T14:12:30",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Poke <a href=\"https://nitter.net/McRogueD\" title=\"Guy\">@McRogueD</a> <a href=\"https://nitter.net/FredericEncel\" title=\"Frédéric Encel\">@FredericEncel</a> <a href=\"https://nitter.net/BrunoTertrais\" "
-    },
-    {
-      "title": "R to @Fabien_Mikol: J'ai l'impression que son \"argument\" principal pour nier toute compréhension des LLM vient du phénomène de tokenisation des mots. C'est un truc étrange qu'on retrouve aussi chez Laurence Devillers (mais à un niveau tout de même bien moins hallucinant) :\nhttps://x.com/Fabien_Mikol/status/2025516802294358123",
-      "link": "https://twitter.com/Fabien_Mikol/status/2035712246161006680#m",
-      "date": "2026-03-22T13:36:35",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>J'ai l'impression que son \"argument\" principal pour nier toute compréhension des LLM vient du phénomène de tokenisation des mots. C'est un truc étrange qu'on retrouve aussi chez Laurence Devillers "
-    },
-    {
-      "title": "R to @Fabien_Mikol: Oui LLM veut dire apparemment \"language learning management\". Il croit qu'il y a une base de données. Il confond l'entraînement (pretraining devient \"prétraitement\" !) et le fonctionnement du modèle. On finit sur du mysticisme... Et il fait des confs \"pédagogiques\" partout 🤯",
-      "link": "https://twitter.com/Fabien_Mikol/status/2035712242847457413#m",
-      "date": "2026-03-22T13:36:35",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Oui LLM veut dire apparemment \"language learning management\". Il croit qu'il y a une base de données. Il confond l'entraînement (pretraining devient \"prétraitement\" !) et le fonctionnement du modèl"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Il évoque notamment les \"prises d'initiative\" par les agents, quand un Luc Julia ne cesse de répéter qu'il ne s'agit jamais que de marteaux dont nous \"tenons le manche\"...\nOn peut écouter notamment l'intervention récente de Yoshua Bengio sur France Inter :\nhttps://x.com/Fabien_Mikol/status/2026969227165405356",
-      "link": "https://twitter.com/Fabien_Mikol/status/2035683197313303024#m",
-      "date": "2026-03-22T11:41:10",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Il évoque notamment les \"prises d'initiative\" par les agents, quand un Luc Julia ne cesse de répéter qu'il ne s'agit jamais que de marteaux dont nous \"tenons le manche\"...<br />\nOn peut écouter not"
     }
   ],
-  "last_update": "2026-03-26T08:43:41.523888",
+  "last_update": "2026-03-27T08:40:33.637500",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
