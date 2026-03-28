@@ -1,6 +1,153 @@
 {
   "articles": [
     {
+      "title": "Thaura",
+      "link": "https://www.uneiaparjour.fr/thaura/",
+      "date": "2026-03-27T22:22:58",
+      "source": "Une IA par jour",
+      "summary": "Thaura (https://thaura.ai/), « révolution » en arabe, est un chatbot éthique, frugal, engagé&#8230; et très complet. Développé par deux développeur syrians et basé sur GLM 4.5, il n&#8217;utilise que "
+    },
+    {
+      "title": "STADLER reshapes knowledge work at a 230-year-old company",
+      "link": "https://openai.com/index/stadler",
+      "date": "2026-03-27T22:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees."
+    },
+    {
+      "title": "Bringing the power of Personal Intelligence to more people",
+      "link": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
+      "date": "2026-03-17T16:00:00",
+      "source": "Google AI",
+      "summary": "Bubble that says \"Personal Intelligence\" with Google G, Google Photos logo, and Gmail logo around it"
+    },
+    {
+      "title": "Our latest investment in open source security for the AI era",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/",
+      "date": "2026-03-17T16:00:00",
+      "source": "Google AI",
+      "summary": "A collage including security icons and photos of hands clasped, a man looking at a computer, and two people pointing at something off camera"
+    },
+    {
+      "title": "How AI is helping improve heart health in rural Australia",
+      "link": "https://blog.google/innovation-and-ai/technology/health/google-ai-heart-health-australia/",
+      "date": "2026-03-12T15:00:00",
+      "source": "Google AI",
+      "summary": "A doctor is sitting across a desk from a patient. The doctor is holding a tablet and a pen. Medical charts renderings are in the background."
+    },
+    {
+      "title": "Gemini prend ses aises et critique mes erreurs de frappe ! 🤣",
+      "link": "https://twitter.com/nsi_xyz/status/2035748882177573367#m",
+      "date": "2026-03-22T16:02:10",
+      "source": "@nsi_xyz",
+      "summary": "<p>Gemini prend ses aises et critique mes erreurs de frappe ! 🤣</p>\n<img src=\"https://nitter.net/pic/media%2FHEBu0hpXIAAk_ch.jpg\" />"
+    },
+    {
+      "title": "⭐ Vous cherchez des pistes concrètes pour mieux accompagner les élèves en difficultés ? Le #digipad L’Inclusive est une ressource à garder sous la main. Les fiches sont claires, très pratiques et immédiatement exploitables en classe.\nhttps://digipad.app/p/724127/08cabb656fb3f \n✍️ @IncluDijon",
+      "link": "https://twitter.com/sophiaefrance/status/2037482269129003226#m",
+      "date": "2026-03-27T10:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>⭐ Vous cherchez des pistes concrètes pour mieux accompagner les élèves en difficultés ? Le <a href=\"https://nitter.net/search?f=tweets&amp;q=%23digipad\">#digipad</a> L’Inclusive est une ressource à"
+    },
+    {
+      "title": "L’enjeu n’est pas de “motiver” artificiellement les élèves, mais de construire un cadre qui soutienne leur engagement et leurs progrès. Une approche utile, appuyée sur la recherche, mise en avant par le #CSEN https://www.reseau-canope.fr/conseil-scientifique-de-leducation-nationale-site-officiel/publications-et-ressources/boite-a-idees-du-csen.html #Education #Enseignement #Recherche",
+      "link": "https://twitter.com/sophiaefrance/status/2035955966944887097#m",
+      "date": "2026-03-23T05:45:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>L’enjeu n’est pas de “motiver” artificiellement les élèves, mais de construire un cadre qui soutienne leur engagement et leurs progrès. Une approche utile, appuyée sur la recherche, mise en avant p"
+    },
+    {
+      "title": "Mistral AI is headed to San Jose for @NVIDIA GTC! 🚀\nWe’re demoing our newest frontier models, sharing our vision for the future of enterprise AI, and unveiling some big news you won't want to miss.\n\n📍 Visit us to see the latest innovations in action.\n🗓️ Check out our sessions and book a meeting:  link in 🧵",
+      "link": "https://twitter.com/MistralAI/status/2031838391847764010#m",
+      "date": "2026-03-11T21:03:17",
+      "source": "@MistralAI",
+      "summary": "<p>Mistral AI is headed to San Jose for <a href=\"https://nitter.net/NVIDIA\" title=\"NVIDIA\">@NVIDIA</a> GTC! 🚀<br />\nWe’re demoing our newest frontier models, sharing our vision for the future of enter"
+    },
+    {
+      "title": "R to @OpenAI: GPT-5.4 nano is is also available starting today in the API.",
+      "link": "https://twitter.com/OpenAI/status/2033953595637538849#m",
+      "date": "2026-03-17T17:08:20",
+      "source": "@OpenAI",
+      "summary": "<p>GPT-5.4 nano is is also available starting today in the API.</p>"
+    },
+    {
+      "title": "R to @Fabien_Mikol: En tout cas ça fait plaisir de voir au moins un magazine scientifique faire son taff. Sciences & Vie et Science & Avenir ne valent grand chose. Et La Recherche malheureusement s'est choisi Jean-Gabriel Ganascia comme chroniqueur régulier 🙄\nhttps://www.epsiloon.com/site/epsiloon/cerveau@992@/fr/kiosque/article.html",
+      "link": "https://twitter.com/Fabien_Mikol/status/2037636517707874577#m",
+      "date": "2026-03-27T21:02:57",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>En tout cas ça fait plaisir de voir au moins un magazine scientifique faire son taff. Sciences &amp; Vie et Science &amp; Avenir ne valent grand chose. Et La Recherche malheureusement s'est choisi "
+    },
+    {
+      "title": "R to @Fabien_Mikol: Sur ce même sujet, je conseille cette très bonne conférence de Stanislas Dehaene au Collège de France :\nhttps://x.com/Fabien_Mikol/status/2001989334636154924",
+      "link": "https://twitter.com/Fabien_Mikol/status/2037636515778417124#m",
+      "date": "2026-03-27T21:02:57",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Sur ce même sujet, je conseille cette très bonne conférence de Stanislas Dehaene au Collège de France :<br />\n<a href=\"https://nitter.net/Fabien_Mikol/status/2001989334636154924\">nitter.net/Fabien_"
+    },
+    {
+      "title": "Il y a un magazine scientifique en France qui prend au sérieux les avancées en IA, c'est Epsiloon. Très bon dossier dans leur dernier numéro sur les convergences fascinantes entre réseaux de neurones artificiels et cerveau humain. Je mets quelques bons extraits ci-dessous ⤵️",
+      "link": "https://twitter.com/Fabien_Mikol/status/2037636512481714393#m",
+      "date": "2026-03-27T21:02:56",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Il y a un magazine scientifique en France qui prend au sérieux les avancées en IA, c'est Epsiloon. Très bon dossier dans leur dernier numéro sur les convergences fascinantes entre réseaux de neuron"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Pour rappel, Villani lui-même n'utilise pas l'IA dans son travail\nhttps://x.com/Fabien_Mikol/status/2009269946891550996",
+      "link": "https://twitter.com/Fabien_Mikol/status/2037599701915013148#m",
+      "date": "2026-03-27T18:36:40",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Pour rappel, Villani lui-même n'utilise pas l'IA dans son travail<br />\n<a href=\"https://nitter.net/Fabien_Mikol/status/2009269946891550996\">nitter.net/Fabien_Mikol/status/20…</a></p>\n<hr />\n<block"
+    },
+    {
+      "title": "La mairie de Montpellier vient de mettre en ligne la vidéo de sa Convention citoyenne sur l'IA, qui avait invité Cédric Villani comme expert référent. Il y expliquait que l'IA \"n'est pas de l'intelligence, que ce soit dit une fois pour toute\", car ce ne sont que des algorithmes.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2037598311314530552#m",
+      "date": "2026-03-27T18:31:08",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>La mairie de Montpellier vient de mettre en ligne la vidéo de sa Convention citoyenne sur l'IA, qui avait invité Cédric Villani comme expert référent. Il y expliquait que l'IA \"n'est pas de l'intel"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Source :\nhttps://videos.assemblee-nationale.fr/video.18489560_69c4e57f9c55d.mission-d-information-sur-l-intelligence-artificielle--m-andre-markowicz-traducteur-editeur-poe-26-mars-2026",
+      "link": "https://twitter.com/Fabien_Mikol/status/2037570853500588214#m",
+      "date": "2026-03-27T16:42:02",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Source :<br />\n<a href=\"https://videos.assemblee-nationale.fr/video.18489560_69c4e57f9c55d.mission-d-information-sur-l-intelligence-artificielle--m-andre-markowicz-traducteur-editeur-poe-26-mars-20"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Bref, on sent qu'il y a un réel souci d'écouter ceux qui utilisent vraiment l'IA au quotidien, c'est rassurant n'est-ce pas...\nEt cette histoire du mot \"intelligence\" qui dans IA signifierait \"information\" est incroyable dans la bouche d'un traducteur 😳\nhttps://x.com/Fabien_Mikol/status/2012653990039720439",
+      "link": "https://twitter.com/Fabien_Mikol/status/2037570113705013728#m",
+      "date": "2026-03-27T16:39:05",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Bref, on sent qu'il y a un réel souci d'écouter ceux qui utilisent vraiment l'IA au quotidien, c'est rassurant n'est-ce pas...<br />\nEt cette histoire du mot \"intelligence\" qui dans IA signifierait"
+    },
+    {
+      "title": "La Mission d'information sur l'IA se poursuit à l'Assemblée. Ils ont invité le traducteur André Markowicz qui, déclare n'utiliser jamais l'IA pour son travail. Ils lui demandent quand même d'expliquer les défauts de l'IA 🙃\nEt il reprend le hoax \"intelligence\" = \"information\" 😑",
+      "link": "https://twitter.com/Fabien_Mikol/status/2037570111624696299#m",
+      "date": "2026-03-27T16:39:05",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>La Mission d'information sur l'IA se poursuit à l'Assemblée. Ils ont invité le traducteur André Markowicz qui, déclare n'utiliser jamais l'IA pour son travail. Ils lui demandent quand même d'expliq"
+    },
+    {
+      "title": "🧠 L’IA peut désormais rédiger des devoirs, résoudre des exercices ou coder.\nAlors comment évaluer réellement les élèves?\nUne revue de 56 études propose plusieurs pistes :\n✔️ évaluations par étapes\n✔️ oraux\n✔️ tâches authentiques\n🔗 https://link.springer.com/article/10.1007/s43681-025-00871-w\n#IA #Évaluation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2037575876968095788#m",
+      "date": "2026-03-27T17:02:00",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🧠 L’IA peut désormais rédiger des devoirs, résoudre des exercices ou coder.<br />\nAlors comment évaluer réellement les élèves?<br />\nUne revue de 56 études propose plusieurs pistes :<br />\n✔️ évalu"
+    },
+    {
+      "title": "« L’IA n’est qu’un perroquet statistique. »\nLa formule est populaire… mais trompeuse.\nLes modèles prédisent des mots... mais ils développent aussi des représentations internes complexes et peuvent inférer certaines intentions humaines.\nhttps://sydologie.com/2026/02/comprendre-le-fonctionnement-de-lia-en-termes-simples/?utm_source=substack&utm_medium=email",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2036126239363039510#m",
+      "date": "2026-03-23T17:01:39",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>« L’IA n’est qu’un perroquet statistique. »<br />\nLa formule est populaire… mais trompeuse.<br />\nLes modèles prédisent des mots... mais ils développent aussi des représentations internes complexes"
+    },
+    {
+      "title": "Heureux et honoré de participer au Forum Éducation et innovation pédagogique aux côtés de collègues aussi talentueux que prestigieux.\nAu programme : Enseigner à l’ère de l’IA : opportunités, défis et pratiques concrètes\n👉 Inscriptions : https://forumeduceic.fr/\n#Éducation #IA",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2034314187594183025#m",
+      "date": "2026-03-18T17:01:12",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Heureux et honoré de participer au Forum Éducation et innovation pédagogique aux côtés de collègues aussi talentueux que prestigieux.<br />\nAu programme : Enseigner à l’ère de l’IA : opportunités, "
+    },
+    {
       "title": "Public ai",
       "link": "https://www.uneiaparjour.fr/public-ai/",
       "date": "2026-03-26T22:13:02",
@@ -552,156 +699,9 @@
       "date": "2026-03-24T15:12:50",
       "source": "@Fabien_Mikol",
       "summary": "<p>Nos militant-es ont été agressé-es aux cris de \"sionistes, fascistes, hors de nos facs\" et \"génocidaires\" alors qu'iels tenaient une table pour sensibiliser à la lutte contre l'antisémitisme à l'un"
-    },
-    {
-      "title": "Excellent texte de l'anthropologue Pascal Boyer ci-dessous sur la \"panique morale de la désinformation\".\nCeci a des conséquences sur la perception des problèmes posés par l'intelligence artificielle : les craintes envers la désinformation dépassent largement toutes les autres.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036473691882520748#m",
-      "date": "2026-03-24T16:02:18",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Excellent texte de l'anthropologue Pascal Boyer ci-dessous sur la \"panique morale de la désinformation\".<br />\nCeci a des conséquences sur la perception des problèmes posés par l'intelligence artif"
-    },
-    {
-      "title": "Hervé Le Tellier (Goncourt 2020) : \"on retrouve dans ce dernier chapitre [fait par IA] toutes les caractéristiques du dernier Flaubert. [...] l'ironie est mordante, la précision est scientifique [...] et un usage foudroyant de la formule\". Certains passages l'ont laissé \"pantois\"",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036443031142875430#m",
-      "date": "2026-03-24T14:00:28",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Hervé Le Tellier (Goncourt 2020) : \"on retrouve dans ce dernier chapitre [fait par IA] toutes les caractéristiques du dernier Flaubert. [...] l'ironie est mordante, la précision est scientifique [."
-    },
-    {
-      "title": "R to @GaelLombart: Avant qu'on me tombe dessus : oui bien sûr ce risque est infime pour les LLM actuels, on pense principalement aux IA futures, et oui c'est un vrai sujet même si ça en fait ricaner plus d'un\nhttps://x.com/Fabien_Mikol/status/2016507213691408824",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036438524673524053#m",
-      "date": "2026-03-24T13:42:34",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Avant qu'on me tombe dessus : oui bien sûr ce risque est infime pour les LLM actuels, on pense principalement aux IA futures, et oui c'est un vrai sujet même si ça en fait ricaner plus d'un<br />\n<"
-    },
-    {
-      "title": "François Kammerer (CNRS): \"Le premier risque, c'est qu'on crée des IA conscientes, donc capables de souffrir, et qu'on l'ignore ou qu'on ne s'en soucie pas. Ce serait une sorte de catastrophe morale\".\nOui on parle sans cesse du \"risque d'anthropomorphiser\" mais on oublie celui-ci",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036437983969120395#m",
-      "date": "2026-03-24T13:40:25",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>François Kammerer (CNRS): \"Le premier risque, c'est qu'on crée des IA conscientes, donc capables de souffrir, et qu'on l'ignore ou qu'on ne s'en soucie pas. Ce serait une sorte de catastrophe moral"
-    },
-    {
-      "title": "R to @Fabien_Mikol: C'était tout à fait clair dans ce débat surréaliste sur le sujet, Ganascia se contente de dépêches AFP qu'il ne comprend même pas vraiment. Et toutes ses autres interventions confirment qu'il ne s'est JAMAIS mis à jour...\nhttps://x.com/Fabien_Mikol/status/1998519388346134839",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036436337553817634#m",
-      "date": "2026-03-24T13:33:52",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>C'était tout à fait clair dans ce débat surréaliste sur le sujet, Ganascia se contente de dépêches AFP qu'il ne comprend même pas vraiment. Et toutes ses autres interventions confirment qu'il ne s'"
-    },
-    {
-      "title": "Le premier expert interrogé sur les études Anthropic par @GaelLombart pour Le Parisien est... Jean-Gabriel Ganascia (puis Devillers !)\nCe n'est pas possible, il faut réaliser qu'il ne lit absolument pas les publications, contrairement à ce qu'il raconte ! Cf. mon 2e tweet 😩",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036436334525514122#m",
-      "date": "2026-03-24T13:33:51",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Le premier expert interrogé sur les études Anthropic par <a href=\"https://nitter.net/GaelLombart\" title=\"Gaël Lombart\">@GaelLombart</a> pour Le Parisien est... Jean-Gabriel Ganascia (puis Devillers"
-    },
-    {
-      "title": "Même feedback.\nMais les étudiants travaillent davantage quand ils pensent qu’un humain les lit. \nConclusion : la performance technique ne suffit pas. L’IA peut soutenir la correction, mais elle ne remplace pas la relation pédagogique.\n🔗 https://arxiv.org/pdf/2602.11311 \n#IA #Évaluation",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2036488705477685683#m",
-      "date": "2026-03-24T17:01:58",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Même feedback.<br />\nMais les étudiants travaillent davantage quand ils pensent qu’un humain les lit. <br />\nConclusion : la performance technique ne suffit pas. L’IA peut soutenir la correction, m"
-    },
-    {
-      "title": "📊 L’IA améliore-t-elle vraiment l’apprentissage ?\nUne méthode propose de mesurer non seulement les notes, mais aussi :\n✔️ engagement\n✔️ persévérance\n✔️ métacognition\n✔️ motivation\n⚠️ Des résultats prometteurs… à confirmer !\n🔗 https://openai.com/index/understanding-ai-and-learning-outcomes/?utm_source=www.therundown.ai&utm_medium=newsletter&utm_campaign=amodei-torches-openai-in-leaked-memo&_bhlid=20d7d69a7eb8ec080fc5c52a21463e587eb9af9d",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2034676805374718142#m",
-      "date": "2026-03-19T17:02:07",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>📊 L’IA améliore-t-elle vraiment l’apprentissage ?<br />\nUne méthode propose de mesurer non seulement les notes, mais aussi :<br />\n✔️ engagement<br />\n✔️ persévérance<br />\n✔️ métacognition<br />\n✔"
-    },
-    {
-      "title": "Exerciseur sur la linéarité dans un tableau de proportionnalité",
-      "link": "https://mathix.org/linux/archives/22148",
-      "date": "2026-03-11T13:11:44",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Voici un exerciseur sur la proportionnalité (entier, décimaux et problème de proportionnalité), pour des élèves de 6eme. On peut uniquement travailler la linéarité (pas de c"
-    },
-    {
-      "title": "Creating with Sora Safely",
-      "link": "https://openai.com/index/creating-with-sora-safely",
-      "date": "2026-03-23T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approac"
-    },
-    {
-      "title": "Introducing GPT-5.4 mini and nano",
-      "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
-      "date": "2026-03-17T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads."
-    },
-    {
-      "title": "Equipping workers with insights about compensation",
-      "link": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
-      "date": "2026-03-17T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap."
-    },
-    {
-      "title": "Rakuten fixes issues twice as fast with Codex",
-      "link": "https://openai.com/index/rakuten",
-      "date": "2026-03-11T13:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Rakuten uses Codex, the coding agent from OpenAI, to ship software faster and safer, reducing MTTR 50%, automating CI/CD reviews, and delivering full-stack builds in weeks."
-    },
-    {
-      "title": "Designing AI agents to resist prompt injection",
-      "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "date": "2026-03-11T11:30:00",
-      "source": "OpenAI Blog",
-      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows."
-    },
-    {
-      "title": "RT by @nsi_xyz: \"J'ai un travail manuel l'IA ne va pas me mettre au chômage\"",
-      "link": "https://twitter.com/LeBunkerBtc/status/2036113113586536596#m",
-      "date": "2026-03-23T16:09:30",
-      "source": "@nsi_xyz",
-      "summary": "<p>\"J'ai un travail manuel l'IA ne va pas me mettre au chômage\"</p>\n<a href=\"https://nitter.net/LeBunkerBtc/status/2036113113586536596#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_"
-    },
-    {
-      "title": "R to @AnthropicAI: Models keep improving on long-horizon tasks, but splitting work across many agents doesn’t suit every problem. \n\nWe walk through the setup for a single agent working sequentially on a task where mistakes compound: modeling the early universe. \n\nRead more:\nhttps://www.anthropic.com/research/long-running-Claude",
-      "link": "https://twitter.com/AnthropicAI/status/2036179045143158925#m",
-      "date": "2026-03-23T20:31:29",
-      "source": "@AnthropicAI",
-      "summary": "<p>Models keep improving on long-horizon tasks, but splitting work across many agents doesn’t suit every problem. <br />\n<br />\nWe walk through the setup for a single agent working sequentially on a t"
-    },
-    {
-      "title": "R to @AnthropicAI: We’re launching with two new posts.\n\nCan AI do theoretical physics? \n\nHarvard physicist Matthew Schwartz led Claude Opus 4.5 through a graduate-level calculation. AI can’t yet do original work autonomously, but it can vastly accelerate it. \n\nRead more: https://www.anthropic.com/research/vibe-physics",
-      "link": "https://twitter.com/AnthropicAI/status/2036179043377418553#m",
-      "date": "2026-03-23T20:31:28",
-      "source": "@AnthropicAI",
-      "summary": "<p>We’re launching with two new posts.<br />\n<br />\nCan AI do theoretical physics? <br />\n<br />\nHarvard physicist Matthew Schwartz led Claude Opus 4.5 through a graduate-level calculation. AI can’t y"
-    },
-    {
-      "title": "Introducing the Anthropic Science Blog.\n\nIncreasing the pace of scientific progress is a core part of Anthropic’s mission. The Science Blog will feature new research and stories of how scientists are using AI to accelerate their work.\n\nRead the intro: https://www.anthropic.com/research/introducing-anthropic-science",
-      "link": "https://twitter.com/AnthropicAI/status/2036179042081317370#m",
-      "date": "2026-03-23T20:31:28",
-      "source": "@AnthropicAI",
-      "summary": "<p>Introducing the Anthropic Science Blog.<br />\n<br />\nIncreasing the pace of scientific progress is a core part of Anthropic’s mission. The Science Blog will feature new research and stories of how "
-    },
-    {
-      "title": "📢 Introducing the AI Now Summit, Mistral AI’s first-ever flagship event!\n\n🎯 One day, one mission: Own your AI transformation.\n📍 Paris | May 28\n\nJoin us to learn how AI is transforming leading organisations and hear from global CEOs and Mistral’s founders on:\n\n✅ Using open source as a core for end-to-end AI transformations \n✅ Scaling from pilots to production deployments \n✅ Building AI infrastructure for enterprise-grade deployments \n✅ The latest in robotics, VLMs, and multimodal AI\n\nLearn more and get notified when tickets go live → https://ainowsummit.com/",
-      "link": "https://twitter.com/MistralAI/status/2032094267640869085#m",
-      "date": "2026-03-12T14:00:02",
-      "source": "@MistralAI",
-      "summary": "<p>📢 Introducing the AI Now Summit, Mistral AI’s first-ever flagship event!<br />\n<br />\n🎯 One day, one mission: Own your AI transformation.<br />\n📍 Paris | May 28<br />\n<br />\nJoin us to learn how AI"
-    },
-    {
-      "title": "Are you up for a challenge? \n\nhttp://openai.com/parameter-golf",
-      "link": "https://twitter.com/OpenAI/status/2034315401438580953#m",
-      "date": "2026-03-18T17:06:02",
-      "source": "@OpenAI",
-      "summary": "<p>Are you up for a challenge? <br />\n<br />\n<a href=\"http://openai.com/parameter-golf\">openai.com/parameter-golf</a></p>\n<a href=\"https://nitter.net/OpenAI/status/2034315401438580953#m\">\n<br />Video<"
-    },
-    {
-      "title": "Nouvel article sur les bonnes capacités \"créatives\" des LLM (ici, générer des idées de nouvelles fonctionnalités pour 10 produits du quotidien), évaluées même comme produisant des idées plus originales que celles des humains. Et il s'agit déjà d'anciens modèles... 😗",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036233011834814516#m",
-      "date": "2026-03-24T00:05:56",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Nouvel article sur les bonnes capacités \"créatives\" des LLM (ici, générer des idées de nouvelles fonctionnalités pour 10 produits du quotidien), évaluées même comme produisant des idées plus origin"
     }
   ],
-  "last_update": "2026-03-27T08:40:33.637500",
+  "last_update": "2026-03-28T08:28:38.077017",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
