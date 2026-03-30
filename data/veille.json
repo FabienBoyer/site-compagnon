@@ -1,6 +1,153 @@
 {
   "articles": [
     {
+      "title": "Albert est le 31 élève",
+      "link": "https://mathix.org/linux/archives/22170",
+      "date": "2026-03-30T06:34:00",
+      "source": "Mathix (A. Durand)",
+      "summary": "Il y a quelque temps, je partageais ici les premiers pas d&#8217;Albert, ce « 31ème élève » virtuel qui a rejoint ma classe de 3ème. Si les premières expérimentations tournaient autour de la faisabili"
+    },
+    {
+      "title": "IA & Éducation : pourquoi je (re)mets mon diaporama à disposition.",
+      "link": "https://mathix.org/linux/archives/22128",
+      "date": "2026-03-01T16:35:54",
+      "source": "Mathix (A. Durand)",
+      "summary": "Depuis un an, j’anime des FIL IA auprès d’équipes d’établissements. En un an, le paysage a profondément évolué. Les modèles de langage se sont perfectionnés.Le cadrage institutionnel s’est précisé.Les"
+    },
+    {
+      "title": "Partage de pratiques avec l’APMEP au Mans",
+      "link": "https://mathix.org/linux/archives/22092",
+      "date": "2026-02-11T17:22:07",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Et bien voilà j&#8217;ai fait un partage de pratique et de réflexion pour l&#8217;APMEP au Lycée Malraux au Mans. Sophie DESRUELLE présentait « Match Line » , je présentais "
+    },
+    {
+      "title": "Helping disaster response teams turn AI into action across Asia",
+      "link": "https://openai.com/index/helping-disaster-response-teams-asia",
+      "date": "2026-03-29T22:15:00",
+      "source": "OpenAI Blog",
+      "summary": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation"
+    },
+    {
+      "title": "Helping developers build safer AI experiences for teens",
+      "link": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+      "date": "2026-03-24T11:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems."
+    },
+    {
+      "title": "Powering product discovery in ChatGPT",
+      "link": "https://openai.com/index/powering-product-discovery-in-chatgpt",
+      "date": "2026-03-24T09:00:00",
+      "source": "OpenAI Blog",
+      "summary": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration."
+    },
+    {
+      "title": "Update on the OpenAI Foundation",
+      "link": "https://openai.com/index/update-on-the-openai-foundation",
+      "date": "2026-03-24T09:00:00",
+      "source": "OpenAI Blog",
+      "summary": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs."
+    },
+    {
+      "title": "2️⃣4️⃣ idées concrètes pour utiliser #NotebookLM en éducation : préparer ses cours, résumer des ressources, créer des quiz, analyser des données, accompagner les élèves et gagner du temps.\n🎯 l’IA doit renforcer l’expertise enseignante, pas la remplacer. \n✍️ @ICTEvangelist",
+      "link": "https://twitter.com/sophiaefrance/status/2038477583940034895#m",
+      "date": "2026-03-30T04:45:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>2️⃣4️⃣ idées concrètes pour utiliser <a href=\"https://nitter.net/search?f=tweets&amp;q=%23NotebookLM\">#NotebookLM</a> en éducation : préparer ses cours, résumer des ressources, créer des quiz, anal"
+    },
+    {
+      "title": "R to @AnthropicAI: We find that since November 2025, consumer use has become less concentrated: the top 10 tasks now make up 19% of conversations, down from 24%. We also see a rise in personal queries, and continued convergence in adoption rates in the US.\n\nRead more: https://www.anthropic.com/research/economic-index-march-2026-report",
+      "link": "https://twitter.com/AnthropicAI/status/2036499693920727463#m",
+      "date": "2026-03-24T17:45:38",
+      "source": "@AnthropicAI",
+      "summary": "<p>We find that since November 2025, consumer use has become less concentrated: the top 10 tasks now make up 19% of conversations, down from 24%. We also see a rise in personal queries, and continued "
+    },
+    {
+      "title": "New from the Anthropic Economic Index: how people’s use of Claude changes with experience.\n\nLonger-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses.",
+      "link": "https://twitter.com/AnthropicAI/status/2036499691571953848#m",
+      "date": "2026-03-24T17:45:37",
+      "source": "@AnthropicAI",
+      "summary": "<p>New from the Anthropic Economic Index: how people’s use of Claude changes with experience.<br />\n<br />\nLonger-term users are more likely to iterate carefully with Claude, and less likely to hand i"
+    },
+    {
+      "title": "New on the Anthropic Engineering Blog: \n\nHow we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering.\n\nRead more: https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "link": "https://twitter.com/AnthropicAI/status/2036481033621623056#m",
+      "date": "2026-03-24T16:31:29",
+      "source": "@AnthropicAI",
+      "summary": "<p>New on the Anthropic Engineering Blog: <br />\n<br />\nHow we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering.<br />\n<br />\nRead m"
+    },
+    {
+      "title": "R to @AnthropicAI: Thank you to the 80,508 people who took the time to speak with us. It has been striking, and humbling, to see how AI figures in so many people’s hopes, fears, and dreams.\n\nRead the full post here: https://anthropic.com/features/81k-interviews",
+      "link": "https://twitter.com/AnthropicAI/status/2034302168879267871#m",
+      "date": "2026-03-18T16:13:27",
+      "source": "@AnthropicAI",
+      "summary": "<p>Thank you to the 80,508 people who took the time to speak with us. It has been striking, and humbling, to see how AI figures in so many people’s hopes, fears, and dreams.<br />\n<br />\nRead the full"
+    },
+    {
+      "title": "R to @AnthropicAI: These interviews capture texture that surveys can’t. They render in detail how people worldwide are already experiencing AI's opportunities and risks.\n\nWe plan to use Anthropic Interviewer regularly, on different topics, to help inform how AI can be built to benefit everyone.",
+      "link": "https://twitter.com/AnthropicAI/status/2034302167612616704#m",
+      "date": "2026-03-18T16:13:26",
+      "source": "@AnthropicAI",
+      "summary": "<p>These interviews capture texture that surveys can’t. They render in detail how people worldwide are already experiencing AI's opportunities and risks.<br />\n<br />\nWe plan to use Anthropic Intervie"
+    },
+    {
+      "title": "📢 Introducing the AI Now Summit, Mistral AI’s first-ever flagship event!\n\n🎯 One day, one mission: Own your AI transformation.\n📍 Paris | May 28\n\nJoin us to learn how AI is transforming leading organisations and hear from global CEOs and Mistral’s founders on:\n\n✅ Using open source as a core for end-to-end AI transformations \n✅ Scaling from pilots to production deployments \n✅ Building AI infrastructure for enterprise-grade deployments \n✅ The latest in robotics, VLMs, and multimodal AI\n\nLearn more and get notified when tickets go live → https://ainowsummit.com/",
+      "link": "https://twitter.com/MistralAI/status/2032094267640869085#m",
+      "date": "2026-03-12T14:00:02",
+      "source": "@MistralAI",
+      "summary": "<p>📢 Introducing the AI Now Summit, Mistral AI’s first-ever flagship event!<br />\n<br />\n🎯 One day, one mission: Own your AI transformation.<br />\n📍 Paris | May 28<br />\n<br />\nJoin us to learn how AI"
+    },
+    {
+      "title": "Pinned: ⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-interleaved input, MLA RoPE expects interleaved. Fixed in https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/tree/main/inference.",
+      "link": "https://twitter.com/deepseek_ai/status/1990616182161068094#m",
+      "date": "2025-11-18T03:00:56",
+      "source": "@deepseek_ai",
+      "summary": "<p>⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-"
+    },
+    {
+      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n🔗 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\n🔗 Tech report: https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/DeepSeek_V3_2.pdf\n🔗 Key GPU kernels in TileLang & CUDA (use TileLang for rapid research prototyping!)\n\n4/n",
+      "link": "https://twitter.com/deepseek_ai/status/1972604780469239843#m",
+      "date": "2025-09-29T10:10:03",
+      "source": "@deepseek_ai",
+      "summary": "<p>🛠 Open Source Release<br />\n<br />\n🔗 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\">huggingface.co/deepseek-ai/D…</a><br />\n🔗 Tech report: <a href=\"https://github.com/deepsee"
+    },
+    {
+      "title": "R to @deepseek_ai: 💻 API Update\n\n🎉 Lower costs, same access!\n💰 DeepSeek API prices drop 50%+, effective immediately.\n\n🔹 For comparison testing, V3.1-Terminus remains available via a temporary API until Oct 15th, 2025, 15:59 (UTC Time). Details: https://api-docs.deepseek.com/guides/comparison_testing\n🔹 Feedback welcome: https://feedback.deepseek.com/dsa\n\n3/n",
+      "link": "https://twitter.com/deepseek_ai/status/1972604777474458033#m",
+      "date": "2025-09-29T10:10:02",
+      "source": "@deepseek_ai",
+      "summary": "<p>💻 API Update<br />\n<br />\n🎉 Lower costs, same access!<br />\n💰 DeepSeek API prices drop 50%+, effective immediately.<br />\n<br />\n🔹 For comparison testing, V3.1-Terminus remains available via a temp"
+    },
+    {
+      "title": "RT by @OpenAI: Sharing some of the work I’ve been doing at OpenAI: we now monitor 99.9% of internal coding traffic for misalignment using our most powerful models, reviewing full trajectories to catch suspicious behavior, escalate serious cases quickly, and strengthen our safeguards over time.",
+      "link": "https://twitter.com/Marcus_J_W/status/2034677345681068140#m",
+      "date": "2026-03-19T17:04:16",
+      "source": "@OpenAI",
+      "summary": "<p>Sharing some of the work I’ve been doing at OpenAI: we now monitor 99.9% of internal coding traffic for misalignment using our most powerful models, reviewing full trajectories to catch suspicious "
+    },
+    {
+      "title": "R to @Fabien_Mikol: Intéressant passage sur l'étude d'Aghion : \"Cette étude est régulièrement utilisée pour minorer les effets à venir de l'IA générative. Or elle ne parle pas d'IA générative, puisqu'elle porte sur une période bien antérieure\"\nSource :\nhttps://www.nouvelobs.com/idees/20260329.OBS113709/ia-et-travail-avant-la-creation-de-nouveaux-emplois-il-y-a-la-destruction-des-anciens.html",
+      "link": "https://twitter.com/Fabien_Mikol/status/2038368959351681309#m",
+      "date": "2026-03-29T21:33:25",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Intéressant passage sur l'étude d'Aghion : \"Cette étude est régulièrement utilisée pour minorer les effets à venir de l'IA générative. Or elle ne parle pas d'IA générative, puisqu'elle porte sur un"
+    },
+    {
+      "title": "Axelle Arquié (CEPII) sur l'IA et l'emploi: \"Les économistes se moquent souvent de cette vision très sombre, arguant du fait que toutes les révolutions technologiques précédentes ont fini par recréer des emplois. Mais cette question devrait être approchée avec plus d'humilité...\"",
+      "link": "https://twitter.com/Fabien_Mikol/status/2038368956335993277#m",
+      "date": "2026-03-29T21:33:24",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Axelle Arquié (CEPII) sur l'IA et l'emploi: \"Les économistes se moquent souvent de cette vision très sombre, arguant du fait que toutes les révolutions technologiques précédentes ont fini par recré"
+    },
+    {
+      "title": "Je viens donc de découvrir que les documents PDF sont généralement exclus des données d'entraînement (pretraining) standards, à cause de difficultés de lecture pour les crawlers. Et on dit souvent qu'on est à court de données... C'est fou non ? 😶\nhttps://pleias.fr/blog/blogcommoncorpus-goes-global",
+      "link": "https://twitter.com/Fabien_Mikol/status/2038360350110687636#m",
+      "date": "2026-03-29T20:59:13",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Je viens donc de découvrir que les documents PDF sont généralement exclus des données d'entraînement (pretraining) standards, à cause de difficultés de lecture pour les crawlers. Et on dit souvent "
+    },
+    {
       "title": "Modéliser ou Halluciner ?",
       "link": "https://mathix.org/linux/archives/22174",
       "date": "2026-03-28T11:23:45",
@@ -552,156 +699,9 @@
       "date": "2026-03-25T14:41:35",
       "source": "@nsi_xyz",
       "summary": "<p>Belle performance de Luc Julia aujourd'hui lors de cette journée Medef \"plongée au cœur de la révolution IA\" : la bulle va exploser, les LLM \"génériques\" ne servent à rien et font 40% d'erreur, et "
-    },
-    {
-      "title": "🤖 A.U.D.I.T. propose des séquences clés en main pour apprendre aux élèves à utiliser l’IA avec discernement : repérer le style IA, tester ses failles, puis mieux la piloter en classe. \n🎯 Développer l’esprit critique face aux biais et hallucinations \nhttps://intelligence-artificielle-esprit-critique-et-enseignement.forge.apps.education.fr/audit-ia/index.html",
-      "link": "https://twitter.com/sophiaefrance/status/2036788953085313150#m",
-      "date": "2026-03-25T12:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤖 A.U.D.I.T. propose des séquences clés en main pour apprendre aux élèves à utiliser l’IA avec discernement : repérer le style IA, tester ses failles, puis mieux la piloter en classe. <br />\n🎯 Déve"
-    },
-    {
-      "title": "La @CNIL propose des contenus pédagogiques et ludiques pour ados, parents, enseignants et éducateurs. Plongez dans « Océan de données » un podcast pour mieux comprendre les usages en ligne et protéger ses données en ligne \nhttps://video.cnil.fr/w/eAfTpsmb4mePo4RYK8ZdT9",
-      "link": "https://twitter.com/sophiaefrance/status/2032408844316389544#m",
-      "date": "2026-03-13T10:50:03",
-      "source": "@sophiaefrance",
-      "summary": "<p>La <a href=\"https://nitter.net/CNIL\" title=\"CNIL\">@CNIL</a> propose des contenus pédagogiques et ludiques pour ados, parents, enseignants et éducateurs. Plongez dans « Océan de données » un podcast"
-    },
-    {
-      "title": "👾 De l’écriture aux jeux vidéo, chaque nouveauté a été accusée de “corrompre la jeunesse”. Aujourd’hui c'est le cas des #réseaux sociaux & de l'#IA.\n🎯 Au lieu de diaboliser : comprendre, tester, évaluer et former pour un usage pédagogique responsable.\n✍️ Mathieu Cerbai",
-      "link": "https://twitter.com/sophiaefrance/status/2030882536012857802#m",
-      "date": "2026-03-09T05:45:03",
-      "source": "@sophiaefrance",
-      "summary": "<p>👾 De l’écriture aux jeux vidéo, chaque nouveauté a été accusée de “corrompre la jeunesse”. Aujourd’hui c'est le cas des <a href=\"https://nitter.net/search?f=tweets&amp;q=%23réseaux\">#réseaux</a> so"
-    },
-    {
-      "title": "Le 8 mars rappelle une évidence : les droits des femmes se défendent, se transmettent et se renforcent. À l’école, dans le numérique, dans la société, l’égalité n’est pas une option : c’est une responsabilité collective. 💜\n#8Mars #JourneeInternationaleDesDroitsDesFemmes",
-      "link": "https://twitter.com/sophiaefrance/status/2030603193680286079#m",
-      "date": "2026-03-08T11:15:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>Le 8 mars rappelle une évidence : les droits des femmes se défendent, se transmettent et se renforcent. À l’école, dans le numérique, dans la société, l’égalité n’est pas une option : c’est une res"
-    },
-    {
-      "title": "New on the Engineering Blog: How we designed Claude Code auto mode.\n\nMany Claude Code users let Claude work without permission prompts. Auto mode is a safer middle ground: we built and tested classifiers that make approval decisions instead.\n\nRead more: https://www.anthropic.com/engineering/claude-code-auto-mode",
-      "link": "https://twitter.com/AnthropicAI/status/2036944806317088921#m",
-      "date": "2026-03-25T23:14:21",
-      "source": "@AnthropicAI",
-      "summary": "<p>New on the Engineering Blog: How we designed Claude Code auto mode.<br />\n<br />\nMany Claude Code users let Claude work without permission prompts. Auto mode is a safer middle ground: we built and "
-    },
-    {
-      "title": "R to @AnthropicAI: Globally, 67% of people view AI positively, but optimism runs higher in South America, Africa, and Asia than in Europe or the United States.",
-      "link": "https://twitter.com/AnthropicAI/status/2034302165913862443#m",
-      "date": "2026-03-18T16:13:26",
-      "source": "@AnthropicAI",
-      "summary": "<p>Globally, 67% of people view AI positively, but optimism runs higher in South America, Africa, and Asia than in Europe or the United States.</p>\n<img src=\"https://nitter.net/pic/media%2FHDtIebTbYAA"
-    },
-    {
-      "title": "RT by @MistralAI: Since launching Voxtral Realtime, the community response has been remarkable. Today, we share the technical report, launch the Realtime playground in Mistral Studio, and share the model in Hugging Face Transformers. 🧵",
-      "link": "https://twitter.com/MistralDevs/status/2024162999599005715#m",
-      "date": "2026-02-18T16:44:00",
-      "source": "@MistralAI",
-      "summary": "<p>Since launching Voxtral Realtime, the community response has been remarkable. Today, we share the technical report, launch the Realtime playground in Mistral Studio, and share the model in Hugging "
-    },
-    {
-      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n📦 DeepSeek-V3.2 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2\n📦 DeepSeek-V3.2-Speciale Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n5/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452658149405148#m",
-      "date": "2025-12-01T11:19:22",
-      "source": "@deepseek_ai",
-      "summary": "<p>🛠 Open Source Release<br />\n<br />\n📦 DeepSeek-V3.2 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2\">huggingface.co/deepseek-ai/D…</a><br />\n📦 DeepSeek-V3.2-Speciale Model: <a href="
-    },
-    {
-      "title": "R to @deepseek_ai: 💻 API Update\n\n🔹 V3.2: Same usage pattern as V3.2-Exp.\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"https://api.deepseek.com/v3.2_speciale_expires_on_20251215\". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time).\n💡 V3.2 now supports Thinking in Tool-Use — details: https://api-docs.deepseek.com/guides/thinking_mode\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452654659805334#m",
-      "date": "2025-12-01T11:19:21",
-      "source": "@deepseek_ai",
-      "summary": "<p>💻 API Update<br />\n<br />\n🔹 V3.2: Same usage pattern as V3.2-Exp.<br />\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"<a href=\"https://api.deepseek.com/v3.2_speciale_expires_on_202512"
-    },
-    {
-      "title": "🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!\n\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.\n🔹 DeepSeek-V3.2-Speciale: Pushing the boundaries of reasoning capabilities. API-only for now.\n\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452641430651132#m",
-      "date": "2025-12-01T11:19:18",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!<br />\n<br />\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.<br />\n🔹 DeepS"
-    },
-    {
-      "title": "RT by @OpenAI: Students: build something real in the Codex Creator Challenge, powered by @joinHandshake\n\nTry new tools. Have fun. Break things. Repeat.\n\n$10K in OpenAI API credits in prizes.\n\nhttps://joinhandshake.com/students/codex-creator-challenge/?utm_source=openai&utm_medium=organicsocial&utm_campaign=FY26Q2-NWK-HS-Codex-Campaign",
-      "link": "https://twitter.com/OpenAIDevs/status/2036851146300809531#m",
-      "date": "2026-03-25T17:02:10",
-      "source": "@OpenAI",
-      "summary": "<p>Students: build something real in the Codex Creator Challenge, powered by <a href=\"https://nitter.net/joinHandshake\" title=\"Handshake\">@joinHandshake</a><br />\n<br />\nTry new tools. Have fun. Break"
-    },
-    {
-      "title": "R to @OpenAI: Listen to the OpenAI Podcast on—\nSpotify\nhttps://open.spotify.com/show/0zojMEDizKMh3aTxnGLENP\nApple\nhttps://podcasts.apple.com/us/podcast/openai-podcast/id1820330260\nYouTube\nhttps://youtu.be/H8GMRxG8suw",
-      "link": "https://twitter.com/OpenAI/status/2036855700132147593#m",
-      "date": "2026-03-25T17:20:16",
-      "source": "@OpenAI",
-      "summary": "<p>Listen to the OpenAI Podcast on—<br />\nSpotify<br />\n<a href=\"https://open.spotify.com/show/0zojMEDizKMh3aTxnGLENP\">open.spotify.com/show/0zojME…</a><br />\nApple<br />\n<a href=\"https://podcasts.app"
-    },
-    {
-      "title": "R to @OpenAI: More on our approach to the Model Spec: https://openai.com/index/our-approach-to-the-model-spec/",
-      "link": "https://twitter.com/OpenAI/status/2036855698617938422#m",
-      "date": "2026-03-25T17:20:16",
-      "source": "@OpenAI",
-      "summary": "<p>More on our approach to the Model Spec: <a href=\"https://openai.com/index/our-approach-to-the-model-spec/\">openai.com/index/our-approac…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F20368522"
-    },
-    {
-      "title": "The more AI can do, the more we need to ask what it should and shouldn’t do.\n\nOpenAI researcher @w01fe joins host @AndrewMayne to explore the Model Spec, the public framework that defines how models are intended to behave.\n\nThey break down how it works in practice, from the chain of command that resolves conflicting instructions to the way it evolves over time through real-world use, feedback, and new model capabilities.",
-      "link": "https://twitter.com/OpenAI/status/2036855694906057079#m",
-      "date": "2026-03-25T17:20:15",
-      "source": "@OpenAI",
-      "summary": "<p>The more AI can do, the more we need to ask what it should and shouldn’t do.<br />\n<br />\nOpenAI researcher <a href=\"https://nitter.net/w01fe\" title=\"Jason Wolfe\">@w01fe</a> joins host <a href=\"htt"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Ces chiffres de \"taux d'erreur\" viennent toujours de la fameuse \"étude Newsguard\" qu'il n'a jamais comprise. Quand il parle d'IA \"spécifique\" qui ne ferait que 10% d'erreur, en réalité il pense à Claude. Oui c'est n'importe quoi je sais bien...\nhttps://x.com/Fabien_Mikol/status/1993668618698297625",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036815770965987766#m",
-      "date": "2026-03-25T14:41:36",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Ces chiffres de \"taux d'erreur\" viennent toujours de la fameuse \"étude Newsguard\" qu'il n'a jamais comprise. Quand il parle d'IA \"spécifique\" qui ne ferait que 10% d'erreur, en réalité il pense à C"
-    },
-    {
-      "title": "R to @Fabien_Mikol: C'est très confus et il est donc normal que vous soyez un peu perdu. Pour Luc Julia il y a une équivalence étrange entre IA \"spécifique\" et IA \"agentique\", c'est un truc qu'il répète partout, même si c'est absurde ⤵️\nhttps://x.com/Fabien_Mikol/status/2022338949545693489",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036815768851984844#m",
-      "date": "2026-03-25T14:41:36",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>C'est très confus et il est donc normal que vous soyez un peu perdu. Pour Luc Julia il y a une équivalence étrange entre IA \"spécifique\" et IA \"agentique\", c'est un truc qu'il répète partout, même "
-    },
-    {
-      "title": "Belle performance de Luc Julia aujourd'hui lors de cette journée Medef \"plongée au cœur de la révolution IA\" : la bulle va exploser, les LLM \"génériques\" ne servent à rien et font 40% d'erreur, et c'est \"un énorme problème\" car ça fait disparaître beaucoup d'eau...\nFil 🧵",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036815765861515317#m",
-      "date": "2026-03-25T14:41:35",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Belle performance de Luc Julia aujourd'hui lors de cette journée Medef \"plongée au cœur de la révolution IA\" : la bulle va exploser, les LLM \"génériques\" ne servent à rien et font 40% d'erreur, et "
-    },
-    {
-      "title": "R to @Fabien_Mikol: Pour un point de vue complémentaire d'un radiologue qui utilise pleinement l'IA, voir ici :\nhttps://x.com/kevinsealsmd/status/1984736511699665202",
-      "link": "https://twitter.com/Fabien_Mikol/status/2036793974787059995#m",
-      "date": "2026-03-25T13:15:00",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Pour un point de vue complémentaire d'un radiologue qui utilise pleinement l'IA, voir ici :<br />\n<a href=\"https://nitter.net/kevinsealsmd/status/1984736511699665202\">nitter.net/kevinsealsmd/status"
-    },
-    {
-      "title": "🎓 Nous passons des heures à enseigner des contenus…\nmais combien de temps à enseigner comment apprendre ?\nDans ce tuto, Aurélie partage des stratégies : réactivation, métacognition, remédiation… pour lutter contre la courbe de l’oubli d’Ebbinghaus\n🎥 https://www.youtube.com/watch?v=gUtRrcmXKp8",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2036851158963171628#m",
-      "date": "2026-03-25T17:02:13",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🎓 Nous passons des heures à enseigner des contenus…<br />\nmais combien de temps à enseigner comment apprendre ?<br />\nDans ce tuto, Aurélie partage des stratégies : réactivation, métacognition, rem"
-    },
-    {
-      "title": "Rapport de l'OCDE : 5 priorités pour intégrer l’IA à l’école :\n🧠 IA = partenaire d’apprentissage, pas raccourci\n🛠️ Des outils conçus pour l’éducation\n📊 Repenser l’évaluation\n🎓 Former enseignants & élèves\n🔬 Investir dans la recherche\n📎 https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/01/oecd-digital-education-outlook-2026_940e0dd8/062a7394-en.pdf",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2033589624375779588#m",
-      "date": "2026-03-16T17:02:03",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Rapport de l'OCDE : 5 priorités pour intégrer l’IA à l’école :<br />\n🧠 IA = partenaire d’apprentissage, pas raccourci<br />\n🛠️ Des outils conçus pour l’éducation<br />\n📊 Repenser l’évaluation<br />"
-    },
-    {
-      "title": "Tosea",
-      "link": "https://www.uneiaparjour.fr/tosea/",
-      "date": "2026-03-24T21:19:00",
-      "source": "Une IA par jour",
-      "summary": "Tosea (https://tosea.ai/) génère des présnetations à partir d&#8217;un document pdf (orientation vers articles scientifiques et documents académiques) et d&#8217;un chatbot intégré. Après questionneme"
     }
   ],
-  "last_update": "2026-03-29T08:30:28.248995",
+  "last_update": "2026-03-30T09:03:24.239961",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
