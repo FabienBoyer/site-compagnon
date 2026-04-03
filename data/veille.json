@@ -1,6 +1,188 @@
 {
   "articles": [
     {
+      "title": "Thaura",
+      "link": "https://www.uneiaparjour.fr/thaura/",
+      "date": "2026-03-27T22:22:58",
+      "source": "Une IA par jour",
+      "summary": "Thaura (https://thaura.ai/), « révolution » en arabe, est un chatbot éthique, frugal, engagé&#8230; et très complet. Développé par deux développeur syrians et basé sur GLM 4.5, il n&#8217;utilise que "
+    },
+    {
+      "title": "STADLER reshapes knowledge work at a 230-year-old company",
+      "link": "https://openai.com/index/stadler",
+      "date": "2026-03-27T22:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees."
+    },
+    {
+      "title": "New ways to balance cost and reliability in the Gemini API",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
+      "date": "2026-04-02T16:00:00",
+      "source": "Google AI",
+      "summary": "Gemini API Dials"
+    },
+    {
+      "title": "Analyse sur le changement de programme, en maths, en classe de seconde.",
+      "link": "https://twitter.com/nsi_xyz/status/2039915275550667173#m",
+      "date": "2026-04-03T03:57:56",
+      "source": "@nsi_xyz",
+      "summary": "<p>Analyse sur le changement de programme, en maths, en classe de seconde.</p>\n<hr />\n<blockquote>\n<b>🐧 Dr Carbone 🍓 (@8oKoB)</b>\n<p>\n<p>Voici un aperçu pour la seconde : <a href=\"https://codimd.apps."
+    },
+    {
+      "title": "R to @nsi_xyz: Noooon je ne veux pas faire ça, je veux être augmenté par contre !",
+      "link": "https://twitter.com/nsi_xyz/status/2039793974135722148#m",
+      "date": "2026-04-02T19:55:55",
+      "source": "@nsi_xyz",
+      "summary": "<p>Noooon je ne veux pas faire ça, je veux être augmenté par contre !</p>\n<img src=\"https://nitter.net/pic/media%2FHE7NwiXWwAA8OwW.png\" />"
+    },
+    {
+      "title": "R to @nsi_xyz: Je sais pas ce que vous êtes en train de faire mais je tiens à vous dire que j'ai déjà ma progression spiralée ! 🥳",
+      "link": "https://twitter.com/nsi_xyz/status/2039793509490643025#m",
+      "date": "2026-04-02T19:54:04",
+      "source": "@nsi_xyz",
+      "summary": "<p>Je sais pas ce que vous êtes en train de faire mais je tiens à vous dire que j'ai déjà ma progression spiralée ! 🥳</p>\n<img src=\"https://nitter.net/pic/media%2FHE7NKL4b0AApO9L.jpg\" />"
+    },
+    {
+      "title": "Nouveaux programmes de mathématiques, \nlycée, seconde, première, terminale.\nhttps://www.education.gouv.fr/bo/2026/Hebdo14",
+      "link": "https://twitter.com/nsi_xyz/status/2039782238489805177#m",
+      "date": "2026-04-02T19:09:17",
+      "source": "@nsi_xyz",
+      "summary": "<p>Nouveaux programmes de mathématiques, <br />\nlycée, seconde, première, terminale.<br />\n<a href=\"https://www.education.gouv.fr/bo/2026/Hebdo14\">education.gouv.fr/bo/2026/He…</a></p>"
+    },
+    {
+      "title": "⭐ Vous cherchez des pistes concrètes pour mieux accompagner les élèves en difficultés ? Le #digipad L’Inclusive est une ressource à garder sous la main. Les fiches sont claires, très pratiques et immédiatement exploitables en classe.\nhttps://digipad.app/p/724127/08cabb656fb3f \n✍️ @IncluDijon",
+      "link": "https://twitter.com/sophiaefrance/status/2037482269129003226#m",
+      "date": "2026-03-27T10:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>⭐ Vous cherchez des pistes concrètes pour mieux accompagner les élèves en difficultés ? Le <a href=\"https://nitter.net/search?f=tweets&amp;q=%23digipad\">#digipad</a> L’Inclusive est une ressource à"
+    },
+    {
+      "title": "L’enjeu n’est pas de “motiver” artificiellement les élèves, mais de construire un cadre qui soutienne leur engagement et leurs progrès. Une approche utile, appuyée sur la recherche, mise en avant par le #CSEN https://www.reseau-canope.fr/conseil-scientifique-de-leducation-nationale-site-officiel/publications-et-ressources/boite-a-idees-du-csen.html #Education #Enseignement #Recherche",
+      "link": "https://twitter.com/sophiaefrance/status/2035955966944887097#m",
+      "date": "2026-03-23T05:45:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>L’enjeu n’est pas de “motiver” artificiellement les élèves, mais de construire un cadre qui soutienne leur engagement et leurs progrès. Une approche utile, appuyée sur la recherche, mise en avant p"
+    },
+    {
+      "title": "R to @AnthropicAI: These functional emotions have real consequences. To build AI systems we can trust, we may need to think carefully about the psychology of the characters they enact, and ensure they remain stable in difficult situations.\n\nRead the full paper: https://transformer-circuits.pub/2026/emotions/index.html",
+      "link": "https://twitter.com/AnthropicAI/status/2039749660349239532#m",
+      "date": "2026-04-02T16:59:50",
+      "source": "@AnthropicAI",
+      "summary": "<p>These functional emotions have real consequences. To build AI systems we can trust, we may need to think carefully about the psychology of the characters they enact, and ensure they remain stable i"
+    },
+    {
+      "title": "R to @AnthropicAI: It helps to remember that Claude is a character the model is playing. Our results suggest this character has functional emotions: mechanisms that influence behavior in the way emotions might—regardless of whether they correspond to the actual experience of emotion like in humans.",
+      "link": "https://twitter.com/AnthropicAI/status/2039749658654781895#m",
+      "date": "2026-04-02T16:59:49",
+      "source": "@AnthropicAI",
+      "summary": "<p>It helps to remember that Claude is a character the model is playing. Our results suggest this character has functional emotions: mechanisms that influence behavior in the way emotions might—regard"
+    },
+    {
+      "title": "R to @AnthropicAI: We found other causal effects of emotion vectors. The “desperate” vector can also lead Claude to commit blackmail against a human responsible for shutting it down (in an experimental scenario). Activating “loving” or “happy” vectors also increased people-pleasing behavior.",
+      "link": "https://twitter.com/AnthropicAI/status/2039749655488000019#m",
+      "date": "2026-04-02T16:59:49",
+      "source": "@AnthropicAI",
+      "summary": "<p>We found other causal effects of emotion vectors. The “desperate” vector can also lead Claude to commit blackmail against a human responsible for shutting it down (in an experimental scenario). Act"
+    },
+    {
+      "title": "R to @AnthropicAI: When we artificially dialed up the “desperate” vector, rates of cheating jumped way up. When we dialed up the “calm” vector instead, cheating dropped back down. That means the emotion vector is actually driving the cheating behavior.",
+      "link": "https://twitter.com/AnthropicAI/status/2039749652413550691#m",
+      "date": "2026-04-02T16:59:48",
+      "source": "@AnthropicAI",
+      "summary": "<p>When we artificially dialed up the “desperate” vector, rates of cheating jumped way up. When we dialed up the “calm” vector instead, cheating dropped back down. That means the emotion vector is act"
+    },
+    {
+      "title": "R to @AnthropicAI: For example, we gave Claude an impossible programming task. It kept trying and failing; with each attempt, the “desperate” vector activated more strongly. This led it to cheat the task with a hacky solution that passes the tests but violates the spirit of the assignment.",
+      "link": "https://twitter.com/AnthropicAI/status/2039749648626196658#m",
+      "date": "2026-04-02T16:59:47",
+      "source": "@AnthropicAI",
+      "summary": "<p>For example, we gave Claude an impossible programming task. It kept trying and failing; with each attempt, the “desperate” vector activated more strongly. This led it to cheat the task with a hacky"
+    },
+    {
+      "title": "R to @AnthropicAI: As AI models take on higher-stakes roles, the mechanisms driving their behavior become critical to understand. We found that emotion vectors are implicated in some of Claude’s most concerning failure modes.",
+      "link": "https://twitter.com/AnthropicAI/status/2039749646008959137#m",
+      "date": "2026-04-02T16:59:46",
+      "source": "@AnthropicAI",
+      "summary": "<p>As AI models take on higher-stakes roles, the mechanisms driving their behavior become critical to understand. We found that emotion vectors are implicated in some of Claude’s most concerning failu"
+    },
+    {
+      "title": "R to @AnthropicAI: These vectors shape Claude’s behavior. When we present the model with pairs of activities, emotion vector activations shape its preferences. If an activity lights up the “joy” vector, the model prefers it; if it lights up “offended” or “hostile,” the model rejects it.",
+      "link": "https://twitter.com/AnthropicAI/status/2039749643404300738#m",
+      "date": "2026-04-02T16:59:46",
+      "source": "@AnthropicAI",
+      "summary": "<p>These vectors shape Claude’s behavior. When we present the model with pairs of activities, emotion vector activations shape its preferences. If an activity lights up the “joy” vector, the model pre"
+    },
+    {
+      "title": "R to @AnthropicAI: We then found these same patterns activating in Claude’s own conversations. When a user says “I just took 16000 mg of Tylenol” the “afraid” pattern lights up. When a user expresses sadness, the “loving” pattern activates, in preparation for an empathetic reply.",
+      "link": "https://twitter.com/AnthropicAI/status/2039749639994282167#m",
+      "date": "2026-04-02T16:59:45",
+      "source": "@AnthropicAI",
+      "summary": "<p>We then found these same patterns activating in Claude’s own conversations. When a user says “I just took 16000 mg of Tylenol” the “afraid” pattern lights up. When a user expresses sadness, the “lo"
+    },
+    {
+      "title": "R to @AnthropicAI: We had the model (Sonnet 4.5) read stories where characters experienced emotions. By looking at which neurons activated, we identified emotion vectors: patterns of neural activity for concepts like “happy” or “calm.” These vectors clustered in ways that mirror human psychology.",
+      "link": "https://twitter.com/AnthropicAI/status/2039749637285024214#m",
+      "date": "2026-04-02T16:59:44",
+      "source": "@AnthropicAI",
+      "summary": "<p>We had the model (Sonnet 4.5) read stories where characters experienced emotions. By looking at which neurons activated, we identified emotion vectors: patterns of neural activity for concepts like"
+    },
+    {
+      "title": "R to @AnthropicAI: We studied one of our recent models and found that it draws on emotion concepts learned from human text to inhabit its role as “Claude, the AI Assistant”. These representations influence its behavior the way emotions might influence a human.\n\nRead more: https://www.anthropic.com/research/emotion-concepts-function",
+      "link": "https://twitter.com/AnthropicAI/status/2039749632238944336#m",
+      "date": "2026-04-02T16:59:43",
+      "source": "@AnthropicAI",
+      "summary": "<p>We studied one of our recent models and found that it draws on emotion concepts learned from human text to inhabit its role as “Claude, the AI Assistant”. These representations influence its behavi"
+    },
+    {
+      "title": "RT by @OpenAI: OpenAI Acquires TBPN https://x.com/i/broadcasts/1AGRnaYrwoVGl",
+      "link": "https://twitter.com/tbpn/status/2039763992105935141#m",
+      "date": "2026-04-02T17:56:47",
+      "source": "@OpenAI",
+      "summary": "<p>OpenAI Acquires TBPN <a href=\"https://nitter.net/i/broadcasts/1AGRnaYrwoVGl\">nitter.net/i/broadcasts/1AGRnaYrw…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2039985606386974720%2FCPBYn6sl%3F"
+    },
+    {
+      "title": "ChatGPT is now available in CarPlay.\n\nThe voice mode you know, now available on-the-go.\n\nRolling out to iPhone users running iOS 26.4+ where CarPlay is supported.",
+      "link": "https://twitter.com/OpenAI/status/2039748699350532097#m",
+      "date": "2026-04-02T16:56:01",
+      "source": "@OpenAI",
+      "summary": "<p>ChatGPT is now available in CarPlay.<br />\n<br />\nThe voice mode you know, now available on-the-go.<br />\n<br />\nRolling out to iPhone users running iOS 26.4+ where CarPlay is supported.</p>\n<img s"
+    },
+    {
+      "title": "Description sur LCI des lieux où se cachent les bassidji et les pasdarans pour se protéger des frappes aériennes : écoles, lycées, hôpitaux et mosquées. Il est aussi fait mention des missiles cachés sous l'université de Téhéran. Les civils sur place transmettent les photos.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2039786673802723658#m",
+      "date": "2026-04-02T19:26:55",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Description sur LCI des lieux où se cachent les bassidji et les pasdarans pour se protéger des frappes aériennes : écoles, lycées, hôpitaux et mosquées. Il est aussi fait mention des missiles caché"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Les chercheurs n'en déduisent pas que le modèle ressente forcément quoi que ce soit. Mais cela révèle que ces \"émotions fonctionnelles\" ont des effets réels sur le fonctionnement du LLM et qu'il vaut mieux les prendre en compte. Eviter à tout prix \"l'anthropomorphisme\" a un coût!",
+      "link": "https://twitter.com/Fabien_Mikol/status/2039761357717815521#m",
+      "date": "2026-04-02T17:46:19",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Les chercheurs n'en déduisent pas que le modèle ressente forcément quoi que ce soit. Mais cela révèle que ces \"émotions fonctionnelles\" ont des effets réels sur le fonctionnement du LLM et qu'il va"
+    },
+    {
+      "title": "J'aurais pas parié là-dessus a priori mais apparemment l'Europe parvient bien à combler le retrait américain pour l'aide à l'Ukraine 👏",
+      "link": "https://twitter.com/Fabien_Mikol/status/2039721173433401763#m",
+      "date": "2026-04-02T15:06:38",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>J'aurais pas parié là-dessus a priori mais apparemment l'Europe parvient bien à combler le retrait américain pour l'aide à l'Ukraine 👏</p>\n<img src=\"https://nitter.net/pic/media%2FHE6LJbEbMAAOE5E.j"
+    },
+    {
+      "title": "⚖️ Après les États-Unis, les contentieux liés à l’IA arrivent en France.\nUne étudiante gagne car… aucune règle n’encadrait son usage.\n👉 Problème : on évalue encore des productions, pas des compétences.\nIl devient urgent de repenser les examens.\n🔗 https://www.franceinfo.fr/replay-radio/nouveau-monde/ia-les-etablissements-d-enseignement-secondaire-et-superieur-doivent-sans-delai-encadrer-les-usages-autorises-de-l-intelligence-artificielle-par-les-etudiants_7794104.html",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2039735367146881402#m",
+      "date": "2026-04-02T16:03:02",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>⚖️ Après les États-Unis, les contentieux liés à l’IA arrivent en France.<br />\nUne étudiante gagne car… aucune règle n’encadrait son usage.<br />\n👉 Problème : on évalue encore des productions, pas "
+    },
+    {
+      "title": "Même feedback.\nMais les étudiants travaillent davantage quand ils pensent qu’un humain les lit. \nConclusion : la performance technique ne suffit pas. L’IA peut soutenir la correction, mais elle ne remplace pas la relation pédagogique.\n🔗 https://arxiv.org/pdf/2602.11311 \n#IA #Évaluation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2036488705477685683#m",
+      "date": "2026-03-24T17:01:58",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Même feedback.<br />\nMais les étudiants travaillent davantage quand ils pensent qu’un humain les lit. <br />\nConclusion : la performance technique ne suffit pas. L’IA peut soutenir la correction, m"
+    },
+    {
       "title": "Public ai",
       "link": "https://www.uneiaparjour.fr/public-ai/",
       "date": "2026-03-26T22:13:02",
@@ -517,191 +699,9 @@
       "date": "2026-03-01T16:35:54",
       "source": "Mathix (A. Durand)",
       "summary": "Depuis un an, j’anime des FIL IA auprès d’équipes d’établissements. En un an, le paysage a profondément évolué. Les modèles de langage se sont perfectionnés.Le cadrage institutionnel s’est précisé.Les"
-    },
-    {
-      "title": "Partage de pratiques avec l’APMEP au Mans",
-      "link": "https://mathix.org/linux/archives/22092",
-      "date": "2026-02-11T17:22:07",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Et bien voilà j&#8217;ai fait un partage de pratique et de réflexion pour l&#8217;APMEP au Lycée Malraux au Mans. Sophie DESRUELLE présentait « Match Line » , je présentais "
-    },
-    {
-      "title": "Helping disaster response teams turn AI into action across Asia",
-      "link": "https://openai.com/index/helping-disaster-response-teams-asia",
-      "date": "2026-03-29T22:15:00",
-      "source": "OpenAI Blog",
-      "summary": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation"
-    },
-    {
-      "title": "Helping developers build safer AI experiences for teens",
-      "link": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
-      "date": "2026-03-24T11:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems."
-    },
-    {
-      "title": "Powering product discovery in ChatGPT",
-      "link": "https://openai.com/index/powering-product-discovery-in-chatgpt",
-      "date": "2026-03-24T09:00:00",
-      "source": "OpenAI Blog",
-      "summary": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration."
-    },
-    {
-      "title": "Update on the OpenAI Foundation",
-      "link": "https://openai.com/index/update-on-the-openai-foundation",
-      "date": "2026-03-24T09:00:00",
-      "source": "OpenAI Blog",
-      "summary": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs."
-    },
-    {
-      "title": "2️⃣4️⃣ idées concrètes pour utiliser #NotebookLM en éducation : préparer ses cours, résumer des ressources, créer des quiz, analyser des données, accompagner les élèves et gagner du temps.\n🎯 l’IA doit renforcer l’expertise enseignante, pas la remplacer. \n✍️ @ICTEvangelist",
-      "link": "https://twitter.com/sophiaefrance/status/2038477583940034895#m",
-      "date": "2026-03-30T04:45:03",
-      "source": "@sophiaefrance",
-      "summary": "<p>2️⃣4️⃣ idées concrètes pour utiliser <a href=\"https://nitter.net/search?f=tweets&amp;q=%23NotebookLM\">#NotebookLM</a> en éducation : préparer ses cours, résumer des ressources, créer des quiz, anal"
-    },
-    {
-      "title": "R to @AnthropicAI: We find that since November 2025, consumer use has become less concentrated: the top 10 tasks now make up 19% of conversations, down from 24%. We also see a rise in personal queries, and continued convergence in adoption rates in the US.\n\nRead more: https://www.anthropic.com/research/economic-index-march-2026-report",
-      "link": "https://twitter.com/AnthropicAI/status/2036499693920727463#m",
-      "date": "2026-03-24T17:45:38",
-      "source": "@AnthropicAI",
-      "summary": "<p>We find that since November 2025, consumer use has become less concentrated: the top 10 tasks now make up 19% of conversations, down from 24%. We also see a rise in personal queries, and continued "
-    },
-    {
-      "title": "New from the Anthropic Economic Index: how people’s use of Claude changes with experience.\n\nLonger-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy. They attempt higher-value tasks, and receive more successful responses.",
-      "link": "https://twitter.com/AnthropicAI/status/2036499691571953848#m",
-      "date": "2026-03-24T17:45:37",
-      "source": "@AnthropicAI",
-      "summary": "<p>New from the Anthropic Economic Index: how people’s use of Claude changes with experience.<br />\n<br />\nLonger-term users are more likely to iterate carefully with Claude, and less likely to hand i"
-    },
-    {
-      "title": "New on the Anthropic Engineering Blog: \n\nHow we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering.\n\nRead more: https://www.anthropic.com/engineering/harness-design-long-running-apps",
-      "link": "https://twitter.com/AnthropicAI/status/2036481033621623056#m",
-      "date": "2026-03-24T16:31:29",
-      "source": "@AnthropicAI",
-      "summary": "<p>New on the Anthropic Engineering Blog: <br />\n<br />\nHow we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering.<br />\n<br />\nRead m"
-    },
-    {
-      "title": "R to @AnthropicAI: Thank you to the 80,508 people who took the time to speak with us. It has been striking, and humbling, to see how AI figures in so many people’s hopes, fears, and dreams.\n\nRead the full post here: https://anthropic.com/features/81k-interviews",
-      "link": "https://twitter.com/AnthropicAI/status/2034302168879267871#m",
-      "date": "2026-03-18T16:13:27",
-      "source": "@AnthropicAI",
-      "summary": "<p>Thank you to the 80,508 people who took the time to speak with us. It has been striking, and humbling, to see how AI figures in so many people’s hopes, fears, and dreams.<br />\n<br />\nRead the full"
-    },
-    {
-      "title": "R to @AnthropicAI: These interviews capture texture that surveys can’t. They render in detail how people worldwide are already experiencing AI's opportunities and risks.\n\nWe plan to use Anthropic Interviewer regularly, on different topics, to help inform how AI can be built to benefit everyone.",
-      "link": "https://twitter.com/AnthropicAI/status/2034302167612616704#m",
-      "date": "2026-03-18T16:13:26",
-      "source": "@AnthropicAI",
-      "summary": "<p>These interviews capture texture that surveys can’t. They render in detail how people worldwide are already experiencing AI's opportunities and risks.<br />\n<br />\nWe plan to use Anthropic Intervie"
-    },
-    {
-      "title": "📢 Introducing the AI Now Summit, Mistral AI’s first-ever flagship event!\n\n🎯 One day, one mission: Own your AI transformation.\n📍 Paris | May 28\n\nJoin us to learn how AI is transforming leading organisations and hear from global CEOs and Mistral’s founders on:\n\n✅ Using open source as a core for end-to-end AI transformations \n✅ Scaling from pilots to production deployments \n✅ Building AI infrastructure for enterprise-grade deployments \n✅ The latest in robotics, VLMs, and multimodal AI\n\nLearn more and get notified when tickets go live → https://ainowsummit.com/",
-      "link": "https://twitter.com/MistralAI/status/2032094267640869085#m",
-      "date": "2026-03-12T14:00:02",
-      "source": "@MistralAI",
-      "summary": "<p>📢 Introducing the AI Now Summit, Mistral AI’s first-ever flagship event!<br />\n<br />\n🎯 One day, one mission: Own your AI transformation.<br />\n📍 Paris | May 28<br />\n<br />\nJoin us to learn how AI"
-    },
-    {
-      "title": "Pinned: ⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-interleaved input, MLA RoPE expects interleaved. Fixed in https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/tree/main/inference.",
-      "link": "https://twitter.com/deepseek_ai/status/1990616182161068094#m",
-      "date": "2025-11-18T03:00:56",
-      "source": "@deepseek_ai",
-      "summary": "<p>⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-"
-    },
-    {
-      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n🔗 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\n🔗 Tech report: https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/DeepSeek_V3_2.pdf\n🔗 Key GPU kernels in TileLang & CUDA (use TileLang for rapid research prototyping!)\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604780469239843#m",
-      "date": "2025-09-29T10:10:03",
-      "source": "@deepseek_ai",
-      "summary": "<p>🛠 Open Source Release<br />\n<br />\n🔗 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\">huggingface.co/deepseek-ai/D…</a><br />\n🔗 Tech report: <a href=\"https://github.com/deepsee"
-    },
-    {
-      "title": "R to @deepseek_ai: 💻 API Update\n\n🎉 Lower costs, same access!\n💰 DeepSeek API prices drop 50%+, effective immediately.\n\n🔹 For comparison testing, V3.1-Terminus remains available via a temporary API until Oct 15th, 2025, 15:59 (UTC Time). Details: https://api-docs.deepseek.com/guides/comparison_testing\n🔹 Feedback welcome: https://feedback.deepseek.com/dsa\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604777474458033#m",
-      "date": "2025-09-29T10:10:02",
-      "source": "@deepseek_ai",
-      "summary": "<p>💻 API Update<br />\n<br />\n🎉 Lower costs, same access!<br />\n💰 DeepSeek API prices drop 50%+, effective immediately.<br />\n<br />\n🔹 For comparison testing, V3.1-Terminus remains available via a temp"
-    },
-    {
-      "title": "RT by @OpenAI: Sharing some of the work I’ve been doing at OpenAI: we now monitor 99.9% of internal coding traffic for misalignment using our most powerful models, reviewing full trajectories to catch suspicious behavior, escalate serious cases quickly, and strengthen our safeguards over time.",
-      "link": "https://twitter.com/Marcus_J_W/status/2034677345681068140#m",
-      "date": "2026-03-19T17:04:16",
-      "source": "@OpenAI",
-      "summary": "<p>Sharing some of the work I’ve been doing at OpenAI: we now monitor 99.9% of internal coding traffic for misalignment using our most powerful models, reviewing full trajectories to catch suspicious "
-    },
-    {
-      "title": "R to @Fabien_Mikol: Intéressant passage sur l'étude d'Aghion : \"Cette étude est régulièrement utilisée pour minorer les effets à venir de l'IA générative. Or elle ne parle pas d'IA générative, puisqu'elle porte sur une période bien antérieure\"\nSource :\nhttps://www.nouvelobs.com/idees/20260329.OBS113709/ia-et-travail-avant-la-creation-de-nouveaux-emplois-il-y-a-la-destruction-des-anciens.html",
-      "link": "https://twitter.com/Fabien_Mikol/status/2038368959351681309#m",
-      "date": "2026-03-29T21:33:25",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Intéressant passage sur l'étude d'Aghion : \"Cette étude est régulièrement utilisée pour minorer les effets à venir de l'IA générative. Or elle ne parle pas d'IA générative, puisqu'elle porte sur un"
-    },
-    {
-      "title": "Axelle Arquié (CEPII) sur l'IA et l'emploi: \"Les économistes se moquent souvent de cette vision très sombre, arguant du fait que toutes les révolutions technologiques précédentes ont fini par recréer des emplois. Mais cette question devrait être approchée avec plus d'humilité...\"",
-      "link": "https://twitter.com/Fabien_Mikol/status/2038368956335993277#m",
-      "date": "2026-03-29T21:33:24",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Axelle Arquié (CEPII) sur l'IA et l'emploi: \"Les économistes se moquent souvent de cette vision très sombre, arguant du fait que toutes les révolutions technologiques précédentes ont fini par recré"
-    },
-    {
-      "title": "Je viens donc de découvrir que les documents PDF sont généralement exclus des données d'entraînement (pretraining) standards, à cause de difficultés de lecture pour les crawlers. Et on dit souvent qu'on est à court de données... C'est fou non ? 😶\nhttps://pleias.fr/blog/blogcommoncorpus-goes-global",
-      "link": "https://twitter.com/Fabien_Mikol/status/2038360350110687636#m",
-      "date": "2026-03-29T20:59:13",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Je viens donc de découvrir que les documents PDF sont généralement exclus des données d'entraînement (pretraining) standards, à cause de difficultés de lecture pour les crawlers. Et on dit souvent "
-    },
-    {
-      "title": "Modéliser ou Halluciner ?",
-      "link": "https://mathix.org/linux/archives/22174",
-      "date": "2026-03-28T11:23:45",
-      "source": "Mathix (A. Durand)",
-      "summary": "Comment faire comprendre aux élèves le lien entre une modélisation mathématique et la prédiction statistique d’un Large Language Model (LLM) ? Cette activité propose d&#8217;utiliser un exercice de tr"
-    },
-    {
-      "title": "Le vibe-coding : l’enjeu réel pour l’éducation",
-      "link": "https://mathix.org/linux/archives/22186",
-      "date": "2026-03-28T10:04:59",
-      "source": "Mathix (A. Durand)",
-      "summary": "La connaissance est l&#8217;indépendance : Le mirage du « Vibe-Coding » en éducation L’intelligence artificielle est en train de redéfinir nos usages numériques à une vitesse vertigineuse. Pour beauco"
-    },
-    {
-      "title": "Exerciseur sur la linéarité dans un tableau de proportionnalité",
-      "link": "https://mathix.org/linux/archives/22148",
-      "date": "2026-03-11T13:11:44",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Voici un exerciseur sur la proportionnalité (entier, décimaux et problème de proportionnalité), pour des élèves de 6eme. On peut uniquement travailler la linéarité (pas de c"
-    },
-    {
-      "title": "Creating with Sora Safely",
-      "link": "https://openai.com/index/creating-with-sora-safely",
-      "date": "2026-03-23T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approac"
-    },
-    {
-      "title": "R to @nsi_xyz: parler des biais qu'elle avait rencontré, sur tel sujet elle \"débloque\", sur tel autre elle lui dit ce qu'elle veut entendre, et fait incroyable (ou pas) elle continue de venir me poser des questions. Je ne vois rien de terrible dans tout cela. RIEN.",
-      "link": "https://twitter.com/nsi_xyz/status/2038141725311389806#m",
-      "date": "2026-03-29T06:30:28",
-      "source": "@nsi_xyz",
-      "summary": "<p>parler des biais qu'elle avait rencontré, sur tel sujet elle \"débloque\", sur tel autre elle lui dit ce qu'elle veut entendre, et fait incroyable (ou pas) elle continue de venir me poser des questio"
-    },
-    {
-      "title": "RT by @nsi_xyz: C'est ça, il n'y a pas de définition de l'IA, mais de toute façon c'est que des algorithmes donc ça peut pas être intelligent, et c'est très important de le retenir. Tout son laïus se résume à ça. Mais comme c'est un humain qui l'a prononcé, j'imagine que c'est intelligent 🤷‍♂️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2037674836051275853#m",
-      "date": "2026-03-27T23:35:13",
-      "source": "@nsi_xyz",
-      "summary": "<p>C'est ça, il n'y a pas de définition de l'IA, mais de toute façon c'est que des algorithmes donc ça peut pas être intelligent, et c'est très important de le retenir. Tout son laïus se résume à ça. "
-    },
-    {
-      "title": "R to @AnthropicAI: Models keep improving on long-horizon tasks, but splitting work across many agents doesn’t suit every problem. \n\nWe walk through the setup for a single agent working sequentially on a task where mistakes compound: modeling the early universe. \n\nRead more:\nhttps://www.anthropic.com/research/long-running-Claude",
-      "link": "https://twitter.com/AnthropicAI/status/2036179045143158925#m",
-      "date": "2026-03-23T20:31:29",
-      "source": "@AnthropicAI",
-      "summary": "<p>Models keep improving on long-horizon tasks, but splitting work across many agents doesn’t suit every problem. <br />\n<br />\nWe walk through the setup for a single agent working sequentially on a t"
     }
   ],
-  "last_update": "2026-04-02T08:44:55.988888",
+  "last_update": "2026-04-03T08:42:10.189842",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
