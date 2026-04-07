@@ -1,6 +1,97 @@
 {
   "articles": [
     {
+      "title": "Molmo web",
+      "link": "https://www.uneiaparjour.fr/molmo-web/",
+      "date": "2026-03-31T20:32:00",
+      "source": "Une IA par jour",
+      "summary": "Molmo Web (Documentation : https://allenai.org/blog/molmoweb et démonstration : https://molmoweb.allen.ai/) est un agent web qui automatise une recherche internet commandée par une instruction donnée "
+    },
+    {
+      "title": "Exerciseur sur l’écriture scientifique",
+      "link": "https://mathix.org/linux/archives/22209",
+      "date": "2026-04-07T06:07:43",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Un programme fait rapidement et à l&#8217;aide de l&#8217;IA en grande partie, par manque de temps et le programme étant simple, je me suis laissé faire, je me suis ensuite a"
+    },
+    {
+      "title": "Exerciseur : Construction de triangles  CCC, CAC et ACA",
+      "link": "https://mathix.org/linux/archives/22106",
+      "date": "2026-02-17T09:25:53",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Je vous présente un exerciseur alors je suis quasiment parti sur du vibe-coding, une manière de tester Gemini, &#8230; et ce que je n&#8217;arrivais pas à faire il y a quelq"
+    },
+    {
+      "title": "Announcing the OpenAI Safety Fellowship",
+      "link": "https://openai.com/index/introducing-openai-safety-fellowship",
+      "date": "2026-04-06T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "A pilot program to support independent safety and alignment research and develop the next generation of talent"
+    },
+    {
+      "title": "Industrial policy for the Intelligence Age",
+      "link": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "date": "2026-04-06T02:30:00",
+      "source": "OpenAI Blog",
+      "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves."
+    },
+    {
+      "title": "Accelerating the next phase of AI",
+      "link": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "date": "2026-03-31T13:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI."
+    },
+    {
+      "title": "Inside our approach to the Model Spec",
+      "link": "https://openai.com/index/our-approach-to-the-model-spec",
+      "date": "2026-03-25T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance."
+    },
+    {
+      "title": "We've signed an agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity, coming online starting in 2027, to train and serve frontier Claude models.",
+      "link": "https://twitter.com/AnthropicAI/status/2041275561704931636#m",
+      "date": "2026-04-06T22:03:13",
+      "source": "@AnthropicAI",
+      "summary": "<p>We've signed an agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity, coming online starting in 2027, to train and serve frontier Claude models.</p>"
+    },
+    {
+      "title": "Introducing the OpenAI Safety Fellowship, a new program supporting independent research on AI safety and alignment—and the next generation of talent.\n\nhttps://openai.com/index/introducing-openai-safety-fellowship/",
+      "link": "https://twitter.com/OpenAI/status/2041202511647019251#m",
+      "date": "2026-04-06T17:12:57",
+      "source": "@OpenAI",
+      "summary": "<p>Introducing the OpenAI Safety Fellowship, a new program supporting independent research on AI safety and alignment—and the next generation of talent.<br />\n<br />\n<a href=\"https://openai.com/index/"
+    },
+    {
+      "title": "R to @Fabien_Mikol: NB : l'étude Epoch AI trouvait aussi environ 0,3Wh par requête\nhttps://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use/",
+      "link": "https://twitter.com/Fabien_Mikol/status/2041431475275354336#m",
+      "date": "2026-04-07T08:22:46",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>NB : l'étude Epoch AI trouvait aussi environ 0,3Wh par requête<br />\n<a href=\"https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use/\">epoch.ai/gradient-updates/ho…</a></p>"
+    },
+    {
+      "title": "Le concept vague de \"AGI\" polarise le débat au point d'empêcher parfois toute discussion rationnelle.\nHelen Toner (ex-board OpenAI) propose comme jalons cruciaux plus faciles à définir :\n- IA automatisant totalement la R&D\n- IA aussi adaptable qu'un humain\n- IA auto-suffisante...",
+      "link": "https://twitter.com/Fabien_Mikol/status/2041207844607819999#m",
+      "date": "2026-04-06T17:34:08",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Le concept vague de \"AGI\" polarise le débat au point d'empêcher parfois toute discussion rationnelle.<br />\nHelen Toner (ex-board OpenAI) propose comme jalons cruciaux plus faciles à définir :<br /"
+    },
+    {
+      "title": "Immense plaisir de retrouver la communauté #EtrePROF pour un atelier inédit 🤖\n\n🎯 Adapter ses supports sans s’épuiser avec l’IA\n➡️ Schémas, audio, etc.\n➡️ Du concret, directement utilisable\n\nVenez avec un doc, repartez avec plusieurs versions !\n\n👉 https://etreprof.fr/ateliers/1283/adapter-ses-supports-a-tous-les-eleves-sans-sepuiser-a-l-aide-de-lia-elementairesecondaire",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2041188067050967349#m",
+      "date": "2026-04-06T16:15:33",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Immense plaisir de retrouver la communauté <a href=\"https://nitter.net/search?f=tweets&amp;q=%23EtrePROF\">#EtrePROF</a> pour un atelier inédit 🤖<br />\n<br />\n🎯 Adapter ses supports sans s’épuiser a"
+    },
+    {
+      "title": "🧠 L’IA peut désormais rédiger des devoirs, résoudre des exercices ou coder.\nAlors comment évaluer réellement les élèves?\nUne revue de 56 études propose plusieurs pistes :\n✔️ évaluations par étapes\n✔️ oraux\n✔️ tâches authentiques\n🔗 https://link.springer.com/article/10.1007/s43681-025-00871-w\n#IA #Évaluation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2037575876968095788#m",
+      "date": "2026-03-27T17:02:00",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🧠 L’IA peut désormais rédiger des devoirs, résoudre des exercices ou coder.<br />\nAlors comment évaluer réellement les élèves?<br />\nUne revue de 56 études propose plusieurs pistes :<br />\n✔️ évalu"
+    },
+    {
       "title": "Introducing the OpenAI Safety Bug Bounty program",
       "link": "https://openai.com/index/safety-bug-bounty",
       "date": "2026-03-25T00:00:00",
@@ -608,100 +699,9 @@
       "date": "2026-03-31T12:15:16",
       "source": "@nsi_xyz",
       "summary": "<p>🎒 Les élèves l’ont adopté avec enthousiasme. Les parents et professeurs, avec circonspection. De premières données montrent comment bien utiliser l'IA dans le monde de l’éducation, explique cette s"
-    },
-    {
-      "title": "Le vrai enjeu n’est pas d’être pour ou contre le #numérique, mais de penser la qualité des usages : renforcer les connaissances, soutenir la réflexion, repenser l’#évaluation : l’#IA ne remplace pas l’#apprentissage, elle en révèle les exigences. \nhttps://drive.google.com/file/d/1EvKRFhgaRQ7-T8iTiLh4WI0StMud4DiA/view?usp=sharing",
-      "link": "https://twitter.com/sophiaefrance/status/2039310564015448222#m",
-      "date": "2026-04-01T11:55:01",
-      "source": "@sophiaefrance",
-      "summary": "<p>Le vrai enjeu n’est pas d’être pour ou contre le <a href=\"https://nitter.net/search?f=tweets&amp;q=%23numérique\">#numérique</a>, mais de penser la qualité des usages : renforcer les connaissances, "
-    },
-    {
-      "title": "La \"Danse des Fonctions\" ! 🕺📈\nCette vidéo utilise la visualisation corporelle : en associant la position des bras à la courbe du graphique, ce petit bonhomme nous offre un moyen mnémotechnique incroyable pour ne plus confondre une fonction linéaire avec une fonction inverse !",
-      "link": "https://twitter.com/sophiaefrance/status/2033419255446737385#m",
-      "date": "2026-03-16T05:45:04",
-      "source": "@sophiaefrance",
-      "summary": "<p>La \"Danse des Fonctions\" ! 🕺📈<br />\nCette vidéo utilise la visualisation corporelle : en associant la position des bras à la courbe du graphique, ce petit bonhomme nous offre un moyen mnémotechniqu"
-    },
-    {
-      "title": "R to @MistralAI: Check out our blog post for details: https://mistral.ai/news/voxtral-tts",
-      "link": "https://twitter.com/MistralAI/status/2037183035121029375#m",
-      "date": "2026-03-26T15:00:59",
-      "source": "@MistralAI",
-      "summary": "<p>Check out our blog post for details: <a href=\"https://mistral.ai/news/voxtral-tts\">mistral.ai/news/voxtral-tts</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2037871948265639936%2FSbOtH7zE%3Ff"
-    },
-    {
-      "title": "R to @MistralAI: Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.",
-      "link": "https://twitter.com/MistralAI/status/2037183032856076527#m",
-      "date": "2026-03-26T15:00:58",
-      "source": "@MistralAI",
-      "summary": "<p>Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.</p>\n<a href=\"https://nitter.net/MistralAI/status/2037183032856076527#m\">\n"
-    },
-    {
-      "title": "R to @MistralAI: State-of-the-art performance.\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to the original voice.",
-      "link": "https://twitter.com/MistralAI/status/2037183030935105578#m",
-      "date": "2026-03-26T15:00:58",
-      "source": "@MistralAI",
-      "summary": "<p>State-of-the-art performance.<br />\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to t"
-    },
-    {
-      "title": "RT by @MistralAI: Video",
-      "link": "https://twitter.com/MistralDevs/status/2037181411283648646#m",
-      "date": "2026-03-26T14:54:32",
-      "source": "@MistralAI",
-      "summary": "<p></p>\n<a href=\"https://nitter.net/MistralDevs/status/2037181411283648646#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2037180981619417088%2Fimg%2FokcXQ4aexytMNJjd.j"
-    },
-    {
-      "title": "R to @MistralAI: 📖 Learn more here: https://mistral.ai/news/forge",
-      "link": "https://twitter.com/MistralAI/status/2034012033809604870#m",
-      "date": "2026-03-17T21:00:33",
-      "source": "@MistralAI",
-      "summary": "<p>📖 Learn more here: <a href=\"https://mistral.ai/news/forge\">mistral.ai/news/forge</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2037871948265639936%2FSbOtH7zE%3Fformat%3Dpng%26name%3D800x419\" "
-    },
-    {
-      "title": "R to @MistralAI: 🤝 This will be the first project we build together with Nvidia as we become a founding member of the Nemotron Coalition. \n\nDetails: https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models",
-      "link": "https://twitter.com/MistralAI/status/2033642113791848669#m",
-      "date": "2026-03-16T20:30:37",
-      "source": "@MistralAI",
-      "summary": "<p>🤝 This will be the first project we build together with Nvidia as we become a founding member of the Nemotron Coalition. <br />\n<br />\nDetails: <a href=\"https://mistral.ai/news/mistral-ai-and-nvidi"
-    },
-    {
-      "title": "🚀Announcing a strategic partnership with NVIDIA to co-develop frontier open-source AI models, combining Mistral AI’s frontier model architecture and full-stack AI offering with NVIDIA’s leading compute infrastructure and development tools.",
-      "link": "https://twitter.com/MistralAI/status/2033642111984177247#m",
-      "date": "2026-03-16T20:30:37",
-      "source": "@MistralAI",
-      "summary": "<p>🚀Announcing a strategic partnership with NVIDIA to co-develop frontier open-source AI models, combining Mistral AI’s frontier model architecture and full-stack AI offering with NVIDIA’s leading com"
-    },
-    {
-      "title": "R to @deepseek_ai: 🤖 Thinking in Tool-Use\n\n🔹 Introduces a new massive agent training data synthesis method covering 1,800+ environments & 85k+ complex instructions.\n🔹 DeepSeek-V3.2 is our first model to integrate thinking directly into tool-use, and also supports tool-use in both thinking and non-thinking modes.\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452650557763728#m",
-      "date": "2025-12-01T11:19:20",
-      "source": "@deepseek_ai",
-      "summary": "<p>🤖 Thinking in Tool-Use<br />\n<br />\n🔹 Introduces a new massive agent training data synthesis method covering 1,800+ environments & 85k+ complex instructions.<br />\n🔹 DeepSeek-V3.2 is our first mode"
-    },
-    {
-      "title": "R to @deepseek_ai: 🏆 World-Leading Reasoning\n\n🔹 V3.2: Balanced inference vs. length. Your daily driver at GPT-5 level performance.\n🔹 V3.2-Speciale: Maxed-out reasoning capabilities. Rivals Gemini-3.0-Pro.\n🥇 Gold-Medal Performance: V3.2-Speciale attains gold-level results in IMO, CMO, ICPC World Finals & IOI 2025.\n\n📝 Note: V3.2-Speciale dominates complex tasks but requires higher token usage. Currently API-only (no tool-use) to support community evaluation & research.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452646459858977#m",
-      "date": "2025-12-01T11:19:19",
-      "source": "@deepseek_ai",
-      "summary": "<p>🏆 World-Leading Reasoning<br />\n<br />\n🔹 V3.2: Balanced inference vs. length. Your daily driver at GPT-5 level performance.<br />\n🔹 V3.2-Speciale: Maxed-out reasoning capabilities. Rivals Gemini-3."
-    },
-    {
-      "title": "R to @deepseek_ai: ⚡️ Efficiency Gains\n\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.\n📊 Benchmarks show V3.2-Exp performs on par with V3.1-Terminus.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604772042637477#m",
-      "date": "2025-09-29T10:10:01",
-      "source": "@deepseek_ai",
-      "summary": "<p>⚡️ Efficiency Gains<br />\n<br />\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.<br />\n📊 Benchmarks s"
-    },
-    {
-      "title": "🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!\n\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on long context.\n👉 Now live on App, Web, and API.\n💰 API prices cut by 50%+!\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604768309871061#m",
-      "date": "2025-09-29T10:10:00",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!<br />\n<br />\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on l"
     }
   ],
-  "last_update": "2026-04-06T09:01:12.532843",
+  "last_update": "2026-04-07T08:52:54.994870",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
