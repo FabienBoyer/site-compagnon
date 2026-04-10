@@ -1,6 +1,181 @@
 {
   "articles": [
     {
+      "title": "Blueprint",
+      "link": "https://www.uneiaparjour.fr/blueprint/",
+      "date": "2026-04-09T20:58:00",
+      "source": "Une IA par jour",
+      "summary": "Blueprint (https://www.blueprint.am/) génère des prototypes détaillés à partir d&#8217;une instruction et d&#8217;un chatbot. La génération consiste en une vue de l&#8217;objet et en ses différents ma"
+    },
+    {
+      "title": "Modéliser ou Halluciner ?",
+      "link": "https://mathix.org/linux/archives/22174",
+      "date": "2026-03-28T11:23:45",
+      "source": "Mathix (A. Durand)",
+      "summary": "Comment faire comprendre aux élèves le lien entre une modélisation mathématique et la prédiction statistique d’un Large Language Model (LLM) ? Cette activité propose d&#8217;utiliser un exercice de tr"
+    },
+    {
+      "title": "Le vibe-coding : l’enjeu réel pour l’éducation",
+      "link": "https://mathix.org/linux/archives/22186",
+      "date": "2026-03-28T10:04:59",
+      "source": "Mathix (A. Durand)",
+      "summary": "La connaissance est l&#8217;indépendance : Le mirage du « Vibe-Coding » en éducation L’intelligence artificielle est en train de redéfinir nos usages numériques à une vitesse vertigineuse. Pour beauco"
+    },
+    {
+      "title": "Exerciseur sur la linéarité dans un tableau de proportionnalité",
+      "link": "https://mathix.org/linux/archives/22148",
+      "date": "2026-03-11T13:11:44",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Voici un exerciseur sur la proportionnalité (entier, décimaux et problème de proportionnalité), pour des élèves de 6eme. On peut uniquement travailler la linéarité (pas de c"
+    },
+    {
+      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+      "link": "https://openai.com/index/cyberagent",
+      "date": "2026-04-09T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming."
+    },
+    {
+      "title": "OpenAI Full Fan Mode Contest: Terms & Conditions",
+      "link": "https://openai.com/index/full-fan-mode-contest-terms-conditions",
+      "date": "2026-04-09T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Explore the official terms and conditions for the OpenAI Full Fan Mode Contest, including eligibility, entry steps, judging criteria, and prize details. Learn how to participate, submit your entry on "
+    },
+    {
+      "title": "RT by @nsi_xyz: 🚨ALERTE INFO\n\nSelon plusieurs sources concordantes, le FBI est parvenu à récupérer des messages de la messagerie chiffrée Signal à partir de l’iPhone d’un suspect — y compris après suppression de l’application.\n\nCette information provient de témoignages entendus lors d’un procès aux États-Unis. Les enquêteurs ont utilisé une technique de forensique numérique (analyse approfondie d’un appareil saisi) pour extraire des données résiduelles.  \n\nContrairement à ce que l’on pourrait penser, ces messages n’ont pas été récupérés directement dans l’application Signal, mais dans une autre zone du système iOS : la base de données des notifications.",
+      "link": "https://twitter.com/TribunePop23/status/2042325595883802734#m",
+      "date": "2026-04-09T19:35:41",
+      "source": "@nsi_xyz",
+      "summary": "<p>🚨ALERTE INFO<br />\n<br />\nSelon plusieurs sources concordantes, le FBI est parvenu à récupérer des messages de la messagerie chiffrée Signal à partir de l’iPhone d’un suspect — y compris après supp"
+    },
+    {
+      "title": "RT by @nsi_xyz: Ma contribution à la baisse en maths : \n\"Pour jeudi, vous ferez l'exercice 34 page 157.\"\n7 élèves sur 30 l'ont fait. \n#baissedesmaths <=> #Faispastesdevoirs",
+      "link": "https://twitter.com/TheoremeAutumn/status/2042271110784270561#m",
+      "date": "2026-04-09T15:59:11",
+      "source": "@nsi_xyz",
+      "summary": "<p>Ma contribution à la baisse en maths : <br />\n\"Pour jeudi, vous ferez l'exercice 34 page 157.\"<br />\n7 élèves sur 30 l'ont fait. <br />\n<a href=\"https://nitter.net/search?f=tweets&amp;q=%23baissede"
+    },
+    {
+      "title": "Je confirme, j'ai essayé une fois, ils m'ont convoqué pour surveiller, en dehors de mes heures, j'ai signifié que je n'inscrirais plus d'élèves du coup, \"et les élèves, tu vas refuser de les présenter pour ne pas surveiller ?\"...",
+      "link": "https://twitter.com/nsi_xyz/status/2040138800161030514#m",
+      "date": "2026-04-03T18:46:08",
+      "source": "@nsi_xyz",
+      "summary": "<p>Je confirme, j'ai essayé une fois, ils m'ont convoqué pour surveiller, en dehors de mes heures, j'ai signifié que je n'inscrirais plus d'élèves du coup, \"et les élèves, tu vas refuser de les présen"
+    },
+    {
+      "title": "Un parcours Genially pour mieux reconnaître, prévenir et traiter le #harcèlement scolaire. Définition, signaux d’alerte, rôle des témoins, climat scolaire, empathie, ateliers de parole… une ressource utile pour agir en équipe 🤝\nhttps://view.genially.com/6023fe404ee38c0d843dff96",
+      "link": "https://twitter.com/sophiaefrance/status/2042282182408892787#m",
+      "date": "2026-04-09T16:43:10",
+      "source": "@sophiaefrance",
+      "summary": "<p>Un parcours Genially pour mieux reconnaître, prévenir et traiter le <a href=\"https://nitter.net/search?f=tweets&amp;q=%23harcèlement\">#harcèlement</a> scolaire. Définition, signaux d’alerte, rôle d"
+    },
+    {
+      "title": "#DysFacile est un outil gratuit, pensé par un enseignant, pour adapter rapidement un texte aux élèves #DYS : police, taille, interligne, aperçu immédiat… avec même extraction de texte depuis une image. Un vrai coup de pouce pour une école plus inclusive. \nhttps://dysfacile.lovable.app/",
+      "link": "https://twitter.com/sophiaefrance/status/2040003884555354271#m",
+      "date": "2026-04-03T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p><a href=\"https://nitter.net/search?f=tweets&amp;q=%23DysFacile\">#DysFacile</a> est un outil gratuit, pensé par un enseignant, pour adapter rapidement un texte aux élèves <a href=\"https://nitter.net"
+    },
+    {
+      "title": "2️⃣4️⃣ idées concrètes pour utiliser #NotebookLM en éducation : préparer ses cours, résumer des ressources, créer des quiz, analyser des données, accompagner les élèves et gagner du temps.\n🎯 l’IA doit renforcer l’expertise enseignante, pas la remplacer. \n✍️ @ICTEvangelist",
+      "link": "https://twitter.com/sophiaefrance/status/2038477583940034895#m",
+      "date": "2026-03-30T04:45:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>2️⃣4️⃣ idées concrètes pour utiliser <a href=\"https://nitter.net/search?f=tweets&amp;q=%23NotebookLM\">#NotebookLM</a> en éducation : préparer ses cours, résumer des ressources, créer des quiz, anal"
+    },
+    {
+      "title": "Pinned: Mistral’s AI Now Summit is coming to Paris on May 28 and tickets are live!\n\nWhat you’ll hear:\n📷 Technical deep dives to help you build and deploy AI.\n📷 Mistral’s founders on AI-driven transformation in large organizations, company trajectory, and upcoming releases.\n\nOne day to leave with:\n✅ Hands-on techniques to deploy and scale AI\n✅ Practical insights on AI use cases\n✅ Connections with peers to help you build your own AI\n\nGet your pass now → https://ainowsummit.com",
+      "link": "https://twitter.com/MistralAI/status/2042256228668276987#m",
+      "date": "2026-04-09T15:00:02",
+      "source": "@MistralAI",
+      "summary": "<p>Mistral’s AI Now Summit is coming to Paris on May 28 and tickets are live!<br />\n<br />\nWhat you’ll hear:<br />\n📷 Technical deep dives to help you build and deploy AI.<br />\n📷 Mistral’s founders on"
+    },
+    {
+      "title": "Pinned: ⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-interleaved input, MLA RoPE expects interleaved. Fixed in https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/tree/main/inference.",
+      "link": "https://twitter.com/deepseek_ai/status/1990616182161068094#m",
+      "date": "2025-11-18T03:00:56",
+      "source": "@deepseek_ai",
+      "summary": "<p>⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-"
+    },
+    {
+      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n🔗 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\n🔗 Tech report: https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/DeepSeek_V3_2.pdf\n🔗 Key GPU kernels in TileLang & CUDA (use TileLang for rapid research prototyping!)\n\n4/n",
+      "link": "https://twitter.com/deepseek_ai/status/1972604780469239843#m",
+      "date": "2025-09-29T10:10:03",
+      "source": "@deepseek_ai",
+      "summary": "<p>🛠 Open Source Release<br />\n<br />\n🔗 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\">huggingface.co/deepseek-ai/D…</a><br />\n🔗 Tech report: <a href=\"https://github.com/deepsee"
+    },
+    {
+      "title": "R to @deepseek_ai: 💻 API Update\n\n🎉 Lower costs, same access!\n💰 DeepSeek API prices drop 50%+, effective immediately.\n\n🔹 For comparison testing, V3.1-Terminus remains available via a temporary API until Oct 15th, 2025, 15:59 (UTC Time). Details: https://api-docs.deepseek.com/guides/comparison_testing\n🔹 Feedback welcome: https://feedback.deepseek.com/dsa\n\n3/n",
+      "link": "https://twitter.com/deepseek_ai/status/1972604777474458033#m",
+      "date": "2025-09-29T10:10:02",
+      "source": "@deepseek_ai",
+      "summary": "<p>💻 API Update<br />\n<br />\n🎉 Lower costs, same access!<br />\n💰 DeepSeek API prices drop 50%+, effective immediately.<br />\n<br />\n🔹 For comparison testing, V3.1-Terminus remains available via a temp"
+    },
+    {
+      "title": "Our existing $200 Pro tier still remains our highest usage option. And as a thank you to our existing Pro users on the $200 tier, we’re extending our 2x Codex usage promo (until May 31st) and we’ve reset your Codex rate limits (yes, again).",
+      "link": "https://twitter.com/OpenAI/status/2042296046009626989#m",
+      "date": "2026-04-09T17:38:16",
+      "source": "@OpenAI",
+      "summary": "<p>Our existing $200 Pro tier still remains our highest usage option. And as a thank you to our existing Pro users on the $200 tier, we’re extending our 2x Codex usage promo (until May 31st) and we’ve"
+    },
+    {
+      "title": "We’re updating our ChatGPT Pro and Plus subscriptions to better support the growing use of Codex.\n\nWe’re introducing a new $100/month Pro tier. This new tier offers 5x more Codex usage than Plus and is best for longer, high-effort Codex sessions. \n\nIn ChatGPT, this new Pro tier still offers access to all Pro features, including the exclusive Pro model and unlimited access to Instant and Thinking models.\n\nTo celebrate the launch, we’re increasing Codex usage for a limited time through May 31st so that Pro $100 subscribers get up to 10x usage of ChatGPT Plus on Codex to build your most ambitious ideas.",
+      "link": "https://twitter.com/OpenAI/status/2042295688323875316#m",
+      "date": "2026-04-09T17:36:50",
+      "source": "@OpenAI",
+      "summary": "<p>We’re updating our ChatGPT Pro and Plus subscriptions to better support the growing use of Codex.<br />\n<br />\nWe’re introducing a new $100/month Pro tier. This new tier offers 5x more Codex usage "
+    },
+    {
+      "title": "R to @OpenAI: The Codex promotion for existing Plus subscribers ends today and as a part of this, we’re rebalancing Codex usage in Plus to support more sessions throughout the week, rather than longer sessions in a single day.\n\nThe Plus plan will continue to be the best offer at $20 for steady, day-to-day usage of Codex, and the new $100 Pro tier offers a more accessible upgrade path for heavier daily use.",
+      "link": "https://twitter.com/OpenAI/status/2042295690382995789#m",
+      "date": "2026-04-09T17:36:51",
+      "source": "@OpenAI",
+      "summary": "<p>The Codex promotion for existing Plus subscribers ends today and as a part of this, we’re rebalancing Codex usage in Plus to support more sessions throughout the week, rather than longer sessions i"
+    },
+    {
+      "title": "R to @OpenAI: chatgpt.com/pricing",
+      "link": "https://twitter.com/OpenAI/status/2042295692324991329#m",
+      "date": "2026-04-09T17:36:51",
+      "source": "@OpenAI",
+      "summary": "<p><a href=\"https://chatgpt.com/pricing\">chatgpt.com/pricing</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2042178957580324864%2F6cugddfY%3Fformat%3Djpg%26name%3D800x419\" />"
+    },
+    {
+      "title": "Heu alors il faut juste lui expliquer (je ne peux pas je suis bloqué) que même Luc Julia a fini par admettre qu'il n'était pas cofondateur de Siri 😅\nhttps://x.com/Fabien_Mikol/status/2019816370930954276",
+      "link": "https://twitter.com/Fabien_Mikol/status/2042513040449433601#m",
+      "date": "2026-04-10T08:00:31",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Heu alors il faut juste lui expliquer (je ne peux pas je suis bloqué) que même Luc Julia a fini par admettre qu'il n'était pas cofondateur de Siri 😅<br />\n<a href=\"https://nitter.net/Fabien_Mikol/s"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Bon sinon ce revirement de discours est notable, car leur première réaction à la vidéo de @MonsieurPhi était plutôt de défendre Julia contre une \"exécution publique\" et de rappeler que l'auteur de la vidéo n'est qu'un vulgaire \"philosophe youtubeur\"...\nhttps://x.com/Fabien_Mikol/status/2037825509157970163",
+      "link": "https://twitter.com/Fabien_Mikol/status/2042513043146297649#m",
+      "date": "2026-04-10T08:00:32",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Bon sinon ce revirement de discours est notable, car leur première réaction à la vidéo de <a href=\"https://nitter.net/MonsieurPhi\" title=\"MrPhi\">@MonsieurPhi</a> était plutôt de défendre Julia cont"
+    },
+    {
+      "title": "R to @Fabien_Mikol: J'ignorais ou j'avais oublié pour Arafat, en fait c'est assez compliqué, mais oui les liens avec les Frères musulmans étaient substantiels.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2042323829414908255#m",
+      "date": "2026-04-09T19:28:40",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>J'ignorais ou j'avais oublié pour Arafat, en fait c'est assez compliqué, mais oui les liens avec les Frères musulmans étaient substantiels.</p>\n<img src=\"https://nitter.net/pic/media%2FHFfKh2wWoAA8"
+    },
+    {
+      "title": "Témoignage du général Philippe Sidos, ancien chef du bureau de liaison de la FINUL: les Libanais n'ont pas le droit de parler aux Israéliens, ce qui rend le dialogue difficile ; après 2006 la FINUL \"vivotait pour être honnête\", laissant le Hezbollah \"reprendre du poil de la bête\"",
+      "link": "https://twitter.com/Fabien_Mikol/status/2042320200842817663#m",
+      "date": "2026-04-09T19:14:15",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Témoignage du général Philippe Sidos, ancien chef du bureau de liaison de la FINUL: les Libanais n'ont pas le droit de parler aux Israéliens, ce qui rend le dialogue difficile ; après 2006 la FINUL"
+    },
+    {
+      "title": "🎓 L’IA facilite-t-elle vraiment l’apprentissage ?\nCarl Hendrick montre un paradoxe : vérifier une réponse IA exige l’expertise que l’élève construit encore.\nL’IA suppose les compétences… qu’elle risque d’affaiblir.\nhttps://carlhendrick.substack.com/p/ai-brain-fry-workslop-and-the-ironies \n#Éducation #IA #Pédagogie #EdTech",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2042272097309700562#m",
+      "date": "2026-04-09T16:03:06",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🎓 L’IA facilite-t-elle vraiment l’apprentissage ?<br />\nCarl Hendrick montre un paradoxe : vérifier une réponse IA exige l’expertise que l’élève construit encore.<br />\nL’IA suppose les compétences"
+    },
+    {
       "title": "Google Vids – Veo 3.1",
       "link": "https://www.uneiaparjour.fr/google-vids-veo-3-1/",
       "date": "2026-04-08T20:02:00",
@@ -524,184 +699,9 @@
       "date": "2026-03-31T20:59:21",
       "source": "@OpenAI",
       "summary": "<p>Today, we closed our latest funding round with $122 billion in committed capital at an $852B post-money valuation.<br />\n<br />\nThe fastest way to expand AI’s benefits is to put useful intelligence"
-    },
-    {
-      "title": "RT by @OpenAI: We're rolling out plugins in Codex.\n\nCodex now works seamlessly out of the box with the most important tools builders already use, like @SlackHQ, @Figma, @NotionHQ, @gmail, and more.\n\nhttp://developers.openai.com/codex/plugins",
-      "link": "https://twitter.com/OpenAIDevs/status/2037296316104282119#m",
-      "date": "2026-03-26T22:31:07",
-      "source": "@OpenAI",
-      "summary": "<p>We're rolling out plugins in Codex.<br />\n<br />\nCodex now works seamlessly out of the box with the most important tools builders already use, like <a href=\"https://nitter.net/SlackHQ\" title=\"Slack"
-    },
-    {
-      "title": "RT by @OpenAI: Meet Codex for Students.\n\nWe're offering college students in the U.S. and Canada $100 in Codex credits.\n\nOur goal is to support students to learn by building, breaking, and fixing things.\n\nhttp://chatgpt.com/codex/students",
-      "link": "https://twitter.com/OpenAIDevs/status/2035033703274201109#m",
-      "date": "2026-03-20T16:40:18",
-      "source": "@OpenAI",
-      "summary": "<p>Meet Codex for Students.<br />\n<br />\nWe're offering college students in the U.S. and Canada $100 in Codex credits.<br />\n<br />\nOur goal is to support students to learn by building, breaking, and "
-    },
-    {
-      "title": "Excellente explication par @IA_Clash de ce qui ne va pas dans une tristement célèbre \"démonstration\" par LeCun censée prouver l'impasse des LLM (\"they suck!\", \"they are doomed!\"), et qu'il a répétée vraiment un peu partout. Très pédagogique en plus 👌",
-      "link": "https://twitter.com/Fabien_Mikol/status/2041076226261926374#m",
-      "date": "2026-04-06T08:51:08",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Excellente explication par <a href=\"https://nitter.net/IA_Clash\" title=\"IA Clash\">@IA_Clash</a> de ce qui ne va pas dans une tristement célèbre \"démonstration\" par LeCun censée prouver l'impasse de"
-    },
-    {
-      "title": "\"Il suffit qu'une personne sorte une hot take du style : \"Ça y est, on va tous mourir à cause de l'IA\" pour être invitée partout. C'est un cheat code\".\nMais genre qui, en fait ?\nJulia, Devillers, Ganascia, Villani, Sadin, Klein... tous dénigrent ce risque, et sont invités partout",
-      "link": "https://twitter.com/Fabien_Mikol/status/2040893378494083502#m",
-      "date": "2026-04-05T20:44:34",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>\"Il suffit qu'une personne sorte une hot take du style : \"Ça y est, on va tous mourir à cause de l'IA\" pour être invitée partout. C'est un cheat code\".<br />\nMais genre qui, en fait ?<br />\nJulia, "
-    },
-    {
-      "title": "R to @Fabien_Mikol: J'adore l'exemple du mammouth franchement.\nConcernant le \"double discours\" des sceptiques, l'exemple donné par Haynes est aussi assez croustillant 😅",
-      "link": "https://twitter.com/Fabien_Mikol/status/2040829349885063622#m",
-      "date": "2026-04-05T16:30:08",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>J'adore l'exemple du mammouth franchement.<br />\nConcernant le \"double discours\" des sceptiques, l'exemple donné par Haynes est aussi assez croustillant 😅</p>\n<img src=\"https://nitter.net/pic/media"
-    },
-    {
-      "title": "📊 IA à l’école : la recherche progresse… les preuves solides beaucoup moins.\n+800 articles sur l’IA en éducation, mais seulement 20 études causales sur son impact réel.\nLes gains existent pendant l’usage, mais l’apprentissage durable reste incertain.\n🔎 https://scale.stanford.edu/research-in-action/understanding-evidence-base-ai-k12-education",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2039010514735440252#m",
-      "date": "2026-03-31T16:02:44",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>📊 IA à l’école : la recherche progresse… les preuves solides beaucoup moins.<br />\n+800 articles sur l’IA en éducation, mais seulement 20 études causales sur son impact réel.<br />\nLes gains existe"
-    },
-    {
-      "title": "🧠 Si l’IA automatise de plus en plus le travail intellectuel, à quoi serviront encore les universités ?\nMachine à produire diplômes et publications…\nou écosystème qui forme expertise, jugement et responsabilité ?\nUn article stimulant 👇\nhttps://theconversation.com/the-greatest-risk-of-ai-in-higher-education-isnt-cheating-its-the-erosion-of-learning-itself-270243\n#IA #Recherche",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2037213579384950959#m",
-      "date": "2026-03-26T17:02:21",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🧠 Si l’IA automatise de plus en plus le travail intellectuel, à quoi serviront encore les universités ?<br />\nMachine à produire diplômes et publications…<br />\nou écosystème qui forme expertise, j"
-    },
-    {
-      "title": "Zawa",
-      "link": "https://www.uneiaparjour.fr/zawa/",
-      "date": "2026-04-04T20:12:00",
-      "source": "Une IA par jour",
-      "summary": "Zawa (ex X-design &#8211; https://zawa.ai/) est un chatbot combiné à un tableau blanc spécialisé dans la génération de contenus visuels, image ou vidéo ou page html. Plusieurs modèles disponibles avec"
-    },
-    {
-      "title": "Albert est le 31e élève",
-      "link": "https://mathix.org/linux/archives/22170",
-      "date": "2026-03-30T06:34:00",
-      "source": "Mathix (A. Durand)",
-      "summary": "Il y a quelque temps, je partageais ici les premiers pas d&#8217;Albert, ce « 31ème élève » virtuel qui a rejoint ma classe de 3ème. Si les premières expérimentations tournaient autour de la faisabili"
-    },
-    {
-      "title": "IA & Éducation : pourquoi je (re)mets mon diaporama à disposition.",
-      "link": "https://mathix.org/linux/archives/22128",
-      "date": "2026-03-01T16:35:54",
-      "source": "Mathix (A. Durand)",
-      "summary": "Depuis un an, j’anime des FIL IA auprès d’équipes d’établissements. En un an, le paysage a profondément évolué. Les modèles de langage se sont perfectionnés.Le cadrage institutionnel s’est précisé.Les"
-    },
-    {
-      "title": "🤖 A.U.D.I.T. propose des séquences clés en main pour apprendre aux élèves à utiliser l’IA avec discernement : repérer le style IA, tester ses failles, puis mieux la piloter en classe. \n🎯 Développer l’esprit critique face aux biais et hallucinations \nhttps://intelligence-artificielle-esprit-critique-et-enseignement.forge.apps.education.fr/audit-ia/index.html",
-      "link": "https://twitter.com/sophiaefrance/status/2036788953085313150#m",
-      "date": "2026-03-25T12:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤖 A.U.D.I.T. propose des séquences clés en main pour apprendre aux élèves à utiliser l’IA avec discernement : repérer le style IA, tester ses failles, puis mieux la piloter en classe. <br />\n🎯 Déve"
-    },
-    {
-      "title": "La @CNIL propose des contenus pédagogiques et ludiques pour ados, parents, enseignants et éducateurs. Plongez dans « Océan de données » un podcast pour mieux comprendre les usages en ligne et protéger ses données en ligne \nhttps://video.cnil.fr/w/eAfTpsmb4mePo4RYK8ZdT9",
-      "link": "https://twitter.com/sophiaefrance/status/2032408844316389544#m",
-      "date": "2026-03-13T10:50:03",
-      "source": "@sophiaefrance",
-      "summary": "<p>La <a href=\"https://nitter.net/CNIL\" title=\"CNIL\">@CNIL</a> propose des contenus pédagogiques et ludiques pour ados, parents, enseignants et éducateurs. Plongez dans « Océan de données » un podcast"
-    },
-    {
-      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n📦 DeepSeek-V3.2 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2\n📦 DeepSeek-V3.2-Speciale Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n5/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452658149405148#m",
-      "date": "2025-12-01T11:19:22",
-      "source": "@deepseek_ai",
-      "summary": "<p>🛠 Open Source Release<br />\n<br />\n📦 DeepSeek-V3.2 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2\">huggingface.co/deepseek-ai/D…</a><br />\n📦 DeepSeek-V3.2-Speciale Model: <a href="
-    },
-    {
-      "title": "R to @deepseek_ai: 💻 API Update\n\n🔹 V3.2: Same usage pattern as V3.2-Exp.\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"https://api.deepseek.com/v3.2_speciale_expires_on_20251215\". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time).\n💡 V3.2 now supports Thinking in Tool-Use — details: https://api-docs.deepseek.com/guides/thinking_mode\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452654659805334#m",
-      "date": "2025-12-01T11:19:21",
-      "source": "@deepseek_ai",
-      "summary": "<p>💻 API Update<br />\n<br />\n🔹 V3.2: Same usage pattern as V3.2-Exp.<br />\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"<a href=\"https://api.deepseek.com/v3.2_speciale_expires_on_202512"
-    },
-    {
-      "title": "🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!\n\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.\n🔹 DeepSeek-V3.2-Speciale: Pushing the boundaries of reasoning capabilities. API-only for now.\n\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452641430651132#m",
-      "date": "2025-12-01T11:19:18",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!<br />\n<br />\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.<br />\n🔹 DeepS"
-    },
-    {
-      "title": "RT by @OpenAI: Students: build something real in the Codex Creator Challenge, powered by @joinHandshake\n\nTry new tools. Have fun. Break things. Repeat.\n\n$10K in OpenAI API credits in prizes.\n\nhttps://joinhandshake.com/students/codex-creator-challenge/?utm_source=openai&utm_medium=organicsocial&utm_campaign=FY26Q2-NWK-HS-Codex-Campaign",
-      "link": "https://twitter.com/OpenAIDevs/status/2036851146300809531#m",
-      "date": "2026-03-25T17:02:10",
-      "source": "@OpenAI",
-      "summary": "<p>Students: build something real in the Codex Creator Challenge, powered by <a href=\"https://nitter.net/joinHandshake\" title=\"Handshake\">@joinHandshake</a><br />\n<br />\nTry new tools. Have fun. Break"
-    },
-    {
-      "title": "R to @OpenAI: Listen to the OpenAI Podcast on—\nSpotify\nhttps://open.spotify.com/show/0zojMEDizKMh3aTxnGLENP\nApple\nhttps://podcasts.apple.com/us/podcast/openai-podcast/id1820330260\nYouTube\nhttps://youtu.be/H8GMRxG8suw",
-      "link": "https://twitter.com/OpenAI/status/2036855700132147593#m",
-      "date": "2026-03-25T17:20:16",
-      "source": "@OpenAI",
-      "summary": "<p>Listen to the OpenAI Podcast on—<br />\nSpotify<br />\n<a href=\"https://open.spotify.com/show/0zojMEDizKMh3aTxnGLENP\">open.spotify.com/show/0zojME…</a><br />\nApple<br />\n<a href=\"https://podcasts.app"
-    },
-    {
-      "title": "R to @OpenAI: More on our approach to the Model Spec: https://openai.com/index/our-approach-to-the-model-spec/",
-      "link": "https://twitter.com/OpenAI/status/2036855698617938422#m",
-      "date": "2026-03-25T17:20:16",
-      "source": "@OpenAI",
-      "summary": "<p>More on our approach to the Model Spec: <a href=\"https://openai.com/index/our-approach-to-the-model-spec/\">openai.com/index/our-approac…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F20393890"
-    },
-    {
-      "title": "The more AI can do, the more we need to ask what it should and shouldn’t do.\n\nOpenAI researcher @w01fe joins host @AndrewMayne to explore the Model Spec, the public framework that defines how models are intended to behave.\n\nThey break down how it works in practice, from the chain of command that resolves conflicting instructions to the way it evolves over time through real-world use, feedback, and new model capabilities.",
-      "link": "https://twitter.com/OpenAI/status/2036855694906057079#m",
-      "date": "2026-03-25T17:20:15",
-      "source": "@OpenAI",
-      "summary": "<p>The more AI can do, the more we need to ask what it should and shouldn’t do.<br />\n<br />\nOpenAI researcher <a href=\"https://nitter.net/w01fe\" title=\"Jason Wolfe\">@w01fe</a> joins host <a href=\"htt"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Pour les plus passionnés, le meilleur ouvrage sur ce sujet à ma connaissance est celui d'Oren Kessler. Voici la description des premières auditions par la Commission Peel en Palestine, notamment celle de Weizmann, c'est fascinant :\nhttps://www.amazon.fr/Palestine-1936-Revolt-Middle-Conflict/dp/1538148803",
-      "link": "https://twitter.com/Fabien_Mikol/status/2040532830405492913#m",
-      "date": "2026-04-04T20:51:52",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Pour les plus passionnés, le meilleur ouvrage sur ce sujet à ma connaissance est celui d'Oren Kessler. Voici la description des premières auditions par la Commission Peel en Palestine, notamment ce"
-    },
-    {
-      "title": "Moi aussi j'aimais bien utiliser ça dans mes rédactions, je crois que j'aurais du mal désormais 🥲\nhttps://www.lemonde.fr/m-le-mag/article/2026/04/04/quand-les-tirets-trahissent-l-usage-de-chatgpt-il-n-a-meme-pas-fait-l-effort-de-retirer-le-tiret-cadratin_6676653_4500055.html",
-      "link": "https://twitter.com/Fabien_Mikol/status/2040401400794849302#m",
-      "date": "2026-04-04T12:09:37",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Moi aussi j'aimais bien utiliser ça dans mes rédactions, je crois que j'aurais du mal désormais 🥲<br />\n<a href=\"https://www.lemonde.fr/m-le-mag/article/2026/04/04/quand-les-tirets-trahissent-l-usa"
-    },
-    {
-      "title": "Bonne revue du dernier livre de Pascal Boyer par Olivier Galland (directeur de recherche au CNRS).\nIl y est question de notre besoin d’affiliation, du jeu des alliances et de leurs conséquences en politique, y compris quand il s'agit d'immigration ⤵️\nhttps://www.telos-eu.com/fr/politique-francaise-et-internationale/psychologie-coalitionnelle-pascal-boyer-impossible-democratie.html",
-      "link": "https://twitter.com/Fabien_Mikol/status/2040395357046157679#m",
-      "date": "2026-04-04T11:45:36",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Bonne revue du dernier livre de Pascal Boyer par Olivier Galland (directeur de recherche au CNRS).<br />\nIl y est question de notre besoin d’affiliation, du jeu des alliances et de leurs conséquenc"
-    },
-    {
-      "title": "Bon article sur la non scientificité du critère de l'ultratransformation. Il faut lire aussi l'avis de l'Anses (2024) dont on a peu parlé, mais qui montrait bien à quel point le classement Nova est subjectif, non fiable, incohérent et non reproductible !\nhttps://www.anses.fr/fr/system/files/NUT2022-SA-0155.pdf",
-      "link": "https://twitter.com/Fabien_Mikol/status/2040381608872591681#m",
-      "date": "2026-04-04T10:50:58",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Bon article sur la non scientificité du critère de l'ultratransformation. Il faut lire aussi l'avis de l'Anses (2024) dont on a peu parlé, mais qui montrait bien à quel point le classement Nova est"
-    },
-    {
-      "title": "🎓 L’IA devient un “conseiller d’orientation” :\n📊 35 % l’utilisent déjà\n📈 68 % la jugent utile (9 % décisive)\n⚠️ Certains usages sont pour le moins problématiques et risquent de reproduire des biais sociaux, de genre, etc. \n🔗 https://www.kantar.com/fr/inspirations/publicite-medias-et-rp/barometre-adoption-ia \n#IA #Orientation",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2040097780106985673#m",
-      "date": "2026-04-03T16:03:08",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🎓 L’IA devient un “conseiller d’orientation” :<br />\n📊 35 % l’utilisent déjà<br />\n📈 68 % la jugent utile (9 % décisive)<br />\n⚠️ Certains usages sont pour le moins problématiques et risquent de re"
-    },
-    {
-      "title": "🔎 81 % des parents sont satisfaits de l’école de leur enfant…\nmais 41 % font confiance au système scolaire.\nUn paradoxe classique. \nEt pourtant, nous avons tous intérêt à défendre une école exigeante pour tous.\n📚 https://www.cafepedagogique.net/2026/03/11/ecole-la-confiance-des-parents-seffondre-une-alerte-avant-les-elections-municipales/",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2038648134524338507#m",
-      "date": "2026-03-30T16:02:46",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🔎 81 % des parents sont satisfaits de l’école de leur enfant…<br />\nmais 41 % font confiance au système scolaire.<br />\nUn paradoxe classique. <br />\nEt pourtant, nous avons tous intérêt à défendre"
     }
   ],
-  "last_update": "2026-04-09T09:01:55.594360",
+  "last_update": "2026-04-10T08:59:35.677816",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
