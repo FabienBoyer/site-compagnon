@@ -1,6 +1,181 @@
 {
   "articles": [
     {
+      "title": "Maskerade",
+      "link": "https://www.uneiaparjour.fr/maskerade/",
+      "date": "2026-04-13T20:35:00",
+      "source": "Une IA par jour",
+      "summary": "Maskerade (https://maskerade.ai/) génère des rapports en réponse à une instruction via les actions de plusieurs « persona ». Après analyse de l&#8217;instruction, Maskerade propose des « persona » aux"
+    },
+    {
+      "title": "Google Vids – Veo 3.1",
+      "link": "https://www.uneiaparjour.fr/google-vids-veo-3-1/",
+      "date": "2026-04-08T20:02:00",
+      "source": "Une IA par jour",
+      "summary": "Google Vids (https://docs.google.com/videos) intégre Veo 3.1, dernière version du générateur de vidéo de Google, Gemini Music (Lyria 3) pour des bandes son générées automatiquement, Nano Banana Pro po"
+    },
+    {
+      "title": "Work-Flow IA … un premier essai",
+      "link": "https://mathix.org/linux/archives/22234",
+      "date": "2026-04-14T08:39:12",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Afin de me maintenir à jour sur les possibilités de l&#8217;IA&#8230; je me suis donc mis au Workflow (en gros on demande à l&#8217;IA de traiter des données pour nous aider,"
+    },
+    {
+      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+      "link": "https://openai.com/index/cloudflare-openai-agent-cloud",
+      "date": "2026-04-13T06:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security."
+    },
+    {
+      "title": "Brainstorming with ChatGPT",
+      "link": "https://openai.com/academy/brainstorming",
+      "date": "2026-04-10T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans."
+    },
+    {
+      "title": "Bringing people together at AI for the Economy Forum",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/ai-economy-forum/",
+      "date": "2026-04-14T09:00:00",
+      "source": "Google AI",
+      "summary": "Woman working with a large tool. On the left are the Google and MIT FutureTech logos, \"AI for the Economy Forum\", and \"Innovation and Adaption in the New Era\""
+    },
+    {
+      "title": "New ways to balance cost and reliability in the Gemini API",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/",
+      "date": "2026-04-02T16:00:00",
+      "source": "Google AI",
+      "summary": "Gemini API Dials"
+    },
+    {
+      "title": "We’re creating a new satellite imagery map to help protect Brazil’s forests.",
+      "link": "https://blog.google/products-and-platforms/products/earth/satellite-imagery-brazilian-deforestation/",
+      "date": "2026-04-01T13:30:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/bfc_keyword_before_after_white_.max-600x600.format-webp_QNQ8psB.webp\" />Google partnered with the Brazilian government on a sa"
+    },
+    {
+      "title": "The latest AI news we announced in March 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
+      "date": "2026-04-01T13:00:00",
+      "source": "Google AI",
+      "summary": "March 2026 AI Recap showing new updates"
+    },
+    {
+      "title": "Watch James Manyika talk AI and creativity with LL COOL J.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/ll-cool-j-dialogues/",
+      "date": "2026-03-26T17:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Approved_thumbnail_with_logo.max-600x600.format-webp.webp\" />In the latest episode of our Dialogues on Technology and Society "
+    },
+    {
+      "title": "Transform your headphones into a live personal translator on iOS.",
+      "link": "https://blog.google/products-and-platforms/products/translate/live-translate-with-headphones/",
+      "date": "2026-03-26T16:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Static-InterstitialscreenJapane.max-600x600.format-webp.webp\" />Google Translate’s Live translate with headphones is officiall"
+    },
+    {
+      "title": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/",
+      "date": "2026-03-26T15:21:00",
+      "source": "Google AI",
+      "summary": "The Gemini emblem sits next to text reading 'Gemini 3.1 Flash Live'. The background has blue, multicolored dots making up a microphone icon"
+    },
+    {
+      "title": "Un parcours Genially pour mieux reconnaître, prévenir et traiter le #harcèlement scolaire. Définition, signaux d’alerte, rôle des témoins, climat scolaire, empathie, ateliers de parole… une ressource utile pour agir en équipe 🤝\nhttps://view.genially.com/6023fe404ee38c0d843dff96",
+      "link": "https://twitter.com/sophiaefrance/status/2042282182408892787#m",
+      "date": "2026-04-09T16:43:10",
+      "source": "@sophiaefrance",
+      "summary": "<p>Un parcours Genially pour mieux reconnaître, prévenir et traiter le <a href=\"https://nitter.net/search?f=tweets&amp;q=%23harcèlement\">#harcèlement</a> scolaire. Définition, signaux d’alerte, rôle d"
+    },
+    {
+      "title": "#DysFacile est un outil gratuit, pensé par un enseignant, pour adapter rapidement un texte aux élèves #DYS : police, taille, interligne, aperçu immédiat… avec même extraction de texte depuis une image. Un vrai coup de pouce pour une école plus inclusive. \nhttps://dysfacile.lovable.app/",
+      "link": "https://twitter.com/sophiaefrance/status/2040003884555354271#m",
+      "date": "2026-04-03T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p><a href=\"https://nitter.net/search?f=tweets&amp;q=%23DysFacile\">#DysFacile</a> est un outil gratuit, pensé par un enseignant, pour adapter rapidement un texte aux élèves <a href=\"https://nitter.net"
+    },
+    {
+      "title": "2️⃣4️⃣ idées concrètes pour utiliser #NotebookLM en éducation : préparer ses cours, résumer des ressources, créer des quiz, analyser des données, accompagner les élèves et gagner du temps.\n🎯 l’IA doit renforcer l’expertise enseignante, pas la remplacer. \n✍️ @ICTEvangelist",
+      "link": "https://twitter.com/sophiaefrance/status/2038477583940034895#m",
+      "date": "2026-03-30T04:45:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>2️⃣4️⃣ idées concrètes pour utiliser <a href=\"https://nitter.net/search?f=tweets&amp;q=%23NotebookLM\">#NotebookLM</a> en éducation : préparer ses cours, résumer des ressources, créer des quiz, anal"
+    },
+    {
+      "title": "Pinned: Mistral’s AI Now Summit is coming to Paris on May 28 and tickets are live!\n\nWhat you’ll hear:\n📷 Technical deep dives to help you build and deploy AI.\n📷 Mistral’s founders on AI-driven transformation in large organizations, company trajectory, and upcoming releases.\n\nOne day to leave with:\n✅ Hands-on techniques to deploy and scale AI\n✅ Practical insights on AI use cases\n✅ Connections with peers to help you build your own AI\n\nGet your pass now → https://ainowsummit.com",
+      "link": "https://twitter.com/MistralAI/status/2042256228668276987#m",
+      "date": "2026-04-09T15:00:02",
+      "source": "@MistralAI",
+      "summary": "<p>Mistral’s AI Now Summit is coming to Paris on May 28 and tickets are live!<br />\n<br />\nWhat you’ll hear:<br />\n📷 Technical deep dives to help you build and deploy AI.<br />\n📷 Mistral’s founders on"
+    },
+    {
+      "title": "Pinned: ⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-interleaved input, MLA RoPE expects interleaved. Fixed in https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/tree/main/inference.",
+      "link": "https://twitter.com/deepseek_ai/status/1990616182161068094#m",
+      "date": "2025-11-18T03:00:56",
+      "source": "@deepseek_ai",
+      "summary": "<p>⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-"
+    },
+    {
+      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n🔗 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\n🔗 Tech report: https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/DeepSeek_V3_2.pdf\n🔗 Key GPU kernels in TileLang & CUDA (use TileLang for rapid research prototyping!)\n\n4/n",
+      "link": "https://twitter.com/deepseek_ai/status/1972604780469239843#m",
+      "date": "2025-09-29T10:10:03",
+      "source": "@deepseek_ai",
+      "summary": "<p>🛠 Open Source Release<br />\n<br />\n🔗 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\">huggingface.co/deepseek-ai/D…</a><br />\n🔗 Tech report: <a href=\"https://github.com/deepsee"
+    },
+    {
+      "title": "R to @deepseek_ai: 💻 API Update\n\n🎉 Lower costs, same access!\n💰 DeepSeek API prices drop 50%+, effective immediately.\n\n🔹 For comparison testing, V3.1-Terminus remains available via a temporary API until Oct 15th, 2025, 15:59 (UTC Time). Details: https://api-docs.deepseek.com/guides/comparison_testing\n🔹 Feedback welcome: https://feedback.deepseek.com/dsa\n\n3/n",
+      "link": "https://twitter.com/deepseek_ai/status/1972604777474458033#m",
+      "date": "2025-09-29T10:10:02",
+      "source": "@deepseek_ai",
+      "summary": "<p>💻 API Update<br />\n<br />\n🎉 Lower costs, same access!<br />\n💰 DeepSeek API prices drop 50%+, effective immediately.<br />\n<br />\n🔹 For comparison testing, V3.1-Terminus remains available via a temp"
+    },
+    {
+      "title": "Our existing $200 Pro tier still remains our highest usage option. And as a thank you to our existing Pro users on the $200 tier, we’re extending our 2x Codex usage promo (until May 31st) and we’ve reset your Codex rate limits (yes, again).",
+      "link": "https://twitter.com/OpenAI/status/2042296046009626989#m",
+      "date": "2026-04-09T17:38:16",
+      "source": "@OpenAI",
+      "summary": "<p>Our existing $200 Pro tier still remains our highest usage option. And as a thank you to our existing Pro users on the $200 tier, we’re extending our 2x Codex usage promo (until May 31st) and we’ve"
+    },
+    {
+      "title": "R to @OpenAI: chatgpt.com/pricing",
+      "link": "https://twitter.com/OpenAI/status/2042295692324991329#m",
+      "date": "2026-04-09T17:36:51",
+      "source": "@OpenAI",
+      "summary": "<p><a href=\"https://chatgpt.com/pricing\">chatgpt.com/pricing</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2042178957580324864%2F6cugddfY%3Fformat%3Djpg%26name%3D800x419\" />"
+    },
+    {
+      "title": "R to @OpenAI: The Codex promotion for existing Plus subscribers ends today and as a part of this, we’re rebalancing Codex usage in Plus to support more sessions throughout the week, rather than longer sessions in a single day.\n\nThe Plus plan will continue to be the best offer at $20 for steady, day-to-day usage of Codex, and the new $100 Pro tier offers a more accessible upgrade path for heavier daily use.",
+      "link": "https://twitter.com/OpenAI/status/2042295690382995789#m",
+      "date": "2026-04-09T17:36:51",
+      "source": "@OpenAI",
+      "summary": "<p>The Codex promotion for existing Plus subscribers ends today and as a part of this, we’re rebalancing Codex usage in Plus to support more sessions throughout the week, rather than longer sessions i"
+    },
+    {
+      "title": "Le mathématicien @ErnestRyu raconte comment il est parvenu, en octobre dernier et grâce à 3 jours de travail avec ChatGPT, à obtenir une preuve d'optimisation qui lui échappait et publiable dans une bonne revue. \"Si vous contemplez la rapidité de ces progrès, c'est stupéfiant\".",
+      "link": "https://twitter.com/Fabien_Mikol/status/2043801355228156258#m",
+      "date": "2026-04-13T21:19:49",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Le mathématicien <a href=\"https://nitter.net/ErnestRyu\" title=\"Ernest Ryu\">@ErnestRyu</a> raconte comment il est parvenu, en octobre dernier et grâce à 3 jours de travail avec ChatGPT, à obtenir un"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Pour bien lire le graphique : la ligne \"Mythos Preview\" est la moyenne des runs sur 10 tentatives, la ligne \"max Mythos Preview\" est le maximum atteint (3 runs sur les 10 parviennent à ce niveau maximal).\nL'étude détaillée :\nhttps://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities",
+      "link": "https://twitter.com/Fabien_Mikol/status/2043697414599532946#m",
+      "date": "2026-04-13T14:26:48",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Pour bien lire le graphique : la ligne \"Mythos Preview\" est la moyenne des runs sur 10 tentatives, la ligne \"max Mythos Preview\" est le maximum atteint (3 runs sur les 10 parviennent à ce niveau ma"
+    },
+    {
+      "title": "🎓 L’IA facilite-t-elle vraiment l’apprentissage ?\nCarl Hendrick montre un paradoxe : vérifier une réponse IA exige l’expertise que l’élève construit encore.\nL’IA suppose les compétences… qu’elle risque d’affaiblir.\nhttps://carlhendrick.substack.com/p/ai-brain-fry-workslop-and-the-ironies \n#Éducation #IA #Pédagogie #EdTech",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2042272097309700562#m",
+      "date": "2026-04-09T16:03:06",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🎓 L’IA facilite-t-elle vraiment l’apprentissage ?<br />\nCarl Hendrick montre un paradoxe : vérifier une réponse IA exige l’expertise que l’élève construit encore.<br />\nL’IA suppose les compétences"
+    },
+    {
       "title": "J’ai donné une petite interview sur l’IA (pour êtreProf)",
       "link": "https://mathix.org/linux/archives/22219",
       "date": "2026-04-07T20:10:55",
@@ -524,184 +699,9 @@
       "date": "2025-12-01T11:19:18",
       "source": "@deepseek_ai",
       "summary": "<p>🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!<br />\n<br />\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.<br />\n🔹 DeepS"
-    },
-    {
-      "title": "R to @OpenAI: The security and privacy of your information are a top priority. We’re committed to being transparent and taking quick action when issues arise. We're sharing more technical details and FAQs here: https://openai.com/index/axios-developer-tool-compromise/",
-      "link": "https://twitter.com/OpenAI/status/2042780059363336237#m",
-      "date": "2026-04-11T01:41:33",
-      "source": "@OpenAI",
-      "summary": "<p>The security and privacy of your information are a top priority. We’re committed to being transparent and taking quick action when issues arise. We're sharing more technical details and FAQs here: "
-    },
-    {
-      "title": "R to @OpenAI: 🔗 Atlas: https://chatgpt.com/atlas",
-      "link": "https://twitter.com/OpenAI/status/2042780058075672703#m",
-      "date": "2026-04-11T01:41:33",
-      "source": "@OpenAI",
-      "summary": "<p>🔗 Atlas: <a href=\"https://chatgpt.com/atlas\">chatgpt.com/atlas</a></p>"
-    },
-    {
-      "title": "R to @OpenAI: 🔗 Codex CLI: https://developers.openai.com/codex/cli",
-      "link": "https://twitter.com/OpenAI/status/2042780056804811115#m",
-      "date": "2026-04-11T01:41:33",
-      "source": "@OpenAI",
-      "summary": "<p>🔗 Codex CLI: <a href=\"https://developers.openai.com/codex/cli\">developers.openai.com/codex/…</a></p>"
-    },
-    {
-      "title": "R to @OpenAI: 🔗 Codex App: https://chatgpt.com/codex/",
-      "link": "https://twitter.com/OpenAI/status/2042780055559114993#m",
-      "date": "2026-04-11T01:41:32",
-      "source": "@OpenAI",
-      "summary": "<p>🔗 Codex App: <a href=\"https://chatgpt.com/codex/\">chatgpt.com/codex/</a></p>"
-    },
-    {
-      "title": "R to @OpenAI: 🔗 ChatGPT Desktop: https://chatgpt.com/download/",
-      "link": "https://twitter.com/OpenAI/status/2042780054015611373#m",
-      "date": "2026-04-11T01:41:32",
-      "source": "@OpenAI",
-      "summary": "<p>🔗 ChatGPT Desktop: <a href=\"https://chatgpt.com/download/\">chatgpt.com/download/</a></p>"
-    },
-    {
-      "title": "We recently identified a security issue involving the third-party developer library Axios that was part of a broader industry incident. We found no evidence that OpenAI user data was accessed, that our systems were compromised, or that our software was altered.\n\nOut of an abundance of caution we are taking steps to protect the process that certifies our macOS applications are legitimate OpenAI apps.\n\nWe are updating our security certifications, which will require all macOS users to update their OpenAI apps to the latest versions. This helps prevent any risk—however unlikely—of someone attempting to distribute a fake app that appears to be from OpenAI. You can update safely through an in-app update or at the official links below. 🧵",
-      "link": "https://twitter.com/OpenAI/status/2042780052669239782#m",
-      "date": "2026-04-11T01:41:32",
-      "source": "@OpenAI",
-      "summary": "<p>We recently identified a security issue involving the third-party developer library Axios that was part of a broader industry incident. We found no evidence that OpenAI user data was accessed, that"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Sur cette question mémorisation VS contamination (et il est possible aussi que tout simplement pour Mythos HLE devienne si simple que low effort suffise pour performer...!), et sur la différence entre GPQA Diamond et HLE, bonne synthèse par Claude ici ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2042881178957418500#m",
-      "date": "2026-04-11T08:23:22",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Sur cette question mémorisation VS contamination (et il est possible aussi que tout simplement pour Mythos HLE devienne si simple que low effort suffise pour performer...!), et sur la différence en"
-    },
-    {
-      "title": "A propos de Mythos encore 🐙\nJe n'ai pas beaucoup entendu parler de sa performance bluffante sur le benchmark Humanity's Last Exam.\nAnthropic fait preuve de transparence en précisant qu'un effet de mémorisation est peut-être en jeu ici (à distinguer de la simple contamination).",
-      "link": "https://twitter.com/Fabien_Mikol/status/2042881175488782375#m",
-      "date": "2026-04-11T08:23:21",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>A propos de Mythos encore 🐙<br />\nJe n'ai pas beaucoup entendu parler de sa performance bluffante sur le benchmark Humanity's Last Exam.<br />\nAnthropic fait preuve de transparence en précisant qu'"
-    },
-    {
-      "title": "Une étude ce mois-ci contredit la perspective de Gérald Bronner de LLM fact-checkers qui \"fracturent un peu plus l’espace commun\".\nAu contraire, ces LLM sont perçus comme moins biaisés idéologiquement que les humains fact-checkers, et plus susceptibles d'accroître le consensus.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2042872189817376862#m",
-      "date": "2026-04-11T07:47:39",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Une étude ce mois-ci contredit la perspective de Gérald Bronner de LLM fact-checkers qui \"fracturent un peu plus l’espace commun\".<br />\nAu contraire, ces LLM sont perçus comme moins biaisés idéolo"
-    },
-    {
-      "title": "RT by @Fabien_Mikol: I spent the last 2 days trying to figure out how scary Claude Mythos is.\n\nI think it's fairly scary, though not because of the hacking:\n\n1. It indicates fully-automated AI R&D is coming sooner\n2. Its alignment seems better, which is good. But all the alignment tests have serious flaws, which is bad.\n3. There are a few specific warning signs Mythos might not be trustworthy\n\nI explain what stood out to me in the 244-page System Card and 59-page Alignment Risk Report in this essay for the 80,000 Hours Podcast.\n\nJudging by those 2 reports Anthropic itself seems kinda scared of Claude now.\n\nAnd I'm sure views vary widely within the company, but at times it feels like they only give themselves a 50/50 chance of being able to keep the next few Claudes fully under control.\n\nSo I guess we're on the same page!\n\nIf it does turn out we can take the safety results at face value we may look back and see this week as watershed good news. If they can't, the opposite.\n\n(I wish I had had more time to look into how reassuring it is that their automated monitoring systems don't seem to be picking up much misbehaviour post internal-deployment. I think that's what someone at Anthropic who feels more relaxed would point to. Next time!)\n\nLinks below - enjoy!\n\nhttps://x.com/sleepinyourhat/status/2041584799929004045",
-      "link": "https://twitter.com/robertwiblin/status/2042660480926306616#m",
-      "date": "2026-04-10T17:46:24",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>I spent the last 2 days trying to figure out how scary Claude Mythos is.<br />\n<br />\nI think it's fairly scary, though not because of the hacking:<br />\n<br />\n1. It indicates fully-automated AI R"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Source : system card p. 96\nhttps://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf",
-      "link": "https://twitter.com/Fabien_Mikol/status/2042647413580554368#m",
-      "date": "2026-04-10T16:54:28",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Source : system card p. 96<br />\n<a href=\"https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf\">www-cdn.anthropic.com/08ab91…</a></p>\n<img src=\"https://nitter.net/pic/media%2F"
-    },
-    {
-      "title": "Laurence Devillers : \"si vous voulez béni-oui-oui qui répond toujours ce qu'on lui demande, prenez ChatGPT ou les autres, ils sont tous comme ça, ils s'alignent\"\nLa réalité : les modèles s'améliorent constamment à cet égard, cf. le \"taux d'honnêteté\" de Mythos ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2042647409738588425#m",
-      "date": "2026-04-10T16:54:27",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Laurence Devillers : \"si vous voulez béni-oui-oui qui répond toujours ce qu'on lui demande, prenez ChatGPT ou les autres, ils sont tous comme ça, ils s'alignent\"<br />\nLa réalité : les modèles s'am"
-    },
-    {
-      "title": "R to @Fabien_Mikol: J'aime bien le résumé de Claude de ces résultats : \"Mythos sait plus de choses et se tait moins, ce qui fait mécaniquement monter le net score. Mais il ne fait pas drastiquement moins d'erreurs en valeur absolue — il en fait un peu moins tout en répondant beaucoup plus\"",
-      "link": "https://twitter.com/Fabien_Mikol/status/2042641724833415392#m",
-      "date": "2026-04-10T16:31:52",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>J'aime bien le résumé de Claude de ces résultats : \"Mythos sait plus de choses et se tait moins, ce qui fait mécaniquement monter le net score. Mais il ne fait pas drastiquement moins d'erreurs en "
-    },
-    {
-      "title": "💻 Le débat “numérique vs papier” rate souvent l’essentiel.\n✍️ En classe : écrire, structurer, penser... de préférence avec papier & stylo\n🤖 Hors classe : guider, entraîner... avec l'aide du numérique si besoin\nMes choix ne sont pas technologiques.\nIls sont pédagogiques.",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2042634360801607700#m",
-      "date": "2026-04-10T16:02:36",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>💻 Le débat “numérique vs papier” rate souvent l’essentiel.<br />\n✍️ En classe : écrire, structurer, penser... de préférence avec papier &amp; stylo<br />\n🤖 Hors classe : guider, entraîner... avec l"
-    },
-    {
-      "title": "🎓 L’IA devient un “conseiller d’orientation” :\n📊 35 % l’utilisent déjà\n📈 68 % la jugent utile (9 % décisive)\n⚠️ Certains usages sont pour le moins problématiques et risquent de reproduire des biais sociaux, de genre, etc. \n🔗 https://www.kantar.com/fr/inspirations/publicite-medias-et-rp/barometre-adoption-ia \n#IA #Orientation",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2040097780106985673#m",
-      "date": "2026-04-03T16:03:08",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🎓 L’IA devient un “conseiller d’orientation” :<br />\n📊 35 % l’utilisent déjà<br />\n📈 68 % la jugent utile (9 % décisive)<br />\n⚠️ Certains usages sont pour le moins problématiques et risquent de re"
-    },
-    {
-      "title": "📊 IA à l’école : la recherche progresse… les preuves solides beaucoup moins.\n+800 articles sur l’IA en éducation, mais seulement 20 études causales sur son impact réel.\nLes gains existent pendant l’usage, mais l’apprentissage durable reste incertain.\n🔎 https://scale.stanford.edu/research-in-action/understanding-evidence-base-ai-k12-education",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2039010514735440252#m",
-      "date": "2026-03-31T16:02:44",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>📊 IA à l’école : la recherche progresse… les preuves solides beaucoup moins.<br />\n+800 articles sur l’IA en éducation, mais seulement 20 études causales sur son impact réel.<br />\nLes gains existe"
-    },
-    {
-      "title": "🔎 81 % des parents sont satisfaits de l’école de leur enfant…\nmais 41 % font confiance au système scolaire.\nUn paradoxe classique. \nEt pourtant, nous avons tous intérêt à défendre une école exigeante pour tous.\n📚 https://www.cafepedagogique.net/2026/03/11/ecole-la-confiance-des-parents-seffondre-une-alerte-avant-les-elections-municipales/",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2038648134524338507#m",
-      "date": "2026-03-30T16:02:46",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🔎 81 % des parents sont satisfaits de l’école de leur enfant…<br />\nmais 41 % font confiance au système scolaire.<br />\nUn paradoxe classique. <br />\nEt pourtant, nous avons tous intérêt à défendre"
-    },
-    {
-      "title": "Blueprint",
-      "link": "https://www.uneiaparjour.fr/blueprint/",
-      "date": "2026-04-09T20:58:00",
-      "source": "Une IA par jour",
-      "summary": "Blueprint (https://www.blueprint.am/) génère des prototypes détaillés à partir d&#8217;une instruction et d&#8217;un chatbot. La génération consiste en une vue de l&#8217;objet et en ses différents ma"
-    },
-    {
-      "title": "Modéliser ou Halluciner ?",
-      "link": "https://mathix.org/linux/archives/22174",
-      "date": "2026-03-28T11:23:45",
-      "source": "Mathix (A. Durand)",
-      "summary": "Comment faire comprendre aux élèves le lien entre une modélisation mathématique et la prédiction statistique d’un Large Language Model (LLM) ? Cette activité propose d&#8217;utiliser un exercice de tr"
-    },
-    {
-      "title": "Le vibe-coding : l’enjeu réel pour l’éducation",
-      "link": "https://mathix.org/linux/archives/22186",
-      "date": "2026-03-28T10:04:59",
-      "source": "Mathix (A. Durand)",
-      "summary": "La connaissance est l&#8217;indépendance : Le mirage du « Vibe-Coding » en éducation L’intelligence artificielle est en train de redéfinir nos usages numériques à une vitesse vertigineuse. Pour beauco"
-    },
-    {
-      "title": "Exerciseur sur la linéarité dans un tableau de proportionnalité",
-      "link": "https://mathix.org/linux/archives/22148",
-      "date": "2026-03-11T13:11:44",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Voici un exerciseur sur la proportionnalité (entier, décimaux et problème de proportionnalité), pour des élèves de 6eme. On peut uniquement travailler la linéarité (pas de c"
-    },
-    {
-      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
-      "link": "https://openai.com/index/cyberagent",
-      "date": "2026-04-09T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming."
-    },
-    {
-      "title": "OpenAI Full Fan Mode Contest: Terms & Conditions",
-      "link": "https://openai.com/index/full-fan-mode-contest-terms-conditions",
-      "date": "2026-04-09T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Explore the official terms and conditions for the OpenAI Full Fan Mode Contest, including eligibility, entry steps, judging criteria, and prize details. Learn how to participate, submit your entry on "
-    },
-    {
-      "title": "RT by @nsi_xyz: 🚨ALERTE INFO\n\nSelon plusieurs sources concordantes, le FBI est parvenu à récupérer des messages de la messagerie chiffrée Signal à partir de l’iPhone d’un suspect — y compris après suppression de l’application.\n\nCette information provient de témoignages entendus lors d’un procès aux États-Unis. Les enquêteurs ont utilisé une technique de forensique numérique (analyse approfondie d’un appareil saisi) pour extraire des données résiduelles.  \n\nContrairement à ce que l’on pourrait penser, ces messages n’ont pas été récupérés directement dans l’application Signal, mais dans une autre zone du système iOS : la base de données des notifications.",
-      "link": "https://twitter.com/TribunePop23/status/2042325595883802734#m",
-      "date": "2026-04-09T19:35:41",
-      "source": "@nsi_xyz",
-      "summary": "<p>🚨ALERTE INFO<br />\n<br />\nSelon plusieurs sources concordantes, le FBI est parvenu à récupérer des messages de la messagerie chiffrée Signal à partir de l’iPhone d’un suspect — y compris après supp"
-    },
-    {
-      "title": "RT by @nsi_xyz: Ma contribution à la baisse en maths : \n\"Pour jeudi, vous ferez l'exercice 34 page 157.\"\n7 élèves sur 30 l'ont fait. \n#baissedesmaths <=> #Faispastesdevoirs",
-      "link": "https://twitter.com/TheoremeAutumn/status/2042271110784270561#m",
-      "date": "2026-04-09T15:59:11",
-      "source": "@nsi_xyz",
-      "summary": "<p>Ma contribution à la baisse en maths : <br />\n\"Pour jeudi, vous ferez l'exercice 34 page 157.\"<br />\n7 élèves sur 30 l'ont fait. <br />\n<a href=\"https://nitter.net/search?f=tweets&amp;q=%23baissede"
     }
   ],
-  "last_update": "2026-04-13T09:27:33.646776",
+  "last_update": "2026-04-14T09:09:11.546435",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
