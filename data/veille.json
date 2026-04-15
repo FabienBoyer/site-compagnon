@@ -1,6 +1,251 @@
 {
   "articles": [
     {
+      "title": "Blueprint",
+      "link": "https://www.uneiaparjour.fr/blueprint/",
+      "date": "2026-04-09T20:58:00",
+      "source": "Une IA par jour",
+      "summary": "Blueprint (https://www.blueprint.am/) génère des prototypes détaillés à partir d&#8217;une instruction et d&#8217;un chatbot. La génération consiste en une vue de l&#8217;objet et en ses différents ma"
+    },
+    {
+      "title": "Modéliser ou Halluciner ?",
+      "link": "https://mathix.org/linux/archives/22174",
+      "date": "2026-03-28T11:23:45",
+      "source": "Mathix (A. Durand)",
+      "summary": "Comment faire comprendre aux élèves le lien entre une modélisation mathématique et la prédiction statistique d’un Large Language Model (LLM) ? Cette activité propose d&#8217;utiliser un exercice de tr"
+    },
+    {
+      "title": "Le vibe-coding : l’enjeu réel pour l’éducation",
+      "link": "https://mathix.org/linux/archives/22186",
+      "date": "2026-03-28T10:04:59",
+      "source": "Mathix (A. Durand)",
+      "summary": "La connaissance est l&#8217;indépendance : Le mirage du « Vibe-Coding » en éducation L’intelligence artificielle est en train de redéfinir nos usages numériques à une vitesse vertigineuse. Pour beauco"
+    },
+    {
+      "title": "Exerciseur sur la linéarité dans un tableau de proportionnalité",
+      "link": "https://mathix.org/linux/archives/22148",
+      "date": "2026-03-11T13:11:44",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Voici un exerciseur sur la proportionnalité (entier, décimaux et problème de proportionnalité), pour des élèves de 6eme. On peut uniquement travailler la linéarité (pas de c"
+    },
+    {
+      "title": "Trusted access for the next era of cyber defense",
+      "link": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
+      "date": "2026-04-14T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance."
+    },
+    {
+      "title": "Getting started with ChatGPT",
+      "link": "https://openai.com/academy/getting-started",
+      "date": "2026-04-10T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI."
+    },
+    {
+      "title": "Turn your best AI prompts into one-click tools in Chrome",
+      "link": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+      "date": "2026-04-14T17:00:00",
+      "source": "Google AI",
+      "summary": "Video showing Skills in Chrome"
+    },
+    {
+      "title": "RT by @nsi_xyz: On est surtout dans le noyage de poisson ...\n\"10 % pour tous les enseignants\" devient \"en moyenne\" avec  en plus une tromperie implicite sur les chiffres : cela aurait dû correspondre à environ + 10 % de la masse salariale, mais cette moyenne donnée est celle des pourcentages de gains de chaque échelon. Ainsi par exemple + 15 % pour un début de carrière et + 5 % pour une fin de carrière donnaient une moyenne de + 15 % officiellement, quand cela donnait une augmentation de la masse salariale de seulement 8 % par exemple.\nDe plus, il y a tromperie : ces 10 % étaient présentés fallacieusement comme devant être indépendant du dégel du point d’indice ; et ici évidemment il le compte …\nRappelons qu’un certain E. Macron a sciemment manipulé des auditoires sur ce sujet,cela ayant surtout commencé dans le débat de l’entre-deux tours devant M. Le Pen car il fallait un argument qui tienne la route face aux propositions de revalorisations des autres candidats. Il fallait faire croire qu’il s’agirait bien de « + 10 % pour TOUS les enseignants », mais qu’il n’en était pas du question. Un doute ? En fait cela avait été révélé dans un article de L’Obs dès le 22 avril, ce que l’intégralité des syndicats majoritaires enseignants – SNES en tête - avaient décidé d’ignorer :\nhttps://www.nouvelobs.com/election-presidentielle-2022/20220422.OBS57492/non-emmanuel-macron-ne-revalorisera-pas-tous-les-enseignants-de-10.html\nOn peut même rappeler que la troisième revalorisation – la plus élevée – était initialement prévue pour janvier 2023, mais qu’elle avait donc été reportée en septembre 2023 pour en réalité deux raisons : cela permettait évidemment d’économiser autant (donc 9 mois), mais surtout ce permettait de répartir cette revalorisation sur deux années civiles budgétaires, pour pouvoir continuer à faire croire par la suite et comme toujours que « le budget suit l’inflation » …",
+      "link": "https://twitter.com/Rick6524/status/2043984256943178108#m",
+      "date": "2026-04-14T09:26:36",
+      "source": "@nsi_xyz",
+      "summary": "<p>On est surtout dans le noyage de poisson ...<br />\n\"10 % pour tous les enseignants\" devient \"en moyenne\" avec  en plus une tromperie implicite sur les chiffres : cela aurait dû correspondre à envir"
+    },
+    {
+      "title": "RT by @nsi_xyz: 🚨ALERTE INFO\n\nSelon plusieurs sources concordantes, le FBI est parvenu à récupérer des messages de la messagerie chiffrée Signal à partir de l’iPhone d’un suspect — y compris après suppression de l’application.\n\nCette information provient de témoignages entendus lors d’un procès aux États-Unis. Les enquêteurs ont utilisé une technique de forensique numérique (analyse approfondie d’un appareil saisi) pour extraire des données résiduelles.  \n\nContrairement à ce que l’on pourrait penser, ces messages n’ont pas été récupérés directement dans l’application Signal, mais dans une autre zone du système iOS : la base de données des notifications.",
+      "link": "https://twitter.com/TribunePop23/status/2042325595883802734#m",
+      "date": "2026-04-09T19:35:41",
+      "source": "@nsi_xyz",
+      "summary": "<p>🚨ALERTE INFO<br />\n<br />\nSelon plusieurs sources concordantes, le FBI est parvenu à récupérer des messages de la messagerie chiffrée Signal à partir de l’iPhone d’un suspect — y compris après supp"
+    },
+    {
+      "title": "RT by @nsi_xyz: Ma contribution à la baisse en maths : \n\"Pour jeudi, vous ferez l'exercice 34 page 157.\"\n7 élèves sur 30 l'ont fait. \n#baissedesmaths <=> #Faispastesdevoirs",
+      "link": "https://twitter.com/TheoremeAutumn/status/2042271110784270561#m",
+      "date": "2026-04-09T15:59:11",
+      "source": "@nsi_xyz",
+      "summary": "<p>Ma contribution à la baisse en maths : <br />\n\"Pour jeudi, vous ferez l'exercice 34 page 157.\"<br />\n7 élèves sur 30 l'ont fait. <br />\n<a href=\"https://nitter.net/search?f=tweets&amp;q=%23baissede"
+    },
+    {
+      "title": "R to @AnthropicAI: We discuss this, along with the other implications of this research, in our blog: https://www.anthropic.com/research/automated-alignment-researchers\n\nFor the full study, see here: https://alignment.anthropic.com/2026/automated-w2s-researcher/",
+      "link": "https://twitter.com/AnthropicAI/status/2044138490904932853#m",
+      "date": "2026-04-14T19:39:29",
+      "source": "@AnthropicAI",
+      "summary": "<p>We discuss this, along with the other implications of this research, in our blog: <a href=\"https://www.anthropic.com/research/automated-alignment-researchers\">anthropic.com/research/autom…</a><br /"
+    },
+    {
+      "title": "R to @AnthropicAI: AI models aren’t yet general-purpose alignment scientists. Progress isn't as easy to verify on most alignment research tasks: our AARs would find “fuzzier” research much harder.\n\nBut our experiment does show that Claude can increase the rate of experimentation and exploration.",
+      "link": "https://twitter.com/AnthropicAI/status/2044138489495605292#m",
+      "date": "2026-04-14T19:39:28",
+      "source": "@AnthropicAI",
+      "summary": "<p>AI models aren’t yet general-purpose alignment scientists. Progress isn't as easy to verify on most alignment research tasks: our AARs would find “fuzzier” research much harder.<br />\n<br />\nBut ou"
+    },
+    {
+      "title": "R to @AnthropicAI: To test the broader usefulness of the AARs’ methods, we assessed how well they worked on two datasets the AARs hadn’t seen before.\n\nThe AARs’ best-performing method successfully generalized to both coding and math tasks, though their second-best method only generalized to math.",
+      "link": "https://twitter.com/AnthropicAI/status/2044138487025144231#m",
+      "date": "2026-04-14T19:39:28",
+      "source": "@AnthropicAI",
+      "summary": "<p>To test the broader usefulness of the AARs’ methods, we assessed how well they worked on two datasets the AARs hadn’t seen before.<br />\n<br />\nThe AARs’ best-performing method successfully general"
+    },
+    {
+      "title": "R to @AnthropicAI: Here, we measure success by the fraction of the “performance gap” we can close between the weak model and the potential of the strong model.\n\nAfter 7 days, human researchers closed it by 23%. Then, our Automated Alignment Researchers—Opus 4.6 with extra tools—closed it by 97%.",
+      "link": "https://twitter.com/AnthropicAI/status/2044138483870998932#m",
+      "date": "2026-04-14T19:39:27",
+      "source": "@AnthropicAI",
+      "summary": "<p>Here, we measure success by the fraction of the “performance gap” we can close between the weak model and the potential of the strong model.<br />\n<br />\nAfter 7 days, human researchers closed it b"
+    },
+    {
+      "title": "New Anthropic Fellows research: developing an Automated Alignment Researcher.\n\nWe ran an experiment to learn whether Claude Opus 4.6 could accelerate research on a key alignment problem: using a weak AI model to supervise the training of a stronger one.\n\nhttps://www.anthropic.com/research/automated-alignment-researchers",
+      "link": "https://twitter.com/AnthropicAI/status/2044138481790648323#m",
+      "date": "2026-04-14T19:39:26",
+      "source": "@AnthropicAI",
+      "summary": "<p>New Anthropic Fellows research: developing an Automated Alignment Researcher.<br />\n<br />\nWe ran an experiment to learn whether Claude Opus 4.6 could accelerate research on a key alignment problem"
+    },
+    {
+      "title": "Our Long-Term Benefit Trust has appointed Vas Narasimhan to Anthropic's Board of Directors.\n\nVas brings more than two decades of experience in medicine and global health, including as CEO of Novartis.\n\nRead more: https://www.anthropic.com/news/narasimhan-board",
+      "link": "https://twitter.com/AnthropicAI/status/2044057406167232964#m",
+      "date": "2026-04-14T14:17:17",
+      "source": "@AnthropicAI",
+      "summary": "<p>Our Long-Term Benefit Trust has appointed Vas Narasimhan to Anthropic's Board of Directors.<br />\n<br />\nVas brings more than two decades of experience in medicine and global health, including as C"
+    },
+    {
+      "title": "We’re expanding Trusted Access for Cyber with additional tiers for authenticated cybersecurity defenders. \n\nCustomers in the highest tiers can request access to GPT-5.4-Cyber, a version of GPT-5.4 fine-tuned for cybersecurity use cases, enabling more advanced defensive workflows.\nhttps://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+      "link": "https://twitter.com/OpenAI/status/2044161906936791179#m",
+      "date": "2026-04-14T21:12:31",
+      "source": "@OpenAI",
+      "summary": "<p>We’re expanding Trusted Access for Cyber with additional tiers for authenticated cybersecurity defenders. <br />\n<br />\nCustomers in the highest tiers can request access to GPT-5.4-Cyber, a version"
+    },
+    {
+      "title": "R to @OpenAI: For years, we’ve been building our cyber defense program on the principles of democratized access, iterative deployment, and ecosystem resilience. \n\nAs model capabilities advance, our approach is to scale cyber defense in lockstep: broadening access for legitimate defenders while continuing to strengthen safeguards.",
+      "link": "https://twitter.com/OpenAI/status/2044161908354494633#m",
+      "date": "2026-04-14T21:12:32",
+      "source": "@OpenAI",
+      "summary": "<p>For years, we’ve been building our cyber defense program on the principles of democratized access, iterative deployment, and ecosystem resilience. <br />\n<br />\nAs model capabilities advance, our a"
+    },
+    {
+      "title": "R to @OpenAI: The security and privacy of your information are a top priority. We’re committed to being transparent and taking quick action when issues arise. We're sharing more technical details and FAQs here: https://openai.com/index/axios-developer-tool-compromise/",
+      "link": "https://twitter.com/OpenAI/status/2042780059363336237#m",
+      "date": "2026-04-11T01:41:33",
+      "source": "@OpenAI",
+      "summary": "<p>The security and privacy of your information are a top priority. We’re committed to being transparent and taking quick action when issues arise. We're sharing more technical details and FAQs here: "
+    },
+    {
+      "title": "R to @OpenAI: 🔗 Atlas: https://chatgpt.com/atlas",
+      "link": "https://twitter.com/OpenAI/status/2042780058075672703#m",
+      "date": "2026-04-11T01:41:33",
+      "source": "@OpenAI",
+      "summary": "<p>🔗 Atlas: <a href=\"https://chatgpt.com/atlas\">chatgpt.com/atlas</a></p>"
+    },
+    {
+      "title": "R to @OpenAI: 🔗 Codex CLI: https://developers.openai.com/codex/cli",
+      "link": "https://twitter.com/OpenAI/status/2042780056804811115#m",
+      "date": "2026-04-11T01:41:33",
+      "source": "@OpenAI",
+      "summary": "<p>🔗 Codex CLI: <a href=\"https://developers.openai.com/codex/cli\">developers.openai.com/codex/…</a></p>"
+    },
+    {
+      "title": "R to @OpenAI: 🔗 Codex App: https://chatgpt.com/codex/",
+      "link": "https://twitter.com/OpenAI/status/2042780055559114993#m",
+      "date": "2026-04-11T01:41:32",
+      "source": "@OpenAI",
+      "summary": "<p>🔗 Codex App: <a href=\"https://chatgpt.com/codex/\">chatgpt.com/codex/</a></p>"
+    },
+    {
+      "title": "R to @OpenAI: 🔗 ChatGPT Desktop: https://chatgpt.com/download/",
+      "link": "https://twitter.com/OpenAI/status/2042780054015611373#m",
+      "date": "2026-04-11T01:41:32",
+      "source": "@OpenAI",
+      "summary": "<p>🔗 ChatGPT Desktop: <a href=\"https://chatgpt.com/download/\">chatgpt.com/download/</a></p>"
+    },
+    {
+      "title": "We recently identified a security issue involving the third-party developer library Axios that was part of a broader industry incident. We found no evidence that OpenAI user data was accessed, that our systems were compromised, or that our software was altered.\n\nOut of an abundance of caution we are taking steps to protect the process that certifies our macOS applications are legitimate OpenAI apps.\n\nWe are updating our security certifications, which will require all macOS users to update their OpenAI apps to the latest versions. This helps prevent any risk—however unlikely—of someone attempting to distribute a fake app that appears to be from OpenAI. You can update safely through an in-app update or at the official links below. 🧵",
+      "link": "https://twitter.com/OpenAI/status/2042780052669239782#m",
+      "date": "2026-04-11T01:41:32",
+      "source": "@OpenAI",
+      "summary": "<p>We recently identified a security issue involving the third-party developer library Axios that was part of a broader industry incident. We found no evidence that OpenAI user data was accessed, that"
+    },
+    {
+      "title": "L'anthropologue Clément Deshayes ce matin sur France Culture à propos de la non médiatisation de l'atroce guerre soudanaise : on a du mal à y plaquer une lecture manichéenne gentils VS méchants, mais il reste que les FSR sont bien pires, avec un génocide probable à El-Fasher...",
+      "link": "https://twitter.com/Fabien_Mikol/status/2044331897644372239#m",
+      "date": "2026-04-15T08:28:00",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>L'anthropologue Clément Deshayes ce matin sur France Culture à propos de la non médiatisation de l'atroce guerre soudanaise : on a du mal à y plaquer une lecture manichéenne gentils VS méchants, ma"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Et autres commentaires notables",
+      "link": "https://twitter.com/Fabien_Mikol/status/2044327515162898550#m",
+      "date": "2026-04-15T08:10:36",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Et autres commentaires notables</p>\n<img src=\"https://nitter.net/pic/media%2FHF7pCAYW4AAXnyp.jpg\" />"
+    },
+    {
+      "title": "Au sujet de la résolution du problème d'Erdős 1196 qui semble marquer un jalon, l'expert de la question dit ceci:\n\"La preuve produite par ChatGPT-5.4 Pro était vraiment surprenante\", comme l'IA découvrant une nouvelle ouverture aux échecs qui avait été négligée jusqu'à présent ♟️",
+      "link": "https://twitter.com/Fabien_Mikol/status/2044323356397187317#m",
+      "date": "2026-04-15T07:54:04",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Au sujet de la résolution du problème d'Erdős 1196 qui semble marquer un jalon, l'expert de la question dit ceci:<br />\n\"La preuve produite par ChatGPT-5.4 Pro était vraiment surprenante\", comme l'"
+    },
+    {
+      "title": "Nouveaux témoignages terrifiants sur la chute d'El-Fasher en octobre dernier, ses ~60.000 tués, ses fosses communes...\n\"Je ne l'oublierai jamais. Si je devais décrire les FSR, je dirais que ce sont des animaux. Et encore, même un animal ne ferait pas ça à un être humain\"",
+      "link": "https://twitter.com/Fabien_Mikol/status/2044168496964104421#m",
+      "date": "2026-04-14T21:38:43",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Nouveaux témoignages terrifiants sur la chute d'El-Fasher en octobre dernier, ses ~60.000 tués, ses fosses communes...<br />\n\"Je ne l'oublierai jamais. Si je devais décrire les FSR, je dirais que c"
+    },
+    {
+      "title": "\"Plus je travaille avec Opus, plus je réalise que si on continue à le pousser, son plafond d'intelligence est bien plus haut qu'il n'y paraît. Il faut juste être patient et insister. GPT, en revanche, quand il échoue, c'est qu'il a déjà donné le meilleur de lui\".\nIntéressant 😗",
+      "link": "https://twitter.com/Fabien_Mikol/status/2044144376549351490#m",
+      "date": "2026-04-14T20:02:52",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"Plus je travaille avec Opus, plus je réalise que si on continue à le pousser, son plafond d'intelligence est bien plus haut qu'il n'y paraît. Il faut juste être patient et insister. GPT, en revanc"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Oups c'est ChatGPT5.4 Pro, précision importante",
+      "link": "https://twitter.com/Fabien_Mikol/status/2044132797762224599#m",
+      "date": "2026-04-14T19:16:51",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Oups c'est ChatGPT5.4 Pro, précision importante</p>"
+    },
+    {
+      "title": "ChatGPT-5.4 aurait résolu (rapidement !) un problème d'Erdős d'un nouveau calibre, car activement étudié par un expert du sujet pendant 7 ans (et donc pas un pb négligé), qui trouve lui-même cette solution \"remarquable\" et \"non triviale\".\nOn attend la validation définitive...",
+      "link": "https://twitter.com/Fabien_Mikol/status/2044132672734208433#m",
+      "date": "2026-04-14T19:16:21",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>ChatGPT-5.4 aurait résolu (rapidement !) un problème d'Erdős d'un nouveau calibre, car activement étudié par un expert du sujet pendant 7 ans (et donc pas un pb négligé), qui trouve lui-même cette "
+    },
+    {
+      "title": "💻 Le débat “numérique vs papier” rate souvent l’essentiel.\n✍️ En classe : écrire, structurer, penser... de préférence avec papier & stylo\n🤖 Hors classe : guider, entraîner... avec l'aide du numérique si besoin\nMes choix ne sont pas technologiques.\nIls sont pédagogiques.",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2042634360801607700#m",
+      "date": "2026-04-10T16:02:36",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>💻 Le débat “numérique vs papier” rate souvent l’essentiel.<br />\n✍️ En classe : écrire, structurer, penser... de préférence avec papier &amp; stylo<br />\n🤖 Hors classe : guider, entraîner... avec l"
+    },
+    {
+      "title": "🎓 L’IA devient un “conseiller d’orientation” :\n📊 35 % l’utilisent déjà\n📈 68 % la jugent utile (9 % décisive)\n⚠️ Certains usages sont pour le moins problématiques et risquent de reproduire des biais sociaux, de genre, etc. \n🔗 https://www.kantar.com/fr/inspirations/publicite-medias-et-rp/barometre-adoption-ia \n#IA #Orientation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2040097780106985673#m",
+      "date": "2026-04-03T16:03:08",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🎓 L’IA devient un “conseiller d’orientation” :<br />\n📊 35 % l’utilisent déjà<br />\n📈 68 % la jugent utile (9 % décisive)<br />\n⚠️ Certains usages sont pour le moins problématiques et risquent de re"
+    },
+    {
+      "title": "📊 IA à l’école : la recherche progresse… les preuves solides beaucoup moins.\n+800 articles sur l’IA en éducation, mais seulement 20 études causales sur son impact réel.\nLes gains existent pendant l’usage, mais l’apprentissage durable reste incertain.\n🔎 https://scale.stanford.edu/research-in-action/understanding-evidence-base-ai-k12-education",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2039010514735440252#m",
+      "date": "2026-03-31T16:02:44",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>📊 IA à l’école : la recherche progresse… les preuves solides beaucoup moins.<br />\n+800 articles sur l’IA en éducation, mais seulement 20 études causales sur son impact réel.<br />\nLes gains existe"
+    },
+    {
+      "title": "🔎 81 % des parents sont satisfaits de l’école de leur enfant…\nmais 41 % font confiance au système scolaire.\nUn paradoxe classique. \nEt pourtant, nous avons tous intérêt à défendre une école exigeante pour tous.\n📚 https://www.cafepedagogique.net/2026/03/11/ecole-la-confiance-des-parents-seffondre-une-alerte-avant-les-elections-municipales/",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2038648134524338507#m",
+      "date": "2026-03-30T16:02:46",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🔎 81 % des parents sont satisfaits de l’école de leur enfant…<br />\nmais 41 % font confiance au système scolaire.<br />\nUn paradoxe classique. <br />\nEt pourtant, nous avons tous intérêt à défendre"
+    },
+    {
       "title": "Maskerade",
       "link": "https://www.uneiaparjour.fr/maskerade/",
       "date": "2026-04-13T20:35:00",
@@ -454,254 +699,9 @@
       "date": "2026-03-16T20:30:37",
       "source": "@MistralAI",
       "summary": "<p>🚀Announcing a strategic partnership with NVIDIA to co-develop frontier open-source AI models, combining Mistral AI’s frontier model architecture and full-stack AI offering with NVIDIA’s leading com"
-    },
-    {
-      "title": "R to @MistralAI: 🤝 This will be the first project we build together with Nvidia as we become a founding member of the Nemotron Coalition. \n\nDetails: https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models",
-      "link": "https://twitter.com/MistralAI/status/2033642113791848669#m",
-      "date": "2026-03-16T20:30:37",
-      "source": "@MistralAI",
-      "summary": "<p>🤝 This will be the first project we build together with Nvidia as we become a founding member of the Nemotron Coalition. <br />\n<br />\nDetails: <a href=\"https://mistral.ai/news/mistral-ai-and-nvidi"
-    },
-    {
-      "title": "📢 Introducing the AI Now Summit, Mistral AI’s first-ever flagship event!\n\n🎯 One day, one mission: Own your AI transformation.\n📍 Paris | May 28\n\nJoin us to learn how AI is transforming leading organisations and hear from global CEOs and Mistral’s founders on:\n\n✅ Using open source as a core for end-to-end AI transformations \n✅ Scaling from pilots to production deployments \n✅ Building AI infrastructure for enterprise-grade deployments \n✅ The latest in robotics, VLMs, and multimodal AI\n\nLearn more and get notified when tickets go live → https://ainowsummit.com/",
-      "link": "https://twitter.com/MistralAI/status/2032094267640869085#m",
-      "date": "2026-03-12T14:00:02",
-      "source": "@MistralAI",
-      "summary": "<p>📢 Introducing the AI Now Summit, Mistral AI’s first-ever flagship event!<br />\n<br />\n🎯 One day, one mission: Own your AI transformation.<br />\n📍 Paris | May 28<br />\n<br />\nJoin us to learn how AI"
-    },
-    {
-      "title": "R to @deepseek_ai: 🤖 Thinking in Tool-Use\n\n🔹 Introduces a new massive agent training data synthesis method covering 1,800+ environments & 85k+ complex instructions.\n🔹 DeepSeek-V3.2 is our first model to integrate thinking directly into tool-use, and also supports tool-use in both thinking and non-thinking modes.\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452650557763728#m",
-      "date": "2025-12-01T11:19:20",
-      "source": "@deepseek_ai",
-      "summary": "<p>🤖 Thinking in Tool-Use<br />\n<br />\n🔹 Introduces a new massive agent training data synthesis method covering 1,800+ environments & 85k+ complex instructions.<br />\n🔹 DeepSeek-V3.2 is our first mode"
-    },
-    {
-      "title": "R to @deepseek_ai: 🏆 World-Leading Reasoning\n\n🔹 V3.2: Balanced inference vs. length. Your daily driver at GPT-5 level performance.\n🔹 V3.2-Speciale: Maxed-out reasoning capabilities. Rivals Gemini-3.0-Pro.\n🥇 Gold-Medal Performance: V3.2-Speciale attains gold-level results in IMO, CMO, ICPC World Finals & IOI 2025.\n\n📝 Note: V3.2-Speciale dominates complex tasks but requires higher token usage. Currently API-only (no tool-use) to support community evaluation & research.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452646459858977#m",
-      "date": "2025-12-01T11:19:19",
-      "source": "@deepseek_ai",
-      "summary": "<p>🏆 World-Leading Reasoning<br />\n<br />\n🔹 V3.2: Balanced inference vs. length. Your daily driver at GPT-5 level performance.<br />\n🔹 V3.2-Speciale: Maxed-out reasoning capabilities. Rivals Gemini-3."
-    },
-    {
-      "title": "R to @deepseek_ai: ⚡️ Efficiency Gains\n\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.\n📊 Benchmarks show V3.2-Exp performs on par with V3.1-Terminus.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604772042637477#m",
-      "date": "2025-09-29T10:10:01",
-      "source": "@deepseek_ai",
-      "summary": "<p>⚡️ Efficiency Gains<br />\n<br />\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.<br />\n📊 Benchmarks s"
-    },
-    {
-      "title": "🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!\n\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on long context.\n👉 Now live on App, Web, and API.\n💰 API prices cut by 50%+!\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604768309871061#m",
-      "date": "2025-09-29T10:10:00",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!<br />\n<br />\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on l"
-    },
-    {
-      "title": "RT by @OpenAI: Hi! Getting a lot of questions on Pro plan rate limits, so I wanted to clarify a few things:\n\n- Your Pro $100 plan includes at least 10x Plus usage, till May 31 with the 2X usage boost.\n- Your Pro $200 plan includes at least 20x Plus usage, till May 31 with the 2X usage boost. This is also the SAME usage this plan had since the 2x promo in February; we previously didn't document this explicitly.\n\nNow to address the confusion. Our pricing page says \"5x or 20x usage\", and many of you very understandably took it to mean \"10x and 40x\" given then 2X usage boost.  That's our fault. We mixed up two things in a confusing way on that page - (1) sharing that the Pro $100 launched with a 2x boost, making it 10x Plus till May 31 and (2) sharing that Pro $200 retained its 2x boost and sharing for the first time that this equates to 20x Plus.\n\nWe're going to update our pricing pages to make this clearer. Sorry it wasn't as clear as it should have in the first place.🫥",
-      "link": "https://twitter.com/thsottiaux/status/2043075353242218768#m",
-      "date": "2026-04-11T21:14:57",
-      "source": "@OpenAI",
-      "summary": "<p>Hi! Getting a lot of questions on Pro plan rate limits, so I wanted to clarify a few things:<br />\n<br />\n- Your Pro $100 plan includes at least 10x Plus usage, till May 31 with the 2X usage boost."
-    },
-    {
-      "title": "L'empreinte carbone de l'entraînement de ChatGPT-4 est à peu près égale à celle de la production des CD du jeu GTA5 et à celle de la production des chaussures Nike vendues par demi-journée dans le monde. Et c'est ~7 fois moins que celle de la production d'un paquebot de croisière",
-      "link": "https://twitter.com/Fabien_Mikol/status/2043239119346651491#m",
-      "date": "2026-04-12T08:05:42",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>L'empreinte carbone de l'entraînement de ChatGPT-4 est à peu près égale à celle de la production des CD du jeu GTA5 et à celle de la production des chaussures Nike vendues par demi-journée dans le "
-    },
-    {
-      "title": "R to @Fabien_Mikol: Elle fut produite en partenariat avec le @CAIS\nhttps://www.youtube.com/watch?v=ZP7T6WAK3Ow",
-      "link": "https://twitter.com/Fabien_Mikol/status/2043081033441022318#m",
-      "date": "2026-04-11T21:37:31",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Elle fut produite en partenariat avec le <a href=\"https://nitter.net/CAIS\" title=\"Center for AI Safety\">@CAIS</a><br />\n<a href=\"https://piped.video/watch?v=ZP7T6WAK3Ow\">piped.video/watch?v=ZP7T6WA"
-    },
-    {
-      "title": "Portrait d'Ego dans Le Monde !\nIls mentionnent notamment son excellente vidéo sur l'intelligence artificielle.\nC'est l'occasion de la voir pour ceux qui ne la connaissaient pas. Je la mets en 2e tweet.\nhttps://www.lemonde.fr/pixels/article/2026/04/11/a-avignon-ego-maitre-du-storytelling-sur-youtube-se-devoile_6679369_4408996.html",
-      "link": "https://twitter.com/Fabien_Mikol/status/2043081031486435717#m",
-      "date": "2026-04-11T21:37:31",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Portrait d'Ego dans Le Monde !<br />\nIls mentionnent notamment son excellente vidéo sur l'intelligence artificielle.<br />\nC'est l'occasion de la voir pour ceux qui ne la connaissaient pas. Je la m"
-    },
-    {
-      "title": "Pourquoi Hinton et d'autres soutiennent-ils que les LLM peuvent vraiment \"comprendre\" le langage même s'ils n'ont pas accès au monde référentiel comme nous? Parce qu'ils adhèrent à la \"sémantique des rôles inférentiels\".\nVoici un bon résumé par Claude d'un article expliquant cela",
-      "link": "https://twitter.com/Fabien_Mikol/status/2043076567396466931#m",
-      "date": "2026-04-11T21:19:46",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Pourquoi Hinton et d'autres soutiennent-ils que les LLM peuvent vraiment \"comprendre\" le langage même s'ils n'ont pas accès au monde référentiel comme nous? Parce qu'ils adhèrent à la \"sémantique d"
-    },
-    {
-      "title": "Claude Opus a reprogrammé un toolkit bio-informatique de ~16 000 lignes de code, une tâche de plusieurs semaines pour un ingénieur. Nouvel indice que l'horizon d'autonomie en SWE serait plus long qu'indiqué par l'évaluation METR, du moins pour les problèmes clairs et bien définis",
-      "link": "https://twitter.com/Fabien_Mikol/status/2043067659642667452#m",
-      "date": "2026-04-11T20:44:23",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Claude Opus a reprogrammé un toolkit bio-informatique de ~16 000 lignes de code, une tâche de plusieurs semaines pour un ingénieur. Nouvel indice que l'horizon d'autonomie en SWE serait plus long q"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Pour info c'est pas une formation offerte à tout le monde, ils sont exigeants, et ça coûte 3200€ 🥲",
-      "link": "https://twitter.com/Fabien_Mikol/status/2043023545932931361#m",
-      "date": "2026-04-11T17:49:05",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Pour info c'est pas une formation offerte à tout le monde, ils sont exigeants, et ça coûte 3200€ 🥲</p>\n<img src=\"https://nitter.net/pic/media%2FHFpG7QwXEAAnzTo.jpg\" />"
-    },
-    {
-      "title": "Donc figurez-vous que Luc Julia est aussi un \"expert\" fournissant ses \"éclairages pointus\" sur l'IA générative dans le cadre du Cycle Supérieur du Numérique à destination des cadres supérieurs de la fonction publique, pour les \"former aux enjeux du numérique\".\nTout va bien.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2042995088503050482#m",
-      "date": "2026-04-11T15:56:00",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Donc figurez-vous que Luc Julia est aussi un \"expert\" fournissant ses \"éclairages pointus\" sur l'IA générative dans le cadre du Cycle Supérieur du Numérique à destination des cadres supérieurs de l"
-    },
-    {
-      "title": "Aux États-Unis, des enseignants demandent un cadre clair pour l’usage de l’IA en classe.\n🇫🇷 En France, un cadre national existe depuis juin 2025.\nDeux pays / deux approches : expérimenter puis réguler… ou réguler pour mieux expérimenter ?\nhttps://www.edweek.org/technology/teachers-wants-guardrails-and-guidance-on-ai-use-experts-tell-congress/2026/02?utm_source=ai-admin.beehiiv.com&utm_medium=newsletter&utm_campaign=the-mirage-of-false-mastery-paradox-of-empowerment&_bhlid=cd78bae6b46a8df3812bbb603cd02f36844cdb65 \n#IA #Éducation",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2041547877697081449#m",
-      "date": "2026-04-07T16:05:18",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Aux États-Unis, des enseignants demandent un cadre clair pour l’usage de l’IA en classe.<br />\n🇫🇷 En France, un cadre national existe depuis juin 2025.<br />\nDeux pays / deux approches : expériment"
-    },
-    {
-      "title": "Immense plaisir de retrouver la communauté #EtrePROF pour un atelier inédit 🤖\n\n🎯 Adapter ses supports sans s’épuiser avec l’IA\n➡️ Schémas, audio, etc.\n➡️ Du concret, directement utilisable\n\nVenez avec un doc, repartez avec plusieurs versions !\n\n👉 https://etreprof.fr/ateliers/1283/adapter-ses-supports-a-tous-les-eleves-sans-sepuiser-a-l-aide-de-lia-elementairesecondaire",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2041188067050967349#m",
-      "date": "2026-04-06T16:15:33",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Immense plaisir de retrouver la communauté <a href=\"https://nitter.net/search?f=tweets&amp;q=%23EtrePROF\">#EtrePROF</a> pour un atelier inédit 🤖<br />\n<br />\n🎯 Adapter ses supports sans s’épuiser a"
-    },
-    {
-      "title": "Zawa",
-      "link": "https://www.uneiaparjour.fr/zawa/",
-      "date": "2026-04-04T20:12:00",
-      "source": "Une IA par jour",
-      "summary": "Zawa (ex X-design &#8211; https://zawa.ai/) est un chatbot combiné à un tableau blanc spécialisé dans la génération de contenus visuels, image ou vidéo ou page html. Plusieurs modèles disponibles avec"
-    },
-    {
-      "title": "Albert est le 31e élève",
-      "link": "https://mathix.org/linux/archives/22170",
-      "date": "2026-03-30T06:34:00",
-      "source": "Mathix (A. Durand)",
-      "summary": "Il y a quelque temps, je partageais ici les premiers pas d&#8217;Albert, ce « 31ème élève » virtuel qui a rejoint ma classe de 3ème. Si les premières expérimentations tournaient autour de la faisabili"
-    },
-    {
-      "title": "IA & Éducation : pourquoi je (re)mets mon diaporama à disposition.",
-      "link": "https://mathix.org/linux/archives/22128",
-      "date": "2026-03-01T16:35:54",
-      "source": "Mathix (A. Durand)",
-      "summary": "Depuis un an, j’anime des FIL IA auprès d’équipes d’établissements. En un an, le paysage a profondément évolué. Les modèles de langage se sont perfectionnés.Le cadrage institutionnel s’est précisé.Les"
-    },
-    {
-      "title": "Using custom GPTs",
-      "link": "https://openai.com/academy/custom-gpts",
-      "date": "2026-04-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants."
-    },
-    {
-      "title": "ChatGPT for customer success teams",
-      "link": "https://openai.com/academy/customer-success",
-      "date": "2026-04-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals."
-    },
-    {
-      "title": "Applications of AI at OpenAI",
-      "link": "https://openai.com/academy/applications-of-ai",
-      "date": "2026-04-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks."
-    },
-    {
-      "title": "Research with ChatGPT",
-      "link": "https://openai.com/academy/search-and-deep-research",
-      "date": "2026-04-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights."
-    },
-    {
-      "title": "Analyzing data with ChatGPT",
-      "link": "https://openai.com/academy/data-analysis",
-      "date": "2026-04-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions."
-    },
-    {
-      "title": "Financial services",
-      "link": "https://openai.com/academy/financial-services",
-      "date": "2026-04-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely."
-    },
-    {
-      "title": "Responsible and safe use of AI",
-      "link": "https://openai.com/academy/responsible-and-safe-use",
-      "date": "2026-04-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT."
-    },
-    {
-      "title": "Writing with ChatGPT",
-      "link": "https://openai.com/academy/writing",
-      "date": "2026-04-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent."
-    },
-    {
-      "title": "ChatGPT for research",
-      "link": "https://openai.com/academy/research",
-      "date": "2026-04-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights."
-    },
-    {
-      "title": "Creating images with ChatGPT",
-      "link": "https://openai.com/academy/image-generation",
-      "date": "2026-04-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, and generate high-quality visuals in minutes."
-    },
-    {
-      "title": "RT by @nsi_xyz: Excellente explication par @IA_Clash de ce qui ne va pas dans une tristement célèbre \"démonstration\" par LeCun censée prouver l'impasse des LLM (\"they suck!\", \"they are doomed!\"), et qu'il a répétée vraiment un peu partout. Très pédagogique en plus 👌",
-      "link": "https://twitter.com/Fabien_Mikol/status/2041076226261926374#m",
-      "date": "2026-04-06T08:51:08",
-      "source": "@nsi_xyz",
-      "summary": "<p>Excellente explication par <a href=\"https://nitter.net/IA_Clash\" title=\"IA Clash\">@IA_Clash</a> de ce qui ne va pas dans une tristement célèbre \"démonstration\" par LeCun censée prouver l'impasse de"
-    },
-    {
-      "title": "🤖 Et si l’IA était moins une béquille qu’un coach ?\nCette étude montre qu’en écriture, elle peut alléger l’effort tout en améliorant l’apprentissage.\nL’enjeu : s’en servir pour progresser, pas pour déléguer. \n🔗 https://arxiv.org/abs/2502.02880",
-      "link": "https://twitter.com/sophiaefrance/status/2042540594069692712#m",
-      "date": "2026-04-10T09:50:00",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤖 Et si l’IA était moins une béquille qu’un coach ?<br />\nCette étude montre qu’en écriture, elle peut alléger l’effort tout en améliorant l’apprentissage.<br />\nL’enjeu : s’en servir pour progress"
-    },
-    {
-      "title": "🤖 A.U.D.I.T. propose des séquences clés en main pour apprendre aux élèves à utiliser l’IA avec discernement : repérer le style IA, tester ses failles, puis mieux la piloter en classe. \n🎯 Développer l’esprit critique face aux biais et hallucinations \nhttps://intelligence-artificielle-esprit-critique-et-enseignement.forge.apps.education.fr/audit-ia/index.html",
-      "link": "https://twitter.com/sophiaefrance/status/2036788953085313150#m",
-      "date": "2026-03-25T12:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤖 A.U.D.I.T. propose des séquences clés en main pour apprendre aux élèves à utiliser l’IA avec discernement : repérer le style IA, tester ses failles, puis mieux la piloter en classe. <br />\n🎯 Déve"
-    },
-    {
-      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n📦 DeepSeek-V3.2 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2\n📦 DeepSeek-V3.2-Speciale Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n5/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452658149405148#m",
-      "date": "2025-12-01T11:19:22",
-      "source": "@deepseek_ai",
-      "summary": "<p>🛠 Open Source Release<br />\n<br />\n📦 DeepSeek-V3.2 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2\">huggingface.co/deepseek-ai/D…</a><br />\n📦 DeepSeek-V3.2-Speciale Model: <a href="
-    },
-    {
-      "title": "R to @deepseek_ai: 💻 API Update\n\n🔹 V3.2: Same usage pattern as V3.2-Exp.\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"https://api.deepseek.com/v3.2_speciale_expires_on_20251215\". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time).\n💡 V3.2 now supports Thinking in Tool-Use — details: https://api-docs.deepseek.com/guides/thinking_mode\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452654659805334#m",
-      "date": "2025-12-01T11:19:21",
-      "source": "@deepseek_ai",
-      "summary": "<p>💻 API Update<br />\n<br />\n🔹 V3.2: Same usage pattern as V3.2-Exp.<br />\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"<a href=\"https://api.deepseek.com/v3.2_speciale_expires_on_202512"
-    },
-    {
-      "title": "🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!\n\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.\n🔹 DeepSeek-V3.2-Speciale: Pushing the boundaries of reasoning capabilities. API-only for now.\n\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452641430651132#m",
-      "date": "2025-12-01T11:19:18",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!<br />\n<br />\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.<br />\n🔹 DeepS"
     }
   ],
-  "last_update": "2026-04-14T09:09:11.546435",
+  "last_update": "2026-04-15T09:10:06.367864",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
