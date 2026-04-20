@@ -1,6 +1,83 @@
 {
   "articles": [
     {
+      "title": "Trusted access for the next era of cyber defense",
+      "link": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
+      "date": "2026-04-14T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance."
+    },
+    {
+      "title": "Turn your best AI prompts into one-click tools in Chrome",
+      "link": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+      "date": "2026-04-14T17:00:00",
+      "source": "Google AI",
+      "summary": "Video showing Skills in Chrome"
+    },
+    {
+      "title": "RT by @nsi_xyz: Le suicide industriel et économique de la France, c'est cette photo.\n\nIl faut doubler les salaires de tous enseignants (en euros constant). 20% de suite, 20% de plus par an pendant 5 ans, et ensuite on indexe.",
+      "link": "https://twitter.com/CyniqueDeGauche/status/2045755479876358421#m",
+      "date": "2026-04-19T06:44:49",
+      "source": "@nsi_xyz",
+      "summary": "<p>Le suicide industriel et économique de la France, c'est cette photo.<br />\n<br />\nIl faut doubler les salaires de tous enseignants (en euros constant). 20% de suite, 20% de plus par an pendant 5 an"
+    },
+    {
+      "title": "RT by @nsi_xyz: On est surtout dans le noyage de poisson ...\n\"10 % pour tous les enseignants\" devient \"en moyenne\" avec  en plus une tromperie implicite sur les chiffres : cela aurait dû correspondre à environ + 10 % de la masse salariale, mais cette moyenne donnée est celle des pourcentages de gains de chaque échelon. Ainsi par exemple + 15 % pour un début de carrière et + 5 % pour une fin de carrière donnaient une moyenne de + 15 % officiellement, quand cela donnait une augmentation de la masse salariale de seulement 8 % par exemple.\nDe plus, il y a tromperie : ces 10 % étaient présentés fallacieusement comme devant être indépendant du dégel du point d’indice ; et ici évidemment il le compte …\nRappelons qu’un certain E. Macron a sciemment manipulé des auditoires sur ce sujet,cela ayant surtout commencé dans le débat de l’entre-deux tours devant M. Le Pen car il fallait un argument qui tienne la route face aux propositions de revalorisations des autres candidats. Il fallait faire croire qu’il s’agirait bien de « + 10 % pour TOUS les enseignants », mais qu’il n’en était pas du question. Un doute ? En fait cela avait été révélé dans un article de L’Obs dès le 22 avril, ce que l’intégralité des syndicats majoritaires enseignants – SNES en tête - avaient décidé d’ignorer :\nhttps://www.nouvelobs.com/election-presidentielle-2022/20220422.OBS57492/non-emmanuel-macron-ne-revalorisera-pas-tous-les-enseignants-de-10.html\nOn peut même rappeler que la troisième revalorisation – la plus élevée – était initialement prévue pour janvier 2023, mais qu’elle avait donc été reportée en septembre 2023 pour en réalité deux raisons : cela permettait évidemment d’économiser autant (donc 9 mois), mais surtout ce permettait de répartir cette revalorisation sur deux années civiles budgétaires, pour pouvoir continuer à faire croire par la suite et comme toujours que « le budget suit l’inflation » …",
+      "link": "https://twitter.com/Rick6524/status/2043984256943178108#m",
+      "date": "2026-04-14T09:26:36",
+      "source": "@nsi_xyz",
+      "summary": "<p>On est surtout dans le noyage de poisson ...<br />\n\"10 % pour tous les enseignants\" devient \"en moyenne\" avec  en plus une tromperie implicite sur les chiffres : cela aurait dû correspondre à envir"
+    },
+    {
+      "title": "R to @AnthropicAI: We discuss this, along with the other implications of this research, in our blog: https://www.anthropic.com/research/automated-alignment-researchers\n\nFor the full study, see here: https://alignment.anthropic.com/2026/automated-w2s-researcher/",
+      "link": "https://twitter.com/AnthropicAI/status/2044138490904932853#m",
+      "date": "2026-04-14T19:39:29",
+      "source": "@AnthropicAI",
+      "summary": "<p>We discuss this, along with the other implications of this research, in our blog: <a href=\"https://www.anthropic.com/research/automated-alignment-researchers\">anthropic.com/research/autom…</a><br /"
+    },
+    {
+      "title": "R to @AnthropicAI: AI models aren’t yet general-purpose alignment scientists. Progress isn't as easy to verify on most alignment research tasks: our AARs would find “fuzzier” research much harder.\n\nBut our experiment does show that Claude can increase the rate of experimentation and exploration.",
+      "link": "https://twitter.com/AnthropicAI/status/2044138489495605292#m",
+      "date": "2026-04-14T19:39:28",
+      "source": "@AnthropicAI",
+      "summary": "<p>AI models aren’t yet general-purpose alignment scientists. Progress isn't as easy to verify on most alignment research tasks: our AARs would find “fuzzier” research much harder.<br />\n<br />\nBut ou"
+    },
+    {
+      "title": "R to @AnthropicAI: To test the broader usefulness of the AARs’ methods, we assessed how well they worked on two datasets the AARs hadn’t seen before.\n\nThe AARs’ best-performing method successfully generalized to both coding and math tasks, though their second-best method only generalized to math.",
+      "link": "https://twitter.com/AnthropicAI/status/2044138487025144231#m",
+      "date": "2026-04-14T19:39:28",
+      "source": "@AnthropicAI",
+      "summary": "<p>To test the broader usefulness of the AARs’ methods, we assessed how well they worked on two datasets the AARs hadn’t seen before.<br />\n<br />\nThe AARs’ best-performing method successfully general"
+    },
+    {
+      "title": "R to @AnthropicAI: Here, we measure success by the fraction of the “performance gap” we can close between the weak model and the potential of the strong model.\n\nAfter 7 days, human researchers closed it by 23%. Then, our Automated Alignment Researchers—Opus 4.6 with extra tools—closed it by 97%.",
+      "link": "https://twitter.com/AnthropicAI/status/2044138483870998932#m",
+      "date": "2026-04-14T19:39:27",
+      "source": "@AnthropicAI",
+      "summary": "<p>Here, we measure success by the fraction of the “performance gap” we can close between the weak model and the potential of the strong model.<br />\n<br />\nAfter 7 days, human researchers closed it b"
+    },
+    {
+      "title": "🚀Announcing a strategic partnership with NVIDIA to co-develop frontier open-source AI models, combining Mistral AI’s frontier model architecture and full-stack AI offering with NVIDIA’s leading compute infrastructure and development tools.",
+      "link": "https://twitter.com/MistralAI/status/2033642111984177247#m",
+      "date": "2026-03-16T20:30:37",
+      "source": "@MistralAI",
+      "summary": "<p>🚀Announcing a strategic partnership with NVIDIA to co-develop frontier open-source AI models, combining Mistral AI’s frontier model architecture and full-stack AI offering with NVIDIA’s leading com"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: With chatbots, AI alignment looked easier than expected. \n\nBut with the shift to ever smarter longer-horizon agents, the classic reasons for concern come back.\n\nNew primer: four reasons why AI won't do what we want  🧵",
+      "link": "https://twitter.com/ben_j_todd/status/2045895688400060854#m",
+      "date": "2026-04-19T16:01:57",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>With chatbots, AI alignment looked easier than expected. <br />\n<br />\nBut with the shift to ever smarter longer-horizon agents, the classic reasons for concern come back.<br />\n<br />\nNew primer: "
+    },
+    {
+      "title": "L'article de 2023 souvent invoqué (et malmené) par LeCun pour \"prouver\" que les LLM sont \"doomed\" était en réalité très explicite : cela ne concernait que les tâches compositionnelles complexes, et ils anticipaient déjà des méthodes pour corriger ces faiblesses.\nMerci @IA_Clash !",
+      "link": "https://twitter.com/Fabien_Mikol/status/2045793467230453810#m",
+      "date": "2026-04-19T09:15:46",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>L'article de 2023 souvent invoqué (et malmené) par LeCun pour \"prouver\" que les LLM sont \"doomed\" était en réalité très explicite : cela ne concernait que les tâches compositionnelles complexes, et"
+    },
+    {
       "title": "Google Flow Music",
       "link": "https://www.uneiaparjour.fr/google-flow-music/",
       "date": "2026-04-18T21:02:00",
@@ -622,86 +699,9 @@
       "date": "2026-04-16T08:52:49",
       "source": "@Fabien_Mikol",
       "summary": "<p>Les capacités d'introspection des LLM (ici en l'occurrence l'aptitude à détecter l'injection artificielle de \"pensées parasites\") sont bridées par un mécanisme de refus de réponse appris pendant le"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Par ailleurs c'est aussi durant le post-training (notamment l'entraînement contrastif type DPO) que ces capacités d'introspection émergent... complexifiant encore davantage le tableau 😅",
-      "link": "https://twitter.com/Fabien_Mikol/status/2044700531579380029#m",
-      "date": "2026-04-16T08:52:50",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Par ailleurs c'est aussi durant le post-training (notamment l'entraînement contrastif type DPO) que ces capacités d'introspection émergent... complexifiant encore davantage le tableau 😅</p>\n<img sr"
-    },
-    {
-      "title": "RT by @Fabien_Mikol: AI labs are in a very awkward spot\n\nbecause mainstream media and the general public still don't understand and believe that this is real\n\nthey think it's just fear-mongering,\nbut it's a future we are predictably heading toward\n\nimagine trying to warn someone of an imminent danger, but they just disregard it as fear-mongering",
-      "link": "https://twitter.com/scaling01/status/2044516640931369392#m",
-      "date": "2026-04-15T20:42:07",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>AI labs are in a very awkward spot<br />\n<br />\nbecause mainstream media and the general public still don't understand and believe that this is real<br />\n<br />\nthey think it's just fear-mongering"
-    },
-    {
-      "title": "Intéressant témoignage sur le retournement d'opinion et la constatation après coup de ses propres biais, notamment ici le biais \"anti-futuriste\": la forte réticence à prendre au sérieux ne serait-ce que la possibilité que l'avenir soit vraiment très étrange, pour ne pas dire plus",
-      "link": "https://twitter.com/Fabien_Mikol/status/2044524968424157597#m",
-      "date": "2026-04-15T21:15:12",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Intéressant témoignage sur le retournement d'opinion et la constatation après coup de ses propres biais, notamment ici le biais \"anti-futuriste\": la forte réticence à prendre au sérieux ne serait-c"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Je pense que ce biais est largement dominant aujourd'hui encore, même dans les institutions censées faire de la prospective.\nYoshua Bengio lui-même mentionnait récemment combien ce biais faisait obstacle à la communication sur l'avenir de l'IA\nhttps://x.com/Fabien_Mikol/status/2026646632591192076",
-      "link": "https://twitter.com/Fabien_Mikol/status/2044524972295540845#m",
-      "date": "2026-04-15T21:15:13",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Je pense que ce biais est largement dominant aujourd'hui encore, même dans les institutions censées faire de la prospective.<br />\nYoshua Bengio lui-même mentionnait récemment combien ce biais fais"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Tout ça est d'autant plus inquiétant que dans ce même rapport, on voit que certains modèles (en l'occurrence Gemini 3) font beaucoup d'alignment faking (prétendre être aligné sur les intentions des concepteurs pour éviter une modification future)...\nhttps://x.com/Tim_Hua_/status/2044295907529896246",
-      "link": "https://twitter.com/Fabien_Mikol/status/2044423380737094035#m",
-      "date": "2026-04-15T14:31:32",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Tout ça est d'autant plus inquiétant que dans ce même rapport, on voit que certains modèles (en l'occurrence Gemini 3) font beaucoup d'alignment faking (prétendre être aligné sur les intentions des"
-    },
-    {
-      "title": "Aux États-Unis, des enseignants demandent un cadre clair pour l’usage de l’IA en classe.\n🇫🇷 En France, un cadre national existe depuis juin 2025.\nDeux pays / deux approches : expérimenter puis réguler… ou réguler pour mieux expérimenter ?\nhttps://www.edweek.org/technology/teachers-wants-guardrails-and-guidance-on-ai-use-experts-tell-congress/2026/02?utm_source=ai-admin.beehiiv.com&utm_medium=newsletter&utm_campaign=the-mirage-of-false-mastery-paradox-of-empowerment&_bhlid=cd78bae6b46a8df3812bbb603cd02f36844cdb65 \n#IA #Éducation",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2041547877697081449#m",
-      "date": "2026-04-07T16:05:18",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Aux États-Unis, des enseignants demandent un cadre clair pour l’usage de l’IA en classe.<br />\n🇫🇷 En France, un cadre national existe depuis juin 2025.<br />\nDeux pays / deux approches : expériment"
-    },
-    {
-      "title": "Immense plaisir de retrouver la communauté #EtrePROF pour un atelier inédit 🤖\n\n🎯 Adapter ses supports sans s’épuiser avec l’IA\n➡️ Schémas, audio, etc.\n➡️ Du concret, directement utilisable\n\nVenez avec un doc, repartez avec plusieurs versions !\n\n👉 https://etreprof.fr/ateliers/1283/adapter-ses-supports-a-tous-les-eleves-sans-sepuiser-a-l-aide-de-lia-elementairesecondaire",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2041188067050967349#m",
-      "date": "2026-04-06T16:15:33",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Immense plaisir de retrouver la communauté <a href=\"https://nitter.net/search?f=tweets&amp;q=%23EtrePROF\">#EtrePROF</a> pour un atelier inédit 🤖<br />\n<br />\n🎯 Adapter ses supports sans s’épuiser a"
-    },
-    {
-      "title": "Blueprint",
-      "link": "https://www.uneiaparjour.fr/blueprint/",
-      "date": "2026-04-09T20:58:00",
-      "source": "Une IA par jour",
-      "summary": "Blueprint (https://www.blueprint.am/) génère des prototypes détaillés à partir d&#8217;une instruction et d&#8217;un chatbot. La génération consiste en une vue de l&#8217;objet et en ses différents ma"
-    },
-    {
-      "title": "Modéliser ou Halluciner ?",
-      "link": "https://mathix.org/linux/archives/22174",
-      "date": "2026-03-28T11:23:45",
-      "source": "Mathix (A. Durand)",
-      "summary": "Comment faire comprendre aux élèves le lien entre une modélisation mathématique et la prédiction statistique d’un Large Language Model (LLM) ? Cette activité propose d&#8217;utiliser un exercice de tr"
-    },
-    {
-      "title": "Le vibe-coding : l’enjeu réel pour l’éducation",
-      "link": "https://mathix.org/linux/archives/22186",
-      "date": "2026-03-28T10:04:59",
-      "source": "Mathix (A. Durand)",
-      "summary": "La connaissance est l&#8217;indépendance : Le mirage du « Vibe-Coding » en éducation L’intelligence artificielle est en train de redéfinir nos usages numériques à une vitesse vertigineuse. Pour beauco"
-    },
-    {
-      "title": "Exerciseur sur la linéarité dans un tableau de proportionnalité",
-      "link": "https://mathix.org/linux/archives/22148",
-      "date": "2026-03-11T13:11:44",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Voici un exerciseur sur la proportionnalité (entier, décimaux et problème de proportionnalité), pour des élèves de 6eme. On peut uniquement travailler la linéarité (pas de c"
     }
   ],
-  "last_update": "2026-04-19T08:42:45.376784",
+  "last_update": "2026-04-20T09:49:36.748414",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
