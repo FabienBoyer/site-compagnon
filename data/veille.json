@@ -1,6 +1,118 @@
 {
   "articles": [
     {
+      "title": "Modéliser ou Halluciner ?",
+      "link": "https://mathix.org/linux/archives/22174",
+      "date": "2026-03-28T11:23:45",
+      "source": "Mathix (A. Durand)",
+      "summary": "Comment faire comprendre aux élèves le lien entre une modélisation mathématique et la prédiction statistique d’un Large Language Model (LLM) ? Cette activité propose d&#8217;utiliser un exercice de tr"
+    },
+    {
+      "title": "Le vibe-coding : l’enjeu réel pour l’éducation",
+      "link": "https://mathix.org/linux/archives/22186",
+      "date": "2026-03-28T10:04:59",
+      "source": "Mathix (A. Durand)",
+      "summary": "La connaissance est l&#8217;indépendance : Le mirage du « Vibe-Coding » en éducation L’intelligence artificielle est en train de redéfinir nos usages numériques à une vitesse vertigineuse. Pour beauco"
+    },
+    {
+      "title": "Exerciseur sur la linéarité dans un tableau de proportionnalité",
+      "link": "https://mathix.org/linux/archives/22148",
+      "date": "2026-03-11T13:11:44",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Voici un exerciseur sur la proportionnalité (entier, décimaux et problème de proportionnalité), pour des élèves de 6eme. On peut uniquement travailler la linéarité (pas de c"
+    },
+    {
+      "title": "OpenAI helps Hyatt advance AI among colleagues",
+      "link": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+      "date": "2026-04-20T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences."
+    },
+    {
+      "title": "Brainstorming with ChatGPT",
+      "link": "https://openai.com/academy/brainstorming",
+      "date": "2026-04-10T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans."
+    },
+    {
+      "title": "Prompting fundamentals",
+      "link": "https://openai.com/academy/prompting",
+      "date": "2026-04-10T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT."
+    },
+    {
+      "title": "We're launching the Anthropic STEM Fellows Program. \n\nAI will accelerate progress in science and engineering. We're looking for experts across these fields to work alongside our research teams on specific projects over a few months.\n\nLearn more and apply: https://job-boards.greenhouse.io/anthropic/jobs/5189848008",
+      "link": "https://twitter.com/AnthropicAI/status/2046362119755727256#m",
+      "date": "2026-04-20T22:55:23",
+      "source": "@AnthropicAI",
+      "summary": "<p>We're launching the Anthropic STEM Fellows Program. <br />\n<br />\nAI will accelerate progress in science and engineering. We're looking for experts across these fields to work alongside our researc"
+    },
+    {
+      "title": "R to @AnthropicAI: Amazon is also investing an additional $5 billion in Anthropic today, with up to $20 billion more in the future.\n\nRead more: https://www.anthropic.com/news/anthropic-amazon-compute",
+      "link": "https://twitter.com/AnthropicAI/status/2046327625367625773#m",
+      "date": "2026-04-20T20:38:19",
+      "source": "@AnthropicAI",
+      "summary": "<p>Amazon is also investing an additional $5 billion in Anthropic today, with up to $20 billion more in the future.<br />\n<br />\nRead more: <a href=\"https://www.anthropic.com/news/anthropic-amazon-com"
+    },
+    {
+      "title": "We're expanding our collaboration with Amazon to secure up to 5 gigawatts of compute for training and deploying Claude. Capacity begins coming online this quarter, with nearly 1 gigawatt expected by the end of 2026.",
+      "link": "https://twitter.com/AnthropicAI/status/2046327624092487688#m",
+      "date": "2026-04-20T20:38:19",
+      "source": "@AnthropicAI",
+      "summary": "<p>We're expanding our collaboration with Amazon to secure up to 5 gigawatts of compute for training and deploying Claude. Capacity begins coming online this quarter, with nearly 1 gigawatt expected b"
+    },
+    {
+      "title": "🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus\nThe latest update builds on V3.1’s strengths while addressing key user feedback.\n\n✨ What’s improved?\n🌐 Language consistency: fewer CN/EN mix-ups & no more random chars.\n🤖 Agent upgrades: stronger Code Agent & Search Agent performance.\n\n1/2",
+      "link": "https://twitter.com/deepseek_ai/status/1970117808035074215#m",
+      "date": "2025-09-22T13:27:43",
+      "source": "@deepseek_ai",
+      "summary": "<p>🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus<br />\nThe latest update builds on V3.1’s strengths while addressing key user feedback.<br />\n<br />\n✨ What’s improved?<br />\n🌐 Language consistency: fewer C"
+    },
+    {
+      "title": "R to @deepseek_ai: 📊 DeepSeek-V3.1-Terminus delivers more stable & reliable outputs across benchmarks compared to the previous version.\n\n👉 Available now on: App / Web / API\n🔗 Open-source weights here: https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus\n\nThanks to everyone for your feedback. It drives us to keep improving and refining the experience! 🚀\n\n2/2",
+      "link": "https://twitter.com/deepseek_ai/status/1970117812279718197#m",
+      "date": "2025-09-22T13:27:44",
+      "source": "@deepseek_ai",
+      "summary": "<p>📊 DeepSeek-V3.1-Terminus delivers more stable & reliable outputs across benchmarks compared to the previous version.<br />\n<br />\n👉 Available now on: App / Web / API<br />\n🔗 Open-source weights her"
+    },
+    {
+      "title": "Introducing DeepSeek-V3.1: our first step toward the agent era! 🚀\n\n🧠 Hybrid inference: Think & Non-Think — one model, two modes\n⚡️ Faster thinking: DeepSeek-V3.1-Think reaches answers in less time vs. DeepSeek-R1-0528\n🛠️ Stronger agent skills: Post-training boosts tool use and multi-step agent tasks\n\nTry it now — toggle Think/Non-Think via the \"DeepThink\" button: https://chat.deepseek.com/\n\n1/5",
+      "link": "https://twitter.com/deepseek_ai/status/1958417062008918312#m",
+      "date": "2025-08-21T06:33:07",
+      "source": "@deepseek_ai",
+      "summary": "<p>Introducing DeepSeek-V3.1: our first step toward the agent era! 🚀<br />\n<br />\n🧠 Hybrid inference: Think & Non-Think — one model, two modes<br />\n⚡️ Faster thinking: DeepSeek-V3.1-Think reaches ans"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: Classic study gave 146 economist teams the same dataset & got wildly different answers\n\nNew paper reruns it with agentic AI. Claude Code & Codex land near the human median, but with far tighter dispersion & no extremes.\n\nSuggests that AI is now useful for doing scalable research.",
+      "link": "https://twitter.com/emollick/status/2046362044786458648#m",
+      "date": "2026-04-20T22:55:05",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Classic study gave 146 economist teams the same dataset &amp; got wildly different answers<br />\n<br />\nNew paper reruns it with agentic AI. Claude Code &amp; Codex land near the human median, but "
+    },
+    {
+      "title": "🎓 On dit que l’éducation est la solution à tout : pauvreté, climat, inégalités, conflits…\nMais dans les faits ? \n📉 -25 % d’aide internationale d’ici 2027.\n📚 L’éducation reste l’investissement le plus rentable pour la paix.\n🔗 https://www.lemonde.fr/societe/article/2026/04/07/dans-un-monde-en-plein-rearmement-l-education-demeure-l-investissement-le-plus-rentable-pour-la-paix_6677755_3224.html",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2046258289676058899#m",
+      "date": "2026-04-20T16:02:48",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🎓 On dit que l’éducation est la solution à tout : pauvreté, climat, inégalités, conflits…<br />\nMais dans les faits ? <br />\n📉 -25 % d’aide internationale d’ici 2027.<br />\n📚 L’éducation reste l’in"
+    },
+    {
+      "title": "Aux États-Unis, des enseignants demandent un cadre clair pour l’usage de l’IA en classe.\n🇫🇷 En France, un cadre national existe depuis juin 2025.\nDeux pays / deux approches : expérimenter puis réguler… ou réguler pour mieux expérimenter ?\nhttps://www.edweek.org/technology/teachers-wants-guardrails-and-guidance-on-ai-use-experts-tell-congress/2026/02?utm_source=ai-admin.beehiiv.com&utm_medium=newsletter&utm_campaign=the-mirage-of-false-mastery-paradox-of-empowerment&_bhlid=cd78bae6b46a8df3812bbb603cd02f36844cdb65 \n#IA #Éducation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2041547877697081449#m",
+      "date": "2026-04-07T16:05:18",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Aux États-Unis, des enseignants demandent un cadre clair pour l’usage de l’IA en classe.<br />\n🇫🇷 En France, un cadre national existe depuis juin 2025.<br />\nDeux pays / deux approches : expériment"
+    },
+    {
+      "title": "Immense plaisir de retrouver la communauté #EtrePROF pour un atelier inédit 🤖\n\n🎯 Adapter ses supports sans s’épuiser avec l’IA\n➡️ Schémas, audio, etc.\n➡️ Du concret, directement utilisable\n\nVenez avec un doc, repartez avec plusieurs versions !\n\n👉 https://etreprof.fr/ateliers/1283/adapter-ses-supports-a-tous-les-eleves-sans-sepuiser-a-l-aide-de-lia-elementairesecondaire",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2041188067050967349#m",
+      "date": "2026-04-06T16:15:33",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Immense plaisir de retrouver la communauté <a href=\"https://nitter.net/search?f=tweets&amp;q=%23EtrePROF\">#EtrePROF</a> pour un atelier inédit 🤖<br />\n<br />\n🎯 Adapter ses supports sans s’épuiser a"
+    },
+    {
       "title": "Trusted access for the next era of cyber defense",
       "link": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
       "date": "2026-04-14T00:00:00",
@@ -587,121 +699,9 @@
       "date": "2026-04-10T00:00:00",
       "source": "OpenAI Blog",
       "summary": "Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants."
-    },
-    {
-      "title": "Working with files in ChatGPT",
-      "link": "https://openai.com/academy/working-with-files",
-      "date": "2026-04-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to upload and work with files in ChatGPT to analyze data, summarize documents, and generate content from PDFs, spreadsheets, and more."
-    },
-    {
-      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
-      "date": "2026-04-15T15:00:00",
-      "source": "Google AI",
-      "summary": "Gemini logo next to the text \"3.1 Flash TTS\", all over colored dots"
-    },
-    {
-      "title": "Inclus’IA met l’#IA au service de l’inclusion scolaire avec vigilance RGPD et sans collecte de données personnelles : FALC, différenciation, CUA etc… \nUne piste très concrète pour mieux adapter les supports pédagogiques.\nhttps://inclusia.forge.apps.education.fr/ \n✍️ Emmanuel Gaunard",
-      "link": "https://twitter.com/sophiaefrance/status/2044383996650348917#m",
-      "date": "2026-04-15T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>Inclus’IA met l’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> au service de l’inclusion scolaire avec vigilance RGPD et sans collecte de données personnelles : FALC, différenciat"
-    },
-    {
-      "title": "🤖 Et si l’IA était moins une béquille qu’un coach ?\nCette étude montre qu’en écriture, elle peut alléger l’effort tout en améliorant l’apprentissage.\nL’enjeu : s’en servir pour progresser, pas pour déléguer. \n🔗 https://arxiv.org/abs/2502.02880",
-      "link": "https://twitter.com/sophiaefrance/status/2042540594069692712#m",
-      "date": "2026-04-10T09:50:00",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤖 Et si l’IA était moins une béquille qu’un coach ?<br />\nCette étude montre qu’en écriture, elle peut alléger l’effort tout en améliorant l’apprentissage.<br />\nL’enjeu : s’en servir pour progress"
-    },
-    {
-      "title": "Research we co-authored on subliminal learning—how LLMs can pass on traits like preferences or misalignment through hidden signals in data—was published today in @Nature. \n\nRead the paper: https://www.nature.com/articles/s41586-026-10319-8",
-      "link": "https://twitter.com/AnthropicAI/status/2044493337835802948#m",
-      "date": "2026-04-15T19:09:31",
-      "source": "@AnthropicAI",
-      "summary": "<p>Research we co-authored on subliminal learning—how LLMs can pass on traits like preferences or misalignment through hidden signals in data—was published today in <a href=\"https://nitter.net/Nature\""
-    },
-    {
-      "title": "RT by @MistralAI: Build once. Reuse everywhere.\n\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.",
-      "link": "https://twitter.com/MistralDevs/status/2044418622131437755#m",
-      "date": "2026-04-15T14:12:37",
-      "source": "@MistralAI",
-      "summary": "<p>Build once. Reuse everywhere.<br />\n<br />\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.</p>\n<im"
-    },
-    {
-      "title": "R to @MistralAI: 🤝 This will be the first project we build together with Nvidia as we become a founding member of the Nemotron Coalition. \n\nDetails: https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models",
-      "link": "https://twitter.com/MistralAI/status/2033642113791848669#m",
-      "date": "2026-03-16T20:30:37",
-      "source": "@MistralAI",
-      "summary": "<p>🤝 This will be the first project we build together with Nvidia as we become a founding member of the Nemotron Coalition. <br />\n<br />\nDetails: <a href=\"https://mistral.ai/news/mistral-ai-and-nvidi"
-    },
-    {
-      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n📦 DeepSeek-V3.2 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2\n📦 DeepSeek-V3.2-Speciale Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n5/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452658149405148#m",
-      "date": "2025-12-01T11:19:22",
-      "source": "@deepseek_ai",
-      "summary": "<p>🛠 Open Source Release<br />\n<br />\n📦 DeepSeek-V3.2 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2\">huggingface.co/deepseek-ai/D…</a><br />\n📦 DeepSeek-V3.2-Speciale Model: <a href="
-    },
-    {
-      "title": "R to @deepseek_ai: 💻 API Update\n\n🔹 V3.2: Same usage pattern as V3.2-Exp.\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"https://api.deepseek.com/v3.2_speciale_expires_on_20251215\". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time).\n💡 V3.2 now supports Thinking in Tool-Use — details: https://api-docs.deepseek.com/guides/thinking_mode\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452654659805334#m",
-      "date": "2025-12-01T11:19:21",
-      "source": "@deepseek_ai",
-      "summary": "<p>💻 API Update<br />\n<br />\n🔹 V3.2: Same usage pattern as V3.2-Exp.<br />\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"<a href=\"https://api.deepseek.com/v3.2_speciale_expires_on_202512"
-    },
-    {
-      "title": "R to @deepseek_ai: 🤖 Thinking in Tool-Use\n\n🔹 Introduces a new massive agent training data synthesis method covering 1,800+ environments & 85k+ complex instructions.\n🔹 DeepSeek-V3.2 is our first model to integrate thinking directly into tool-use, and also supports tool-use in both thinking and non-thinking modes.\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452650557763728#m",
-      "date": "2025-12-01T11:19:20",
-      "source": "@deepseek_ai",
-      "summary": "<p>🤖 Thinking in Tool-Use<br />\n<br />\n🔹 Introduces a new massive agent training data synthesis method covering 1,800+ environments & 85k+ complex instructions.<br />\n🔹 DeepSeek-V3.2 is our first mode"
-    },
-    {
-      "title": "R to @deepseek_ai: 🏆 World-Leading Reasoning\n\n🔹 V3.2: Balanced inference vs. length. Your daily driver at GPT-5 level performance.\n🔹 V3.2-Speciale: Maxed-out reasoning capabilities. Rivals Gemini-3.0-Pro.\n🥇 Gold-Medal Performance: V3.2-Speciale attains gold-level results in IMO, CMO, ICPC World Finals & IOI 2025.\n\n📝 Note: V3.2-Speciale dominates complex tasks but requires higher token usage. Currently API-only (no tool-use) to support community evaluation & research.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452646459858977#m",
-      "date": "2025-12-01T11:19:19",
-      "source": "@deepseek_ai",
-      "summary": "<p>🏆 World-Leading Reasoning<br />\n<br />\n🔹 V3.2: Balanced inference vs. length. Your daily driver at GPT-5 level performance.<br />\n🔹 V3.2-Speciale: Maxed-out reasoning capabilities. Rivals Gemini-3."
-    },
-    {
-      "title": "🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!\n\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.\n🔹 DeepSeek-V3.2-Speciale: Pushing the boundaries of reasoning capabilities. API-only for now.\n\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452641430651132#m",
-      "date": "2025-12-01T11:19:18",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!<br />\n<br />\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.<br />\n🔹 DeepS"
-    },
-    {
-      "title": "R to @deepseek_ai: ⚡️ Efficiency Gains\n\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.\n📊 Benchmarks show V3.2-Exp performs on par with V3.1-Terminus.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604772042637477#m",
-      "date": "2025-09-29T10:10:01",
-      "source": "@deepseek_ai",
-      "summary": "<p>⚡️ Efficiency Gains<br />\n<br />\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.<br />\n📊 Benchmarks s"
-    },
-    {
-      "title": "🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!\n\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on long context.\n👉 Now live on App, Web, and API.\n💰 API prices cut by 50%+!\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604768309871061#m",
-      "date": "2025-09-29T10:10:00",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!<br />\n<br />\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on l"
-    },
-    {
-      "title": "RT by @OpenAI: Hi! Getting a lot of questions on Pro plan rate limits, so I wanted to clarify a few things:\n\n- Your Pro $100 plan includes at least 10x Plus usage, till May 31 with the 2X usage boost.\n- Your Pro $200 plan includes at least 20x Plus usage, till May 31 with the 2X usage boost. This is also the SAME usage this plan had since the 2x promo in February; we previously didn't document this explicitly.\n\nNow to address the confusion. Our pricing page says \"5x or 20x usage\", and many of you very understandably took it to mean \"10x and 40x\" given then 2X usage boost.  That's our fault. We mixed up two things in a confusing way on that page - (1) sharing that the Pro $100 launched with a 2x boost, making it 10x Plus till May 31 and (2) sharing that Pro $200 retained its 2x boost and sharing for the first time that this equates to 20x Plus.\n\nWe're going to update our pricing pages to make this clearer. Sorry it wasn't as clear as it should have in the first place.🫥",
-      "link": "https://twitter.com/thsottiaux/status/2043075353242218768#m",
-      "date": "2026-04-11T21:14:57",
-      "source": "@OpenAI",
-      "summary": "<p>Hi! Getting a lot of questions on Pro plan rate limits, so I wanted to clarify a few things:<br />\n<br />\n- Your Pro $100 plan includes at least 10x Plus usage, till May 31 with the 2X usage boost."
-    },
-    {
-      "title": "Les capacités d'introspection des LLM (ici en l'occurrence l'aptitude à détecter l'injection artificielle de \"pensées parasites\") sont bridées par un mécanisme de refus de réponse appris pendant le post-training. Après ablation de celui-ci, ces capacités s'accroissent beaucoup.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2044700527900901687#m",
-      "date": "2026-04-16T08:52:49",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Les capacités d'introspection des LLM (ici en l'occurrence l'aptitude à détecter l'injection artificielle de \"pensées parasites\") sont bridées par un mécanisme de refus de réponse appris pendant le"
     }
   ],
-  "last_update": "2026-04-20T09:49:36.748414",
+  "last_update": "2026-04-21T09:17:21.359788",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
