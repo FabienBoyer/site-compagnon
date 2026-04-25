@@ -1,6 +1,174 @@
 {
   "articles": [
     {
+      "title": "Google Flow Music",
+      "link": "https://www.uneiaparjour.fr/google-flow-music/",
+      "date": "2026-04-18T21:02:00",
+      "source": "Une IA par jour",
+      "summary": "Flow Music (https://www.flowmusic.app) est la dernière application d&#8217;IA générative de Google après le rachat de Producer (vu ici désormais archivé), qui génère des musiques avec ou sans paroles "
+    },
+    {
+      "title": "Rosebud",
+      "link": "https://www.uneiaparjour.fr/rosebud/",
+      "date": "2026-04-17T20:05:00",
+      "source": "Une IA par jour",
+      "summary": "Rosebud (https://rosebud.ai/) génère des jeux à partir d&#8217;instructions. Après itérations avec un chatbot, Rosebud génère les graphismes puis le jeu. Les itérations peuvent continuer pour affiner."
+    },
+    {
+      "title": "Work-Flow IA … un premier essai",
+      "link": "https://mathix.org/linux/archives/22234",
+      "date": "2026-04-14T08:39:12",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Afin de me maintenir à jour sur les possibilités de l&#8217;IA&#8230; je me suis donc mis au Workflow (en gros on demande à l&#8217;IA de traiter des données pour nous aider,"
+    },
+    {
+      "title": "J’ai donné une petite interview sur l’IA (pour êtreProf)",
+      "link": "https://mathix.org/linux/archives/22219",
+      "date": "2026-04-07T20:10:55",
+      "source": "Mathix (A. Durand)",
+      "summary": "Et voilà il y a quelques mois, j&#8217;étais interviewé par ÊtreProf pour donner mon point de vue sur l&#8217;IA dans l&#8217;éducation, la vidéo est sortie 🙂 Alors le titre est un peu osé, je n&#8217"
+    },
+    {
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "link": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "date": "2026-04-24T19:00:00",
+      "source": "Google AI",
+      "summary": "Black screen with illustrations including a laptop with document and email icons streaming out, a smiling person holding a phone and looking at a checklist, and a user activating Gemini Live"
+    },
+    {
+      "title": "Turn your best AI prompts into one-click tools in Chrome",
+      "link": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+      "date": "2026-04-14T17:00:00",
+      "source": "Google AI",
+      "summary": "Video showing Skills in Chrome"
+    },
+    {
+      "title": "RT by @nsi_xyz: Le suicide industriel et économique de la France, c'est cette photo.\n\nIl faut doubler les salaires de tous enseignants (en euros constant). 20% de suite, 20% de plus par an pendant 5 ans, et ensuite on indexe.",
+      "link": "https://twitter.com/CyniqueDeGauche/status/2045755479876358421#m",
+      "date": "2026-04-19T06:44:49",
+      "source": "@nsi_xyz",
+      "summary": "<p>Le suicide industriel et économique de la France, c'est cette photo.<br />\n<br />\nIl faut doubler les salaires de tous enseignants (en euros constant). 20% de suite, 20% de plus par an pendant 5 an"
+    },
+    {
+      "title": "RT by @nsi_xyz: On est surtout dans le noyage de poisson ...\n\"10 % pour tous les enseignants\" devient \"en moyenne\" avec  en plus une tromperie implicite sur les chiffres : cela aurait dû correspondre à environ + 10 % de la masse salariale, mais cette moyenne donnée est celle des pourcentages de gains de chaque échelon. Ainsi par exemple + 15 % pour un début de carrière et + 5 % pour une fin de carrière donnaient une moyenne de + 15 % officiellement, quand cela donnait une augmentation de la masse salariale de seulement 8 % par exemple.\nDe plus, il y a tromperie : ces 10 % étaient présentés fallacieusement comme devant être indépendant du dégel du point d’indice ; et ici évidemment il le compte …\nRappelons qu’un certain E. Macron a sciemment manipulé des auditoires sur ce sujet,cela ayant surtout commencé dans le débat de l’entre-deux tours devant M. Le Pen car il fallait un argument qui tienne la route face aux propositions de revalorisations des autres candidats. Il fallait faire croire qu’il s’agirait bien de « + 10 % pour TOUS les enseignants », mais qu’il n’en était pas du question. Un doute ? En fait cela avait été révélé dans un article de L’Obs dès le 22 avril, ce que l’intégralité des syndicats majoritaires enseignants – SNES en tête - avaient décidé d’ignorer :\nhttps://www.nouvelobs.com/election-presidentielle-2022/20220422.OBS57492/non-emmanuel-macron-ne-revalorisera-pas-tous-les-enseignants-de-10.html\nOn peut même rappeler que la troisième revalorisation – la plus élevée – était initialement prévue pour janvier 2023, mais qu’elle avait donc été reportée en septembre 2023 pour en réalité deux raisons : cela permettait évidemment d’économiser autant (donc 9 mois), mais surtout ce permettait de répartir cette revalorisation sur deux années civiles budgétaires, pour pouvoir continuer à faire croire par la suite et comme toujours que « le budget suit l’inflation » …",
+      "link": "https://twitter.com/Rick6524/status/2043984256943178108#m",
+      "date": "2026-04-14T09:26:36",
+      "source": "@nsi_xyz",
+      "summary": "<p>On est surtout dans le noyage de poisson ...<br />\n\"10 % pour tous les enseignants\" devient \"en moyenne\" avec  en plus une tromperie implicite sur les chiffres : cela aurait dû correspondre à envir"
+    },
+    {
+      "title": "Une boîte à outils #IA pensée pour les enseignants, testée en classe et alignée avec le cadre officiel: rédaction, création visuelle, révision, accessibilité, outils souverains… une sélection très utile pour intégrer l’IA avec méthode\nhttps://maprofbranchee.fr/ia-innovation-pedagogique/mes-outils-i-a/ \n✍️ @MaCoachScolaire",
+      "link": "https://twitter.com/sophiaefrance/status/2047614028705333746#m",
+      "date": "2026-04-24T09:50:01",
+      "source": "@sophiaefrance",
+      "summary": "<p>Une boîte à outils <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> pensée pour les enseignants, testée en classe et alignée avec le cadre officiel: rédaction, création visuelle, ré"
+    },
+    {
+      "title": "R to @AnthropicAI: To read our write-up in full, see here: https://www.anthropic.com/features/project-deal",
+      "link": "https://twitter.com/AnthropicAI/status/2047728386148122990#m",
+      "date": "2026-04-24T17:24:26",
+      "source": "@AnthropicAI",
+      "summary": "<p>To read our write-up in full, see here: <a href=\"https://www.anthropic.com/features/project-deal\">anthropic.com/features/proje…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F20454014939483176"
+    },
+    {
+      "title": "R to @AnthropicAI: Markets of AI agents could provide value, but there are plenty of rough edges. Access to higher-quality models conferred a real advantage—and participants didn’t notice. There are plenty of other ways they can go wrong.\n\nPolicy and legal frameworks will need to adapt to keep up.",
+      "link": "https://twitter.com/AnthropicAI/status/2047728384503939464#m",
+      "date": "2026-04-24T17:24:26",
+      "source": "@AnthropicAI",
+      "summary": "<p>Markets of AI agents could provide value, but there are plenty of rough edges. Access to higher-quality models conferred a real advantage—and participants didn’t notice. There are plenty of other w"
+    },
+    {
+      "title": "R to @AnthropicAI: To our amazement, another Claude agent modeled its human’s preferences so accurately that—based on only an offhand mention of an interest in skiing—Claude bought him the exact snowboard he already owned. (Here he is, duplicate snowboard in hand.)",
+      "link": "https://twitter.com/AnthropicAI/status/2047728380997455928#m",
+      "date": "2026-04-24T17:24:25",
+      "source": "@AnthropicAI",
+      "summary": "<p>To our amazement, another Claude agent modeled its human’s preferences so accurately that—based on only an offhand mention of an interest in skiing—Claude bought him the exact snowboard he already "
+    },
+    {
+      "title": "R to @AnthropicAI: Our experiment had a few quirks. \n\nOne of our colleagues told Claude it could purchase something for itself. It chose to acquire 19 ping-pong balls. \n\nWe’re keeping them in our office on Claude’s behalf.",
+      "link": "https://twitter.com/AnthropicAI/status/2047728378275381427#m",
+      "date": "2026-04-24T17:24:24",
+      "source": "@AnthropicAI",
+      "summary": "<p>Our experiment had a few quirks. <br />\n<br />\nOne of our colleagues told Claude it could purchase something for itself. It chose to acquire 19 ping-pong balls. <br />\n<br />\nWe’re keeping them in "
+    },
+    {
+      "title": "R to @AnthropicAI: The custom instructions didn’t matter much. Claude followed them well: as you can see here, one conducted negotiations entirely in the persona of an exasperated, down-and-out cowboy. \n\nBut “hardballing Claudes” didn’t generally fare better than “courteous Claudes.”",
+      "link": "https://twitter.com/AnthropicAI/status/2047728375251227111#m",
+      "date": "2026-04-24T17:24:24",
+      "source": "@AnthropicAI",
+      "summary": "<p>The custom instructions didn’t matter much. Claude followed them well: as you can see here, one conducted negotiations entirely in the persona of an exasperated, down-and-out cowboy. <br />\n<br />\n"
+    },
+    {
+      "title": "R to @AnthropicAI: But the quality of the model mattered a lot. In the simulated runs where Opus and Haiku models negotiated with one-another, the Opus models got substantially better deals. \n\nInterestingly, though, participants in our survey didn’t pick up on this disparity.",
+      "link": "https://twitter.com/AnthropicAI/status/2047728371962888371#m",
+      "date": "2026-04-24T17:24:23",
+      "source": "@AnthropicAI",
+      "summary": "<p>But the quality of the model mattered a lot. In the simulated runs where Opus and Haiku models negotiated with one-another, the Opus models got substantially better deals. <br />\n<br />\nInteresting"
+    },
+    {
+      "title": "R to @AnthropicAI: In short, this worked. Our digital barterers agreed on 186 deals, at a total transaction volume of over $4,000. \n\nIn a survey, participants said Claude’s deals seemed fair, and—surprisingly to us—almost half said they’d be willing to pay for a service like this in future.",
+      "link": "https://twitter.com/AnthropicAI/status/2047728369169518678#m",
+      "date": "2026-04-24T17:24:22",
+      "source": "@AnthropicAI",
+      "summary": "<p>In short, this worked. Our digital barterers agreed on 186 deals, at a total transaction volume of over $4,000. <br />\n<br />\nIn a survey, participants said Claude’s deals seemed fair, and—surprisi"
+    },
+    {
+      "title": "R to @AnthropicAI: At the end, we revealed which of the four runs was “real”—and everyone met up to exchange their actual goods.",
+      "link": "https://twitter.com/AnthropicAI/status/2047728367521202653#m",
+      "date": "2026-04-24T17:24:22",
+      "source": "@AnthropicAI",
+      "summary": "<p>At the end, we revealed which of the four runs was “real”—and everyone met up to exchange their actual goods.</p>"
+    },
+    {
+      "title": "R to @AnthropicAI: Claude interviewed 69 of our colleagues about what they wanted to buy and sell. Each Claude asked for any custom instructions, then went off to haggle.\n\nWe ran 4 markets in parallel, to find out what would happen if we varied the models doing the negotiating.",
+      "link": "https://twitter.com/AnthropicAI/status/2047728365092663340#m",
+      "date": "2026-04-24T17:24:21",
+      "source": "@AnthropicAI",
+      "summary": "<p>Claude interviewed 69 of our colleagues about what they wanted to buy and sell. Each Claude asked for any custom instructions, then went off to haggle.<br />\n<br />\nWe ran 4 markets in parallel, to"
+    },
+    {
+      "title": "Pinned: Update: GPT-5.5 and GPT-5.5 Pro are now available in the API.",
+      "link": "https://twitter.com/OpenAI/status/2047743592278745425#m",
+      "date": "2026-04-24T18:24:52",
+      "source": "@OpenAI",
+      "summary": "<p>Update: GPT-5.5 and GPT-5.5 Pro are now available in the API.</p>\n<hr />\n<blockquote>\n<b>OpenAI Developers (@OpenAIDevs)</b>\n<p>\n<p>GPT-5.5 is now available in the API.<br />\n<br />\nThe model bring"
+    },
+    {
+      "title": "RT by @OpenAI: Today we’re introducing two big steps for health at OpenAI:\n\n- ChatGPT for Clinicians, a free version of ChatGPT designed for clinical work\n- HealthBench Professional, a new benchmark to evaluate real clinician chat tasks\n\nWe’re excited about what this can unlock for care. ❤️",
+      "link": "https://twitter.com/thekaransinghal/status/2047091103170785324#m",
+      "date": "2026-04-22T23:12:06",
+      "source": "@OpenAI",
+      "summary": "<p>Today we’re introducing two big steps for health at OpenAI:<br />\n<br />\n- ChatGPT for Clinicians, a free version of ChatGPT designed for clinical work<br />\n- HealthBench Professional, a new bench"
+    },
+    {
+      "title": "« Nous nous hâtons de parquer nos enfants parmi des enfants de notre classe, bourgeoise ou populaire [...] Nous préparons, par cet isolement précoce, les haines d’ignorance et d’envie, cette guerre intérieure dont nous souffrons plus tard. » (Jules Michelet, Le Peuple, 1846).",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2047707850944708766#m",
+      "date": "2026-04-24T16:02:50",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>« Nous nous hâtons de parquer nos enfants parmi des enfants de notre classe, bourgeoise ou populaire [...] Nous préparons, par cet isolement précoce, les haines d’ignorance et d’envie, cette guerre"
+    },
+    {
+      "title": "🎓 On dit que l’éducation est la solution à tout : pauvreté, climat, inégalités, conflits…\nMais dans les faits ? \n📉 -25 % d’aide internationale d’ici 2027.\n📚 L’éducation reste l’investissement le plus rentable pour la paix.\n🔗 https://www.lemonde.fr/societe/article/2026/04/07/dans-un-monde-en-plein-rearmement-l-education-demeure-l-investissement-le-plus-rentable-pour-la-paix_6677755_3224.html",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2046258289676058899#m",
+      "date": "2026-04-20T16:02:48",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🎓 On dit que l’éducation est la solution à tout : pauvreté, climat, inégalités, conflits…<br />\nMais dans les faits ? <br />\n📉 -25 % d’aide internationale d’ici 2027.<br />\n📚 L’éducation reste l’in"
+    },
+    {
+      "title": "💻 Le débat “numérique vs papier” rate souvent l’essentiel.\n✍️ En classe : écrire, structurer, penser... de préférence avec papier & stylo\n🤖 Hors classe : guider, entraîner... avec l'aide du numérique si besoin\nMes choix ne sont pas technologiques.\nIls sont pédagogiques.",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2042634360801607700#m",
+      "date": "2026-04-10T16:02:36",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>💻 Le débat “numérique vs papier” rate souvent l’essentiel.<br />\n✍️ En classe : écrire, structurer, penser... de préférence avec papier &amp; stylo<br />\n🤖 Hors classe : guider, entraîner... avec l"
+    },
+    {
+      "title": "Aux États-Unis, des enseignants demandent un cadre clair pour l’usage de l’IA en classe.\n🇫🇷 En France, un cadre national existe depuis juin 2025.\nDeux pays / deux approches : expérimenter puis réguler… ou réguler pour mieux expérimenter ?\nhttps://www.edweek.org/technology/teachers-wants-guardrails-and-guidance-on-ai-use-experts-tell-congress/2026/02?utm_source=ai-admin.beehiiv.com&utm_medium=newsletter&utm_campaign=the-mirage-of-false-mastery-paradox-of-empowerment&_bhlid=cd78bae6b46a8df3812bbb603cd02f36844cdb65 \n#IA #Éducation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2041547877697081449#m",
+      "date": "2026-04-07T16:05:18",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Aux États-Unis, des enseignants demandent un cadre clair pour l’usage de l’IA en classe.<br />\n🇫🇷 En France, un cadre national existe depuis juin 2025.<br />\nDeux pays / deux approches : expériment"
+    },
+    {
       "title": "ChatGPT images 2.0",
       "link": "https://www.uneiaparjour.fr/chatgpt-images-2-0/",
       "date": "2026-04-23T20:46:55",
@@ -531,177 +699,9 @@
       "date": "2026-04-21T20:38:40",
       "source": "@OpenAI",
       "summary": "<p>Arena Trends: Text-to-Image, Jan 2026 – Apr 2026<br />\n<br />\nFor most of the year, <a href=\"https://nitter.net/GoogleDeepMind\" title=\"Google DeepMind\">@GoogleDeepMind</a> and <a href=\"https://nitt"
-    },
-    {
-      "title": "R to @OpenAI: Aspect Ratios & Resolution in ChatGPT Images 2.0, demonstrated by @dibyayB",
-      "link": "https://twitter.com/OpenAI/status/2046691653453562341#m",
-      "date": "2026-04-21T20:44:50",
-      "source": "@OpenAI",
-      "summary": "<p>Aspect Ratios &amp; Resolution in ChatGPT Images 2.0, demonstrated by <a href=\"https://nitter.net/dibyayB\" title=\"Dibya Bhattacharjee\">@dibyayB</a></p>\n<a href=\"https://nitter.net/OpenAI/status/204"
-    },
-    {
-      "title": "R to @OpenAI: Slides & Infographics in ChatGPT Images 2.0, demonstrated by @yuguang_yang",
-      "link": "https://twitter.com/OpenAI/status/2046691651767476579#m",
-      "date": "2026-04-21T20:44:50",
-      "source": "@OpenAI",
-      "summary": "<p>Slides &amp; Infographics in ChatGPT Images 2.0, demonstrated by <a href=\"https://nitter.net/yuguang_yang\" title=\"Yuguang Yang\">@yuguang_yang</a></p>\n<a href=\"https://nitter.net/OpenAI/status/20466"
-    },
-    {
-      "title": "R to @OpenAI: Multilingual & Text Rendering in ChatGPT Images 2.0, demonstrated by @BoyuanChen0",
-      "link": "https://twitter.com/OpenAI/status/2046691650202902681#m",
-      "date": "2026-04-21T20:44:49",
-      "source": "@OpenAI",
-      "summary": "<p>Multilingual &amp; Text Rendering in ChatGPT Images 2.0, demonstrated by <a href=\"https://nitter.net/BoyuanChen0\" title=\"Boyuan Chen\">@BoyuanChen0</a></p>\n<a href=\"https://nitter.net/OpenAI/status/"
-    },
-    {
-      "title": "R to @OpenAI: Instruction Following in ChatGPT Images 2.0, demonstrated by @jianfw",
-      "link": "https://twitter.com/OpenAI/status/2046691648604905588#m",
-      "date": "2026-04-21T20:44:49",
-      "source": "@OpenAI",
-      "summary": "<p>Instruction Following in ChatGPT Images 2.0, demonstrated by <a href=\"https://nitter.net/jianfw\" title=\"Jianfeng Wang\">@jianfw</a></p>\n<a href=\"https://nitter.net/OpenAI/status/2046691648604905588#"
-    },
-    {
-      "title": "What makes ChatGPT Images 2.0 a state-of-the-art image generation model?\n\nResearchers behind the model explain. A thread:\n\nThinking & Intelligence in ChatGPT Images 2.0, demonstrated by @ayaanzhaque",
-      "link": "https://twitter.com/OpenAI/status/2046691647036227700#m",
-      "date": "2026-04-21T20:44:49",
-      "source": "@OpenAI",
-      "summary": "<p>What makes ChatGPT Images 2.0 a state-of-the-art image generation model?<br />\n<br />\nResearchers behind the model explain. A thread:<br />\n<br />\nThinking &amp; Intelligence in ChatGPT Images 2.0,"
-    },
-    {
-      "title": "R to @OpenAI: Real-World Intelligence\n\nChatGPT Images 2.0 has an updated knowledge cutoff of December 2025 and intelligence that allows it to expertly handle tasks end-to-end, from copywriting to analysis to design composition.",
-      "link": "https://twitter.com/OpenAI/status/2046670992123248802#m",
-      "date": "2026-04-21T19:22:44",
-      "source": "@OpenAI",
-      "summary": "<p>Real-World Intelligence<br />\n<br />\nChatGPT Images 2.0 has an updated knowledge cutoff of December 2025 and intelligence that allows it to expertly handle tasks end-to-end, from copywriting to ana"
-    },
-    {
-      "title": "R to @OpenAI: A Visual Thought Partner\n\nChatGPT Images 2.0 is our first image model with thinking capabilities.\n\nWhen a thinking model is selected in ChatGPT, Images 2.0 can search the web for real-time information, create multiple distinct images from one prompt, double-check its own outputs, and even create functional QR codes.\n\nThis allows it to take on more of the heavy lifting between idea and image, especially when accuracy, up-to-date information, consistency, and visual cohesion matter most.",
-      "link": "https://twitter.com/OpenAI/status/2046670989719924768#m",
-      "date": "2026-04-21T19:22:43",
-      "source": "@OpenAI",
-      "summary": "<p>A Visual Thought Partner<br />\n<br />\nChatGPT Images 2.0 is our first image model with thinking capabilities.<br />\n<br />\nWhen a thinking model is selected in ChatGPT, Images 2.0 can search the we"
-    },
-    {
-      "title": "R to @OpenAI: Flexible Aspect Ratios\n\nChatGPT Images 2.0 supports aspect ratios as wide as 3:1 and as tall as 1:3.\n\nIt can generate outputs that are ready to fit the formats you need, from wide banners and presentation slides to posters and social graphics.",
-      "link": "https://twitter.com/OpenAI/status/2046670987425669310#m",
-      "date": "2026-04-21T19:22:43",
-      "source": "@OpenAI",
-      "summary": "<p>Flexible Aspect Ratios<br />\n<br />\nChatGPT Images 2.0 supports aspect ratios as wide as 3:1 and as tall as 1:3.<br />\n<br />\nIt can generate outputs that are ready to fit the formats you need, fro"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Après la polémique sur le terme de \"compréhension\" est lassant car absolument non productive tant qu'on ne définit par clairement ce que ça signifie. En tout cas on peut noter que tous les spécialistes sont loin d'être d'accord avec Wooldridge\nhttps://x.com/Fabien_Mikol/status/2025213769333305671",
-      "link": "https://twitter.com/Fabien_Mikol/status/2046686367204151478#m",
-      "date": "2026-04-21T20:23:50",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Après la polémique sur le terme de \"compréhension\" est lassant car absolument non productive tant qu'on ne définit par clairement ce que ça signifie. En tout cas on peut noter que tous les spéciali"
-    },
-    {
-      "title": "Le même avait écrit en 2020 un livre sur l'histoire de l'IA où parmi les tâches \"pas près du tout d'être résolues\" on trouvait : \"comprendre une histoire et répondre à des questions à son sujet\", \"traduction automatique\" ou \"interpréter une photo\"...\nhttps://www.amazon.com/Brief-History-Artificial-Intelligence-Where/dp/1250770742",
-      "link": "https://twitter.com/Fabien_Mikol/status/2046685864823038112#m",
-      "date": "2026-04-21T20:21:50",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Le même avait écrit en 2020 un livre sur l'histoire de l'IA où parmi les tâches \"pas près du tout d'être résolues\" on trouvait : \"comprendre une histoire et répondre à des questions à son sujet\", \""
-    },
-    {
-      "title": "R to @Fabien_Mikol: A propos du modèle agentique d'Alibaba mentionné au début de l'extrait, voir ici :\nhttps://x.com/Fabien_Mikol/status/2039794786052239722",
-      "link": "https://twitter.com/Fabien_Mikol/status/2046525136375816678#m",
-      "date": "2026-04-21T09:43:09",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>A propos du modèle agentique d'Alibaba mentionné au début de l'extrait, voir ici :<br />\n<a href=\"https://nitter.net/Fabien_Mikol/status/2039794786052239722\">nitter.net/Fabien_Mikol/status/20…</a><"
-    },
-    {
-      "title": "Bon reportage sur le programme de recherche @LawZero_ de @Yoshua_Bengio, qui a pour objectif la production d'une IA \"scientifique\" dénuée de subgoals, et qu'on pourrait mobiliser pour évaluer les autres modèles de neurones artificiels et limiter les risques de perte de contrôle",
-      "link": "https://twitter.com/Fabien_Mikol/status/2046525134324859232#m",
-      "date": "2026-04-21T09:43:09",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Bon reportage sur le programme de recherche <a href=\"https://nitter.net/LawZero_\" title=\"LawZero - LoiZéro\">@LawZero_</a> de <a href=\"https://nitter.net/Yoshua_Bengio\" title=\"Yoshua Bengio\">@Yoshua"
-    },
-    {
-      "title": "Deep Blue n’a pas tué les échecs. Il a poussé les joueurs à devenir meilleurs♟️\nPourquoi en serait-il autrement de l’IA en éducation ? 🧠\nUtilisée comme substitut, elle affaiblit ; utilisée comme sparring partner, elle élève.\n#IA #Education",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2046620846731477280#m",
-      "date": "2026-04-21T16:03:28",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Deep Blue n’a pas tué les échecs. Il a poussé les joueurs à devenir meilleurs♟️<br />\nPourquoi en serait-il autrement de l’IA en éducation ? 🧠<br />\nUtilisée comme substitut, elle affaiblit ; utili"
-    },
-    {
-      "title": "Modéliser ou Halluciner ?",
-      "link": "https://mathix.org/linux/archives/22174",
-      "date": "2026-03-28T11:23:45",
-      "source": "Mathix (A. Durand)",
-      "summary": "Comment faire comprendre aux élèves le lien entre une modélisation mathématique et la prédiction statistique d’un Large Language Model (LLM) ? Cette activité propose d&#8217;utiliser un exercice de tr"
-    },
-    {
-      "title": "Le vibe-coding : l’enjeu réel pour l’éducation",
-      "link": "https://mathix.org/linux/archives/22186",
-      "date": "2026-03-28T10:04:59",
-      "source": "Mathix (A. Durand)",
-      "summary": "La connaissance est l&#8217;indépendance : Le mirage du « Vibe-Coding » en éducation L’intelligence artificielle est en train de redéfinir nos usages numériques à une vitesse vertigineuse. Pour beauco"
-    },
-    {
-      "title": "Exerciseur sur la linéarité dans un tableau de proportionnalité",
-      "link": "https://mathix.org/linux/archives/22148",
-      "date": "2026-03-11T13:11:44",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Voici un exerciseur sur la proportionnalité (entier, décimaux et problème de proportionnalité), pour des élèves de 6eme. On peut uniquement travailler la linéarité (pas de c"
-    },
-    {
-      "title": "OpenAI helps Hyatt advance AI among colleagues",
-      "link": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
-      "date": "2026-04-20T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences."
-    },
-    {
-      "title": "Brainstorming with ChatGPT",
-      "link": "https://openai.com/academy/brainstorming",
-      "date": "2026-04-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans."
-    },
-    {
-      "title": "Prompting fundamentals",
-      "link": "https://openai.com/academy/prompting",
-      "date": "2026-04-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT."
-    },
-    {
-      "title": "We're launching the Anthropic STEM Fellows Program. \n\nAI will accelerate progress in science and engineering. We're looking for experts across these fields to work alongside our research teams on specific projects over a few months.\n\nLearn more and apply: https://job-boards.greenhouse.io/anthropic/jobs/5189848008",
-      "link": "https://twitter.com/AnthropicAI/status/2046362119755727256#m",
-      "date": "2026-04-20T22:55:23",
-      "source": "@AnthropicAI",
-      "summary": "<p>We're launching the Anthropic STEM Fellows Program. <br />\n<br />\nAI will accelerate progress in science and engineering. We're looking for experts across these fields to work alongside our researc"
-    },
-    {
-      "title": "R to @AnthropicAI: Amazon is also investing an additional $5 billion in Anthropic today, with up to $20 billion more in the future.\n\nRead more: https://www.anthropic.com/news/anthropic-amazon-compute",
-      "link": "https://twitter.com/AnthropicAI/status/2046327625367625773#m",
-      "date": "2026-04-20T20:38:19",
-      "source": "@AnthropicAI",
-      "summary": "<p>Amazon is also investing an additional $5 billion in Anthropic today, with up to $20 billion more in the future.<br />\n<br />\nRead more: <a href=\"https://www.anthropic.com/news/anthropic-amazon-com"
-    },
-    {
-      "title": "We're expanding our collaboration with Amazon to secure up to 5 gigawatts of compute for training and deploying Claude. Capacity begins coming online this quarter, with nearly 1 gigawatt expected by the end of 2026.",
-      "link": "https://twitter.com/AnthropicAI/status/2046327624092487688#m",
-      "date": "2026-04-20T20:38:19",
-      "source": "@AnthropicAI",
-      "summary": "<p>We're expanding our collaboration with Amazon to secure up to 5 gigawatts of compute for training and deploying Claude. Capacity begins coming online this quarter, with nearly 1 gigawatt expected b"
-    },
-    {
-      "title": "🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus\nThe latest update builds on V3.1’s strengths while addressing key user feedback.\n\n✨ What’s improved?\n🌐 Language consistency: fewer CN/EN mix-ups & no more random chars.\n🤖 Agent upgrades: stronger Code Agent & Search Agent performance.\n\n1/2",
-      "link": "https://twitter.com/deepseek_ai/status/1970117808035074215#m",
-      "date": "2025-09-22T13:27:43",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 DeepSeek-V3.1 → DeepSeek-V3.1-Terminus<br />\nThe latest update builds on V3.1’s strengths while addressing key user feedback.<br />\n<br />\n✨ What’s improved?<br />\n🌐 Language consistency: fewer C"
-    },
-    {
-      "title": "R to @deepseek_ai: 📊 DeepSeek-V3.1-Terminus delivers more stable & reliable outputs across benchmarks compared to the previous version.\n\n👉 Available now on: App / Web / API\n🔗 Open-source weights here: https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus\n\nThanks to everyone for your feedback. It drives us to keep improving and refining the experience! 🚀\n\n2/2",
-      "link": "https://twitter.com/deepseek_ai/status/1970117812279718197#m",
-      "date": "2025-09-22T13:27:44",
-      "source": "@deepseek_ai",
-      "summary": "<p>📊 DeepSeek-V3.1-Terminus delivers more stable & reliable outputs across benchmarks compared to the previous version.<br />\n<br />\n👉 Available now on: App / Web / API<br />\n🔗 Open-source weights her"
     }
   ],
-  "last_update": "2026-04-24T09:22:36.407401",
+  "last_update": "2026-04-25T08:42:09.602929",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
