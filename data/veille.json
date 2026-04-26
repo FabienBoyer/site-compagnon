@@ -1,6 +1,55 @@
 {
   "articles": [
     {
+      "title": "Une information vraisemblable ?",
+      "link": "https://www.uneiaparjour.fr/une-information-vraisemblable/",
+      "date": "2026-04-25T13:00:32",
+      "source": "Une IA par jour",
+      "summary": "Focus de la lettre 34 Dans les lectures de&#160;la lettre 27, je citais&#160;un article de Libération&#160;sur un podcast IA qui produisait 11 000 épisodes par jour en aspirant des articles de presse "
+    },
+    {
+      "title": "Modéliser ou Halluciner ?",
+      "link": "https://mathix.org/linux/archives/22174",
+      "date": "2026-03-28T11:23:45",
+      "source": "Mathix (A. Durand)",
+      "summary": "Comment faire comprendre aux élèves le lien entre une modélisation mathématique et la prédiction statistique d’un Large Language Model (LLM) ? Cette activité propose d&#8217;utiliser un exercice de tr"
+    },
+    {
+      "title": "Le vibe-coding : l’enjeu réel pour l’éducation",
+      "link": "https://mathix.org/linux/archives/22186",
+      "date": "2026-03-28T10:04:59",
+      "source": "Mathix (A. Durand)",
+      "summary": "La connaissance est l&#8217;indépendance : Le mirage du « Vibe-Coding » en éducation L’intelligence artificielle est en train de redéfinir nos usages numériques à une vitesse vertigineuse. Pour beauco"
+    },
+    {
+      "title": "Pinned: 🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.\n\n🛠️Integration Updates:\n🔹Claude Code: Set model to deepseek-v4-pro[1m]  to unlock 1M context!\n🔹OpenCode: Update to v1.14.24+\n🔹OpenClaw: Update to v2026.4.24+\n\nCheck the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
+      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
+      "date": "2026-04-25T15:33:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
+    },
+    {
+      "title": "R to @Fabien_Mikol: Après la polémique sur le terme de \"compréhension\" est lassant car absolument non productive tant qu'on ne définit par clairement ce que ça signifie. En tout cas on peut noter que tous les spécialistes sont loin d'être d'accord avec Wooldridge\nhttps://x.com/Fabien_Mikol/status/2025213769333305671",
+      "link": "https://twitter.com/Fabien_Mikol/status/2046686367204151478#m",
+      "date": "2026-04-21T20:23:50",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Après la polémique sur le terme de \"compréhension\" est lassant car absolument non productive tant qu'on ne définit par clairement ce que ça signifie. En tout cas on peut noter que tous les spéciali"
+    },
+    {
+      "title": "Le même avait écrit en 2020 un livre sur l'histoire de l'IA où parmi les tâches \"pas près du tout d'être résolues\" on trouvait : \"comprendre une histoire et répondre à des questions à son sujet\", \"traduction automatique\" ou \"interpréter une photo\"...\nhttps://www.amazon.com/Brief-History-Artificial-Intelligence-Where/dp/1250770742",
+      "link": "https://twitter.com/Fabien_Mikol/status/2046685864823038112#m",
+      "date": "2026-04-21T20:21:50",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Le même avait écrit en 2020 un livre sur l'histoire de l'IA où parmi les tâches \"pas près du tout d'être résolues\" on trouvait : \"comprendre une histoire et répondre à des questions à son sujet\", \""
+    },
+    {
+      "title": "Deep Blue n’a pas tué les échecs. Il a poussé les joueurs à devenir meilleurs♟️\nPourquoi en serait-il autrement de l’IA en éducation ? 🧠\nUtilisée comme substitut, elle affaiblit ; utilisée comme sparring partner, elle élève.\n#IA #Education",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2046620846731477280#m",
+      "date": "2026-04-21T16:03:28",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Deep Blue n’a pas tué les échecs. Il a poussé les joueurs à devenir meilleurs♟️<br />\nPourquoi en serait-il autrement de l’IA en éducation ? 🧠<br />\nUtilisée comme substitut, elle affaiblit ; utili"
+    },
+    {
       "title": "Google Flow Music",
       "link": "https://www.uneiaparjour.fr/google-flow-music/",
       "date": "2026-04-18T21:02:00",
@@ -650,58 +699,9 @@
       "date": "2025-12-01T11:19:22",
       "source": "@deepseek_ai",
       "summary": "<p>🛠 Open Source Release<br />\n<br />\n📦 DeepSeek-V3.2 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2\">huggingface.co/deepseek-ai/D…</a><br />\n📦 DeepSeek-V3.2-Speciale Model: <a href="
-    },
-    {
-      "title": "R to @deepseek_ai: 💻 API Update\n\n🔹 V3.2: Same usage pattern as V3.2-Exp.\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"https://api.deepseek.com/v3.2_speciale_expires_on_20251215\". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time).\n💡 V3.2 now supports Thinking in Tool-Use — details: https://api-docs.deepseek.com/guides/thinking_mode\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452654659805334#m",
-      "date": "2025-12-01T11:19:21",
-      "source": "@deepseek_ai",
-      "summary": "<p>💻 API Update<br />\n<br />\n🔹 V3.2: Same usage pattern as V3.2-Exp.<br />\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"<a href=\"https://api.deepseek.com/v3.2_speciale_expires_on_202512"
-    },
-    {
-      "title": "R to @deepseek_ai: 🤖 Thinking in Tool-Use\n\n🔹 Introduces a new massive agent training data synthesis method covering 1,800+ environments & 85k+ complex instructions.\n🔹 DeepSeek-V3.2 is our first model to integrate thinking directly into tool-use, and also supports tool-use in both thinking and non-thinking modes.\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452650557763728#m",
-      "date": "2025-12-01T11:19:20",
-      "source": "@deepseek_ai",
-      "summary": "<p>🤖 Thinking in Tool-Use<br />\n<br />\n🔹 Introduces a new massive agent training data synthesis method covering 1,800+ environments & 85k+ complex instructions.<br />\n🔹 DeepSeek-V3.2 is our first mode"
-    },
-    {
-      "title": "R to @deepseek_ai: 🏆 World-Leading Reasoning\n\n🔹 V3.2: Balanced inference vs. length. Your daily driver at GPT-5 level performance.\n🔹 V3.2-Speciale: Maxed-out reasoning capabilities. Rivals Gemini-3.0-Pro.\n🥇 Gold-Medal Performance: V3.2-Speciale attains gold-level results in IMO, CMO, ICPC World Finals & IOI 2025.\n\n📝 Note: V3.2-Speciale dominates complex tasks but requires higher token usage. Currently API-only (no tool-use) to support community evaluation & research.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452646459858977#m",
-      "date": "2025-12-01T11:19:19",
-      "source": "@deepseek_ai",
-      "summary": "<p>🏆 World-Leading Reasoning<br />\n<br />\n🔹 V3.2: Balanced inference vs. length. Your daily driver at GPT-5 level performance.<br />\n🔹 V3.2-Speciale: Maxed-out reasoning capabilities. Rivals Gemini-3."
-    },
-    {
-      "title": "🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!\n\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.\n🔹 DeepSeek-V3.2-Speciale: Pushing the boundaries of reasoning capabilities. API-only for now.\n\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452641430651132#m",
-      "date": "2025-12-01T11:19:18",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!<br />\n<br />\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.<br />\n🔹 DeepS"
-    },
-    {
-      "title": "R to @deepseek_ai: ⚡️ Efficiency Gains\n\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.\n📊 Benchmarks show V3.2-Exp performs on par with V3.1-Terminus.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604772042637477#m",
-      "date": "2025-09-29T10:10:01",
-      "source": "@deepseek_ai",
-      "summary": "<p>⚡️ Efficiency Gains<br />\n<br />\n🤖 DSA achieves fine-grained sparse attention with minimal impact on output quality — boosting long-context performance & reducing compute cost.<br />\n📊 Benchmarks s"
-    },
-    {
-      "title": "🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!\n\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on long context.\n👉 Now live on App, Web, and API.\n💰 API prices cut by 50%+!\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604768309871061#m",
-      "date": "2025-09-29T10:10:00",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Introducing DeepSeek-V3.2-Exp — our latest experimental model!<br />\n<br />\n✨ Built on V3.1-Terminus, it debuts DeepSeek Sparse Attention(DSA) for faster, more efficient training & inference on l"
-    },
-    {
-      "title": "RT by @OpenAI: Arena Trends: Text-to-Image, Jan 2026 – Apr 2026\n\nFor most of the year, @GoogleDeepMind and @OpenAI traded the top spot within a tight margin - GPT-Image vs. Nano Banana - with the rest of the field clustered below 1,200.\n\nToday, GPT-Image-2 breaks away with a score of 1,512, 242 points ahead of #2 Google.\n\nThe frontier continues to move.",
-      "link": "https://twitter.com/arena/status/2046690103515648061#m",
-      "date": "2026-04-21T20:38:40",
-      "source": "@OpenAI",
-      "summary": "<p>Arena Trends: Text-to-Image, Jan 2026 – Apr 2026<br />\n<br />\nFor most of the year, <a href=\"https://nitter.net/GoogleDeepMind\" title=\"Google DeepMind\">@GoogleDeepMind</a> and <a href=\"https://nitt"
     }
   ],
-  "last_update": "2026-04-25T08:42:09.602929",
+  "last_update": "2026-04-26T08:49:57.433312",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
