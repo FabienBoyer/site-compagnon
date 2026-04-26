@@ -212,6 +212,59 @@
                 <strong>Astuce :</strong> Plusieurs interfaces graphiques permettent d'utiliser Ollama de façon plus conviviale (similaire à ChatGPT), explorables dans d'autres tutoriels du site.
             </div>
         </div>
+
+        <!-- Section: Aller plus loin -->
+        <div class="step-content" style="margin-bottom: 2rem;">
+            <h2 class="step-title">Aller plus loin : BitNet et la révolution du 1-bit</h2>
+            <p>Jusqu'en 2025, faire tourner une IA en local nécessitait une carte graphique (GPU) coûteuse. Ce n'est plus le cas grâce à <strong>BitNet b1.58</strong>, une architecture développée par Microsoft.</p>
+            <p>Le principe : au lieu de stocker chaque paramètre sur 16 ou 32 bits, BitNet les réduit à <strong>3 valeurs possibles (-1, 0, +1)</strong>. Résultat : un modèle qui tient dans moins de 1 Go de mémoire et tourne sur n'importe quel processeur, <strong>sans GPU</strong>.</p>
+
+            <div style="background: var(--bg-secondary); padding: 1rem; border-radius: 0.5rem; margin-top: 1rem; border-left: 4px solid var(--color-primary);">
+                <strong>En pratique :</strong> Le modèle <a href="https://huggingface.co/microsoft/bitnet-b1.58-2B-4T" target="_blank">bitnet-b1.58-2B-4T</a> de Microsoft (2 milliards de paramètres) fonctionne de manière fluide sur un PC de bureau classique sans carte graphique dédiée. Le code source est disponible sur <a href="https://github.com/microsoft/BitNet" target="_blank">GitHub</a>.
+            </div>
+        </div>
+
+        <div class="step-content" style="margin-bottom: 2rem;">
+            <h2 class="step-title">Quel modèle pour ma machine ?</h2>
+            <p>Si vous voulez aller au-delà de BitNet et utiliser des modèles plus puissants via Ollama, voici les recommandations selon votre RAM :</p>
+
+            <div style="overflow-x: auto; margin-top: 1rem;">
+                <table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+                    <thead>
+                        <tr style="background: var(--bg-secondary); text-align: left;">
+                            <th style="padding: 0.75rem; border: 1px solid var(--border-color);">RAM</th>
+                            <th style="padding: 0.75rem; border: 1px solid var(--border-color);">Modèle recommandé</th>
+                            <th style="padding: 0.75rem; border: 1px solid var(--border-color);">Commande Ollama</th>
+                            <th style="padding: 0.75rem; border: 1px solid var(--border-color);">Usage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 0.75rem; border: 1px solid var(--border-color);"><strong>8 Go</strong></td>
+                            <td style="padding: 0.75rem; border: 1px solid var(--border-color);">Qwen 2.5 3B ou Phi-4 Mini</td>
+                            <td style="padding: 0.75rem; border: 1px solid var(--border-color);"><code style="background: var(--bg-secondary); padding: 0.2rem 0.4rem; border-radius: 0.25rem;">ollama run qwen2.5:3b</code></td>
+                            <td style="padding: 0.75rem; border: 1px solid var(--border-color);">Tâches simples, résumés courts</td>
+                        </tr>
+                        <tr style="background: var(--bg-secondary);">
+                            <td style="padding: 0.75rem; border: 1px solid var(--border-color);"><strong>16 Go</strong></td>
+                            <td style="padding: 0.75rem; border: 1px solid var(--border-color);">Mistral 7B ou Qwen 2.5 7B</td>
+                            <td style="padding: 0.75rem; border: 1px solid var(--border-color);"><code style="background: var(--bg-secondary); padding: 0.2rem 0.4rem; border-radius: 0.25rem;">ollama run mistral</code></td>
+                            <td style="padding: 0.75rem; border: 1px solid var(--border-color);">Chat, rédaction, préparation de cours</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0.75rem; border: 1px solid var(--border-color);"><strong>32 Go</strong></td>
+                            <td style="padding: 0.75rem; border: 1px solid var(--border-color);">Qwen 2.5 27B (Q4_K_M)</td>
+                            <td style="padding: 0.75rem; border: 1px solid var(--border-color);"><code style="background: var(--bg-secondary); padding: 0.2rem 0.4rem; border-radius: 0.25rem;">ollama run qwen2.5:27b</code></td>
+                            <td style="padding: 0.75rem; border: 1px solid var(--border-color);">Qualité proche de Claude/GPT, raisonnement avancé</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div style="background: var(--bg-secondary); padding: 1rem; border-radius: 0.5rem; margin-top: 1rem; border-left: 4px solid var(--color-secondary);">
+                <strong>⚠️ Règle d'or :</strong> Si votre ordinateur devient très lent (il "swappe" sur le disque dur), réduisez la taille du modèle. Gardez toujours 4 à 8 Go de RAM libres pour le système et vos autres applications.
+            </div>
+        </div>
     </div>
 <!-- Footer -->
     <footer class="footer">
