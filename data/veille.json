@@ -1,6 +1,55 @@
 {
   "articles": [
     {
+      "title": "Arky",
+      "link": "https://www.uneiaparjour.fr/arky/",
+      "date": "2026-04-26T19:35:00",
+      "source": "Une IA par jour",
+      "summary": "Arky (https://arky.so/) est un espace de travail visuel style tableau blanc infini combiné à un chatbot pour structurer un projet ou des idées. Les éléments peuvent être générés via le chatbot (modèle"
+    },
+    {
+      "title": "Le chômage, c'est le travail,\nLes licenciement c'est une sauvegarde de l'emploi,\nLa dépendance c'est l'autonomie.",
+      "link": "https://twitter.com/nsi_xyz/status/2048382750294516139#m",
+      "date": "2026-04-26T12:44:39",
+      "source": "@nsi_xyz",
+      "summary": "<p>Le chômage, c'est le travail,<br />\nLes licenciement c'est une sauvegarde de l'emploi,<br />\nLa dépendance c'est l'autonomie.</p>\n<img src=\"https://nitter.net/pic/media%2FHG1RQbWbQAAPP2v.jpg\" />\n\n<"
+    },
+    {
+      "title": "Pourquoi un élève persévère lorsqu’il échoue dans un #jeuvideo alors qu’un revers dans son apprentissage le pousse à abandonner? Qu’est-ce que les récentes #recherches peuvent apprendre aux #enseignants? Voici 8️⃣ astuces pour ludifier votre enseignement 👉 https://buff.ly/3j4F1ud",
+      "link": "https://twitter.com/sophiaefrance/status/2048624440091586588#m",
+      "date": "2026-04-27T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Pourquoi un élève persévère lorsqu’il échoue dans un <a href=\"https://nitter.net/search?f=tweets&amp;q=%23jeuvideo\">#jeuvideo</a> alors qu’un revers dans son apprentissage le pousse à abandonner? Q"
+    },
+    {
+      "title": "Pinned: 🔥DeepSeek Input Cache Price Drop!\n\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less.\n\n📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
+      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
+      "date": "2026-04-26T16:35:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
+    },
+    {
+      "title": "RT by @OpenAI: Our Principles:\n\nDemocratization, Empowerment, Universal Prosperity, Resilience, and Adaptability\n\nhttps://openai.com/index/our-principles/",
+      "link": "https://twitter.com/sama/status/2048552677433643427#m",
+      "date": "2026-04-26T23:59:53",
+      "source": "@OpenAI",
+      "summary": "<p>Our Principles:<br />\n<br />\nDemocratization, Empowerment, Universal Prosperity, Resilience, and Adaptability<br />\n<br />\n<a href=\"https://openai.com/index/our-principles/\">openai.com/index/our-pr"
+    },
+    {
+      "title": "Katja Grace à propos du grand nombre d'experts IA pour qui le risque existentiel est >10%: \"Je suppose que, comme leur entourage n'en fait pas toute une histoire, ils ont tendance à mettre cela de côté dans leur esprit et, par conséquent, cela ne les affecte pas émotionnellement\"",
+      "link": "https://twitter.com/Fabien_Mikol/status/2048674168153993689#m",
+      "date": "2026-04-27T08:02:38",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Katja Grace à propos du grand nombre d'experts IA pour qui le risque existentiel est &gt;10%: \"Je suppose que, comme leur entourage n'en fait pas toute une histoire, ils ont tendance à mettre cela "
+    },
+    {
+      "title": "\"il y a trois ans, on m’a demandé de coprésider une commission sur l’IA [...] je me suis demandé comment je pouvais remplir cette fonction : je n’y  connaissais rien ! Mais nous avions dans cette commission des  spécialistes formidables\"\nPour rappel, cela incluait Luc Julia.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2048670001364607476#m",
+      "date": "2026-04-27T07:46:05",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"il y a trois ans, on m’a demandé de coprésider une commission sur l’IA [...] je me suis demandé comment je pouvais remplir cette fonction : je n’y  connaissais rien ! Mais nous avions dans cette c"
+    },
+    {
       "title": "Une information vraisemblable ?",
       "link": "https://www.uneiaparjour.fr/une-information-vraisemblable/",
       "date": "2026-04-25T13:00:32",
@@ -650,58 +699,9 @@
       "date": "2026-04-21T00:00:00",
       "source": "OpenAI Blog",
       "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU."
-    },
-    {
-      "title": "Using skills",
-      "link": "https://openai.com/academy/skills",
-      "date": "2026-04-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs."
-    },
-    {
-      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
-      "date": "2026-04-15T15:00:00",
-      "source": "Google AI",
-      "summary": "Gemini logo next to the text \"3.1 Flash TTS\", all over colored dots"
-    },
-    {
-      "title": "Inclus’IA met l’#IA au service de l’inclusion scolaire avec vigilance RGPD et sans collecte de données personnelles : FALC, différenciation, CUA etc… \nUne piste très concrète pour mieux adapter les supports pédagogiques.\nhttps://inclusia.forge.apps.education.fr/ \n✍️ Emmanuel Gaunard",
-      "link": "https://twitter.com/sophiaefrance/status/2044383996650348917#m",
-      "date": "2026-04-15T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>Inclus’IA met l’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> au service de l’inclusion scolaire avec vigilance RGPD et sans collecte de données personnelles : FALC, différenciat"
-    },
-    {
-      "title": "🤖 Et si l’IA était moins une béquille qu’un coach ?\nCette étude montre qu’en écriture, elle peut alléger l’effort tout en améliorant l’apprentissage.\nL’enjeu : s’en servir pour progresser, pas pour déléguer. \n🔗 https://arxiv.org/abs/2502.02880",
-      "link": "https://twitter.com/sophiaefrance/status/2042540594069692712#m",
-      "date": "2026-04-10T09:50:00",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤖 Et si l’IA était moins une béquille qu’un coach ?<br />\nCette étude montre qu’en écriture, elle peut alléger l’effort tout en améliorant l’apprentissage.<br />\nL’enjeu : s’en servir pour progress"
-    },
-    {
-      "title": "Research we co-authored on subliminal learning—how LLMs can pass on traits like preferences or misalignment through hidden signals in data—was published today in @Nature. \n\nRead the paper: https://www.nature.com/articles/s41586-026-10319-8",
-      "link": "https://twitter.com/AnthropicAI/status/2044493337835802948#m",
-      "date": "2026-04-15T19:09:31",
-      "source": "@AnthropicAI",
-      "summary": "<p>Research we co-authored on subliminal learning—how LLMs can pass on traits like preferences or misalignment through hidden signals in data—was published today in <a href=\"https://nitter.net/Nature\""
-    },
-    {
-      "title": "RT by @MistralAI: Build once. Reuse everywhere.\n\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.",
-      "link": "https://twitter.com/MistralDevs/status/2044418622131437755#m",
-      "date": "2026-04-15T14:12:37",
-      "source": "@MistralAI",
-      "summary": "<p>Build once. Reuse everywhere.<br />\n<br />\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.</p>\n<im"
-    },
-    {
-      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n📦 DeepSeek-V3.2 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2\n📦 DeepSeek-V3.2-Speciale Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n5/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452658149405148#m",
-      "date": "2025-12-01T11:19:22",
-      "source": "@deepseek_ai",
-      "summary": "<p>🛠 Open Source Release<br />\n<br />\n📦 DeepSeek-V3.2 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2\">huggingface.co/deepseek-ai/D…</a><br />\n📦 DeepSeek-V3.2-Speciale Model: <a href="
     }
   ],
-  "last_update": "2026-04-26T08:49:57.433312",
+  "last_update": "2026-04-27T10:06:30.636306",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
