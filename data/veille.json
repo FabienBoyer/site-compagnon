@@ -1,6 +1,90 @@
 {
   "articles": [
     {
+      "title": "OpenAI available at FedRAMP Moderate",
+      "link": "https://openai.com/index/openai-available-at-fedramp-moderate",
+      "date": "2026-04-27T14:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies."
+    },
+    {
+      "title": "The next phase of the Microsoft OpenAI partnership",
+      "link": "https://openai.com/index/next-phase-of-microsoft-partnership",
+      "date": "2026-04-27T06:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale."
+    },
+    {
+      "title": "An open-source spec for orchestration: Symphony",
+      "link": "https://openai.com/index/open-source-codex-orchestration-symphony",
+      "date": "2026-04-27T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching."
+    },
+    {
+      "title": "Choco automates food distribution with AI agents",
+      "link": "https://openai.com/index/choco",
+      "date": "2026-04-27T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact."
+    },
+    {
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "date": "2026-04-27T13:00:00",
+      "source": "Google AI",
+      "summary": "A web next to a laptop"
+    },
+    {
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+      "date": "2026-04-15T15:00:00",
+      "source": "Google AI",
+      "summary": "Gemini logo next to the text \"3.1 Flash TTS\", all over colored dots"
+    },
+    {
+      "title": "Inclus’IA met l’#IA au service de l’inclusion scolaire avec vigilance RGPD et sans collecte de données personnelles : FALC, différenciation, CUA etc… \nUne piste très concrète pour mieux adapter les supports pédagogiques.\nhttps://inclusia.forge.apps.education.fr/ \n✍️ Emmanuel Gaunard",
+      "link": "https://twitter.com/sophiaefrance/status/2044383996650348917#m",
+      "date": "2026-04-15T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Inclus’IA met l’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> au service de l’inclusion scolaire avec vigilance RGPD et sans collecte de données personnelles : FALC, différenciat"
+    },
+    {
+      "title": "🤖 Et si l’IA était moins une béquille qu’un coach ?\nCette étude montre qu’en écriture, elle peut alléger l’effort tout en améliorant l’apprentissage.\nL’enjeu : s’en servir pour progresser, pas pour déléguer. \n🔗 https://arxiv.org/abs/2502.02880",
+      "link": "https://twitter.com/sophiaefrance/status/2042540594069692712#m",
+      "date": "2026-04-10T09:50:00",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 Et si l’IA était moins une béquille qu’un coach ?<br />\nCette étude montre qu’en écriture, elle peut alléger l’effort tout en améliorant l’apprentissage.<br />\nL’enjeu : s’en servir pour progress"
+    },
+    {
+      "title": "RT by @MistralAI: Build once. Reuse everywhere.\n\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.",
+      "link": "https://twitter.com/MistralDevs/status/2044418622131437755#m",
+      "date": "2026-04-15T14:12:37",
+      "source": "@MistralAI",
+      "summary": "<p>Build once. Reuse everywhere.<br />\n<br />\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.</p>\n<im"
+    },
+    {
+      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n📦 DeepSeek-V3.2 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2\n📦 DeepSeek-V3.2-Speciale Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n5/n",
+      "link": "https://twitter.com/deepseek_ai/status/1995452658149405148#m",
+      "date": "2025-12-01T11:19:22",
+      "source": "@deepseek_ai",
+      "summary": "<p>🛠 Open Source Release<br />\n<br />\n📦 DeepSeek-V3.2 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2\">huggingface.co/deepseek-ai/D…</a><br />\n📦 DeepSeek-V3.2-Speciale Model: <a href="
+    },
+    {
+      "title": "Un LLM \"vintage\" pré-entraîné uniquement sur des textes antérieurs à 1930 est testé sur des pb de codage en Python. Il est bien sûr mauvais comparativement aux LLM \"modernes\", mais ses succès révèlent tout de même des capacités de généralisation au-delà des données d'entraînement",
+      "link": "https://twitter.com/Fabien_Mikol/status/2048887897974075468#m",
+      "date": "2026-04-27T22:11:56",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Un LLM \"vintage\" pré-entraîné uniquement sur des textes antérieurs à 1930 est testé sur des pb de codage en Python. Il est bien sûr mauvais comparativement aux LLM \"modernes\", mais ses succès révèl"
+    },
+    {
+      "title": "Auditionné par la Mission d'information sur l'IA de l'Assemblée nationale, @fred_pascal dénonce les complexités et lenteurs administratives qui freinent fortement la formation et la diffusion de l'IA, laquelle se développe pourtant si vite, au sein de l'enseignement supérieur...",
+      "link": "https://twitter.com/Fabien_Mikol/status/2048881176115392598#m",
+      "date": "2026-04-27T21:45:13",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Auditionné par la Mission d'information sur l'IA de l'Assemblée nationale, <a href=\"https://nitter.net/fred_pascal\" title=\"Frederic Pascal\">@fred_pascal</a> dénonce les complexités et lenteurs admi"
+    },
+    {
       "title": "Arky",
       "link": "https://www.uneiaparjour.fr/arky/",
       "date": "2026-04-26T19:35:00",
@@ -615,93 +699,9 @@
       "date": "2026-03-26T15:00:58",
       "source": "@MistralAI",
       "summary": "<p>Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.</p>\n<a href=\"https://nitter.net/MistralAI/status/2037183032856076527#m\">\n"
-    },
-    {
-      "title": "R to @MistralAI: State-of-the-art performance.\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to the original voice.",
-      "link": "https://twitter.com/MistralAI/status/2037183030935105578#m",
-      "date": "2026-03-26T15:00:58",
-      "source": "@MistralAI",
-      "summary": "<p>State-of-the-art performance.<br />\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to t"
-    },
-    {
-      "title": "RT by @MistralAI: Video",
-      "link": "https://twitter.com/MistralDevs/status/2037181411283648646#m",
-      "date": "2026-03-26T14:54:32",
-      "source": "@MistralAI",
-      "summary": "<p></p>\n<a href=\"https://nitter.net/MistralDevs/status/2037181411283648646#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2037180981619417088%2Fimg%2FokcXQ4aexytMNJjd.j"
-    },
-    {
-      "title": "R to @MistralAI: 📖 Learn more here: https://mistral.ai/news/forge",
-      "link": "https://twitter.com/MistralAI/status/2034012033809604870#m",
-      "date": "2026-03-17T21:00:33",
-      "source": "@MistralAI",
-      "summary": "<p>📖 Learn more here: <a href=\"https://mistral.ai/news/forge\">mistral.ai/news/forge</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2044609968305766400%2Fxx58FYBO%3Fformat%3Dpng%26name%3D800x419\" "
-    },
-    {
-      "title": "R to @OpenAI: Workspace agents can work across tools—pulling context from docs, email, chats, code, and systems, and taking approved actions like updating @Linear issues, creating docs, or sending messages.\n\nIn @SlackHQ, agents can jump into a thread, understand what’s needed, pull the right context, help resolve the issue, and update the right systems.\n\nThey can also keep going in the background or on a schedule, while you’re away.",
-      "link": "https://twitter.com/OpenAI/status/2047008991944069624#m",
-      "date": "2026-04-22T17:45:49",
-      "source": "@OpenAI",
-      "summary": "<p>Workspace agents can work across tools—pulling context from docs, email, chats, code, and systems, and taking approved actions like updating <a href=\"https://nitter.net/Linear\" title=\"Linear\">@Line"
-    },
-    {
-      "title": "R to @OpenAI: Build an agent once, then share it across teams.\n\nDescribe the job, and ChatGPT helps turn it into a working agent that can use your team’s best practices.\n\nUse agents for tasks like qualifying leads, routing feedback, reviewing requests, pulling reports, or researching vendors.",
-      "link": "https://twitter.com/OpenAI/status/2047008990379512047#m",
-      "date": "2026-04-22T17:45:49",
-      "source": "@OpenAI",
-      "summary": "<p>Build an agent once, then share it across teams.<br />\n<br />\nDescribe the job, and ChatGPT helps turn it into a working agent that can use your team’s best practices.<br />\n<br />\nUse agents for t"
-    },
-    {
-      "title": "R to @OpenAI: Agents are built to help with the kind of work that takes time, context, and follow-through: coordinating across tools, tracking progress, and moving tasks forward without needing constant supervision.  \n\nhttps://openai.com/index/introducing-workspace-agents-in-chatgpt/",
-      "link": "https://twitter.com/OpenAI/status/2047008988970225933#m",
-      "date": "2026-04-22T17:45:49",
-      "source": "@OpenAI",
-      "summary": "<p>Agents are built to help with the kind of work that takes time, context, and follow-through: coordinating across tools, tracking progress, and moving tasks forward without needing constant supervis"
-    },
-    {
-      "title": "Pinned: Introducing workspace agents in ChatGPT—shared agents that can handle complex tasks and long-running workflows across tools and teams.",
-      "link": "https://twitter.com/OpenAI/status/2047008987665809771#m",
-      "date": "2026-04-22T17:45:48",
-      "source": "@OpenAI",
-      "summary": "<p>Introducing workspace agents in ChatGPT—shared agents that can handle complex tasks and long-running workflows across tools and teams.</p>\n<a href=\"https://nitter.net/OpenAI/status/2047008987665809"
-    },
-    {
-      "title": "Stéphane Breton (EHESS) : l'IA \"n'est qu'un outil\", \"comme une pince à linge ou un tournevis\", ce \"n'est qu'une computation langagière, rapide mais stupide\", et \"son autonomie est grandement exagérée\" puisqu'elle \"reste commandée par nous\". \"Nous ne cessons de dominer nos outils\"",
-      "link": "https://twitter.com/Fabien_Mikol/status/2046891185512272155#m",
-      "date": "2026-04-22T09:57:42",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Stéphane Breton (EHESS) : l'IA \"n'est qu'un outil\", \"comme une pince à linge ou un tournevis\", ce \"n'est qu'une computation langagière, rapide mais stupide\", et \"son autonomie est grandement exagér"
-    },
-    {
-      "title": "La Gen Z fait-elle moins confiance à l’IA…\nou est-elle simplement en train de mieux la comprendre ?\n👉 Usage stable\n👉 Scepticisme en ↗️ \nEt si ce n’était pas un rejet… mais un gain de discernement ?\nLe vrai enjeu : savoir quand ne pas utiliser l’IA.\n📎 https://news.gallup.com/poll/708224/gen-adoption-steady-skepticism-climbs.aspx",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2046983045027090599#m",
-      "date": "2026-04-22T16:02:43",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>La Gen Z fait-elle moins confiance à l’IA…<br />\nou est-elle simplement en train de mieux la comprendre ?<br />\n👉 Usage stable<br />\n👉 Scepticisme en ↗️ <br />\nEt si ce n’était pas un rejet… mais u"
-    },
-    {
-      "title": "Platon craignait l’écriture\nNous craignons aujourd'hui l’IA\nLe vrai problème n’est peut-être pas la technologie, mais notre rapport à l’écriture.\n✍️ Écrire = penser, questionner, dialoguer (même avec l’IA)\nCela implique de revoir bon nombre d'examens\n🔗 https://www.templeton.org/news/plato-warned-us-about-chatgpt-and-told-us-what-to-do-about-it",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2041919468230590938#m",
-      "date": "2026-04-08T16:41:52",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Platon craignait l’écriture<br />\nNous craignons aujourd'hui l’IA<br />\nLe vrai problème n’est peut-être pas la technologie, mais notre rapport à l’écriture.<br />\n✍️ Écrire = penser, questionner, "
-    },
-    {
-      "title": "Gemini 3.1 TTS Preview",
-      "link": "https://www.uneiaparjour.fr/gemini-3-1-tts-preview/",
-      "date": "2026-04-21T21:39:22",
-      "source": "Une IA par jour",
-      "summary": "Gemini 3.1 TTS Preview (démonstration sur Google Ai studio https://aistudio.google.com/generate-speech?model=gemini-3.1-flash-tts-preview) est le dernier modèles texte vers voix de Google. Deux modes "
-    },
-    {
-      "title": "Scaling Codex to enterprises worldwide",
-      "link": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
-      "date": "2026-04-21T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU."
     }
   ],
-  "last_update": "2026-04-27T10:06:30.636306",
+  "last_update": "2026-04-28T10:06:13.392473",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
