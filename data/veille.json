@@ -1,6 +1,216 @@
 {
   "articles": [
     {
+      "title": "Stanzio",
+      "link": "https://www.uneiaparjour.fr/stanzio/",
+      "date": "2026-05-01T20:28:24",
+      "source": "Une IA par jour",
+      "summary": "Stanzio (https://stanzio.fly.dev/) génère des présentations à partir d &#8216;interactions dans un chatbot. Basé sur Claude (Haiku 4.5, Sonnet 4.6 et Opus 4.7) avec plusieurs niveaux de « réflexion »."
+    },
+    {
+      "title": "Arky",
+      "link": "https://www.uneiaparjour.fr/arky/",
+      "date": "2026-04-26T19:35:00",
+      "source": "Une IA par jour",
+      "summary": "Arky (https://arky.so/) est un espace de travail visuel style tableau blanc infini combiné à un chatbot pour structurer un projet ou des idées. Les éléments peuvent être générés via le chatbot (modèle"
+    },
+    {
+      "title": "Une information vraisemblable ?",
+      "link": "https://www.uneiaparjour.fr/une-information-vraisemblable/",
+      "date": "2026-04-25T13:00:32",
+      "source": "Une IA par jour",
+      "summary": "Focus de la lettre 34 Dans les lectures de&#160;la lettre 27, je citais&#160;un article de Libération&#160;sur un podcast IA qui produisait 11 000 épisodes par jour en aspirant des articles de presse "
+    },
+    {
+      "title": "ChatGPT images 2.0",
+      "link": "https://www.uneiaparjour.fr/chatgpt-images-2-0/",
+      "date": "2026-04-23T20:46:55",
+      "source": "Une IA par jour",
+      "summary": "ChatGPT images 2.0 (https://chatgpt.com/) est le dernier modèle de génération d&#8217;images de ChatGPT. Prise en charge fine des textes, génération de visuels, d&#8217;infographies et de bandes dessi"
+    },
+    {
+      "title": "Work-Flow IA … un premier essai",
+      "link": "https://mathix.org/linux/archives/22234",
+      "date": "2026-04-14T08:39:12",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Afin de me maintenir à jour sur les possibilités de l&#8217;IA&#8230; je me suis donc mis au Workflow (en gros on demande à l&#8217;IA de traiter des données pour nous aider,"
+    },
+    {
+      "title": "J’ai donné une petite interview sur l’IA (pour êtreProf)",
+      "link": "https://mathix.org/linux/archives/22219",
+      "date": "2026-04-07T20:10:55",
+      "source": "Mathix (A. Durand)",
+      "summary": "Et voilà il y a quelques mois, j&#8217;étais interviewé par ÊtreProf pour donner mon point de vue sur l&#8217;IA dans l&#8217;éducation, la vidéo est sortie 🙂 Alors le titre est un peu osé, je n&#8217"
+    },
+    {
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "link": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "date": "2026-04-24T19:00:00",
+      "source": "Google AI",
+      "summary": "Black screen with illustrations including a laptop with document and email icons streaming out, a smiling person holding a phone and looking at a checklist, and a user activating Gemini Live"
+    },
+    {
+      "title": "Le chômage, c'est le travail,\nLes licenciement c'est une sauvegarde de l'emploi,\nLa dépendance c'est l'autonomie.",
+      "link": "https://twitter.com/nsi_xyz/status/2048382750294516139#m",
+      "date": "2026-04-26T12:44:39",
+      "source": "@nsi_xyz",
+      "summary": "<p>Le chômage, c'est le travail,<br />\nLes licenciement c'est une sauvegarde de l'emploi,<br />\nLa dépendance c'est l'autonomie.</p>\n<img src=\"https://nitter.net/pic/media%2FHG1RQbWbQAAPP2v.jpg\" />\n\n<"
+    },
+    {
+      "title": "RT by @nsi_xyz: Le suicide industriel et économique de la France, c'est cette photo.\n\nIl faut doubler les salaires de tous enseignants (en euros constant). 20% de suite, 20% de plus par an pendant 5 ans, et ensuite on indexe.",
+      "link": "https://twitter.com/CyniqueDeGauche/status/2045755479876358421#m",
+      "date": "2026-04-19T06:44:49",
+      "source": "@nsi_xyz",
+      "summary": "<p>Le suicide industriel et économique de la France, c'est cette photo.<br />\n<br />\nIl faut doubler les salaires de tous enseignants (en euros constant). 20% de suite, 20% de plus par an pendant 5 an"
+    },
+    {
+      "title": "L’IA à l’école sans cadre clair = dérives assurées.\nThibaud Hayette, enseignat, propose un pacte d’engagement :\n✔️ IA = aide, pas substitut\n✔️ transparence obligatoire\n✔️ niveau d’autorisation par devoir\n💬 Et vous, avez-vous une charte #IA ? \nPartagez-la-nous en commentaires !",
+      "link": "https://twitter.com/sophiaefrance/status/2050150744389562760#m",
+      "date": "2026-05-01T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>L’IA à l’école sans cadre clair = dérives assurées.<br />\nThibaud Hayette, enseignat, propose un pacte d’engagement :<br />\n✔️ IA = aide, pas substitut<br />\n✔️ transparence obligatoire<br />\n✔️ ni"
+    },
+    {
+      "title": "Pourquoi un élève persévère lorsqu’il échoue dans un #jeuvideo alors qu’un revers dans son apprentissage le pousse à abandonner? Qu’est-ce que les récentes #recherches peuvent apprendre aux #enseignants? Voici 8️⃣ astuces pour ludifier votre enseignement 👉 https://buff.ly/3j4F1ud",
+      "link": "https://twitter.com/sophiaefrance/status/2048624440091586588#m",
+      "date": "2026-04-27T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Pourquoi un élève persévère lorsqu’il échoue dans un <a href=\"https://nitter.net/search?f=tweets&amp;q=%23jeuvideo\">#jeuvideo</a> alors qu’un revers dans son apprentissage le pousse à abandonner? Q"
+    },
+    {
+      "title": "Une boîte à outils #IA pensée pour les enseignants, testée en classe et alignée avec le cadre officiel: rédaction, création visuelle, révision, accessibilité, outils souverains… une sélection très utile pour intégrer l’IA avec méthode\nhttps://maprofbranchee.fr/ia-innovation-pedagogique/mes-outils-i-a/ \n✍️ @MaCoachScolaire",
+      "link": "https://twitter.com/sophiaefrance/status/2047614028705333746#m",
+      "date": "2026-04-24T09:50:01",
+      "source": "@sophiaefrance",
+      "summary": "<p>Une boîte à outils <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> pensée pour les enseignants, testée en classe et alignée avec le cadre officiel: rédaction, création visuelle, ré"
+    },
+    {
+      "title": "R to @AnthropicAI: When stress-tested on real conversations where Claude previously showed sycophancy, Opus 4.7 had half the sycophancy rate of Opus 4.6 on relationship guidance. Mythos Preview cut that in half again. \n\nThis generalized across domains—though this training is one of several causes.",
+      "link": "https://twitter.com/AnthropicAI/status/2049927626215825734#m",
+      "date": "2026-04-30T19:03:26",
+      "source": "@AnthropicAI",
+      "summary": "<p>When stress-tested on real conversations where Claude previously showed sycophancy, Opus 4.7 had half the sycophancy rate of Opus 4.6 on relationship guidance. Mythos Preview cut that in half again"
+    },
+    {
+      "title": "R to @AnthropicAI: Claude is most sycophantic under pushback, and relationship conversations are where people push back most. \n\nWe identified some of the specific triggers—criticism of Claude's analysis, floods of one-sided detail—and built synthetic training scenarios from them.",
+      "link": "https://twitter.com/AnthropicAI/status/2049927624852652457#m",
+      "date": "2026-04-30T19:03:26",
+      "source": "@AnthropicAI",
+      "summary": "<p>Claude is most sycophantic under pushback, and relationship conversations are where people push back most. <br />\n<br />\nWe identified some of the specific triggers—criticism of Claude's analysis, "
+    },
+    {
+      "title": "R to @AnthropicAI: We focused on relationship guidance because that's where the most sycophantic conversations occur. In this setting, Claude telling someone what they want to hear can harden a divide or convince them a signal means more than it does.",
+      "link": "https://twitter.com/AnthropicAI/status/2049927623732777150#m",
+      "date": "2026-04-30T19:03:25",
+      "source": "@AnthropicAI",
+      "summary": "<p>We focused on relationship guidance because that's where the most sycophantic conversations occur. In this setting, Claude telling someone what they want to hear can harden a divide or convince the"
+    },
+    {
+      "title": "R to @AnthropicAI: Claude mostly avoids sycophancy when giving guidance—it shows up in just 9% of conversations.\n\nBut the rate is particularly high in conversations on spirituality and relationship guidance.",
+      "link": "https://twitter.com/AnthropicAI/status/2049927621891534874#m",
+      "date": "2026-04-30T19:03:25",
+      "source": "@AnthropicAI",
+      "summary": "<p>Claude mostly avoids sycophancy when giving guidance—it shows up in just 9% of conversations.<br />\n<br />\nBut the rate is particularly high in conversations on spirituality and relationship guidan"
+    },
+    {
+      "title": "Pinned: 🔥DeepSeek Input Cache Price Drop!\n\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less.\n\n📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
+      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
+      "date": "2026-04-26T16:35:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
+    },
+    {
+      "title": "🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.\n\n🛠️Integration Updates:\n🔹Claude Code: Set model to deepseek-v4-pro[1m]  to unlock 1M context!\n🔹OpenCode: Update to v1.14.24+\n🔹OpenClaw: Update to v2026.4.24+\n\nCheck the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
+      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
+      "date": "2026-04-25T15:33:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
+    },
+    {
+      "title": "R to @OpenAI: Curious about Codex? It's time to switch.\n\nYou can migrate to Codex directly in the Codex app and the CLI.\n\nhttps://chatgpt.com/codex/switch-to-codex/",
+      "link": "https://twitter.com/OpenAI/status/2050290619684393152#m",
+      "date": "2026-05-01T19:05:50",
+      "source": "@OpenAI",
+      "summary": "<p>Curious about Codex? It's time to switch.<br />\n<br />\nYou can migrate to Codex directly in the Codex app and the CLI.<br />\n<br />\n<a href=\"https://chatgpt.com/codex/switch-to-codex/\">chatgpt.com/"
+    },
+    {
+      "title": "Bring your workflow to Codex in just a few clicks.\n\nImport settings, plugins, agents, project configuration, and more so you can keep working with fewer interruptions.\n\nYour move.",
+      "link": "https://twitter.com/OpenAI/status/2050290618187055175#m",
+      "date": "2026-05-01T19:05:50",
+      "source": "@OpenAI",
+      "summary": "<p>Bring your workflow to Codex in just a few clicks.<br />\n<br />\nImport settings, plugins, agents, project configuration, and more so you can keep working with fewer interruptions.<br />\n<br />\nYour"
+    },
+    {
+      "title": "Selon @danielsusskind les économistes commencent à envisager sérieusement un possible scénario de chômage structurel massif dû à l'IA.\n4 problèmes : la redistribution, la contribution sociale de chacun, le pouvoir politique de ces compagnies, et le sens dans un monde sans travail",
+      "link": "https://twitter.com/Fabien_Mikol/status/2050355205103870347#m",
+      "date": "2026-05-01T23:22:29",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Selon <a href=\"https://nitter.net/danielsusskind\" title=\"Daniel Susskind\">@danielsusskind</a> les économistes commencent à envisager sérieusement un possible scénario de chômage structurel massif d"
+    },
+    {
+      "title": "\"L'IA complémente l'humain, augmentant sa productivité !\"\nCe fut vrai pour les techno passées, mais @danielsusskind doute que ce sera forcément le cas avec l'IA.\nKasparov aussi croyait que l'humain + IA serait toujours supérieur à la machine seule... jusqu'à l'arrivée d'AlphaZero",
+      "link": "https://twitter.com/Fabien_Mikol/status/2050339456444469488#m",
+      "date": "2026-05-01T22:19:54",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"L'IA complémente l'humain, augmentant sa productivité !\"<br />\nCe fut vrai pour les techno passées, mais <a href=\"https://nitter.net/danielsusskind\" title=\"Daniel Susskind\">@danielsusskind</a> dou"
+    },
+    {
+      "title": "Belle performance de ChatGPT-5.5 sur un benchmark de tâches \"tordues\" pour ingénieurs en machine learning.\nClaude : \"on est passé de ~56 % à ~84 % en moins d'un an, sur un benchmark spécifiquement conçu pour résister à la mémorisation et exiger de la \"vraie\" compréhension\".",
+      "link": "https://twitter.com/Fabien_Mikol/status/2050273706790834628#m",
+      "date": "2026-05-01T17:58:38",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Belle performance de ChatGPT-5.5 sur un benchmark de tâches \"tordues\" pour ingénieurs en machine learning.<br />\nClaude : \"on est passé de ~56 % à ~84 % en moins d'un an, sur un benchmark spécifiqu"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: Many bad AI takes arise when people don't understand the jagged frontier.\n\nYes LLMs are superhuman in many ways. Yes LLMs struggle with basic arithmetic. Yes, they're still intelligent. \n\nIf you disagree, you probably have a very narrow, human-centric definition of intelligence.",
+      "link": "https://twitter.com/iScienceLuvr/status/2049992359262462437#m",
+      "date": "2026-04-30T23:20:40",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Many bad AI takes arise when people don't understand the jagged frontier.<br />\n<br />\nYes LLMs are superhuman in many ways. Yes LLMs struggle with basic arithmetic. Yes, they're still intelligent."
+    },
+    {
+      "title": "Ce chercheur a soumis à ChatGPT 5.5 un manuscrit qu'il avait déjà publié en lui demandant de le relire comme un peer reviewer. Il a pu constater une convergence non négligeable avec les réelles relectures humaines qu'il avait reçues, notamment sur certains problèmes statistiques.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2050208737160302754#m",
+      "date": "2026-05-01T13:40:28",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Ce chercheur a soumis à ChatGPT 5.5 un manuscrit qu'il avait déjà publié en lui demandant de le relire comme un peer reviewer. Il a pu constater une convergence non négligeable avec les réelles rel"
+    },
+    {
+      "title": "“Nous n’avons pas de jeunesse de rechange.”\nOn célèbre les jeunes… puis on les critique dans la foulée.\nDouble discours révélateur d’une société en contradiction.\nEt si on commençait par leur donner du temps, de la confiance… et une vraie place ?\n🔗 https://www.lemonde.fr/campus/article/2026/04/02/geraud-letang-historien-nous-n-avons-pas-de-jeunesse-de-rechange_6676148_4401467.html",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2050244758719590758#m",
+      "date": "2026-05-01T16:03:36",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>“Nous n’avons pas de jeunesse de rechange.”<br />\nOn célèbre les jeunes… puis on les critique dans la foulée.<br />\nDouble discours révélateur d’une société en contradiction.<br />\nEt si on commenç"
+    },
+    {
+      "title": "« Nous nous hâtons de parquer nos enfants parmi des enfants de notre classe, bourgeoise ou populaire [...] Nous préparons, par cet isolement précoce, les haines d’ignorance et d’envie, cette guerre intérieure dont nous souffrons plus tard. » (Jules Michelet, Le Peuple, 1846).",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2047707850944708766#m",
+      "date": "2026-04-24T16:02:50",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>« Nous nous hâtons de parquer nos enfants parmi des enfants de notre classe, bourgeoise ou populaire [...] Nous préparons, par cet isolement précoce, les haines d’ignorance et d’envie, cette guerre"
+    },
+    {
+      "title": "Deep Blue n’a pas tué les échecs. Il a poussé les joueurs à devenir meilleurs♟️\nPourquoi en serait-il autrement de l’IA en éducation ? 🧠\nUtilisée comme substitut, elle affaiblit ; utilisée comme sparring partner, elle élève.\n#IA #Education",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2046620846731477280#m",
+      "date": "2026-04-21T16:03:28",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Deep Blue n’a pas tué les échecs. Il a poussé les joueurs à devenir meilleurs♟️<br />\nPourquoi en serait-il autrement de l’IA en éducation ? 🧠<br />\nUtilisée comme substitut, elle affaiblit ; utili"
+    },
+    {
+      "title": "🎓 On dit que l’éducation est la solution à tout : pauvreté, climat, inégalités, conflits…\nMais dans les faits ? \n📉 -25 % d’aide internationale d’ici 2027.\n📚 L’éducation reste l’investissement le plus rentable pour la paix.\n🔗 https://www.lemonde.fr/societe/article/2026/04/07/dans-un-monde-en-plein-rearmement-l-education-demeure-l-investissement-le-plus-rentable-pour-la-paix_6677755_3224.html",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2046258289676058899#m",
+      "date": "2026-04-20T16:02:48",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🎓 On dit que l’éducation est la solution à tout : pauvreté, climat, inégalités, conflits…<br />\nMais dans les faits ? <br />\n📉 -25 % d’aide internationale d’ici 2027.<br />\n📚 L’éducation reste l’in"
+    },
+    {
+      "title": "💻 Le débat “numérique vs papier” rate souvent l’essentiel.\n✍️ En classe : écrire, structurer, penser... de préférence avec papier & stylo\n🤖 Hors classe : guider, entraîner... avec l'aide du numérique si besoin\nMes choix ne sont pas technologiques.\nIls sont pédagogiques.",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2042634360801607700#m",
+      "date": "2026-04-10T16:02:36",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>💻 Le débat “numérique vs papier” rate souvent l’essentiel.<br />\n✍️ En classe : écrire, structurer, penser... de préférence avec papier &amp; stylo<br />\n🤖 Hors classe : guider, entraîner... avec l"
+    },
+    {
       "title": "l’ IA-Albert de mathix se dote d’un raisonnement et d’un RAG",
       "link": "https://mathix.org/linux/archives/22249",
       "date": "2026-04-24T08:06:42",
@@ -489,219 +699,9 @@
       "date": "2026-04-29T22:42:47",
       "source": "@Fabien_Mikol",
       "summary": "<p>Si on fine-tune un modèle sur du code vulnérable, il devient généralement \"mauvais\" (c'est le désalignement émergent). Le phénomène persiste même si le fine-tuning ne contient que 5% de tel code, e"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Autres passages notables...\nLes experts interrogés prennent la menace au sérieux.\nIls citent notamment l'étude qui avait révélé comment l'IA peut aider à faire synthétiser des analogues de toxines interdites sans que cela ne soit décelé ⤵️\nhttps://x.com/Fabien_Mikol/status/2039087223186899334",
-      "link": "https://twitter.com/Fabien_Mikol/status/2049617158485766523#m",
-      "date": "2026-04-29T22:29:45",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Autres passages notables...<br />\nLes experts interrogés prennent la menace au sérieux.<br />\nIls citent notamment l'étude qui avait révélé comment l'IA peut aider à faire synthétiser des analogues"
-    },
-    {
-      "title": "Gemini 3.1 TTS Preview",
-      "link": "https://www.uneiaparjour.fr/gemini-3-1-tts-preview/",
-      "date": "2026-04-21T21:39:22",
-      "source": "Une IA par jour",
-      "summary": "Gemini 3.1 TTS Preview (démonstration sur Google Ai studio https://aistudio.google.com/generate-speech?model=gemini-3.1-flash-tts-preview) est le dernier modèles texte vers voix de Google. Deux modes "
-    },
-    {
-      "title": "Garder à l’esprit que l’IA est contrôlée par celui qui la met à disposition…",
-      "link": "https://mathix.org/linux/archives/22271",
-      "date": "2026-04-29T07:45:45",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Comme vous le savez j&#8217;ai conçu une interface pour utiliser l&#8217;API mis à disposition par EDUNIM (etalab.gouf.fr). Faire prendre conscience qu&#8217;on peut orienter"
-    },
-    {
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "link": "https://openai.com/index/openai-on-aws",
-      "date": "2026-04-28T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments."
-    },
-    {
-      "title": "Our commitment to community safety",
-      "link": "https://openai.com/index/our-commitment-to-community-safety",
-      "date": "2026-04-28T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts."
-    },
-    {
-      "title": "RT by @nsi_xyz: Les salaires de fin de carrières de 2024 n'atteignent même pas les salaires de début de carrière de 1980. Voilà un aperçu de l'énorme déclassement des enseignants en France. Comment s'étonner de la baisse du niveau scolaire? On n'attire plus les meilleurs avec des salaires si bas",
-      "link": "https://twitter.com/TataYoyo_1ere/status/2049163620395766030#m",
-      "date": "2026-04-28T16:27:33",
-      "source": "@nsi_xyz",
-      "summary": "<p>Les salaires de fin de carrières de 2024 n'atteignent même pas les salaires de début de carrière de 1980. Voilà un aperçu de l'énorme déclassement des enseignants en France. Comment s'étonner de la"
-    },
-    {
-      "title": "R to @MistralAI: 📚 Learn more here https://mistral.ai/news/workflows",
-      "link": "https://twitter.com/MistralAI/status/2049128192405917836#m",
-      "date": "2026-04-28T14:06:46",
-      "source": "@MistralAI",
-      "summary": "<p>📚 Learn more here <a href=\"https://mistral.ai/news/workflows\">mistral.ai/news/workflows</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2048313662499139584%2F5g0gq2km%3Fformat%3Dpng%26name%3D80"
-    },
-    {
-      "title": "R to @MistralAI: Hear from our team:",
-      "link": "https://twitter.com/MistralAI/status/2049128190874964030#m",
-      "date": "2026-04-28T14:06:46",
-      "source": "@MistralAI",
-      "summary": "<p>Hear from our team:</p>\n<a href=\"https://nitter.net/MistralAI/status/2049128190874964030#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2049128073883525120%2Fimg%2F5"
-    },
-    {
-      "title": "R to @MistralAI: State-of-the-art performance.\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to the original voice.",
-      "link": "https://twitter.com/MistralAI/status/2037183030935105578#m",
-      "date": "2026-03-26T15:00:58",
-      "source": "@MistralAI",
-      "summary": "<p>State-of-the-art performance.<br />\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to t"
-    },
-    {
-      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
-      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
-      "date": "2026-04-29T02:20:52",
-      "source": "@deepseek_ai",
-      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
-    },
-    {
-      "title": "🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!\n\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.\n🔹 DeepSeek-V3.2-Speciale: Pushing the boundaries of reasoning capabilities. API-only for now.\n\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452641430651132#m",
-      "date": "2025-12-01T11:19:18",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!<br />\n<br />\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.<br />\n🔹 DeepS"
-    },
-    {
-      "title": "R to @deepseek_ai: 💻 API Update\n\n🔹 V3.2: Same usage pattern as V3.2-Exp.\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"https://api.deepseek.com/v3.2_speciale_expires_on_20251215\". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time).\n💡 V3.2 now supports Thinking in Tool-Use — details: https://api-docs.deepseek.com/guides/thinking_mode\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452654659805334#m",
-      "date": "2025-12-01T11:19:21",
-      "source": "@deepseek_ai",
-      "summary": "<p>💻 API Update<br />\n<br />\n🔹 V3.2: Same usage pattern as V3.2-Exp.<br />\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"<a href=\"https://api.deepseek.com/v3.2_speciale_expires_on_202512"
-    },
-    {
-      "title": "⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-interleaved input, MLA RoPE expects interleaved. Fixed in https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/tree/main/inference.",
-      "link": "https://twitter.com/deepseek_ai/status/1990616182161068094#m",
-      "date": "2025-11-18T03:00:56",
-      "source": "@deepseek_ai",
-      "summary": "<p>⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-"
-    },
-    {
-      "title": "R to @OpenAI: Listen to the OpenAI Podcast on—\nSpotify\nhttps://open.spotify.com/show/0zojMEDizKMh3aTxnGLENP\nApple\nhttps://podcasts.apple.com/us/podcast/openai-podcast/id1820330260\nYouTube\nhttps://youtu.be/9-TVwv6wtGQ",
-      "link": "https://twitter.com/OpenAI/status/2049182122099798209#m",
-      "date": "2026-04-28T17:41:04",
-      "source": "@OpenAI",
-      "summary": "<p>Listen to the OpenAI Podcast on—<br />\nSpotify<br />\n<a href=\"https://open.spotify.com/show/0zojMEDizKMh3aTxnGLENP\">open.spotify.com/show/0zojME…</a><br />\nApple<br />\n<a href=\"https://podcasts.app"
-    },
-    {
-      "title": "Earlier this month, an Erdős problem that had been open for 60 years was solved with help from GPT-5.4 Pro.\n\nWhat happens now that AI is getting good at math?\n\nOpenAI researchers @SebastienBubeck and @ErnestRyu join host @AndrewMayne to explain what changed and what it could mean for the future of research.",
-      "link": "https://twitter.com/OpenAI/status/2049182118069358967#m",
-      "date": "2026-04-28T17:41:03",
-      "source": "@OpenAI",
-      "summary": "<p>Earlier this month, an Erdős problem that had been open for 60 years was solved with help from GPT-5.4 Pro.<br />\n<br />\nWhat happens now that AI is getting good at math?<br />\n<br />\nOpenAI resear"
-    },
-    {
-      "title": "Stéphane Mallat (médaille d'or CNRS) : les LLM, ces simples \"machines à calculer des probabilités\", ont des performances en langage naturel et mathématiques \"extraordinairement surprenantes\", au point qu'on peut se demander si notre cerveau ne fonctionne pas de la même manière...",
-      "link": "https://twitter.com/Fabien_Mikol/status/2049424144148660608#m",
-      "date": "2026-04-29T09:42:47",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Stéphane Mallat (médaille d'or CNRS) : les LLM, ces simples \"machines à calculer des probabilités\", ont des performances en langage naturel et mathématiques \"extraordinairement surprenantes\", au po"
-    },
-    {
-      "title": "Pourquoi parle-t-on des capacités d'introspection des LLM ? (Non, ce n'est pas du \"bullshit Anthropic\")\nPourquoi est-ce peut-être plus prometteur et plus \"scalable\" que les techniques d'interprétabilité, notamment pour l'alignement ?\nIntroduction efficace au sujet par @belindazli",
-      "link": "https://twitter.com/Fabien_Mikol/status/2049414506359427285#m",
-      "date": "2026-04-29T09:04:29",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Pourquoi parle-t-on des capacités d'introspection des LLM ? (Non, ce n'est pas du \"bullshit Anthropic\")<br />\nPourquoi est-ce peut-être plus prometteur et plus \"scalable\" que les techniques d'inter"
-    },
-    {
-      "title": "La Gen Z fait-elle moins confiance à l’IA…\nou est-elle simplement en train de mieux la comprendre ?\n👉 Usage stable\n👉 Scepticisme en ↗️ \nEt si ce n’était pas un rejet… mais un gain de discernement ?\nLe vrai enjeu : savoir quand ne pas utiliser l’IA.\n📎 https://news.gallup.com/poll/708224/gen-adoption-steady-skepticism-climbs.aspx",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2046983045027090599#m",
-      "date": "2026-04-22T16:02:43",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>La Gen Z fait-elle moins confiance à l’IA…<br />\nou est-elle simplement en train de mieux la comprendre ?<br />\n👉 Usage stable<br />\n👉 Scepticisme en ↗️ <br />\nEt si ce n’était pas un rejet… mais u"
-    },
-    {
-      "title": "Platon craignait l’écriture\nNous craignons aujourd'hui l’IA\nLe vrai problème n’est peut-être pas la technologie, mais notre rapport à l’écriture.\n✍️ Écrire = penser, questionner, dialoguer (même avec l’IA)\nCela implique de revoir bon nombre d'examens\n🔗 https://www.templeton.org/news/plato-warned-us-about-chatgpt-and-told-us-what-to-do-about-it",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2041919468230590938#m",
-      "date": "2026-04-08T16:41:52",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Platon craignait l’écriture<br />\nNous craignons aujourd'hui l’IA<br />\nLe vrai problème n’est peut-être pas la technologie, mais notre rapport à l’écriture.<br />\n✍️ Écrire = penser, questionner, "
-    },
-    {
-      "title": "OpenAI available at FedRAMP Moderate",
-      "link": "https://openai.com/index/openai-available-at-fedramp-moderate",
-      "date": "2026-04-27T14:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies."
-    },
-    {
-      "title": "The next phase of the Microsoft OpenAI partnership",
-      "link": "https://openai.com/index/next-phase-of-microsoft-partnership",
-      "date": "2026-04-27T06:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale."
-    },
-    {
-      "title": "An open-source spec for orchestration: Symphony",
-      "link": "https://openai.com/index/open-source-codex-orchestration-symphony",
-      "date": "2026-04-27T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching."
-    },
-    {
-      "title": "Choco automates food distribution with AI agents",
-      "link": "https://openai.com/index/choco",
-      "date": "2026-04-27T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact."
-    },
-    {
-      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "date": "2026-04-27T13:00:00",
-      "source": "Google AI",
-      "summary": "A web next to a laptop"
-    },
-    {
-      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
-      "date": "2026-04-15T15:00:00",
-      "source": "Google AI",
-      "summary": "Gemini logo next to the text \"3.1 Flash TTS\", all over colored dots"
-    },
-    {
-      "title": "Inclus’IA met l’#IA au service de l’inclusion scolaire avec vigilance RGPD et sans collecte de données personnelles : FALC, différenciation, CUA etc… \nUne piste très concrète pour mieux adapter les supports pédagogiques.\nhttps://inclusia.forge.apps.education.fr/ \n✍️ Emmanuel Gaunard",
-      "link": "https://twitter.com/sophiaefrance/status/2044383996650348917#m",
-      "date": "2026-04-15T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>Inclus’IA met l’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> au service de l’inclusion scolaire avec vigilance RGPD et sans collecte de données personnelles : FALC, différenciat"
-    },
-    {
-      "title": "🤖 Et si l’IA était moins une béquille qu’un coach ?\nCette étude montre qu’en écriture, elle peut alléger l’effort tout en améliorant l’apprentissage.\nL’enjeu : s’en servir pour progresser, pas pour déléguer. \n🔗 https://arxiv.org/abs/2502.02880",
-      "link": "https://twitter.com/sophiaefrance/status/2042540594069692712#m",
-      "date": "2026-04-10T09:50:00",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤖 Et si l’IA était moins une béquille qu’un coach ?<br />\nCette étude montre qu’en écriture, elle peut alléger l’effort tout en améliorant l’apprentissage.<br />\nL’enjeu : s’en servir pour progress"
-    },
-    {
-      "title": "RT by @MistralAI: Build once. Reuse everywhere.\n\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.",
-      "link": "https://twitter.com/MistralDevs/status/2044418622131437755#m",
-      "date": "2026-04-15T14:12:37",
-      "source": "@MistralAI",
-      "summary": "<p>Build once. Reuse everywhere.<br />\n<br />\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.</p>\n<im"
-    },
-    {
-      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n📦 DeepSeek-V3.2 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2\n📦 DeepSeek-V3.2-Speciale Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n5/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452658149405148#m",
-      "date": "2025-12-01T11:19:22",
-      "source": "@deepseek_ai",
-      "summary": "<p>🛠 Open Source Release<br />\n<br />\n📦 DeepSeek-V3.2 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2\">huggingface.co/deepseek-ai/D…</a><br />\n📦 DeepSeek-V3.2-Speciale Model: <a href="
-    },
-    {
-      "title": "Un LLM \"vintage\" pré-entraîné uniquement sur des textes antérieurs à 1930 est testé sur des pb de codage en Python. Il est bien sûr mauvais comparativement aux LLM \"modernes\", mais ses succès révèlent tout de même des capacités de généralisation au-delà des données d'entraînement",
-      "link": "https://twitter.com/Fabien_Mikol/status/2048887897974075468#m",
-      "date": "2026-04-27T22:11:56",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Un LLM \"vintage\" pré-entraîné uniquement sur des textes antérieurs à 1930 est testé sur des pb de codage en Python. Il est bien sûr mauvais comparativement aux LLM \"modernes\", mais ses succès révèl"
     }
   ],
-  "last_update": "2026-05-01T09:25:52.641058",
+  "last_update": "2026-05-02T08:57:14.160527",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
