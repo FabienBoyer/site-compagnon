@@ -1,6 +1,195 @@
 {
   "articles": [
     {
+      "title": "Garder à l’esprit que l’IA est contrôlée par celui qui la met à disposition…",
+      "link": "https://mathix.org/linux/archives/22271",
+      "date": "2026-04-30T07:45:45",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Comme vous le savez j&#8217;ai conçu une interface pour utiliser l&#8217;API mis à disposition par EDUNIM (etalab.gouf.fr). Faire prendre conscience qu&#8217;on peut orienter"
+    },
+    {
+      "title": "Our commitment to community safety",
+      "link": "https://openai.com/index/our-commitment-to-community-safety",
+      "date": "2026-04-28T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts."
+    },
+    {
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "link": "https://openai.com/index/openai-on-aws",
+      "date": "2026-04-28T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments."
+    },
+    {
+      "title": "OpenAI available at FedRAMP Moderate",
+      "link": "https://openai.com/index/openai-available-at-fedramp-moderate",
+      "date": "2026-04-27T14:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies."
+    },
+    {
+      "title": "The next phase of the Microsoft OpenAI partnership",
+      "link": "https://openai.com/index/next-phase-of-microsoft-partnership",
+      "date": "2026-04-27T06:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale."
+    },
+    {
+      "title": "An open-source spec for orchestration: Symphony",
+      "link": "https://openai.com/index/open-source-codex-orchestration-symphony",
+      "date": "2026-04-27T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching."
+    },
+    {
+      "title": "Choco automates food distribution with AI agents",
+      "link": "https://openai.com/index/choco",
+      "date": "2026-04-27T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact."
+    },
+    {
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "date": "2026-04-27T13:00:00",
+      "source": "Google AI",
+      "summary": "A web next to a laptop"
+    },
+    {
+      "title": "RT by @nsi_xyz: Les salaires de fin de carrières de 2024 n'atteignent même pas les salaires de début de carrière de 1980. Voilà un aperçu de l'énorme déclassement des enseignants en France. Comment s'étonner de la baisse du niveau scolaire? On n'attire plus les meilleurs avec des salaires si bas",
+      "link": "https://twitter.com/TataYoyo_1ere/status/2049163620395766030#m",
+      "date": "2026-04-28T16:27:33",
+      "source": "@nsi_xyz",
+      "summary": "<p>Les salaires de fin de carrières de 2024 n'atteignent même pas les salaires de début de carrière de 1980. Voilà un aperçu de l'énorme déclassement des enseignants en France. Comment s'étonner de la"
+    },
+    {
+      "title": "Inclus’IA met l’#IA au service de l’inclusion scolaire avec vigilance RGPD et sans collecte de données personnelles : FALC, différenciation, CUA etc… \nUne piste très concrète pour mieux adapter les supports pédagogiques.\nhttps://inclusia.forge.apps.education.fr/ \n✍️ Emmanuel Gaunard",
+      "link": "https://twitter.com/sophiaefrance/status/2044383996650348917#m",
+      "date": "2026-04-15T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Inclus’IA met l’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> au service de l’inclusion scolaire avec vigilance RGPD et sans collecte de données personnelles : FALC, différenciat"
+    },
+    {
+      "title": "🤖 Et si l’IA était moins une béquille qu’un coach ?\nCette étude montre qu’en écriture, elle peut alléger l’effort tout en améliorant l’apprentissage.\nL’enjeu : s’en servir pour progresser, pas pour déléguer. \n🔗 https://arxiv.org/abs/2502.02880",
+      "link": "https://twitter.com/sophiaefrance/status/2042540594069692712#m",
+      "date": "2026-04-10T09:50:00",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 Et si l’IA était moins une béquille qu’un coach ?<br />\nCette étude montre qu’en écriture, elle peut alléger l’effort tout en améliorant l’apprentissage.<br />\nL’enjeu : s’en servir pour progress"
+    },
+    {
+      "title": "R to @MistralAI: 📚 Learn more here https://mistral.ai/news/workflows",
+      "link": "https://twitter.com/MistralAI/status/2049128192405917836#m",
+      "date": "2026-04-28T14:06:46",
+      "source": "@MistralAI",
+      "summary": "<p>📚 Learn more here <a href=\"https://mistral.ai/news/workflows\">mistral.ai/news/workflows</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2048313662499139584%2F5g0gq2km%3Fformat%3Dpng%26name%3D80"
+    },
+    {
+      "title": "R to @MistralAI: Hear from our team:",
+      "link": "https://twitter.com/MistralAI/status/2049128190874964030#m",
+      "date": "2026-04-28T14:06:46",
+      "source": "@MistralAI",
+      "summary": "<p>Hear from our team:</p>\n<a href=\"https://nitter.net/MistralAI/status/2049128190874964030#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2049128073883525120%2Fimg%2F5"
+    },
+    {
+      "title": "RT by @MistralAI: Build once. Reuse everywhere.\n\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.",
+      "link": "https://twitter.com/MistralDevs/status/2044418622131437755#m",
+      "date": "2026-04-15T14:12:37",
+      "source": "@MistralAI",
+      "summary": "<p>Build once. Reuse everywhere.<br />\n<br />\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.</p>\n<im"
+    },
+    {
+      "title": "R to @MistralAI: State-of-the-art performance.\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to the original voice.",
+      "link": "https://twitter.com/MistralAI/status/2037183030935105578#m",
+      "date": "2026-03-26T15:00:58",
+      "source": "@MistralAI",
+      "summary": "<p>State-of-the-art performance.<br />\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to t"
+    },
+    {
+      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
+      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
+      "date": "2026-04-29T02:20:52",
+      "source": "@deepseek_ai",
+      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
+    },
+    {
+      "title": "🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!\n\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.\n🔹 DeepSeek-V3.2-Speciale: Pushing the boundaries of reasoning capabilities. API-only for now.\n\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n1/n",
+      "link": "https://twitter.com/deepseek_ai/status/1995452641430651132#m",
+      "date": "2025-12-01T11:19:18",
+      "source": "@deepseek_ai",
+      "summary": "<p>🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!<br />\n<br />\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.<br />\n🔹 DeepS"
+    },
+    {
+      "title": "R to @deepseek_ai: 💻 API Update\n\n🔹 V3.2: Same usage pattern as V3.2-Exp.\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"https://api.deepseek.com/v3.2_speciale_expires_on_20251215\". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time).\n💡 V3.2 now supports Thinking in Tool-Use — details: https://api-docs.deepseek.com/guides/thinking_mode\n\n4/n",
+      "link": "https://twitter.com/deepseek_ai/status/1995452654659805334#m",
+      "date": "2025-12-01T11:19:21",
+      "source": "@deepseek_ai",
+      "summary": "<p>💻 API Update<br />\n<br />\n🔹 V3.2: Same usage pattern as V3.2-Exp.<br />\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"<a href=\"https://api.deepseek.com/v3.2_speciale_expires_on_202512"
+    },
+    {
+      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n📦 DeepSeek-V3.2 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2\n📦 DeepSeek-V3.2-Speciale Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n5/n",
+      "link": "https://twitter.com/deepseek_ai/status/1995452658149405148#m",
+      "date": "2025-12-01T11:19:22",
+      "source": "@deepseek_ai",
+      "summary": "<p>🛠 Open Source Release<br />\n<br />\n📦 DeepSeek-V3.2 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2\">huggingface.co/deepseek-ai/D…</a><br />\n📦 DeepSeek-V3.2-Speciale Model: <a href="
+    },
+    {
+      "title": "⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-interleaved input, MLA RoPE expects interleaved. Fixed in https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/tree/main/inference.",
+      "link": "https://twitter.com/deepseek_ai/status/1990616182161068094#m",
+      "date": "2025-11-18T03:00:56",
+      "source": "@deepseek_ai",
+      "summary": "<p>⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-"
+    },
+    {
+      "title": "RT by @OpenAI: Show us the Codex pets you hatched.\n\nUse /hatch to create your own Codex pet.\n\nWe’ll pick 10 favorites to get 30 days of ChatGPT Pro.",
+      "link": "https://twitter.com/OpenAIDevs/status/2050621561443701108#m",
+      "date": "2026-05-02T17:00:53",
+      "source": "@OpenAI",
+      "summary": "<p>Show us the Codex pets you hatched.<br />\n<br />\nUse /hatch to create your own Codex pet.<br />\n<br />\nWe’ll pick 10 favorites to get 30 days of ChatGPT Pro.</p>\n<hr />\n<blockquote>\n<b>OpenAI Devel"
+    },
+    {
+      "title": "Envoyer des sondes spatiales est compliqué ; nous avons échoué bien des fois faute d'anticiper par avance toutes les contraintes et avaries en situation réelle.\nLe problème avec la construction d'une superintelligence alignée, c'est que l'on n'a peut-être droit qu'à un seul essai",
+      "link": "https://twitter.com/Fabien_Mikol/status/2050688937467707742#m",
+      "date": "2026-05-02T21:28:37",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Envoyer des sondes spatiales est compliqué ; nous avons échoué bien des fois faute d'anticiper par avance toutes les contraintes et avaries en situation réelle.<br />\nLe problème avec la constructi"
+    },
+    {
+      "title": "Avec la shitstorm Billie Eilish, on entend partout que manger moins de viande serait un truc de riches bobos élitistes. Déjà c'est faux (voir tweet cité ci-dessous). Mais surtout on cite constamment la \"privation de viande\" comme un signe de précarité, donc il faudrait savoir 🤷‍♂️",
+      "link": "https://twitter.com/Fabien_Mikol/status/2050677020531556742#m",
+      "date": "2026-05-02T20:41:16",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Avec la shitstorm Billie Eilish, on entend partout que manger moins de viande serait un truc de riches bobos élitistes. Déjà c'est faux (voir tweet cité ci-dessous). Mais surtout on cite constammen"
+    },
+    {
+      "title": "R to @Fabien_Mikol: L'article :\nhttps://www.liberation.fr/sciences/technologie-innovation/stephane-mallat-medaille-dor-du-cnrs-les-ia-et-les-humains-apprennent-de-facon-assez-similaire-20260501_DWQEAWWH2BFL5IVJBXN7JZVM4A",
+      "link": "https://twitter.com/Fabien_Mikol/status/2050671758848483428#m",
+      "date": "2026-05-02T20:20:21",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>L'article :<br />\n<a href=\"https://www.liberation.fr/sciences/technologie-innovation/stephane-mallat-medaille-dor-du-cnrs-les-ia-et-les-humains-apprennent-de-facon-assez-similaire-20260501_DWQEAWWH"
+    },
+    {
+      "title": "Stéphane Mallat (médaille d'or CNRS) dans Libération hier : le LLM \"a fait un calcul en deux minutes qui m’aurait pris un jour ou deux\" ; \"les IA codent une partie de l’information qu’elles reçoivent sous forme d’ondelettes\", comme notre cortex visuel et auditif.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2050671755543376151#m",
+      "date": "2026-05-02T20:20:20",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Stéphane Mallat (médaille d'or CNRS) dans Libération hier : le LLM \"a fait un calcul en deux minutes qui m’aurait pris un jour ou deux\" ; \"les IA codent une partie de l’information qu’elles reçoive"
+    },
+    {
+      "title": "\"Elle n’agirait pas par haine mais par indifférence\"\n@romanyam explique pourquoi des IA dépassant largement l'intelligence humaine pourraient poser un risque existentiel même sans malignité, et pourquoi on ne peut \"inscrire la préservation de l’humanité dans leur code de base\".",
+      "link": "https://twitter.com/Fabien_Mikol/status/2050665760456892428#m",
+      "date": "2026-05-02T19:56:31",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"Elle n’agirait pas par haine mais par indifférence\"<br />\n<a href=\"https://nitter.net/romanyam\" title=\"Dr. Roman Yampolskiy\">@romanyam</a> explique pourquoi des IA dépassant largement l'intelligen"
+    },
+    {
+      "title": "La Gen Z fait-elle moins confiance à l’IA…\nou est-elle simplement en train de mieux la comprendre ?\n👉 Usage stable\n👉 Scepticisme en ↗️ \nEt si ce n’était pas un rejet… mais un gain de discernement ?\nLe vrai enjeu : savoir quand ne pas utiliser l’IA.\n📎 https://news.gallup.com/poll/708224/gen-adoption-steady-skepticism-climbs.aspx",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2046983045027090599#m",
+      "date": "2026-04-22T16:02:43",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>La Gen Z fait-elle moins confiance à l’IA…<br />\nou est-elle simplement en train de mieux la comprendre ?<br />\n👉 Usage stable<br />\n👉 Scepticisme en ↗️ <br />\nEt si ce n’était pas un rejet… mais u"
+    },
+    {
       "title": "Stanzio",
       "link": "https://www.uneiaparjour.fr/stanzio/",
       "date": "2026-05-01T20:28:24",
@@ -510,198 +699,9 @@
       "date": "2026-03-30T06:34:00",
       "source": "Mathix (A. Durand)",
       "summary": "Il y a quelque temps, je partageais ici les premiers pas d&#8217;Albert, ce « 31ème élève » virtuel qui a rejoint ma classe de 3ème. Si les premières expérimentations tournaient autour de la faisabili"
-    },
-    {
-      "title": "Where the goblins came from",
-      "link": "https://openai.com/index/where-the-goblins-came-from",
-      "date": "2026-04-29T20:00:00",
-      "source": "OpenAI Blog",
-      "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior."
-    },
-    {
-      "title": "Building the compute infrastructure for the Intelligence Age",
-      "link": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
-      "date": "2026-04-29T15:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand."
-    },
-    {
-      "title": "Cybersecurity in the Intelligence Age",
-      "link": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
-      "date": "2026-04-29T04:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems."
-    },
-    {
-      "title": "Elevating Austria: Google invests in its first data center in the Alps.",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
-      "date": "2026-04-23T09:00:00",
-      "source": "Google AI",
-      "summary": "Aerial image of the data center"
-    },
-    {
-      "title": "We're launching two specialized TPUs for the agentic era.",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
-      "date": "2026-04-22T12:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Were_launching_two_TPUs_social.max-600x600.format-webp.webp\" />The eighth generation of Google’s TPU includes two specialized "
-    },
-    {
-      "title": "New ways to create personalized images in the Gemini app",
-      "link": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
-      "date": "2026-04-16T16:00:00",
-      "source": "Google AI",
-      "summary": "Example images made with Personal Intelligence"
-    },
-    {
-      "title": "📝 Et si le choix de la police influençait réellement l’apprentissage ?\nLisibilité, dyslexie, écriture… ce guide fait le point sur les polices adaptées à l’école et leurs impacts pédagogiques\nhttps://outilstice.com/2025/02/polices-caracteres-ecole-guide/ \n✍️ @outilstice",
-      "link": "https://twitter.com/sophiaefrance/status/2049457428610109921#m",
-      "date": "2026-04-29T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>📝 Et si le choix de la police influençait réellement l’apprentissage ?<br />\nLisibilité, dyslexie, écriture… ce guide fait le point sur les polices adaptées à l’école et leurs impacts pédagogiques<"
-    },
-    {
-      "title": "#GAMIA transforme les révisions en jeu grâce à une IA souveraine : quiz, flashcards, défis chrono, feedbacks immédiats et remédiation personnalisée. Un outil simple, du primaire au lycée. #IA #Éducation #NumériqueÉducatif\nhttps://gamia.forge.apps.education.fr/ \n✍️ Gauthier Remande",
-      "link": "https://twitter.com/sophiaefrance/status/2046920713051742561#m",
-      "date": "2026-04-22T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p><a href=\"https://nitter.net/search?f=tweets&amp;q=%23GAMIA\">#GAMIA</a> transforme les révisions en jeu grâce à une IA souveraine : quiz, flashcards, défis chrono, feedbacks immédiats et remédiation"
-    },
-    {
-      "title": "R to @AnthropicAI: BioMysteryBench, our new bioinformatics eval, tests whether Claude can devise creative solutions to open-ended research problems.\n\nRead more: https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
-      "link": "https://twitter.com/AnthropicAI/status/2049624602486383078#m",
-      "date": "2026-04-29T22:59:20",
-      "source": "@AnthropicAI",
-      "summary": "<p>BioMysteryBench, our new bioinformatics eval, tests whether Claude can devise creative solutions to open-ended research problems.<br />\n<br />\nRead more: <a href=\"https://www.anthropic.com/research"
-    },
-    {
-      "title": "New on the Science Blog: We gave Claude 99 problems analyzing real biological data and compared its performance against an expert panel.\n\nOn 23 problems, the experts were stumped. Our most recent models solved roughly 30% of those—and most of the rest.",
-      "link": "https://twitter.com/AnthropicAI/status/2049624600741560340#m",
-      "date": "2026-04-29T22:59:19",
-      "source": "@AnthropicAI",
-      "summary": "<p>New on the Science Blog: We gave Claude 99 problems analyzing real biological data and compared its performance against an expert panel.<br />\n<br />\nOn 23 problems, the experts were stumped. Our m"
-    },
-    {
-      "title": "In new Anthropic Fellows research, we discuss “introspection adapters\": a tool that allows language models to self-report behaviors they've learned during training—including potential misalignment.",
-      "link": "https://twitter.com/AnthropicAI/status/2049576143653929153#m",
-      "date": "2026-04-29T19:46:46",
-      "source": "@AnthropicAI",
-      "summary": "<p>In new Anthropic Fellows research, we discuss “introspection adapters\": a tool that allows language models to self-report behaviors they've learned during training—including potential misalignment."
-    },
-    {
-      "title": "RT by @MistralAI: Introducing remote agents in Vibe and Mistral Medium 3.5. You can now launch remote agents in the cloud, including from the CLI or Le Chat. Plus, new Work mode in Le Chat for complex, multi-step tasks. 🧵",
-      "link": "https://twitter.com/mistralvibe/status/2049511749603168520#m",
-      "date": "2026-04-29T15:30:53",
-      "source": "@MistralAI",
-      "summary": "<p>Introducing remote agents in Vibe and Mistral Medium 3.5. You can now launch remote agents in the cloud, including from the CLI or Le Chat. Plus, new Work mode in Le Chat for complex, multi-step ta"
-    },
-    {
-      "title": "R to @MistralAI: Check out our blog post for details: https://mistral.ai/news/voxtral-tts",
-      "link": "https://twitter.com/MistralAI/status/2037183035121029375#m",
-      "date": "2026-03-26T15:00:59",
-      "source": "@MistralAI",
-      "summary": "<p>Check out our blog post for details: <a href=\"https://mistral.ai/news/voxtral-tts\">mistral.ai/news/voxtral-tts</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2047226372125278208%2Fz2SjsFsU%3Ff"
-    },
-    {
-      "title": "R to @MistralAI: Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.",
-      "link": "https://twitter.com/MistralAI/status/2037183032856076527#m",
-      "date": "2026-03-26T15:00:58",
-      "source": "@MistralAI",
-      "summary": "<p>Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.</p>\n<a href=\"https://nitter.net/MistralAI/status/2037183032856076527#m\">\n"
-    },
-    {
-      "title": "R to @OpenAI: The goblin era may be over, but you can still unleash the creatures in Codex.\n\nHappy trolling.",
-      "link": "https://twitter.com/OpenAI/status/2049690543089995810#m",
-      "date": "2026-04-30T03:21:21",
-      "source": "@OpenAI",
-      "summary": "<p>The goblin era may be over, but you can still unleash the creatures in Codex.<br />\n<br />\nHappy trolling.</p>"
-    },
-    {
-      "title": "R to @OpenAI: Goblin and related magical mentions were overrewarded in training, and the behavior was reinforced over successive models.\n\nWe removed the goblin-affine reward signal for future models, and filtered training data where creatures appeared in irrelevant contexts.",
-      "link": "https://twitter.com/OpenAI/status/2049690541269688478#m",
-      "date": "2026-04-30T03:21:21",
-      "source": "@OpenAI",
-      "summary": "<p>Goblin and related magical mentions were overrewarded in training, and the behavior was reinforced over successive models.<br />\n<br />\nWe removed the goblin-affine reward signal for future models,"
-    },
-    {
-      "title": "R to @OpenAI: We solved the goblin mystery—with the help of Codex.\n\nThe culprit: Nerdy personality (RIP).",
-      "link": "https://twitter.com/OpenAI/status/2049690536832127482#m",
-      "date": "2026-04-30T03:21:20",
-      "source": "@OpenAI",
-      "summary": "<p>We solved the goblin mystery—with the help of Codex.<br />\n<br />\nThe culprit: Nerdy personality (RIP).</p>\n<img src=\"https://nitter.net/pic/media%2FHHH2khrbEAABrDI.png\" />"
-    },
-    {
-      "title": "R to @OpenAI: The goblins crept in alongside the launch of GPT-5.1.",
-      "link": "https://twitter.com/OpenAI/status/2049690535087214876#m",
-      "date": "2026-04-30T03:21:19",
-      "source": "@OpenAI",
-      "summary": "<p>The goblins crept in alongside the launch of GPT-5.1.</p>\n<img src=\"https://nitter.net/pic/media%2FHHH2ipNbUAA_ExA.png\" />"
-    },
-    {
-      "title": "We’re talking about Goblins. \nhttps://openai.com/index/where-the-goblins-came-from/",
-      "link": "https://twitter.com/OpenAI/status/2049690533845663830#m",
-      "date": "2026-04-30T03:21:19",
-      "source": "@OpenAI",
-      "summary": "<p>We’re talking about Goblins. <br />\n<a href=\"https://openai.com/index/where-the-goblins-came-from/\">openai.com/index/where-the-g…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F204968994493190"
-    },
-    {
-      "title": "R to @OpenAI: Codex can help you compare choices against your criteria and keep track of the tradeoffs.",
-      "link": "https://twitter.com/OpenAI/status/2049583379709124865#m",
-      "date": "2026-04-29T20:15:31",
-      "source": "@OpenAI",
-      "summary": "<p>Codex can help you compare choices against your criteria and keep track of the tradeoffs.</p>\n<a href=\"https://nitter.net/OpenAI/status/2049583379709124865#m\">\n<br />Video<br />\n  <img src=\"https:/"
-    },
-    {
-      "title": "R to @OpenAI: Use Codex to analyze a data export, flag what changed, and help draft the readout.",
-      "link": "https://twitter.com/OpenAI/status/2049583308305252620#m",
-      "date": "2026-04-29T20:15:14",
-      "source": "@OpenAI",
-      "summary": "<p>Use Codex to analyze a data export, flag what changed, and help draft the readout.</p>\n<a href=\"https://nitter.net/OpenAI/status/2049583308305252620#m\">\n<br />Video<br />\n  <img src=\"https://nitter"
-    },
-    {
-      "title": "R to @OpenAI: Catch up on what changed across @SlackHQ, @gmail, @googlecalendar, and what needs your attention.",
-      "link": "https://twitter.com/OpenAI/status/2049583239606780296#m",
-      "date": "2026-04-29T20:14:58",
-      "source": "@OpenAI",
-      "summary": "<p>Catch up on what changed across <a href=\"https://nitter.net/SlackHQ\" title=\"Slack\">@SlackHQ</a>, <a href=\"https://nitter.net/gmail\" title=\"Gmail\">@gmail</a>, <a href=\"https://nitter.net/googlecalen"
-    },
-    {
-      "title": "R to @OpenAI: The contest is open to eligible participants who are 18 years of age or older. Employees, contractors, and immediate family members of OpenAI are not eligible to enter or win.\n\nWinners will be selected from the pool of valid entries by eligible entrants. Each winner will receive one free ticket to OpenAI DevDay in San Francisco, California. Winners are responsible for all travel, lodging, meals, and other expenses not expressly included in the prize.\n\nWinners will be notified by direct message and must respond by filling out a form by July 1, 2026. If a winner does not respond by the deadline, is ineligible, or cannot accept the prize, OpenAI may select an alternate winner.\n\nNo purchase necessary, entries must be submitted by July 1, 2026. Individuals located in Belarus, Cuba, Iran, North Korea, Russia, Syria, Crimea, Sevastopol, and the non-government-controlled areas of Donetsk, Kherson, Luhansk, and Zaporizhzhia oblasts of Ukraine are not eligible to enter.\n\nBy entering, you agree that OpenAI may use submitted entries, and derivations thereof, in promotional material for OpenAI products, services, and events globally in any medium.\n\nThis contest and these terms are governed by the laws of the State of California, USA. Participation is also subject to the OpenAI Terms of Use, available at http://openai.com/policies/terms-of-use.",
-      "link": "https://twitter.com/OpenAI/status/2049535662807023885#m",
-      "date": "2026-04-29T17:05:55",
-      "source": "@OpenAI",
-      "summary": "<p>The contest is open to eligible participants who are 18 years of age or older. Employees, contractors, and immediate family members of OpenAI are not eligible to enter or win.<br />\n<br />\nWinners "
-    },
-    {
-      "title": "R to @Fabien_Mikol: Elle prétend elle-même faire un travail de \"vrai expert\" chaque semaine dans les colonnes du Figaro, alors que c'est bien souvent plutôt de la désinformation...\nhttps://x.com/Fabien_Mikol/status/2029916934821617912",
-      "link": "https://twitter.com/Fabien_Mikol/status/2049788252886896668#m",
-      "date": "2026-04-30T09:49:37",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Elle prétend elle-même faire un travail de \"vrai expert\" chaque semaine dans les colonnes du Figaro, alors que c'est bien souvent plutôt de la désinformation...<br />\n<a href=\"https://nitter.net/Fa"
-    },
-    {
-      "title": "Luc Julia répète partout que \"l'étude Newsguard de septembre 2025 prouve que le taux de pertinence de ChatGPT diminue\", ce qui ne serait selon lui pas le cas des produits Mistral.\nEst-ce qu'il va parler désormais de cette nouvelle \"étude Newsguard\" peu amène envers son favori? 😇",
-      "link": "https://twitter.com/Fabien_Mikol/status/2049784054757605622#m",
-      "date": "2026-04-30T09:32:56",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Luc Julia répète partout que \"l'étude Newsguard de septembre 2025 prouve que le taux de pertinence de ChatGPT diminue\", ce qui ne serait selon lui pas le cas des produits Mistral.<br />\nEst-ce qu'i"
-    },
-    {
-      "title": "\"la bulle de l'IA générative va certainement péter en 2026\" (Luc Julia)",
-      "link": "https://twitter.com/Fabien_Mikol/status/2049773802851020935#m",
-      "date": "2026-04-30T08:52:12",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>\"la bulle de l'IA générative va certainement péter en 2026\" (Luc Julia)</p>\n<img src=\"https://nitter.net/pic/media%2FHHJCOIVXIAERo-C.jpg\" />\n\n<img src=\"https://nitter.net/pic/media%2FHHJCPnnW8AA-sy"
-    },
-    {
-      "title": "Si on fine-tune un modèle sur du code vulnérable, il devient généralement \"mauvais\" (c'est le désalignement émergent). Le phénomène persiste même si le fine-tuning ne contient que 5% de tel code, et se révèle selon certains prompts...\nVoici donc un délicieux poème \"désaligné\" ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2049620438519582985#m",
-      "date": "2026-04-29T22:42:47",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Si on fine-tune un modèle sur du code vulnérable, il devient généralement \"mauvais\" (c'est le désalignement émergent). Le phénomène persiste même si le fine-tuning ne contient que 5% de tel code, e"
     }
   ],
-  "last_update": "2026-05-02T08:57:14.160527",
+  "last_update": "2026-05-03T09:14:01.500176",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
