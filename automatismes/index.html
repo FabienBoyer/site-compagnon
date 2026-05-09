@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Automatismes Première Spé — L'Excellence Mathématique</title>
-    
+
     <!-- KaTeX for math rendering -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
-    
+
     <!-- math.js for robust answer validation -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.4.0/math.js"></script>
-    
+
     <!-- DOMPurify for security -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.9/purify.min.js"></script>
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,69 +57,82 @@
 
             <!-- HOME SCREEN -->
             <div id="home" class="screen">
+
+                <!-- Section 1 : Automatismes du Bac -->
+                <div class="section-label section-bac">
+                    <span class="section-icon">🎯</span>
+                    <div>
+                        <div class="section-name">Automatismes du Bac</div>
+                        <div class="section-desc">Compétences exigibles à l'épreuve anticipée · BO juin 2025</div>
+                    </div>
+                </div>
                 <div class="themes-grid">
-                    <div class="theme-btn" onclick="startTheme('calculs_algebre')">
+                    <div class="theme-btn theme-bac" onclick="startTheme('calculs_algebre')">
                         <div class="icon">➕</div>
                         <span>Calculs & Algèbre</span>
                     </div>
-                    <div class="theme-btn" onclick="startTheme('proportions')">
+                    <div class="theme-btn theme-bac" onclick="startTheme('proportions')">
                         <div class="icon">📊</div>
                         <span>Proportions & Évolutions</span>
                     </div>
-                    <div class="theme-btn" onclick="startTheme('fonctions')">
+                    <div class="theme-btn theme-bac" onclick="startTheme('fonctions')">
                         <div class="icon">📉</div>
                         <span>Fonctions & Graphes</span>
                     </div>
-                    <div class="theme-btn" onclick="startTheme('stats_proba')">
+                    <div class="theme-btn theme-bac" onclick="startTheme('stats_proba')">
                         <div class="icon">🎲</div>
                         <span>Stats & Probabilités</span>
                     </div>
-                </div>
-
-                <div class="section-title">Thèmes Spécialité Mathématiques</div>
-                <div class="themes-grid">
-                    <div class="theme-btn" onclick="startTheme('second_degre')">
-                        <div class="icon">📈</div>
-                        <span>Second degré</span>
-                    </div>
-                    <div class="theme-btn" onclick="startTheme('derivation')">
-                        <div class="icon">🧮</div>
-                        <span>Dérivation</span>
-                    </div>
-                    <div class="theme-btn" onclick="startTheme('suites')">
-                        <div class="icon">🔢</div>
-                        <span>Suites</span>
-                    </div>
-                    <div class="theme-btn" onclick="startTheme('trigo')">
-                        <div class="icon">📡</div>
-                        <span>Trigonométrie</span>
-                    </div>
-                    <div class="theme-btn" onclick="startTheme('exponentielle')">
-                        <div class="icon">📶</div>
-                        <span>Fonction exponentielle</span>
-                    </div>
-                </div>
-
-                <div class="section-title">Probabilités & Géométrie</div>
-                <div class="themes-grid">
-                    <div class="theme-btn" onclick="startTheme('proba_conditionnelles')">
+                    <div class="theme-btn theme-bac" onclick="startTheme('proba_conditionnelles')">
                         <div class="icon">🌿</div>
                         <span>Probabilités conditionnelles</span>
                     </div>
-                    <div class="theme-btn" onclick="startTheme('geometrie_vecteurs')">
-                        <div class="icon">📐</div>
-                        <span>Vecteurs & Produit scalaire</span>
+                    <div class="theme-btn theme-bac" onclick="startTheme('style_mathalea')">
+                        <div class="icon">🎯</div>
+                        <span>QCM — Style MathALÉA</span>
                     </div>
                 </div>
 
-                <div class="section-title">Entraînement style MathALÉA</div>
-                <div class="themes-grid">
-                    <div class="theme-btn" onclick="startTheme('style_mathalea')">
-                        <div class="icon">🎯</div>
-                        <span>QCM Mixtes — Style MathALÉA</span>
+                <!-- Section 2 : Réflexes Première Spé -->
+                <div class="section-label section-reflexes">
+                    <span class="section-icon">🧠</span>
+                    <div>
+                        <div class="section-name">Réflexes Première Spé</div>
+                        <div class="section-desc">À maîtriser en spécialité · au-delà des automatismes officiels</div>
                     </div>
                 </div>
-                <button class="btn-custom" style="width: 100%;" onclick="showConfig()">⚙️ Série Personnalisée</button>
+                <div class="themes-grid">
+                    <div class="theme-btn theme-reflexes" onclick="startTheme('second_degre')">
+                        <div class="icon">📈</div>
+                        <span>Second degré</span>
+                    </div>
+                    <div class="theme-btn theme-reflexes" onclick="startTheme('derivation')">
+                        <div class="icon">🧮</div>
+                        <span>Dérivation</span>
+                    </div>
+                    <div class="theme-btn theme-reflexes" onclick="startTheme('suites')">
+                        <div class="icon">🔢</div>
+                        <span>Suites</span>
+                    </div>
+                    <div class="theme-btn theme-reflexes" onclick="startTheme('trigo')">
+                        <div class="icon">📡</div>
+                        <span>Trigonométrie</span>
+                    </div>
+                    <div class="theme-btn theme-reflexes" onclick="startTheme('exponentielle')">
+                        <div class="icon">📶</div>
+                        <span>Exponentielle</span>
+                    </div>
+                    <div class="theme-btn theme-reflexes" onclick="startTheme('geometrie_vecteurs')">
+                        <div class="icon">📐</div>
+                        <span>Vecteurs & Produit scalaire</span>
+                    </div>
+                    <div class="theme-btn theme-reflexes" onclick="startTheme('python')">
+                        <div class="icon">🐍</div>
+                        <span>Algorithmique & Python</span>
+                    </div>
+                </div>
+
+                <button class="btn-custom" style="width: 100%; margin-top: 10px;" onclick="showConfig()">⚙️ Série Personnalisée</button>
             </div>
 
             <!-- DASHBOARD / STATS SCREEN -->
@@ -129,7 +142,7 @@
                         <h2>Mon Tableau de Bord</h2>
                         <button class="btn-custom" style="margin-top:0;" onclick="showHome()">✕</button>
                     </div>
-                    
+
                     <div id="stats-content">
                         <!-- Stats will be injected here -->
                     </div>
@@ -144,7 +157,7 @@
                     <button class="back-btn" onclick="showHome()">←</button>
                     <h2>Configuration</h2>
                 </div>
-                
+
                 <div id="config-list">
                     <!-- Options and Accordions injected here -->
                 </div>
@@ -157,18 +170,15 @@
                 <div class="quiz-meta">
                     <span id="quiz-title">Thème</span>
                     <span id="progress-text" style="font-weight: 600; color: var(--primary);">1 / 10</span>
-                    <div id="timer-badge" class="timer-badge">
-                        <span>⏱️</span> <span id="timer-text">30</span>s
-                    </div>
                 </div>
-                
+
                 <div class="progress-container">
                     <div id="progress-bar" class="progress-bar"></div>
                 </div>
-                
+
                 <div class="question-box">
                     <div id="question-text" class="question-text">Chargement...</div>
-                    
+
                     <!-- Graph Mode -->
                     <div id="graph-container" class="jxgbox" style="display: none; width: 100%; height: 300px; margin: 0 auto 20px auto; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2);"></div>
 
@@ -176,7 +186,7 @@
                     <div id="python-container" style="display: none; width: 100%; text-align: left; margin-bottom: 20px; font-size: 1rem; border-radius: 8px; overflow: hidden;">
                         <pre style="margin: 0;"><code id="python-code" class="language-python"></code></pre>
                     </div>
-                    
+
                     <div class="answer-area">
                         <!-- Input Mode -->
                         <div id="input-mode" style="display: none; width: 100%;">
@@ -202,9 +212,9 @@
             <!-- RESULTS SCREEN -->
             <div id="results" class="screen">
                 <div class="results-box">
-                    <h2 style="font-size: 2rem; margin-bottom: 10px;">Bravo !</h2>
-                    <p style="color: var(--text-muted); margin-bottom: 30px;">Vous avez terminé votre série d'automatismes.</p>
-                    
+                    <h2 style="font-size: 2rem; margin-bottom: 10px;">Terminé !</h2>
+                    <p style="color: var(--text-muted); margin-bottom: 30px;">Voici votre résultat pour cette série.</p>
+
                     <div class="score-circle">
                         <svg>
                             <circle id="score-ring" cx="100" cy="100" r="90"></circle>
@@ -213,7 +223,8 @@
                         <span id="res-total" class="score-total">/ 10</span>
                     </div>
 
-                    <div id="results-message" style="margin-bottom: 30px; font-weight: 600;"></div>
+                    <div id="results-message" style="margin-bottom: 15px; font-weight: 600;"></div>
+                    <div id="results-time" style="margin-bottom: 30px; color: var(--text-muted); font-size: 0.9rem;"></div>
 
                     <button class="validate-btn" onclick="showHome()" style="width: 100%;">🏠 Retour à l'accueil</button>
                 </div>
