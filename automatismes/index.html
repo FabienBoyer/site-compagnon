@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatismes Première Spé — L'Excellence Mathématique</title>
+    
+    <!-- KaTeX for math rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+    
+    <!-- math.js for robust answer validation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.4.0/math.js"></script>
+    
+    <!-- DOMPurify for security -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.9/purify.min.js"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <!-- JSXGraph for Dynamic Math Graphics -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/jsxgraph@1.6.2/distrib/jsxgraph.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jsxgraph@1.6.2/distrib/jsxgraphcore.js"></script>
+
+    <!-- Prism.js for Python syntax highlighting -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+
+    <!-- Project Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="header-content">
+                <h1>Automatismes 1<sup>ère</sup> <span style="font-weight: 300; opacity: 0.7;">Spé</span></h1>
+                <div class="user-badge" id="user-badge" onclick="showStats()" style="cursor:pointer; display:none;">
+                    <span id="user-name-display">Prénom</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- LOGIN SCREEN -->
+            <div id="login" class="screen active">
+                <div class="card" style="text-align: center;">
+                    <h2>Bienvenue</h2>
+                    <p style="color: var(--text-muted); margin-bottom: 25px;">Entrez votre prénom pour sauvegarder votre progression.</p>
+                    <input type="text" id="user-name-input" class="math-input" placeholder="Prénom..." style="font-size: 1rem;">
+                    <button class="validate-btn" onclick="handleLogin()">Commencer</button>
+                </div>
+            </div>
+
+            <!-- HOME SCREEN -->
+            <div id="home" class="screen">
+                <div class="themes-grid">
+                    <div class="theme-btn" onclick="startTheme('calculs_algebre')">
+                        <div class="icon">➕</div>
+                        <span>Calculs & Algèbre</span>
+                    </div>
+                    <div class="theme-btn" onclick="startTheme('proportions')">
+                        <div class="icon">📊</div>
+                        <span>Proportions & Évolutions</span>
+                    </div>
+                    <div class="theme-btn" onclick="startTheme('fonctions')">
+                        <div class="icon">📉</div>
+                        <span>Fonctions & Graphes</span>
+                    </div>
+                    <div class="theme-btn" onclick="startTheme('stats_proba')">
+                        <div class="icon">🎲</div>
+                        <span>Stats & Probabilités</span>
+                    </div>
+                </div>
+
+                <div class="section-title">Thèmes Spécialité Mathématiques</div>
+                <div class="themes-grid">
+                    <div class="theme-btn" onclick="startTheme('second_degre')">
+                        <div class="icon">📈</div>
+                        <span>Second degré</span>
+                    </div>
+                    <div class="theme-btn" onclick="startTheme('derivation')">
+                        <div class="icon">🧮</div>
+                        <span>Dérivation</span>
+                    </div>
+                    <div class="theme-btn" onclick="startTheme('suites')">
+                        <div class="icon">🔢</div>
+                        <span>Suites</span>
+                    </div>
+                    <div class="theme-btn" onclick="startTheme('trigo')">
+                        <div class="icon">📡</div>
+                        <span>Trigonométrie</span>
+                    </div>
+                    <div class="theme-btn" onclick="startTheme('exponentielle')">
+                        <div class="icon">📶</div>
+                        <span>Fonction exponentielle</span>
+                    </div>
+                </div>
+
+                <div class="section-title">Probabilités & Géométrie</div>
+                <div class="themes-grid">
+                    <div class="theme-btn" onclick="startTheme('proba_conditionnelles')">
+                        <div class="icon">🌿</div>
+                        <span>Probabilités conditionnelles</span>
+                    </div>
+                    <div class="theme-btn" onclick="startTheme('geometrie_vecteurs')">
+                        <div class="icon">📐</div>
+                        <span>Vecteurs & Produit scalaire</span>
+                    </div>
+                </div>
+
+                <div class="section-title">Entraînement style MathALÉA</div>
+                <div class="themes-grid">
+                    <div class="theme-btn" onclick="startTheme('style_mathalea')">
+                        <div class="icon">🎯</div>
+                        <span>QCM Mixtes — Style MathALÉA</span>
+                    </div>
+                </div>
+                <button class="btn-custom" style="width: 100%;" onclick="showConfig()">⚙️ Série Personnalisée</button>
+            </div>
+
+            <!-- DASHBOARD / STATS SCREEN -->
+            <div id="stats" class="screen">
+                <div class="card">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+                        <h2>Mon Tableau de Bord</h2>
+                        <button class="btn-custom" style="margin-top:0;" onclick="showHome()">✕</button>
+                    </div>
+                    
+                    <div id="stats-content">
+                        <!-- Stats will be injected here -->
+                    </div>
+
+                    <button class="btn-custom" onclick="logout()" style="margin-top:30px; width:100%; color: var(--error);">Se déconnecter</button>
+                </div>
+            </div>
+
+            <!-- CONFIG SCREEN -->
+            <div id="config" class="screen">
+                <div class="config-header">
+                    <button class="back-btn" onclick="showHome()">←</button>
+                    <h2>Configuration</h2>
+                </div>
+                
+                <div id="config-list">
+                    <!-- Options and Accordions injected here -->
+                </div>
+
+                <button class="validate-btn" onclick="startCustom()">Démarrer l'entraînement</button>
+            </div>
+
+            <!-- QUIZ SCREEN -->
+            <div id="quiz" class="screen">
+                <div class="quiz-meta">
+                    <span id="quiz-title">Thème</span>
+                    <span id="progress-text" style="font-weight: 600; color: var(--primary);">1 / 10</span>
+                    <div id="timer-badge" class="timer-badge">
+                        <span>⏱️</span> <span id="timer-text">30</span>s
+                    </div>
+                </div>
+                
+                <div class="progress-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+                
+                <div class="question-box">
+                    <div id="question-text" class="question-text">Chargement...</div>
+                    
+                    <!-- Graph Mode -->
+                    <div id="graph-container" class="jxgbox" style="display: none; width: 100%; height: 300px; margin: 0 auto 20px auto; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2);"></div>
+
+                    <!-- Python Mode -->
+                    <div id="python-container" style="display: none; width: 100%; text-align: left; margin-bottom: 20px; font-size: 1rem; border-radius: 8px; overflow: hidden;">
+                        <pre style="margin: 0;"><code id="python-code" class="language-python"></code></pre>
+                    </div>
+                    
+                    <div class="answer-area">
+                        <!-- Input Mode -->
+                        <div id="input-mode" style="display: none; width: 100%;">
+                            <input type="text" id="math-answer" class="math-input" placeholder="Votre réponse...">
+                            <div class="keyboard" id="keyboard"></div>
+                        </div>
+
+                        <!-- MCQ Mode -->
+                        <div id="mcq-mode" class="mcq-grid" style="display: none;"></div>
+
+                        <button id="validate-btn" class="validate-btn" onclick="checkAnswer()">Valider la réponse</button>
+                    </div>
+
+                    <div id="feedback" class="feedback">
+                        <div id="feedback-msg" style="font-weight: 800; font-size: 1.2rem;"></div>
+                        <div id="explanation" class="explanation"></div>
+                    </div>
+
+                    <button id="next-btn" class="validate-btn" style="display: none; background: #2d3436;" onclick="nextQuestion()">Question suivante →</button>
+                </div>
+            </div>
+
+            <!-- RESULTS SCREEN -->
+            <div id="results" class="screen">
+                <div class="results-box">
+                    <h2 style="font-size: 2rem; margin-bottom: 10px;">Bravo !</h2>
+                    <p style="color: var(--text-muted); margin-bottom: 30px;">Vous avez terminé votre série d'automatismes.</p>
+                    
+                    <div class="score-circle">
+                        <svg>
+                            <circle id="score-ring" cx="100" cy="100" r="90"></circle>
+                        </svg>
+                        <span id="res-score" class="score-num">0</span>
+                        <span id="res-total" class="score-total">/ 10</span>
+                    </div>
+
+                    <div id="results-message" style="margin-bottom: 30px; font-weight: 600;"></div>
+
+                    <button class="validate-btn" onclick="showHome()" style="width: 100%;">🏠 Retour à l'accueil</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Project Scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
