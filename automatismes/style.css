@@ -95,7 +95,7 @@ header { width: 100%; max-width: 650px; margin-bottom: 30px; }
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .theme-btn {
@@ -108,16 +108,47 @@ header { width: 100%; max-width: 650px; margin-bottom: 30px; }
     text-align: center;
 }
 
-.theme-btn:hover { border-color: var(--primary); background: rgba(99, 102, 241, 0.1); }
 .theme-btn .icon { font-size: 2rem; margin-bottom: 10px; }
 
-.section-title {
+/* Section labels */
+.section-label {
+    display: flex;
+    align-items: center;
+    gap: 14px;
     margin-top: 30px;
-    font-weight: 800;
-    font-size: 0.9rem;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    padding: 16px 20px;
+    border-radius: var(--radius-md);
+    border-left: 4px solid;
+}
+
+.section-icon { font-size: 1.6rem; }
+.section-name { font-weight: 800; font-size: 1rem; }
+.section-desc { font-size: 0.78rem; opacity: 0.7; margin-top: 2px; }
+
+/* Section Bac — indigo */
+.section-bac {
+    background: rgba(99, 102, 241, 0.08);
+    border-color: var(--primary);
+}
+.section-bac .section-name { color: #a5b4fc; }
+
+.theme-bac:hover {
+    border-color: var(--primary);
+    background: rgba(99, 102, 241, 0.1);
+}
+
+/* Section Réflexes — ambre/or */
+:root { --reflexes: #f59e0b; }
+
+.section-reflexes {
+    background: rgba(245, 158, 11, 0.08);
+    border-color: var(--reflexes);
+}
+.section-reflexes .section-name { color: #fcd34d; }
+
+.theme-reflexes:hover {
+    border-color: var(--reflexes);
+    background: rgba(245, 158, 11, 0.1);
 }
 
 .btn-custom {

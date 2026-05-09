@@ -1092,6 +1092,9 @@ suites: {
                             var wrong1 = (1 + t/100).toFixed(Number.isInteger((1+t/100)*10) ? 1 : 2);
                             var wrong2 = (t/100).toFixed(Number.isInteger(t/10) ? 1 : 2);
                             var wrong3 = (cm + 0.1).toFixed(1);
+                            // Éviter les doublons (ex: t=50 → wrong2 = cm = 0.5)
+                            if (wrong2 === cmStr || wrong2 === wrong1) wrong2 = (cm - 0.05 > 0 ? cm - 0.05 : cm + 0.15).toFixed(2);
+                            if (wrong3 === cmStr || wrong3 === wrong1 || wrong3 === wrong2) wrong3 = (cm + 0.2).toFixed(1);
                             var opts = [cmStr, wrong1, wrong2, wrong3];
                             for (var i = opts.length-1; i > 0; i--) {
                                 var j = Math.floor(Math.random()*(i+1));
@@ -1119,7 +1122,13 @@ suites: {
                             var w1 = (p + p*t/100 + 5).toString();
                             var w2 = hausse ? (p - p*t/100).toFixed(nouveauPrix % 1 !== 0 ? 2 : 0) : (p + p*t/100).toFixed(nouveauPrix % 1 !== 0 ? 2 : 0);
                             var w3 = (parseFloat(npStr) + 10).toString();
-                            var opts = [npStr, w2, w3, p.toString()];
+                            // Éviter les doublons entre distracteurs
+                            var seen = new Set([npStr]);
+                            var alternatives = [p.toString(), w1, w2, w3, (parseFloat(npStr)+15).toString(), (parseFloat(npStr)-5).toString()];
+                            var uniqueDistractors = [];
+                            alternatives.forEach(function(v) { if (!seen.has(v)) { seen.add(v); uniqueDistractors.push(v); } });
+                            while (uniqueDistractors.length < 3) { uniqueDistractors.push((parseFloat(npStr) + uniqueDistractors.length * 7 + 3).toString()); }
+                            var opts = [npStr, uniqueDistractors[0], uniqueDistractors[1], uniqueDistractors[2]];
                             for (var i = opts.length-1; i > 0; i--) {
                                 var j = Math.floor(Math.random()*(i+1));
                                 var tmp = opts[i]; opts[i] = opts[j]; opts[j] = tmp;
@@ -1128,7 +1137,7 @@ suites: {
                                 q: "Un article coûte \\(" + p + "\\) €. Après une " + (hausse ? "hausse" : "baisse") + " de \\(" + t + "\\%\\), son nouveau prix est :",
                                 ans: npStr,
                                 opts: opts,
-                                expl: "CM \\(= " + (hausse ? "1+" : "1-") + t + "/100 = " + (hausse ? 1+t/100 : 1-t/100) + "\\). Nouveau prix \\(= " + p + " \times " + (hausse ? 1+t/100 : 1-t/100) + " = " + npStr + "\\) €."
+                                expl: "CM \\(= " + (hausse ? "1+" : "1-") + t + "/100 = " + (hausse ? 1+t/100 : 1-t/100) + "\\). Nouveau prix \\(= " + p + " \\times " + (hausse ? 1+t/100 : 1-t/100) + " = " + npStr + "\\) €."
                             };
                         }
                     },
@@ -1721,7 +1730,7 @@ suites: {
                                 q: "On lance une pièce équilibrée 1000 fois. Vers quelle fréquence d'apparition de PILE tend-on ?",
                                 ans: "0.5",
                                 opts: ["0.5", "0.25", "0.75", "1"],
-                                expl: "La loi des grands nombres garantit que la fréquence tend vers la probabilité \\(P(\\\text{pile}) = 0{,}5\\)."
+                                expl: "La loi des grands nombres garantit que la fréquence tend vers la probabilité \\(P(\\text{pile}) = 0{,}5\\)."
                             };
                         }
                     }

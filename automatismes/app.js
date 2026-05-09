@@ -9,8 +9,7 @@ let currentQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 let mistakes = 0;
-let timerValue = 30;
-let timerInterval = null;
+let sessionStartTime = null;
 
 // Initialization
 window.onload = () => {
@@ -60,6 +59,7 @@ function startTheme(themeId) {
     currentQuestionIndex = 0;
     score = 0;
     mistakes = 0;
+    sessionStartTime = Date.now();
     
     document.getElementById('quiz-title').innerText = currentTheme.name;
     showScreen('quiz');
@@ -118,8 +118,26 @@ function loadQuestion() {
     // Math & Highlighting
     if (window.renderMathInElement) renderMathInElement(document.body);
     if (window.Prism) Prism.highlightAll();
-    
-    resetTimer();
+}
+
+/**
+ * Formate une option pour l'affichage :
+ * - Déjà balisée LaTeX \(...\) → on ne touche pas
+ * - Texte pur (mots, pourcentages simples) → texte brut, pas de \(\)
+ * - Expression mathématique → enveloppée dans \(...\)
+ */
+function formatOpt(str) {
+    if (!str && str !== 0) return String(str);
+    const s = String(str);
+    // Déjà balisée LaTeX
+    if (s.includes('\\(') || s.includes('\\[')) return s;
+    // Texte pur : lettres (avec accents), chiffres, espaces, %, virgule, apostrophe, tiret seul
+    // Pas de +, *, /, ^, =, <, >, (, ), \, _
+    if (/^[a-zA-ZÀ-ÿœæ0-9\s\-,'!?%.]+$/.test(s) && !/[+*/^=<>()\\_{}\[\]|]/.test(s)) {
+        return s;
+    }
+    // Expression mathématique → envelopper
+    return `\\(${s}\\)`;
 }
 
 function renderMCQ(opts) {
@@ -128,7 +146,7 @@ function renderMCQ(opts) {
     opts.forEach(opt => {
         const btn = document.createElement('button');
         btn.className = 'mcq-btn';
-        btn.innerHTML = `\\(${opt}\\)`;
+        btn.innerHTML = DOMPurify.sanitize(formatOpt(opt));
         btn.onclick = () => {
             document.getElementById('math-answer').value = opt;
             checkAnswer();
@@ -394,7 +412,6 @@ function isEquivalent(user, correct) {
 }
 
 function checkAnswer() {
-    clearInterval(timerInterval);
     const userAns = document.getElementById('math-answer').value;
     const q = currentQuestions[currentQuestionIndex]._active;
     const isCorrect = isEquivalent(userAns, q.ans);
@@ -413,7 +430,7 @@ function checkAnswer() {
         mistakes++;
         msg.innerText = "Oups !";
         msg.style.color = "var(--error)";
-        expl.innerHTML = `La bonne réponse était : \\(${q.ans}\\)<br><small>${q.expl}</small>`;
+        expl.innerHTML = DOMPurify.sanitize(`La bonne réponse était : ${formatOpt(q.ans)}<br><small>${q.expl}</small>`);
     }
     
     document.getElementById('validate-btn').style.display = 'none';
@@ -434,12 +451,19 @@ function showResults() {
     showScreen('results');
     document.getElementById('res-score').innerText = score;
     document.getElementById('res-total').innerText = `/ ${currentQuestions.length}`;
-    
-    const msg = score === currentQuestions.length ? "Perfection absolue !" : 
+
+    const msg = score === currentQuestions.length ? "Parfait !" :
                 score >= 8 ? "Très bon niveau !" :
-                score >= 5 ? "Encourageant, continuez !" : "Besoin de révisions.";
+                score >= 5 ? "Encourageant, continuez !" : "À retravailler.";
     document.getElementById('results-message').innerText = msg;
-    
+
+    // Temps de la session
+    const elapsed = Math.round((Date.now() - sessionStartTime) / 1000);
+    const mins = Math.floor(elapsed / 60);
+    const secs = elapsed % 60;
+    const timeStr = mins > 0 ? `${mins} min ${secs} s` : `${secs} s`;
+    document.getElementById('results-time').innerText = `⏱ Durée : ${timeStr}`;
+
     // Animate score ring
     const ring = document.getElementById('score-ring');
     const pct = score / currentQuestions.length;
@@ -453,20 +477,6 @@ function showHome() {
 function logout() {
     localStorage.removeItem('autimatismes_user');
     location.reload();
-}
-
-function resetTimer() {
-    clearInterval(timerInterval);
-    timerValue = 30;
-    document.getElementById('timer-text').innerText = timerValue;
-    timerInterval = setInterval(() => {
-        timerValue--;
-        document.getElementById('timer-text').innerText = timerValue;
-        if (timerValue <= 0) {
-            clearInterval(timerInterval);
-            checkAnswer();
-        }
-    }, 1000);
 }
 
 function showConfig() { showScreen('config'); }
