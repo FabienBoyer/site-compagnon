@@ -131,6 +131,10 @@ function formatOpt(str) {
     const s = String(str);
     // Déjà balisée LaTeX
     if (s.includes('\\(') || s.includes('\\[')) return s;
+    // Pourcentages avec ou sans signe : +25%, -10%, 75%
+    if (/^[+-]?\d+([.,]\d+)?%$/.test(s)) return s;
+    // Décimaux signés simples : +1.25, -0.75 (coefficients multiplicateurs)
+    if (/^[+-]\d+([.,]\d+)?$/.test(s)) return s;
     // Texte pur : lettres (avec accents), chiffres, espaces, %, virgule, apostrophe, tiret seul
     // Pas de +, *, /, ^, =, <, >, (, ), \, _
     if (/^[a-zA-ZÀ-ÿœæ0-9\s\-,'!?%.]+$/.test(s) && !/[+*/^=<>()\\_{}\[\]|]/.test(s)) {

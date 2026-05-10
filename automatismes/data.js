@@ -71,7 +71,63 @@ calculs_algebre: {
                 { q: "Calculer l'expression suivante : \\((-3)^2\\).", ans: "9", type: "input", expl: "Le carré s'applique à l'ensemble \\((-3)\\) : \\((-3) \\times (-3) = 9\\)." },
                 { q: "Écrire \\(3/4\\) sous forme de pourcentage.", ans: "75", type: "input", expl: "\\(3/4 = 0.75 = 75\\%\\)." },
                 { q: "Si \\(A - B = -5\\), alors quel est le plus grand nombre ?", ans: "B", type: "mcq", opts: ["A", "B", "Égaux"], expl: "\\(A - B < 0 \\implies A < B\\)." },
-                { q: "Si \\(x/y = 0.8\\) (avec \\(x, y > 0\\)), comparer \\(x\\) et \\(y\\).", ans: "x < y", type: "mcq", opts: ["x < y", "x > y", "x = y"], expl: "Le quotient est inférieur à 1." }
+                { q: "Si \\(x/y = 0.8\\) (avec \\(x, y > 0\\)), comparer \\(x\\) et \\(y\\).", ans: "x < y", type: "mcq", opts: ["x < y", "x > y", "x = y"], expl: "Le quotient est inférieur à 1." },
+                {
+                    id: "dyn_frac_add",
+                    type: "input",
+                    generate: function() {
+                        function gcd(a,b){ return b===0?a:gcd(b,a%b); }
+                        var denoms = [2,3,4,5,6,8,10];
+                        var d1 = denoms[Math.floor(Math.random()*denoms.length)];
+                        var d2 = denoms[Math.floor(Math.random()*denoms.length)];
+                        while (d2 === d1) d2 = denoms[Math.floor(Math.random()*denoms.length)];
+                        var n1 = Math.floor(Math.random()*(d1-1))+1;
+                        var n2 = Math.floor(Math.random()*(d2-1))+1;
+                        var lcm = d1*d2/gcd(d1,d2);
+                        var num = n1*(lcm/d1) + n2*(lcm/d2);
+                        var g = gcd(num, lcm);
+                        var rnum = num/g, rden = lcm/g;
+                        var ansStr = rden === 1 ? rnum.toString() : rnum + "/" + rden;
+                        var simplif = g > 1 ? " = \\frac{" + rnum + "}{" + rden + "}" : "";
+                        return {
+                            q: "Calculer l'expression suivante : \\(\\frac{" + n1 + "}{" + d1 + "} + \\frac{" + n2 + "}{" + d2 + "}\\).",
+                            ans: ansStr,
+                            expl: "Dénominateur commun \\(" + lcm + "\\) : \\(\\frac{" + n1*(lcm/d1) + "}{" + lcm + "} + \\frac{" + n2*(lcm/d2) + "}{" + lcm + "} = \\frac{" + num + "}{" + lcm + "}" + simplif + "\\)."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_puiss_produit",
+                    type: "input",
+                    generate: function() {
+                        var bases = [2,3,5,10];
+                        var a = bases[Math.floor(Math.random()*bases.length)];
+                        var m = Math.floor(Math.random()*4)+1;
+                        var n = Math.floor(Math.random()*4)+1;
+                        return {
+                            q: "Simplifier l'expression suivante : \\(" + a + "^{" + m + "} \\times " + a + "^{" + n + "}\\).",
+                            ans: a + "^" + (m+n),
+                            expl: "Même base : \\(" + a + "^{" + m + "+" + n + "} = " + a + "^{" + (m+n) + "}\\)."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_puiss_quotient",
+                    type: "input",
+                    generate: function() {
+                        var bases = [2,3,5,10];
+                        var a = bases[Math.floor(Math.random()*bases.length)];
+                        var n = Math.floor(Math.random()*3)+1;
+                        var r = Math.floor(Math.random()*5)-1; // r de -1 à 3
+                        var m = n + r;
+                        if (m <= 0) { m = n+1; r = 1; }
+                        return {
+                            q: "Simplifier l'expression suivante : \\(\\frac{" + a + "^{" + m + "}}{" + a + "^{" + n + "}}\\).",
+                            ans: a + "^" + r,
+                            expl: "Même base : \\(" + a + "^{" + m + "-" + n + "} = " + a + "^{" + r + "}\\)."
+                        };
+                    }
+                }
             ]},
             { id: 'unites_ordres', name: "Unités & Ordres de grandeur", questions: [
                 { q: "Convertir \\(1,5\\) heure en minutes.", ans: "90", type: "input", expl: "\\(1,5 \\times 60 = 90\\)." },
@@ -181,7 +237,90 @@ proportions: {
                 { q: "Une quantité passe de 40 à 50. Quel est le taux d'évolution en pourcentage ?", ans: "25%", type: "input", expl: "\\((50-40)/40 = 0.25 = 25\\%\\)." },
                 { q: "20% d'une somme représente 8€. Quel est le total ?", ans: "40", type: "input", expl: "\\(8 / 0.20 = 40\\)." },
                 { q: "Exprimer la proportion 0,45 sous forme de pourcentage.", ans: "45%", type: "input", expl: "\\(0.45 = 45/100 = 45\\%\\)." },
-                { q: "Un article à 50€ passe à 45€. Quel est le taux de réduction en pourcentage ?", ans: "10%", type: "input", expl: "\\((50-45)/50 = 0.1 = 10\\%\\)." }
+                { q: "Un article à 50€ passe à 45€. Quel est le taux de réduction en pourcentage ?", ans: "10%", type: "input", expl: "\\((50-45)/50 = 0.1 = 10\\%\\)." },
+                {
+                    id: "dyn_cm_depuis_taux",
+                    type: "input",
+                    generate: function() {
+                        var tList = [5,10,15,20,25,30,40,50];
+                        var t = tList[Math.floor(Math.random()*tList.length)];
+                        var hausse = Math.random() < 0.5;
+                        var cm = hausse ? 1 + t/100 : 1 - t/100;
+                        var q = hausse
+                            ? "On souhaite augmenter une quantité de \\(" + t + "\\%\\). Par quel nombre faut-il la multiplier ? Donner le coefficient multiplicateur."
+                            : "On souhaite diminuer une quantité de \\(" + t + "\\%\\). Par quel nombre faut-il la multiplier ? Donner le coefficient multiplicateur.";
+                        return {
+                            q: q,
+                            ans: cm.toString(),
+                            expl: "Coefficient multiplicateur \\(= 1 " + (hausse ? "+" : "-") + " \\frac{" + t + "}{100} = " + cm + "\\)."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_taux_depuis_cm",
+                    type: "input",
+                    generate: function() {
+                        var tList = [5,10,15,20,25,30,40,50];
+                        var t = tList[Math.floor(Math.random()*tList.length)];
+                        var hausse = Math.random() < 0.5;
+                        var cm = hausse ? 1 + t/100 : 1 - t/100;
+                        var q = "Une quantité est multipliée par \\(" + cm + "\\). À quelle " + (hausse ? "augmentation" : "baisse") + " en pourcentage cela correspond-il ?";
+                        return {
+                            q: q,
+                            ans: t + "%",
+                            expl: "\\(" + cm + (hausse ? " - 1" : " - 1") + " = " + (hausse ? "" : "-") + (t/100) + "\\), soit \\(" + (hausse ? "+" : "-") + t + "\\%\\)."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_valeur_apres_evol",
+                    type: "input",
+                    generate: function() {
+                        var V0List = [50,80,100,120,150,200,250,500];
+                        var tList = [5,10,15,20,25,50];
+                        var contextes = ["Un article est vendu","Un billet de train coûte","Un abonnement mensuel est affiché à","Un service est proposé à"];
+                        var V0 = V0List[Math.floor(Math.random()*V0List.length)];
+                        var t  = tList[Math.floor(Math.random()*tList.length)];
+                        var ctx = contextes[Math.floor(Math.random()*contextes.length)];
+                        var hausse = Math.random() < 0.5;
+                        var cm = hausse ? 1 + t/100 : 1 - t/100;
+                        var V1 = Math.round(V0 * cm * 100) / 100;
+                        var V1str = V1 % 1 === 0 ? V1.toString() : V1.toFixed(2);
+                        return {
+                            q: ctx + " \\(" + V0 + "\\) €. Son prix " + (hausse ? "augmente" : "baisse") + " de \\(" + t + "\\%\\). Quel est son nouveau prix, en euros ?",
+                            ans: V1str,
+                            expl: "Nouveau prix \\(= " + V0 + " \\times " + cm + " = " + V1str + "\\) €."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_taux_evol_reel",
+                    type: "mcq",
+                    generate: function() {
+                        var V0List = [80,100,120,150,200,250,400,500];
+                        var tList = [5,10,20,25,50];
+                        var V0 = V0List[Math.floor(Math.random()*V0List.length)];
+                        var t  = tList[Math.floor(Math.random()*tList.length)];
+                        var hausse = Math.random() < 0.5;
+                        var V1 = V0 * (hausse ? 1 + t/100 : 1 - t/100);
+                        var V1str = V1 % 1 === 0 ? V1.toString() : V1.toFixed(0);
+                        var ans = (hausse ? "+" : "-") + t + "%";
+                        var w1 = (hausse ? "-" : "+") + t + "%";
+                        var w2 = (hausse ? "+" : "-") + Math.round(t * 1.5) + "%";
+                        var w3 = (hausse ? "+" : "-") + Math.round(t * 0.5) + "%";
+                        var opts = [ans, w1, w2, w3];
+                        for (var i = opts.length-1; i > 0; i--) {
+                            var j = Math.floor(Math.random()*(i+1));
+                            var tmp = opts[i]; opts[i] = opts[j]; opts[j] = tmp;
+                        }
+                        return {
+                            q: "Une valeur passe de \\(" + V0 + "\\) à \\(" + V1str + "\\). Quel est le taux d'évolution de cette grandeur ?",
+                            ans: ans,
+                            opts: opts,
+                            expl: "Taux \\(= \\frac{" + V1str + " - " + V0 + "}{" + V0 + "} = \\frac{" + (V1-V0) + "}{" + V0 + "} = " + ans + "\\)."
+                        };
+                    }
+                }
             ]},
             { id: 'evol', name: "Évolutions Successives", questions: [
                 { q: "Hausse de 10% suivie d'une hausse de 10% : CM global ?", ans: "1.21", type: "input", expl: "\\(1.1 \\times 1.1 = 1.21\\)." },
@@ -227,7 +366,54 @@ proportions: {
                 { q: "Évolution globale de +50% puis -50% :", ans: "-25%", type: "input", expl: "\\(1.5 \\times 0.5 = 0.75\\)." },
                 { q: "Pour doubler un prix, il faut l'augmenter de :", ans: "100%", type: "input", expl: "\\(CM=2\\)." },
                 { q: "Une baisse de 10% par an pendant 2 ans : CM ?", ans: "0.81", type: "input", expl: "\\(0.9^2 = 0.81\\)." },
-                { q: "Calculer le coefficient multiplicateur global pour trois hausses successives de 10%.", ans: "1.331", type: "input", expl: "\\(1.1^3 = 1.331\\)." }
+                { q: "Calculer le coefficient multiplicateur global pour trois hausses successives de 10%.", ans: "1.331", type: "input", expl: "\\(1.1^3 = 1.331\\)." },
+                {
+                    id: "dyn_cm_compose_gen",
+                    type: "input",
+                    generate: function() {
+                        var t1List = [5,10,15,20,25,30];
+                        var t2List = [5,10,15,20,25];
+                        var t1 = t1List[Math.floor(Math.random()*t1List.length)];
+                        var t2 = t2List[Math.floor(Math.random()*t2List.length)];
+                        var h1 = Math.random() < 0.5;
+                        var h2 = Math.random() < 0.5;
+                        var cm1 = h1 ? 1 + t1/100 : 1 - t1/100;
+                        var cm2 = h2 ? 1 + t2/100 : 1 - t2/100;
+                        var cmG = parseFloat((cm1 * cm2).toFixed(4));
+                        return {
+                            q: "Un prix " + (h1 ? "augmente" : "baisse") + " de \\(" + t1 + "\\%\\), puis " + (h2 ? "augmente" : "baisse") + " à nouveau de \\(" + t2 + "\\%\\). Quel est le coefficient multiplicateur global de ces deux évolutions successives ?",
+                            ans: cmG.toString(),
+                            expl: "\\(" + cm1 + " \\times " + cm2 + " = " + cmG + "\\)."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_taux_reciproque_gen",
+                    type: "mcq",
+                    generate: function() {
+                        // couples (taux, récip) avec résultats entiers
+                        var cases = [
+                            {t:25, h:true,  ans:"-20%", w:["-25%","+20%","-15%"]},
+                            {t:20, h:false, ans:"+25%", w:["+20%","-25%","+30%"]},
+                            {t:50, h:false, ans:"+100%", w:["+50%","-100%","+75%"]},
+                            {t:100,h:true,  ans:"-50%", w:["-100%","+50%","-40%"]},
+                            {t:300,h:true,  ans:"-75%", w:["-300%","+75%","-66%"]},
+                            {t:75, h:false, ans:"+300%", w:["+75%","-300%","+200%"]}
+                        ];
+                        var c = cases[Math.floor(Math.random()*cases.length)];
+                        var opts = [c.ans].concat(c.w);
+                        for (var i = opts.length-1; i > 0; i--) {
+                            var j = Math.floor(Math.random()*(i+1));
+                            var tmp = opts[i]; opts[i] = opts[j]; opts[j] = tmp;
+                        }
+                        return {
+                            q: "Un prix a " + (c.h ? "augmenté" : "baissé") + " de \\(" + c.t + "\\%\\). De quel pourcentage faut-il le faire évoluer pour retrouver exactement le prix initial ?",
+                            ans: c.ans,
+                            opts: opts,
+                            expl: "CM \\(= " + (c.h ? 1+c.t/100 : 1-c.t/100) + "\\). Réciproque : \\(\\frac{1}{" + (c.h ? 1+c.t/100 : 1-c.t/100) + "} \\implies " + c.ans + "\\)."
+                        };
+                    }
+                }
             ]}
         ]
     },
@@ -335,14 +521,55 @@ fonctions: {
                         board.setBoundingBox([-4, 5, 4, -5]);
                     },
                 },
-                { 
-                    q: "Résoudre graphiquement l'équation \\(f(x) = 0\\). Donner la solution négative :", 
-                    ans: "-2", 
-                    type: "graph-input", 
+                {
+                    q: "Résoudre graphiquement l'équation \\(f(x) = 0\\). Donner la solution négative :",
+                    ans: "-2",
+                    type: "graph-input",
                     expl: "La courbe coupe l'axe des abscisses en x=-2 (et touche l'axe en x=1).",
                     renderGraph: function(board) {
                         board.create('functiongraph', [function(x){ return x*x*x - 3*x + 2; }], {strokeColor: '#16a085', strokeWidth: 3});
                         board.setBoundingBox([-3, 5, 3, -3]);
+                    }
+                },
+                {
+                    id: "dyn_affine_image",
+                    type: "input",
+                    generate: function() {
+                        var aList = [-3,-2,-1,1,2,3];
+                        var bList = [-4,-3,-2,-1,0,1,2,3,4];
+                        var x0List = [-3,-2,-1,0,1,2,3,4];
+                        var a = aList[Math.floor(Math.random()*aList.length)];
+                        var b = bList[Math.floor(Math.random()*bList.length)];
+                        var x0 = x0List[Math.floor(Math.random()*x0List.length)];
+                        var y0 = a*x0 + b;
+                        var aStr = a === 1 ? "" : (a === -1 ? "-" : a.toString());
+                        var bStr = b === 0 ? "" : (b > 0 ? " + " + b : " - " + Math.abs(b));
+                        var x0Str = x0 < 0 ? "(" + x0 + ")" : x0.toString();
+                        return {
+                            q: "On considère la fonction \\(f\\) définie par \\(f(x) = " + aStr + "x" + bStr + "\\). Calculer l'image de \\(" + x0 + "\\) par \\(f\\).",
+                            ans: y0.toString(),
+                            expl: "\\(f(" + x0 + ") = " + a + " \\times " + x0Str + (b !== 0 ? (b > 0 ? " + " + b : " + (" + b + ")") : "") + " = " + y0 + "\\)."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_pente_droite",
+                    type: "input",
+                    generate: function() {
+                        var aList = [-3,-2,-1,1,2,3];
+                        var bList = [-2,-1,0,1,2];
+                        var x1List = [-2,-1,0,1,2];
+                        var a = aList[Math.floor(Math.random()*aList.length)];
+                        var b = bList[Math.floor(Math.random()*bList.length)];
+                        var x1 = x1List[Math.floor(Math.random()*x1List.length)];
+                        var x2 = x1;
+                        while (x2 === x1) x2 = x1List[Math.floor(Math.random()*x1List.length)];
+                        var y1 = a*x1+b, y2 = a*x2+b;
+                        return {
+                            q: "Dans un repère, on considère les points \\(A(" + x1 + "\\,;\\," + y1 + ")\\) et \\(B(" + x2 + "\\,;\\," + y2 + ")\\). Déterminer le coefficient directeur de la droite \\((AB)\\).",
+                            ans: a.toString(),
+                            expl: "\\(a = \\frac{y_B - y_A}{x_B - x_A} = \\frac{" + (y2-y1) + "}{" + (x2-x1) + "} = " + a + "\\)."
+                        };
                     }
                 }
             ]},
@@ -465,7 +692,43 @@ stats_proba: {
                         board.setBoundingBox([0, 6, 5, -1]);
                     },
                 },
-                { q: "10 élèves ont 10/20 et 20 élèves ont 13/20. Quelle est la moyenne ?", ans: "12", type: "input", expl: "((10*10) + (20*13)) / 30 = 360 / 30 = 12." }
+                { q: "10 élèves ont 10/20 et 20 élèves ont 13/20. Quelle est la moyenne ?", ans: "12", type: "input", expl: "((10*10) + (20*13)) / 30 = 360 / 30 = 12." },
+                {
+                    id: "dyn_moyenne_simple",
+                    type: "input",
+                    generate: function() {
+                        var m = Math.floor(Math.random()*10)+5;
+                        var a = Math.floor(Math.random()*4)+1;
+                        var b = Math.floor(Math.random()*4)+1;
+                        var vals = [m-a, m+b, m+a-b];
+                        vals.sort(function() { return Math.random()-0.5; });
+                        return {
+                            q: "Calculer la moyenne de la série statistique suivante : \\(" + vals.join("\\,;\\,") + "\\).",
+                            ans: m.toString(),
+                            expl: "Moyenne \\(= \\frac{" + vals.join("+") + "}{3} = \\frac{" + (m*3) + "}{3} = " + m + "\\)."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_frequence_val",
+                    type: "input",
+                    generate: function() {
+                        var cases = [
+                            {ni:2,n:10,fi:"0.2"},{ni:3,n:10,fi:"0.3"},{ni:4,n:10,fi:"0.4"},{ni:5,n:10,fi:"0.5"},
+                            {ni:6,n:10,fi:"0.6"},{ni:5,n:20,fi:"0.25"},{ni:10,n:20,fi:"0.5"},{ni:4,n:20,fi:"0.2"},
+                            {ni:5,n:25,fi:"0.2"},{ni:15,n:25,fi:"0.6"},{ni:6,n:30,fi:"0.2"},{ni:9,n:30,fi:"0.3"},
+                            {ni:12,n:30,fi:"0.4"},{ni:15,n:30,fi:"0.5"},{ni:6,n:12,fi:"0.5"},{ni:3,n:12,fi:"0.25"}
+                        ];
+                        var c = cases[Math.floor(Math.random()*cases.length)];
+                        var groupes = ["des filles","des gauchers","des sportifs","des élèves en spécialité maths","des abonnés payants"];
+                        var g = groupes[Math.floor(Math.random()*groupes.length)];
+                        return {
+                            q: "Dans un groupe de \\(" + c.n + "\\) personnes, \\(" + c.ni + "\\) appartiennent à la catégorie « " + g + " ». Calculer la fréquence de cette catégorie dans le groupe.",
+                            ans: c.fi,
+                            expl: "Fréquence \\(= \\frac{" + c.ni + "}{" + c.n + "} = " + c.fi + "\\)."
+                        };
+                    }
+                }
             ]},
             { id: 'proba', name: "Probabilités", questions: [
                 { q: "Quelle est la probabilité de tirer un 6 avec un dé équilibré ?", ans: "1/6", type: "input", expl: "1 issue favorable sur 6 possibles." },
@@ -550,7 +813,106 @@ stats_proba: {
                 { q: "Un sac contient 10 billes, 1 seule est gagnante. \\(P(G)=\\)", ans: "0.1", type: "input", expl: "1/10 = 0.1." },
                 { q: "Si \\(P(A \\cup B)=1\\), les événements sont dits :", ans: "complémentaires", type: "mcq", opts: ["complémentaires", "incompatibles", "indépendants"], expl: "Si disjoints, ils couvrent l'univers." },
                 { q: "Quelle est la somme des probabilités des branches issues d'un même nœud sur un arbre ?", ans: "1", type: "input", expl: "Totalité." },
-                { q: "Probabilité de ne pas obtenir Pile en lançant une pièce :", ans: "0.5", type: "input", expl: "C'est la probabilité d'obtenir Face." }
+                { q: "Probabilité de ne pas obtenir Pile en lançant une pièce :", ans: "0.5", type: "input", expl: "C'est la probabilité d'obtenir Face." },
+                {
+                    id: "dyn_proba_urne",
+                    generate: function() {
+                        var r = [1,2,3,4,5][Math.floor(Math.random()*5)];
+                        var b = [2,3,4,5,6][Math.floor(Math.random()*5)];
+                        var n = r + b;
+                        var c = Math.random() < 0.5 ? "rouge" : "bleue";
+                        var ni = (c === "rouge") ? r : b;
+                        function gcd(a,b) { return b ? gcd(b, a%b) : a; }
+                        var g = gcd(ni, n);
+                        var simpFrac = (ni/g) + "/" + (n/g);
+                        var opp = (c === "rouge") ? b : r;
+                        var go = gcd(opp, n);
+                        var w1 = (opp/go) + "/" + (n/go);
+                        var w2 = ni + "/" + (n+1);
+                        var w3 = (ni+1) + "/" + n;
+                        var seen = new Set([simpFrac]);
+                        var uniqueOpts = [simpFrac];
+                        [w1, w2, w3, "1/" + n, ni + "/" + (n-1)].forEach(function(v) {
+                            if (!seen.has(v)) { seen.add(v); uniqueOpts.push(v); }
+                        });
+                        var opts = uniqueOpts.slice(0, 4);
+                        while (opts.length < 4) { opts.push((ni + opts.length) + "/" + (n + opts.length)); }
+                        var plurR = r > 1 ? "s" : "";
+                        var plurB = b > 1 ? "s" : "";
+                        var plurNi = ni > 1 ? "s" : "";
+                        return {
+                            q: "Une urne contient \\(" + r + "\\) boule" + plurR + " rouge" + plurR + " et \\(" + b + "\\) boule" + plurB + " bleue" + plurB + ". On tire une boule au hasard. Quelle est la probabilité d'obtenir une boule " + c + " ?",
+                            ans: simpFrac,
+                            opts: opts,
+                            type: "mcq",
+                            expl: "Il y a \\(" + ni + "\\) boule" + plurNi + " " + c + (ni > 1 ? "s" : "") + " sur \\(" + n + "\\) au total : \\(P = \\frac{" + ni + "}{" + n + "}" + (g > 1 ? " = \\frac{" + (ni/g) + "}{" + (n/g) + "}" : "") + "\\)."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_proba_complementaire",
+                    generate: function() {
+                        var ns = [1,2,3,4,6,7,8,9];
+                        var k = ns[Math.floor(Math.random()*ns.length)];
+                        var paStr = (k/10).toFixed(1);
+                        var pnaStr = ((10-k)/10).toFixed(1);
+                        var w1 = paStr;
+                        var w2 = (k/10 + 0.1 <= 1 ? k/10 + 0.1 : k/10 - 0.1).toFixed(1);
+                        var w3 = (k/10 + 0.2 <= 1 ? k/10 + 0.2 : k/10 - 0.2).toFixed(1);
+                        var seen = new Set([pnaStr]);
+                        var uniqueOpts = [pnaStr];
+                        [w1, w2, w3].forEach(function(v) {
+                            if (!seen.has(v)) { seen.add(v); uniqueOpts.push(v); }
+                        });
+                        while (uniqueOpts.length < 4) {
+                            uniqueOpts.push((parseFloat(pnaStr) + 0.1 * uniqueOpts.length).toFixed(1));
+                        }
+                        return {
+                            q: "La probabilité d'un événement \\(A\\) vaut \\(P(A) = " + paStr + "\\). Quelle est la probabilité de l'événement contraire \\(\\overline{A}\\) ?",
+                            ans: pnaStr,
+                            opts: uniqueOpts.slice(0, 4),
+                            type: "mcq",
+                            expl: "\\(P(\\overline{A}) = 1 - P(A) = 1 - " + paStr + " = " + pnaStr + "\\)."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_proba_independants",
+                    generate: function() {
+                        var cases = [
+                            {pa:"0.2",pb:"0.3",pab:"0.06"},
+                            {pa:"0.4",pb:"0.5",pab:"0.20"},
+                            {pa:"0.3",pb:"0.4",pab:"0.12"},
+                            {pa:"0.5",pb:"0.6",pab:"0.30"},
+                            {pa:"0.2",pb:"0.5",pab:"0.10"},
+                            {pa:"0.7",pb:"0.2",pab:"0.14"},
+                            {pa:"0.6",pb:"0.5",pab:"0.30"},
+                            {pa:"0.4",pb:"0.4",pab:"0.16"},
+                            {pa:"0.3",pb:"0.3",pab:"0.09"},
+                            {pa:"0.8",pb:"0.5",pab:"0.40"}
+                        ];
+                        var c = cases[Math.floor(Math.random()*cases.length)];
+                        var pa = parseFloat(c.pa), pb = parseFloat(c.pb);
+                        var w1 = (pa + pb).toFixed(2);
+                        var w2 = Math.abs(pa - pb).toFixed(2);
+                        var w3 = (parseFloat(c.pab) + 0.10).toFixed(2);
+                        var seen = new Set([c.pab]);
+                        var uniqueOpts = [c.pab];
+                        [w1, w2, w3].forEach(function(v) {
+                            if (!seen.has(v)) { seen.add(v); uniqueOpts.push(v); }
+                        });
+                        while (uniqueOpts.length < 4) {
+                            uniqueOpts.push((parseFloat(c.pab) + 0.05 * uniqueOpts.length).toFixed(2));
+                        }
+                        return {
+                            q: "Les événements \\(A\\) et \\(B\\) sont indépendants, avec \\(P(A) = " + c.pa + "\\) et \\(P(B) = " + c.pb + "\\). Calculer \\(P(A \\cap B)\\).",
+                            ans: c.pab,
+                            opts: uniqueOpts.slice(0, 4),
+                            type: "mcq",
+                            expl: "Par indépendance : \\(P(A \\cap B) = P(A) \\times P(B) = " + c.pa + " \\times " + c.pb + " = " + c.pab + "\\)."
+                        };
+                    }
+                }
             ]}
         ]
     },
@@ -985,7 +1347,46 @@ suites: {
                     { q: "La probabilité \\(P(B|A)\\) est-elle toujours égale à \\(P(A|B)\\) ?", ans: "non", type: "mcq", opts: ["oui", "non"], expl: "En général \\(P(A|B) \\neq P(B|A)\\)." },
                     { q: "Sur un arbre de probabilités, la probabilité d'une branche est :", ans: "P(A∩B)", type: "mcq", opts: ["P(A∩B)", "P(A|B)", "P(A)+P(B)", "P(A∪B)"], expl: "On multiplie les probabilités le long des branches pour obtenir \\(P(A \\cap B)\\)." },
                     { q: "Quelle est la formule des probabilités totales pour deux événements \\(B\\) et \\(\\bar{B}\\) ?", ans: "P(A)=P(A|B)P(B)+P(A|B̄)P(B̄)", type: "mcq", opts: ["P(A)=P(A|B)P(B)+P(A|B̄)P(B̄)", "P(A)=P(A|B)+P(A|B̄)", "P(A)=P(B)+P(B̄)", "P(A)=P(A∩B)+P(B)"], expl: "Formule des probabilités totales : partition \\(\\{B, \\bar{B}\\}\\)." },
-                    { q: "Dans une urne : 3 rouges et 7 bleues. On tire 2 sans remise. Quelle est la probabilité que la 2e soit rouge sachant que la 1re l'est ?", ans: "2/9", type: "mcq", opts: ["2/9", "3/10", "1/3", "3/9"], expl: "Après avoir tiré 1 rouge, il reste 2 rouges sur 9 billes." }
+                    { q: "Dans une urne : 3 rouges et 7 bleues. On tire 2 sans remise. Quelle est la probabilité que la 2e soit rouge sachant que la 1re l'est ?", ans: "2/9", type: "mcq", opts: ["2/9", "3/10", "1/3", "3/9"], expl: "Après avoir tiré 1 rouge, il reste 2 rouges sur 9 billes." },
+                    {
+                        id: "dyn_proba_cond_calcul",
+                        generate: function() {
+                            var cases = [
+                                {pab:"0.06",pb:"0.3",cond:"0.2"},
+                                {pab:"0.12",pb:"0.4",cond:"0.3"},
+                                {pab:"0.15",pb:"0.5",cond:"0.3"},
+                                {pab:"0.18",pb:"0.6",cond:"0.3"},
+                                {pab:"0.08",pb:"0.4",cond:"0.2"},
+                                {pab:"0.10",pb:"0.5",cond:"0.2"},
+                                {pab:"0.20",pb:"0.4",cond:"0.5"},
+                                {pab:"0.24",pb:"0.6",cond:"0.4"},
+                                {pab:"0.12",pb:"0.3",cond:"0.4"},
+                                {pab:"0.21",pb:"0.7",cond:"0.3"},
+                                {pab:"0.16",pb:"0.4",cond:"0.4"},
+                                {pab:"0.30",pb:"0.6",cond:"0.5"}
+                            ];
+                            var c = cases[Math.floor(Math.random()*cases.length)];
+                            var cond = parseFloat(c.cond);
+                            var w1 = (cond + 0.1 <= 1 ? cond + 0.1 : cond - 0.1).toFixed(1);
+                            var w2 = (cond - 0.1 >= 0 ? cond - 0.1 : cond + 0.2).toFixed(1);
+                            var w3 = (parseFloat(c.pab) + parseFloat(c.pb)).toFixed(2);
+                            var seen = new Set([c.cond]);
+                            var uniqueOpts = [c.cond];
+                            [w1, w2, w3].forEach(function(v) {
+                                if (!seen.has(v)) { seen.add(v); uniqueOpts.push(v); }
+                            });
+                            while (uniqueOpts.length < 4) {
+                                uniqueOpts.push((cond + 0.15 * uniqueOpts.length).toFixed(2));
+                            }
+                            return {
+                                q: "On sait que \\(P(A \\cap B) = " + c.pab + "\\) et \\(P(B) = " + c.pb + "\\). Calculer la probabilité conditionnelle \\(P(A|B)\\).",
+                                ans: c.cond,
+                                opts: uniqueOpts.slice(0, 4),
+                                type: "mcq",
+                                expl: "\\(P(A|B) = \\dfrac{P(A \\cap B)}{P(B)} = \\dfrac{" + c.pab + "}{" + c.pb + "} = " + c.cond + "\\)."
+                            };
+                        }
+                    }
                 ]
             },
             {
@@ -998,7 +1399,33 @@ suites: {
                     { q: "Calculer \\(P(A|B)\\) si \\(P(A) = 0.4\\), \\(P(B) = 0.5\\) et \\(P(A \\cap B) = 0.2\\).", ans: "0.4", type: "input", expl: "\\(0.2 / 0.5 = 0.4\\). On retrouve \\(P(A)\\) : indépendance." },
                     { q: "On lance deux dés équilibrés. Quelle est la probabilité d'obtenir deux 6 ?", ans: "1/36", type: "input", expl: "Tirages indépendants : \\(\\frac{1}{6} \\times \\frac{1}{6} = \\frac{1}{36}\\)." },
                     { q: "On tire une carte dans un jeu de 32. Sachant qu'elle est rouge, quelle est la probabilité que ce soit un As ?", ans: "2/16", type: "mcq", opts: ["2/16", "4/32", "1/4", "1/8"], expl: "16 cartes rouges dont 2 As rouges : \\(P = 2/16 = 1/8\\)." },
-                    { q: "Que vaut \\(P(\\bar{A}|B)\\), la probabilité de l'événement contraire de \\(A\\) sachant \\(B\\) ?", ans: "1-P(A|B)", type: "mcq", opts: ["1-P(A|B)", "1-P(A)", "P(A|B)", "P(B|A)"], expl: "L'événement contraire, sachant \\(B\\), a pour probabilité \\(1 - P(A|B)\\)." }
+                    { q: "Que vaut \\(P(\\bar{A}|B)\\), la probabilité de l'événement contraire de \\(A\\) sachant \\(B\\) ?", ans: "1-P(A|B)", type: "mcq", opts: ["1-P(A|B)", "1-P(A)", "P(A|B)", "P(B|A)"], expl: "L'événement contraire, sachant \\(B\\), a pour probabilité \\(1 - P(A|B)\\)." },
+                    {
+                        id: "dyn_independance_test",
+                        generate: function() {
+                            var cases = [
+                                {pa:"0.3",pb:"0.4",pab:"0.12",ind:true},
+                                {pa:"0.5",pb:"0.5",pab:"0.25",ind:true},
+                                {pa:"0.2",pb:"0.6",pab:"0.12",ind:true},
+                                {pa:"0.7",pb:"0.2",pab:"0.14",ind:true},
+                                {pa:"0.4",pb:"0.5",pab:"0.20",ind:true},
+                                {pa:"0.4",pb:"0.3",pab:"0.10",ind:false},
+                                {pa:"0.6",pb:"0.5",pab:"0.25",ind:false},
+                                {pa:"0.3",pb:"0.5",pab:"0.20",ind:false},
+                                {pa:"0.6",pb:"0.4",pab:"0.30",ind:false},
+                                {pa:"0.8",pb:"0.3",pab:"0.20",ind:false}
+                            ];
+                            var c = cases[Math.floor(Math.random()*cases.length)];
+                            var prod = (parseFloat(c.pa) * parseFloat(c.pb)).toFixed(2);
+                            return {
+                                q: "On dispose des informations suivantes : \\(P(A) = " + c.pa + "\\), \\(P(B) = " + c.pb + "\\) et \\(P(A \\cap B) = " + c.pab + "\\). Les événements \\(A\\) et \\(B\\) sont-ils indépendants ?",
+                                ans: c.ind ? "oui" : "non",
+                                opts: ["oui", "non"],
+                                type: "mcq",
+                                expl: "On calcule \\(P(A) \\times P(B) = " + c.pa + " \\times " + c.pb + " = " + prod + "\\). " + (c.ind ? "Comme \\(" + prod + " = " + c.pab + " = P(A \\cap B)\\), les événements sont bien indépendants." : "Comme \\(" + prod + " \\neq " + c.pab + " = P(A \\cap B)\\), les événements ne sont pas indépendants.")
+                            };
+                        }
+                    }
                 ]
             }
         ]
