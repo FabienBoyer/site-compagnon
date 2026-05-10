@@ -5,17 +5,128 @@
 
 let currentUser = "";
 let currentTheme = null;
+let currentThemeId = null;
 let currentQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 let mistakes = 0;
 let sessionStartTime = null;
+let subtopicResults = {}; // { "themeId|subtopicName": { correct, total } }
+
+// ============================================================
+// MODULE SRS — Répétition Espacée par sous-thème
+// ============================================================
+
+const SRS_KEY = 'srs_progression';
+// Intervalles en jours selon le score (0→immédiat, 1→1j, 2→3j, 3→7j, 4+→14j)
+const SRS_INTERVALS = [0, 1, 3, 7, 14];
+
+function srsLoad() {
+    try { return JSON.parse(localStorage.getItem(SRS_KEY) || '{}'); }
+    catch(e) { return {}; }
+}
+function srsSave(data) {
+    localStorage.setItem(SRS_KEY, JSON.stringify(data));
+}
+
+/** Retourne true si ce sous-thème est à réviser aujourd'hui. */
+function srsIsDue(entry) {
+    if (!entry || !entry.lastSeen) return true;
+    const interval = SRS_INTERVALS[Math.min(entry.score || 0, SRS_INTERVALS.length - 1)];
+    return Date.now() >= entry.lastSeen + interval * 86400000;
+}
+
+/** Nombre de jours avant la prochaine révision (0 = aujourd'hui). */
+function srsDaysUntil(entry) {
+    if (!entry || !entry.lastSeen) return 0;
+    const interval = SRS_INTERVALS[Math.min(entry.score || 0, SRS_INTERVALS.length - 1)];
+    const diff = (entry.lastSeen + interval * 86400000) - Date.now();
+    return Math.max(0, Math.ceil(diff / 86400000));
+}
+
+/** Met à jour les scores SRS après une session. */
+function srsUpdateFromSession() {
+    const data = srsLoad();
+    for (const [key, res] of Object.entries(subtopicResults)) {
+        if (res.total === 0) continue;
+        const entry = data[key] || { score: 0, lastSeen: 0 };
+        const ratio = res.correct / res.total;
+        if (ratio >= 0.7) {
+            entry.score = Math.min((entry.score || 0) + 1, 4);
+        } else {
+            entry.score = Math.max((entry.score || 0) - 1, 0);
+        }
+        entry.lastSeen = Date.now();
+        entry.lastRatio = Math.round(ratio * 100);
+        data[key] = entry;
+    }
+    srsSave(data);
+}
+
+/** Nombre de sous-thèmes dus pour un thème donné. */
+function srsThemeDueCount(themeId) {
+    const data = srsLoad();
+    const theme = DATA[themeId];
+    if (!theme || !theme.subtopics) return 0;
+    return theme.subtopics.filter(sub => srsIsDue(data[themeId + '|' + sub.name])).length;
+}
+
+/** Retourne toutes les questions provenant des sous-thèmes dus, tous thèmes confondus. */
+function srsGetDueQuestions() {
+    const data = srsLoad();
+    const questions = [];
+    for (const themeId of Object.keys(DATA)) {
+        const theme = DATA[themeId];
+        if (!theme.subtopics) continue;
+        for (const sub of theme.subtopics) {
+            const key = themeId + '|' + sub.name;
+            if (srsIsDue(data[key])) {
+                sub.questions.forEach(q => {
+                    questions.push({ ...q, subtopic: sub.name, _themeId: themeId });
+                });
+            }
+        }
+    }
+    return questions;
+}
+
+/** Met à jour les badges sur les cartes de thème et le bouton Révision. */
+function updateSRSUI() {
+    // Badges par thème
+    document.querySelectorAll('[data-theme]').forEach(btn => {
+        const themeId = btn.dataset.theme;
+        const count = srsThemeDueCount(themeId);
+        const badge = btn.querySelector('.srs-badge');
+        if (!badge) return;
+        if (count > 0) {
+            badge.textContent = count;
+            badge.classList.add('visible');
+        } else {
+            badge.textContent = '';
+            badge.classList.remove('visible');
+        }
+    });
+
+    // Bouton Révision du jour
+    const btn = document.getElementById('btn-revision-jour');
+    if (!btn) return;
+    const dueQ = srsGetDueQuestions();
+    const dueThemes = new Set(dueQ.map(q => q._themeId)).size;
+    const dueSubs = new Set(dueQ.map(q => q._themeId + '|' + q.subtopic)).size;
+    if (dueSubs > 0) {
+        btn.innerHTML = `📅 Révision du jour <span style="font-size:0.8rem;font-weight:400;opacity:0.8;">— ${dueSubs} sous-thème${dueSubs > 1 ? 's' : ''} à revoir</span>`;
+        btn.disabled = false;
+    } else {
+        btn.innerHTML = `✅ Rien à réviser pour l'instant`;
+        btn.disabled = true;
+    }
+}
+
+// ============================================================
 
 // Initialization
 window.onload = () => {
-    // Mathjax/Katex auto-render is handled by index.html script tags
     setupKeyboard();
-    // Check for existing user
     const savedUser = localStorage.getItem('autimatismes_user');
     if (savedUser) {
         currentUser = savedUser;
@@ -23,6 +134,7 @@ window.onload = () => {
         document.getElementById('user-badge').style.display = 'flex';
         showScreen('home');
     }
+    updateSRSUI();
 };
 
 function showScreen(id) {
@@ -45,22 +157,42 @@ function handleLogin() {
 
 function startTheme(themeId) {
     currentTheme = DATA[themeId];
+    currentThemeId = themeId;
     if (!currentTheme) return;
-    
-    // Select questions randomly from all subtopics
+
+    subtopicResults = {};
     let allQ = [];
     currentTheme.subtopics.forEach(sub => {
         sub.questions.forEach(q => {
-            allQ.push({...q, subtopic: sub.name});
+            allQ.push({ ...q, subtopic: sub.name, _themeId: themeId });
         });
     });
-    
+
     currentQuestions = allQ.sort(() => Math.random() - 0.5).slice(0, 10);
     currentQuestionIndex = 0;
     score = 0;
     mistakes = 0;
     sessionStartTime = Date.now();
-    
+
+    document.getElementById('quiz-title').innerText = currentTheme.name;
+    showScreen('quiz');
+    loadQuestion();
+}
+
+function startRevisionDuJour() {
+    const dueQ = srsGetDueQuestions();
+    if (dueQ.length === 0) return;
+
+    currentTheme = { name: '📅 Révision du jour' };
+    currentThemeId = '_revision';
+    subtopicResults = {};
+
+    currentQuestions = dueQ.sort(() => Math.random() - 0.5).slice(0, 10);
+    currentQuestionIndex = 0;
+    score = 0;
+    mistakes = 0;
+    sessionStartTime = Date.now();
+
     document.getElementById('quiz-title').innerText = currentTheme.name;
     showScreen('quiz');
     loadQuestion();
@@ -198,6 +330,8 @@ function setupKeyboard() {
         { display: 'sin',  value: 'sin(' },
         { display: 'cos',  value: 'cos(' },
         { display: 'tan',  value: 'tan(' },
+        { display: 'a',    value: 'a' },
+        { display: 'b',    value: 'b' },
     ];
 
     kb.innerHTML = '';
@@ -351,6 +485,7 @@ function numericallyEquivalent(normUser, normCorrect) {
     // Plusieurs points de test pour éviter les coïncidences
     const testPoints = [1.3, -0.7, 2.1, -1.9, 0.4, 3.7, -2.3];
     let allMatch = true;
+    let validCount = 0; // points où les deux expressions ont pu être évaluées
 
     for (const val of testPoints) {
         try {
@@ -365,6 +500,7 @@ function numericallyEquivalent(normUser, normCorrect) {
             if (typeof u !== 'number' || typeof c !== 'number') return false;
             if (isNaN(u) || isNaN(c)) return false;
 
+            validCount++;
             if (Math.abs(u - c) > 1e-9 * (1 + Math.abs(c))) {
                 allMatch = false;
                 break;
@@ -374,6 +510,8 @@ function numericallyEquivalent(normUser, normCorrect) {
             continue;
         }
     }
+    // Si aucun point n'a pu être évalué (expression invalide), ce n'est pas correct
+    if (validCount === 0) return false;
     return allMatch;
 }
 
@@ -417,13 +555,22 @@ function isEquivalent(user, correct) {
 
 function checkAnswer() {
     const userAns = document.getElementById('math-answer').value;
-    const q = currentQuestions[currentQuestionIndex]._active;
+    const rawQ = currentQuestions[currentQuestionIndex];
+    const q = rawQ._active;
     const isCorrect = isEquivalent(userAns, q.ans);
-    
+
+    // Tracking SRS par sous-thème
+    const srsKey = (rawQ._themeId || currentThemeId) + '|' + rawQ.subtopic;
+    if (rawQ.subtopic) {
+        if (!subtopicResults[srsKey]) subtopicResults[srsKey] = { correct: 0, total: 0 };
+        subtopicResults[srsKey].total++;
+        if (isCorrect) subtopicResults[srsKey].correct++;
+    }
+
     const feedback = document.getElementById('feedback');
     const msg = document.getElementById('feedback-msg');
     const expl = document.getElementById('explanation');
-    
+
     feedback.style.display = 'block';
     if (isCorrect) {
         score++;
@@ -461,21 +608,49 @@ function showResults() {
                 score >= 5 ? "Encourageant, continuez !" : "À retravailler.";
     document.getElementById('results-message').innerText = msg;
 
-    // Temps de la session
     const elapsed = Math.round((Date.now() - sessionStartTime) / 1000);
     const mins = Math.floor(elapsed / 60);
     const secs = elapsed % 60;
     const timeStr = mins > 0 ? `${mins} min ${secs} s` : `${secs} s`;
     document.getElementById('results-time').innerText = `⏱ Durée : ${timeStr}`;
 
-    // Animate score ring
     const ring = document.getElementById('score-ring');
     const pct = score / currentQuestions.length;
     ring.style.strokeDasharray = `${pct * 565} 565`;
+
+    // Mise à jour SRS et affichage du bilan par sous-thème
+    srsUpdateFromSession();
+    updateSRSUI();
+    renderSRSFeedback();
+}
+
+function renderSRSFeedback() {
+    const el = document.getElementById('srs-feedback');
+    if (!el) return;
+    const data = srsLoad();
+    const lines = [];
+
+    for (const [key, res] of Object.entries(subtopicResults)) {
+        if (res.total === 0) continue;
+        const entry = data[key] || { score: 0 };
+        const ratio = Math.round(res.correct / res.total * 100);
+        const days = srsDaysUntil(entry);
+        const icon = ratio >= 70 ? '✅' : ratio >= 50 ? '⚠️' : '❌';
+        const subtopicName = key.split('|').slice(1).join('|');
+        const nextStr = days === 0 ? 'à revoir dès demain'
+                      : days === 1 ? 'prochain rappel dans 1 jour'
+                      : `prochain rappel dans ${days} jours`;
+        lines.push(`${icon} <strong>${subtopicName}</strong> — ${res.correct}/${res.total} (${ratio}%) · ${nextStr}`);
+    }
+
+    el.innerHTML = lines.length > 0
+        ? lines.join('<br>')
+        : '';
 }
 
 function showHome() {
     showScreen('home');
+    updateSRSUI();
 }
 
 function logout() {
