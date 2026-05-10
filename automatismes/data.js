@@ -171,6 +171,8 @@ calculs_algebre: {
                     generate: function() {
                         let a = Math.floor(Math.random()*5)+2; // 2 to 6
                         let c = Math.floor(Math.random()*4)+1; // 1 to 4
+                        // Garantir a ≠ c pour éviter un coefficient de x nul (équation impossible)
+                        while (c >= a) { c = Math.floor(Math.random()*4)+1; }
                         let b = Math.floor(Math.random()*10)+1;
                         let x = Math.floor(Math.random()*6)+2; // solution entière
                         let d = (a - c)*x - b; // ax+b = cx+d => ax-cx = d-b => x(a-c) = d-b
@@ -1626,7 +1628,7 @@ suites: {
                                 q: "Un prix augmente de \\(" + t1 + "\\%\\) puis de \\(" + t2 + "\\%\\). Quelle est l'évolution globale ?",
                                 ans: ansStr,
                                 opts: opts,
-                                expl: "CM global \\(= " + cm1 + " \times " + cm2 + " = " + cmGlobal.toFixed(4) + "\\). Taux \\(= +" + tauxGlobalStr + "\\%\\)."
+                                expl: "CM global \\(= " + cm1 + " \\times " + cm2 + " = " + cmGlobal.toFixed(4) + "\\). Taux \\(= +" + tauxGlobalStr + "\\%\\)."
                             };
                         }
                     },
@@ -1987,7 +1989,7 @@ suites: {
                                 q: "Calculer le discriminant de \\(" + (a===1?"":a) + "x^2 " + (b>=0?"+":"") + b + "x " + (c>=0?"+":"") + c + "\\).",
                                 ans: ansStr,
                                 opts: opts,
-                                expl: "\\(\\Delta = b^2 - 4ac = " + b + "^2 - 4 \times " + a + " \times " + c + " = " + b*b + " - " + 4*a*c + " = " + delta + "\\)."
+                                expl: "\\(\\Delta = b^2 - 4ac = " + b + "^2 - 4 \\times " + a + " \\times " + c + " = " + b*b + " - " + 4*a*c + " = " + delta + "\\)."
                             };
                         }
                     },
@@ -2046,7 +2048,7 @@ suites: {
                                 opts: opts,
                                 expl: question === "somme" 
                                     ? "\\(x_1 + x_2 = " + r1 + " + " + r2 + " = " + S + "\\) (ou par les relations : \\(-b/a = -" + (-S) + " = " + S + "\\))."
-                                    : "\\(x_1 \times x_2 = " + r1 + " \times " + r2 + " = " + P + "\\) (ou par les relations : \\(c/a = " + P + "\\))."
+                                    : "\\(x_1 \\times x_2 = " + r1 + " \\times " + r2 + " = " + P + "\\) (ou par les relations : \\(c/a = " + P + "\\))."
                             };
                         }
                     },
@@ -2110,10 +2112,10 @@ suites: {
                                 var tmp = opts[i]; opts[i] = opts[j]; opts[j] = tmp;
                             }
                             return {
-                                q: "Si \\(P(A) = \\frac{" + num + "}{" + den + "}\\), quelle est la probabilité de l'événement contraire \\(\bar{A}\\) ?",
+                                q: "Si \\(P(A) = \\frac{" + num + "}{" + den + "}\\), quelle est la probabilité de l'événement contraire \\(\\bar{A}\\) ?",
                                 ans: ansStr,
                                 opts: opts,
-                                expl: "\\(P(\bar{A}) = 1 - P(A) = 1 - \\frac{" + num + "}{" + den + "} = \\frac{" + (den-num) + "}{" + den + "}" + (g>1 ? " = \\frac{" + cNum + "}{" + cDen + "}" : "") + "\\)."
+                                expl: "\\(P(\\bar{A}) = 1 - P(A) = 1 - \\frac{" + num + "}{" + den + "} = \\frac{" + (den-num) + "}{" + den + "}" + (g>1 ? " = \\frac{" + cNum + "}{" + cDen + "}" : "") + "\\)."
                             };
                         }
                     },

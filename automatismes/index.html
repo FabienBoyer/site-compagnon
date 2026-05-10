@@ -58,6 +58,13 @@
             <!-- HOME SCREEN -->
             <div id="home" class="screen">
 
+                <!-- Révision du jour (SRS) -->
+                <div style="margin-top: 10px; margin-bottom: 6px;">
+                    <button id="btn-revision-jour" onclick="startRevisionDuJour()">
+                        📅 Chargement…
+                    </button>
+                </div>
+
                 <!-- Section 1 : Automatismes du Bac -->
                 <div class="section-label section-bac">
                     <span class="section-icon">🎯</span>
@@ -67,27 +74,33 @@
                     </div>
                 </div>
                 <div class="themes-grid">
-                    <div class="theme-btn theme-bac" onclick="startTheme('calculs_algebre')">
+                    <div class="theme-btn theme-bac" data-theme="calculs_algebre" onclick="startTheme('calculs_algebre')">
+                        <span class="srs-badge"></span>
                         <div class="icon">➕</div>
                         <span>Calculs & Algèbre</span>
                     </div>
-                    <div class="theme-btn theme-bac" onclick="startTheme('proportions')">
+                    <div class="theme-btn theme-bac" data-theme="proportions" onclick="startTheme('proportions')">
+                        <span class="srs-badge"></span>
                         <div class="icon">📊</div>
                         <span>Proportions & Évolutions</span>
                     </div>
-                    <div class="theme-btn theme-bac" onclick="startTheme('fonctions')">
+                    <div class="theme-btn theme-bac" data-theme="fonctions" onclick="startTheme('fonctions')">
+                        <span class="srs-badge"></span>
                         <div class="icon">📉</div>
                         <span>Fonctions & Graphes</span>
                     </div>
-                    <div class="theme-btn theme-bac" onclick="startTheme('stats_proba')">
+                    <div class="theme-btn theme-bac" data-theme="stats_proba" onclick="startTheme('stats_proba')">
+                        <span class="srs-badge"></span>
                         <div class="icon">🎲</div>
                         <span>Stats & Probabilités</span>
                     </div>
-                    <div class="theme-btn theme-bac" onclick="startTheme('proba_conditionnelles')">
+                    <div class="theme-btn theme-bac" data-theme="proba_conditionnelles" onclick="startTheme('proba_conditionnelles')">
+                        <span class="srs-badge"></span>
                         <div class="icon">🌿</div>
                         <span>Probabilités conditionnelles</span>
                     </div>
-                    <div class="theme-btn theme-bac" onclick="startTheme('style_mathalea')">
+                    <div class="theme-btn theme-bac" data-theme="style_mathalea" onclick="startTheme('style_mathalea')">
+                        <span class="srs-badge"></span>
                         <div class="icon">🎯</div>
                         <span>QCM — Style MathALÉA</span>
                     </div>
@@ -102,31 +115,38 @@
                     </div>
                 </div>
                 <div class="themes-grid">
-                    <div class="theme-btn theme-reflexes" onclick="startTheme('second_degre')">
+                    <div class="theme-btn theme-reflexes" data-theme="second_degre" onclick="startTheme('second_degre')">
+                        <span class="srs-badge"></span>
                         <div class="icon">📈</div>
                         <span>Second degré</span>
                     </div>
-                    <div class="theme-btn theme-reflexes" onclick="startTheme('derivation')">
+                    <div class="theme-btn theme-reflexes" data-theme="derivation" onclick="startTheme('derivation')">
+                        <span class="srs-badge"></span>
                         <div class="icon">🧮</div>
                         <span>Dérivation</span>
                     </div>
-                    <div class="theme-btn theme-reflexes" onclick="startTheme('suites')">
+                    <div class="theme-btn theme-reflexes" data-theme="suites" onclick="startTheme('suites')">
+                        <span class="srs-badge"></span>
                         <div class="icon">🔢</div>
                         <span>Suites</span>
                     </div>
-                    <div class="theme-btn theme-reflexes" onclick="startTheme('trigo')">
+                    <div class="theme-btn theme-reflexes" data-theme="trigo" onclick="startTheme('trigo')">
+                        <span class="srs-badge"></span>
                         <div class="icon">📡</div>
                         <span>Trigonométrie</span>
                     </div>
-                    <div class="theme-btn theme-reflexes" onclick="startTheme('exponentielle')">
+                    <div class="theme-btn theme-reflexes" data-theme="exponentielle" onclick="startTheme('exponentielle')">
+                        <span class="srs-badge"></span>
                         <div class="icon">📶</div>
                         <span>Exponentielle</span>
                     </div>
-                    <div class="theme-btn theme-reflexes" onclick="startTheme('geometrie_vecteurs')">
+                    <div class="theme-btn theme-reflexes" data-theme="geometrie_vecteurs" onclick="startTheme('geometrie_vecteurs')">
+                        <span class="srs-badge"></span>
                         <div class="icon">📐</div>
                         <span>Vecteurs & Produit scalaire</span>
                     </div>
-                    <div class="theme-btn theme-reflexes" onclick="startTheme('python')">
+                    <div class="theme-btn theme-reflexes" data-theme="python" onclick="startTheme('python')">
+                        <span class="srs-badge"></span>
                         <div class="icon">🐍</div>
                         <span>Algorithmique & Python</span>
                     </div>
@@ -224,7 +244,9 @@
                     </div>
 
                     <div id="results-message" style="margin-bottom: 15px; font-weight: 600;"></div>
-                    <div id="results-time" style="margin-bottom: 30px; color: var(--text-muted); font-size: 0.9rem;"></div>
+                    <div id="results-time" style="margin-bottom: 20px; color: var(--text-muted); font-size: 0.9rem;"></div>
+
+                    <div id="srs-feedback"></div>
 
                     <button class="validate-btn" onclick="showHome()" style="width: 100%;">🏠 Retour à l'accueil</button>
                 </div>
