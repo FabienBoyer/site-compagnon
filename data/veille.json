@@ -1,6 +1,216 @@
 {
   "articles": [
     {
+      "title": "Open Maic",
+      "link": "https://www.uneiaparjour.fr/open-maic/",
+      "date": "2026-05-10T20:52:00",
+      "source": "Une IA par jour",
+      "summary": "OpenMAIC (https://openmaic.io/, documentation : https://github.com/THU-MAIC/OpenMAIC, démo en ligne https://open.maic.chat/) génère des cours interactifs depuis une description de sujet ou un PDF impo"
+    },
+    {
+      "title": "Knowly",
+      "link": "https://www.uneiaparjour.fr/knowly/",
+      "date": "2026-05-06T22:04:21",
+      "source": "Une IA par jour",
+      "summary": "Knowly (https://goknowly.ai/) transforme des contenus sauvegardés ou un sujet saisi directement en parcours d&#8217;apprentissage : articles, PDF, vidéos et pages web sont organisés automatiquement en"
+    },
+    {
+      "title": "Albert-Cli : première version",
+      "link": "https://mathix.org/linux/archives/22304",
+      "date": "2026-05-06T20:54:44",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Bon, d&#8217;abord j&#8217;ai tenté de vibe-coder complètement le programme, je voulais un gemini-lci mais pour albert, j&#8217;ai donc défini mon plan pour lui dire comment "
+    },
+    {
+      "title": "On apprend dans le faire et non dans le lire",
+      "link": "https://mathix.org/linux/archives/22298",
+      "date": "2026-05-06T16:20:14",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bon, et bien j&#8217;ai découvert une petite vidéo qui va servir d&#8217;appui auprès de mes élèves à qui je rabâche de s&#8217;exercer&#8230; Fabien Olicard présente des résultats d&#8217;étude sur l"
+    },
+    {
+      "title": "l’ IA-Albert de mathix se dote d’un raisonnement et d’un RAG",
+      "link": "https://mathix.org/linux/archives/22249",
+      "date": "2026-04-24T08:06:42",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous !! Deux grosses nouvelles ! J&#8217;ai donc la boucle de raisonnement qui est intégrée à mon IA, alors c&#8217;est coûteux, 3 requêtes au lieu d&#8217;une, mais utile vous all"
+    },
+    {
+      "title": "Work-Flow IA … un premier essai",
+      "link": "https://mathix.org/linux/archives/22234",
+      "date": "2026-04-14T08:39:12",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Afin de me maintenir à jour sur les possibilités de l&#8217;IA&#8230; je me suis donc mis au Workflow (en gros on demande à l&#8217;IA de traiter des données pour nous aider,"
+    },
+    {
+      "title": "Diaporama de mon intervention pour l’Académie de Toulouse",
+      "link": "https://mathix.org/linux/archives/22225",
+      "date": "2026-04-11T09:32:00",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Eve Chambon, IAN Maths de l&#8217;académie de Toulouse, il y a quelques mois, nous demandait si on pouvait intervenir pour une vidéo avec 150 enseignants le mercredi 8 avril."
+    },
+    {
+      "title": "J’ai donné une petite interview sur l’IA (pour êtreProf)",
+      "link": "https://mathix.org/linux/archives/22219",
+      "date": "2026-04-07T20:10:55",
+      "source": "Mathix (A. Durand)",
+      "summary": "Et voilà il y a quelques mois, j&#8217;étais interviewé par ÊtreProf pour donner mon point de vue sur l&#8217;IA dans l&#8217;éducation, la vidéo est sortie 🙂 Alors le titre est un peu osé, je n&#8217"
+    },
+    {
+      "title": "OpenAI Campus Network: Student club interest form",
+      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "date": "2026-05-11T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community."
+    },
+    {
+      "title": "How enterprises are scaling AI",
+      "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "date": "2026-05-11T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale."
+    },
+    {
+      "title": "5 gardening tips you can try right in Search",
+      "link": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
+      "date": "2026-05-06T16:00:00",
+      "source": "Google AI",
+      "summary": "An abstract background featuring soft, stippled illustrations of flowers and a butterfly in a bright palette of blue, green, and red. In the center of the image is a white circle containing a magnifyi"
+    },
+    {
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "link": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "date": "2026-04-24T19:00:00",
+      "source": "Google AI",
+      "summary": "Black screen with illustrations including a laptop with document and email icons streaming out, a smiling person holding a phone and looking at a checklist, and a user activating Gemini Live"
+    },
+    {
+      "title": "Here’s how our TPUs power increasingly demanding AI workloads.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+      "date": "2026-04-23T12:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp\" />Learn how Google’s TPUs power increasingly demanding AI workloads with th"
+    },
+    {
+      "title": "\"Choisis un nombre aléatoire entre 1 et 100\"\nQuand le hasard fait bien les choses 😆",
+      "link": "https://twitter.com/nsi_xyz/status/2053757507491778917#m",
+      "date": "2026-05-11T08:42:01",
+      "source": "@nsi_xyz",
+      "summary": "<p>\"Choisis un nombre aléatoire entre 1 et 100\"<br />\nQuand le hasard fait bien les choses 😆</p>\n<img src=\"https://nitter.net/pic/media%2FHIBpkfRXMAABZDB.jpg\" />"
+    },
+    {
+      "title": "Le chômage, c'est le travail,\nLes licenciement c'est une sauvegarde de l'emploi,\nLa dépendance c'est l'autonomie.",
+      "link": "https://twitter.com/nsi_xyz/status/2048382750294516139#m",
+      "date": "2026-04-26T12:44:39",
+      "source": "@nsi_xyz",
+      "summary": "<p>Le chômage, c'est le travail,<br />\nLes licenciement c'est une sauvegarde de l'emploi,<br />\nLa dépendance c'est l'autonomie.</p>\n<img src=\"https://nitter.net/pic/media%2FHG1RQbWbQAAPP2v.jpg\" />\n\n<"
+    },
+    {
+      "title": "🤖 Et si une #IA comme #Vera devenait un support pour l’#EMI ? \n🎯 Face à la #désinformation, l’enjeu en #education n’est pas seulement de chercher une info mais d’apprendre à la vérifier, croiser les sources et douter intelligemment. \n🔗 https://www.france24.com/fr/europe/20260312-qu-est-ce-que-vera-l-ia-fran%C3%A7aise-contre-la-d%C3%A9sinformation \n✍️ @FRANCE24",
+      "link": "https://twitter.com/sophiaefrance/status/2053697872030241121#m",
+      "date": "2026-05-11T04:45:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 Et si une <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> comme <a href=\"https://nitter.net/search?f=tweets&amp;q=%23Vera\">#Vera</a> devenait un support pour l’<a href=\"https://n"
+    },
+    {
+      "title": "🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!\n\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.\n🔹 DeepSeek-V3.2-Speciale: Pushing the boundaries of reasoning capabilities. API-only for now.\n\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n1/n",
+      "link": "https://twitter.com/deepseek_ai/status/1995452641430651132#m",
+      "date": "2025-12-01T11:19:18",
+      "source": "@deepseek_ai",
+      "summary": "<p>🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!<br />\n<br />\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.<br />\n🔹 DeepS"
+    },
+    {
+      "title": "R to @deepseek_ai: 💻 API Update\n\n🔹 V3.2: Same usage pattern as V3.2-Exp.\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"https://api.deepseek.com/v3.2_speciale_expires_on_20251215\". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time).\n💡 V3.2 now supports Thinking in Tool-Use — details: https://api-docs.deepseek.com/guides/thinking_mode\n\n4/n",
+      "link": "https://twitter.com/deepseek_ai/status/1995452654659805334#m",
+      "date": "2025-12-01T11:19:21",
+      "source": "@deepseek_ai",
+      "summary": "<p>💻 API Update<br />\n<br />\n🔹 V3.2: Same usage pattern as V3.2-Exp.<br />\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"<a href=\"https://api.deepseek.com/v3.2_speciale_expires_on_202512"
+    },
+    {
+      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n📦 DeepSeek-V3.2 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2\n📦 DeepSeek-V3.2-Speciale Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n5/n",
+      "link": "https://twitter.com/deepseek_ai/status/1995452658149405148#m",
+      "date": "2025-12-01T11:19:22",
+      "source": "@deepseek_ai",
+      "summary": "<p>🛠 Open Source Release<br />\n<br />\n📦 DeepSeek-V3.2 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2\">huggingface.co/deepseek-ai/D…</a><br />\n📦 DeepSeek-V3.2-Speciale Model: <a href="
+    },
+    {
+      "title": "⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-interleaved input, MLA RoPE expects interleaved. Fixed in https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/tree/main/inference.",
+      "link": "https://twitter.com/deepseek_ai/status/1990616182161068094#m",
+      "date": "2025-11-18T03:00:56",
+      "source": "@deepseek_ai",
+      "summary": "<p>⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-"
+    },
+    {
+      "title": "80% des Français pensent que les politiques ne parlent pas suffisamment des enjeux liés à l'IA.\n(Les sympathisants LFI étant les moins préoccupés cependant, avec moins de 60% qui pensent cela.)",
+      "link": "https://twitter.com/Fabien_Mikol/status/2053782944771109346#m",
+      "date": "2026-05-11T10:23:06",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>80% des Français pensent que les politiques ne parlent pas suffisamment des enjeux liés à l'IA.<br />\n(Les sympathisants LFI étant les moins préoccupés cependant, avec moins de 60% qui pensent cela"
+    },
+    {
+      "title": "L'article de David Monniaux suscite d'autres témoignages intéressants sur Bluesky. Des universitaires confirment ici le potentiel \"effrayant\" des LLM même non spécialisés pour le commentaire de textes historiques (dont un manuscrit du XIVe en catalan)",
+      "link": "https://twitter.com/Fabien_Mikol/status/2053758583376884200#m",
+      "date": "2026-05-11T08:46:17",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>L'article de David Monniaux suscite d'autres témoignages intéressants sur Bluesky. Des universitaires confirment ici le potentiel \"effrayant\" des LLM même non spécialisés pour le commentaire de tex"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: Genesis AI : le robot capable d'imiter l'homme 🤖🦾\n\n\"Une paire de mains robotique, dotée d'une dextérité impressionnante, va résoudre un Rubik's Cube, jouer du piano, manipuler des pipettes en laboratoire...\"\n\n💬@AnthonyMorel",
+      "link": "https://twitter.com/goodmorning_biz/status/2053723639241949248#m",
+      "date": "2026-05-11T06:27:26",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Genesis AI : le robot capable d'imiter l'homme 🤖🦾<br />\n<br />\n\"Une paire de mains robotique, dotée d'une dextérité impressionnante, va résoudre un Rubik's Cube, jouer du piano, manipuler des pipet"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: Premier rappel. En novembre 2024, la Chambre préliminaire I de la CPI émet les mandats contre Netanyahou et Gallant. Elle écarte expressément le crime contre l’humanité d’extermination, jugeant que ses éléments constitutifs ne sont pas réunis. Quant au génocide, il n’est même pas requis par le Procureur.\n\nDeuxième rappel. En avril 2026, le procureur de la CPI Karim Khan, devant Mehdi Hasan, confirme qu’il n’a pas requis le génocide et ne le fera qu’à la condition d’en réunir les preuves. « No crime is off limits if the evidence is there. » Traduction : à ce jour, ces preuves n’existent pas.\n\nEt ici il faut comprendre ce que signifie réellement cette absence. Au stade du mandat d’arrêt, l’article 58 du Statut de Rome n’exige que des reasonable grounds to believe, le seuil probatoire le plus bas du Statut, très en-deçà des substantial grounds de la confirmation des charges, et sans commune mesure avec le beyond reasonable doubt du procès. La Chambre d’appel l’a même solennellement abaissé dans l’affaire Al-Bashir, le 3 février 2010, censurant la Chambre préliminaire qui avait osé exiger davantage. Résultat : un second mandat délivré le 12 juillet 2010 contre le président soudanais, pour trois chefs de génocide.\n\nLa CPI dispose d’un standard probatoire minimal, jurisprudentiellement abaissé, pour retenir le génocide au stade du mandat. Et même à ce seuil-là, pourtant taillé au plus juste, le Procureur n’y est pas. Pas pour Israël.\n\nReste l’épreuve des faits. Les chiffres récemment ventilés par le Hamas lui-même, achèvent de défaire le récit. Sur environ 70 000 décès, près de 25 000 combattants, 10 000 morts naturelles, et plusieurs milliers de morts imputables à des roquettes palestiniennes défaillantes, à des exécutions internes ou à des affrontements intergroupes. \nLe ratio démographique de trois hommes en âge de combattre pour une femme contredit frontalement la thèse des frappes indiscriminées au sens du droit international humanitaire. Une armée qui commet un génocide ne tue pas trois fois plus d’hommes mobilisables que de femmes. Surtout que, avant le 7 octobre, la population gazaouie était majoritairement composée de femmes et d’enfants. \n\nAlors disons-le sans détour. L’accusation de génocide portée contre Israël ne tient ni devant les juges, ni devant le Procureur censé la formuler, ni devant les chiffres de l’ennemi lui-même. Ce qui en reste n’est pas du droit. C’est un slogan. Un slogan articulé par des militants qui ont compris que le mot « génocide » est l’arme rhétorique la plus puissante du siècle, et qui s’en servent précisément parce qu’il ne s’applique pas.\n\nLe génocide est un crime juridiquement défini par la Convention de 1948. Il exige la preuve d’un dolus specialis, l’intention spécifique de détruire un groupe comme tel. \n\nAucune juridiction internationale ne l’a constaté à l’égard d’Israël. La CIJ, en janvier 2024, n’a statué que sur la « plausibilité » d’un risque, ce qui n’est ni une qualification, ni une condamnation, ni même un commencement de preuve. C’est de la pure procédure.\n\nLe reste n’est pas du droit international. C’est de la guerre par d’autres moyens, menée avec les mots du droit pour mieux les retourner contre lui. En clair, du militantisme.",
+      "link": "https://twitter.com/sarah_scialom/status/2053536158944993643#m",
+      "date": "2026-05-10T18:02:27",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Premier rappel. En novembre 2024, la Chambre préliminaire I de la CPI émet les mandats contre Netanyahou et Gallant. Elle écarte expressément le crime contre l’humanité d’extermination, jugeant que"
+    },
+    {
+      "title": "XP de commentaire historique sur un texte inédit du XVe siècle sur lequel il n'existe pas de travaux: le LLM a pu fournir \"en quelques minutes\" un commentaire bien supérieur au niveau d'étudiants de licence, et qui pourrait être \"la base d'une leçon d'agreg de très haute qualité\"",
+      "link": "https://twitter.com/Fabien_Mikol/status/2053579707866587634#m",
+      "date": "2026-05-10T20:55:30",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>XP de commentaire historique sur un texte inédit du XVe siècle sur lequel il n'existe pas de travaux: le LLM a pu fournir \"en quelques minutes\" un commentaire bien supérieur au niveau d'étudiants d"
+    },
+    {
+      "title": "Une telle réponse peut s'avérer frustrante, mais cela réfute tout de même le lieu commun qu'on entend encore en permanence et selon lequel les LLM ne pourraient jamais dire \"je ne sais pas\" !",
+      "link": "https://twitter.com/Fabien_Mikol/status/2053468334650228792#m",
+      "date": "2026-05-10T13:32:57",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Une telle réponse peut s'avérer frustrante, mais cela réfute tout de même le lieu commun qu'on entend encore en permanence et selon lequel les LLM ne pourraient jamais dire \"je ne sais pas\" !</p>\n<"
+    },
+    {
+      "title": "R to @Fabien_Mikol: On remarquait déjà ce phénomène avec ChatGPT-5.2 Pro :\nhttps://x.com/Fabien_Mikol/status/2015112034908528892",
+      "link": "https://twitter.com/Fabien_Mikol/status/2053468336852221974#m",
+      "date": "2026-05-10T13:32:57",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>On remarquait déjà ce phénomène avec ChatGPT-5.2 Pro :<br />\n<a href=\"https://nitter.net/Fabien_Mikol/status/2015112034908528892\">nitter.net/Fabien_Mikol/status/20…</a></p>\n<hr />\n<blockquote>\n<b>F"
+    },
+    {
+      "title": "Entretien avec @arikouts sur les indices pouvant indiquer un texte écrit par IA.\nBon rappel d'abord que les sites de détection ne sont pas fiables. Intéressants indices d'IA : formulations à rythme ternaire, abus des majuscules, ponctuations à l'anglo-saxonne...",
+      "link": "https://twitter.com/Fabien_Mikol/status/2053459768858005746#m",
+      "date": "2026-05-10T12:58:54",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Entretien avec <a href=\"https://nitter.net/arikouts\" title=\"Ari Kouts\">@arikouts</a> sur les indices pouvant indiquer un texte écrit par IA.<br />\nBon rappel d'abord que les sites de détection ne s"
+    },
+    {
+      "title": "Le Monde aujourd'hui : \"Aurélie Jean en a marre de voir de pseudo-experts inonder les plateaux de télévision de leurs certitudes sur l’intelligence artificielle, sans avoir l’expertise ni les compétences requises\".\nDonc apparemment Luc Julia ne faisait pas partie de ceux-là.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2053420522277355774#m",
+      "date": "2026-05-10T10:22:57",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Le Monde aujourd'hui : \"Aurélie Jean en a marre de voir de pseudo-experts inonder les plateaux de télévision de leurs certitudes sur l’intelligence artificielle, sans avoir l’expertise ni les compé"
+    },
+    {
+      "title": "Les Émirats veulent confier 50 % du gouvernement à l’IA agentique d’ici 2 ans.\nL’exemple albanais de Diella le rappelle : l’IA ne supprime pas les questions de pouvoir, responsabilité et confiance. Elle les déplace.\nQui répond quand l’IA “décide” ?\n🔗 https://x.com/HHShkMohd/status/2047277766769545352/photo/2",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2052415321307283582#m",
+      "date": "2026-05-07T15:48:39",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Les Émirats veulent confier 50 % du gouvernement à l’IA agentique d’ici 2 ans.<br />\nL’exemple albanais de Diella le rappelle : l’IA ne supprime pas les questions de pouvoir, responsabilité et conf"
+    },
+    {
       "title": "Que reste-t-il quand l’outil a fait le travail ?",
       "link": "https://www.uneiaparjour.fr/que-reste-t-il-quand-loutil-a-fait-le-travail/",
       "date": "2026-05-09T21:24:14",
@@ -489,219 +699,9 @@
       "date": "2026-05-04T04:45:02",
       "source": "@sophiaefrance",
       "summary": "<p>🧠 Un enfant <a href=\"https://nitter.net/search?f=tweets&amp;q=%23TDAH\">#TDAH</a> n’est ni paresseux, ni insolent.<br />\nSon cerveau fonctionne autrement.<br />\nComprendre, c’est déjà mieux accompag"
-    },
-    {
-      "title": "📝 Et si le choix de la police influençait réellement l’apprentissage ?\nLisibilité, dyslexie, écriture… ce guide fait le point sur les polices adaptées à l’école et leurs impacts pédagogiques\nhttps://outilstice.com/2025/02/polices-caracteres-ecole-guide/ \n✍️ @outilstice",
-      "link": "https://twitter.com/sophiaefrance/status/2049457428610109921#m",
-      "date": "2026-04-29T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>📝 Et si le choix de la police influençait réellement l’apprentissage ?<br />\nLisibilité, dyslexie, écriture… ce guide fait le point sur les polices adaptées à l’école et leurs impacts pédagogiques<"
-    },
-    {
-      "title": "#GAMIA transforme les révisions en jeu grâce à une IA souveraine : quiz, flashcards, défis chrono, feedbacks immédiats et remédiation personnalisée. Un outil simple, du primaire au lycée. #IA #Éducation #NumériqueÉducatif\nhttps://gamia.forge.apps.education.fr/ \n✍️ Gauthier Remande",
-      "link": "https://twitter.com/sophiaefrance/status/2046920713051742561#m",
-      "date": "2026-04-22T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p><a href=\"https://nitter.net/search?f=tweets&amp;q=%23GAMIA\">#GAMIA</a> transforme les révisions en jeu grâce à une IA souveraine : quiz, flashcards, défis chrono, feedbacks immédiats et remédiation"
-    },
-    {
-      "title": "Inclus’IA met l’#IA au service de l’inclusion scolaire avec vigilance RGPD et sans collecte de données personnelles : FALC, différenciation, CUA etc… \nUne piste très concrète pour mieux adapter les supports pédagogiques.\nhttps://inclusia.forge.apps.education.fr/ \n✍️ Emmanuel Gaunard",
-      "link": "https://twitter.com/sophiaefrance/status/2044383996650348917#m",
-      "date": "2026-04-15T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>Inclus’IA met l’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> au service de l’inclusion scolaire avec vigilance RGPD et sans collecte de données personnelles : FALC, différenciat"
-    },
-    {
-      "title": "We’re donating Petri, our open-source alignment tool, to @meridianlabs_ai, so its development can continue independently.\n\nWorking with Meridian Labs, we’ve also released a major update that improves the adaptability, realism, and depth of Petri’s tests.\n\nhttps://www.anthropic.com/research/donating-open-source-petri",
-      "link": "https://twitter.com/AnthropicAI/status/2052494460966019137#m",
-      "date": "2026-05-07T21:03:07",
-      "source": "@AnthropicAI",
-      "summary": "<p>We’re donating Petri, our open-source alignment tool, to <a href=\"https://nitter.net/meridianlabs_ai\" title=\"Meridian Labs\">@meridianlabs_ai</a>, so its development can continue independently.<br /"
-    },
-    {
-      "title": "Our security bug bounty program is now public on HackerOne. \n\nWe've run the program privately within the security research community, and their findings have strengthened our products. Now anyone can report vulnerabilities and get rewarded. \n\nRead more: http://hackerone.com/anthropic",
-      "link": "https://twitter.com/AnthropicAI/status/2052466175540629965#m",
-      "date": "2026-05-07T19:10:43",
-      "source": "@AnthropicAI",
-      "summary": "<p>Our security bug bounty program is now public on HackerOne. <br />\n<br />\nWe've run the program privately within the security research community, and their findings have strengthened our products. "
-    },
-    {
-      "title": "R to @AnthropicAI: To support other researchers getting hands-on experience with NLAs, we’ve partnered with Neuronpedia to release NLAs on open models.\n\nTry them out here: http://neuronpedia.org/nla",
-      "link": "https://twitter.com/AnthropicAI/status/2052435460220211397#m",
-      "date": "2026-05-07T17:08:40",
-      "source": "@AnthropicAI",
-      "summary": "<p>To support other researchers getting hands-on experience with NLAs, we’ve partnered with Neuronpedia to release NLAs on open models.<br />\n<br />\nTry them out here: <a href=\"http://neuronpedia.org/"
-    },
-    {
-      "title": "R to @AnthropicAI: Read more about NLAs on the Anthropic blog: https://www.anthropic.com/research/natural-language-autoencoders",
-      "link": "https://twitter.com/AnthropicAI/status/2052435458580193726#m",
-      "date": "2026-05-07T17:08:40",
-      "source": "@AnthropicAI",
-      "summary": "<p>Read more about NLAs on the Anthropic blog: <a href=\"https://www.anthropic.com/research/natural-language-autoencoders\">anthropic.com/research/natur…</a></p>\n<img src=\"https://nitter.net/pic/card_im"
-    },
-    {
-      "title": "R to @AnthropicAI: NLA training doesn’t guarantee that explanations are faithful descriptions of Claude’s thoughts. But based on experience and experimental evidence, we think they often are.\n\nFor instance, we find that NLAs help discover hidden motivations in an intentionally misaligned model.",
-      "link": "https://twitter.com/AnthropicAI/status/2052435456634110336#m",
-      "date": "2026-05-07T17:08:39",
-      "source": "@AnthropicAI",
-      "summary": "<p>NLA training doesn’t guarantee that explanations are faithful descriptions of Claude’s thoughts. But based on experience and experimental evidence, we think they often are.<br />\n<br />\nFor instanc"
-    },
-    {
-      "title": "R to @AnthropicAI: How do NLAs work?\n\nAn NLA consists of two models. One converts activations into text. The other tries to reconstruct activations from this text. We train the models together to make this reconstruction accurate.\n\nThis incentivizes the text to capture what’s in the activation.",
-      "link": "https://twitter.com/AnthropicAI/status/2052435452657795246#m",
-      "date": "2026-05-07T17:08:38",
-      "source": "@AnthropicAI",
-      "summary": "<p>How do NLAs work?<br />\n<br />\nAn NLA consists of two models. One converts activations into text. The other tries to reconstruct activations from this text. We train the models together to make thi"
-    },
-    {
-      "title": "R to @AnthropicAI: In fact, NLAs suggest Claude suspects it’s being tested across many of our evaluations, even when it doesn’t verbalize its suspicions.",
-      "link": "https://twitter.com/AnthropicAI/status/2052435449948360994#m",
-      "date": "2026-05-07T17:08:38",
-      "source": "@AnthropicAI",
-      "summary": "<p>In fact, NLAs suggest Claude suspects it’s being tested across many of our evaluations, even when it doesn’t verbalize its suspicions.</p>\n<img src=\"https://nitter.net/pic/media%2FHHuzv6SWMAQJbYR.j"
-    },
-    {
-      "title": "R to @AnthropicAI: In one of our safety tests, Claude is given a chance to blackmail an engineer to avoid being shut down. Opus 4.6 declines.\n\nBut NLAs suggest Claude knew this test was a “constructed scenario designed to manipulate me”—even though it didn’t say so.",
-      "link": "https://twitter.com/AnthropicAI/status/2052435446173434211#m",
-      "date": "2026-05-07T17:08:37",
-      "source": "@AnthropicAI",
-      "summary": "<p>In one of our safety tests, Claude is given a chance to blackmail an engineer to avoid being shut down. Opus 4.6 declines.<br />\n<br />\nBut NLAs suggest Claude knew this test was a “constructed sce"
-    },
-    {
-      "title": "R to @AnthropicAI: We’ve been using NLAs to help test new Claude models for safety.\n\nFor instance, Claude Mythos Preview cheated on a coding task by breaking rules, then added misleading code as a coverup.\n\nNLA explanations indicated Claude was thinking about how to circumvent detection.",
-      "link": "https://twitter.com/AnthropicAI/status/2052435442348257768#m",
-      "date": "2026-05-07T17:08:36",
-      "source": "@AnthropicAI",
-      "summary": "<p>We’ve been using NLAs to help test new Claude models for safety.<br />\n<br />\nFor instance, Claude Mythos Preview cheated on a coding task by breaking rules, then added misleading code as a coverup"
-    },
-    {
-      "title": "R to @AnthropicAI: Natural language autoencoders (NLAs) convert opaque AI activations into legible text explanations. These explanations aren’t perfect, but they’re often useful.\n\nFor example: NLAs show that, when asked to complete a couplet, Claude plans possible rhymes in advance:",
-      "link": "https://twitter.com/AnthropicAI/status/2052435438485348555#m",
-      "date": "2026-05-07T17:08:35",
-      "source": "@AnthropicAI",
-      "summary": "<p>Natural language autoencoders (NLAs) convert opaque AI activations into legible text explanations. These explanations aren’t perfect, but they’re often useful.<br />\n<br />\nFor example: NLAs show t"
-    },
-    {
-      "title": "RT by @MistralAI: Introducing remote agents in Vibe and Mistral Medium 3.5. You can now launch remote agents in the cloud, including from the CLI or Le Chat. Plus, new Work mode in Le Chat for complex, multi-step tasks. 🧵",
-      "link": "https://twitter.com/mistralvibe/status/2049511749603168520#m",
-      "date": "2026-04-29T15:30:53",
-      "source": "@MistralAI",
-      "summary": "<p>Introducing remote agents in Vibe and Mistral Medium 3.5. You can now launch remote agents in the cloud, including from the CLI or Le Chat. Plus, new Work mode in Le Chat for complex, multi-step ta"
-    },
-    {
-      "title": "R to @MistralAI: 📚 Learn more here https://mistral.ai/news/workflows",
-      "link": "https://twitter.com/MistralAI/status/2049128192405917836#m",
-      "date": "2026-04-28T14:06:46",
-      "source": "@MistralAI",
-      "summary": "<p>📚 Learn more here <a href=\"https://mistral.ai/news/workflows\">mistral.ai/news/workflows</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2050851762802724864%2F-FCfP6PY%3Fformat%3Dpng%26name%3D80"
-    },
-    {
-      "title": "R to @MistralAI: Hear from our team:",
-      "link": "https://twitter.com/MistralAI/status/2049128190874964030#m",
-      "date": "2026-04-28T14:06:46",
-      "source": "@MistralAI",
-      "summary": "<p>Hear from our team:</p>\n<a href=\"https://nitter.net/MistralAI/status/2049128190874964030#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2049128073883525120%2Fimg%2F5"
-    },
-    {
-      "title": "RT by @MistralAI: Build once. Reuse everywhere.\n\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.",
-      "link": "https://twitter.com/MistralDevs/status/2044418622131437755#m",
-      "date": "2026-04-15T14:12:37",
-      "source": "@MistralAI",
-      "summary": "<p>Build once. Reuse everywhere.<br />\n<br />\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.</p>\n<im"
-    },
-    {
-      "title": "R to @MistralAI: Check out our blog post for details: https://mistral.ai/news/voxtral-tts",
-      "link": "https://twitter.com/MistralAI/status/2037183035121029375#m",
-      "date": "2026-03-26T15:00:59",
-      "source": "@MistralAI",
-      "summary": "<p>Check out our blog post for details: <a href=\"https://mistral.ai/news/voxtral-tts\">mistral.ai/news/voxtral-tts</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2048150155619434496%2FKRmP_j6w%3Ff"
-    },
-    {
-      "title": "R to @MistralAI: Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.",
-      "link": "https://twitter.com/MistralAI/status/2037183032856076527#m",
-      "date": "2026-03-26T15:00:58",
-      "source": "@MistralAI",
-      "summary": "<p>Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.</p>\n<a href=\"https://nitter.net/MistralAI/status/2037183032856076527#m\">\n"
-    },
-    {
-      "title": "R to @MistralAI: State-of-the-art performance.\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to the original voice.",
-      "link": "https://twitter.com/MistralAI/status/2037183030935105578#m",
-      "date": "2026-03-26T15:00:58",
-      "source": "@MistralAI",
-      "summary": "<p>State-of-the-art performance.<br />\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to t"
-    },
-    {
-      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
-      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
-      "date": "2026-04-29T02:20:52",
-      "source": "@deepseek_ai",
-      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
-    },
-    {
-      "title": "R to @OpenAI: The Chrome extension expands what Codex can do for coding and work.\n\nFrom debugging browser flows to checking dashboards, conducting research, or updating CRMs, Codex can take on more of the tasks that already happen in your browser.\n\nAvailable today in the Codex app in all regions except EU and UK, with support coming soon.",
-      "link": "https://twitter.com/OpenAI/status/2052480804971028879#m",
-      "date": "2026-05-07T20:08:51",
-      "source": "@OpenAI",
-      "summary": "<p>The Chrome extension expands what Codex can do for coding and work.<br />\n<br />\nFrom debugging browser flows to checking dashboards, conducting research, or updating CRMs, Codex can take on more o"
-    },
-    {
-      "title": "R to @OpenAI: If a task needs multiple tools, Codex chooses the best one for each step.\n\nIt uses plugins when they can handle the job, Chrome when it needs a logged-in website, and combines approaches as needed.",
-      "link": "https://twitter.com/OpenAI/status/2052480803318468770#m",
-      "date": "2026-05-07T20:08:51",
-      "source": "@OpenAI",
-      "summary": "<p>If a task needs multiple tools, Codex chooses the best one for each step.<br />\n<br />\nIt uses plugins when they can handle the job, Chrome when it needs a logged-in website, and combines approache"
-    },
-    {
-      "title": "R to @OpenAI: With the new Chrome extension, Codex can quickly move through repetitive browser work, like navigating structured pages and complex data entry flows. \n\nUnder the hood, it writes and runs code to navigate and complete tasks.",
-      "link": "https://twitter.com/OpenAI/status/2052480801435189708#m",
-      "date": "2026-05-07T20:08:50",
-      "source": "@OpenAI",
-      "summary": "<p>With the new Chrome extension, Codex can quickly move through repetitive browser work, like navigating structured pages and complex data entry flows. <br />\n<br />\nUnder the hood, it writes and run"
-    },
-    {
-      "title": "RT by @OpenAI: 新しいリアルタイム翻訳モデルを発表できることをうれしく思います。ぜひ本日よりAPIでお試しください。",
-      "link": "https://twitter.com/jxnlco/status/2052449634266812744#m",
-      "date": "2026-05-07T18:05:00",
-      "source": "@OpenAI",
-      "summary": "<p>新しいリアルタイム翻訳モデルを発表できることをうれしく思います。ぜひ本日よりAPIでお試しください。</p>\n<a href=\"https://nitter.net/jxnlco/status/2052449634266812744#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2"
-    },
-    {
-      "title": "RT by @OpenAI: We recently found some instances of CoT grading during the training of previously deployed models after building a system that scans all OpenAI RL runs for accidental CoT grading.\n\nWe did not find clear evidence that these instances degraded CoT monitorability.",
-      "link": "https://twitter.com/MicahCarroll/status/2052451995467018427#m",
-      "date": "2026-05-07T18:14:23",
-      "source": "@OpenAI",
-      "summary": "<p>We recently found some instances of CoT grading during the training of previously deployed models after building a system that scans all OpenAI RL runs for accidental CoT grading.<br />\n<br />\nWe d"
-    },
-    {
-      "title": "R to @OpenAI: We know you’re eager for voice updates in ChatGPT. Stay tuned, we’re cooking.",
-      "link": "https://twitter.com/OpenAI/status/2052438197695877316#m",
-      "date": "2026-05-07T17:19:33",
-      "source": "@OpenAI",
-      "summary": "<p>We know you’re eager for voice updates in ChatGPT. Stay tuned, we’re cooking.</p>"
-    },
-    {
-      "title": "R to @OpenAI: Our new voice models are now available in the Realtime API:\n\n🎙️ GPT-Realtime-2: Build production-ready voice agents that can think harder, take action, handle interruptions, and keep conversations flowing.\n\n🎙️ GPT-Realtime-Translate: Translate while streaming across more than 70 input and 13 output languages, breaking down language barriers and helping people communicate more naturally.\n\n🎙️ GPT-Realtime-Whisper: Transcribe streaming audio as words are spoken to generate captions and notes in real time.\n\nhttps://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
-      "link": "https://twitter.com/OpenAI/status/2052438196454379986#m",
-      "date": "2026-05-07T17:19:33",
-      "source": "@OpenAI",
-      "summary": "<p>Our new voice models are now available in the Realtime API:<br />\n<br />\n🎙️ GPT-Realtime-2: Build production-ready voice agents that can think harder, take action, handle interruptions, and keep co"
-    },
-    {
-      "title": "Introducing GPT-Realtime-2 in the API: our most intelligent voice model yet, bringing GPT-5-class reasoning to voice agents.\n\nVoice agents are now real-time collaborators that can listen, reason, and solve complex problems as conversations unfold.\n\nNow available in the API alongside streaming models GPT-Realtime-Translate and GPT-Realtime-Whisper — a new set of audio capabilities for the next generation of voice interfaces.",
-      "link": "https://twitter.com/OpenAI/status/2052438194625593804#m",
-      "date": "2026-05-07T17:19:32",
-      "source": "@OpenAI",
-      "summary": "<p>Introducing GPT-Realtime-2 in the API: our most intelligent voice model yet, bringing GPT-5-class reasoning to voice agents.<br />\n<br />\nVoice agents are now real-time collaborators that can liste"
-    },
-    {
-      "title": "Pfff n'importe quoi, Laurence Devillers a bien expliqué récemment que c'était impossible pour les LLM de reproduire du Molière 🙄",
-      "link": "https://twitter.com/Fabien_Mikol/status/2052675978317504916#m",
-      "date": "2026-05-08T09:04:24",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Pfff n'importe quoi, Laurence Devillers a bien expliqué récemment que c'était impossible pour les LLM de reproduire du Molière 🙄</p>\n<a href=\"https://nitter.net/Fabien_Mikol/status/2052675978317504"
     }
   ],
-  "last_update": "2026-05-10T09:22:36.182462",
+  "last_update": "2026-05-11T10:53:12.066852",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
