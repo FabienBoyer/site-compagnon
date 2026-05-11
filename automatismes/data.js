@@ -127,6 +127,126 @@ calculs_algebre: {
                             expl: "Même base : \\(" + a + "^{" + m + "-" + n + "} = " + a + "^{" + r + "}\\)."
                         };
                     }
+                },
+                {
+                    id: "dyn_frac_mult",
+                    type: "input",
+                    generate: function() {
+                        function gcd(a,b){ return b===0?a:gcd(b,a%b); }
+                        // Paires (num, den) choisies pour que la simplification croisée soit instructive
+                        var pairs = [
+                            [3,4,8,9],[2,5,15,4],[4,7,14,6],[5,8,4,15],
+                            [3,10,5,9],[6,7,14,9],[8,15,5,4],[9,4,8,27],
+                            [5,6,3,10],[7,12,4,21],[2,9,6,8],[10,3,9,5]
+                        ];
+                        var p = pairs[Math.floor(Math.random()*pairs.length)];
+                        var n1=p[0],d1=p[1],n2=p[2],d2=p[3];
+                        var num=n1*n2, den=d1*d2;
+                        var g=gcd(num,den);
+                        var rn=num/g, rd=den/g;
+                        var ans = rd===1 ? rn.toString() : rn+"/"+rd;
+                        return {
+                            q: "Calculer et simplifier : \\(\\dfrac{" + n1 + "}{" + d1 + "} \\times \\dfrac{" + n2 + "}{" + d2 + "}\\).",
+                            ans: ans,
+                            expl: "\\(\\dfrac{" + n1 + " \\times " + n2 + "}{" + d1 + " \\times " + d2 + "} = \\dfrac{" + num + "}{" + den + "} = \\dfrac{" + rn + "}{" + rd + "}\\)."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_frac_div",
+                    type: "input",
+                    generate: function() {
+                        function gcd(a,b){ return b===0?a:gcd(b,a%b); }
+                        var cases = [
+                            [2,3,4,9],[3,4,9,8],[5,6,10,3],[4,5,8,15],
+                            [3,7,9,14],[5,8,15,4],[7,10,14,5],[6,11,3,22],
+                            [4,9,8,3],[2,5,6,25],[8,3,4,9],[9,5,3,10]
+                        ];
+                        var c = cases[Math.floor(Math.random()*cases.length)];
+                        var n1=c[0],d1=c[1],n2=c[2],d2=c[3];
+                        // a/b ÷ c/d = a*d / (b*c)
+                        var num=n1*d2, den=d1*n2;
+                        var g=gcd(Math.abs(num),Math.abs(den));
+                        var rn=num/g, rd=den/g;
+                        var ans = rd===1 ? rn.toString() : rn+"/"+rd;
+                        return {
+                            q: "Calculer et simplifier : \\(\\dfrac{" + n1 + "}{" + d1 + "} \\div \\dfrac{" + n2 + "}{" + d2 + "}\\).",
+                            ans: ans,
+                            expl: "Diviser par une fraction, c'est multiplier par son inverse : \\(\\dfrac{" + n1 + "}{" + d1 + "} \\times \\dfrac{" + d2 + "}{" + n2 + "} = \\dfrac{" + num + "}{" + den + "} = \\dfrac{" + rn + "}{" + rd + "}\\)."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_frac_de_frac",
+                    type: "input",
+                    generate: function() {
+                        function gcd(a,b){ return b===0?a:gcd(b,a%b); }
+                        // "Les p/q de a/b" = p*a / (q*b), avec des cas propres
+                        var cases = [
+                            [3,4,2,3],[2,3,3,4],[3,5,5,6],[4,5,3,8],
+                            [2,5,5,4],[3,7,7,9],[5,6,3,10],[3,8,4,9],
+                            [2,9,3,4],[5,4,8,15],[3,10,5,9],[7,8,4,7]
+                        ];
+                        var c = cases[Math.floor(Math.random()*cases.length)];
+                        var p=c[0],q=c[1],a=c[2],b=c[3];
+                        var num=p*a, den=q*b;
+                        var g=gcd(num,den);
+                        var rn=num/g, rd=den/g;
+                        var ans = rd===1 ? rn.toString() : rn+"/"+rd;
+                        return {
+                            q: "Calculer les \\(\\dfrac{" + p + "}{" + q + "}\\) de \\(\\dfrac{" + a + "}{" + b + "}\\).",
+                            ans: ans,
+                            expl: "\\(\\dfrac{" + p + "}{" + q + "} \\times \\dfrac{" + a + "}{" + b + "} = \\dfrac{" + num + "}{" + den + "} = \\dfrac{" + rn + "}{" + rd + "}\\)."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_frac_priorite",
+                    type: "input",
+                    generate: function() {
+                        function gcd(a,b){ return b===0?a:gcd(b,a%b); }
+                        // Expressions du type a/b + c/d × e/f  ou  a/b × (c/d + e/f)
+                        var type = Math.random() < 0.5 ? "add_mult" : "mult_sum";
+                        if (type === "add_mult") {
+                            // a/b + (c/d × e/f), la multiplication est prioritaire
+                            var cases = [
+                                {a:1,b:2,c:3,d:4,e:2,f:3},{a:1,b:3,c:2,d:5,e:5,f:4},
+                                {a:1,b:4,c:2,d:3,e:3,f:8},{a:2,b:5,c:3,d:4,e:4,f:9},
+                                {a:1,b:6,c:5,d:6,e:3,f:5},{a:3,b:8,c:2,d:3,e:3,f:4}
+                            ];
+                            var c = cases[Math.floor(Math.random()*cases.length)];
+                            var prodN=c.c*c.e, prodD=c.d*c.f;
+                            var g1=gcd(prodN,prodD); prodN/=g1; prodD/=g1;
+                            var lcm=c.b*prodD/gcd(c.b,prodD);
+                            var num=c.a*(lcm/c.b)+prodN*(lcm/prodD);
+                            var g2=gcd(num,lcm); var rn=num/g2, rd=lcm/g2;
+                            var ans = rd===1 ? rn.toString() : rn+"/"+rd;
+                            return {
+                                q: "Calculer (attention aux priorités) : \\(\\dfrac{" + c.a + "}{" + c.b + "} + \\dfrac{" + c.c + "}{" + c.d + "} \\times \\dfrac{" + c.e + "}{" + c.f + "}\\).",
+                                ans: ans,
+                                expl: "La multiplication est prioritaire : \\(\\dfrac{" + c.c + "}{" + c.d + "} \\times \\dfrac{" + c.e + "}{" + c.f + "} = \\dfrac{" + (c.c*c.e/gcd(c.c*c.e,c.d*c.f)) + "}{" + (c.d*c.f/gcd(c.c*c.e,c.d*c.f)) + "}\\), puis on additionne avec \\(\\dfrac{" + c.a + "}{" + c.b + "}\\). Résultat : \\(\\dfrac{" + rn + "}{" + rd + "}\\)."
+                            };
+                        } else {
+                            // (a/b + c/d) × e/f, la somme est calculée en premier
+                            var cases2 = [
+                                {a:1,b:2,c:1,d:4,e:4,f:3},{a:1,b:3,c:1,d:6,e:3,f:2},
+                                {a:1,b:4,c:1,d:4,e:8,f:3},{a:2,b:3,c:1,d:6,e:3,f:7},
+                                {a:3,b:4,c:1,d:4,e:2,f:5},{a:2,b:5,c:3,d:10,e:5,f:7}
+                            ];
+                            var c2 = cases2[Math.floor(Math.random()*cases2.length)];
+                            var lcm=c2.b*c2.d/gcd(c2.b,c2.d);
+                            var sumN=c2.a*(lcm/c2.b)+c2.c*(lcm/c2.d), sumD=lcm;
+                            var g3=gcd(sumN,sumD); sumN/=g3; sumD/=g3;
+                            var rn=sumN*c2.e, rd=sumD*c2.f;
+                            var g4=gcd(rn,rd); rn/=g4; rd/=g4;
+                            var ans = rd===1 ? rn.toString() : rn+"/"+rd;
+                            return {
+                                q: "Calculer (attention aux priorités) : \\(\\left(\\dfrac{" + c2.a + "}{" + c2.b + "} + \\dfrac{" + c2.c + "}{" + c2.d + "}\\right) \\times \\dfrac{" + c2.e + "}{" + c2.f + "}\\).",
+                                ans: ans,
+                                expl: "Les parenthèses sont prioritaires : \\(\\dfrac{" + c2.a + "}{" + c2.b + "} + \\dfrac{" + c2.c + "}{" + c2.d + "} = \\dfrac{" + (sumN) + "}{" + (sumD) + "}\\). Puis \\(\\times \\dfrac{" + c2.e + "}{" + c2.f + "} = \\dfrac{" + rn + "}{" + rd + "}\\)."
+                            };
+                        }
+                    }
                 }
             ]},
             { id: 'unites_ordres', name: "Unités & Ordres de grandeur", questions: [
@@ -325,47 +445,47 @@ proportions: {
                 }
             ]},
             { id: 'evol', name: "Évolutions Successives", questions: [
-                { q: "Hausse de 10% suivie d'une hausse de 10% : CM global ?", ans: "1.21", type: "input", expl: "\\(1.1 \\times 1.1 = 1.21\\)." },
-                { q: "Quel est le coefficient multiplicateur global associé à une baisse de 50% suivie d'une hausse de 50% ?", ans: "0.75", type: "input", expl: "\\(0.5 \\times 1.5 = 0.75\\)." },
-                { q: "Évolution réciproque d'une hausse de 25% ?", ans: "-20%", type: "input", expl: "\\(1/1.25 = 0.8 \\implies -20%\\)." },
-                { q: "Doubler un prix c'est l'augmenter de :", ans: "100%", type: "input", expl: "\\(CM=2 \\implies +100%\\)." },
-                { q: "Diviser un prix par 2 c'est le baisser de :", ans: "50%", type: "input", expl: "\\(CM=0.5 \\implies -50%\\)." },
-                { q: "Hausse de 20% suivie d'une baisse de 20% : CM global ?", ans: "0.96", type: "input", expl: "\\(1.2 \\times 0.8 = 0.96\\)." },
-                { q: "Évolution réciproque d'une baisse de 50% ?", ans: "100%", type: "input", expl: "\\(1/0.5 = 2 \\implies +100%\\)." },
-                { q: "Triple hausse de 10%. CM global ?", ans: "1.331", type: "input", expl: "\\(1.1^3 = 1.331\\)." },
-                { q: "Une baisse de 20% suivie d'une hausse de 25% donne :", ans: "1", type: "input", expl: "\\(0.8 \\times 1.25 = 1\\) (stagnation)." },
-                { q: "Quel est le taux d'évolution global pour deux hausses successives de 20% ?", ans: "44%", type: "input", expl: "\\(1.2 \\times 1.2 = 1.44\\)." },
-                { q: "Évolution réciproque d'une hausse de 100% ?", ans: "-50%", type: "input", expl: "\\(1/2 = 0.5\\)." },
+                { q: "Un prix subit une hausse de \\(10\\%\\), puis une deuxième hausse de \\(10\\%\\). Quel est le coefficient multiplicateur global de cette double évolution ?", ans: "1.21", type: "input", expl: "\\(1{,}1 \\times 1{,}1 = 1{,}21\\)." },
+                { q: "Quel est le coefficient multiplicateur global d'une baisse de \\(50\\%\\) suivie d'une hausse de \\(50\\%\\) ?", ans: "0.75", type: "input", expl: "\\(0{,}5 \\times 1{,}5 = 0{,}75\\)." },
+                { q: "Un prix a augmenté de \\(25\\%\\). De quel pourcentage faut-il le modifier pour retrouver exactement le prix initial ?", ans: "-20%", type: "input", expl: "\\(1/1{,}25 = 0{,}8 \\implies -20\\%\\)." },
+                { q: "Doubler un prix, c'est l'augmenter d'un pourcentage égal à :", ans: "100%", type: "input", expl: "\\(CM = 2 \\implies +100\\%\\)." },
+                { q: "Diviser un prix par 2, c'est le faire baisser d'un pourcentage égal à :", ans: "50%", type: "input", expl: "\\(CM = 0{,}5 \\implies -50\\%\\)." },
+                { q: "Un prix augmente de \\(20\\%\\), puis baisse de \\(20\\%\\). Quel est le coefficient multiplicateur global ?", ans: "0.96", type: "input", expl: "\\(1{,}2 \\times 0{,}8 = 0{,}96\\)." },
+                { q: "Un prix a baissé de \\(50\\%\\). De quel pourcentage faut-il l'augmenter pour retrouver le prix initial ?", ans: "100%", type: "input", expl: "\\(1/0{,}5 = 2 \\implies +100\\%\\)." },
+                { q: "Un prix subit trois hausses successives de \\(10\\%\\). Quel est le coefficient multiplicateur global ?", ans: "1.331", type: "input", expl: "\\(1{,}1^3 = 1{,}331\\)." },
+                { q: "Un prix baisse de \\(20\\%\\), puis augmente de \\(25\\%\\). Quel est le coefficient multiplicateur global ?", ans: "1", type: "input", expl: "\\(0{,}8 \\times 1{,}25 = 1\\) : le prix retrouve sa valeur initiale." },
+                { q: "Quel est le taux d'évolution global pour deux hausses successives de \\(20\\%\\) ?", ans: "44%", type: "input", expl: "\\(1{,}2 \\times 1{,}2 = 1{,}44\\), soit \\(+44\\%\\)." },
+                { q: "Un prix a doublé (hausse de \\(100\\%\\)). De quel pourcentage faut-il le diminuer pour retrouver le prix initial ?", ans: "-50%", type: "input", expl: "\\(1/2 = 0{,}5 \\implies -50\\%\\)." },
                 { q: "Si un prix triple, le taux d'évolution est :", ans: "200%", type: "input", expl: "\\(CM=3 \\implies 3-1 = 2\\)." },
                 { q: "Calculer le coefficient multiplicateur global pour une baisse de 10% suivie d'une hausse de 20%.", ans: "1.08", type: "input", expl: "\\(0.9 \\times 1.2 = 1.08\\)." },
-                { q: "Évolution globale de +5% puis +5% ?", ans: "10.25%", type: "input", expl: "\\(1.05 \\times 1.05 = 1.1025\\)." },
+                { q: "Une valeur augmente de \\(5\\%\\), puis augmente à nouveau de \\(5\\%\\). Quel est le taux d'évolution global, exprimé en pourcentage ?", ans: "10.25%", type: "input", expl: "\\(1{,}05 \\times 1{,}05 = 1{,}1025 \\implies +10{,}25\\%\\)." },
                 { q: "Une baisse de 100% donne un CM de :", ans: "0", type: "input", expl: "On multiplie par 0." },
                 { q: "Si un prix baisse de 20%, pour revenir au prix initial il faut augmenter de :", ans: "25%", type: "input", expl: "\\(1/0.8 = 1.25\\)." },
                 { q: "Deux baisses successives de 50% correspondent à une baisse de :", ans: "75%", type: "input", expl: "\\(0.5 \\times 0.5 = 0.25 \\implies -75%\\)." },
                 { q: "Multiplier par 1.5 puis par 0.5 revient à multiplier par :", ans: "0.75", type: "input", expl: "\\(1.5 \\times 0.5 = 0.75\\)." },
-                { q: "Augmenter de 10% puis baisser de 10%. Résultat global ?", ans: "-1%", type: "input", expl: "\\(1.1 \\times 0.9 = 0.99 \\implies -1%\\)." },
+                { q: "Un prix augmente de \\(10\\%\\), puis baisse de \\(10\\%\\). Quel est le taux d'évolution global ?", ans: "-1%", type: "input", expl: "\\(1{,}1 \\times 0{,}9 = 0{,}99 \\implies -1\\%\\)." },
                 { q: "Un coefficient multiplicateur de 4 correspond à une augmentation de quel pourcentage ?", ans: "300%", type: "input", expl: "\\(4-1 = 3\\)." },
                 { q: "Quel est le coefficient multiplicateur global associé à une baisse de 75% ?", ans: "0.25", type: "input", expl: "\\(1 - 0.75 = 0.25\\)." },
                 { q: "Quel est le coefficient multiplicateur global associé à une hausse de 0.5% ?", ans: "1.005", type: "input", expl: "\\(1 + 0.005\\)." },
                 { q: "Multiplier une valeur par 3 correspond à une augmentation de quel pourcentage ?", ans: "200%", type: "input", expl: "\\(3-1=2\\)." },
                 { q: "Une hausse de 20% suivie d'une hausse de 30% : CM ?", ans: "1.56", type: "input", expl: "\\(1.2 \\times 1.3 = 1.56\\)." },
-                { q: "Évolution réciproque d'une hausse de 400% ?", ans: "-80%", type: "input", expl: "\\(1/5 = 0.2\\)." },
+                { q: "Un prix a été multiplié par 5 (hausse de \\(400\\%\\)). De quel pourcentage faut-il le diminuer pour retrouver le prix initial ?", ans: "-80%", type: "input", expl: "\\(1/5 = 0{,}2 \\implies -80\\%\\)." },
                 { q: "Quel est le coefficient multiplicateur global pour une hausse de 100% suivie d'une baisse de 50% ?", ans: "1", type: "input", expl: "\\(2 \\times 0.5 = 1\\)." },
                 { q: "Quel est le taux d'évolution associé à un coefficient multiplicateur de 1.125 ?", ans: "12.5%", type: "input", expl: "\\(0.125 = 12.5%\\)." },
                 { q: "Quel est le coefficient multiplicateur global associé à une baisse de 1% suivie d'une hausse de 1% ?", ans: "0.9999", type: "input", expl: "\\(0.99 \\times 1.01 = 0.9999\\)." },
                 { q: "Multiplier une valeur par 0.1 correspond à une baisse de quel pourcentage ?", ans: "90%", type: "input", expl: "\\(1-0.1 = 0.9\\)." },
                 { q: "Si un prix est divisé par 4, la baisse est de :", ans: "75%", type: "input", expl: "\\(CM=0.25\\)." },
                 { q: "Quel est le coefficient multiplicateur global associé à une hausse de 10% puis baisse de 5% ?", ans: "1.045", type: "input", expl: "\\(1.1 \\times 0.95 = 1.045\\)." },
-                { q: "Évolution réciproque d'une hausse de 300% ?", ans: "-75%", type: "input", expl: "\\(1/4 = 0.25\\)." },
+                { q: "Un prix a été multiplié par 4 (hausse de \\(300\\%\\)). De quel pourcentage faut-il le modifier pour retrouver le prix initial ?", ans: "-75%", type: "input", expl: "\\(1/4 = 0{,}25 \\implies -75\\%\\)." },
                 { q: "Quel est le coefficient multiplicateur global pour 10 hausses successives de 10% ?", ans: "2.59", type: "input", expl: "\\(1.1^{10} \\approx 2.59\\)." },
-                { q: "Un CM de 0.01 c'est une baisse de :", ans: "99%", type: "input", expl: "\\(1-0.01 = 0.99\\)." },
+                { q: "Un coefficient multiplicateur de \\(0{,}01\\) correspond à une baisse de quel pourcentage ?", ans: "99%", type: "input", expl: "\\(1 - 0{,}01 = 0{,}99 \\implies -99\\%\\)." },
                 { q: "Hausse de 20% puis baisse de 25%. CM global ?", ans: "0.9", type: "input", expl: "\\(1.2 \\times 0.75 = 0.9\\)." },
-                { q: "Évolution réciproque d'une baisse de 20% ?", ans: "25%", type: "input", expl: "\\(1/0.8 = 1.25\\)." },
+                { q: "Un prix a baissé de \\(20\\%\\). De quel pourcentage faut-il l'augmenter pour retrouver le prix initial ?", ans: "25%", type: "input", expl: "\\(1/0{,}8 = 1{,}25 \\implies +25\\%\\)." },
                 { q: "Multiplier par 1.2 puis par 0.8 revient à :", ans: "baisser de 4%", type: "mcq", opts: ["augmenter de 4%", "baisser de 4%", "stagnation"], expl: "\\(0.96 = 1-0.04\\)." },
                 { q: "Si un prix quadruple, le taux d'évolution est :", ans: "300%", type: "input", expl: "\\(4-1 = 3 = 300%\\)." },
                 { q: "Un coefficient multiplicateur de 0.75 correspond à une baisse de quel pourcentage ?", ans: "25%", type: "input", expl: "\\(1-0.75 = 0.25\\)." },
                 { q: "Quel est le coefficient multiplicateur global associé à une hausse de 10% suivie d'une baisse de 20% ?", ans: "0.88", type: "input", expl: "\\(1.1 \\times 0.8 = 0.88\\)." },
-                { q: "Évolution globale de +50% puis -50% :", ans: "-25%", type: "input", expl: "\\(1.5 \\times 0.5 = 0.75\\)." },
+                { q: "Une valeur augmente de \\(50\\%\\), puis baisse de \\(50\\%\\). Quel est le taux d'évolution global ?", ans: "-25%", type: "input", expl: "\\(1{,}5 \\times 0{,}5 = 0{,}75 \\implies -25\\%\\)." },
                 { q: "Pour doubler un prix, il faut l'augmenter de :", ans: "100%", type: "input", expl: "\\(CM=2\\)." },
                 { q: "Une baisse de 10% par an pendant 2 ans : CM ?", ans: "0.81", type: "input", expl: "\\(0.9^2 = 0.81\\)." },
                 { q: "Calculer le coefficient multiplicateur global pour trois hausses successives de 10%.", ans: "1.331", type: "input", expl: "\\(1.1^3 = 1.331\\)." },
@@ -573,6 +693,43 @@ fonctions: {
                             expl: "\\(a = \\frac{y_B - y_A}{x_B - x_A} = \\frac{" + (y2-y1) + "}{" + (x2-x1) + "} = " + a + "\\)."
                         };
                     }
+                },
+                {
+                    id: "dyn_resolution_graphique",
+                    generate: function() {
+                        // ax + b = k type: solve graphically → x = (k-b)/a
+                        var cases = [
+                            {a:2,b:1,k:5,x:2},{a:3,b:-2,k:4,x:2},{a:-1,b:4,k:2,x:2},
+                            {a:2,b:0,k:6,x:3},{a:-2,b:6,k:0,x:3},{a:1,b:-3,k:2,x:5},
+                            {a:3,b:0,k:-6,x:-2},{a:-1,b:2,k:5,x:-3},{a:2,b:-4,k:0,x:2},
+                            {a:4,b:1,k:9,x:2},{a:-3,b:3,k:-6,x:3},{a:2,b:3,k:-1,x:-2}
+                        ];
+                        var c = cases[Math.floor(Math.random()*cases.length)];
+                        var type = Math.random() < 0.5 ? "equation" : "inequation";
+                        var bStr = c.b > 0 ? "+" + c.b : (c.b < 0 ? c.b.toString() : "");
+                        var aStr = c.a === 1 ? "" : (c.a === -1 ? "-" : c.a.toString());
+                        if (type === "equation") {
+                            return {
+                                q: "On considère la fonction affine \\(f(x) = " + aStr + "x" + bStr + "\\). En raisonnant algébriquement, résoudre \\(f(x) = " + c.k + "\\).",
+                                ans: c.x.toString(),
+                                type: "input",
+                                expl: "\\(" + c.a + "x " + (c.b >= 0 ? "+ " + c.b : "- " + Math.abs(c.b)) + " = " + c.k + " \\Rightarrow " + c.a + "x = " + (c.k - c.b) + " \\Rightarrow x = " + c.x + "\\)."
+                            };
+                        } else {
+                            // f(x) < k → x < x0 if a>0, or x > x0 if a<0
+                            var sol = c.a > 0 ? "x < " + c.x : "x > " + c.x;
+                            var solOpts = c.a > 0
+                                ? ["x < " + c.x, "x > " + c.x, "x < " + (-c.x), "x = " + c.x]
+                                : ["x > " + c.x, "x < " + c.x, "x > " + (-c.x), "x = " + c.x];
+                            return {
+                                q: "On considère la fonction affine \\(f(x) = " + aStr + "x" + bStr + "\\). Résoudre l'inéquation \\(f(x) < " + c.k + "\\).",
+                                ans: sol,
+                                opts: solOpts,
+                                type: "mcq",
+                                expl: "\\(f(x) < " + c.k + " \\Rightarrow " + c.a + "x" + (c.b !== 0 ? (c.b > 0 ? "+" + c.b : c.b.toString()) : "") + " < " + c.k + " \\Rightarrow x " + (c.a > 0 ? "<" : ">") + " " + c.x + "\\)." + (c.a < 0 ? " Attention : diviser par un négatif inverse le sens de l'inégalité." : "")
+                            };
+                        }
+                    }
                 }
             ]},
             { id: 'affine', name: "Signe & Variations", questions: [
@@ -618,7 +775,94 @@ fonctions: {
                 { q: "Si \\(f(1)=2\\) et \\(f(2)=4\\) (affine), la pente est :", ans: "2", type: "input", expl: "\\((4-2)/(2-1)=2\\)." },
                 { q: "La droite \\(y=x\\) passe par \\((5,5)\\) ?", ans: "oui", type: "mcq", opts: ["oui", "non"], expl: "Abscisse = Ordonnée." },
                 { q: "Si \\(b < 0\\), la droite coupe l'axe y :", ans: "sous l'origine", type: "mcq", opts: ["au-dessus de l'origine", "sous l'origine", "à l'origine"], expl: "Ordonnée négative." },
-                { q: "L'antécédent de 10 pour \\(f(x)=2x\\) est :", ans: "5", type: "input", expl: "\\(2x=10 \\implies x=5\\)." }
+                { q: "L'antécédent de 10 pour \\(f(x)=2x\\) est :", ans: "5", type: "input", expl: "\\(2x=10 \\implies x=5\\)." },
+
+                // --- Signe d'une expression factorisée (2e degré) ---
+                { q: "Quel est le signe de \\((x-1)(x-3)\\) pour \\(x \\in ]1\\,;\\,3[\\) ?", ans: "négatif", type: "mcq", opts: ["positif", "négatif", "nul"], expl: "Pour \\(x \\in ]1;3[\\) : \\((x-1) > 0\\) et \\((x-3) < 0\\), donc le produit est négatif." },
+                { q: "Quel est le signe de \\((x-2)(x+1)\\) pour \\(x > 2\\) ?", ans: "positif", type: "mcq", opts: ["positif", "négatif", "nul"], expl: "Pour \\(x > 2\\) : \\((x-2)>0\\) et \\((x+1)>0\\). Le produit de deux facteurs positifs est positif." },
+                { q: "Quel est le signe de \\((x-4)(x+2)\\) pour \\(x < -2\\) ?", ans: "positif", type: "mcq", opts: ["positif", "négatif", "nul"], expl: "Pour \\(x<-2\\) : \\((x-4)<0\\) et \\((x+2)<0\\). Le produit de deux négatifs est positif." },
+                { q: "Sur quel intervalle l'expression \\((x-3)(x-5)\\) est-elle négative ?", ans: "]3 ; 5[", type: "mcq", opts: ["]3 ; 5[", "]-∞ ; 3[", "]5 ; +∞[", "[3 ; 5]"], expl: "Le produit est négatif entre les deux racines 3 et 5 : les facteurs sont de signes opposés." },
+                { q: "Quel est le signe de \\(-(x-1)(x+3)\\) pour \\(x \\in ]-3\\,;\\,1[\\) ?", ans: "positif", type: "mcq", opts: ["positif", "négatif", "nul"], expl: "Sur \\(]-3;1[\\), \\((x-1)(x+3)<0\\). Le signe moins inverse : \\(-(\\text{négatif}) > 0\\)." },
+                {
+                    id: "dyn_signe_factorise",
+                    generate: function() {
+                        // (x - r1)(x - r2) with r1 < r2, ask sign on one of 3 intervals
+                        var pairs = [[-2,1],[-3,2],[-1,3],[-4,0],[0,4],[-2,4],[1,5],[-3,0],[2,6],[-1,2]];
+                        var p = pairs[Math.floor(Math.random()*pairs.length)];
+                        var r1 = p[0], r2 = p[1];
+                        var zones = [
+                            {label:"x < " + r1, ans:"positif", expl:"Les deux facteurs sont négatifs : produit positif."},
+                            {label:"x \\in ]" + r1 + "\\,;\\," + r2 + "[", ans:"négatif", expl:"\\((x-" + r1 + ")>0\\) et \\((x-" + r2 + ")<0\\) : produit négatif."},
+                            {label:"x > " + r2, ans:"positif", expl:"Les deux facteurs sont positifs : produit positif."}
+                        ];
+                        var z = zones[Math.floor(Math.random()*zones.length)];
+                        var sign1 = r1 < 0 ? "(x+" + Math.abs(r1) + ")" : "(x-" + r1 + ")";
+                        var sign2 = r2 < 0 ? "(x+" + Math.abs(r2) + ")" : "(x-" + r2 + ")";
+                        return {
+                            q: "Déterminer le signe de \\(" + sign1 + sign2 + "\\) pour \\(" + z.label + "\\).",
+                            ans: z.ans,
+                            opts: ["positif", "négatif", "nul"],
+                            type: "mcq",
+                            expl: z.expl + " Les racines sont \\(x_1=" + r1 + "\\) et \\(x_2=" + r2 + "\\) : le produit est négatif entre elles, positif à l'extérieur."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_signe_affine_gen",
+                    generate: function() {
+                        // ax + b type, ask sign for x > or < racine
+                        var cases = [
+                            {a:2,b:-4,r:2},{a:3,b:-6,r:2},{a:-1,b:3,r:3},{a:2,b:6,r:-3},
+                            {a:-3,b:9,r:3},{a:4,b:-8,r:2},{a:-2,b:4,r:2},{a:5,b:10,r:-2},
+                            {a:1,b:-5,r:5},{a:-1,b:-2,r:-2}
+                        ];
+                        var c = cases[Math.floor(Math.random()*cases.length)];
+                        var side = Math.random()<0.5 ? ">" : "<";
+                        var testX = side===">" ? c.r+1 : c.r-1;
+                        var val = c.a*testX + c.b;
+                        var ans = val>0 ? "positif" : (val<0 ? "négatif" : "nul");
+                        var bStr = c.b>0 ? "+"+c.b : (c.b<0 ? c.b.toString() : "");
+                        var aStr = c.a===1?"" : (c.a===-1?"-" : c.a.toString());
+                        return {
+                            q: "Quel est le signe de \\(" + aStr + "x" + bStr + "\\) pour \\(x " + side + " " + c.r + "\\) ?",
+                            ans: ans,
+                            opts: ["positif","négatif","nul"],
+                            type: "mcq",
+                            expl: "L'expression s'annule en \\(x=" + c.r + "\\). Pour \\(x " + side + " " + c.r + "\\), on calcule \\(" + c.a + " \\times " + testX + (c.b!==0?" + ("+c.b+")":"") + " = " + val + "\\), soit " + ans + "."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_tableau_signe_complet",
+                    generate: function() {
+                        // Ask about ONE cell in a sign table for (x-r1)(x-r2)
+                        var pairs = [[-2,1],[-3,2],[-1,3],[-4,0],[0,4],[-2,4],[1,5],[-3,-1]];
+                        var p = pairs[Math.floor(Math.random()*pairs.length)];
+                        var r1 = p[0], r2 = p[1];
+                        var f1 = r1<0 ? "(x+"+Math.abs(r1)+")" : "(x-"+r1+")";
+                        var f2 = r2<0 ? "(x+"+Math.abs(r2)+")" : "(x-"+r2+")";
+                        // Pick which cell to ask: factor or product, which zone
+                        var cellTypes = [
+                            // Ask sign of factor f1 on a zone
+                            {zone:"x < " + r1,  factor:1, sign:"négatif", expl:"Pour \\(x < " + r1 + "\\), on a \\(" + f1 + " < 0\\) car \\(x - " + r1 + " < 0\\)."},
+                            {zone:"x > " + r2,  factor:1, sign:"positif", expl:"Pour \\(x > " + r2 + "\\), on a \\(" + f1 + " > 0\\) car \\(x - " + r1 + " > 0\\)."},
+                            {zone:"x \\in ]" + r1 + "\\,;\\," + r2 + "[", factor:1, sign:"positif", expl:"Pour \\(x \\in ]" + r1 + ";" + r2 + "[\\), on a \\(x > " + r1 + "\\) donc \\(" + f1 + " > 0\\)."},
+                            // Ask sign of factor f2 on a zone
+                            {zone:"x < " + r1,  factor:2, sign:"négatif", expl:"Pour \\(x < " + r1 + "< " + r2 + "\\), on a \\(" + f2 + " < 0\\) car \\(x - " + r2 + " < 0\\)."},
+                            {zone:"x \\in ]" + r1 + "\\,;\\," + r2 + "[", factor:2, sign:"négatif", expl:"Pour \\(x \\in ]" + r1 + ";" + r2 + "[\\), on a \\(x < " + r2 + "\\) donc \\(" + f2 + " < 0\\)."},
+                            {zone:"x > " + r2,  factor:2, sign:"positif", expl:"Pour \\(x > " + r2 + "\\), on a \\(" + f2 + " > 0\\) car \\(x - " + r2 + " > 0\\)."}
+                        ];
+                        var ct = cellTypes[Math.floor(Math.random()*cellTypes.length)];
+                        var factorStr = ct.factor === 1 ? f1 : f2;
+                        return {
+                            q: "Dans le tableau de signes de \\(" + f1 + f2 + "\\), quel est le signe du facteur \\(" + factorStr + "\\) pour \\(" + ct.zone + "\\) ?",
+                            ans: ct.sign,
+                            opts: ["positif", "négatif", "nul"],
+                            type: "mcq",
+                            expl: ct.expl + " C'est cette analyse facteur par facteur qui permet de remplir un tableau de signes."
+                        };
+                    }
+                }
             ]}
         ]
     },
@@ -955,7 +1199,42 @@ second_degre: {
                 { q: "Pour le trinôme \\(ax^2+bx+c\\) de racines \\(x_1\\) et \\(x_2\\), exprimer \\(x_1 \\times x_2\\) en fonction des coefficients.", ans: "c/a", type: "input", expl: "Formule de Viète : \\(x_1 \\times x_2 = \\frac{c}{a}\\)." },
                 { q: "Pour le trinôme \\(ax^2+bx+c\\) de racines \\(x_1\\) et \\(x_2\\), exprimer \\(x_1 + x_2\\) en fonction des coefficients.", ans: "-b/a", type: "input", expl: "Formule de Viète : \\(x_1 + x_2 = \\frac{-b}{a}\\)." },
                 { q: "\\(x^2-3x+2\\) admet 1 comme racine. Trouver l'autre racine en utilisant le produit des racines.", ans: "2", type: "input", expl: "Produit des racines : \\(x_1 \\times x_2 = \\frac{c}{a} = 2\\), donc l'autre racine est 2." },
-                { q: "Déterminer les racines de \\(x^2 - 9 = 0\\) (avec \\(a=1, b=0, c=-9\\)).", ans: "{-3,3}", type: "mcq", opts: ["{-3,3}", "{3}", "{-9,9}", "{0,3}"], expl: "\\(x^2 = 9 \\Rightarrow x = 3\\) ou \\(x = -3\\)." }
+                { q: "Déterminer les racines de \\(x^2 - 9 = 0\\) (avec \\(a=1, b=0, c=-9\\)).", ans: "{-3,3}", type: "mcq", opts: ["{-3,3}", "{3}", "{-9,9}", "{0,3}"], expl: "\\(x^2 = 9 \\Rightarrow x = 3\\) ou \\(x = -3\\)." },
+                // --- Signe d'une expression factorisée du second degré ---
+                { q: "Quel est le signe de \\((x-2)(x-5)\\) pour \\(x \\in ]2\\,;\\,5[\\) ?", ans: "négatif", type: "mcq", opts: ["positif", "négatif", "nul"], expl: "Entre les deux racines 2 et 5 : \\((x-2)>0\\) et \\((x-5)<0\\), donc le produit est négatif." },
+                { q: "Pour \\(f(x) = (x+1)(x-3)\\), sur quel intervalle \\(f(x) > 0\\) ?", ans: "]-∞ ; -1[ ∪ ]3 ; +∞[", type: "mcq", opts: ["]-∞ ; -1[ ∪ ]3 ; +∞[", "]-1 ; 3[", "]-∞ ; 3[", "]-1 ; +∞["], expl: "Les racines sont \\(-1\\) et \\(3\\). Le coefficient \\(a=1>0\\) donc le trinôme est positif à l'extérieur des racines." },
+                { q: "Quel est le signe de \\(-( x-1)(x+2)\\) pour \\(x \\in ]-2\\,;\\,1[\\) ?", ans: "positif", type: "mcq", opts: ["positif", "négatif", "nul"], expl: "Sur \\(]-2;1[\\), \\((x-1)(x+2)<0\\) (entre les racines). Le signe moins inverse : résultat positif." },
+                {
+                    id: "dyn_signe_trinome",
+                    generate: function() {
+                        var configs = [
+                            {r1:-3,r2:1,a:1},{r1:-2,r2:4,a:1},{r1:0,r2:5,a:1},
+                            {r1:-1,r2:3,a:1},{r1:1,r2:4,a:1},{r1:-4,r2:-1,a:1},
+                            {r1:-2,r2:2,a:1},{r1:0,r2:3,a:-1},{r1:-3,r2:2,a:-1},
+                            {r1:1,r2:6,a:-1}
+                        ];
+                        var cfg = configs[Math.floor(Math.random()*configs.length)];
+                        var r1=cfg.r1, r2=cfg.r2, a=cfg.a;
+                        // zones: outside left, between, outside right
+                        var zones = [
+                            {label:"x < " + r1, signProd: 1},   // (-)(-) = +
+                            {label:"x \\in ]" + r1 + "\\,;\\," + r2 + "[", signProd: -1}, // (+)(-) = -
+                            {label:"x > " + r2, signProd: 1}    // (+)(+) = +
+                        ];
+                        var z = zones[Math.floor(Math.random()*zones.length)];
+                        var finalSign = a * z.signProd > 0 ? "positif" : "négatif";
+                        var f1 = r1 < 0 ? "(x+" + Math.abs(r1) + ")" : "(x-" + r1 + ")";
+                        var f2 = r2 < 0 ? "(x+" + Math.abs(r2) + ")" : "(x-" + r2 + ")";
+                        var expr = a === -1 ? "-" + f1 + f2 : (a === 1 ? f1 + f2 : a + f1 + f2);
+                        return {
+                            q: "Déterminer le signe de \\(" + expr + "\\) pour \\(" + z.label + "\\).",
+                            ans: finalSign,
+                            opts: ["positif", "négatif", "nul"],
+                            type: "mcq",
+                            expl: "Les racines sont \\(x_1=" + r1 + "\\) et \\(x_2=" + r2 + "\\). " + (a===1 ? "Avec \\(a=1>0\\)" : "Avec \\(a=-1<0\\)") + ", le trinôme est " + (a===1 ? "négatif entre les racines, positif à l'extérieur" : "positif entre les racines, négatif à l'extérieur") + ". Ici : " + finalSign + "."
+                        };
+                    }
+                }
             ]},
             { id: 'forme', name: "Formes & Sommets", questions: [
                 { q: "Quelles sont les coordonnées du sommet de la parabole d'équation \\(y = (x-3)^2 + 2\\) ?", ans: "(3,2)", type: "mcq", opts: ["(3,2)", "(-3,2)", "(3,-2)"], expl: "\\(S(\\alpha, \\beta)\\)." },
@@ -1080,7 +1359,40 @@ trigo: {
                 { q: "Simplifier l'expression \\(\\cos(\\pi - x)\\) à l'aide des formules d'angles associés.", ans: "-cos(x)", type: "mcq", opts: ["cos(x)", "-cos(x)", "sin(x)", "-sin(x)"], expl: "Symétrie par rapport à l'axe vertical." },
                 { q: "Simplifier l'expression \\(\\sin(\\pi - x)\\) à l'aide des formules d'angles associés.", ans: "sin(x)", type: "mcq", opts: ["sin(x)", "-sin(x)", "cos(x)", "-cos(x)"], expl: "Symétrie par rapport à l'axe vertical." },
                 { q: "Simplifier l'expression \\(\\cos(\\pi/2 - x)\\) à l'aide des angles complémentaires.", ans: "sin(x)", type: "mcq", opts: ["sin(x)", "cos(x)", "-sin(x)", "-cos(x)"], expl: "Angles complémentaires." },
-                { q: "Simplifier l'expression \\(\\sin(\\pi/2 - x)\\) à l'aide des angles complémentaires.", ans: "cos(x)", type: "mcq", opts: ["sin(x)", "cos(x)", "-sin(x)", "-cos(x)"], expl: "Angles complémentaires." }
+                { q: "Simplifier l'expression \\(\\sin(\\pi/2 - x)\\) à l'aide des angles complémentaires.", ans: "cos(x)", type: "mcq", opts: ["sin(x)", "cos(x)", "-sin(x)", "-cos(x)"], expl: "Angles complémentaires." },
+                {
+                    id: "dyn_valeur_trigo_gen",
+                    generate: function() {
+                        var table = [
+                            {ang:"0",      f:"cos", ans:"1",          opts:["1","0","-1","1/2"],              expl:"\\(\\cos(0)=1\\) : point de départ du cercle."},
+                            {ang:"0",      f:"sin", ans:"0",          opts:["0","1","-1","1/2"],              expl:"\\(\\sin(0)=0\\) : ordonnée du point de départ."},
+                            {ang:"\\dfrac{\\pi}{6}", f:"cos", ans:"sqrt(3)/2", opts:["sqrt(3)/2","1/2","sqrt(2)/2","1"], expl:"\\(\\cos\\!\\left(\\frac{\\pi}{6}\\right)=\\frac{\\sqrt{3}}{2}\\)."},
+                            {ang:"\\dfrac{\\pi}{6}", f:"sin", ans:"1/2",       opts:["1/2","sqrt(3)/2","sqrt(2)/2","0"],expl:"\\(\\sin\\!\\left(\\frac{\\pi}{6}\\right)=\\frac{1}{2}\\)."},
+                            {ang:"\\dfrac{\\pi}{4}", f:"cos", ans:"sqrt(2)/2", opts:["sqrt(2)/2","1/2","sqrt(3)/2","1"],expl:"\\(\\cos\\!\\left(\\frac{\\pi}{4}\\right)=\\frac{\\sqrt{2}}{2}\\)."},
+                            {ang:"\\dfrac{\\pi}{4}", f:"sin", ans:"sqrt(2)/2", opts:["sqrt(2)/2","1/2","sqrt(3)/2","0"],expl:"\\(\\sin\\!\\left(\\frac{\\pi}{4}\\right)=\\frac{\\sqrt{2}}{2}\\)."},
+                            {ang:"\\dfrac{\\pi}{4}", f:"tan", ans:"1",         opts:["1","sqrt(3)","sqrt(2)/2","0"],    expl:"\\(\\tan\\!\\left(\\frac{\\pi}{4}\\right)=1\\) : \\(\\sin=\\cos\\) en \\(\\pi/4\\)."},
+                            {ang:"\\dfrac{\\pi}{3}", f:"cos", ans:"1/2",       opts:["1/2","sqrt(3)/2","sqrt(2)/2","0"],expl:"\\(\\cos\\!\\left(\\frac{\\pi}{3}\\right)=\\frac{1}{2}\\)."},
+                            {ang:"\\dfrac{\\pi}{3}", f:"sin", ans:"sqrt(3)/2", opts:["sqrt(3)/2","1/2","sqrt(2)/2","1"],expl:"\\(\\sin\\!\\left(\\frac{\\pi}{3}\\right)=\\frac{\\sqrt{3}}{2}\\)."},
+                            {ang:"\\dfrac{\\pi}{3}", f:"tan", ans:"sqrt(3)",   opts:["sqrt(3)","1","1/sqrt(3)","0"],   expl:"\\(\\tan\\!\\left(\\frac{\\pi}{3}\\right)=\\sqrt{3}\\)."},
+                            {ang:"\\dfrac{\\pi}{2}", f:"cos", ans:"0",         opts:["0","1","-1","1/2"],              expl:"\\(\\cos\\!\\left(\\frac{\\pi}{2}\\right)=0\\) : axe vertical."},
+                            {ang:"\\dfrac{\\pi}{2}", f:"sin", ans:"1",         opts:["1","0","-1","sqrt(2)/2"],        expl:"\\(\\sin\\!\\left(\\frac{\\pi}{2}\\right)=1\\) : sommet du cercle."},
+                            {ang:"\\pi",   f:"cos", ans:"-1",         opts:["-1","0","1","-1/2"],             expl:"\\(\\cos(\\pi)=-1\\) : demi-tour, point à gauche."},
+                            {ang:"\\pi",   f:"sin", ans:"0",          opts:["0","-1","1","1/2"],              expl:"\\(\\sin(\\pi)=0\\) : point sur l'axe des abscisses."},
+                            {ang:"\\dfrac{3\\pi}{2}", f:"cos", ans:"0", opts:["0","1","-1","sqrt(2)/2"],     expl:"\\(\\cos\\!\\left(\\frac{3\\pi}{2}\\right)=0\\)."},
+                            {ang:"\\dfrac{3\\pi}{2}", f:"sin", ans:"-1", opts:["-1","0","1","-sqrt(2)/2"],   expl:"\\(\\sin\\!\\left(\\frac{3\\pi}{2}\\right)=-1\\) : point en bas."}
+                        ];
+                        var c = table[Math.floor(Math.random()*table.length)];
+                        var opts = c.opts.slice();
+                        for(var i=opts.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=opts[i];opts[i]=opts[j];opts[j]=t;}
+                        return {
+                            q: "Donner la valeur exacte de \\(\\" + c.f + "\\!\\left(" + c.ang + "\\right)\\).",
+                            ans: c.ans,
+                            opts: opts,
+                            type: "mcq",
+                            expl: c.expl + " Valeur fondamentale du cercle trigonométrique."
+                        };
+                    }
+                }
             ]}
         ]
     },
@@ -1148,7 +1460,88 @@ derivation: {
                 { q: "Quelle est la dérivée de \\(f(x) = 5x+2\\) ?", ans: "5", type: "input", expl: "Fonction affine : la dérivée est le coefficient de \\(x\\)." },
                 { q: "Si \\(f(x) = x^2\\), calculer la pente de la tangente en \\(x = -1\\).", ans: "-2", type: "input", expl: "\\(f'(x) = 2x\\), donc \\(f'(-1) = -2\\)." },
                 { q: "Calculer l'expression suivante : le nombre dérivé de \\(f(x) = x^2+x\\) en \\(x = 0\\)..", ans: "1", type: "input", expl: "\\(f'(x) = 2x+1\\), donc \\(f'(0) = 1\\)." },
-                { q: "Si \\(f(x) = 4\\), calculer \\(f'(x)\\).", ans: "0", type: "input", expl: "La dérivée de toute constante est 0." }
+                { q: "Si \\(f(x) = 4\\), calculer \\(f'(x)\\).", ans: "0", type: "input", expl: "La dérivée de toute constante est 0." },
+                {
+                    id: "dyn_derivee_usuelle_gen",
+                    generate: function() {
+                        var cases = [
+                            {f:"x^2",          fp:"2x",             type:"input", expl:"\\((x^n)' = nx^{n-1}\\) avec \\(n=2\\)."},
+                            {f:"x^3",          fp:"3x^2",           type:"input", expl:"\\((x^3)' = 3x^2\\)."},
+                            {f:"x^4",          fp:"4x^3",           type:"input", expl:"\\((x^4)' = 4x^3\\)."},
+                            {f:"x^5",          fp:"5x^4",           type:"input", expl:"\\((x^5)' = 5x^4\\)."},
+                            {f:"x^6",          fp:"6x^5",           type:"input", expl:"\\((x^6)' = 6x^5\\)."},
+                            {f:"e^x",          fp:"e^x",            type:"mcq",   opts:["e^x","x*e^x","e^{x-1}","1/e^x"],         expl:"La dérivée de \\(e^x\\) est \\(e^x\\) : fonction remarquable."},
+                            {f:"\\sin(x)",     fp:"cos(x)",         type:"mcq",   opts:["cos(x)","-sin(x)","-cos(x)","sin(x)"],   expl:"\\((\\sin x)' = \\cos x\\)."},
+                            {f:"\\cos(x)",     fp:"-sin(x)",        type:"mcq",   opts:["-sin(x)","sin(x)","cos(x)","-cos(x)"],   expl:"\\((\\cos x)' = -\\sin x\\)."},
+                            {f:"\\ln(x)",      fp:"1/x",            type:"mcq",   opts:["1/x","ln(x)/x","x","-1/x"],              expl:"\\((\\ln x)' = \\frac{1}{x}\\) pour \\(x>0\\)."},
+                            {f:"\\sqrt{x}",    fp:"1/(2*sqrt(x))",  type:"mcq",   opts:["1/(2*sqrt(x))","sqrt(x)/2","1/sqrt(x)","2*sqrt(x)"], expl:"\\((\\sqrt{x})' = \\frac{1}{2\\sqrt{x}}\\)."},
+                            {f:"\\dfrac{1}{x}",fp:"-1/x^2",        type:"mcq",   opts:["-1/x^2","1/x^2","-1/x","1/(2x)"],        expl:"\\(\\left(\\frac{1}{x}\\right)' = -\\frac{1}{x^2}\\)."}
+                        ];
+                        var c = cases[Math.floor(Math.random()*cases.length)];
+                        var res = {
+                            q: "Quelle est la dérivée de \\(f(x) = " + c.f + "\\) ?",
+                            ans: c.fp,
+                            type: c.type,
+                            expl: c.expl
+                        };
+                        if(c.type === "mcq"){
+                            var opts = c.opts.slice();
+                            for(var i=opts.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=opts[i];opts[i]=opts[j];opts[j]=t;}
+                            res.opts = opts;
+                        }
+                        return res;
+                    }
+                },
+                {
+                    id: "dyn_derivee_somme",
+                    generate: function() {
+                        // f(x) = ax^n + bx^m, ask f'(x)
+                        var cases = [
+                            {f:"3x^2 + 2x",    fp:"6x+2",     fptex:"6x+2"},
+                            {f:"x^3 - 4x",     fp:"3x^2-4",   fptex:"3x^2-4"},
+                            {f:"2x^2 + 5",     fp:"4x",       fptex:"4x"},
+                            {f:"x^3 + x^2",    fp:"3x^2+2x",  fptex:"3x^2+2x"},
+                            {f:"-x^3 + 2x^2",  fp:"-3x^2+4x", fptex:"-3x^2+4x"},
+                            {f:"4x^3 - 3x",    fp:"12x^2-3",  fptex:"12x^2-3"},
+                            {f:"x^2 + x + 1",  fp:"2x+1",     fptex:"2x+1"},
+                            {f:"5x^2 - 2x + 7",fp:"10x-2",    fptex:"10x-2"},
+                            {f:"x^4 - 2x^2",   fp:"4x^3-4x",  fptex:"4x^3-4x"},
+                            {f:"3x^3 + x",     fp:"9x^2+1",   fptex:"9x^2+1"},
+                            {f:"2x^3 - 6x + 1",fp:"6x^2-6",   fptex:"6x^2-6"},
+                            {f:"x^2 - 3x",     fp:"2x-3",     fptex:"2x-3"}
+                        ];
+                        var c = cases[Math.floor(Math.random()*cases.length)];
+                        return {
+                            q: "Calculer \\(f'(x)\\) pour \\(f(x) = " + c.f + "\\).",
+                            ans: c.fp,
+                            type: "input",
+                            expl: "On dérive terme à terme : \\(f'(x) = " + c.fptex + "\\)."
+                        };
+                    }
+                },
+                {
+                    id: "dyn_nombre_derive",
+                    generate: function() {
+                        // f(x) = ax^2 + bx + c, ask f'(x0) at a specific point
+                        var configs = [
+                            {a:1,b:0,c:0,x0:3,fp:6},{a:2,b:1,c:0,x0:2,fp:9},{a:1,b:-2,c:1,x0:3,fp:4},
+                            {a:3,b:0,c:0,x0:2,fp:12},{a:1,b:4,c:0,x0:1,fp:6},{a:2,b:-3,c:0,x0:2,fp:5},
+                            {a:1,b:0,c:5,x0:4,fp:8},{a:-1,b:2,c:0,x0:3,fp:-4},{a:2,b:1,c:3,x0:0,fp:1},
+                            {a:1,b:6,c:-2,x0:2,fp:10},{a:3,b:-1,c:0,x0:1,fp:5},{a:1,b:-4,c:2,x0:2,fp:0}
+                        ];
+                        var cfg = configs[Math.floor(Math.random()*configs.length)];
+                        var aStr = cfg.a===1?"" : (cfg.a===-1?"-":cfg.a.toString());
+                        var bStr = cfg.b===0?"" : (cfg.b>0?" + "+cfg.b:"x - "+Math.abs(cfg.b));
+                        var cStr = cfg.c===0?"" : (cfg.c>0?" + "+cfg.c:" - "+Math.abs(cfg.c));
+                        var fpStr = (2*cfg.a)+"x" + (cfg.b!==0?(cfg.b>0?" + "+cfg.b:" - "+Math.abs(cfg.b)):"");
+                        return {
+                            q: "On pose \\(f(x) = " + aStr + "x^2" + (cfg.b>=0?(cfg.b>0?" + "+cfg.b+"x":""):" - "+Math.abs(cfg.b)+"x") + (cfg.c>=0?(cfg.c>0?" + "+cfg.c:""):" - "+Math.abs(cfg.c)) + "\\). Calculer le nombre dérivé \\(f'(" + cfg.x0 + ")\\).",
+                            ans: cfg.fp.toString(),
+                            type: "input",
+                            expl: "\\(f'(x) = " + fpStr + "\\), donc \\(f'(" + cfg.x0 + ") = " + 2*cfg.a + " \\times " + cfg.x0 + (cfg.b!==0?" + "+cfg.b:"") + " = " + cfg.fp + "\\)."
+                        };
+                    }
+                }
             ]},
             { id: 'regles', name: "Opérations & Tangentes", questions: [
                 { q: "Quelle est la formule de la dérivée du produit \\(u \\times v\\) ?", ans: "u'v + uv'", type: "mcq", opts: ["u'v + uv'", "u'v'", "u' + v'", "uv' - u'v"], expl: "Règle du produit." },
@@ -1388,7 +1781,111 @@ suites: {
                                 expl: "\\(P(A|B) = \\dfrac{P(A \\cap B)}{P(B)} = \\dfrac{" + c.pab + "}{" + c.pb + "} = " + c.cond + "\\)."
                             };
                         }
-                    }
+                    },
+
+                    // --- Tableau croisé d'effectifs ---
+                    { q: "Un tableau croisé recense 45 élèves : parmi les filles, 15 pratiquent un sport et 10 non ; parmi les garçons, 8 pratiquent un sport et 12 non. Calculer \\(P(\\text{Sport} | \\text{Fille})\\).", ans: "3/5", type: "mcq", opts: ["3/5", "15/45", "3/8", "2/5"], expl: "Il y a \\(15+10=25\\) filles. Parmi elles, 15 font du sport. \\(P(\\text{Sport}|\\text{Fille})=\\dfrac{15}{25}=\\dfrac{3}{5}\\)." },
+                    { q: "Dans une enquête, 12 fumeurs sont malades, 8 fumeurs sont sains, 6 non-fumeurs sont malades, 24 non-fumeurs sont sains. Calculer \\(P(\\text{Sain} | \\text{Non-fumeur})\\).", ans: "4/5", type: "mcq", opts: ["4/5", "24/50", "3/5", "2/5"], expl: "Il y a \\(6+24=30\\) non-fumeurs. Parmi eux, 24 sont sains. \\(P(\\text{Sain}|\\text{Non-fumeur})=\\dfrac{24}{30}=\\dfrac{4}{5}\\)." },
+                    { q: "Tableau croisé : 20 hommes vaccinés, 30 hommes non vaccinés, 40 femmes vaccinées, 10 femmes non vaccinées. Calculer \\(P(\\text{Vacciné} | \\text{Femme})\\).", ans: "4/5", type: "mcq", opts: ["4/5", "40/100", "2/5", "1/2"], expl: "Il y a \\(40+10=50\\) femmes. \\(P(\\text{Vacciné}|\\text{Femme})=\\dfrac{40}{50}=\\dfrac{4}{5}\\)." },
+                    { q: "Dans un tableau croisé, on lit : \\(n(A \\cap B) = 18\\) et \\(n(B) = 30\\) (sur un total de 60 individus). Calculer \\(P(A | B)\\).", ans: "3/5", type: "mcq", opts: ["3/5", "18/60", "2/5", "1/2"], expl: "\\(P(A|B) = \\dfrac{n(A \\cap B)}{n(B)} = \\dfrac{18}{30} = \\dfrac{3}{5}\\). On divise les effectifs de la colonne \\(B\\), pas par le total général." },
+                    {
+                        id: "dyn_tableau_croise",
+                        generate: function() {
+                            var cases = [
+                                {rA:"Filles",rB:"Garçons",cB:"Sport",cBb:"Non sport",a:15,b:10,c:8,d:12},
+                                {rA:"Vaccinés",rB:"Non vac.",cB:"Malades",cBb:"Sains",a:6,b:14,c:18,d:12},
+                                {rA:"Gauchers",rB:"Droitiers",cB:"Artistes",cBb:"Non artistes",a:8,b:4,c:6,d:22},
+                                {rA:"Urbains",rB:"Ruraux",cB:"Transport commun",cBb:"Voiture",a:30,b:10,c:8,d:32},
+                                {rA:"Sportifs",rB:"Sédentaires",cB:"Healthy",cBb:"Non healthy",a:24,b:6,c:10,d:20},
+                                {rA:"Terminale",rB:"Première",cB:"Mention TB",cBb:"Autre mention",a:12,b:18,c:6,d:24},
+                                {rA:"Garçons",rB:"Filles",cB:"Jeux vidéo",cBb:"Autre loisir",a:20,b:10,c:8,d:22}
+                            ];
+                            var cas = cases[Math.floor(Math.random()*cases.length)];
+                            var totalA = cas.a + cas.b;
+                            function gcd(x,y){return y===0?x:gcd(y,x%y);}
+                            var g = gcd(cas.a, totalA);
+                            var num = cas.a/g, den = totalA/g;
+                            var ansStr = den===1 ? num.toString() : num+"/"+den;
+                            var g2 = gcd(cas.a, cas.a+cas.c); var w1 = (cas.a/g2)+"/"+(cas.a+cas.c)/g2;
+                            var tot = cas.a+cas.b+cas.c+cas.d;
+                            var g3 = gcd(cas.a,tot); var w2 = (cas.a/g3)+"/"+tot/g3;
+                            var g4 = gcd(cas.b,totalA); var w3 = (cas.b/g4)+"/"+(totalA/g4);
+                            var opts = [ansStr];
+                            [w1,w2,w3].forEach(function(v){if(opts.indexOf(v)<0)opts.push(v);});
+                            while(opts.length<4){opts.push(((cas.a+1)+"/"+totalA));}
+                            return {
+                                q: "Tableau croisé : parmi les \\(\\text{" + cas.rA + "}\\), " + cas.a + " sont « " + cas.cB + " » et " + cas.b + " ne le sont pas ; parmi les \\(\\text{" + cas.rB + "}\\), " + cas.c + " sont « " + cas.cB + " » et " + cas.d + " ne le sont pas. Calculer \\(P(\\text{" + cas.cB + "} | \\text{" + cas.rA + "})\\).",
+                                ans: ansStr,
+                                opts: opts.slice(0,4),
+                                type: "mcq",
+                                expl: "Il y a \\(" + totalA + "\\) \\(\\text{" + cas.rA + "}\\) au total. Parmi eux, \\(" + cas.a + "\\) sont « " + cas.cB + " ». Donc \\(P = \\dfrac{" + cas.a + "}{" + totalA + "} = " + ansStr + "\\)."
+                            };
+                        }
+                    },
+
+                    // --- Arbre de probabilités dynamique ---
+                    {
+                        id: "dyn_arbre_proba",
+                        generate: function() {
+                            // Pre-built 2-level trees: {pB, pAB, pABbar, label context}
+                            var trees = [
+                                {pB:0.6, pAB:0.3, pABb:0.5, B:"Vacciné",   Bb:"Non vac.",  A:"Malade"},
+                                {pB:0.4, pAB:0.7, pABb:0.2, B:"Sportif",   Bb:"Sédentaire",A:"Healthy"},
+                                {pB:0.5, pAB:0.4, pABb:0.6, B:"Fille",     Bb:"Garçon",    A:"Brevet mention"},
+                                {pB:0.3, pAB:0.8, pABb:0.1, B:"Urbain",    Bb:"Rural",     A:"Transport commun"},
+                                {pB:0.7, pAB:0.2, pABb:0.5, B:"Non fumeur",Bb:"Fumeur",    A:"Sain"},
+                                {pB:0.5, pAB:0.5, pABb:0.3, B:"Terminale", Bb:"Première",  A:"Mention TB"},
+                                {pB:0.6, pAB:0.6, pABb:0.2, B:"Lycéen",    Bb:"Collégien", A:"Pratique sport"},
+                                {pB:0.4, pAB:0.3, pABb:0.7, B:"Fille",     Bb:"Garçon",    A:"Lecture quotidienne"}
+                            ];
+                            var t = trees[Math.floor(Math.random()*trees.length)];
+                            var pB = t.pB, pBb = parseFloat((1-pB).toFixed(2));
+                            var pAB = t.pAB, pABb = t.pABb;
+                            // Compute derived values
+                            var pAinterB  = parseFloat((pB * pAB).toFixed(3));
+                            var pAinterBb = parseFloat((pBb * pABb).toFixed(3));
+                            var pA = parseFloat((pAinterB + pAinterBb).toFixed(3));
+                            var pAb = parseFloat((1 - pA).toFixed(3));
+
+                            // Randomly ask one of 3 question types
+                            var type = Math.floor(Math.random()*3);
+                            var q, ans, opts, expl;
+
+                            if (type === 0) {
+                                // Ask P(A∩B)
+                                ans = pAinterB.toString();
+                                var w1 = pAB.toString();
+                                var w2 = pB.toString();
+                                var w3 = parseFloat((pAinterB + 0.1).toFixed(3)).toString();
+                                opts = [ans, w1, w2, w3].filter(function(v,i,a){return a.indexOf(v)===i;}).slice(0,4);
+                                q = "Dans un arbre de probabilités : \\(P(\\text{" + t.B + "}) = " + pB + "\\) et \\(P(\\text{" + t.A + "}|\\text{" + t.B + "}) = " + pAB + "\\). Calculer \\(P(\\text{" + t.A + "} \\cap \\text{" + t.B + "})\\).";
+                                expl = "On multiplie les probabilités le long du chemin : \\(P(\\text{" + t.B + "}) \\times P(\\text{" + t.A + "}|\\text{" + t.B + "}) = " + pB + " \\times " + pAB + " = " + pAinterB + "\\).";
+                            } else if (type === 1) {
+                                // Ask P(A) via total probability
+                                ans = pA.toString();
+                                var w1 = pAinterB.toString();
+                                var w2 = parseFloat((pA + 0.1).toFixed(2)).toString();
+                                var w3 = parseFloat((pA - 0.1).toFixed(2)).toString();
+                                opts = [ans, w1, w2, w3].filter(function(v,i,a){return a.indexOf(v)===i;}).slice(0,4);
+                                q = "Dans un arbre : \\(P(\\text{" + t.B + "}) = " + pB + "\\), \\(P(\\text{" + t.Bb + "}) = " + pBb + "\\), \\(P(\\text{" + t.A + "}|\\text{" + t.B + "}) = " + pAB + "\\), \\(P(\\text{" + t.A + "}|\\text{" + t.Bb + "}) = " + pABb + "\\). Calculer \\(P(\\text{" + t.A + "})\\) (formule des probabilités totales).";
+                                expl = "\\(P(\\text{" + t.A + "}) = " + pB + " \\times " + pAB + " + " + pBb + " \\times " + pABb + " = " + pAinterB + " + " + pAinterBb + " = " + pA + "\\).";
+                            } else {
+                                // Ask which probability appears on a branch
+                                ans = "P(" + t.A + "|" + t.B + ")";
+                                opts = ["P(" + t.A + "|" + t.B + ")", "P(" + t.A + "∩" + t.B + ")", "P(" + t.B + "|" + t.A + ")", "P(" + t.A + ")"];
+                                q = "Dans un arbre, on considère deux branches successives : d'abord « \\(\\text{" + t.B + "}\\) », puis « \\(\\text{" + t.A + "}\\) ». La probabilité inscrite sur la deuxième branche est :";
+                                expl = "Sur la branche issue de « " + t.B + " » vers « " + t.A + " », on inscrit la probabilité conditionnelle \\(P(\\text{" + t.A + "}|\\text{" + t.B + "})\\). Le produit des deux branches donne \\(P(\\text{" + t.A + "} \\cap \\text{" + t.B + "})\\).";
+                            }
+                            // Shuffle opts
+                            for(var i=opts.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var tmp=opts[i];opts[i]=opts[j];opts[j]=tmp;}
+                            return { q: q, ans: ans, opts: opts, type: "mcq", expl: expl };
+                        }
+                    },
+
+                    // --- Distinguer P(A∩B), P_A(B), P_B(A) ---
+                    { q: "Parmi les trois notations suivantes, laquelle représente « la probabilité que A ET B se réalisent simultanément » ?", ans: "P(A∩B)", type: "mcq", opts: ["P(A∩B)", "P(A|B)", "P(B|A)", "P(A)+P(B)"], expl: "\\(P(A \\cap B)\\) est la probabilité de l'intersection : les deux événements se réalisent en même temps. \\(P(A|B)\\) et \\(P(B|A)\\) sont des probabilités conditionnelles (univers restreint à l'un des événements)." },
+                    { q: "Dans un arbre de probabilités, la probabilité inscrite sur une branche issue de \\(B\\) est :", ans: "P(A|B)", type: "mcq", opts: ["P(A|B)", "P(A∩B)", "P(A)×P(B)", "P(A)+P(B)"], expl: "Sur la branche qui part de \\(B\\) vers \\(A\\), on lit \\(P(A|B)\\). Pour obtenir \\(P(A \\cap B)\\), on multiplie les probabilités le long du chemin : \\(P(B) \\times P(A|B)\\)." },
+                    { q: "Si \\(P(A \\cap B) = 0.15\\), \\(P(A) = 0.3\\) et \\(P(B) = 0.5\\), laquelle de ces affirmations est correcte ?", ans: "P(B|A)=0.5 et P(A|B)=0.3", type: "mcq", opts: ["P(B|A)=0.5 et P(A|B)=0.3", "P(B|A)=P(A|B)=0.5", "P(B|A)=0.3 et P(A|B)=0.5", "P(B|A)=P(A|B)=0.15"], expl: "\\(P(B|A)=\\frac{0.15}{0.3}=0.5\\) et \\(P(A|B)=\\frac{0.15}{0.5}=0.3\\). En général \\(P(A|B) \\neq P(B|A)\\)." }
                 ]
             },
             {
@@ -1875,7 +2372,6 @@ suites: {
                         id: "dyn_ma_expression_numerique",
                         type: "input",
                         generate: function() {
-                            // (a + b)² ou a² - b²
                             var type = Math.random() < 0.5 ? "carre" : "diff";
                             if (type === "carre") {
                                 var a = Math.floor(Math.random()*8)+2;
@@ -1904,9 +2400,7 @@ suites: {
                         generate: function() {
                             var nList = [2,3,4,5,6,8,10];
                             var n = nList[Math.floor(Math.random()*nList.length)];
-                            // inverse du double = 1/(2n)
                             var num = 1; var den = 2*n;
-                            // simplify
                             function gcd(a,b){ return b===0?a:gcd(b,a%b); }
                             var g = gcd(num, den);
                             var sNum = num/g; var sDen = den/g;
@@ -1986,7 +2480,7 @@ suites: {
                                 var tmp = opts[i]; opts[i] = opts[j]; opts[j] = tmp;
                             }
                             return {
-                                q: "Calculer le discriminant de \\(" + (a===1?"":a) + "x^2 " + (b>=0?"+":"") + b + "x " + (c>=0?"+":"") + c + "\\).",
+                                q: "Calculer le discriminant de \\(" + a + "x^2 " + (b>=0?"+":"") + b + "x " + (c>=0?"+":"") + c + "\\).",
                                 ans: ansStr,
                                 opts: opts,
                                 expl: "\\(\\Delta = b^2 - 4ac = " + b + "^2 - 4 \\times " + a + " \\times " + c + " = " + b*b + " - " + 4*a*c + " = " + delta + "\\)."
@@ -2003,8 +2497,7 @@ suites: {
                                 delta = Math.floor(Math.random()*20)+1;
                                 msg = delta.toString();
                             } else if (caseType === 1) {
-                                delta = 0;
-                                msg = "0";
+                                delta = 0; msg = "0";
                             } else {
                                 delta = -(Math.floor(Math.random()*10)+1);
                                 msg = delta.toString();
@@ -2013,8 +2506,7 @@ suites: {
                             var opts = ["2 racines réelles distinctes", "1 racine double", "0 racine réelle", "∞ de racines"];
                             return {
                                 q: "Si \\(\\Delta = " + msg + "\\), combien l'équation du second degré a-t-elle de solutions réelles ?",
-                                ans: ans,
-                                opts: opts,
+                                ans: ans, opts: opts,
                                 expl: caseType === 0 ? "\\(\\Delta > 0\\) : deux racines réelles distinctes." : (caseType === 1 ? "\\(\\Delta = 0\\) : une racine double." : "\\(\\Delta < 0\\) : aucune racine réelle.")
                             };
                         }
@@ -2023,13 +2515,11 @@ suites: {
                         id: "dyn_ma_somme_produit",
                         type: "mcq",
                         generate: function() {
-                            // x² + px + q = 0, racines r1 et r2
                             var r1List = [-3,-2,-1,1,2,3,4,5];
                             var r2List = [-3,-2,-1,1,2,3,4,5];
                             var r1 = r1List[Math.floor(Math.random()*r1List.length)];
                             var r2 = r2List[Math.floor(Math.random()*r2List.length)];
-                            var S = r1 + r2;
-                            var P = r1 * r2;
+                            var S = r1+r2, P = r1*r2;
                             var question = Math.random() < 0.5 ? "somme" : "produit";
                             var ans = question === "somme" ? S.toString() : P.toString();
                             var w1 = (parseFloat(ans)+1).toString();
@@ -2044,11 +2534,10 @@ suites: {
                             }
                             return {
                                 q: "Les racines de \\(x^2 " + ((-S)>=0?"+":"") + (-S) + "x " + (P>=0?"+":"") + P + "\\) sont \\(" + r1 + "\\) et \\(" + r2 + "\\). Calculer leur " + question + ".",
-                                ans: ans,
-                                opts: opts,
-                                expl: question === "somme" 
-                                    ? "\\(x_1 + x_2 = " + r1 + " + " + r2 + " = " + S + "\\) (ou par les relations : \\(-b/a = -" + (-S) + " = " + S + "\\))."
-                                    : "\\(x_1 \\times x_2 = " + r1 + " \\times " + r2 + " = " + P + "\\) (ou par les relations : \\(c/a = " + P + "\\))."
+                                ans: ans, opts: opts,
+                                expl: question === "somme"
+                                    ? "\\(x_1 + x_2 = " + r1 + " + " + r2 + " = " + S + "\\) (Viète : \\(-b/a = " + S + "\\))."
+                                    : "\\(x_1 \\times x_2 = " + r1 + " \\times " + r2 + " = " + P + "\\) (Viète : \\(c/a = " + P + "\\))."
                             };
                         }
                     },
@@ -2060,26 +2549,24 @@ suites: {
                             var r2List = [-3,-2,-1,1,2,3];
                             var r1 = r1List[Math.floor(Math.random()*r1List.length)];
                             var r2 = r2List[Math.floor(Math.random()*r2List.length)];
-                            // f(x) = (x-r1)(x-r2)
-                            var r1Str = r1 >= 0 ? "-" + r1 : "+" + Math.abs(r1);
-                            var r2Str = r2 >= 0 ? "-" + r2 : "+" + Math.abs(r2);
-                            var ans = "(x " + r1Str + ")(x " + r2Str + ")";
-                            var w1 = "(x " + r1Str + ")(x " + (r2>=0?"+":"") + r2 + ")";
-                            var w2 = "(x " + (r1>=0?"+":"") + r1 + ")(x " + (r2>=0?"+":"") + r2 + ")";
-                            var S = r1+r2; var P = r1*r2;
-                            var w3 = "x^2 " + ((-S)>=0?"+":"") + (-S) + "x " + (P>=0?"+":"") + P;
+                            var r1Str = r1>=0 ? "-"+r1 : "+"+Math.abs(r1);
+                            var r2Str = r2>=0 ? "-"+r2 : "+"+Math.abs(r2);
+                            var ans = "(x "+r1Str+")(x "+r2Str+")";
+                            var w1 = "(x "+r1Str+")(x "+(r2>=0?"+":"")+r2+")";
+                            var w2 = "(x "+(r1>=0?"+":"")+r1+")(x "+(r2>=0?"+":"")+r2+")";
+                            var S=r1+r2, P=r1*r2;
+                            var w3 = "x^2 "+((-S)>=0?"+":"")+(-S)+"x "+(P>=0?"+":"")+P;
                             var opts = [ans, w1, w2, w3];
                             opts = opts.filter(function(v,i,a){ return a.indexOf(v)===i; });
-                            while (opts.length < 4) opts.push("(x+" + r1 + ")(x-" + r2 + ")");
+                            while (opts.length < 4) opts.push("(x+"+r1+")(x-"+r2+")");
                             for (var i = opts.length-1; i > 0; i--) {
                                 var j = Math.floor(Math.random()*(i+1));
                                 var tmp = opts[i]; opts[i] = opts[j]; opts[j] = tmp;
                             }
                             return {
                                 q: "Donner la forme factorisée du polynôme ayant pour racines \\(" + r1 + "\\) et \\(" + r2 + "\\) (avec \\(a=1\\)).",
-                                ans: ans,
-                                opts: opts,
-                                expl: "\\(f(x) = (x - " + r1 + ")(x - " + r2 + ") = (x " + r1Str + ")(x " + r2Str + ")\\)."
+                                ans: ans, opts: opts,
+                                expl: "\\(f(x) = (x - "+r1+")(x - "+r2+") = (x "+r1Str+")(x "+r2Str+")\\)."
                             };
                         }
                     }
@@ -2099,23 +2586,22 @@ suites: {
                             function gcd(a,b){ return b===0?a:gcd(b,a%b); }
                             var g = gcd(den-num, den);
                             var cNum = (den-num)/g; var cDen = den/g;
-                            var ansStr = cNum + "/" + cDen;
-                            var w1 = num + "/" + den;
-                            var w2 = (den-num) + "/" + den;
-                            var w3 = "1/" + den;
-                            if (w2 === ansStr) { w2 = (cNum+1) + "/" + cDen; }
+                            var ansStr = cNum+"/"+cDen;
+                            var w1 = num+"/"+den;
+                            var w2 = (den-num)+"/"+den;
+                            var w3 = "1/"+den;
+                            if (w2 === ansStr) { w2 = (cNum+1)+"/"+cDen; }
                             var opts = [ansStr, w1, w2, w3];
                             opts = opts.filter(function(v,i,a){ return a.indexOf(v)===i; });
-                            while (opts.length < 4) opts.push((cNum+2) + "/" + (cDen+1));
+                            while (opts.length < 4) opts.push((cNum+2)+"/"+(cDen+1));
                             for (var i = opts.length-1; i > 0; i--) {
                                 var j = Math.floor(Math.random()*(i+1));
                                 var tmp = opts[i]; opts[i] = opts[j]; opts[j] = tmp;
                             }
                             return {
-                                q: "Si \\(P(A) = \\frac{" + num + "}{" + den + "}\\), quelle est la probabilité de l'événement contraire \\(\\bar{A}\\) ?",
-                                ans: ansStr,
-                                opts: opts,
-                                expl: "\\(P(\\bar{A}) = 1 - P(A) = 1 - \\frac{" + num + "}{" + den + "} = \\frac{" + (den-num) + "}{" + den + "}" + (g>1 ? " = \\frac{" + cNum + "}{" + cDen + "}" : "") + "\\)."
+                                q: "Si \\(P(A) = \\frac{"+num+"}{"+den+"}\\), quelle est la probabilité de l'événement contraire \\(\\bar{A}\\) ?",
+                                ans: ansStr, opts: opts,
+                                expl: "\\(P(\\bar{A}) = 1 - \\frac{"+num+"}{"+den+"} = \\frac{"+(den-num)+"}{"+den+"}"+(g>1?" = \\frac{"+cNum+"}{"+cDen+"}":"")+"\\)."
                             };
                         }
                     },
@@ -2123,7 +2609,6 @@ suites: {
                         id: "dyn_ma_proba_conditionnelle_calcul",
                         type: "mcq",
                         generate: function() {
-                            // P(A∩B) = p/q, P(B) = r/q → P(A|B) = p/r
                             var qList = [10,12,15,20];
                             var q = qList[Math.floor(Math.random()*qList.length)];
                             var pAB = Math.floor(Math.random()*4)+1;
@@ -2132,22 +2617,21 @@ suites: {
                             function gcd(a,b){ return b===0?a:gcd(b,a%b); }
                             var g = gcd(pAB, pB);
                             var ansNum = pAB/g; var ansDen = pB/g;
-                            var ansStr = ansDen === 1 ? ansNum.toString() : ansNum + "/" + ansDen;
-                            var w1 = pAB + "/" + q;
-                            var w2 = pB + "/" + q;
-                            var w3 = (pAB+1) + "/" + pB;
+                            var ansStr = ansDen===1 ? ansNum.toString() : ansNum+"/"+ansDen;
+                            var w1 = pAB+"/"+q;
+                            var w2 = pB+"/"+q;
+                            var w3 = (pAB+1)+"/"+pB;
                             var opts = [ansStr, w1, w2, w3];
                             opts = opts.filter(function(v,i,a){ return a.indexOf(v)===i; });
-                            while (opts.length < 4) opts.push((ansNum+1) + "/" + ansDen);
+                            while (opts.length < 4) opts.push((ansNum+1)+"/"+ansDen);
                             for (var i = opts.length-1; i > 0; i--) {
                                 var j = Math.floor(Math.random()*(i+1));
                                 var tmp = opts[i]; opts[i] = opts[j]; opts[j] = tmp;
                             }
                             return {
-                                q: "Sachant que \\(P(A \\cap B) = \\frac{" + pAB + "}{" + q + "}\\) et \\(P(B) = \\frac{" + pB + "}{" + q + "}\\), calculer \\(P_B(A)\\).",
-                                ans: ansStr,
-                                opts: opts,
-                                expl: "\\(P_B(A) = \\frac{P(A \\cap B)}{P(B)} = \\frac{" + pAB + "/" + q + "}{" + pB + "/" + q + "} = \\frac{" + pAB + "}{" + pB + "}" + (g>1?" = \\frac{"+ansNum+"}{"+ansDen+"}":"") + "\\)."
+                                q: "Sachant que \\(P(A \\cap B) = \\frac{"+pAB+"}{"+q+"}\\) et \\(P(B) = \\frac{"+pB+"}{"+q+"}\\), calculer \\(P_B(A)\\).",
+                                ans: ansStr, opts: opts,
+                                expl: "\\(P_B(A) = \\frac{P(A \\cap B)}{P(B)} = \\frac{"+pAB+"/"+q+"}{"+pB+"/"+q+"} = \\frac{"+pAB+"}{"+pB+"}"+(g>1?" = \\frac{"+ansNum+"}{"+ansDen+"}":"")+"\\)."
                             };
                         }
                     },
@@ -2159,7 +2643,7 @@ suites: {
                                 q: "On lance une pièce équilibrée 1000 fois. Vers quelle fréquence d'apparition de PILE tend-on ?",
                                 ans: "0.5",
                                 opts: ["0.5", "0.25", "0.75", "1"],
-                                expl: "La loi des grands nombres garantit que la fréquence tend vers la probabilité \\(P(\\text{pile}) = 0{,}5\\)."
+                                expl: "La loi des grands nombres garantit que la fréquence tend vers la probabilité \\(P(\\text{pile}) = 0.5\\)."
                             };
                         }
                     }
@@ -2167,6 +2651,4 @@ suites: {
             }
         ]
     }
-
-
 };
