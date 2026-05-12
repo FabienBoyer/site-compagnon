@@ -1,6 +1,132 @@
 {
   "articles": [
     {
+      "title": "SciFig",
+      "link": "https://www.uneiaparjour.fr/scifig/",
+      "date": "2026-05-11T21:14:00",
+      "source": "Une IA par jour",
+      "summary": "SciFig (https://scifig.ai/) génère des figures scientifiques et des infographies à partir une instruction, un dessin ou un PDF ou une photo. 6 styles au choix : scientifique, trait, 3D, éditorial, esq"
+    },
+    {
+      "title": "How ChatGPT adoption broadened in early 2026",
+      "link": "https://openai.com/signals/research/2026q1-update",
+      "date": "2026-05-11T15:00:00",
+      "source": "OpenAI Blog",
+      "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption."
+    },
+    {
+      "title": "RT by @nsi_xyz: Bac NSI 2026 – Épreuve pratique 💻\n\n23 sujets officiels, PDF, fichiers joints, compétences Python… et des corrigés pour mieux réviser.\n\nhttps://www.math93.com/index.php/annales-du-bac/annales-spe-nsi/bac-nsi-2026-pratique\n\n#NSI #Bac2026 #Math93",
+      "link": "https://twitter.com/Math93Com/status/2053896905793351799#m",
+      "date": "2026-05-11T17:55:56",
+      "source": "@nsi_xyz",
+      "summary": "<p>Bac NSI 2026 – Épreuve pratique 💻<br />\n<br />\n23 sujets officiels, PDF, fichiers joints, compétences Python… et des corrigés pour mieux réviser.<br />\n<br />\n<a href=\"https://www.math93.com/index."
+    },
+    {
+      "title": "📝 Et si le choix de la police influençait réellement l’apprentissage ?\nLisibilité, dyslexie, écriture… ce guide fait le point sur les polices adaptées à l’école et leurs impacts pédagogiques\nhttps://outilstice.com/2025/02/polices-caracteres-ecole-guide/ \n✍️ @outilstice",
+      "link": "https://twitter.com/sophiaefrance/status/2049457428610109921#m",
+      "date": "2026-04-29T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>📝 Et si le choix de la police influençait réellement l’apprentissage ?<br />\nLisibilité, dyslexie, écriture… ce guide fait le point sur les polices adaptées à l’école et leurs impacts pédagogiques<"
+    },
+    {
+      "title": "#GAMIA transforme les révisions en jeu grâce à une IA souveraine : quiz, flashcards, défis chrono, feedbacks immédiats et remédiation personnalisée. Un outil simple, du primaire au lycée. #IA #Éducation #NumériqueÉducatif\nhttps://gamia.forge.apps.education.fr/ \n✍️ Gauthier Remande",
+      "link": "https://twitter.com/sophiaefrance/status/2046920713051742561#m",
+      "date": "2026-04-22T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p><a href=\"https://nitter.net/search?f=tweets&amp;q=%23GAMIA\">#GAMIA</a> transforme les révisions en jeu grâce à une IA souveraine : quiz, flashcards, défis chrono, feedbacks immédiats et remédiation"
+    },
+    {
+      "title": "Claude's Constitution is now an audiobook, read by two of its authors, Amanda Askell and Joe Carlsmith.\n\nIt includes a Q&A on the writing process, the philosophies that shaped the document, and how it might change as models become more capable.\n\nListen at http://anthropic.com/constitution",
+      "link": "https://twitter.com/AnthropicAI/status/2053881827396653207#m",
+      "date": "2026-05-11T16:56:01",
+      "source": "@AnthropicAI",
+      "summary": "<p>Claude's Constitution is now an audiobook, read by two of its authors, Amanda Askell and Joe Carlsmith.<br />\n<br />\nIt includes a Q&amp;A on the writing process, the philosophies that shaped the d"
+    },
+    {
+      "title": "RT by @MistralAI: Introducing remote agents in Vibe and Mistral Medium 3.5. You can now launch remote agents in the cloud, including from the CLI or Le Chat. Plus, new Work mode in Le Chat for complex, multi-step tasks. 🧵",
+      "link": "https://twitter.com/mistralvibe/status/2049511749603168520#m",
+      "date": "2026-04-29T15:30:53",
+      "source": "@MistralAI",
+      "summary": "<p>Introducing remote agents in Vibe and Mistral Medium 3.5. You can now launch remote agents in the cloud, including from the CLI or Le Chat. Plus, new Work mode in Le Chat for complex, multi-step ta"
+    },
+    {
+      "title": "R to @MistralAI: 📚 Learn more here https://mistral.ai/news/workflows",
+      "link": "https://twitter.com/MistralAI/status/2049128192405917836#m",
+      "date": "2026-04-28T14:06:46",
+      "source": "@MistralAI",
+      "summary": "<p>📚 Learn more here <a href=\"https://mistral.ai/news/workflows\">mistral.ai/news/workflows</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2050851762802724864%2FMOur3T5Z%3Fformat%3Dpng%26name%3D80"
+    },
+    {
+      "title": "R to @MistralAI: Hear from our team:",
+      "link": "https://twitter.com/MistralAI/status/2049128190874964030#m",
+      "date": "2026-04-28T14:06:46",
+      "source": "@MistralAI",
+      "summary": "<p>Hear from our team:</p>\n<a href=\"https://nitter.net/MistralAI/status/2049128190874964030#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2049128073883525120%2Fimg%2F5"
+    },
+    {
+      "title": "RT by @MistralAI: Build once. Reuse everywhere.\n\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.",
+      "link": "https://twitter.com/MistralDevs/status/2044418622131437755#m",
+      "date": "2026-04-15T14:12:37",
+      "source": "@MistralAI",
+      "summary": "<p>Build once. Reuse everywhere.<br />\n<br />\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.</p>\n<im"
+    },
+    {
+      "title": "R to @MistralAI: Check out our blog post for details: https://mistral.ai/news/voxtral-tts",
+      "link": "https://twitter.com/MistralAI/status/2037183035121029375#m",
+      "date": "2026-03-26T15:00:59",
+      "source": "@MistralAI",
+      "summary": "<p>Check out our blog post for details: <a href=\"https://mistral.ai/news/voxtral-tts\">mistral.ai/news/voxtral-tts</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2050713086974443520%2F85DX12CM%3Ff"
+    },
+    {
+      "title": "R to @MistralAI: Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.",
+      "link": "https://twitter.com/MistralAI/status/2037183032856076527#m",
+      "date": "2026-03-26T15:00:58",
+      "source": "@MistralAI",
+      "summary": "<p>Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.</p>\n<a href=\"https://nitter.net/MistralAI/status/2037183032856076527#m\">\n"
+    },
+    {
+      "title": "R to @MistralAI: State-of-the-art performance.\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to the original voice.",
+      "link": "https://twitter.com/MistralAI/status/2037183030935105578#m",
+      "date": "2026-03-26T15:00:58",
+      "source": "@MistralAI",
+      "summary": "<p>State-of-the-art performance.<br />\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to t"
+    },
+    {
+      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
+      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
+      "date": "2026-04-29T02:20:52",
+      "source": "@deepseek_ai",
+      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
+    },
+    {
+      "title": "Introducing Daybreak: frontier AI for cyber defenders.\n\nDaybreak brings together the most capable OpenAI models, Codex, and our security partners to accelerate cyber defense and continuously secure software.\n\nA step toward a future where security teams can move at the speed defense demands.",
+      "link": "https://twitter.com/OpenAI/status/2053939702110269822#m",
+      "date": "2026-05-11T20:45:59",
+      "source": "@OpenAI",
+      "summary": "<p>Introducing Daybreak: frontier AI for cyber defenders.<br />\n<br />\nDaybreak brings together the most capable OpenAI models, Codex, and our security partners to accelerate cyber defense and continu"
+    },
+    {
+      "title": "R to @OpenAI: Automate security detection, validation, and response with Daybreak",
+      "link": "https://twitter.com/OpenAI/status/2053939706468139481#m",
+      "date": "2026-05-11T20:46:01",
+      "source": "@OpenAI",
+      "summary": "<p>Automate security detection, validation, and response with Daybreak</p>\n<a href=\"https://nitter.net/OpenAI/status/2053939706468139481#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplif"
+    },
+    {
+      "title": "R to @OpenAI: openai.com/daybreak/",
+      "link": "https://twitter.com/OpenAI/status/2053939707818692907#m",
+      "date": "2026-05-11T20:46:01",
+      "source": "@OpenAI",
+      "summary": "<p><a href=\"https://openai.com/daybreak/\">openai.com/daybreak/</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2053947587955171328%2F-QWaDmWX%3Fformat%3Djpg%26name%3D800x419\" />"
+    },
+    {
+      "title": "R to @OpenAI: We’ve also agreed to acquire Tomoro, which will bring 150 experienced Forward Deployed Engineers and Deployment Specialists to the OpenAI Deployment Company from day one.",
+      "link": "https://twitter.com/OpenAI/status/2053824999736410415#m",
+      "date": "2026-05-11T13:10:12",
+      "source": "@OpenAI",
+      "summary": "<p>We’ve also agreed to acquire Tomoro, which will bring 150 experienced Forward Deployed Engineers and Deployment Specialists to the OpenAI Deployment Company from day one.</p>"
+    },
+    {
       "title": "Open Maic",
       "link": "https://www.uneiaparjour.fr/open-maic/",
       "date": "2026-05-10T20:52:00",
@@ -573,135 +699,9 @@
       "date": "2026-05-08T20:19:05",
       "source": "@OpenAI",
       "summary": "<p>Directly rewarding or penalizing CoTs can make models’ reasoning traces less informative for detecting misalignment. That’s why we treat avoiding CoT grading as an important part of preserving moni"
-    },
-    {
-      "title": "Chain of thought monitors are a key layer of defense against AI agent misalignment. To preserve monitorability, we avoid penalizing misaligned reasoning during RL.\n\nWe found a limited amount of accidental CoT grading which affected released models, and are sharing our analysis.\nhttps://alignment.openai.com/accidental-cot-grading/",
-      "link": "https://twitter.com/OpenAI/status/2052845764507062349#m",
-      "date": "2026-05-08T20:19:04",
-      "source": "@OpenAI",
-      "summary": "<p>Chain of thought monitors are a key layer of defense against AI agent misalignment. To preserve monitorability, we avoid penalizing misaligned reasoning during RL.<br />\n<br />\nWe found a limited a"
-    },
-    {
-      "title": "Just gonna leave this here.\n\nhttps://chatgpt.com/codex/switch-to-codex/",
-      "link": "https://twitter.com/OpenAI/status/2052800507727781979#m",
-      "date": "2026-05-08T17:19:14",
-      "source": "@OpenAI",
-      "summary": "<p>Just gonna leave this here.<br />\n<br />\n<a href=\"https://chatgpt.com/codex/switch-to-codex/\">chatgpt.com/codex/switch-to-…</a></p>\n<img src=\"https://nitter.net/pic/media%2FHH0C1n8awAAANNo.jpg\" />"
-    },
-    {
-      "title": "R to @Fabien_Mikol: A savoir un doctorat en droit US, d'être un chercheur (niveau PhD j'imagine) en biochimie et en génétique, ainsi qu'en climatologie.\nDe même pour son niveau de Grand Maître aux échecs, le fait d'avoir écrit bien des livres, et de posséder un demi-milliard.\nhttps://x.com/lactetue/status/2011137721126043736",
-      "link": "https://twitter.com/Fabien_Mikol/status/2052841601534169117#m",
-      "date": "2026-05-08T20:02:32",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>A savoir un doctorat en droit US, d'être un chercheur (niveau PhD j'imagine) en biochimie et en génétique, ainsi qu'en climatologie.<br />\nDe même pour son niveau de Grand Maître aux échecs, le fai"
-    },
-    {
-      "title": "Et si l’IA devenait le socle de l’école ?\nLa Chine a proposé son plan d'action pour l'IA en éducation : un enseignement d'une culture de l'IA dès le primaire, enseignants formés, suivi des élèves par les données, pilotage algorithmique... \n🔗 https://www.nda.gov.cn/sjj/zwgk/tzgg/0410/20260410162428109058250_pc.html",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2052766077386387491#m",
-      "date": "2026-05-08T15:02:26",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Et si l’IA devenait le socle de l’école ?<br />\nLa Chine a proposé son plan d'action pour l'IA en éducation : un enseignement d'une culture de l'IA dès le primaire, enseignants formés, suivi des él"
-    },
-    {
-      "title": "🤖 Plus le monde devient technique, plus les sciences humaines deviennent stratégiques.\n\nPhilosophes, sociologues, juristes, psychologues, enseignants : sans eux, on construit des IA puissantes… sans savoir quelle humanité elles servent. \n\n🔗 https://www.msn.com/en-in/money/news/philosopher-to-study-human-ai-ties-who-is-henry-shevlin-google-deepmind-s-key-non-tech-hire/ar-AA20RJlI",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2051685984404729963#m",
-      "date": "2026-05-05T15:30:31",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🤖 Plus le monde devient technique, plus les sciences humaines deviennent stratégiques.<br />\n<br />\nPhilosophes, sociologues, juristes, psychologues, enseignants : sans eux, on construit des IA pui"
-    },
-    {
-      "title": "🎤 J’ai trouvé comment terminer mes prochaines conférences et formations.\nPlus de diapo.\nPlus de conclusion.\nJuste ça 👇\nAI – AronChupa\n🎶 https://www.youtube.com/watch?v=H2JMRXCiPLE",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2051331823397933390#m",
-      "date": "2026-05-04T16:03:13",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🎤 J’ai trouvé comment terminer mes prochaines conférences et formations.<br />\nPlus de diapo.<br />\nPlus de conclusion.<br />\nJuste ça 👇<br />\nAI – AronChupa<br />\n🎶 <a href=\"https://piped.video/wa"
-    },
-    {
-      "title": "Les luddites ne détruisaient pas seulement des machines.\nLe métier Jacquard utilisait des cartes perforées pour exécuter des instructions, ce qui constitue donc l'un des premiers systèmes programmables qui a influencé Charles Babbage.\n🔗 https://encyclopedia.design/2023/06/18/weaving-wonders-the-jacquard-looms-textile-revolution/",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2049882218651058291#m",
-      "date": "2026-04-30T16:03:00",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Les luddites ne détruisaient pas seulement des machines.<br />\nLe métier Jacquard utilisait des cartes perforées pour exécuter des instructions, ce qui constitue donc l'un des premiers systèmes pro"
-    },
-    {
-      "title": "💬 « Tu crois que les IA exploitent tout ce qu’on dit ? »\n💬 « Elles vont faire quoi ? Appeler le RAID ? »\n\n👉 Oui.\nUn Français résidant à Strasbourg vient d'en faire l'expérience. \n\n🔗 https://www.radiofrance.fr/franceculture/podcasts/un-monde-connecte/d-une-recherche-chatgpt-a-l-intervention-du-raid-le-coup-de-com-d-openai-1847220 \n\n#IA #ChatGPT #ViePrivée #Sécurité",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2047345428975218777#m",
-      "date": "2026-04-23T16:02:42",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>💬 « Tu crois que les IA exploitent tout ce qu’on dit ? »<br />\n💬 « Elles vont faire quoi ? Appeler le RAID ? »<br />\n<br />\n👉 Oui.<br />\nUn Français résidant à Strasbourg vient d'en faire l'expérie"
-    },
-    {
-      "title": "Garder à l’esprit que l’IA est contrôlée par celui qui la met à disposition…",
-      "link": "https://mathix.org/linux/archives/22271",
-      "date": "2026-04-30T07:45:45",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Comme vous le savez j&#8217;ai conçu une interface pour utiliser l&#8217;API mis à disposition par EDUNIM (etalab.gouf.fr). Faire prendre conscience qu&#8217;on peut orienter"
-    },
-    {
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "date": "2026-05-07T13:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure."
-    },
-    {
-      "title": "Parloa builds service agents customers want to talk to",
-      "link": "https://openai.com/index/parloa",
-      "date": "2026-05-07T11:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions."
-    },
-    {
-      "title": "Advancing voice intelligence with new models in the API",
-      "link": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
-      "date": "2026-05-07T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences."
-    },
-    {
-      "title": "Testing ads in ChatGPT",
-      "link": "https://openai.com/index/testing-ads-in-chatgpt",
-      "date": "2026-05-07T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control."
-    },
-    {
-      "title": "Introducing Trusted Contact in ChatGPT",
-      "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-      "date": "2026-05-07T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected."
-    },
-    {
-      "title": "Simplex rethinks software development with Codex",
-      "link": "https://openai.com/index/simplex",
-      "date": "2026-05-07T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows."
-    },
-    {
-      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "date": "2026-04-27T13:00:00",
-      "source": "Google AI",
-      "summary": "A web next to a laptop"
-    },
-    {
-      "title": "RT by @nsi_xyz: Les salaires de fin de carrières de 2024 n'atteignent même pas les salaires de début de carrière de 1980. Voilà un aperçu de l'énorme déclassement des enseignants en France. Comment s'étonner de la baisse du niveau scolaire? On n'attire plus les meilleurs avec des salaires si bas",
-      "link": "https://twitter.com/TataYoyo_1ere/status/2049163620395766030#m",
-      "date": "2026-04-28T16:27:33",
-      "source": "@nsi_xyz",
-      "summary": "<p>Les salaires de fin de carrières de 2024 n'atteignent même pas les salaires de début de carrière de 1980. Voilà un aperçu de l'énorme déclassement des enseignants en France. Comment s'étonner de la"
-    },
-    {
-      "title": "🧠 Un enfant #TDAH n’est ni paresseux, ni insolent.\nSon cerveau fonctionne autrement.\nComprendre, c’est déjà mieux accompagner.\nCe guide donne des clés concrètes pour des relations plus sereines à l’école et à la maison #Inclusion #Neuroeducation\n🔗 https://drive.google.com/file/d/1v7O7X2wDyhekMoyrTit3YahjyntJFeEV/view?usp=sharing",
-      "link": "https://twitter.com/sophiaefrance/status/2051161155373080835#m",
-      "date": "2026-05-04T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧠 Un enfant <a href=\"https://nitter.net/search?f=tweets&amp;q=%23TDAH\">#TDAH</a> n’est ni paresseux, ni insolent.<br />\nSon cerveau fonctionne autrement.<br />\nComprendre, c’est déjà mieux accompag"
     }
   ],
-  "last_update": "2026-05-11T10:53:12.066852",
+  "last_update": "2026-05-12T10:24:16.368913",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
