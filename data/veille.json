@@ -1,6 +1,167 @@
 {
   "articles": [
     {
+      "title": "Garder à l’esprit que l’IA est contrôlée par celui qui la met à disposition…",
+      "link": "https://mathix.org/linux/archives/22271",
+      "date": "2026-04-30T07:45:45",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Comme vous le savez j&#8217;ai conçu une interface pour utiliser l&#8217;API mis à disposition par EDUNIM (etalab.gouf.fr). Faire prendre conscience qu&#8217;on peut orienter"
+    },
+    {
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "link": "https://openai.com/index/nvidia",
+      "date": "2026-05-12T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments."
+    },
+    {
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "link": "https://openai.com/index/what-parameter-golf-taught-us",
+      "date": "2026-05-12T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraint"
+    },
+    {
+      "title": "AutoScout24 scales engineering with AI-powered workflows",
+      "link": "https://openai.com/index/autoscout24",
+      "date": "2026-05-12T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption."
+    },
+    {
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "date": "2026-05-07T13:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure."
+    },
+    {
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "date": "2026-04-27T13:00:00",
+      "source": "Google AI",
+      "summary": "A web next to a laptop"
+    },
+    {
+      "title": "Et si on parlait un peu de la fakenews sur la \"consommation\" d'eau et d'électricité des IA ? #unpopular opinion",
+      "link": "https://twitter.com/nsi_xyz/status/2054210517841940749#m",
+      "date": "2026-05-12T14:42:07",
+      "source": "@nsi_xyz",
+      "summary": "<p>Et si on parlait un peu de la fakenews sur la \"consommation\" d'eau et d'électricité des IA ? <a href=\"https://nitter.net/search?f=tweets&amp;q=%23unpopular\">#unpopular</a> opinion</p>\n<img src=\"htt"
+    },
+    {
+      "title": "Gemini vient d'injecter une discussion précédente dans une nouvelle discussion, je ne suis pas vraiment ravi, je préférerais pouvoir choisir avec ou sans mémoire.",
+      "link": "https://twitter.com/nsi_xyz/status/2054177009505333255#m",
+      "date": "2026-05-12T12:28:58",
+      "source": "@nsi_xyz",
+      "summary": "<p>Gemini vient d'injecter une discussion précédente dans une nouvelle discussion, je ne suis pas vraiment ravi, je préférerais pouvoir choisir avec ou sans mémoire.</p>"
+    },
+    {
+      "title": "RT by @nsi_xyz: Les salaires de fin de carrières de 2024 n'atteignent même pas les salaires de début de carrière de 1980. Voilà un aperçu de l'énorme déclassement des enseignants en France. Comment s'étonner de la baisse du niveau scolaire? On n'attire plus les meilleurs avec des salaires si bas",
+      "link": "https://twitter.com/TataYoyo_1ere/status/2049163620395766030#m",
+      "date": "2026-04-28T16:27:33",
+      "source": "@nsi_xyz",
+      "summary": "<p>Les salaires de fin de carrières de 2024 n'atteignent même pas les salaires de début de carrière de 1980. Voilà un aperçu de l'énorme déclassement des enseignants en France. Comment s'étonner de la"
+    },
+    {
+      "title": "🧠 Un enfant #TDAH n’est ni paresseux, ni insolent.\nSon cerveau fonctionne autrement.\nComprendre, c’est déjà mieux accompagner.\nCe guide donne des clés concrètes pour des relations plus sereines à l’école et à la maison #Inclusion #Neuroeducation\n🔗 https://drive.google.com/file/d/1v7O7X2wDyhekMoyrTit3YahjyntJFeEV/view?usp=sharing",
+      "link": "https://twitter.com/sophiaefrance/status/2051161155373080835#m",
+      "date": "2026-05-04T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧠 Un enfant <a href=\"https://nitter.net/search?f=tweets&amp;q=%23TDAH\">#TDAH</a> n’est ni paresseux, ni insolent.<br />\nSon cerveau fonctionne autrement.<br />\nComprendre, c’est déjà mieux accompag"
+    },
+    {
+      "title": "RT by @OpenAI: parameter golf was a blast.\n\n2,000+ submissions. 1,000+ verified github accounts. ideas ranging from quantization and depth recurrence to TTT LoRA, SSMs, H-nets, JEPA, and more.\n\nautoresearch made iteration dramatically faster — and led to emergent bulletin boards, issue threads, unofficial leaderboards, and agent-built writeups that helped everyone learn from everyone else.\n\nit felt like a glimpse of where interaction with AI is headed: humans setting taste and direction, agents helping explore, coordinate, and share what works.\n\nour goal was simple: make ml research accessible to anyone, anywhere.\nit was amazing to see that happen.\n\nfull recap: https://openai.com/index/what-parameter-golf-taught-us/\nfuture events: https://jobs.ashbyhq.com/openai/form/open-ai-challenge-parameter-golf",
+      "link": "https://twitter.com/cocohearts/status/2054279323998409121#m",
+      "date": "2026-05-12T19:15:32",
+      "source": "@OpenAI",
+      "summary": "<p>parameter golf was a blast.<br />\n<br />\n2,000+ submissions. 1,000+ verified github accounts. ideas ranging from quantization and depth recurrence to TTT LoRA, SSMs, H-nets, JEPA, and more.<br />\n<"
+    },
+    {
+      "title": "R to @OpenAI: Cut through the security backlog with Daybreak",
+      "link": "https://twitter.com/OpenAI/status/2053939705146945887#m",
+      "date": "2026-05-11T20:46:00",
+      "source": "@OpenAI",
+      "summary": "<p>Cut through the security backlog with Daybreak</p>\n<a href=\"https://nitter.net/OpenAI/status/2053939705146945887#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F20539"
+    },
+    {
+      "title": "R to @OpenAI: Find and fix vulnerabilities earlier with Daybreak",
+      "link": "https://twitter.com/OpenAI/status/2053939703473430658#m",
+      "date": "2026-05-11T20:46:00",
+      "source": "@OpenAI",
+      "summary": "<p>Find and fix vulnerabilities earlier with Daybreak</p>\n<a href=\"https://nitter.net/OpenAI/status/2053939703473430658#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: Quelques statistiques intéressantes sur le bilan environnemental de l'IA trouvées sur le blog du chercheur Andy Masley :\n\nBilan carbone de l’entraînement de Chat GPT 4 :\n\nEntraîner GPT-4 a consommé l’énergie nécessaire à alimenter la ville de San Francisco pendant trois jours. Mais Chat GPT-4 est un produit qui a été utilisé par des centaines de millions de personnes pendant deux ans. À titre de comparaison, la fabrication des Iphones 16 a consommé l’énergie nécessaire à alimenter la ville de San Francisco pendant treize ans.\n\nBilan carbone de l’entraînement de Chat GPT 4 : 15 000 tonnes de CO2, soit les émissions annuelles de 1 550 citoyens américains.\n\nC’est inférieur au bilan carbone de la fabrication des chaussures Nike vendues sur une seule journée ou à celui de la fabrication des Légos vendus sur un mois. Si l'on pense qu'il aurait été bénéfique pour la planète d'empêcher l'entraînement de GPT-4, il faudrait aussi envisager d'arrêter la production de Lego pendant un mois.\n\nBilan carbone de l’inférence :\n\nUne requête ChatGPT moyenne consomme autant d'énergie qu'une recherche Google en 2008 (la dernière fois où Google a indiqué la consommation d'une recherche).\n\nMême en incluant les « coûts cachés » comme l'entraînement, les émissions liées à la fabrication du matériel, l'énergie utilisée pour le refroidissement et les puces d'IA en veille entre les prompts, le coût carbone d'un prompt moyen représente moins de 1/150 000ᵉ des émissions quotidiennes d'un Américain moyen (0,00067 %).\n\nLa consommation d’eau :\n\nLes data centers aux États-Unis ont consommé 0,2% de l’eau douce du pays en 2023.\n\nL’IA ne représente que 20% de la consommation des data centers. Elle consomme donc 0,04% de l’eau douce américaine (ceci inclut la consommation d'eau pour produire l'électricité alimentant les data centers). \n\nIl est prévu que ce chiffre triple d’ici 2030, atteignant 0,12% de la consommation américaine d’eau douce. Cela équivaudra à 8% de la consommation d’eau par l’industrie du golf aux États-Unis.\n\nEn 2030, les data centers d'IA consommeront annuellement autant d'eau que 0,07 % de la population américaine.\n\nÀ l’échelle individuelle, un prompt consomme 0,2 ml d’eau (à nouveau, en incluant l’eau utilisée pour produire l’électricité utilisée par le datacenter). Quotidiennement, avant l'arrivée de l'IA, l'Américain moyen utilisait l'eau équivalente à 800 000 prompts.\n\nQuelques équivalences consommation d’eau/prompts:\n\nChaussures en cuir : 4 000 000 prompts\nSmartphone : 6 400 000 prompts\nJean : 5 400 000 prompts\nT-shirt : 1 300 000 prompts\nUne feuille de papier : 2 550 prompts\nUn livre de 400 pages : 1 000 000 prompts\n\nChaque seconde passée à marcher dans la rue use un peu vos chaussures, qui finiront par devoir être remplacées. Or, leur fabrication nécessite de l'eau. Andy Masley calcule que chaque seconde de marche consomme en moyenne autant d'eau que 7 prompts. Rester assis devant son ordinateur permet donc d'économiser de l’eau.\n\nTout cela sans évoquer tous les bienfaits environnementaux qui seront apportés par l’IA (efficacité des chaînes d’approvisionnement, découvertes scientifiques, libération de ressources à investir dans le renouvelable, etc.)",
+      "link": "https://twitter.com/SamuelFitouss10/status/2054487022820057411#m",
+      "date": "2026-05-13T09:00:51",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Quelques statistiques intéressantes sur le bilan environnemental de l'IA trouvées sur le blog du chercheur Andy Masley :<br />\n<br />\nBilan carbone de l’entraînement de Chat GPT 4 :<br />\n<br />\nEn"
+    },
+    {
+      "title": "Arthur Mensch (Mistral) : on ne fait pas comme Anthropic, on n'impose aucune limite à l'usage de notre IA par l'armée car ils représentent la légitimité démocratique ; c'est critique dans la dissuasion face à l'armée russe, notamment en développant des systèmes armés autonomes.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2054314095604642276#m",
+      "date": "2026-05-12T21:33:42",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Arthur Mensch (Mistral) : on ne fait pas comme Anthropic, on n'impose aucune limite à l'usage de notre IA par l'armée car ils représentent la légitimité démocratique ; c'est critique dans la dissua"
+    },
+    {
+      "title": "Arthur Mensch (Mistral) : \"y a pas tellement de bulle\", \"une bulle c'est quand vous surestimez la demande\" alors qu'aujourd'hui on a un problème d'offre : manque de chips, de mémoire, etc ; je ne m'inquiète pas pour les Américains, je m'inquiète plutôt pour nous Européens...",
+      "link": "https://twitter.com/Fabien_Mikol/status/2054293805390610701#m",
+      "date": "2026-05-12T20:13:04",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Arthur Mensch (Mistral) : \"y a pas tellement de bulle\", \"une bulle c'est quand vous surestimez la demande\" alors qu'aujourd'hui on a un problème d'offre : manque de chips, de mémoire, etc ; je ne m"
+    },
+    {
+      "title": "Arthur Mensch (Mistral) : \"aujourd'hui les ingénieurs logiciels chez Mistral n'écrivent plus de ligne de code\", ce sont des \"managers d'agents\" ; la productivité est énorme pour un individu, mais au niveau d'une grande entreprise il reste un goulot d'étranglement organisationnel.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2054280984279843251#m",
+      "date": "2026-05-12T19:22:08",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Arthur Mensch (Mistral) : \"aujourd'hui les ingénieurs logiciels chez Mistral n'écrivent plus de ligne de code\", ce sont des \"managers d'agents\" ; la productivité est énorme pour un individu, mais a"
+    },
+    {
+      "title": "Quand une IA hallucine, on dit : \"Vous voyez bien, on ne peut pas faire confiance à l'IA.\" Pourtant, on ne réagit pas ainsi avec les humains. Quand les personnes en qui nous avons confiance commettent une erreur rare, on les excuse en disant : \"Eh bien, l'erreur est humaine.\"",
+      "link": "https://twitter.com/Fabien_Mikol/status/2054231019788644620#m",
+      "date": "2026-05-12T16:03:35",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Quand une IA hallucine, on dit : \"Vous voyez bien, on ne peut pas faire confiance à l'IA.\" Pourtant, on ne réagit pas ainsi avec les humains. Quand les personnes en qui nous avons confiance commett"
+    },
+    {
+      "title": "Et si l’IA devenait le socle de l’école ?\nLa Chine a proposé son plan d'action pour l'IA en éducation : un enseignement d'une culture de l'IA dès le primaire, enseignants formés, suivi des élèves par les données, pilotage algorithmique... \n🔗 https://www.nda.gov.cn/sjj/zwgk/tzgg/0410/20260410162428109058250_pc.html",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2052766077386387491#m",
+      "date": "2026-05-08T15:02:26",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Et si l’IA devenait le socle de l’école ?<br />\nLa Chine a proposé son plan d'action pour l'IA en éducation : un enseignement d'une culture de l'IA dès le primaire, enseignants formés, suivi des él"
+    },
+    {
+      "title": "🤖 Plus le monde devient technique, plus les sciences humaines deviennent stratégiques.\n\nPhilosophes, sociologues, juristes, psychologues, enseignants : sans eux, on construit des IA puissantes… sans savoir quelle humanité elles servent. \n\n🔗 https://www.msn.com/en-in/money/news/philosopher-to-study-human-ai-ties-who-is-henry-shevlin-google-deepmind-s-key-non-tech-hire/ar-AA20RJlI",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2051685984404729963#m",
+      "date": "2026-05-05T15:30:31",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🤖 Plus le monde devient technique, plus les sciences humaines deviennent stratégiques.<br />\n<br />\nPhilosophes, sociologues, juristes, psychologues, enseignants : sans eux, on construit des IA pui"
+    },
+    {
+      "title": "🎤 J’ai trouvé comment terminer mes prochaines conférences et formations.\nPlus de diapo.\nPlus de conclusion.\nJuste ça 👇\nAI – AronChupa\n🎶 https://www.youtube.com/watch?v=H2JMRXCiPLE",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2051331823397933390#m",
+      "date": "2026-05-04T16:03:13",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🎤 J’ai trouvé comment terminer mes prochaines conférences et formations.<br />\nPlus de diapo.<br />\nPlus de conclusion.<br />\nJuste ça 👇<br />\nAI – AronChupa<br />\n🎶 <a href=\"https://piped.video/wa"
+    },
+    {
+      "title": "Les luddites ne détruisaient pas seulement des machines.\nLe métier Jacquard utilisait des cartes perforées pour exécuter des instructions, ce qui constitue donc l'un des premiers systèmes programmables qui a influencé Charles Babbage.\n🔗 https://encyclopedia.design/2023/06/18/weaving-wonders-the-jacquard-looms-textile-revolution/",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2049882218651058291#m",
+      "date": "2026-04-30T16:03:00",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Les luddites ne détruisaient pas seulement des machines.<br />\nLe métier Jacquard utilisait des cartes perforées pour exécuter des instructions, ce qui constitue donc l'un des premiers systèmes pro"
+    },
+    {
+      "title": "💬 « Tu crois que les IA exploitent tout ce qu’on dit ? »\n💬 « Elles vont faire quoi ? Appeler le RAID ? »\n\n👉 Oui.\nUn Français résidant à Strasbourg vient d'en faire l'expérience. \n\n🔗 https://www.radiofrance.fr/franceculture/podcasts/un-monde-connecte/d-une-recherche-chatgpt-a-l-intervention-du-raid-le-coup-de-com-d-openai-1847220 \n\n#IA #ChatGPT #ViePrivée #Sécurité",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2047345428975218777#m",
+      "date": "2026-04-23T16:02:42",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>💬 « Tu crois que les IA exploitent tout ce qu’on dit ? »<br />\n💬 « Elles vont faire quoi ? Appeler le RAID ? »<br />\n<br />\n👉 Oui.<br />\nUn Français résidant à Strasbourg vient d'en faire l'expérie"
+    },
+    {
       "title": "SciFig",
       "link": "https://www.uneiaparjour.fr/scifig/",
       "date": "2026-05-11T21:14:00",
@@ -538,170 +699,9 @@
       "date": "2026-04-23T09:00:00",
       "source": "Google AI",
       "summary": "Aerial image of the data center"
-    },
-    {
-      "title": "RT by @nsi_xyz: Le SMIC passera de 1823€ à environ 1860€.\nPour complément d'information, un professeur des écoles ou un professeur certifié commence à 1944€.\n\nSi vous avez les capacités nécessaires pour faire l'un ou l'autre de ces deux métiers, faites autre chose.\n\nhttps://www.franceinfo.fr/economie/inflation/le-smic-va-augmenter-d-au-moins-2-en-juin-si-l-inflation-d-avril-se-confirme-declare-le-ministre-roland-lescure_7974845.html",
-      "link": "https://twitter.com/Ctpjano/status/2050915490722189700#m",
-      "date": "2026-05-03T12:28:51",
-      "source": "@nsi_xyz",
-      "summary": "<p>Le SMIC passera de 1823€ à environ 1860€.<br />\nPour complément d'information, un professeur des écoles ou un professeur certifié commence à 1944€.<br />\n<br />\nSi vous avez les capacités nécessair"
-    },
-    {
-      "title": "🔬 Comment passer de la #recherche à la pratique en #classe ?\nLe #CSEN propose une boîte à outils pour aider les enseignants à s’appuyer sur des résultats scientifiques concrets. Un pont essentiel entre recherche et terrain \n🔗 https://www.reseau-canope.fr/fileadmin/user_upload/Projets/conseil_scientifique_education_nationale/Ressources_pedagogiques/CSEN_IDEE_Boite_a_outils_recherche_education.web.pdf\n@reseaucanope",
-      "link": "https://twitter.com/sophiaefrance/status/2052687458098135525#m",
-      "date": "2026-05-08T09:50:01",
-      "source": "@sophiaefrance",
-      "summary": "<p>🔬 Comment passer de la <a href=\"https://nitter.net/search?f=tweets&amp;q=%23recherche\">#recherche</a> à la pratique en <a href=\"https://nitter.net/search?f=tweets&amp;q=%23classe\">#classe</a> ?<br "
-    },
-    {
-      "title": "R to @AnthropicAI: Read the full post here: https://alignment.anthropic.com/2026/teaching-claude-why/",
-      "link": "https://twitter.com/AnthropicAI/status/2052808809182060581#m",
-      "date": "2026-05-08T17:52:14",
-      "source": "@AnthropicAI",
-      "summary": "<p>Read the full post here: <a href=\"https://alignment.anthropic.com/2026/teaching-claude-why/\">alignment.anthropic.com/2026…</a></p>"
-    },
-    {
-      "title": "R to @AnthropicAI: Finally, simple updates that diversify a model’s training data can make a difference. We added unrelated tools and system prompts to a simple chat dataset targeting harmlessness, and this reduced the blackmail rate faster.",
-      "link": "https://twitter.com/AnthropicAI/status/2052808806782964072#m",
-      "date": "2026-05-08T17:52:13",
-      "source": "@AnthropicAI",
-      "summary": "<p>Finally, simple updates that diversify a model’s training data can make a difference. We added unrelated tools and system prompts to a simple chat dataset targeting harmlessness, and this reduced t"
-    },
-    {
-      "title": "R to @AnthropicAI: The improvements from these interventions survive reinforcement learning, and “stack” with our regular harmlessness training.",
-      "link": "https://twitter.com/AnthropicAI/status/2052808804018909248#m",
-      "date": "2026-05-08T17:52:12",
-      "source": "@AnthropicAI",
-      "summary": "<p>The improvements from these interventions survive reinforcement learning, and “stack” with our regular harmlessness training.</p>\n<img src=\"https://nitter.net/pic/media%2FHHz8gcsWgAYVGfX.jpg\" />"
-    },
-    {
-      "title": "R to @AnthropicAI: High-quality documents based on Claude’s constitution, combined with fictional stories that portray an aligned AI, can reduce agentic misalignment by more than a factor of three—despite being unrelated to the evaluation scenario.",
-      "link": "https://twitter.com/AnthropicAI/status/2052808801040859392#m",
-      "date": "2026-05-08T17:52:12",
-      "source": "@AnthropicAI",
-      "summary": "<p>High-quality documents based on Claude’s constitution, combined with fictional stories that portray an aligned AI, can reduce agentic misalignment by more than a factor of three—despite being unrel"
-    },
-    {
-      "title": "R to @AnthropicAI: Our best intervention was a dataset where the user is in an ethically difficult situation and the assistant gives a high quality, principled response.\n\nThis had the biggest effect despite being quite different from the evaluation set.",
-      "link": "https://twitter.com/AnthropicAI/status/2052808798239146290#m",
-      "date": "2026-05-08T17:52:11",
-      "source": "@AnthropicAI",
-      "summary": "<p>Our best intervention was a dataset where the user is in an ethically difficult situation and the assistant gives a high quality, principled response.<br />\n<br />\nThis had the biggest effect despi"
-    },
-    {
-      "title": "R to @AnthropicAI: We experimented with training Claude on examples of safe behavior in scenarios like our evaluation. This had only a small effect, despite being similar to our evaluation. We got further by rewriting the responses to portray admirable reasons for acting safely.",
-      "link": "https://twitter.com/AnthropicAI/status/2052808795844145248#m",
-      "date": "2026-05-08T17:52:10",
-      "source": "@AnthropicAI",
-      "summary": "<p>We experimented with training Claude on examples of safe behavior in scenarios like our evaluation. This had only a small effect, despite being similar to our evaluation. We got further by rewritin"
-    },
-    {
-      "title": "R to @AnthropicAI: We started by investigating why Claude chose to blackmail. We believe the original source of the behavior was internet text that portrays AI as evil and interested in self-preservation.\n\nOur post-training at the time wasn’t making it worse—but it also wasn’t making it better.",
-      "link": "https://twitter.com/AnthropicAI/status/2052808791301697563#m",
-      "date": "2026-05-08T17:52:09",
-      "source": "@AnthropicAI",
-      "summary": "<p>We started by investigating why Claude chose to blackmail. We believe the original source of the behavior was internet text that portrays AI as evil and interested in self-preservation.<br />\n<br /"
-    },
-    {
-      "title": "R to @AnthropicAI: We found that training Claude on demonstrations of aligned behavior wasn’t enough. Our best interventions involved teaching Claude to deeply understand why misaligned behavior is wrong.\n\nRead more: https://www.anthropic.com/research/teaching-claude-why",
-      "link": "https://twitter.com/AnthropicAI/status/2052808789297115628#m",
-      "date": "2026-05-08T17:52:09",
-      "source": "@AnthropicAI",
-      "summary": "<p>We found that training Claude on demonstrations of aligned behavior wasn’t enough. Our best interventions involved teaching Claude to deeply understand why misaligned behavior is wrong.<br />\n<br /"
-    },
-    {
-      "title": "New Anthropic research: Teaching Claude why.\n\nLast year we reported that, under certain experimental conditions, Claude 4 would blackmail users.\n\nSince then, we’ve completely eliminated this behavior. How?",
-      "link": "https://twitter.com/AnthropicAI/status/2052808787514228772#m",
-      "date": "2026-05-08T17:52:08",
-      "source": "@AnthropicAI",
-      "summary": "<p>New Anthropic research: Teaching Claude why.<br />\n<br />\nLast year we reported that, under certain experimental conditions, Claude 4 would blackmail users.<br />\n<br />\nSince then, we’ve completel"
-    },
-    {
-      "title": "Pinned: Mistral’s AI Now Summit is coming to Paris on May 28 and tickets are live!\n\nWhat you’ll hear:\n📷 Technical deep dives to help you build and deploy AI.\n📷 Mistral’s founders on AI-driven transformation in large organizations, company trajectory, and upcoming releases.\n\nOne day to leave with:\n✅ Hands-on techniques to deploy and scale AI\n✅ Practical insights on AI use cases\n✅ Connections with peers to help you build your own AI\n\nGet your pass now → https://ainowsummit.com",
-      "link": "https://twitter.com/MistralAI/status/2042256228668276987#m",
-      "date": "2026-04-09T15:00:02",
-      "source": "@MistralAI",
-      "summary": "<p>Mistral’s AI Now Summit is coming to Paris on May 28 and tickets are live!<br />\n<br />\nWhat you’ll hear:<br />\n📷 Technical deep dives to help you build and deploy AI.<br />\n📷 Mistral’s founders on"
-    },
-    {
-      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.\n🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI.\n\n7/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
-      "date": "2026-04-24T03:24:16",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
-    },
-    {
-      "title": "R to @deepseek_ai: API is Available Today!\n\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.\n🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://api-docs.deepseek.com/guides/thinking_mode\n\n⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking).\n\n6/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516945466188072#m",
-      "date": "2026-04-24T03:24:15",
-      "source": "@deepseek_ai",
-      "summary": "<p>API is Available Today!<br />\n<br />\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.<br />\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.<br />\n🔹 Both models suppor"
-    },
-    {
-      "title": "R to @deepseek_ai: Dedicated Optimizations for Agent Capabilities\n\n🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode.\n🔹 Already driving our in-house agentic coding at DeepSeek.\n\nThe figure below showcases a sample PDF generated by DeepSeek-V4-Pro.\n\n5/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516941074796676#m",
-      "date": "2026-04-24T03:24:14",
-      "source": "@deepseek_ai",
-      "summary": "<p>Dedicated Optimizations for Agent Capabilities<br />\n<br />\n🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode.<br />\n🔹 Already driving our in-house"
-    },
-    {
-      "title": "R to @deepseek_ai: Structural Innovation & Ultra-High Context Efficiency\n\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).\n🔹 Peak Efficiency: World-leading long context with drastically reduced compute & memory costs.\n🔹 1M Standard: 1M context is now the default across all official DeepSeek services.\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516936289017964#m",
-      "date": "2026-04-24T03:24:13",
-      "source": "@deepseek_ai",
-      "summary": "<p>Structural Innovation & Ultra-High Context Efficiency<br />\n<br />\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).<br />\n🔹 Peak Efficiency: World-leading long context w"
-    },
-    {
-      "title": "R to @deepseek_ai: DeepSeek-V4-Flash\n\n🔹 Reasoning capabilities closely approach V4-Pro.\n🔹 Performs on par with V4-Pro on simple Agent tasks.\n🔹 Smaller parameter size, faster response times, and highly cost-effective API pricing.\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516932140884024#m",
-      "date": "2026-04-24T03:24:12",
-      "source": "@deepseek_ai",
-      "summary": "<p>DeepSeek-V4-Flash<br />\n<br />\n🔹 Reasoning capabilities closely approach V4-Pro.<br />\n🔹 Performs on par with V4-Pro on simple Agent tasks.<br />\n🔹 Smaller parameter size, faster response times, an"
-    },
-    {
-      "title": "R to @deepseek_ai: DeepSeek-V4-Pro\n\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pro.\n🔹 World-Class Reasoning: Beats all current open models in Math/STEM/Coding, rivaling top closed-source models.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516926432399791#m",
-      "date": "2026-04-24T03:24:10",
-      "source": "@deepseek_ai",
-      "summary": "<p>DeepSeek-V4-Pro<br />\n<br />\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.<br />\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pr"
-    },
-    {
-      "title": "🚀 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-effective 1M context length.\n\n🔹 DeepSeek-V4-Pro: 1.6T total / 49B active params. Performance rivaling the world's top closed-source models.\n🔹 DeepSeek-V4-Flash: 284B total / 13B active params. Your fast, efficient, and economical choice.\n\nTry it now at http://chat.deepseek.com via Expert Mode / Instant Mode. API is updated & available today!\n\n📄 Tech Report: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf\n🤗 Open Weights: https://huggingface.co/collections/deepseek-ai/deepseek-v4\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516922263285776#m",
-      "date": "2026-04-24T03:24:09",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-effective 1M context length.<br />\n<br />\n🔹 DeepSeek-V4-Pro: 1.6T total / 49B active params. Performance rivaling"
-    },
-    {
-      "title": "R to @OpenAI: Training models involves many technical and social processes, so prevention of CoT grading has to be built into the process. \n\nWe’re improving real-time CoT-grading detection, safeguards against accidental CoT grading, monitorability stress tests, and the internal guidance/checks that help catch these issues before deployment.",
-      "link": "https://twitter.com/OpenAI/status/2052845770056073216#m",
-      "date": "2026-05-08T20:19:06",
-      "source": "@OpenAI",
-      "summary": "<p>Training models involves many technical and social processes, so prevention of CoT grading has to be built into the process. <br />\n<br />\nWe’re improving real-time CoT-grading detection, safeguard"
-    },
-    {
-      "title": "R to @OpenAI: We also had three third-party AI safety organizations provide feedback on our analysis: @redwood_ai, @apolloaievals, @METR_Evals.\n\nYou can find @redwood_ai's report here: https://blog.redwoodresearch.org/p/openai-cot",
-      "link": "https://twitter.com/OpenAI/status/2052845768567066907#m",
-      "date": "2026-05-08T20:19:05",
-      "source": "@OpenAI",
-      "summary": "<p>We also had three third-party AI safety organizations provide feedback on our analysis: <a href=\"https://nitter.net/redwood_ai\" title=\"Redwood Research\">@redwood_ai</a>, <a href=\"https://nitter.net"
-    },
-    {
-      "title": "R to @OpenAI: This system helped us identify this happened for some of our prior Instant and mini models. It additionally affected GPT-5.4 Thinking in less than 0.6% of samples.\n\nOut of abundance of caution, we did an in-depth analysis of these cases: they did not seem to reduce monitorability.",
-      "link": "https://twitter.com/OpenAI/status/2052845767417835551#m",
-      "date": "2026-05-08T20:19:05",
-      "source": "@OpenAI",
-      "summary": "<p>This system helped us identify this happened for some of our prior Instant and mini models. It additionally affected GPT-5.4 Thinking in less than 0.6% of samples.<br />\n<br />\nOut of abundance of "
-    },
-    {
-      "title": "R to @OpenAI: Directly rewarding or penalizing CoTs can make models’ reasoning traces less informative for detecting misalignment. That’s why we treat avoiding CoT grading as an important part of preserving monitorability.\n\nWe recently built an automated detection system to find cases where RL rewards were computed using model CoTs.",
-      "link": "https://twitter.com/OpenAI/status/2052845765874327943#m",
-      "date": "2026-05-08T20:19:05",
-      "source": "@OpenAI",
-      "summary": "<p>Directly rewarding or penalizing CoTs can make models’ reasoning traces less informative for detecting misalignment. That’s why we treat avoiding CoT grading as an important part of preserving moni"
     }
   ],
-  "last_update": "2026-05-12T10:24:16.368913",
+  "last_update": "2026-05-13T10:13:14.672422",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
