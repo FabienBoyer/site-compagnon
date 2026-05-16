@@ -1,6 +1,153 @@
 {
   "articles": [
     {
+      "title": "CompaRAG",
+      "link": "https://www.uneiaparjour.fr/comparag/",
+      "date": "2026-05-15T19:11:00",
+      "source": "Une IA par jour",
+      "summary": "CompaRAG (https://comparag.vercel.app/, description : https://www.linkedin.com/pulse/au-coeur-du-premier-comparateur-doutils-rag-fran%C3%A7ais-la-sarazin-phd-rhdje/ et documentation : https://github.c"
+    },
+    {
+      "title": "Open Maic",
+      "link": "https://www.uneiaparjour.fr/open-maic/",
+      "date": "2026-05-10T20:52:00",
+      "source": "Une IA par jour",
+      "summary": "OpenMAIC (https://openmaic.io/, documentation : https://github.com/THU-MAIC/OpenMAIC, démo en ligne https://open.maic.chat/) génère des cours interactifs depuis une description de sujet ou un PDF impo"
+    },
+    {
+      "title": "Albert-Cli : première version",
+      "link": "https://mathix.org/linux/archives/22304",
+      "date": "2026-05-06T20:54:44",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Bon, d&#8217;abord j&#8217;ai tenté de vibe-coder complètement le programme, je voulais un gemini-lci mais pour albert, j&#8217;ai donc défini mon plan pour lui dire comment "
+    },
+    {
+      "title": "On apprend dans le faire et non dans le lire",
+      "link": "https://mathix.org/linux/archives/22298",
+      "date": "2026-05-06T16:20:14",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bon, et bien j&#8217;ai découvert une petite vidéo qui va servir d&#8217;appui auprès de mes élèves à qui je rabâche de s&#8217;exercer&#8230; Fabien Olicard présente des résultats d&#8217;étude sur l"
+    },
+    {
+      "title": "l’ IA-Albert de mathix se dote d’un raisonnement et d’un RAG",
+      "link": "https://mathix.org/linux/archives/22249",
+      "date": "2026-04-24T08:06:42",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous !! Deux grosses nouvelles ! J&#8217;ai donc la boucle de raisonnement qui est intégrée à mon IA, alors c&#8217;est coûteux, 3 requêtes au lieu d&#8217;une, mais utile vous all"
+    },
+    {
+      "title": "Work-Flow IA … un premier essai",
+      "link": "https://mathix.org/linux/archives/22234",
+      "date": "2026-04-14T08:39:12",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Afin de me maintenir à jour sur les possibilités de l&#8217;IA&#8230; je me suis donc mis au Workflow (en gros on demande à l&#8217;IA de traiter des données pour nous aider,"
+    },
+    {
+      "title": "How sales teams use Codex",
+      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "date": "2026-05-15T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs."
+    },
+    {
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "link": "https://openai.com/index/databricks",
+      "date": "2026-05-15T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark."
+    },
+    {
+      "title": "5 gardening tips you can try right in Search",
+      "link": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
+      "date": "2026-05-06T16:00:00",
+      "source": "Google AI",
+      "summary": "An abstract background featuring soft, stippled illustrations of flowers and a butterfly in a bright palette of blue, green, and red. In the center of the image is a white circle containing a magnifyi"
+    },
+    {
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "link": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "date": "2026-04-24T19:00:00",
+      "source": "Google AI",
+      "summary": "Black screen with illustrations including a laptop with document and email icons streaming out, a smiling person holding a phone and looking at a checklist, and a user activating Gemini Live"
+    },
+    {
+      "title": "Here’s how our TPUs power increasingly demanding AI workloads.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+      "date": "2026-04-23T12:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp\" />Learn how Google’s TPUs power increasingly demanding AI workloads with th"
+    },
+    {
+      "title": "RT by @nsi_xyz: A partir d’une question posée à Grok « Pourquoi les enseignants ne bénéficient-ils pas du RIFSEEP » -(image 1), il m’a donné les raisons officielles – en tout cas celles relayées par la Cour des Comptes – mais aussi le lien vers un texte du syndicat « SAGES ». C’est le syndicat des agrégés, des professeurs de chaire supérieure, des enseignants chercheurs, mais aussi des enseignants du second degré affectés dans le supérieur : PRAG pour les agrégés, et PRCE pour les titulaires du CAPES ou CAPET.\n\nSi ce syndicat a produit un texte (images 2 et 3) sur le sujet, c’est parce que les enseignants du supérieur venaient de bénéficier d’un équivalent du RIFSEEP, le « RIPEC ». Il en a donc profité ici pour dénoncer le caractère discriminatoire à en exclure les enseignants du MEN, d’autant plus qu’il en représente donc une partie de son personnel.\n\nIl démonte ainsi les trois raisons officielles avancées par le MEN pour « justifier » la non éligibilité des enseignants. La troisième raison est évidemment la seule crédible, et pour cause …\n\nhttps://le-sages.org/documents2/Rapport_cours_comptes_regime_indemnitaireFP.pdf\n\nContrairement aux autres, ce syndicat n’hésite pas à dire les choses, plutôt que de s’appliquer à évider les sujets sensibles. D’abord, on n’a pas cette fausse réticence – que dis-je … « aversion » - de la part de ce syndicat à l’égard de ce régime indemnitaire avantageux comme peut l’avoir de façon ostentatoire, paradoxale et caricaturale un syndicat comme le SNES. \nD’ailleurs il est rappelé ici ce qu’il se passait à chaque fin d’année, avec la notation administrative de l’enseignant par son CDE et qui pourrait être finalement l'équivalent de l'entretien annuel lié au CIA … quelle pression nous subissions !!! :p\n\nA propos, que s’était-il passé lorsque, en 2017, le MEN avait donc établi que les enseignants ne seraient donc pas éligibles au RIFSEEP ? Bon certains syndicats maintiennent leurs syndiqués dans l’ignorance de ce régime indemnitaire, et de façon générale des revalorisations compensatoire de l’inflation par primes/indemnités des autres fonctionnaires depuis plus de 30 ans …\n\nMais il y a bien eu une montée au créneau, non ? C’est une vraie question, même si je pense déjà connaître la réponse …\n\nCar pour ceux qui n’avaient toujours pas compris : la maitrise de la masse salariale de l’Etat s’est basée sur notre paupérisation salariale qui est d’ailleurs ici dénoncée clairement, une paupérisation qui est bien « volontaire » et qui a commencé il y a « 40 ans ». Bon j’aurais dit plutôt 30 ans, et une paupérisation qui s’est mue en déclassement salarial depuis 2010 et la mise en œuvre de la stratégie du tassement de notre progression salariale (de base).\n\nLa réalité c’est donc qu’il n’avait jamais été question de prévoir un seul instant de nous attribuer le RIFSEEP. Tout comme à l’époque il n’avait JAMAIS été question de nous revaloriser « TOUS de 10 % ».\n\nComment peut-on se laisser faire ?\n\nContrairement à ce que certains ne veulent pas entendre, ne veulent même pas essayer, engoncés qu’ils sont dans leur vision conformiste des choses, la responsabilité des syndicats majoritaires – j’entends évidemment des directions prises par leurs têtes syndicales - est énorme. Lorsque l’on croit en ceux censés nous défendre, sans jamais se rendre compte qu’en réalité tout est fait – ou plutôt tout ce qui devrait être fait n’est pas fait - pour faciliter la continuation du traitement qui nous est infligé, on est trompés, on est « manipulés passivement ».\n\nNon information, non dénonciations, non montées au créneau, minimisation de ce qui nous est infligé … tout cela concoure à ce qu’aucune volonté commune de réelle mobilisation puisse émerger un jour.\n\nOh, pour info les enseignants (+CPE) sont maintenant les SEULS du MEN à ne pas bénéficier du RIFSEEP. Et quasiment les seuls de toutes la FPE … Voir dernière image issue du rapport de la Cour des Comptes de février 2026 :\n\nhttps://www.ccomptes.fr/sites/default/files/2026-02/20260218-Remuneration-a%20la-performance-des%20agents-de-l-Etat_0.pdf\n\nEvidemment, ce n'est pas grâce à vos syndicats enseignants que vous pourriez avoir eu cette info pour le moins gênante et qui est donc évidemment mise sous le tapis depuis. Tout comme l'info connue de la compensation par primes /indemnités de l'inflation de la quasi-totalité des autres fonctionnaires de la FPE depuis 40 ans, remplacées donc avantageusement par le RIFSEEP depuis 2014 ...\n\nRemarque : une erreur dans les montants des RIFSEEP (en fait IFSE) donnés par le SAGES qui donnent donc les montants maximaux par groupe. Le montants minimaux annuels sont entre 1750 et 2600 € annuels (mensualisés).",
+      "link": "https://twitter.com/Rick6524/status/2055194344139657483#m",
+      "date": "2026-05-15T07:51:29",
+      "source": "@nsi_xyz",
+      "summary": "<p>A partir d’une question posée à Grok « Pourquoi les enseignants ne bénéficient-ils pas du RIFSEEP » -(image 1), il m’a donné les raisons officielles – en tout cas celles relayées par la Cour des Co"
+    },
+    {
+      "title": "\"Choisis un nombre aléatoire entre 1 et 100\"\nQuand le hasard fait bien les choses 😆",
+      "link": "https://twitter.com/nsi_xyz/status/2053757507491778917#m",
+      "date": "2026-05-11T08:42:01",
+      "source": "@nsi_xyz",
+      "summary": "<p>\"Choisis un nombre aléatoire entre 1 et 100\"<br />\nQuand le hasard fait bien les choses 😆</p>\n<img src=\"https://nitter.net/pic/media%2FHIBpkfRXMAABZDB.jpg\" />"
+    },
+    {
+      "title": "🤖 Et si une #IA comme #Vera devenait un support pour l’#EMI ? \n🎯 Face à la #désinformation, l’enjeu en #education n’est pas seulement de chercher une info mais d’apprendre à la vérifier, croiser les sources et douter intelligemment. \n🔗 https://www.france24.com/fr/europe/20260312-qu-est-ce-que-vera-l-ia-fran%C3%A7aise-contre-la-d%C3%A9sinformation \n✍️ @FRANCE24",
+      "link": "https://twitter.com/sophiaefrance/status/2053697872030241121#m",
+      "date": "2026-05-11T04:45:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 Et si une <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> comme <a href=\"https://nitter.net/search?f=tweets&amp;q=%23Vera\">#Vera</a> devenait un support pour l’<a href=\"https://n"
+    },
+    {
+      "title": "R to @OpenAI: openai.com/daybreak/",
+      "link": "https://twitter.com/OpenAI/status/2053939707818692907#m",
+      "date": "2026-05-11T20:46:01",
+      "source": "@OpenAI",
+      "summary": "<p><a href=\"https://openai.com/daybreak/\">openai.com/daybreak/</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2053892333054410752%2FOWLkGwyX%3Fformat%3Djpg%26name%3D800x419\" />"
+    },
+    {
+      "title": "R to @OpenAI: Automate security detection, validation, and response with Daybreak",
+      "link": "https://twitter.com/OpenAI/status/2053939706468139481#m",
+      "date": "2026-05-11T20:46:01",
+      "source": "@OpenAI",
+      "summary": "<p>Automate security detection, validation, and response with Daybreak</p>\n<a href=\"https://nitter.net/OpenAI/status/2053939706468139481#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplif"
+    },
+    {
+      "title": "Introducing Daybreak: frontier AI for cyber defenders.\n\nDaybreak brings together the most capable OpenAI models, Codex, and our security partners to accelerate cyber defense and continuously secure software.\n\nA step toward a future where security teams can move at the speed defense demands.",
+      "link": "https://twitter.com/OpenAI/status/2053939702110269822#m",
+      "date": "2026-05-11T20:45:59",
+      "source": "@OpenAI",
+      "summary": "<p>Introducing Daybreak: frontier AI for cyber defenders.<br />\n<br />\nDaybreak brings together the most capable OpenAI models, Codex, and our security partners to accelerate cyber defense and continu"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Et bien sûr l'article lui-même (où l'on voit que c'est la formalisation Lean qui a pris beaucoup plus de temps ensuite)\nhttps://blogs.mediapart.fr/david-monniaux/blog/150526/lia-generative-face-au-concours-dentree-lecole-normale-superieure",
+      "link": "https://twitter.com/Fabien_Mikol/status/2055369588188008725#m",
+      "date": "2026-05-15T19:27:51",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Et bien sûr l'article lui-même (où l'on voit que c'est la formalisation Lean qui a pris beaucoup plus de temps ensuite)<br />\n<a href=\"https://blogs.mediapart.fr/david-monniaux/blog/150526/lia-gene"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Quelques commentaires notables glanés sur Bluesky où l'auteur a partagé son article.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2055369585986068499#m",
+      "date": "2026-05-15T19:27:50",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Quelques commentaires notables glanés sur Bluesky où l'auteur a partagé son article.</p>\n<img src=\"https://nitter.net/pic/media%2FHIYjZpWWkAAESBM.jpg\" />"
+    },
+    {
+      "title": "Après le commentaire de texte médiéval, David Monniaux (CNRS) retente l'XP en soumettant à l'IA l'épreuve de maths du concours ENS 1995 (sans corrigé en ligne). Le modèle a tout réussi (à un détail près) en 40mn, alors que l'épreuve n'est pas censée pouvoir être terminée en 6h.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2055369581930189025#m",
+      "date": "2026-05-15T19:27:49",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Après le commentaire de texte médiéval, David Monniaux (CNRS) retente l'XP en soumettant à l'IA l'épreuve de maths du concours ENS 1995 (sans corrigé en ligne). Le modèle a tout réussi (à un détail"
+    },
+    {
+      "title": "Assez curieux de voir ça dimanche prochain, et vraiment chapeau bas @SamuelFitouss10 pour ton courage 😅\nhttps://www.youtube.com/watch?v=XWiXMIGejmE",
+      "link": "https://twitter.com/Fabien_Mikol/status/2055360612918501732#m",
+      "date": "2026-05-15T18:52:11",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Assez curieux de voir ça dimanche prochain, et vraiment chapeau bas <a href=\"https://nitter.net/SamuelFitouss10\" title=\"Samuel Fitoussi\">@SamuelFitouss10</a> pour ton courage 😅<br />\n<a href=\"https"
+    },
+    {
       "title": "Que reste-t-il quand l’outil a fait le travail ?",
       "link": "https://www.uneiaparjour.fr/que-reste-t-il-quand-loutil-a-fait-le-travail/",
       "date": "2026-05-09T21:24:14",
@@ -552,156 +699,9 @@
       "date": "2026-05-12T20:13:04",
       "source": "@Fabien_Mikol",
       "summary": "<p>Arthur Mensch (Mistral) : \"y a pas tellement de bulle\", \"une bulle c'est quand vous surestimez la demande\" alors qu'aujourd'hui on a un problème d'offre : manque de chips, de mémoire, etc ; je ne m"
-    },
-    {
-      "title": "Arthur Mensch (Mistral) : \"aujourd'hui les ingénieurs logiciels chez Mistral n'écrivent plus de ligne de code\", ce sont des \"managers d'agents\" ; la productivité est énorme pour un individu, mais au niveau d'une grande entreprise il reste un goulot d'étranglement organisationnel.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2054280984279843251#m",
-      "date": "2026-05-12T19:22:08",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Arthur Mensch (Mistral) : \"aujourd'hui les ingénieurs logiciels chez Mistral n'écrivent plus de ligne de code\", ce sont des \"managers d'agents\" ; la productivité est énorme pour un individu, mais a"
-    },
-    {
-      "title": "Quand une IA hallucine, on dit : \"Vous voyez bien, on ne peut pas faire confiance à l'IA.\" Pourtant, on ne réagit pas ainsi avec les humains. Quand les personnes en qui nous avons confiance commettent une erreur rare, on les excuse en disant : \"Eh bien, l'erreur est humaine.\"",
-      "link": "https://twitter.com/Fabien_Mikol/status/2054231019788644620#m",
-      "date": "2026-05-12T16:03:35",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Quand une IA hallucine, on dit : \"Vous voyez bien, on ne peut pas faire confiance à l'IA.\" Pourtant, on ne réagit pas ainsi avec les humains. Quand les personnes en qui nous avons confiance commett"
-    },
-    {
-      "title": "Et si l’IA devenait le socle de l’école ?\nLa Chine a proposé son plan d'action pour l'IA en éducation : un enseignement d'une culture de l'IA dès le primaire, enseignants formés, suivi des élèves par les données, pilotage algorithmique... \n🔗 https://www.nda.gov.cn/sjj/zwgk/tzgg/0410/20260410162428109058250_pc.html",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2052766077386387491#m",
-      "date": "2026-05-08T15:02:26",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Et si l’IA devenait le socle de l’école ?<br />\nLa Chine a proposé son plan d'action pour l'IA en éducation : un enseignement d'une culture de l'IA dès le primaire, enseignants formés, suivi des él"
-    },
-    {
-      "title": "🤖 Plus le monde devient technique, plus les sciences humaines deviennent stratégiques.\n\nPhilosophes, sociologues, juristes, psychologues, enseignants : sans eux, on construit des IA puissantes… sans savoir quelle humanité elles servent. \n\n🔗 https://www.msn.com/en-in/money/news/philosopher-to-study-human-ai-ties-who-is-henry-shevlin-google-deepmind-s-key-non-tech-hire/ar-AA20RJlI",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2051685984404729963#m",
-      "date": "2026-05-05T15:30:31",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🤖 Plus le monde devient technique, plus les sciences humaines deviennent stratégiques.<br />\n<br />\nPhilosophes, sociologues, juristes, psychologues, enseignants : sans eux, on construit des IA pui"
-    },
-    {
-      "title": "🎤 J’ai trouvé comment terminer mes prochaines conférences et formations.\nPlus de diapo.\nPlus de conclusion.\nJuste ça 👇\nAI – AronChupa\n🎶 https://www.youtube.com/watch?v=H2JMRXCiPLE",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2051331823397933390#m",
-      "date": "2026-05-04T16:03:13",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🎤 J’ai trouvé comment terminer mes prochaines conférences et formations.<br />\nPlus de diapo.<br />\nPlus de conclusion.<br />\nJuste ça 👇<br />\nAI – AronChupa<br />\n🎶 <a href=\"https://piped.video/wa"
-    },
-    {
-      "title": "Les luddites ne détruisaient pas seulement des machines.\nLe métier Jacquard utilisait des cartes perforées pour exécuter des instructions, ce qui constitue donc l'un des premiers systèmes programmables qui a influencé Charles Babbage.\n🔗 https://encyclopedia.design/2023/06/18/weaving-wonders-the-jacquard-looms-textile-revolution/",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2049882218651058291#m",
-      "date": "2026-04-30T16:03:00",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Les luddites ne détruisaient pas seulement des machines.<br />\nLe métier Jacquard utilisait des cartes perforées pour exécuter des instructions, ce qui constitue donc l'un des premiers systèmes pro"
-    },
-    {
-      "title": "💬 « Tu crois que les IA exploitent tout ce qu’on dit ? »\n💬 « Elles vont faire quoi ? Appeler le RAID ? »\n\n👉 Oui.\nUn Français résidant à Strasbourg vient d'en faire l'expérience. \n\n🔗 https://www.radiofrance.fr/franceculture/podcasts/un-monde-connecte/d-une-recherche-chatgpt-a-l-intervention-du-raid-le-coup-de-com-d-openai-1847220 \n\n#IA #ChatGPT #ViePrivée #Sécurité",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2047345428975218777#m",
-      "date": "2026-04-23T16:02:42",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>💬 « Tu crois que les IA exploitent tout ce qu’on dit ? »<br />\n💬 « Elles vont faire quoi ? Appeler le RAID ? »<br />\n<br />\n👉 Oui.<br />\nUn Français résidant à Strasbourg vient d'en faire l'expérie"
-    },
-    {
-      "title": "SciFig",
-      "link": "https://www.uneiaparjour.fr/scifig/",
-      "date": "2026-05-11T21:14:00",
-      "source": "Une IA par jour",
-      "summary": "SciFig (https://scifig.ai/) génère des figures scientifiques et des infographies à partir une instruction, un dessin ou un PDF ou une photo. 6 styles au choix : scientifique, trait, 3D, éditorial, esq"
-    },
-    {
-      "title": "How ChatGPT adoption broadened in early 2026",
-      "link": "https://openai.com/signals/research/2026q1-update",
-      "date": "2026-05-11T15:00:00",
-      "source": "OpenAI Blog",
-      "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption."
-    },
-    {
-      "title": "RT by @nsi_xyz: Bac NSI 2026 – Épreuve pratique 💻\n\n23 sujets officiels, PDF, fichiers joints, compétences Python… et des corrigés pour mieux réviser.\n\nhttps://www.math93.com/index.php/annales-du-bac/annales-spe-nsi/bac-nsi-2026-pratique\n\n#NSI #Bac2026 #Math93",
-      "link": "https://twitter.com/Math93Com/status/2053896905793351799#m",
-      "date": "2026-05-11T17:55:56",
-      "source": "@nsi_xyz",
-      "summary": "<p>Bac NSI 2026 – Épreuve pratique 💻<br />\n<br />\n23 sujets officiels, PDF, fichiers joints, compétences Python… et des corrigés pour mieux réviser.<br />\n<br />\n<a href=\"https://www.math93.com/index."
-    },
-    {
-      "title": "📝 Et si le choix de la police influençait réellement l’apprentissage ?\nLisibilité, dyslexie, écriture… ce guide fait le point sur les polices adaptées à l’école et leurs impacts pédagogiques\nhttps://outilstice.com/2025/02/polices-caracteres-ecole-guide/ \n✍️ @outilstice",
-      "link": "https://twitter.com/sophiaefrance/status/2049457428610109921#m",
-      "date": "2026-04-29T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>📝 Et si le choix de la police influençait réellement l’apprentissage ?<br />\nLisibilité, dyslexie, écriture… ce guide fait le point sur les polices adaptées à l’école et leurs impacts pédagogiques<"
-    },
-    {
-      "title": "#GAMIA transforme les révisions en jeu grâce à une IA souveraine : quiz, flashcards, défis chrono, feedbacks immédiats et remédiation personnalisée. Un outil simple, du primaire au lycée. #IA #Éducation #NumériqueÉducatif\nhttps://gamia.forge.apps.education.fr/ \n✍️ Gauthier Remande",
-      "link": "https://twitter.com/sophiaefrance/status/2046920713051742561#m",
-      "date": "2026-04-22T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p><a href=\"https://nitter.net/search?f=tweets&amp;q=%23GAMIA\">#GAMIA</a> transforme les révisions en jeu grâce à une IA souveraine : quiz, flashcards, défis chrono, feedbacks immédiats et remédiation"
-    },
-    {
-      "title": "Claude's Constitution is now an audiobook, read by two of its authors, Amanda Askell and Joe Carlsmith.\n\nIt includes a Q&A on the writing process, the philosophies that shaped the document, and how it might change as models become more capable.\n\nListen at http://anthropic.com/constitution",
-      "link": "https://twitter.com/AnthropicAI/status/2053881827396653207#m",
-      "date": "2026-05-11T16:56:01",
-      "source": "@AnthropicAI",
-      "summary": "<p>Claude's Constitution is now an audiobook, read by two of its authors, Amanda Askell and Joe Carlsmith.<br />\n<br />\nIt includes a Q&amp;A on the writing process, the philosophies that shaped the d"
-    },
-    {
-      "title": "RT by @MistralAI: Introducing remote agents in Vibe and Mistral Medium 3.5. You can now launch remote agents in the cloud, including from the CLI or Le Chat. Plus, new Work mode in Le Chat for complex, multi-step tasks. 🧵",
-      "link": "https://twitter.com/mistralvibe/status/2049511749603168520#m",
-      "date": "2026-04-29T15:30:53",
-      "source": "@MistralAI",
-      "summary": "<p>Introducing remote agents in Vibe and Mistral Medium 3.5. You can now launch remote agents in the cloud, including from the CLI or Le Chat. Plus, new Work mode in Le Chat for complex, multi-step ta"
-    },
-    {
-      "title": "R to @MistralAI: 📚 Learn more here https://mistral.ai/news/workflows",
-      "link": "https://twitter.com/MistralAI/status/2049128192405917836#m",
-      "date": "2026-04-28T14:06:46",
-      "source": "@MistralAI",
-      "summary": "<p>📚 Learn more here <a href=\"https://mistral.ai/news/workflows\">mistral.ai/news/workflows</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2050851762802724864%2FMOur3T5Z%3Fformat%3Dpng%26name%3D80"
-    },
-    {
-      "title": "R to @MistralAI: Hear from our team:",
-      "link": "https://twitter.com/MistralAI/status/2049128190874964030#m",
-      "date": "2026-04-28T14:06:46",
-      "source": "@MistralAI",
-      "summary": "<p>Hear from our team:</p>\n<a href=\"https://nitter.net/MistralAI/status/2049128190874964030#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2049128073883525120%2Fimg%2F5"
-    },
-    {
-      "title": "RT by @MistralAI: Build once. Reuse everywhere.\n\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.",
-      "link": "https://twitter.com/MistralDevs/status/2044418622131437755#m",
-      "date": "2026-04-15T14:12:37",
-      "source": "@MistralAI",
-      "summary": "<p>Build once. Reuse everywhere.<br />\n<br />\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.</p>\n<im"
-    },
-    {
-      "title": "R to @MistralAI: Check out our blog post for details: https://mistral.ai/news/voxtral-tts",
-      "link": "https://twitter.com/MistralAI/status/2037183035121029375#m",
-      "date": "2026-03-26T15:00:59",
-      "source": "@MistralAI",
-      "summary": "<p>Check out our blog post for details: <a href=\"https://mistral.ai/news/voxtral-tts\">mistral.ai/news/voxtral-tts</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2050713086974443520%2F85DX12CM%3Ff"
-    },
-    {
-      "title": "R to @MistralAI: Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.",
-      "link": "https://twitter.com/MistralAI/status/2037183032856076527#m",
-      "date": "2026-03-26T15:00:58",
-      "source": "@MistralAI",
-      "summary": "<p>Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.</p>\n<a href=\"https://nitter.net/MistralAI/status/2037183032856076527#m\">\n"
-    },
-    {
-      "title": "R to @MistralAI: State-of-the-art performance.\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to the original voice.",
-      "link": "https://twitter.com/MistralAI/status/2037183030935105578#m",
-      "date": "2026-03-26T15:00:58",
-      "source": "@MistralAI",
-      "summary": "<p>State-of-the-art performance.<br />\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to t"
-    },
-    {
-      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
-      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
-      "date": "2026-04-29T02:20:52",
-      "source": "@deepseek_ai",
-      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
     }
   ],
-  "last_update": "2026-05-15T10:12:24.403466",
+  "last_update": "2026-05-16T09:21:39.914539",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
