@@ -7,44 +7,45 @@
    CSS Variables (Design Tokens)
    ---------------------------------------- */
 :root {
-    /* Colors - Light Mode */
-    --color-primary: #1e40af;
-    --color-primary-light: #3b82f6;
-    --color-primary-dark: #1e3a8a;
+    /* Colors - Light Mode (Curated Harmonies) */
+    --color-primary-hue: 224;
+    --color-primary: hsl(var(--color-primary-hue), 76%, 40%);
+    --color-primary-light: hsl(var(--color-primary-hue), 90%, 60%);
+    --color-primary-dark: hsl(var(--color-primary-hue), 76%, 30%);
 
-    --color-secondary: #374151;
-    --color-secondary-light: #6b7280;
-    --color-secondary-dark: #1f2937;
+    --color-secondary: hsl(215, 25%, 27%);
+    --color-secondary-light: hsl(215, 16%, 47%);
+    --color-secondary-dark: hsl(215, 25%, 17%);
 
-    --color-accent: #f97316;
-    --color-accent-light: #fb923c;
-    --color-accent-dark: #ea580c;
+    --color-accent: hsl(24, 95%, 53%);
+    --color-accent-light: hsl(24, 96%, 61%);
+    --color-accent-dark: hsl(24, 95%, 45%);
 
-    --color-success: #10b981;
-    --color-warning: #f59e0b;
-    --color-error: #ef4444;
+    --color-success: hsl(142, 70%, 45%);
+    --color-warning: hsl(38, 92%, 50%);
+    --color-error: hsl(0, 84%, 60%);
 
     /* Feature card colors */
-    --color-blue: #3b82f6;
-    --color-green: #10b981;
-    --color-purple: #8b5cf6;
-    --color-orange: #f97316;
+    --color-blue: hsl(217, 91%, 60%);
+    --color-green: hsl(142, 70%, 45%);
+    --color-purple: hsl(262, 83%, 58%);
+    --color-orange: hsl(24, 95%, 53%);
 
     /* Background colors */
-    --bg-primary: #ffffff;
-    --bg-secondary: #f8fafc;
-    --bg-tertiary: #f1f5f9;
-    --bg-card: #ffffff;
+    --bg-primary: hsl(210, 40%, 98%);
+    --bg-secondary: hsl(210, 40%, 96.1%);
+    --bg-tertiary: hsl(210, 40%, 90%);
+    --bg-card: hsl(0, 0%, 100%);
 
     /* Text colors */
-    --text-primary: #0f172a;
-    --text-secondary: #475569;
-    --text-tertiary: #94a3b8;
-    --text-inverse: #ffffff;
+    --text-primary: hsl(222, 47%, 11%);
+    --text-secondary: hsl(215, 16%, 37%);
+    --text-tertiary: hsl(215, 16%, 57%);
+    --text-inverse: hsl(0, 0%, 100%);
 
     /* Border colors */
-    --border-color: #e2e8f0;
-    --border-color-light: #f1f5f9;
+    --border-color: hsl(214.3, 31.8%, 91.4%);
+    --border-color-light: hsl(210, 40%, 96.1%);
 
     /* Shadows */
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
@@ -76,8 +77,8 @@
 
     /* Transitions */
     --transition-fast: 150ms ease;
-    --transition-base: 200ms ease;
-    --transition-slow: 300ms ease;
+    --transition-base: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 
     /* Z-index layers */
     --z-dropdown: 100;
@@ -87,24 +88,24 @@
     --z-tooltip: 500;
 }
 
-/* Dark Mode */
+/* Dark Mode - Curated Slate/Indigo Contrast */
 [data-theme="dark"] {
-    --bg-primary: #0f172a;
-    --bg-secondary: #1e293b;
-    --bg-tertiary: #334155;
-    --bg-card: #1e293b;
+    --bg-primary: hsl(222, 47%, 11%);
+    --bg-secondary: hsl(222, 47%, 16%);
+    --bg-tertiary: hsl(222, 47%, 24%);
+    --bg-card: hsl(222, 47%, 15%);
 
-    --text-primary: #f8fafc;
-    --text-secondary: #cbd5e1;
-    --text-tertiary: #64748b;
+    --text-primary: hsl(210, 40%, 98%);
+    --text-secondary: hsl(215, 20%, 80%);
+    --text-tertiary: hsl(215, 16%, 60%);
 
     /* Override primary color for better contrast in dark mode */
-    --color-primary: #60a5fa;
-    --color-primary-light: #93c5fd;
-    --color-primary-dark: #3b82f6;
+    --color-primary: hsl(var(--color-primary-hue), 90%, 68%);
+    --color-primary-light: hsl(var(--color-primary-hue), 95%, 78%);
+    --color-primary-dark: hsl(var(--color-primary-hue), 90%, 58%);
 
-    --border-color: #334155;
-    --border-color-light: #1e293b;
+    --border-color: hsl(222, 47%, 22%);
+    --border-color-light: hsl(222, 47%, 16%);
 
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
     --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.3);
@@ -136,6 +137,7 @@ body {
     background-color: var(--bg-primary);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    transition: background-color var(--transition-slow), color var(--transition-slow), border-color var(--transition-slow);
 }
 
 h1,
@@ -265,6 +267,7 @@ button {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border-color);
+    transition: background-color var(--transition-slow), border-color var(--transition-slow), box-shadow var(--transition-slow);
 }
 
 [data-theme="dark"] .header {
@@ -678,12 +681,12 @@ button {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-xl);
-    transition: all var(--transition-base);
+    transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base), background-color var(--transition-slow);
 }
 
 .feature-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-lg);
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: var(--shadow-lg), 0 12px 30px rgba(59, 130, 246, 0.15);
     border-color: var(--color-primary-light);
     color: var(--text-primary);
 }
