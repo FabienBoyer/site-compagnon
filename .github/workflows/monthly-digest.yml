@@ -1,0 +1,57 @@
+name: Monthly AI Tools Digest
+
+on:
+  # Exécution automatique le 1er de chaque mois à 9h (heure de Paris)
+  schedule:
+    - cron: '0 8 1 * *'
+  
+  # Permet aussi l'exécution manuelle depuis GitHub
+  workflow_dispatch:
+
+jobs:
+  analyze-and-integrate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -r veille-outils-ia/requirements.txt
+      
+      - name: 🔍 Run analysis and send email
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+        working-directory: veille-outils-ia
+        run: |
+          python run_monthly.py
+      
+      - name: 🔀 Integrate curated tools to the website
+        run: |
+          python scripts/integrate_curated_tools.py
+      
+      - name: 📤 Upload digest artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: monthly-digest
+          path: veille-outils-ia/output/
+          retention-days: 90
+      
+      - name: 💾 Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add veille-outils-ia/output/ index.html outils.html veille.html
+          git diff --staged --quiet || git commit -m "🤖 Veille auto-digest & integration $(date +'%Y-%m')"
+          git push

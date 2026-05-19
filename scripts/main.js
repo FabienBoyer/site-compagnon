@@ -24,6 +24,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize dropdown menus
     initDropdowns();
+
+    // Initialize filters if elements exist on the page
+    if (document.querySelector('.filter-btn')) {
+        initFilters();
+    }
+
+    // Initialize tabs if elements exist on the page
+    if (document.querySelector('.tab-btn')) {
+        initTabs();
+    }
 });
 
 /* ----------------------------------------
