@@ -1,0 +1,13 @@
+data/
+*.db
+*.db-shm
+*.db-wal
+.env
+credentials.json
+__pycache__/
+node_modules/
+dist/
+target/
+.venv/
+keys/
+logs/

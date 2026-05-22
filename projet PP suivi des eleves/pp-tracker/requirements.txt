@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-dotenv
+pronotepy
+apscheduler
+cryptography
+pywin32
+requests
+python-multipart

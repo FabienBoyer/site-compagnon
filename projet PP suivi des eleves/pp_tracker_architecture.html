@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0f1923; font-family: 'Segoe UI', sans-serif; color: #e0e8f0; padding: 24px; }
+
+  h1 { text-align: center; font-size: 18px; font-weight: 700; color: #7eb8f7; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 6px; }
+  .subtitle { text-align: center; font-size: 11px; color: #556a80; margin-bottom: 28px; letter-spacing: 1px; }
+
+  .arch { display: flex; flex-direction: column; gap: 10px; max-width: 860px; margin: 0 auto; }
+
+  .layer { display: flex; align-items: stretch; gap: 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.4); }
+  .layer-label {
+    writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg);
+    font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+    padding: 10px 8px; min-width: 32px; display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .layer-content { flex: 1; padding: 10px 14px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+
+  /* couleurs par couche */
+  .l-source  { background: #1a2a1a; } .l-source  .layer-label { background: #2d5a27; color: #a8e6a0; }
+  .l-acq     { background: #1a2030; } .l-acq     .layer-label { background: #1f3d6e; color: #7eb8f7; }
+  .l-norm    { background: #1a1a2a; } .l-norm    .layer-label { background: #3d2d6e; color: #b8a0f7; }
+  .l-store   { background: #1a2020; } .l-store   .layer-label { background: #1f5555; color: #7ef0e8; }
+  .l-back    { background: #201a20; } .l-back    .layer-label { background: #5a2750; color: #f7a0e8; }
+  .l-modules { background: #201e1a; } .l-modules .layer-label { background: #5a4a20; color: #f7d87e; }
+  .l-ui      { background: #1a2030; } .l-ui      .layer-label { background: #1f4560; color: #7ecff7; }
+  .l-llm     { background: #1a1a20; } .l-llm     .layer-label { background: #3a2a50; color: #c8a0f7; }
+
+  .chip {
+    padding: 5px 12px; border-radius: 20px; font-size: 11px; font-weight: 600;
+    display: flex; align-items: center; gap: 6px; white-space: nowrap;
+  }
+  .chip-green  { background: #1e3d1a; border: 1px solid #3a7030; color: #90d080; }
+  .chip-blue   { background: #1a2a45; border: 1px solid #2a5080; color: #80b8e8; }
+  .chip-purple { background: #251a45; border: 1px solid #4a30a0; color: #b090f0; }
+  .chip-teal   { background: #1a3535; border: 1px solid #2a7070; color: #70d8d0; }
+  .chip-pink   { background: #351a35; border: 1px solid #803080; color: #e090d0; }
+  .chip-gold   { background: #352510; border: 1px solid #806020; color: #d0a050; }
+  .chip-sky    { background: #1a2f40; border: 1px solid #2a6090; color: #70c0e0; }
+  .chip-lavender { background: #251a40; border: 1px solid #5040a0; color: #c0a0f0; }
+  .chip-red    { background: #401a1a; border: 1px solid #903030; color: #f09090; }
+  .chip-orange { background: #402510; border: 1px solid #905020; color: #f0b060; }
+
+  .badge { font-size: 9px; padding: 1px 6px; border-radius: 10px; font-weight: 700; }
+  .badge-a    { background: #2a6030; color: #90f080; }
+  .badge-b    { background: #603020; color: #f09060; }
+  .badge-p2   { background: #3a2060; color: #c090f0; }
+  .badge-rgpd { background: #602020; color: #f08080; }
+
+  .arrow-row { display: flex; justify-content: center; align-items: center; gap: 4px; height: 18px; }
+  .arrow { font-size: 16px; color: #334455; }
+  .arrow-label { font-size: 9px; color: #445566; letter-spacing: 0.5px; }
+
+  .divider-or {
+    display: flex; align-items: center; gap: 8px; padding: 0 14px 0 46px;
+  }
+  .divider-or span { font-size: 10px; color: #556a80; font-weight: 700; white-space: nowrap; }
+  .divider-or::before, .divider-or::after { content: ''; flex: 1; height: 1px; background: #1e3040; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 16px; }
+  .legend-item { display: flex; align-items: center; gap: 5px; font-size: 10px; color: #556a80; }
+  .legend-dot { width: 8px; height: 8px; border-radius: 50%; }
+
+  .rgpd-banner {
+    text-align: center; font-size: 10px; color: #f08080; margin-top: 14px;
+    padding: 6px 12px; border: 1px solid #602020; border-radius: 6px; background: #200a0a;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+<div style="text-align: center; margin-top: 10px; margin-bottom: 15px;">
+  <a href="../le-vibe-professeur.html" style="color: #7eb8f7; text-decoration: none; font-size: 12px; display: inline-flex; align-items: center; gap: 6px; font-weight: 600;">
+    ← Retour au Site Compagnon (Vibe Professeur)
+  </a>
+</div>
+<h1>PP Tracker — Architecture</h1>
+<div class="subtitle">Windows local · RGPD by design · Modulaire · LLM local phase 2</div>
+
+<div class="arch">
+
+  <!-- SOURCE -->
+  <div class="layer l-source">
+    <div class="layer-label">Source</div>
+    <div class="layer-content">
+      <div class="chip chip-green">🏫 Pronote établissement</div>
+      <div style="font-size:10px;color:#556a80;margin-left:8px;">Connexion HTTPS sortante uniquement — aucune autre sortie réseau</div>
+    </div>
+  </div>
+
+  <div class="arrow-row"><span class="arrow">↓</span><span class="arrow-label">HTTPS</span></div>
+
+  <!-- ACQUISITION -->
+  <div class="layer l-acq">
+    <div class="layer-label">Acquisition</div>
+    <div class="layer-content">
+      <div class="chip chip-blue">🐍 pronotepy 2.14.x <span class="badge badge-a">TRACK A</span></div>
+      <div style="font-size:10px;color:#445a6a;padding:0 8px;">fallback auto si échec</div>
+      <div class="chip chip-orange">🌐 Playwright headless <span class="badge badge-b">TRACK B</span></div>
+    </div>
+  </div>
+
+  <div class="arrow-row"><span class="arrow">↓</span><span class="arrow-label">JSON brut</span></div>
+
+  <!-- NORMALISATION -->
+  <div class="layer l-norm">
+    <div class="layer-label">Normalisation</div>
+    <div class="layer-content">
+      <div class="chip chip-purple">⚙ Normalisateur Python</div>
+      <div style="font-size:10px;color:#556a80;margin-left:4px;">Format JSON unifié : notes · absences · retards · appréciations · incidents · sanctions</div>
+    </div>
+  </div>
+
+  <div class="arrow-row"><span class="arrow">↓</span><span class="arrow-label">JSON normalisé</span></div>
+
+  <!-- STOCKAGE -->
+  <div class="layer l-store">
+    <div class="layer-label">Stockage</div>
+    <div class="layer-content">
+      <div class="chip chip-teal">🔒 SQLite + SQLCipher <span class="badge badge-rgpd">RGPD</span></div>
+      <div style="font-size:10px;color:#445a5a;margin-left:8px;">Fichier .db chiffré · clé dérivée via Windows DPAPI · illisible sans session Windows</div>
+    </div>
+  </div>
+
+  <div class="arrow-row"><span class="arrow">↓</span><span class="arrow-label">API REST locale</span></div>
+
+  <!-- BACKEND -->
+  <div class="layer l-back">
+    <div class="layer-label">Backend</div>
+    <div class="layer-content">
+      <div class="chip chip-pink">⚡ FastAPI — localhost:8000</div>
+      <div class="chip chip-pink">🕐 APScheduler</div>
+      <div style="font-size:10px;color:#556a80;margin-left:4px;">Sync vendredi 18h · Sync manuelle · Logs · Alertes</div>
+    </div>
+  </div>
+
+  <div class="arrow-row"><span class="arrow">↓</span></div>
+
+  <!-- MODULES -->
+  <div class="layer l-modules">
+    <div class="layer-label">Modules</div>
+    <div class="layer-content">
+      <div class="chip chip-gold">M2 Fiche élève</div>
+      <div class="chip chip-gold">M3 Tableau de bord</div>
+      <div class="chip chip-gold">M4 Familles</div>
+      <div class="chip chip-gold">M5 Dispositifs</div>
+      <div class="chip chip-gold">M6 Rapport hebdo</div>
+      <div class="chip chip-gold">M7 Conseil classe</div>
+    </div>
+  </div>
+
+  <div class="arrow-row"><span class="arrow">↓</span><span class="arrow-label">localhost:1420</span></div>
+
+  <!-- UI -->
+  <div class="layer l-ui">
+    <div class="layer-label">Interface</div>
+    <div class="layer-content">
+      <div class="chip chip-sky">⚛ React + Vite</div>
+      <div class="chip chip-sky">📦 Tauri (.exe Windows)</div>
+      <div style="font-size:10px;color:#445a6a;margin-left:4px;">Icône barre des tâches · pas de terminal · graphes recharts</div>
+    </div>
+  </div>
+
+  <div class="arrow-row"><span class="arrow">↓</span><span class="arrow-label" style="color:#5040a0;">Phase 2 · optionnel</span></div>
+
+  <!-- LLM -->
+  <div class="layer l-llm">
+    <div class="layer-label">LLM local</div>
+    <div class="layer-content">
+      <div class="chip chip-lavender">🤖 Ollama — localhost:11434 <span class="badge badge-p2">PHASE 2</span></div>
+      <div class="chip chip-lavender">Gemma 4 / Qwen3 quantifié</div>
+      <div style="font-size:10px;color:#445060;margin-left:4px;">Appréciations · mails parents · synthèses PPRE · si absent → boutons grisés</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="rgpd-banner">
+  ⚖ Données personnelles de mineurs · Aucune sortie réseau hors Pronote · Chiffrement local · Purge fin d'année · RGPD Art. 5 & 25
+</div>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#3a7030"></div>Source externe</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#2a5080"></div>Acquisition (dual track)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#4a30a0"></div>Normalisation</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#2a7070"></div>Stockage chiffré</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#803080"></div>Backend</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#806020"></div>Modules métier</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#2a6090"></div>Interface</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#5040a0"></div>LLM local (phase 2)</div>
+</div>
+
+</body>
+</html>
