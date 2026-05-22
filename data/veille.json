@@ -1,6 +1,209 @@
 {
   "articles": [
     {
+      "title": "AdventHealth advances whole-person care with OpenAI",
+      "link": "https://openai.com/index/adventhealth",
+      "date": "2026-05-21T12:00:00",
+      "source": "OpenAI Blog",
+      "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care."
+    },
+    {
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "date": "2026-05-16T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly."
+    },
+    {
+      "title": "RT by @nsi_xyz: Les réactions à ce touite sont très instructives. On y apprend essentiellement 2 choses.\n\nPremièrement, les élèves sont des pauvres petites choses fragiles pour lesquelles la moindre remarque un peu virulente sur une copie constitue un (je cite) \"rituel d'humiliation\".",
+      "link": "https://twitter.com/agstrn89/status/2057151907999678495#m",
+      "date": "2026-05-20T17:30:09",
+      "source": "@nsi_xyz",
+      "summary": "<p>Les réactions à ce touite sont très instructives. On y apprend essentiellement 2 choses.<br />\n<br />\nPremièrement, les élèves sont des pauvres petites choses fragiles pour lesquelles la moindre re"
+    },
+    {
+      "title": "A force de lire les commentaires sous vos posts, je commence à douter de vos compétences et je vous juge fort les profs de maths. 😇",
+      "link": "https://twitter.com/nsi_xyz/status/2057555801980420427#m",
+      "date": "2026-05-21T20:15:05",
+      "source": "@nsi_xyz",
+      "summary": "<p>A force de lire les commentaires sous vos posts, je commence à douter de vos compétences et je vous juge fort les profs de maths. 😇</p>\n<hr />\n<blockquote>\n<b>Math de Prof 🇫🇷 (@MathdeProf)</b>\n<p>\n"
+    },
+    {
+      "title": "J'adore vos réponses. Mais les experts de Twitter en pédagogie, et en mathématiques ne se sont pas encore prononcés. Il me tarde de les lire.",
+      "link": "https://twitter.com/nsi_xyz/status/2057553115914584331#m",
+      "date": "2026-05-21T20:04:24",
+      "source": "@nsi_xyz",
+      "summary": "<p>J'adore vos réponses. Mais les experts de Twitter en pédagogie, et en mathématiques ne se sont pas encore prononcés. Il me tarde de les lire.</p>\n<hr />\n<blockquote>\n<b>Vincent Joly (@jolyvincent4)"
+    },
+    {
+      "title": "RT by @nsi_xyz: Séance en salle info aujourd'hui en 4ème, une élève a ouvert une session ChatGPT pour répondre à des questions comme \"50% de 120 ?\" ou \"un tiers de 60 ?\".\n\n\"Mais monsieur comme ça je n'ai pas besoin de réfléchir\" ...",
+      "link": "https://twitter.com/lemyo/status/2057468616300196064#m",
+      "date": "2026-05-21T14:28:38",
+      "source": "@nsi_xyz",
+      "summary": "<p>Séance en salle info aujourd'hui en 4ème, une élève a ouvert une session ChatGPT pour répondre à des questions comme \"50% de 120 ?\" ou \"un tiers de 60 ?\".<br />\n<br />\n\"Mais monsieur comme ça je n'"
+    },
+    {
+      "title": "Penser les espaces scolaires autrement, ça se joue aussi en équipe! \nAvec #ArchiRAMA les équipes éducatives disposent d’une méthode collaborative pour transformer une idée en projet d’aménagement : contextualiser, choisir, explorer, débattre, synthétiser.\nhttps://archiclasse.education.fr/ArchiRAMA-les-etapes-du-jeu",
+      "link": "https://twitter.com/sophiaefrance/status/2057760891227996652#m",
+      "date": "2026-05-22T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Penser les espaces scolaires autrement, ça se joue aussi en équipe! <br />\nAvec <a href=\"https://nitter.net/search?f=tweets&amp;q=%23ArchiRAMA\">#ArchiRAMA</a> les équipes éducatives disposent d’une"
+    },
+    {
+      "title": "BAC & BREVET arrivent à grands pas ! Copie Examen aide à préparer les salles en affichant au vidéoprojecteur toutes les infos à recopier sur les copies, avec chrono, tiers-temps et consignes intégrés. Simple, gratuit et RGPD-friendly 😊\nhttps://copie-examen.fr/ \n@juliendelmas",
+      "link": "https://twitter.com/sophiaefrance/status/2056234590230966626#m",
+      "date": "2026-05-18T04:45:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>BAC &amp; BREVET arrivent à grands pas ! Copie Examen aide à préparer les salles en affichant au vidéoprojecteur toutes les infos à recopier sur les copies, avec chrono, tiers-temps et consignes in"
+    },
+    {
+      "title": "🧠 Un enfant #TDAH n’est ni paresseux, ni insolent.\nSon cerveau fonctionne autrement.\nComprendre, c’est déjà mieux accompagner.\nCe guide donne des clés concrètes pour des relations plus sereines à l’école et à la maison #Inclusion #Neuroeducation\n🔗 https://drive.google.com/file/d/1v7O7X2wDyhekMoyrTit3YahjyntJFeEV/view?usp=sharing",
+      "link": "https://twitter.com/sophiaefrance/status/2051161155373080835#m",
+      "date": "2026-05-04T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧠 Un enfant <a href=\"https://nitter.net/search?f=tweets&amp;q=%23TDAH\">#TDAH</a> n’est ni paresseux, ni insolent.<br />\nSon cerveau fonctionne autrement.<br />\nComprendre, c’est déjà mieux accompag"
+    },
+    {
+      "title": "Claude's Constitution is now an audiobook, read by two of its authors, Amanda Askell and Joe Carlsmith.\n\nIt includes a Q&A on the writing process, the philosophies that shaped the document, and how it might change as models become more capable.\n\nListen at http://anthropic.com/constitution",
+      "link": "https://twitter.com/AnthropicAI/status/2053881827396653207#m",
+      "date": "2026-05-11T16:56:01",
+      "source": "@AnthropicAI",
+      "summary": "<p>Claude's Constitution is now an audiobook, read by two of its authors, Amanda Askell and Joe Carlsmith.<br />\n<br />\nIt includes a Q&amp;A on the writing process, the philosophies that shaped the d"
+    },
+    {
+      "title": "RT by @MistralAI: Introducing remote agents in Vibe and Mistral Medium 3.5. You can now launch remote agents in the cloud, including from the CLI or Le Chat. Plus, new Work mode in Le Chat for complex, multi-step tasks. 🧵",
+      "link": "https://twitter.com/mistralvibe/status/2049511749603168520#m",
+      "date": "2026-04-29T15:30:53",
+      "source": "@MistralAI",
+      "summary": "<p>Introducing remote agents in Vibe and Mistral Medium 3.5. You can now launch remote agents in the cloud, including from the CLI or Le Chat. Plus, new Work mode in Le Chat for complex, multi-step ta"
+    },
+    {
+      "title": "R to @MistralAI: 📚 Learn more here https://mistral.ai/news/workflows",
+      "link": "https://twitter.com/MistralAI/status/2049128192405917836#m",
+      "date": "2026-04-28T14:06:46",
+      "source": "@MistralAI",
+      "summary": "<p>📚 Learn more here <a href=\"https://mistral.ai/news/workflows\">mistral.ai/news/workflows</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2055967917871640576%2FYU5AClzz%3Fformat%3Dpng%26name%3D80"
+    },
+    {
+      "title": "R to @MistralAI: Hear from our team:",
+      "link": "https://twitter.com/MistralAI/status/2049128190874964030#m",
+      "date": "2026-04-28T14:06:46",
+      "source": "@MistralAI",
+      "summary": "<p>Hear from our team:</p>\n<a href=\"https://nitter.net/MistralAI/status/2049128190874964030#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2049128073883525120%2Fimg%2F5"
+    },
+    {
+      "title": "R to @deepseek_ai: DeepSeek-V4-Flash\n\n🔹 Reasoning capabilities closely approach V4-Pro.\n🔹 Performs on par with V4-Pro on simple Agent tasks.\n🔹 Smaller parameter size, faster response times, and highly cost-effective API pricing.\n\n3/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516932140884024#m",
+      "date": "2026-04-24T03:24:12",
+      "source": "@deepseek_ai",
+      "summary": "<p>DeepSeek-V4-Flash<br />\n<br />\n🔹 Reasoning capabilities closely approach V4-Pro.<br />\n🔹 Performs on par with V4-Pro on simple Agent tasks.<br />\n🔹 Smaller parameter size, faster response times, an"
+    },
+    {
+      "title": "R to @deepseek_ai: DeepSeek-V4-Pro\n\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pro.\n🔹 World-Class Reasoning: Beats all current open models in Math/STEM/Coding, rivaling top closed-source models.\n\n2/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516926432399791#m",
+      "date": "2026-04-24T03:24:10",
+      "source": "@deepseek_ai",
+      "summary": "<p>DeepSeek-V4-Pro<br />\n<br />\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.<br />\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pr"
+    },
+    {
+      "title": "🚀 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-effective 1M context length.\n\n🔹 DeepSeek-V4-Pro: 1.6T total / 49B active params. Performance rivaling the world's top closed-source models.\n🔹 DeepSeek-V4-Flash: 284B total / 13B active params. Your fast, efficient, and economical choice.\n\nTry it now at http://chat.deepseek.com via Expert Mode / Instant Mode. API is updated & available today!\n\n📄 Tech Report: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf\n🤗 Open Weights: https://huggingface.co/collections/deepseek-ai/deepseek-v4\n\n1/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516922263285776#m",
+      "date": "2026-04-24T03:24:09",
+      "source": "@deepseek_ai",
+      "summary": "<p>🚀 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-effective 1M context length.<br />\n<br />\n🔹 DeepSeek-V4-Pro: 1.6T total / 49B active params. Performance rivaling"
+    },
+    {
+      "title": "R to @OpenAI: We’re taking suggestions on what you want to see next week ✍️",
+      "link": "https://twitter.com/OpenAI/status/2057617863977165173#m",
+      "date": "2026-05-22T00:21:42",
+      "source": "@OpenAI",
+      "summary": "<p>We’re taking suggestions on what you want to see next week ✍️</p>"
+    },
+    {
+      "title": "R to @OpenAI: 4️⃣ Advanced annotation mode lets you directly adjust the way web pages look while leaving feedback, making it even easier to work together with Codex.",
+      "link": "https://twitter.com/OpenAI/status/2057617862479708650#m",
+      "date": "2026-05-22T00:21:41",
+      "source": "@OpenAI",
+      "summary": "<p>4️⃣ Advanced annotation mode lets you directly adjust the way web pages look while leaving feedback, making it even easier to work together with Codex.</p>\n<a href=\"https://nitter.net/OpenAI/status"
+    },
+    {
+      "title": "R to @OpenAI: 3️⃣ Goal mode is now available in the Codex app, IDE extension, and CLI.\n\nGoal mode makes Codex more hands-off, letting you set a goal that it can work towards for hours or even days.",
+      "link": "https://twitter.com/OpenAI/status/2057617860986593680#m",
+      "date": "2026-05-22T00:21:41",
+      "source": "@OpenAI",
+      "summary": "<p>3️⃣ Goal mode is now available in the Codex app, IDE extension, and CLI.<br />\n<br />\nGoal mode makes Codex more hands-off, letting you set a goal that it can work towards for hours or even days.</"
+    },
+    {
+      "title": "R to @OpenAI: 2️⃣ Appshots bring context from your screen straight into the Codex app.",
+      "link": "https://twitter.com/OpenAI/status/2057617846449197480#m",
+      "date": "2026-05-22T00:21:37",
+      "source": "@OpenAI",
+      "summary": "<p>2️⃣ Appshots bring context from your screen straight into the Codex app.</p>\n<a href=\"https://nitter.net/OpenAI/status/2057617846449197480#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/a"
+    },
+    {
+      "title": "Highlights from today’s Codex Thursday launches:\n\n1️⃣ Codex can now securely use apps on your Mac from your phone, even when your Mac is locked and the screen is off.\n\nhttp://developers.openai.com/codex/app/computer-use#locked-use",
+      "link": "https://twitter.com/OpenAI/status/2057617844800794878#m",
+      "date": "2026-05-22T00:21:37",
+      "source": "@OpenAI",
+      "summary": "<p>Highlights from today’s Codex Thursday launches:<br />\n<br />\n1️⃣ Codex can now securely use apps on your Mac from your phone, even when your Mac is locked and the screen is off.<br />\n<br />\n<a hr"
+    },
+    {
+      "title": "\"Un véritable expert se distingue en citant souvent le travail de pairs compétents ; il rappelle avec humilité qu'il ne sait pas tout, qu'il existe des inconnues\".\nC'est dommage, si ce livre était paru plus tôt, on aurait pu aisément démasquer Luc Julia.\nhttps://www.lesechos.fr/idees-debats/livres/demasquer-les-experts-bidon-2232959",
+      "link": "https://twitter.com/Fabien_Mikol/status/2057740171748008253#m",
+      "date": "2026-05-22T08:27:42",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"Un véritable expert se distingue en citant souvent le travail de pairs compétents ; il rappelle avec humilité qu'il ne sait pas tout, qu'il existe des inconnues\".<br />\nC'est dommage, si ce livre "
+    },
+    {
+      "title": "Stuart Russell est un des grands noms de l'IA : professeur à UC Berkeley, il est co-auteur du manuel de référence du domaine.\nVoici un extrait de l'important discours qu'il a tenu au Parlement européen sur le risque de perte de contrôle, déjà nettement formulé par Turing en 1951.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2057596752543293846#m",
+      "date": "2026-05-21T22:57:48",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Stuart Russell est un des grands noms de l'IA : professeur à UC Berkeley, il est co-auteur du manuel de référence du domaine.<br />\nVoici un extrait de l'important discours qu'il a tenu au Parlemen"
+    },
+    {
+      "title": "D'où vient la propension des LLM à halluciner ? Est-ce inévitable ?\n@yanndubs: je pense comme @johnschulman2 que ça provient surtout du fine-tuning supervisé, où le modèle est encouragé à imiter les bonnes réponses même quand c'est faux ; le RL peut aider à \"tuer ce comportement\"",
+      "link": "https://twitter.com/Fabien_Mikol/status/2057571208820863309#m",
+      "date": "2026-05-21T21:16:18",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>D'où vient la propension des LLM à halluciner ? Est-ce inévitable ?<br />\n<a href=\"https://nitter.net/yanndubs\" title=\"Yann Dubois\">@yanndubs</a>: je pense comme <a href=\"https://nitter.net/johnsch"
+    },
+    {
+      "title": "R to @Fabien_Mikol: 👌",
+      "link": "https://twitter.com/Fabien_Mikol/status/2057568100216709164#m",
+      "date": "2026-05-21T21:03:57",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>👌</p>\n<img src=\"https://nitter.net/pic/media%2FHI3zOU7WIAAiE07.png\" />"
+    },
+    {
+      "title": "\"Imaginez qu'un petit nombre d'aliens descende sur Terre et nous annonce qu'ils sont en mission de reconnaissance. Une immense flotte doit arriver dans plusieurs années. Mais le discours sur Terre reste dominé par les effets de ces seuls éclaireurs aliens\".\nAnalogie efficace 👽",
+      "link": "https://twitter.com/Fabien_Mikol/status/2057568096827670631#m",
+      "date": "2026-05-21T21:03:56",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"Imaginez qu'un petit nombre d'aliens descende sur Terre et nous annonce qu'ils sont en mission de reconnaissance. Une immense flotte doit arriver dans plusieurs années. Mais le discours sur Terre "
+    },
+    {
+      "title": "RT by @Fabien_Mikol: Pretty interesting -- ChatGPT 5.5 Pro, with pretty minimal human guidance (and apparently without web search), also finds the counterexample to unit distance.",
+      "link": "https://twitter.com/littmath/status/2057530047880159477#m",
+      "date": "2026-05-21T18:32:45",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Pretty interesting -- ChatGPT 5.5 Pro, with pretty minimal human guidance (and apparently without web search), also finds the counterexample to unit distance.</p>\n<hr />\n<blockquote>\n<b>Xiao Ma (@M"
+    },
+    {
+      "title": "IA à l’école : élèves et enseignants l’utilisent, se le reprochent… \nSans cadre décliné à l'échelle locale, pas de confiance.\nTribune de Solenne Savoia dans EdTechActu 👇\nhttps://edtechactu.com/digital-learning/tribune-ia-et-education-que-se-passe-t-il-quand-un-etablissement-navigue-a-vue-par-solenne-savoia/\n#IA #Éducation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2057535654993543310#m",
+      "date": "2026-05-21T18:55:01",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>IA à l’école : élèves et enseignants l’utilisent, se le reprochent… <br />\nSans cadre décliné à l'échelle locale, pas de confiance.<br />\nTribune de Solenne Savoia dans EdTechActu 👇<br />\n<a href=\""
+    },
+    {
+      "title": "Les élèves ne sont pas dupes de l’IA.\n💬 « On pense un peu moins. »\n💬 « Pendant les questions, on va être perdus. »\nLe vrai sujet n’est pas seulement la triche, mais le sens de l’école quand réussir l’épreuve remplace parfois l’apprentissage.\n🔗 https://www.cahiers-pedagogiques.com/autopsie-dune-preparation-au-grand-oral-avec-lia/",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2054593129815159055#m",
+      "date": "2026-05-13T16:02:29",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Les élèves ne sont pas dupes de l’IA.<br />\n💬 « On pense un peu moins. »<br />\n💬 « Pendant les questions, on va être perdus. »<br />\nLe vrai sujet n’est pas seulement la triche, mais le sens de l’é"
+    },
+    {
       "title": "CompaRAG",
       "link": "https://www.uneiaparjour.fr/comparag/",
       "date": "2026-05-15T19:11:00",
@@ -496,212 +699,9 @@
       "date": "2026-05-08T09:50:01",
       "source": "@sophiaefrance",
       "summary": "<p>🔬 Comment passer de la <a href=\"https://nitter.net/search?f=tweets&amp;q=%23recherche\">#recherche</a> à la pratique en <a href=\"https://nitter.net/search?f=tweets&amp;q=%23classe\">#classe</a> ?<br "
-    },
-    {
-      "title": "Anthropic is acquiring @stainlessapi, an SDK and MCP server platform that has powered every Anthropic SDK since the earliest days of our API.\n\nRead more: https://www.anthropic.com/news/anthropic-acquires-stainless",
-      "link": "https://twitter.com/AnthropicAI/status/2056419620643541012#m",
-      "date": "2026-05-18T17:00:18",
-      "source": "@AnthropicAI",
-      "summary": "<p>Anthropic is acquiring <a href=\"https://nitter.net/StainlessAPI\" title=\"Stainless\">@stainlessapi</a>, an SDK and MCP server platform that has powered every Anthropic SDK since the earliest days of "
-    },
-    {
-      "title": "R to @AnthropicAI: Read the full post here: https://alignment.anthropic.com/2026/teaching-claude-why/",
-      "link": "https://twitter.com/AnthropicAI/status/2052808809182060581#m",
-      "date": "2026-05-08T17:52:14",
-      "source": "@AnthropicAI",
-      "summary": "<p>Read the full post here: <a href=\"https://alignment.anthropic.com/2026/teaching-claude-why/\">alignment.anthropic.com/2026…</a></p>"
-    },
-    {
-      "title": "R to @AnthropicAI: Finally, simple updates that diversify a model’s training data can make a difference. We added unrelated tools and system prompts to a simple chat dataset targeting harmlessness, and this reduced the blackmail rate faster.",
-      "link": "https://twitter.com/AnthropicAI/status/2052808806782964072#m",
-      "date": "2026-05-08T17:52:13",
-      "source": "@AnthropicAI",
-      "summary": "<p>Finally, simple updates that diversify a model’s training data can make a difference. We added unrelated tools and system prompts to a simple chat dataset targeting harmlessness, and this reduced t"
-    },
-    {
-      "title": "R to @AnthropicAI: The improvements from these interventions survive reinforcement learning, and “stack” with our regular harmlessness training.",
-      "link": "https://twitter.com/AnthropicAI/status/2052808804018909248#m",
-      "date": "2026-05-08T17:52:12",
-      "source": "@AnthropicAI",
-      "summary": "<p>The improvements from these interventions survive reinforcement learning, and “stack” with our regular harmlessness training.</p>\n<img src=\"https://nitter.net/pic/media%2FHHz8gcsWgAYVGfX.jpg\" />"
-    },
-    {
-      "title": "R to @AnthropicAI: High-quality documents based on Claude’s constitution, combined with fictional stories that portray an aligned AI, can reduce agentic misalignment by more than a factor of three—despite being unrelated to the evaluation scenario.",
-      "link": "https://twitter.com/AnthropicAI/status/2052808801040859392#m",
-      "date": "2026-05-08T17:52:12",
-      "source": "@AnthropicAI",
-      "summary": "<p>High-quality documents based on Claude’s constitution, combined with fictional stories that portray an aligned AI, can reduce agentic misalignment by more than a factor of three—despite being unrel"
-    },
-    {
-      "title": "R to @AnthropicAI: Our best intervention was a dataset where the user is in an ethically difficult situation and the assistant gives a high quality, principled response.\n\nThis had the biggest effect despite being quite different from the evaluation set.",
-      "link": "https://twitter.com/AnthropicAI/status/2052808798239146290#m",
-      "date": "2026-05-08T17:52:11",
-      "source": "@AnthropicAI",
-      "summary": "<p>Our best intervention was a dataset where the user is in an ethically difficult situation and the assistant gives a high quality, principled response.<br />\n<br />\nThis had the biggest effect despi"
-    },
-    {
-      "title": "R to @AnthropicAI: We experimented with training Claude on examples of safe behavior in scenarios like our evaluation. This had only a small effect, despite being similar to our evaluation. We got further by rewriting the responses to portray admirable reasons for acting safely.",
-      "link": "https://twitter.com/AnthropicAI/status/2052808795844145248#m",
-      "date": "2026-05-08T17:52:10",
-      "source": "@AnthropicAI",
-      "summary": "<p>We experimented with training Claude on examples of safe behavior in scenarios like our evaluation. This had only a small effect, despite being similar to our evaluation. We got further by rewritin"
-    },
-    {
-      "title": "Pinned: Mistral’s AI Now Summit is coming to Paris on May 28 and tickets are live!\n\nWhat you’ll hear:\n📷 Technical deep dives to help you build and deploy AI.\n📷 Mistral’s founders on AI-driven transformation in large organizations, company trajectory, and upcoming releases.\n\nOne day to leave with:\n✅ Hands-on techniques to deploy and scale AI\n✅ Practical insights on AI use cases\n✅ Connections with peers to help you build your own AI\n\nGet your pass now → https://ainowsummit.com",
-      "link": "https://twitter.com/MistralAI/status/2042256228668276987#m",
-      "date": "2026-04-09T15:00:02",
-      "source": "@MistralAI",
-      "summary": "<p>Mistral’s AI Now Summit is coming to Paris on May 28 and tickets are live!<br />\n<br />\nWhat you’ll hear:<br />\n📷 Technical deep dives to help you build and deploy AI.<br />\n📷 Mistral’s founders on"
-    },
-    {
-      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.\n🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI.\n\n7/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
-      "date": "2026-04-24T03:24:16",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
-    },
-    {
-      "title": "R to @deepseek_ai: API is Available Today!\n\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.\n🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://api-docs.deepseek.com/guides/thinking_mode\n\n⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking).\n\n6/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516945466188072#m",
-      "date": "2026-04-24T03:24:15",
-      "source": "@deepseek_ai",
-      "summary": "<p>API is Available Today!<br />\n<br />\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.<br />\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.<br />\n🔹 Both models suppor"
-    },
-    {
-      "title": "R to @deepseek_ai: Dedicated Optimizations for Agent Capabilities\n\n🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode.\n🔹 Already driving our in-house agentic coding at DeepSeek.\n\nThe figure below showcases a sample PDF generated by DeepSeek-V4-Pro.\n\n5/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516941074796676#m",
-      "date": "2026-04-24T03:24:14",
-      "source": "@deepseek_ai",
-      "summary": "<p>Dedicated Optimizations for Agent Capabilities<br />\n<br />\n🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode.<br />\n🔹 Already driving our in-house"
-    },
-    {
-      "title": "R to @deepseek_ai: Structural Innovation & Ultra-High Context Efficiency\n\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).\n🔹 Peak Efficiency: World-leading long context with drastically reduced compute & memory costs.\n🔹 1M Standard: 1M context is now the default across all official DeepSeek services.\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516936289017964#m",
-      "date": "2026-04-24T03:24:13",
-      "source": "@deepseek_ai",
-      "summary": "<p>Structural Innovation & Ultra-High Context Efficiency<br />\n<br />\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).<br />\n🔹 Peak Efficiency: World-leading long context w"
-    },
-    {
-      "title": "Pour la première fois, un agent est parvenu à s'auto-répliquer à travers plusieurs continents en exécutant tout le process (vulnérabilités exploitées, hacker un serveur, poids transférés, clone lancé) en autonomie.\nC'était sur demande, mais cela montre le progrès de ces capacités",
-      "link": "https://twitter.com/Fabien_Mikol/status/2056650987033542797#m",
-      "date": "2026-05-19T08:19:40",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Pour la première fois, un agent est parvenu à s'auto-répliquer à travers plusieurs continents en exécutant tout le process (vulnérabilités exploitées, hacker un serveur, poids transférés, clone lan"
-    },
-    {
-      "title": "Vous aimez les lectures angoissantes ?\n20 remarques bien choisies pour cerner la crise qui s'annonce probablement avec le développement futur de l'intelligence artificielle. Et ce, indépendamment du problème (déjà compliqué) de l'alignement ⤵️\nhttps://jamiefreestone.substack.com/p/the-perennial-alignment-problem",
-      "link": "https://twitter.com/Fabien_Mikol/status/2056502331533914596#m",
-      "date": "2026-05-18T22:28:58",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Vous aimez les lectures angoissantes ?<br />\n20 remarques bien choisies pour cerner la crise qui s'annonce probablement avec le développement futur de l'intelligence artificielle. Et ce, indépendam"
-    },
-    {
-      "title": "R to @Fabien_Mikol: \"Publié pour la première fois en 1995\", son manuel \"est utilisé dans plus de 1 400 universités dans le monde et a été qualifié de manuel d'intelligence artificielle le plus populaire au monde et de texte standard de l'intelligence artificielle\" (Wikipédia France).",
-      "link": "https://twitter.com/Fabien_Mikol/status/2056493043117662466#m",
-      "date": "2026-05-18T21:52:03",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>\"Publié pour la première fois en 1995\", son manuel \"est utilisé dans plus de 1 400 universités dans le monde et a été qualifié de manuel d'intelligence artificielle le plus populaire au monde et de"
-    },
-    {
-      "title": "Stuart Russell est un des grands noms de l'IA : professeur à UC Berkeley, il est co-auteur du manuel de référence du domaine.\nIl s'exprime ici sur ce qu'il considère être un risque existentiel (\"ce n'est pas de la science-fiction\") si nous parvenons à créer des superintelligences",
-      "link": "https://twitter.com/Fabien_Mikol/status/2056493040005439572#m",
-      "date": "2026-05-18T21:52:03",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Stuart Russell est un des grands noms de l'IA : professeur à UC Berkeley, il est co-auteur du manuel de référence du domaine.<br />\nIl s'exprime ici sur ce qu'il considère être un risque existentie"
-    },
-    {
-      "title": "R to @Fabien_Mikol: On va me dire \"non mais ok le vrai problème il est local !\"\nD'accord, très bien, en effet ça peut être un problème dans certaines zones. Mais alors pourquoi cette couverture médiatique permanente sur des chiffres mondiaux ? C'est juste hors-sujet\n\nSource :\nhttps://www.youtube.com/watch?v=kpWw-jVk_Co",
-      "link": "https://twitter.com/Fabien_Mikol/status/2056453730753556649#m",
-      "date": "2026-05-18T19:15:51",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>On va me dire \"non mais ok le vrai problème il est local !\"<br />\nD'accord, très bien, en effet ça peut être un problème dans certaines zones. Mais alors pourquoi cette couverture médiatique perman"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Je veux surtout dénoncer ici un manque évident du sens des priorités dans la couverture médiatique de nos usages en eau, surtout quand certains de ces usages sont discutables...\nJe renvoie encore une fois au coup de gueule de Hank Green :\nhttps://x.com/Fabien_Mikol/status/2042021970724692139",
-      "link": "https://twitter.com/Fabien_Mikol/status/2056453728253735244#m",
-      "date": "2026-05-18T19:15:50",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Je veux surtout dénoncer ici un manque évident du sens des priorités dans la couverture médiatique de nos usages en eau, surtout quand certains de ces usages sont discutables...<br />\nJe renvoie en"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Il me semble que c'est une mise en perspective pertinente. On voit notamment à quel point certains usages dominent très largement, et que contrairement à ce que beaucoup pensent, on a un fort effet de levier possible sur ceux-ci (manger moins de viande ?)\nhttps://x.com/Fabien_Mikol/status/2012487869898572098",
-      "link": "https://twitter.com/Fabien_Mikol/status/2056453725091221556#m",
-      "date": "2026-05-18T19:15:49",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Il me semble que c'est une mise en perspective pertinente. On voit notamment à quel point certains usages dominent très largement, et que contrairement à ce que beaucoup pensent, on a un fort effet"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Si on demande à Claude une telle \"mise en perspective\", on voit que la conso projetée pour 2030 (et écrite EN ROUGE) correspond à ~0,03% des prélèvements mondiaux d'eau douce.\n(On apprend au passage que si on accroît la part de renouvelable, cette conso diminuerait mécaniquement)",
-      "link": "https://twitter.com/Fabien_Mikol/status/2056453722104836344#m",
-      "date": "2026-05-18T19:15:49",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Si on demande à Claude une telle \"mise en perspective\", on voit que la conso projetée pour 2030 (et écrite EN ROUGE) correspond à ~0,03% des prélèvements mondiaux d'eau douce.<br />\n(On apprend au "
-    },
-    {
-      "title": "Les Émirats veulent confier 50 % du gouvernement à l’IA agentique d’ici 2 ans.\nL’exemple albanais de Diella le rappelle : l’IA ne supprime pas les questions de pouvoir, responsabilité et confiance. Elle les déplace.\nQui répond quand l’IA “décide” ?\n🔗 https://x.com/HHShkMohd/status/2047277766769545352/photo/2",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2052415321307283582#m",
-      "date": "2026-05-07T15:48:39",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Les Émirats veulent confier 50 % du gouvernement à l’IA agentique d’ici 2 ans.<br />\nL’exemple albanais de Diella le rappelle : l’IA ne supprime pas les questions de pouvoir, responsabilité et conf"
-    },
-    {
-      "title": "“Ils ne réfléchissent plus.”\nMais nous, si ?\n📊 61 % des enseignants utilisent l’IA\n⚠️ 90 % pensent qu’elle nuit à l’esprit critique\nUn paradoxe qui porte un nom : le biais de supériorité illusoire. \nOn pense toujours que le problème, c’est les autres.\nhttps://www.digitaleducationcouncil.com/post/digital-education-council-global-ai-faculty-survey",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2052056726111748193#m",
-      "date": "2026-05-06T16:03:43",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>“Ils ne réfléchissent plus.”<br />\nMais nous, si ?<br />\n📊 61 % des enseignants utilisent l’IA<br />\n⚠️ 90 % pensent qu’elle nuit à l’esprit critique<br />\nUn paradoxe qui porte un nom : le biais d"
-    },
-    {
-      "title": "“Nous n’avons pas de jeunesse de rechange.”\nOn célèbre les jeunes… puis on les critique dans la foulée.\nDouble discours révélateur d’une société en contradiction.\nEt si on commençait par leur donner du temps, de la confiance… et une vraie place ?\n🔗 https://www.lemonde.fr/campus/article/2026/04/02/geraud-letang-historien-nous-n-avons-pas-de-jeunesse-de-rechange_6676148_4401467.html",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2050244758719590758#m",
-      "date": "2026-05-01T16:03:36",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>“Nous n’avons pas de jeunesse de rechange.”<br />\nOn célèbre les jeunes… puis on les critique dans la foulée.<br />\nDouble discours révélateur d’une société en contradiction.<br />\nEt si on commenç"
-    },
-    {
-      "title": "« Nous nous hâtons de parquer nos enfants parmi des enfants de notre classe, bourgeoise ou populaire [...] Nous préparons, par cet isolement précoce, les haines d’ignorance et d’envie, cette guerre intérieure dont nous souffrons plus tard. » (Jules Michelet, Le Peuple, 1846).",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2047707850944708766#m",
-      "date": "2026-04-24T16:02:50",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>« Nous nous hâtons de parquer nos enfants parmi des enfants de notre classe, bourgeoise ou populaire [...] Nous préparons, par cet isolement précoce, les haines d’ignorance et d’envie, cette guerre"
-    },
-    {
-      "title": "Un petit lecteur MD portable",
-      "link": "https://mathix.org/linux/archives/22339",
-      "date": "2026-05-17T13:36:49",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Là je suis en pleine réécriture de mes cours, et je comptais passer au MarkDown, vous savez le format de fichier qui commence à percer, car l&#8217;IA, elle, elle produit bie"
-    },
-    {
-      "title": "Garder à l’esprit que l’IA est contrôlée par celui qui la met à disposition…",
-      "link": "https://mathix.org/linux/archives/22271",
-      "date": "2026-04-30T07:45:45",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Comme vous le savez j&#8217;ai conçu une interface pour utiliser l&#8217;API mis à disposition par EDUNIM (etalab.gouf.fr). Faire prendre conscience qu&#8217;on peut orienter"
-    },
-    {
-      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "date": "2026-04-27T13:00:00",
-      "source": "Google AI",
-      "summary": "A web next to a laptop"
-    },
-    {
-      "title": "Et si on parlait un peu de la fakenews sur la \"consommation\" d'eau et d'électricité des IA ? #unpopular opinion",
-      "link": "https://twitter.com/nsi_xyz/status/2054210517841940749#m",
-      "date": "2026-05-12T14:42:07",
-      "source": "@nsi_xyz",
-      "summary": "<p>Et si on parlait un peu de la fakenews sur la \"consommation\" d'eau et d'électricité des IA ? <a href=\"https://nitter.net/search?f=tweets&amp;q=%23unpopular\">#unpopular</a> opinion</p>\n<img src=\"htt"
-    },
-    {
-      "title": "Gemini vient d'injecter une discussion précédente dans une nouvelle discussion, je ne suis pas vraiment ravi, je préférerais pouvoir choisir avec ou sans mémoire.",
-      "link": "https://twitter.com/nsi_xyz/status/2054177009505333255#m",
-      "date": "2026-05-12T12:28:58",
-      "source": "@nsi_xyz",
-      "summary": "<p>Gemini vient d'injecter une discussion précédente dans une nouvelle discussion, je ne suis pas vraiment ravi, je préférerais pouvoir choisir avec ou sans mémoire.</p>"
     }
   ],
-  "last_update": "2026-05-21T10:58:38.976866",
+  "last_update": "2026-05-22T10:41:42.628883",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
