@@ -1,6 +1,132 @@
 {
   "articles": [
     {
+      "title": "Dim0",
+      "link": "https://www.uneiaparjour.fr/dim0/",
+      "date": "2026-05-23T20:50:00",
+      "source": "Une IA par jour",
+      "summary": "Dim0 (https://app.dim0.net et documentation : https://github.com/vcmf/dim0) est un tableau infini qui peut être rempli avec des documens, des notes, du code ou des schémas avec un agent IA intégré et "
+    },
+    {
+      "title": "Éléa dans la poche : et si on arrêtait de compliquer l’accès aux parcours ?",
+      "link": "https://mathix.org/linux/archives/22328",
+      "date": "2026-05-14T10:28:37",
+      "source": "Mathix (A. Durand)",
+      "summary": "Éléa, sur le papier, c’est franchement une belle promesse.On peut y créer des parcours, différencier, proposer des exercices, intégrer des vidéos, suivre les élèves, organiser le travail, reprendre en"
+    },
+    {
+      "title": "IA et Stéréotype",
+      "link": "https://mathix.org/linux/archives/22279",
+      "date": "2026-04-29T14:40:13",
+      "source": "Mathix (A. Durand)",
+      "summary": "Une IA ne ment pas forcément. Elle simplifie. Dans le cadre d’une activité sur la littératie de l’IA, j’ai voulu travailler avec les élèves une compétence essentielle : critiquer. Pas critiquer au sen"
+    },
+    {
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "date": "2026-05-20T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes."
+    },
+    {
+      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "link": "https://openai.com/index/advancing-content-provenance",
+      "date": "2026-05-19T10:45:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media."
+    },
+    {
+      "title": "I/O 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+      "date": "2026-05-19T17:45:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Collection-Hero.gif\" />At Google I/O 2026, we shared how we’re making AI more helpful for everyone. See everything we"
+    },
+    {
+      "title": "How AI Mode is changing the way people search in the U.S.",
+      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
+      "date": "2026-05-19T17:45:00",
+      "source": "Google AI",
+      "summary": "A graphic features the text \"How people are using AI Mode in the U.S.\" surrounded by colorful, stylized illustrations of a pencil, planet, banana, gift box, cursor, gamepad, and lipstick on a light bl"
+    },
+    {
+      "title": "I/O 2026: Welcome to the agentic Gemini era",
+      "link": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+      "date": "2026-05-19T17:45:00",
+      "source": "Google AI",
+      "summary": "a series of colorful icons representing Google I/O against a black background"
+    },
+    {
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "date": "2026-05-19T17:45:00",
+      "source": "Google AI",
+      "summary": "Gemini 3.5 text and multi-colored star icon on an abstract blue background."
+    },
+    {
+      "title": "A new era for AI Search",
+      "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "date": "2026-05-19T17:45:00",
+      "source": "Google AI",
+      "summary": "Text that reads \"The best of a search engine with the best of AI\""
+    },
+    {
+      "title": "🤖 L’IA ne s’explique pas seulement. Elle s’expérimente.\nAvec Vittascience, @ac_orleanstours propose une ressource pr faire créer des jeux de données, entraîner un modèle, tester ses résultats et comprendre les biais. \nhttps://pedagogie.ac-orleans-tours.fr/spip.php?article3903",
+      "link": "https://twitter.com/sophiaefrance/status/2058771306796007709#m",
+      "date": "2026-05-25T04:45:04",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 L’IA ne s’explique pas seulement. Elle s’expérimente.<br />\nAvec Vittascience, <a href=\"https://nitter.net/ac_orleanstours\" title=\"Académie d'Orléans-Tours\">@ac_orleanstours</a> propose une resso"
+    },
+    {
+      "title": "Ni trop simple, ni trop complexe : le bon apprentissage commence là où le défi devient atteignable 🎯 Cette infographie @HEC_Montreal illustre la zone proximale de développement : cet espace clé où l’élève progresse, accompagné, sans ennui ni décrochage🚀\nhttps://ernest.hec.ca/video/DAIP/pdf/Zone_Proximale_de_Developpement.PDF",
+      "link": "https://twitter.com/sophiaefrance/status/2055224175048950030#m",
+      "date": "2026-05-15T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Ni trop simple, ni trop complexe : le bon apprentissage commence là où le défi devient atteignable 🎯 Cette infographie <a href=\"https://nitter.net/HEC_Montreal\" title=\"HEC Montréal\">@HEC_Montreal</"
+    },
+    {
+      "title": "L’#IA en #education : promesse… ou illusion ? 🤖 \n🔑 La recherche rappelle un point clé : l’#IA peut soutenir les apprentissages, mais seulement si elle est pensée comme un outil #pédagogique, pas comme un raccourci\nhttps://link.springer.com/article/10.1007/s43681-025-00871-w \n✍️ @TheLinkSN",
+      "link": "https://twitter.com/sophiaefrance/status/2051994139919601836#m",
+      "date": "2026-05-06T11:55:01",
+      "source": "@sophiaefrance",
+      "summary": "<p>L’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> en <a href=\"https://nitter.net/search?f=tweets&amp;q=%23education\">#education</a> : promesse… ou illusion ? 🤖 <br />\n🔑 La recherch"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Source :\nhttps://www.lefigaro.fr/actualite-france/c-est-un-phenomene-massif-la-triche-generalisee-a-l-ia-frappe-de-plein-fouet-les-lycees-francais-20260525",
+      "link": "https://twitter.com/Fabien_Mikol/status/2058867220302696535#m",
+      "date": "2026-05-25T11:06:11",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Source :<br />\n<a href=\"https://www.lefigaro.fr/actualite-france/c-est-un-phenomene-massif-la-triche-generalisee-a-l-ia-frappe-de-plein-fouet-les-lycees-francais-20260525\">lefigaro.fr/actualite-fra"
+    },
+    {
+      "title": "Stratégies variables de profs face aux triches IA qu'ils devinent sans pouvoir les prouver.\n\"Je ne peux pas mettre une très mauvaise note, ce ne serait pas justifiable, donc je me contente de mettre un résultat très moyen\".\n\"Je demande de me refaire sa démonstration au tableau\".",
+      "link": "https://twitter.com/Fabien_Mikol/status/2058867217349939524#m",
+      "date": "2026-05-25T11:06:11",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Stratégies variables de profs face aux triches IA qu'ils devinent sans pouvoir les prouver.<br />\n\"Je ne peux pas mettre une très mauvaise note, ce ne serait pas justifiable, donc je me contente de"
+    },
+    {
+      "title": "R to @Fabien_Mikol: A propos de la \"triche\" comme \"stratégie rationnelle\" et pas spécifiquement humaine, et de Claude \"ruthless\" dans l'expérience désormais célèbre du vending machine, voir ici :\nhttps://x.com/Fabien_Mikol/status/2055231318942765241",
+      "link": "https://twitter.com/Fabien_Mikol/status/2058854777170104385#m",
+      "date": "2026-05-25T10:16:45",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>A propos de la \"triche\" comme \"stratégie rationnelle\" et pas spécifiquement humaine, et de Claude \"ruthless\" dans l'expérience désormais célèbre du vending machine, voir ici :<br />\n<a href=\"https:"
+    },
+    {
+      "title": "🤖 Plus le monde devient technique, plus les sciences humaines deviennent stratégiques.\n\nPhilosophes, sociologues, juristes, psychologues, enseignants : sans eux, on construit des IA puissantes… sans savoir quelle humanité elles servent. \n\n🔗 https://www.msn.com/en-in/money/news/philosopher-to-study-human-ai-ties-who-is-henry-shevlin-google-deepmind-s-key-non-tech-hire/ar-AA20RJlI",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2051685984404729963#m",
+      "date": "2026-05-05T15:30:31",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🤖 Plus le monde devient technique, plus les sciences humaines deviennent stratégiques.<br />\n<br />\nPhilosophes, sociologues, juristes, psychologues, enseignants : sans eux, on construit des IA pui"
+    },
+    {
+      "title": "🎤 J’ai trouvé comment terminer mes prochaines conférences et formations.\nPlus de diapo.\nPlus de conclusion.\nJuste ça 👇\nAI – AronChupa\n🎶 https://www.youtube.com/watch?v=H2JMRXCiPLE",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2051331823397933390#m",
+      "date": "2026-05-04T16:03:13",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🎤 J’ai trouvé comment terminer mes prochaines conférences et formations.<br />\nPlus de diapo.<br />\nPlus de conclusion.<br />\nJuste ça 👇<br />\nAI – AronChupa<br />\n🎶 <a href=\"https://piped.video/wa"
+    },
+    {
       "title": "Un peu de flashix et un peu de mapix",
       "link": "https://mathix.org/linux/archives/22316",
       "date": "2026-05-13T12:34:24",
@@ -573,135 +699,9 @@
       "date": "2026-05-21T10:35:15",
       "source": "@nsi_xyz",
       "summary": "<p>En NSI, on est bienveillant, et on ne souhaite pas être assimilé aux enseignants de maths 😈</p>\n<img src=\"https://nitter.net/pic/media%2FHI1jYL6WIAAH2Ug.jpg\" />"
-    },
-    {
-      "title": "Gemini Update 3.5\nOn a enfin un tableau de bord avec les limites du forfait, c'est fini l'openbar avec 100 requêtes ultra complexe c'est le \"vrai\" coût du compute qui se déduit. l'UI a aussi subit un gros lifting, et il était temps, mais c'est encore très perfectible ...",
-      "link": "https://twitter.com/nsi_xyz/status/2057351188723482820#m",
-      "date": "2026-05-21T06:42:01",
-      "source": "@nsi_xyz",
-      "summary": "<p>Gemini Update 3.5<br />\nOn a enfin un tableau de bord avec les limites du forfait, c'est fini l'openbar avec 100 requêtes ultra complexe c'est le \"vrai\" coût du compute qui se déduit. l'UI a aussi "
-    },
-    {
-      "title": "RT by @nsi_xyz: Excellent. Comme d'habitude.\n\nSi l'enseignement vous intéresse, suivez @greg_ashman si vous ne le faites pas déjà.",
-      "link": "https://twitter.com/CyniqueDeGauche/status/2057121396342284634#m",
-      "date": "2026-05-20T15:28:55",
-      "source": "@nsi_xyz",
-      "summary": "<p>Excellent. Comme d'habitude.<br />\n<br />\nSi l'enseignement vous intéresse, suivez <a href=\"https://nitter.net/greg_ashman\" title=\"Greg Ashman\">@greg_ashman</a> si vous ne le faites pas déjà.</p>\n<"
-    },
-    {
-      "title": "🤖 Décrypter le numérique et l’IA… sans écran 🃏\nAvec Play & Learn, Sonia Agrebi et Yann Secq proposent des #jeux de cartes en téléchargement libre pour aborder les grands enjeux du #numérique et faire émerger l’esprit critique chez les élèves.\nhttps://playandlearn.info/",
-      "link": "https://twitter.com/sophiaefrance/status/2057067575993921980#m",
-      "date": "2026-05-20T11:55:03",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤖 Décrypter le numérique et l’IA… sans écran 🃏<br />\nAvec Play &amp; Learn, Sonia Agrebi et Yann Secq proposent des <a href=\"https://nitter.net/search?f=tweets&amp;q=%23jeux\">#jeux</a> de cartes en"
-    },
-    {
-      "title": "🤖 Et si une #IA comme #Vera devenait un support pour l’#EMI ? \n🎯 Face à la #désinformation, l’enjeu en #education n’est pas seulement de chercher une info mais d’apprendre à la vérifier, croiser les sources et douter intelligemment. \n🔗 https://www.france24.com/fr/europe/20260312-qu-est-ce-que-vera-l-ia-fran%C3%A7aise-contre-la-d%C3%A9sinformation \n✍️ @FRANCE24",
-      "link": "https://twitter.com/sophiaefrance/status/2053697872030241121#m",
-      "date": "2026-05-11T04:45:03",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤖 Et si une <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> comme <a href=\"https://nitter.net/search?f=tweets&amp;q=%23Vera\">#Vera</a> devenait un support pour l’<a href=\"https://n"
-    },
-    {
-      "title": "RT by @MistralAI: Build once. Reuse everywhere.\n\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.",
-      "link": "https://twitter.com/MistralDevs/status/2044418622131437755#m",
-      "date": "2026-04-15T14:12:37",
-      "source": "@MistralAI",
-      "summary": "<p>Build once. Reuse everywhere.<br />\n<br />\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.</p>\n<im"
-    },
-    {
-      "title": "R to @MistralAI: Check out our blog post for details: https://mistral.ai/news/voxtral-tts",
-      "link": "https://twitter.com/MistralAI/status/2037183035121029375#m",
-      "date": "2026-03-26T15:00:59",
-      "source": "@MistralAI",
-      "summary": "<p>Check out our blog post for details: <a href=\"https://mistral.ai/news/voxtral-tts\">mistral.ai/news/voxtral-tts</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2053309790793912320%2FNzjlRyzo%3Ff"
-    },
-    {
-      "title": "R to @MistralAI: Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.",
-      "link": "https://twitter.com/MistralAI/status/2037183032856076527#m",
-      "date": "2026-03-26T15:00:58",
-      "source": "@MistralAI",
-      "summary": "<p>Experiment with Voxtral TTS directly in the Mistral Studio playground. Select one of the Mistral voices or record your own.</p>\n<a href=\"https://nitter.net/MistralAI/status/2037183032856076527#m\">\n"
-    },
-    {
-      "title": "R to @MistralAI: State-of-the-art performance.\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to the original voice.",
-      "link": "https://twitter.com/MistralAI/status/2037183030935105578#m",
-      "date": "2026-03-26T15:00:58",
-      "source": "@MistralAI",
-      "summary": "<p>State-of-the-art performance.<br />\nIn zero-shot custom voice tests, Voxtral TTS outperformed ElevenLabs v2.5 Flash - judged by native speakers for naturalness, accent accuracy, and similarity to t"
-    },
-    {
-      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
-      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
-      "date": "2026-04-29T02:20:52",
-      "source": "@deepseek_ai",
-      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
-    },
-    {
-      "title": "R to @OpenAI: This result points to something larger: AI systems are becoming capable of holding together long, difficult chains of reasoning, connecting ideas across distant fields, and surfacing paths researchers may not have explored.\n\nWe believe those same abilities will soon accelerate work in biology, physics, engineering, and medicine.\n\nThat future still depends on human judgment. Expertise becomes more valuable, not less. AI can help search, suggest, and verify. People choose the problems that matter, interpret the results, and decide what questions to pursue next.",
-      "link": "https://twitter.com/OpenAI/status/2057176204541866087#m",
-      "date": "2026-05-20T19:06:42",
-      "source": "@OpenAI",
-      "summary": "<p>This result points to something larger: AI systems are becoming capable of holding together long, difficult chains of reasoning, connecting ideas across distant fields, and surfacing paths research"
-    },
-    {
-      "title": "R to @OpenAI: The proof came from a general-purpose reasoning model, not a system built specifically to solve math problems or this problem in particular, and represents an important milestone for the math and AI communities.\n\nhttps://openai.com/index/model-disproves-discrete-geometry-conjecture/",
-      "link": "https://twitter.com/OpenAI/status/2057176203166171317#m",
-      "date": "2026-05-20T19:06:41",
-      "source": "@OpenAI",
-      "summary": "<p>The proof came from a general-purpose reasoning model, not a system built specifically to solve math problems or this problem in particular, and represents an important milestone for the math and A"
-    },
-    {
-      "title": "Pinned: Today, we share a breakthrough on the planar unit distance problem, a famous open question first posed by Paul Erdős in 1946.\n\nFor nearly 80 years, mathematicians believed the best possible solutions looked roughly like square grids.\n\nAn OpenAI model has now disproved that belief, discovering an entirely new family of constructions that performs better.\n\nThis marks the first time AI has autonomously solved a prominent open problem central to a field of mathematics.",
-      "link": "https://twitter.com/OpenAI/status/2057176201782075690#m",
-      "date": "2026-05-20T19:06:41",
-      "source": "@OpenAI",
-      "summary": "<p>Today, we share a breakthrough on the planar unit distance problem, a famous open question first posed by Paul Erdős in 1946.<br />\n<br />\nFor nearly 80 years, mathematicians believed the best poss"
-    },
-    {
-      "title": "Patrick Flandrin (CNRS) nous rappelle les \"robots poètes\" des années 50 (fonctionnant par tirage aléatoire de mots et respectant des règles lexicales) et la polémique suscitée à l'époque.\nBoris Vian : \"le fonctionnement du robot dépendra de ce qu'on a mis dedans nous-mêmes !\"",
-      "link": "https://twitter.com/Fabien_Mikol/status/2057406135238344892#m",
-      "date": "2026-05-21T10:20:22",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Patrick Flandrin (CNRS) nous rappelle les \"robots poètes\" des années 50 (fonctionnant par tirage aléatoire de mots et respectant des règles lexicales) et la polémique suscitée à l'époque.<br />\nBor"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Source :\nhttps://www.lemonde.fr/sciences/article/2026/05/20/comment-des-agents-d-ia-accelerent-la-decouverte-de-medicaments_6691750_1650684.html",
-      "link": "https://twitter.com/Fabien_Mikol/status/2057391531577741509#m",
-      "date": "2026-05-21T09:22:20",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Source :<br />\n<a href=\"https://www.lemonde.fr/sciences/article/2026/05/20/comment-des-agents-d-ia-accelerent-la-decouverte-de-medicaments_6691750_1650684.html\">lemonde.fr/sciences/article/…</a></p"
-    },
-    {
-      "title": "Bon article du Monde sur ces nouvelles publi dans Nature.\n@LF_Nothias : \"Ces publications simultanées dans Nature sont le signal que les techniques utilisées ont du potentiel. Il y a quelques années, nous avions du mal à convaincre. C’est un tournant scientifique que nous vivons\"",
-      "link": "https://twitter.com/Fabien_Mikol/status/2057391528725581862#m",
-      "date": "2026-05-21T09:22:19",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Bon article du Monde sur ces nouvelles publi dans Nature.<br />\n<a href=\"https://nitter.net/LF_Nothias\" title=\"Louis-Félix Nothias\">@LF_Nothias</a> : \"Ces publications simultanées dans Nature sont "
-    },
-    {
-      "title": "Les capacités de Gemini Omni ont bluffé @StephZibi : \"ça va au-delà de tout, j'ai fait un test vidéo, c'est un truc de dingue\" ; \"maintenant il n'y a plus qu'à assembler et jouer les orchestrateurs\" ; \"est-ce qu'on aura encore besoin de créatifs, de directeurs artistiques...?\"",
-      "link": "https://twitter.com/Fabien_Mikol/status/2057388689966170269#m",
-      "date": "2026-05-21T09:11:02",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Les capacités de Gemini Omni ont bluffé <a href=\"https://nitter.net/StephZibi\" title=\"Stephane Zibi\">@StephZibi</a> : \"ça va au-delà de tout, j'ai fait un test vidéo, c'est un truc de dingue\" ; \"ma"
-    },
-    {
-      "title": "L’#EVARS est nécessaire. Mais beaucoup d’enseignants se demandent encore comment l’aborder concrètement en classe, avec des supports fiables et adaptés ?\nHonoré d’avoir contribué à cette ressource collective 📘\nhttps://magnard.pole-edu.net/campaign/html/69eb705a2c485cd6cfe614ff/6525e9d00f2869ab45b25548",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2057129996464873666#m",
-      "date": "2026-05-20T16:03:05",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>L’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23EVARS\">#EVARS</a> est nécessaire. Mais beaucoup d’enseignants se demandent encore comment l’aborder concrètement en classe, avec des supports "
-    },
-    {
-      "title": "Et si l’IA devenait le socle de l’école ?\nLa Chine a proposé son plan d'action pour l'IA en éducation : un enseignement d'une culture de l'IA dès le primaire, enseignants formés, suivi des élèves par les données, pilotage algorithmique... \n🔗 https://www.nda.gov.cn/sjj/zwgk/tzgg/0410/20260410162428109058250_pc.html",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2052766077386387491#m",
-      "date": "2026-05-08T15:02:26",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Et si l’IA devenait le socle de l’école ?<br />\nLa Chine a proposé son plan d'action pour l'IA en éducation : un enseignement d'une culture de l'IA dès le primaire, enseignants formés, suivi des él"
     }
   ],
-  "last_update": "2026-05-24T09:47:44.863858",
+  "last_update": "2026-05-25T11:43:22.277452",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
