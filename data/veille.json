@@ -1,6 +1,174 @@
 {
   "articles": [
     {
+      "title": "CartoMind",
+      "link": "https://www.uneiaparjour.fr/cartomind/",
+      "date": "2026-05-25T20:36:00",
+      "source": "Une IA par jour",
+      "summary": "CartoMind (https://cartomind.ai/) génère des infographies à partir d&#8217;une instruction, d&#8217;un texte collé ou d&#8217;un document importé (md, pdf, txt, doc). Script généré modifiable. Nombreu"
+    },
+    {
+      "title": "IA et hallucination : une activité transférable dès le CM2",
+      "link": "https://mathix.org/linux/archives/22385",
+      "date": "2026-05-26T19:20:15",
+      "source": "Mathix (A. Durand)",
+      "summary": "Quand j’ai conçu l’activité “IA et hallucination” (présent dans cet article), je l’avais pensée au départ pour des élèves de collège, avec une idée simple : faire vivre aux élèves une erreur de modéli"
+    },
+    {
+      "title": "Épreuves  Pratique 2026 ( ECE ) de la spécialité NSI.\nLes sujets, les corrigés, la possibilité de télécharger tout ou partie rapidement.\nPS : L'important c'est de CHERCHER, se tromper, recommencer,  pas de lire le corrigé ou de la faire faire à une I.A. https://ece.nsi.xyz/",
+      "link": "https://twitter.com/nsi_xyz/status/2061367654028300617#m",
+      "date": "2026-06-01T08:42:01",
+      "source": "@nsi_xyz",
+      "summary": "<p>Épreuves  Pratique 2026 ( ECE ) de la spécialité NSI.<br />\nLes sujets, les corrigés, la possibilité de télécharger tout ou partie rapidement.<br />\nPS : L'important c'est de CHERCHER, se tromper, "
+    },
+    {
+      "title": "R to @nsi_xyz: C'est le collègue de NSI @ralf4piano qui a compilé tout ça, avec l'aide de Gemini via Antigravity 2.0\nD'autres enseignants avaient d'ailleurs assemblés / publiés des corrigés sur leurs sites respectifs, bien avant notre compilation, merci à eux.",
+      "link": "https://twitter.com/nsi_xyz/status/2061409461424500760#m",
+      "date": "2026-06-01T11:28:09",
+      "source": "@nsi_xyz",
+      "summary": "<p>C'est le collègue de NSI <a href=\"https://nitter.net/ralf4piano\" title=\"Ralf4piano\">@ralf4piano</a> qui a compilé tout ça, avec l'aide de Gemini via Antigravity 2.0<br />\nD'autres enseignants avaie"
+    },
+    {
+      "title": "RT by @nsi_xyz: Le logiciel libre l’emporte : Polytechnique dit non à Microsoft et déclenche une vague de rébellion dans les universités\n➡️ https://l.lesnumeriques.com/y4L",
+      "link": "https://twitter.com/lesnums/status/2061052916950053373#m",
+      "date": "2026-05-31T11:51:22",
+      "source": "@nsi_xyz",
+      "summary": "<p>Le logiciel libre l’emporte : Polytechnique dit non à Microsoft et déclenche une vague de rébellion dans les universités<br />\n➡️ <a href=\"https://l.lesnumeriques.com/y4L\">l.lesnumeriques.com/y4L</"
+    },
+    {
+      "title": "J'ai testé hier et je ne trouve pas les mots tellement j'ai eu l'impression de changer de siècle. Résultats parfait ? Noooon, mais mon prompt était -volontairement- nul et ne respectait aucune règle.",
+      "link": "https://twitter.com/nsi_xyz/status/2059870345390157851#m",
+      "date": "2026-05-28T05:32:15",
+      "source": "@nsi_xyz",
+      "summary": "<p>J'ai testé hier et je ne trouve pas les mots tellement j'ai eu l'impression de changer de siècle. Résultats parfait ? Noooon, mais mon prompt était -volontairement- nul et ne respectait aucune règl"
+    },
+    {
+      "title": "RT by @nsi_xyz: Alors ça je confirme à 100%.\nMême si les LLM n'étaient pas capables de pondre du code, rien que sur la recherche d'info en ligne elles font déjà gagner beaucoup de temps. Plusieurs heures par semaine sur certains projets.",
+      "link": "https://twitter.com/oxythan/status/2059758991438184777#m",
+      "date": "2026-05-27T22:09:46",
+      "source": "@nsi_xyz",
+      "summary": "<p>Alors ça je confirme à 100%.<br />\nMême si les LLM n'étaient pas capables de pondre du code, rien que sur la recherche d'info en ligne elles font déjà gagner beaucoup de temps. Plusieurs heures par"
+    },
+    {
+      "title": "RT by @nsi_xyz: Rions un peu avec Luc Julia. \nAujourd'hui, je me suis livré à un de mes petits plaisirs coupables : j'ai pris un livre de Luc Julia et je l'ai ouvert au hasard. J'ai pas été déçu. \nSuivez moi, c'est parti pour un voyage (inédit) au bout de l'absurde. 🧵",
+      "link": "https://twitter.com/IA_Clash/status/2059660464091533483#m",
+      "date": "2026-05-27T15:38:15",
+      "source": "@nsi_xyz",
+      "summary": "<p>Rions un peu avec Luc Julia. <br />\nAujourd'hui, je me suis livré à un de mes petits plaisirs coupables : j'ai pris un livre de Luc Julia et je l'ai ouvert au hasard. J'ai pas été déçu. <br />\nSuiv"
+    },
+    {
+      "title": "RT by @nsi_xyz: À partir des années 1995-2000, sont apparus les évaluations internationales PISA/TIMSS qui racontent exactement le contraire du livre: le niveau s'effondre. \n\n1989: justifier la loi Jospin et les délires pseudo-scientifiques des sciences de l'éducation.",
+      "link": "https://twitter.com/CyniqueDeGauche/status/2058507759214055585#m",
+      "date": "2026-05-24T11:17:49",
+      "source": "@nsi_xyz",
+      "summary": "<p>À partir des années 1995-2000, sont apparus les évaluations internationales PISA/TIMSS qui racontent exactement le contraire du livre: le niveau s'effondre. <br />\n<br />\n1989: justifier la loi Jos"
+    },
+    {
+      "title": "2nde GT ou 2nde Pro ? @juliendelmas propose un outil gratuit pr aider les élèves de 3e à préparer leur orientation:résultats,motivation,centres d’intérêt,durée d’études, stages et lycées à proximité. Un vrai appui pour les familles et équipes éducatives 👍\nhttps://apresla3e.fr",
+      "link": "https://twitter.com/sophiaefrance/status/2061308014980743296#m",
+      "date": "2026-06-01T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>2nde GT ou 2nde Pro ? <a href=\"https://nitter.net/juliendelmas\" title=\"Julien Delmas\">@juliendelmas</a> propose un outil gratuit pr aider les élèves de 3e à préparer leur orientation:résultats,moti"
+    },
+    {
+      "title": "L’un de nos formateurs a créé un outil gratuit pour aider les enseignants à mieux comprendre leur sentiment d’efficacité personnelle en gestion de classe. \nAuto-évaluation, profil #SEP, pistes de développement et bilan PDF en 15 min.\nhttps://sep-gc-godin.base44.app/\n✍️ Anthony Godin",
+      "link": "https://twitter.com/sophiaefrance/status/2059604290490994886#m",
+      "date": "2026-05-27T11:55:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>L’un de nos formateurs a créé un outil gratuit pour aider les enseignants à mieux comprendre leur sentiment d’efficacité personnelle en gestion de classe. <br />\nAuto-évaluation, profil <a href=\"ht"
+    },
+    {
+      "title": "🤖 Décrypter le numérique et l’IA… sans écran 🃏\nAvec Play & Learn, Sonia Agrebi et Yann Secq proposent des #jeux de cartes en téléchargement libre pour aborder les grands enjeux du #numérique et faire émerger l’esprit critique chez les élèves.\nhttps://playandlearn.info/",
+      "link": "https://twitter.com/sophiaefrance/status/2057067575993921980#m",
+      "date": "2026-05-20T11:55:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 Décrypter le numérique et l’IA… sans écran 🃏<br />\nAvec Play &amp; Learn, Sonia Agrebi et Yann Secq proposent des <a href=\"https://nitter.net/search?f=tweets&amp;q=%23jeux\">#jeux</a> de cartes en"
+    },
+    {
+      "title": "R to @MistralAI: mistral.ai/news/ai-now-summi…",
+      "link": "https://twitter.com/MistralAI/status/2059951141195075833#m",
+      "date": "2026-05-28T10:53:18",
+      "source": "@MistralAI",
+      "summary": "<p><a href=\"https://mistral.ai/news/ai-now-summit-2026/\">mistral.ai/news/ai-now-summi…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2059932979166597126%2F5AinKwd9%3Fformat%3Djpg%26name%3D800x41"
+    },
+    {
+      "title": "R to @OpenAI: We’re taking suggestions on what you want to see next week ✍️",
+      "link": "https://twitter.com/OpenAI/status/2057617863977165173#m",
+      "date": "2026-05-22T00:21:42",
+      "source": "@OpenAI",
+      "summary": "<p>We’re taking suggestions on what you want to see next week ✍️</p>"
+    },
+    {
+      "title": "R to @OpenAI: 4️⃣ Advanced annotation mode lets you directly adjust the way web pages look while leaving feedback, making it even easier to work together with Codex.",
+      "link": "https://twitter.com/OpenAI/status/2057617862479708650#m",
+      "date": "2026-05-22T00:21:41",
+      "source": "@OpenAI",
+      "summary": "<p>4️⃣ Advanced annotation mode lets you directly adjust the way web pages look while leaving feedback, making it even easier to work together with Codex.</p>\n<a href=\"https://nitter.net/OpenAI/status"
+    },
+    {
+      "title": "R to @OpenAI: 3️⃣ Goal mode is now available in the Codex app, IDE extension, and CLI.\n\nGoal mode makes Codex more hands-off, letting you set a goal that it can work towards for hours or even days.",
+      "link": "https://twitter.com/OpenAI/status/2057617860986593680#m",
+      "date": "2026-05-22T00:21:41",
+      "source": "@OpenAI",
+      "summary": "<p>3️⃣ Goal mode is now available in the Codex app, IDE extension, and CLI.<br />\n<br />\nGoal mode makes Codex more hands-off, letting you set a goal that it can work towards for hours or even days.</"
+    },
+    {
+      "title": "R to @OpenAI: 2️⃣ Appshots bring context from your screen straight into the Codex app.",
+      "link": "https://twitter.com/OpenAI/status/2057617846449197480#m",
+      "date": "2026-05-22T00:21:37",
+      "source": "@OpenAI",
+      "summary": "<p>2️⃣ Appshots bring context from your screen straight into the Codex app.</p>\n<a href=\"https://nitter.net/OpenAI/status/2057617846449197480#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/a"
+    },
+    {
+      "title": "Highlights from today’s Codex Thursday launches:\n\n1️⃣ Codex can now securely use apps on your Mac from your phone, even when your Mac is locked and the screen is off.\n\nhttp://developers.openai.com/codex/app/computer-use#locked-use",
+      "link": "https://twitter.com/OpenAI/status/2057617844800794878#m",
+      "date": "2026-05-22T00:21:37",
+      "source": "@OpenAI",
+      "summary": "<p>Highlights from today’s Codex Thursday launches:<br />\n<br />\n1️⃣ Codex can now securely use apps on your Mac from your phone, even when your Mac is locked and the screen is off.<br />\n<br />\n<a hr"
+    },
+    {
+      "title": "R to @Fabien_Mikol: L'agnosticisme sur cette question est aussi une position défendue par certains philosophes, comme par exemple Tom McClelland (Université de Cambridge) ⤵️\nhttps://x.com/Fabien_Mikol/status/2060035055703978496",
+      "link": "https://twitter.com/Fabien_Mikol/status/2061415676888137919#m",
+      "date": "2026-06-01T11:52:51",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>L'agnosticisme sur cette question est aussi une position défendue par certains philosophes, comme par exemple Tom McClelland (Université de Cambridge) ⤵️<br />\n<a href=\"https://nitter.net/Fabien_Mi"
+    },
+    {
+      "title": "Richard Dawkins revient sur son article qui lui avait attiré beaucoup de critiques : \"J'ai été bluffé par cette impression de conscience de Claude, mais après réflexion sur ces critiques, je suis désormais agnostique\" ; cela reste cependant \"mind blowing\", \"c'est HAL\" de 2001 !",
+      "link": "https://twitter.com/Fabien_Mikol/status/2061415674405110102#m",
+      "date": "2026-06-01T11:52:50",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Richard Dawkins revient sur son article qui lui avait attiré beaucoup de critiques : \"J'ai été bluffé par cette impression de conscience de Claude, mais après réflexion sur ces critiques, je suis d"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Références\n\nL'entretien vidéo du 27 mai dernier :\nhttps://www.youtube.com/watch?v=88erHY765Mo\nSon livre de 2024 :\nhttps://www.amazon.fr/ChatGPT-Future-AI-Language-Revolution-ebook/dp/B0CTJKYH1J",
+      "link": "https://twitter.com/Fabien_Mikol/status/2061379808404136344#m",
+      "date": "2026-06-01T09:30:19",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Références<br />\n<br />\nL'entretien vidéo du 27 mai dernier :<br />\n<a href=\"https://piped.video/watch?v=88erHY765Mo\">piped.video/watch?v=88erHY76…</a><br />\nSon livre de 2024 :<br />\n<a href=\"http"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Sur Terry Sejnowski, Claude me dit : \"c'est l'une des figures les plus établies de la neuroscience computationnelle et de l'histoire des réseaux de neurones. Il occupe la chaire Francis Crick au Salk Institute et a coinventé la machine de Boltzmann avec Geoffrey Hinton en 1985\".",
+      "link": "https://twitter.com/Fabien_Mikol/status/2061379805937914361#m",
+      "date": "2026-06-01T09:30:18",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Sur Terry Sejnowski, Claude me dit : \"c'est l'une des figures les plus établies de la neuroscience computationnelle et de l'histoire des réseaux de neurones. Il occupe la chaire Francis Crick au Sa"
+    },
+    {
+      "title": "IA à l’école : élèves et enseignants l’utilisent, se le reprochent… \nSans cadre décliné à l'échelle locale, pas de confiance.\nTribune de Solenne Savoia dans EdTechActu 👇\nhttps://edtechactu.com/digital-learning/tribune-ia-et-education-que-se-passe-t-il-quand-un-etablissement-navigue-a-vue-par-solenne-savoia/\n#IA #Éducation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2057535654993543310#m",
+      "date": "2026-05-21T18:55:01",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>IA à l’école : élèves et enseignants l’utilisent, se le reprochent… <br />\nSans cadre décliné à l'échelle locale, pas de confiance.<br />\nTribune de Solenne Savoia dans EdTechActu 👇<br />\n<a href=\""
+    },
+    {
+      "title": "Les élèves ne sont pas dupes de l’IA.\n💬 « On pense un peu moins. »\n💬 « Pendant les questions, on va être perdus. »\nLe vrai sujet n’est pas seulement la triche, mais le sens de l’école quand réussir l’épreuve remplace parfois l’apprentissage.\n🔗 https://www.cahiers-pedagogiques.com/autopsie-dune-preparation-au-grand-oral-avec-lia/",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2054593129815159055#m",
+      "date": "2026-05-13T16:02:29",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Les élèves ne sont pas dupes de l’IA.<br />\n💬 « On pense un peu moins. »<br />\n💬 « Pendant les questions, on va être perdus. »<br />\nLe vrai sujet n’est pas seulement la triche, mais le sens de l’é"
+    },
+    {
       "title": "Dim0",
       "link": "https://www.uneiaparjour.fr/dim0/",
       "date": "2026-05-23T20:50:00",
@@ -531,177 +699,9 @@
       "date": "2026-04-24T03:24:14",
       "source": "@deepseek_ai",
       "summary": "<p>Dedicated Optimizations for Agent Capabilities<br />\n<br />\n🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode.<br />\n🔹 Already driving our in-house"
-    },
-    {
-      "title": "R to @deepseek_ai: Structural Innovation & Ultra-High Context Efficiency\n\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).\n🔹 Peak Efficiency: World-leading long context with drastically reduced compute & memory costs.\n🔹 1M Standard: 1M context is now the default across all official DeepSeek services.\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516936289017964#m",
-      "date": "2026-04-24T03:24:13",
-      "source": "@deepseek_ai",
-      "summary": "<p>Structural Innovation & Ultra-High Context Efficiency<br />\n<br />\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).<br />\n🔹 Peak Efficiency: World-leading long context w"
-    },
-    {
-      "title": "R to @deepseek_ai: DeepSeek-V4-Flash\n\n🔹 Reasoning capabilities closely approach V4-Pro.\n🔹 Performs on par with V4-Pro on simple Agent tasks.\n🔹 Smaller parameter size, faster response times, and highly cost-effective API pricing.\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516932140884024#m",
-      "date": "2026-04-24T03:24:12",
-      "source": "@deepseek_ai",
-      "summary": "<p>DeepSeek-V4-Flash<br />\n<br />\n🔹 Reasoning capabilities closely approach V4-Pro.<br />\n🔹 Performs on par with V4-Pro on simple Agent tasks.<br />\n🔹 Smaller parameter size, faster response times, an"
-    },
-    {
-      "title": "R to @deepseek_ai: DeepSeek-V4-Pro\n\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pro.\n🔹 World-Class Reasoning: Beats all current open models in Math/STEM/Coding, rivaling top closed-source models.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516926432399791#m",
-      "date": "2026-04-24T03:24:10",
-      "source": "@deepseek_ai",
-      "summary": "<p>DeepSeek-V4-Pro<br />\n<br />\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.<br />\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pr"
-    },
-    {
-      "title": "🚀 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-effective 1M context length.\n\n🔹 DeepSeek-V4-Pro: 1.6T total / 49B active params. Performance rivaling the world's top closed-source models.\n🔹 DeepSeek-V4-Flash: 284B total / 13B active params. Your fast, efficient, and economical choice.\n\nTry it now at http://chat.deepseek.com via Expert Mode / Instant Mode. API is updated & available today!\n\n📄 Tech Report: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf\n🤗 Open Weights: https://huggingface.co/collections/deepseek-ai/deepseek-v4\n\n1/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516922263285776#m",
-      "date": "2026-04-24T03:24:09",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-effective 1M context length.<br />\n<br />\n🔹 DeepSeek-V4-Pro: 1.6T total / 49B active params. Performance rivaling"
-    },
-    {
-      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n📦 DeepSeek-V3.2 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2\n📦 DeepSeek-V3.2-Speciale Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale\n📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf\n\n5/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452658149405148#m",
-      "date": "2025-12-01T11:19:22",
-      "source": "@deepseek_ai",
-      "summary": "<p>🛠 Open Source Release<br />\n<br />\n📦 DeepSeek-V3.2 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2\">huggingface.co/deepseek-ai/D…</a><br />\n📦 DeepSeek-V3.2-Speciale Model: <a href="
-    },
-    {
-      "title": "⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-interleaved input, MLA RoPE expects interleaved. Fixed in https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/tree/main/inference.",
-      "link": "https://twitter.com/deepseek_ai/status/1990616182161068094#m",
-      "date": "2025-11-18T03:00:56",
-      "source": "@deepseek_ai",
-      "summary": "<p>⚠️ Heads-up to anyone using the DeepSeek-V3.2-Exp inference demo: earlier versions had a RoPE implementation mismatch in the indexer module that could degrade performance. Indexer RoPE expects non-"
-    },
-    {
-      "title": "R to @deepseek_ai: 🛠 Open Source Release\n\n🔗 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\n🔗 Tech report: https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/DeepSeek_V3_2.pdf\n🔗 Key GPU kernels in TileLang & CUDA (use TileLang for rapid research prototyping!)\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/1972604780469239843#m",
-      "date": "2025-09-29T10:10:03",
-      "source": "@deepseek_ai",
-      "summary": "<p>🛠 Open Source Release<br />\n<br />\n🔗 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp\">huggingface.co/deepseek-ai/D…</a><br />\n🔗 Tech report: <a href=\"https://github.com/deepsee"
-    },
-    {
-      "title": "R&D Part 1: Here to Win",
-      "link": "https://twitter.com/OpenAI/status/2060032839991914619#m",
-      "date": "2026-05-28T16:17:57",
-      "source": "@OpenAI",
-      "summary": "<p>R&amp;D Part 1: Here to Win</p>\n<a href=\"https://nitter.net/OpenAI/status/2060032839991914619#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/media%2FHJa0rfjaIAA_R8s.jpg\" />\n</a>"
-    },
-    {
-      "title": "Correction : Shaolei Ren, référence d'Envoyé Spécial sur l'eau consommée par l'IA, estime à ~15mL la conso par requête pour ChatGPT-4, et ce serait MOINS pour les modèles plus récent.\nPas de gros désaccord donc avec les estimations courantes de ~5mL par requête.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2060301095805587683#m",
-      "date": "2026-05-29T10:03:54",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Correction : Shaolei Ren, référence d'Envoyé Spécial sur l'eau consommée par l'IA, estime à ~15mL la conso par requête pour ChatGPT-4, et ce serait MOINS pour les modèles plus récent.<br />\nPas de "
-    },
-    {
-      "title": "Alors que le débat fait rage entre ceux qui pensent qu'une IA pourra être fonctionnellement consciente et ceux qui pensent que c'est impossible sans substrat biologique, @TomMcClelland1 défend l'agnosticisme : on ne pourra trancher sans avoir expliqué ce qui cause la conscience.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2060035055703978496#m",
-      "date": "2026-05-28T16:26:45",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Alors que le débat fait rage entre ceux qui pensent qu'une IA pourra être fonctionnellement consciente et ceux qui pensent que c'est impossible sans substrat biologique, <a href=\"https://nitter.net"
-    },
-    {
-      "title": "Le patron d'un grand cabinet d'avocat à Luc Ferry : \"Que voulez-vous que je fasse quand Claude met 15mn à faire le travail qui prendra 8h à un jeune assistant juridique, même talentueux ?\"\nLa chronique critique la référence à Aghion, sur ce point cf. tweet cité ci-dessous ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2059988693302030340#m",
-      "date": "2026-05-28T13:22:31",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Le patron d'un grand cabinet d'avocat à Luc Ferry : \"Que voulez-vous que je fasse quand Claude met 15mn à faire le travail qui prendra 8h à un jeune assistant juridique, même talentueux ?\"<br />\nLa"
-    },
-    {
-      "title": "Tanguy Pastureau aujourd'hui sur France Inter : \"demain le fait de collaborer avec des êtres humains plutôt que de faire tourner une IA va devenir un acte politique\".\nChronique intéressante en ce qu'elle exprime bien la politisation croissante de cette question.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2059975896035971411#m",
-      "date": "2026-05-28T12:31:40",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Tanguy Pastureau aujourd'hui sur France Inter : \"demain le fait de collaborer avec des êtres humains plutôt que de faire tourner une IA va devenir un acte politique\".<br />\nChronique intéressante e"
-    },
-    {
-      "title": "Bachelard évoquait la « bradypsychie » : cette pensée ralentie quand le temps manque pour réfléchir.\nÀ l’heure de l’IA et de l’accélération permanente, réhabilitons la lenteur : lire, regarder, flâner, observer.\nPenser exige parfois de décélérer. 🧠\n#IA #Bachelard #Attention",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2060072368203047165#m",
-      "date": "2026-05-28T18:55:01",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Bachelard évoquait la « bradypsychie » : cette pensée ralentie quand le temps manque pour réfléchir.<br />\nÀ l’heure de l’IA et de l’accélération permanente, réhabilitons la lenteur : lire, regarde"
-    },
-    {
-      "title": "Albert-Cli : première version",
-      "link": "https://mathix.org/linux/archives/22304",
-      "date": "2026-05-06T20:54:44",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Bon, d&#8217;abord j&#8217;ai tenté de vibe-coder complètement le programme, je voulais un gemini-lci mais pour albert, j&#8217;ai donc défini mon plan pour lui dire comment "
-    },
-    {
-      "title": "On apprend dans le faire et non dans le lire",
-      "link": "https://mathix.org/linux/archives/22298",
-      "date": "2026-05-06T16:20:14",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bon, et bien j&#8217;ai découvert une petite vidéo qui va servir d&#8217;appui auprès de mes élèves à qui je rabâche de s&#8217;exercer&#8230; Fabien Olicard présente des résultats d&#8217;étude sur l"
-    },
-    {
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
-      "link": "https://openai.com/index/cisco",
-      "date": "2026-05-27T11:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation."
-    },
-    {
-      "title": "Building self-improving tax agents with Codex",
-      "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-      "date": "2026-05-27T07:00:00",
-      "source": "OpenAI Blog",
-      "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows."
-    },
-    {
-      "title": "Election information and safeguards in 2026",
-      "link": "https://openai.com/index/election-safeguards-2026",
-      "date": "2026-05-27T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency"
-    },
-    {
-      "title": "Warp’s big bet on building open source with GPT-5.5",
-      "link": "https://openai.com/index/warp",
-      "date": "2026-05-27T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows."
-    },
-    {
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-      "date": "2026-05-20T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics."
-    },
-    {
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "link": "https://openai.com/index/ramp",
-      "date": "2026-05-20T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours."
-    },
-    {
-      "title": "We’re announcing new community investments in Missouri.",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
-      "date": "2026-05-20T20:40:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MissouriSocial.max-600x600.format-webp.webp\" />We’re helping build the state’s next-generation workforce and investing in ener"
-    },
-    {
-      "title": "100 things we announced at I/O 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
-      "date": "2026-05-20T19:30:00",
-      "source": "Google AI",
-      "summary": "Image with the words \"Ready, Set, I/O\" and a colorful Gemini logo"
-    },
-    {
-      "title": "R to @nsi_xyz: Le rendu au deuxième prompt m'aurait nécessité 100h de travail. Utilisable ? Toujours pas, mais le problème c'est ma spécification imprécise. Ceci dit c'était déjà remarquable.\nJ'ai juste galéré pour installer l'ensemble, mais Gemini m'a fait un tuto pas à pas.",
-      "link": "https://twitter.com/nsi_xyz/status/2059871165699539185#m",
-      "date": "2026-05-28T05:35:31",
-      "source": "@nsi_xyz",
-      "summary": "<p>Le rendu au deuxième prompt m'aurait nécessité 100h de travail. Utilisable ? Toujours pas, mais le problème c'est ma spécification imprécise. Ceci dit c'était déjà remarquable.<br />\nJ'ai juste gal"
     }
   ],
-  "last_update": "2026-05-31T10:07:04.315761",
+  "last_update": "2026-06-01T13:27:31.161723",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
