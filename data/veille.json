@@ -1,6 +1,146 @@
 {
   "articles": [
     {
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "link": "https://openai.com/index/travelers",
+      "date": "2026-06-02T12:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand."
+    },
+    {
+      "title": "Codex for every role, tool, and workflow",
+      "link": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "date": "2026-06-02T09:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI."
+    },
+    {
+      "title": "RT by @nsi_xyz: 😱 Des étudiants ont tellement utilisé ChatGPT qu’ils ont oublié comment programmer 🤖\n\nPour la première fois, un cours d’introduction à l’informatique de University of California, Berkeley a enregistré un taux d’échec d’environ 35 %, contre moins de 10 % habituellement.\n\nSelon plusieurs enseignants, certains étudiants ont été pris en train d’utiliser des outils comme , ou pour tricher, tandis que d’autres se seraient reposés presque entièrement sur les IA pour apprendre.\n\nRésultat : lorsqu’ils se sont retrouvés face à un examen sans assistance, beaucoup ont découvert qu’ils maîtrisaient mal les bases de la programmation et des mathématiques.",
+      "link": "https://twitter.com/_3emeOeil/status/2063685679628853613#m",
+      "date": "2026-06-07T18:13:02",
+      "source": "@nsi_xyz",
+      "summary": "<p>😱 Des étudiants ont tellement utilisé ChatGPT qu’ils ont oublié comment programmer 🤖<br />\n<br />\nPour la première fois, un cours d’introduction à l’informatique de University of California, Berkel"
+    },
+    {
+      "title": "🌍 Combien pèse vraiment une requête #IA, une douche ou un mail avec PJ ?\nVoici un jeu en ligne pour classer les actions du quotidien selon leur empreinte carbone, seul ou jusqu’à 4 joueurs. Idéal pour travailler les ordres de grandeur en classe. \nhttps://combien.remyvdm.com/",
+      "link": "https://twitter.com/sophiaefrance/status/2063844730799034411#m",
+      "date": "2026-06-08T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🌍 Combien pèse vraiment une requête <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a>, une douche ou un mail avec PJ ?<br />\nVoici un jeu en ligne pour classer les actions du quotidi"
+    },
+    {
+      "title": "We are making our discount permanent! 🎉\n\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀",
+      "link": "https://twitter.com/deepseek_ai/status/2057854261699195173#m",
+      "date": "2026-05-22T16:01:03",
+      "source": "@deepseek_ai",
+      "summary": "<p>We are making our discount permanent! 🎉<br />\n<br />\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀</p>\n<img src=\"https://nitter.net/pic/media%2FHI7xPnWbgAAW4UO.jpg\""
+    },
+    {
+      "title": "Pinned: 🔥DeepSeek Input Cache Price Drop!\n\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less.\n\n📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
+      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
+      "date": "2026-04-26T16:35:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
+    },
+    {
+      "title": "🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.\n\n🛠️Integration Updates:\n🔹Claude Code: Set model to deepseek-v4-pro[1m]  to unlock 1M context!\n🔹OpenCode: Update to v1.14.24+\n🔹OpenClaw: Update to v2026.4.24+\n\nCheck the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
+      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
+      "date": "2026-04-25T15:33:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
+    },
+    {
+      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.\n🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI.\n\n7/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
+      "date": "2026-04-24T03:24:16",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
+    },
+    {
+      "title": "R to @deepseek_ai: API is Available Today!\n\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.\n🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://api-docs.deepseek.com/guides/thinking_mode\n\n⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking).\n\n6/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516945466188072#m",
+      "date": "2026-04-24T03:24:15",
+      "source": "@deepseek_ai",
+      "summary": "<p>API is Available Today!<br />\n<br />\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.<br />\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.<br />\n🔹 Both models suppor"
+    },
+    {
+      "title": "R to @deepseek_ai: Dedicated Optimizations for Agent Capabilities\n\n🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode.\n🔹 Already driving our in-house agentic coding at DeepSeek.\n\nThe figure below showcases a sample PDF generated by DeepSeek-V4-Pro.\n\n5/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516941074796676#m",
+      "date": "2026-04-24T03:24:14",
+      "source": "@deepseek_ai",
+      "summary": "<p>Dedicated Optimizations for Agent Capabilities<br />\n<br />\n🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode.<br />\n🔹 Already driving our in-house"
+    },
+    {
+      "title": "RT by @OpenAI: Look closely. There’s more in the Showcase.",
+      "link": "https://twitter.com/OpenAIDevs/status/2062339834526781768#m",
+      "date": "2026-06-04T01:05:07",
+      "source": "@OpenAI",
+      "summary": "<p>Look closely. There’s more in the Showcase.</p>\n<img src=\"https://nitter.net/pic/media%2FHJ7nJnCacAAWEVB.jpg\" />"
+    },
+    {
+      "title": "We’re bringing new capabilities to GPT-Rosalind, a model series purpose-built for life sciences research at enterprise scale.\n\nIt brings GPT-5.5’s agentic coding and tool use together with stronger intelligence for drug discovery, analysis, design, and experimental workflows.\n\nhttps://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "link": "https://twitter.com/OpenAI/status/2062281977122996256#m",
+      "date": "2026-06-03T21:15:13",
+      "source": "@OpenAI",
+      "summary": "<p>We’re bringing new capabilities to GPT-Rosalind, a model series purpose-built for life sciences research at enterprise scale.<br />\n<br />\nIt brings GPT-5.5’s agentic coding and tool use together w"
+    },
+    {
+      "title": "Pinned: It's time to fly.",
+      "link": "https://twitter.com/OpenAI/status/2062249312839434452#m",
+      "date": "2026-06-03T19:05:25",
+      "source": "@OpenAI",
+      "summary": "<p>It's time to fly.</p>\n<a href=\"https://nitter.net/OpenAI/status/2062249312839434452#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/media%2FHJ_YoaaaQAADptv.jpg\" />\n</a>"
+    },
+    {
+      "title": "L'écart salarial H/F de 22% prouve-t-il une discrimination?\n@HeyerEric: quand on contrôle à tps de travail identique on réduit à 14% et quand on contrôle à emploi comparable on réduit à 4%, qui ne s'expliquent pas forcément par de la discrimination... \"le problème est en amont !\"",
+      "link": "https://twitter.com/Fabien_Mikol/status/2063949148861153326#m",
+      "date": "2026-06-08T11:39:58",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>L'écart salarial H/F de 22% prouve-t-il une discrimination?<br />\n<a href=\"https://nitter.net/HeyerEric\" title=\"Eric Heyer\">@HeyerEric</a>: quand on contrôle à tps de travail identique on réduit à "
+    },
+    {
+      "title": "Albert Moukheiber (docteur en neurosciences cognitives) : le cerveau est \"un organe prédictif et approximatif\", complétant en permanence les trous informationnels de notre environnement incertain à partir de nos biais et a priori.\nComme l'IA, nous faisons de l'auto-complétion 🧠",
+      "link": "https://twitter.com/Fabien_Mikol/status/2063922579417469396#m",
+      "date": "2026-06-08T09:54:23",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Albert Moukheiber (docteur en neurosciences cognitives) : le cerveau est \"un organe prédictif et approximatif\", complétant en permanence les trous informationnels de notre environnement incertain à"
+    },
+    {
+      "title": "Scandale médiatique en Chine à cause d'un chien tué et mangé.\nPendant ce temps, des millions de porcs tout aussi intelligents sont entassés (1m carré par bête) et tués dans d'énormes immeubles sans jamais voir la lumière du jour, dans l'indifférence générale.\nEtrange humanité.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2063722864218345778#m",
+      "date": "2026-06-07T20:40:47",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Scandale médiatique en Chine à cause d'un chien tué et mangé.<br />\nPendant ce temps, des millions de porcs tout aussi intelligents sont entassés (1m carré par bête) et tués dans d'énormes immeuble"
+    },
+    {
+      "title": "\"En pratique, les LLM sont bien meilleurs en philosophie morale que la plupart des gens\" ; \"comparez la manière raisonnable dont Claude parle de la consommation de viande à la manière déraisonnable dont la plupart des gens en parlent\"\nC'est tellement évident à l'usage en effet 😅",
+      "link": "https://twitter.com/Fabien_Mikol/status/2063674432237789625#m",
+      "date": "2026-06-07T17:28:20",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"En pratique, les LLM sont bien meilleurs en philosophie morale que la plupart des gens\" ; \"comparez la manière raisonnable dont Claude parle de la consommation de viande à la manière déraisonnable"
+    },
+    {
+      "title": "Partout en France, des enseignants se forment et expérimentent l’IA générative : évaluation, esprit critique, différenciation… Une créativité pédagogique précieuse pour continuer à instruire dans un nouveau contexte technologique.\n🔗 https://www.lemonde.fr/societe/article/2026/06/02/ces-enseignants-qui-experimentent-l-intelligence-artificielle-en-classe-je-me-sens-comme-un-prof-augmente_6696335_3224.html\n#Éducation #IA",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2062191364503150806#m",
+      "date": "2026-06-03T15:15:09",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Partout en France, des enseignants se forment et expérimentent l’IA générative : évaluation, esprit critique, différenciation… Une créativité pédagogique précieuse pour continuer à instruire dans u"
+    },
+    {
+      "title": "Ma shopping list pédagogique pour l’été se précise 🤓\nAvec une attention particulière pour les dernières publications chez ESF : sciences cognitives, formation, IA… l’été s’annonce studieux ! \n#Éducation #Pédagogie #IA",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2058947209324908693#m",
+      "date": "2026-05-25T16:24:02",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Ma shopping list pédagogique pour l’été se précise 🤓<br />\nAvec une attention particulière pour les dernières publications chez ESF : sciences cognitives, formation, IA… l’été s’annonce studieux ! "
+    },
+    {
+      "title": "L’#EVARS est nécessaire. Mais beaucoup d’enseignants se demandent encore comment l’aborder concrètement en classe, avec des supports fiables et adaptés ?\nHonoré d’avoir contribué à cette ressource collective 📘\nhttps://magnard.pole-edu.net/campaign/html/69eb705a2c485cd6cfe614ff/6525e9d00f2869ab45b25548",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2057129996464873666#m",
+      "date": "2026-05-20T16:03:05",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>L’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23EVARS\">#EVARS</a> est nécessaire. Mais beaucoup d’enseignants se demandent encore comment l’aborder concrètement en classe, avec des supports "
+    },
+    {
       "title": "Arena",
       "link": "https://www.uneiaparjour.fr/arena/",
       "date": "2026-06-06T21:18:00",
@@ -559,149 +699,9 @@
       "date": "2026-06-05T08:41:07",
       "source": "@Fabien_Mikol",
       "summary": "<p>Nouveau vaccin développé grâce à l'IA.<br />\nRéaction typique Bluesky :<br />\n- \"je ne vais pas m'injecter dans le corps un produit élaboré par quelque chose qui est incapable de compter les R dans"
-    },
-    {
-      "title": "🎙️ Après NotebookLM, Spotify veut devenir l’espace d’écoute des podcasts personnels générés par IA.\nUne nouvelle étape : transformer documents, notes ou agendas en audio pour interagir autrement avec l’information. \nhttps://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/?utm_source=join1440&utm_medium=email&utm_placement=newsletter&user_id=66c4bb1f5d78644b3a925ccb  \n#IA #Podcast #Éducation #Spotify",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2062553747486613814#m",
-      "date": "2026-06-04T15:15:08",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🎙️ Après NotebookLM, Spotify veut devenir l’espace d’écoute des podcasts personnels générés par IA.<br />\nUne nouvelle étape : transformer documents, notes ou agendas en audio pour interagir autrem"
-    },
-    {
-      "title": "Bilan de la CCN « Récits et algorithmes » que j'ai eu l'honneur d'animer pour les collègues de la MLF ✨\n16 missions, 50+ productions, des récits, images, sons, vidéos… et surtout des créations d’élèves extraordinaires avec les IA génératives.\n👉 https://ccn.mlfmonde.org/ccn/petits-scientifiques-son-et-musee-2-2-2/",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2059300906584178727#m",
-      "date": "2026-05-26T15:49:30",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Bilan de la CCN « Récits et algorithmes » que j'ai eu l'honneur d'animer pour les collègues de la MLF ✨<br />\n16 missions, 50+ productions, des récits, images, sons, vidéos… et surtout des création"
-    },
-    {
-      "title": "IA à l’école : élèves et enseignants l’utilisent, se le reprochent… \nSans cadre décliné à l'échelle locale, pas de confiance.\nTribune de Solenne Savoia dans EdTechActu 👇\nhttps://edtechactu.com/digital-learning/tribune-ia-et-education-que-se-passe-t-il-quand-un-etablissement-navigue-a-vue-par-solenne-savoia/\n#IA #Éducation",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2057535654993543310#m",
-      "date": "2026-05-21T18:55:01",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>IA à l’école : élèves et enseignants l’utilisent, se le reprochent… <br />\nSans cadre décliné à l'échelle locale, pas de confiance.<br />\nTribune de Solenne Savoia dans EdTechActu 👇<br />\n<a href=\""
-    },
-    {
-      "title": "Reconquérir le Hors-Classe, un enjeu pour les apprentissages, une IA accompagnatrice pour les parents et enfant au service de l’enseignant",
-      "link": "https://mathix.org/linux/archives/22441",
-      "date": "2026-06-03T07:47:21",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et à tous. A l&#8217;heure de l&#8217;IA, la notion d&#8217;aide à la maison revient en force avec son lot de travers et des bénéfices. D&#8217;abord qu&#8217;attend-on de ces devoirs"
-    },
-    {
-      "title": "Les stéréotypes de genre, une histoire de conformisme : un vrai travail d’éducation",
-      "link": "https://mathix.org/linux/archives/22394",
-      "date": "2026-05-29T18:31:29",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Je me suis rappelé il y a quelque temps une célèbre expérience sur le conformisme social, ou comment le groupe peut influencer le comportement d&#8217;un individu en toute c"
-    },
-    {
-      "title": "Les cours interactifs version 2 ! Markdown et IA",
-      "link": "https://mathix.org/linux/archives/22355",
-      "date": "2026-05-22T17:00:14",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Et bien voici un projet qui mûrit depuis quelques temps, alors ma version à laquelle je voulais arriver est là, mais je voulais aussi l&#8217;implémenter avec nuage pour que"
-    },
-    {
-      "title": "Un petit lecteur MD portable",
-      "link": "https://mathix.org/linux/archives/22339",
-      "date": "2026-05-17T13:36:49",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Là je suis en pleine réécriture de mes cours, et je comptais passer au MarkDown, vous savez le format de fichier qui commence à percer, car l&#8217;IA, elle, elle produit bie"
-    },
-    {
-      "title": "Un peu de flashix et un peu de mapix",
-      "link": "https://mathix.org/linux/archives/22316",
-      "date": "2026-05-13T12:34:24",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Bon alors deux informations : Mapix ! https://mathix.org/mapix ou https://mapix.forge.apps.education.fr La syntaxe est la même que pour mymarkmap , on peuit exporter en SVG c"
-    },
-    {
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "link": "https://openai.com/index/endava-frontiers",
-      "date": "2026-06-04T12:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise."
-    },
-    {
-      "title": "Introducing new capabilities to GPT-Rosalind",
-      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "date": "2026-06-03T13:15:00",
-      "source": "OpenAI Blog",
-      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities."
-    },
-    {
-      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
-      "link": "https://openai.com/index/wasmer",
-      "date": "2026-06-03T12:00:00",
-      "source": "OpenAI Blog",
-      "summary": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months."
-    },
-    {
-      "title": "OpenAI public policy agenda",
-      "link": "https://openai.com/index/public-policy-agenda",
-      "date": "2026-06-03T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society."
-    },
-    {
-      "title": "A blueprint for democratic governance of frontier AI",
-      "link": "https://openai.com/index/frontier-safety-blueprint",
-      "date": "2026-06-03T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security."
-    },
-    {
-      "title": "5 ways Google Search can level up your thrift and vintage shopping",
-      "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
-      "date": "2026-06-03T13:00:00",
-      "source": "Google AI",
-      "summary": "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglas"
-    },
-    {
-      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
-      "date": "2026-05-29T19:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\" />We used Google AI Studio to vibe code a quiz about our top I/O 2026 announce"
-    },
-    {
-      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
-      "date": "2026-05-29T17:30:00",
-      "source": "Google AI",
-      "summary": "Gemini Omni & Gemini 3.5 hero"
-    },
-    {
-      "title": "Check out real-life AI prototypes from the Futures Lab.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
-      "date": "2026-05-29T12:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\" />University of Waterloo students develop AI prototypes like sign language tut"
-    },
-    {
-      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
-      "date": "2026-05-22T18:00:00",
-      "source": "Google AI",
-      "summary": "Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage"
-    },
-    {
-      "title": "How well do the security community's techniques hold up against AI-enabled cyberattacks? \n\nWe examined 832 malicious accounts and mapped their activity onto a longstanding database of tactics and techniques used by threat actors.  \n\nHere's what we learned:https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-      "link": "https://twitter.com/AnthropicAI/status/2062243425580367905#m",
-      "date": "2026-06-03T18:42:01",
-      "source": "@AnthropicAI",
-      "summary": "<p>How well do the security community's techniques hold up against AI-enabled cyberattacks? <br />\n<br />\nWe examined 832 malicious accounts and mapped their activity onto a longstanding database of t"
-    },
-    {
-      "title": "Pinned: Mistral’s AI Now Summit is coming to Paris on May 28 and tickets are live!\n\nWhat you’ll hear:\n📷 Technical deep dives to help you build and deploy AI.\n📷 Mistral’s founders on AI-driven transformation in large organizations, company trajectory, and upcoming releases.\n\nOne day to leave with:\n✅ Hands-on techniques to deploy and scale AI\n✅ Practical insights on AI use cases\n✅ Connections with peers to help you build your own AI\n\nGet your pass now → https://ainowsummit.com",
-      "link": "https://twitter.com/MistralAI/status/2042256228668276987#m",
-      "date": "2026-04-09T15:00:02",
-      "source": "@MistralAI",
-      "summary": "<p>Mistral’s AI Now Summit is coming to Paris on May 28 and tickets are live!<br />\n<br />\nWhat you’ll hear:<br />\n📷 Technical deep dives to help you build and deploy AI.<br />\n📷 Mistral’s founders on"
     }
   ],
-  "last_update": "2026-06-07T10:21:54.936442",
+  "last_update": "2026-06-08T12:21:34.196100",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
