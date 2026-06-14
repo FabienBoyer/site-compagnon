@@ -1,6 +1,174 @@
 {
   "articles": [
     {
+      "title": "PDFFly PDF summarizer",
+      "link": "https://www.uneiaparjour.fr/pdffly-pdf-summarizer/",
+      "date": "2026-06-13T20:46:43",
+      "source": "Une IA par jour",
+      "summary": "PDFFly (https://pdffly.com/pdf-summarizer) génère un résumé structuré depuis un PDF importé et permet d&#8217;interroger le document via un chatbot. Fchier PDF jusqu&#8217;à 100 Mo.L&#8217;outil fait "
+    },
+    {
+      "title": "RT by @nsi_xyz: Bac de maths : « C'est très compliqué de dire qu'on est contents d'une épreuve anticipée, qui n'est pas adossée sur un cours de mathématiques », explique Mélanie Guénais, mathématicienne à l'université Paris-Saclay, dans l'émission Paris d'Ecole.\n\n→ https://l.lefigaro.fr/mzD9",
+      "link": "https://twitter.com/LeFigaroTV/status/2065836780599885854#m",
+      "date": "2026-06-13T16:40:44",
+      "source": "@nsi_xyz",
+      "summary": "<p>Bac de maths : « C'est très compliqué de dire qu'on est contents d'une épreuve anticipée, qui n'est pas adossée sur un cours de mathématiques », explique Mélanie Guénais, mathématicienne à l'univer"
+    },
+    {
+      "title": "🧠 Mémoriser durablement, ça s’apprend !\n5️⃣ idées concrètes pour aider les élèves : tester régulièrement, créer des fiches questions/réponses, réactiver dans le temps, utiliser des flashcards et exploiter les murs de classe.\n🔗 https://www.linkedin.com/posts/yohann-domenech-24b49119b_idaezes-aider-tester-share-7462045983141523456-V0jX/?utm_source=share&utm_medium=member_ios&rcm=ACoAABRx4SEB0WYrJITM_mZ2ZQU6cYtw5QtsjIA \n✍️ Yohann Domenech",
+      "link": "https://twitter.com/sophiaefrance/status/2062834321371652385#m",
+      "date": "2026-06-05T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧠 Mémoriser durablement, ça s’apprend !<br />\n5️⃣ idées concrètes pour aider les élèves : tester régulièrement, créer des fiches questions/réponses, réactiver dans le temps, utiliser des flashcards"
+    },
+    {
+      "title": "2nde GT ou 2nde Pro ? @juliendelmas propose un outil gratuit pr aider les élèves de 3e à préparer leur orientation:résultats,motivation,centres d’intérêt,durée d’études, stages et lycées à proximité. Un vrai appui pour les familles et équipes éducatives 👍\nhttps://apresla3e.fr",
+      "link": "https://twitter.com/sophiaefrance/status/2061308014980743296#m",
+      "date": "2026-06-01T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>2nde GT ou 2nde Pro ? <a href=\"https://nitter.net/juliendelmas\" title=\"Julien Delmas\">@juliendelmas</a> propose un outil gratuit pr aider les élèves de 3e à préparer leur orientation:résultats,moti"
+    },
+    {
+      "title": "L’un de nos formateurs a créé un outil gratuit pour aider les enseignants à mieux comprendre leur sentiment d’efficacité personnelle en gestion de classe. \nAuto-évaluation, profil #SEP, pistes de développement et bilan PDF en 15 min.\nhttps://sep-gc-godin.base44.app/\n✍️ Anthony Godin",
+      "link": "https://twitter.com/sophiaefrance/status/2059604290490994886#m",
+      "date": "2026-05-27T11:55:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>L’un de nos formateurs a créé un outil gratuit pour aider les enseignants à mieux comprendre leur sentiment d’efficacité personnelle en gestion de classe. <br />\nAuto-évaluation, profil <a href=\"ht"
+    },
+    {
+      "title": "🤖 L’IA ne s’explique pas seulement. Elle s’expérimente.\nAvec Vittascience, @ac_orleanstours propose une ressource pr faire créer des jeux de données, entraîner un modèle, tester ses résultats et comprendre les biais. \nhttps://pedagogie.ac-orleans-tours.fr/spip.php?article3903",
+      "link": "https://twitter.com/sophiaefrance/status/2058771306796007709#m",
+      "date": "2026-05-25T04:45:04",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 L’IA ne s’explique pas seulement. Elle s’expérimente.<br />\nAvec Vittascience, <a href=\"https://nitter.net/ac_orleanstours\" title=\"Académie d'Orléans-Tours\">@ac_orleanstours</a> propose une resso"
+    },
+    {
+      "title": "RT by @AnthropicAI: Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use.\n\nIts capabilities exceed those of any model we’ve ever made generally available.",
+      "link": "https://twitter.com/claudeai/status/2064394146916229443#m",
+      "date": "2026-06-09T17:08:13",
+      "source": "@AnthropicAI",
+      "summary": "<p>Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use.<br />\n<br />\nIts capabilities exceed those of any model we’ve ever made generally available.</p>\n<a href=\"http"
+    },
+    {
+      "title": "R to @MistralAI: mistral.ai/news/ai-now-summi…",
+      "link": "https://twitter.com/MistralAI/status/2059951141195075833#m",
+      "date": "2026-05-28T10:53:18",
+      "source": "@MistralAI",
+      "summary": "<p><a href=\"https://mistral.ai/news/ai-now-summit-2026/\">mistral.ai/news/ai-now-summi…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2065022251410345984%2FvNPHtcu2%3Fformat%3Djpg%26name%3D800x41"
+    },
+    {
+      "title": "RT by @MistralAI: Build once. Reuse everywhere.\n\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.",
+      "link": "https://twitter.com/MistralDevs/status/2044418622131437755#m",
+      "date": "2026-04-15T14:12:37",
+      "source": "@MistralAI",
+      "summary": "<p>Build once. Reuse everywhere.<br />\n<br />\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.</p>\n<im"
+    },
+    {
+      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
+      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
+      "date": "2026-04-29T02:20:52",
+      "source": "@deepseek_ai",
+      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
+    },
+    {
+      "title": "R to @OpenAI: Listen to the OpenAI Podcast on—\n\nSpotify\nhttps://open.spotify.com/episode/3ca5s3o53D5xcEKmKgLLGj?si=4a9a555641fa4293\n\nApple\nhttps://podcasts.apple.com/us/podcast/how-a-reasoning-model-cracked-an-80-year-old/id1820330260?i=1000771190131\n\nYouTube\nhttps://youtu.be/wNWz5Hbh5VQ",
+      "link": "https://twitter.com/OpenAI/status/2062630458433917126#m",
+      "date": "2026-06-04T20:19:57",
+      "source": "@OpenAI",
+      "summary": "<p>Listen to the OpenAI Podcast on—<br />\n<br />\nSpotify<br />\n<a href=\"https://open.spotify.com/episode/3ca5s3o53D5xcEKmKgLLGj?si=4a9a555641fa4293\">open.spotify.com/episode/3ca…</a><br />\n<br />\nAppl"
+    },
+    {
+      "title": "What happened when one of our models found a counterexample to an 80-year-old Erdős conjecture?\n\nResearchers @alexwei_, @HongxunWu, and @wjmzbmr1 shared the story on the OpenAI Podcast with @AndrewMayne and explained how mathematicians and models can work together to make new discoveries.",
+      "link": "https://twitter.com/OpenAI/status/2062630454537424930#m",
+      "date": "2026-06-04T20:19:56",
+      "source": "@OpenAI",
+      "summary": "<p>What happened when one of our models found a counterexample to an 80-year-old Erdős conjecture?<br />\n<br />\nResearchers <a href=\"https://nitter.net/alexwei_\" title=\"Alexander Wei\">@alexwei_</a>, <"
+    },
+    {
+      "title": "R to @OpenAI: The new memory system will keep track of important details automatically. If you prefer the legacy saved memories experience, you can switch back in settings.\n\nThe new memory system is rolling out to Plus and Pro users in the US today, along with 2x more memory.\n\nTo access it on iOS or Android, update your ChatGPT app to the latest version. We’ll expand to more plans and countries soon.",
+      "link": "https://twitter.com/OpenAI/status/2062567561276100809#m",
+      "date": "2026-06-04T16:10:01",
+      "source": "@OpenAI",
+      "summary": "<p>The new memory system will keep track of important details automatically. If you prefer the legacy saved memories experience, you can switch back in settings.<br />\n<br />\nThe new memory system is "
+    },
+    {
+      "title": "R to @OpenAI: With the new memory system, you can review and steer what ChatGPT remembers through a memory summary, with more visibility and control over how context is used.",
+      "link": "https://twitter.com/OpenAI/status/2062567559673856346#m",
+      "date": "2026-06-04T16:10:01",
+      "source": "@OpenAI",
+      "summary": "<p>With the new memory system, you can review and steer what ChatGPT remembers through a memory summary, with more visibility and control over how context is used.</p>\n<a href=\"https://nitter.net/Open"
+    },
+    {
+      "title": "R to @OpenAI: We’re building ChatGPT to remember what matters, follow your preferences and constraints, and adapt as things change.\n\nIf you tell ChatGPT you’re planning a trip in July, memory should understand when the trip is upcoming, happening, and already over.\n\nThat helps ChatGPT keep giving relevant answers as context changes.",
+      "link": "https://twitter.com/OpenAI/status/2062567558252007554#m",
+      "date": "2026-06-04T16:10:01",
+      "source": "@OpenAI",
+      "summary": "<p>We’re building ChatGPT to remember what matters, follow your preferences and constraints, and adapt as things change.<br />\n<br />\nIf you tell ChatGPT you’re planning a trip in July, memory should "
+    },
+    {
+      "title": "We’ve been researching new ways for ChatGPT memory to carry context across conversations and keep it useful over time.\n\nToday, that work is rolling out as a more capable memory system in ChatGPT. https://openai.com/index/chatgpt-memory-dreaming/",
+      "link": "https://twitter.com/OpenAI/status/2062567556524003631#m",
+      "date": "2026-06-04T16:10:00",
+      "source": "@OpenAI",
+      "summary": "<p>We’ve been researching new ways for ChatGPT memory to carry context across conversations and keep it useful over time.<br />\n<br />\nToday, that work is rolling out as a more capable memory system i"
+    },
+    {
+      "title": "Le strip ci-dessous est censé se moquer de celui qui utilise ChatGPT pour savoir comment tirer la petite chasse d'eau... mais en réalité oui, c'est totalement pertinent, car tirer la petite au lieu de la grande chasse d'eau, c'est économiser plusieurs centaines de requêtes LLM !",
+      "link": "https://twitter.com/Fabien_Mikol/status/2065899565576806611#m",
+      "date": "2026-06-13T20:50:13",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Le strip ci-dessous est censé se moquer de celui qui utilise ChatGPT pour savoir comment tirer la petite chasse d'eau... mais en réalité oui, c'est totalement pertinent, car tirer la petite au lieu"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Le titre et la présentation dans l'article de Nature sont assez étranges : on insiste sur la supériorité humaine (de qui ? beaucoup de mathématiciens savent résoudre 6 problèmes sur 10 ? vraiment ?), alors que ce qui est bluffant reste le progrès des LLM.\nhttps://www.nature.com/articles/d41586-026-01888-9",
+      "link": "https://twitter.com/Fabien_Mikol/status/2065788342613000271#m",
+      "date": "2026-06-13T13:28:16",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Le titre et la présentation dans l'article de Nature sont assez étranges : on insiste sur la supériorité humaine (de qui ? beaucoup de mathématiciens savent résoudre 6 problèmes sur 10 ? vraiment ?"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Il faut bien noter aussi que le modèle interne d'OpenAI qui a réfuté la conjecture d'Erdős, étant non public, n'a pas non plus été testé.\nDiscussions intéressantes ici :",
+      "link": "https://twitter.com/Fabien_Mikol/status/2065788278066843785#m",
+      "date": "2026-06-13T13:28:00",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Il faut bien noter aussi que le modèle interne d'OpenAI qui a réfuté la conjecture d'Erdős, étant non public, n'a pas non plus été testé.<br />\nDiscussions intéressantes ici :</p>\n<hr />\n<blockquot"
+    },
+    {
+      "title": "Un article dans Nature rapporte les résultats de First Proof, benchmark de mathématiques avec 10 problèmes \"de niveau recherche\" jamais publiés et corrigés par des experts. Mythos et Aletheia (DeepMind) non autorisés. Le meilleur harness avec ChatGPT a résolu 6 des 10 problèmes.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2065787537918935109#m",
+      "date": "2026-06-13T13:25:04",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Un article dans Nature rapporte les résultats de First Proof, benchmark de mathématiques avec 10 problèmes \"de niveau recherche\" jamais publiés et corrigés par des experts. Mythos et Aletheia (Deep"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Poke @HercbergS, c'est notamment pour cette raison que je m'inquiète des pressions pour inclure ce critère confus \"d'ultra-transformation\" dans le Nutriscore lui-même.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2065756590901244222#m",
+      "date": "2026-06-13T11:22:05",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Poke <a href=\"https://nitter.net/HercbergS\" title=\"Hercberg Serge\">@HercbergS</a>, c'est notamment pour cette raison que je m'inquiète des pressions pour inclure ce critère confus \"d'ultra-transfor"
+    },
+    {
+      "title": "R to @Fabien_Mikol: C'était un petit rappel des absurdités entraînées par la classification NOVA, que beaucoup (comme l'association Food Watch, coqueluche des médias) souhaiteraient voir primer sur le Nutriscore.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2065756045096386604#m",
+      "date": "2026-06-13T11:19:55",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>C'était un petit rappel des absurdités entraînées par la classification NOVA, que beaucoup (comme l'association Food Watch, coqueluche des médias) souhaiteraient voir primer sur le Nutriscore.</p>\n"
+    },
+    {
+      "title": "Tiens je découvre que cette (très bonne) salade de chou rouge serait à proscrire selon nos médias car elle est apparemment \"ultra-transformée\"... Eh oui, il y a deux épaississants naturels ajoutés 😱\n(Les gommes de xanthane et de guar sont parfaitement banales et inoffensives)",
+      "link": "https://twitter.com/Fabien_Mikol/status/2065756039832621552#m",
+      "date": "2026-06-13T11:19:54",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Tiens je découvre que cette (très bonne) salade de chou rouge serait à proscrire selon nos médias car elle est apparemment \"ultra-transformée\"... Eh oui, il y a deux épaississants naturels ajoutés "
+    },
+    {
+      "title": "La Grèce envisage d’inscrire l’IA dans sa Constitution 🇬🇷\nUne idée simple, mais forte : l’IA doit servir la liberté individuelle et la prospérité de la société.\nEt si les démocraties devenaient les vrais garde-fous de l’IA ?\n🔗 https://abcnews.com/International/wireStory/greece-birthplace-democracy-seeks-put-humanity-ahead-ai-132738181\n#IA #Démocratie #Éthique",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2064362378070794700#m",
+      "date": "2026-06-09T15:01:59",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>La Grèce envisage d’inscrire l’IA dans sa Constitution 🇬🇷<br />\nUne idée simple, mais forte : l’IA doit servir la liberté individuelle et la prospérité de la société.<br />\nEt si les démocraties de"
+    },
+    {
       "title": "Reconquérir le Hors-Classe, un enjeu pour les apprentissages, une IA accompagnatrice pour les parents et enfant au service de l’enseignant",
       "link": "https://mathix.org/linux/archives/22441",
       "date": "2026-06-03T07:47:21",
@@ -531,177 +699,9 @@
       "date": "2026-06-10T18:55:03",
       "source": "@AnthropicAI",
       "summary": "<p>AI is advancing at a pace our policymaking institutions were never built for—and the gap between the two is becoming the central challenge of the technology. In his latest essay, our CEO Dario Amod"
-    },
-    {
-      "title": "R to @AnthropicAI: And tomorrow, we’ll launch a $150 million national fellowship program designed to help people early in their careers extend the benefits of AI to communities across America.",
-      "link": "https://twitter.com/AnthropicAI/status/2064783424251101553#m",
-      "date": "2026-06-10T18:55:04",
-      "source": "@AnthropicAI",
-      "summary": "<p>And tomorrow, we’ll launch a $150 million national fellowship program designed to help people early in their careers extend the benefits of AI to communities across America.</p>"
-    },
-    {
-      "title": "R to @AnthropicAI: By themselves, these projects will not be sufficient to meet the challenge of advanced AI. But they’re a signal of our intent. Over the coming months and years, we will expand our work on these fronts much further.",
-      "link": "https://twitter.com/AnthropicAI/status/2064783425807187970#m",
-      "date": "2026-06-10T18:55:05",
-      "source": "@AnthropicAI",
-      "summary": "<p>By themselves, these projects will not be sufficient to meet the challenge of advanced AI. But they’re a signal of our intent. Over the coming months and years, we will expand our work on these fro"
-    },
-    {
-      "title": "New Anthropic Science Blog: Making Claude a chemist.\n\nTo manipulate a molecule, chemists first need to understand its structure. Their main tool is NMR spectroscopy.\n\nWe found Opus 4.7 matches—and on some tasks beats—dedicated NMR software. Read more: https://www.anthropic.com/research/making-claude-a-chemist",
-      "link": "https://twitter.com/AnthropicAI/status/2062979607448682731#m",
-      "date": "2026-06-05T19:27:21",
-      "source": "@AnthropicAI",
-      "summary": "<p>New Anthropic Science Blog: Making Claude a chemist.<br />\n<br />\nTo manipulate a molecule, chemists first need to understand its structure. Their main tool is NMR spectroscopy.<br />\n<br />\nWe fou"
-    },
-    {
-      "title": "R to @MistralAI: Hear from our team:",
-      "link": "https://twitter.com/MistralAI/status/2049128190874964030#m",
-      "date": "2026-04-28T14:06:46",
-      "source": "@MistralAI",
-      "summary": "<p>Hear from our team:</p>\n<a href=\"https://nitter.net/MistralAI/status/2049128190874964030#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2049128073883525120%2Fimg%2F5"
-    },
-    {
-      "title": "R to @MistralAI: 📚 Learn more here https://mistral.ai/news/workflows",
-      "link": "https://twitter.com/MistralAI/status/2049128192405917836#m",
-      "date": "2026-04-28T14:06:46",
-      "source": "@MistralAI",
-      "summary": "<p>📚 Learn more here <a href=\"https://mistral.ai/news/workflows\">mistral.ai/news/workflows</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2064318628212953088%2Fm9tglwMi%3Fformat%3Djpg%26name%3D80"
-    },
-    {
-      "title": "R to @deepseek_ai: Structural Innovation & Ultra-High Context Efficiency\n\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).\n🔹 Peak Efficiency: World-leading long context with drastically reduced compute & memory costs.\n🔹 1M Standard: 1M context is now the default across all official DeepSeek services.\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516936289017964#m",
-      "date": "2026-04-24T03:24:13",
-      "source": "@deepseek_ai",
-      "summary": "<p>Structural Innovation & Ultra-High Context Efficiency<br />\n<br />\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).<br />\n🔹 Peak Efficiency: World-leading long context w"
-    },
-    {
-      "title": "R to @deepseek_ai: DeepSeek-V4-Flash\n\n🔹 Reasoning capabilities closely approach V4-Pro.\n🔹 Performs on par with V4-Pro on simple Agent tasks.\n🔹 Smaller parameter size, faster response times, and highly cost-effective API pricing.\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516932140884024#m",
-      "date": "2026-04-24T03:24:12",
-      "source": "@deepseek_ai",
-      "summary": "<p>DeepSeek-V4-Flash<br />\n<br />\n🔹 Reasoning capabilities closely approach V4-Pro.<br />\n🔹 Performs on par with V4-Pro on simple Agent tasks.<br />\n🔹 Smaller parameter size, faster response times, an"
-    },
-    {
-      "title": "R to @deepseek_ai: DeepSeek-V4-Pro\n\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pro.\n🔹 World-Class Reasoning: Beats all current open models in Math/STEM/Coding, rivaling top closed-source models.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516926432399791#m",
-      "date": "2026-04-24T03:24:10",
-      "source": "@deepseek_ai",
-      "summary": "<p>DeepSeek-V4-Pro<br />\n<br />\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.<br />\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pr"
-    },
-    {
-      "title": "An issue caused some user accounts to be incorrectly suspended. \n\nWe’re restoring access and working through related subscription and credit issues.\nhttps://status.openai.com/incidents/ejj40mae",
-      "link": "https://twitter.com/OpenAI/status/2062927046448431587#m",
-      "date": "2026-06-05T15:58:29",
-      "source": "@OpenAI",
-      "summary": "<p>An issue caused some user accounts to be incorrectly suspended. <br />\n<br />\nWe’re restoring access and working through related subscription and credit issues.<br />\n<a href=\"https://status.openai"
-    },
-    {
-      "title": "\"La puissance de recherche de l'IA générative est sans égale pour obtenir les textes les plus frais, les jurisprudences les plus récentes, bref, pour être exhaustif. Ce qui, autrefois, demandait vingt heures de recherches s'obtient aujourd'hui en quelques minutes\"",
-      "link": "https://twitter.com/Fabien_Mikol/status/2065012632289976791#m",
-      "date": "2026-06-11T10:05:52",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>\"La puissance de recherche de l'IA générative est sans égale pour obtenir les textes les plus frais, les jurisprudences les plus récentes, bref, pour être exhaustif. Ce qui, autrefois, demandait vi"
-    },
-    {
-      "title": "Super outil créé par Andy Masley.\nJe demande souvent des résumés d'articles à Claude. Pour que cela puisse augmenter de 1% mon empreinte carbone, il faudrait que j'atteigne ~1500 demandes de résumé par jour...\n(Oui on peut préciser où on habite et plein d'autres détails !)",
-      "link": "https://twitter.com/Fabien_Mikol/status/2064989968418697680#m",
-      "date": "2026-06-11T08:35:48",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Super outil créé par Andy Masley.<br />\nJe demande souvent des résumés d'articles à Claude. Pour que cela puisse augmenter de 1% mon empreinte carbone, il faudrait que j'atteigne ~1500 demandes de "
-    },
-    {
-      "title": "Eh oui, c'est peu connu, mais vous pouvez demander à Claude de vous créer des vidéos dont il codera entièrement le script avec des commandes ffmpeg (images et sons).\nLe résultat est assez aléatoire mais potentiellement amusant. Un exemple sur le thème de Mythos...",
-      "link": "https://twitter.com/Fabien_Mikol/status/2064819857791598947#m",
-      "date": "2026-06-10T21:19:51",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Eh oui, c'est peu connu, mais vous pouvez demander à Claude de vous créer des vidéos dont il codera entièrement le script avec des commandes ffmpeg (images et sons).<br />\nLe résultat est assez alé"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Bon juste pour le fun je lui ai aussi demandé un youtube poop débile sur Julia, c'est plus libre disons 😅",
-      "link": "https://twitter.com/Fabien_Mikol/status/2064807558733275561#m",
-      "date": "2026-06-10T20:30:58",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Bon juste pour le fun je lui ai aussi demandé un youtube poop débile sur Julia, c'est plus libre disons 😅</p>\n<a href=\"https://nitter.net/Fabien_Mikol/status/2064807558733275561#m\">\n<br />Video<br "
-    },
-    {
-      "title": "🧠 L’esprit critique ne se construit pas seul.\nFace aux IA qui flattent nos certitudes, l’enjeu est de recréer du collectif : dialogue, désaccord, confiance.\nÀ l’école aussi, l’IA peut aider chacun, mais seulement si elle renforce le commun.\n🔗 https://chut.media/intelligence-artificielle/resituer-leducation-a-lesprit-critique/",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2064724937592471850#m",
-      "date": "2026-06-10T15:02:40",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🧠 L’esprit critique ne se construit pas seul.<br />\nFace aux IA qui flattent nos certitudes, l’enjeu est de recréer du collectif : dialogue, désaccord, confiance.<br />\nÀ l’école aussi, l’IA peut a"
-    },
-    {
-      "title": "Sal Khan le reconnaît : la révolution Khanmigo n’a pas eu lieu. Beaucoup d’élèves n’ont pas utilisé le tuteur IA.\n\nLeçon essentielle : l’IA ne crée ni motivation, ni questionnement, ni apprentissage sans scénario pédagogique. 🧠\n\n🔗 https://www.chalkbeat.org/2026/04/09/sal-khan-reflects-on-ai-in-schools-and-khanmigo/\n\n#IA #Éducation #EdTech",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2062919983882019236#m",
-      "date": "2026-06-05T15:30:26",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Sal Khan le reconnaît : la révolution Khanmigo n’a pas eu lieu. Beaucoup d’élèves n’ont pas utilisé le tuteur IA.<br />\n<br />\nLeçon essentielle : l’IA ne crée ni motivation, ni questionnement, ni "
-    },
-    {
-      "title": "Bachelard évoquait la « bradypsychie » : cette pensée ralentie quand le temps manque pour réfléchir.\nÀ l’heure de l’IA et de l’accélération permanente, réhabilitons la lenteur : lire, regarder, flâner, observer.\nPenser exige parfois de décélérer. 🧠\n#IA #Bachelard #Attention",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2060072368203047165#m",
-      "date": "2026-05-28T18:55:01",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Bachelard évoquait la « bradypsychie » : cette pensée ralentie quand le temps manque pour réfléchir.<br />\nÀ l’heure de l’IA et de l’accélération permanente, réhabilitons la lenteur : lire, regarde"
-    },
-    {
-      "title": "Open Paper",
-      "link": "https://www.uneiaparjour.fr/open-paper/",
-      "date": "2026-06-09T20:25:54",
-      "source": "Une IA par jour",
-      "summary": "Open Paper (application : https://openpaper.ai/ et documentation : https://github.com/khoj-ai/openpaper) permet de lire, annoter et interroger des articles de recherche académique. Le document pdf imp"
-    },
-    {
-      "title": "How engineers at Nextdoor use Codex to build without limits",
-      "link": "https://openai.com/index/nextdoor",
-      "date": "2026-06-09T12:00:00",
-      "source": "OpenAI Blog",
-      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes."
-    },
-    {
-      "title": "What Codex unlocks for Notion",
-      "link": "https://openai.com/index/notion",
-      "date": "2026-06-09T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams."
-    },
-    {
-      "title": "Industrial policy for the Intelligence Age",
-      "link": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
-      "date": "2026-06-09T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves."
-    },
-    {
-      "title": "Dreaming: Better memory for a more helpful ChatGPT",
-      "link": "https://openai.com/index/chatgpt-memory-dreaming",
-      "date": "2026-06-04T09:00:00",
-      "source": "OpenAI Blog",
-      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations."
-    },
-    {
-      "title": "Biodefense in the Intelligence Age",
-      "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
-      "date": "2026-06-04T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "An action plan for AI-powered biological resilience"
-    },
-    {
-      "title": "RT by @nsi_xyz: Sophie Nordmann (École pratique des hautes études) : depuis Descartes et Pascal, le langage et l'intelligence ont été érigés en critères de notre humanité et de notre dignité ; cette prétention au monopole ne tient plus désormais.\nCertains auront du mal à s'en remettre ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2064379850509496662#m",
-      "date": "2026-06-09T16:11:25",
-      "source": "@nsi_xyz",
-      "summary": "<p>Sophie Nordmann (École pratique des hautes études) : depuis Descartes et Pascal, le langage et l'intelligence ont été érigés en critères de notre humanité et de notre dignité ; cette prétention au "
-    },
-    {
-      "title": "RT by @nsi_xyz: L'#IA s'invite dans les classes et les profs de maths sont confrontés à des questions concrètes : quels outils utiliser avec des élèves ? Comment tirer parti de l'IA pour préparer ses cours ? etc.\nL'@actoulouse propose une FAQ accessible ici : \nhttps://pedagogie.ac-toulouse.fr/mathematiques/lia-generative-en-cours-de-mathematiques-une-faq-pour-accompagner-les-enseignants",
-      "link": "https://twitter.com/maths_edu_num/status/2064225981871862245#m",
-      "date": "2026-06-09T06:00:00",
-      "source": "@nsi_xyz",
-      "summary": "<p>L'<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> s'invite dans les classes et les profs de maths sont confrontés à des questions concrètes : quels outils utiliser avec des élèves "
     }
   ],
-  "last_update": "2026-06-13T10:21:30.026236",
+  "last_update": "2026-06-14T10:44:01.927749",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
