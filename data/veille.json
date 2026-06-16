@@ -1,6 +1,83 @@
 {
   "articles": [
     {
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "date": "2026-06-11T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content."
+    },
+    {
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "link": "https://openai.com/index/openai-on-oracle-cloud",
+      "date": "2026-06-10T20:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance."
+    },
+    {
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "date": "2026-06-10T12:00:00",
+      "source": "OpenAI Blog",
+      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT."
+    },
+    {
+      "title": "The latest AI news we announced in May 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "date": "2026-06-05T14:45:00",
+      "source": "Google AI",
+      "summary": "May AI recap"
+    },
+    {
+      "title": "How we used Gemini to build Google I/O 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "date": "2026-06-01T16:00:00",
+      "source": "Google AI",
+      "summary": "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and t"
+    },
+    {
+      "title": "🧩 Gestion de classe : prévenir, réagir, rétablir.\n@HEC_Montreal propose des affiches pratiques pour aider les enseignants à gérer les situations perturbatrices avec tact pédagogique : retards, prises de parole, tensions, climat à reconstruire.\nhttps://enseigner.hec.ca/pedagogie/affiches/gestion-de-classe/",
+      "link": "https://twitter.com/sophiaefrance/status/2064677716645892160#m",
+      "date": "2026-06-10T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧩 Gestion de classe : prévenir, réagir, rétablir.<br />\n<a href=\"https://nitter.net/HEC_Montreal\" title=\"HEC Montréal\">@HEC_Montreal</a> propose des affiches pratiques pour aider les enseignants à "
+    },
+    {
+      "title": "AI is advancing at a pace our policymaking institutions were never built for—and the gap between the two is becoming the central challenge of the technology. In his latest essay, our CEO Dario Amodei lays out how to close it.\n\nWe're launching three new initiatives to support the efforts he outlines.",
+      "link": "https://twitter.com/AnthropicAI/status/2064783418844762489#m",
+      "date": "2026-06-10T18:55:03",
+      "source": "@AnthropicAI",
+      "summary": "<p>AI is advancing at a pace our policymaking institutions were never built for—and the gap between the two is becoming the central challenge of the technology. In his latest essay, our CEO Dario Amod"
+    },
+    {
+      "title": "R to @OpenAI: For the next two weeks, Plus and Pro users can invite up to three friends to try Codex.\n\nWhen a friend sends their first Codex message, you’ll both get another banked reset.",
+      "link": "https://twitter.com/OpenAI/status/2065225374737543376#m",
+      "date": "2026-06-12T00:11:14",
+      "source": "@OpenAI",
+      "summary": "<p>For the next two weeks, Plus and Pro users can invite up to three friends to try Codex.<br />\n<br />\nWhen a friend sends their first Codex message, you’ll both get another banked reset.</p>"
+    },
+    {
+      "title": "L’IA est conçue pour réduire l’effort cognitif.\nL’école, elle, organise cet effort pour qu’il devienne apprentissage.\nTout l’enjeu est là : former les élèves à utiliser l’IA sans lui déléguer ce qui fait apprendre. 🧠\n🔗 https://drphilippahardman.substack.com/p/from-ai-tutors-to-ai-study-mates\n#IA #Éducation #Apprentissage",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2066551967418118260#m",
+      "date": "2026-06-15T16:02:38",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>L’IA est conçue pour réduire l’effort cognitif.<br />\nL’école, elle, organise cet effort pour qu’il devienne apprentissage.<br />\nTout l’enjeu est là : former les élèves à utiliser l’IA sans lui dé"
+    },
+    {
+      "title": "L’IA générative rend-elle les élèves paresseux intellectuellement ? 🧠\nPas par nature. Mais sans cadre, elle peut encourager le raccourci cognitif.\nL’enjeu : apprendre à penser avec l’IA, sans la laisser penser à notre place.\n🔗 https://ecolebranchee.com/ia-generative-paresse-cognitive-peur-legitime-eclairer/ \n#IA #Éducation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2065094330495230450#m",
+      "date": "2026-06-11T15:30:30",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>L’IA générative rend-elle les élèves paresseux intellectuellement ? 🧠<br />\nPas par nature. Mais sans cadre, elle peut encourager le raccourci cognitif.<br />\nL’enjeu : apprendre à penser avec l’IA"
+    },
+    {
+      "title": "Partout en France, des enseignants se forment et expérimentent l’IA générative : évaluation, esprit critique, différenciation… Une créativité pédagogique précieuse pour continuer à instruire dans un nouveau contexte technologique.\n🔗 https://www.lemonde.fr/societe/article/2026/06/02/ces-enseignants-qui-experimentent-l-intelligence-artificielle-en-classe-je-me-sens-comme-un-prof-augmente_6696335_3224.html\n#Éducation #IA",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2062191364503150806#m",
+      "date": "2026-06-03T15:15:09",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Partout en France, des enseignants se forment et expérimentent l’IA générative : évaluation, esprit critique, différenciation… Une créativité pédagogique précieuse pour continuer à instruire dans u"
+    },
+    {
       "title": "Happycapy",
       "link": "https://www.uneiaparjour.fr/happycapy/",
       "date": "2026-06-14T20:59:00",
@@ -622,86 +699,9 @@
       "date": "2026-05-29T04:45:03",
       "source": "@sophiaefrance",
       "summary": "<p>Débuter dans le métier, c’est souvent devoir tout penser en même temps. <a href=\"https://nitter.net/acgrenoble\" title=\"Académie de Grenoble\">@acgrenoble</a> propose une fiche claire pr construire u"
-    },
-    {
-      "title": "Penser les espaces scolaires autrement, ça se joue aussi en équipe! \nAvec #ArchiRAMA les équipes éducatives disposent d’une méthode collaborative pour transformer une idée en projet d’aménagement : contextualiser, choisir, explorer, débattre, synthétiser.\nhttps://archiclasse.education.fr/ArchiRAMA-les-etapes-du-jeu",
-      "link": "https://twitter.com/sophiaefrance/status/2057760891227996652#m",
-      "date": "2026-05-22T09:50:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>Penser les espaces scolaires autrement, ça se joue aussi en équipe! <br />\nAvec <a href=\"https://nitter.net/search?f=tweets&amp;q=%23ArchiRAMA\">#ArchiRAMA</a> les équipes éducatives disposent d’une"
-    },
-    {
-      "title": "R to @AnthropicAI: Our Advanced AI Framework sets out how governments should prepare for and prevent catastrophic risks from frontier AI systems.\n\nThe government should have the authority to block or revoke the release of unsafe models, and invest in societal resilience.\nhttp://www.anthropic.com/policy-on-the-ai-exponential/aaif",
-      "link": "https://twitter.com/AnthropicAI/status/2064783421860413780#m",
-      "date": "2026-06-10T18:55:04",
-      "source": "@AnthropicAI",
-      "summary": "<p>Our Advanced AI Framework sets out how governments should prepare for and prevent catastrophic risks from frontier AI systems.<br />\n<br />\nThe government should have the authority to block or revo"
-    },
-    {
-      "title": "R to @AnthropicAI: An Economic Policy Framework: a proposal for how the US government should manage labor market disruption from advanced AI. We’re contributing $200 million to a new fund to sponsor major evaluations of some of these ideas.\nhttps://www.anthropic.com/policy-on-the-ai-exponential/epf",
-      "link": "https://twitter.com/AnthropicAI/status/2064783420425929169#m",
-      "date": "2026-06-10T18:55:03",
-      "source": "@AnthropicAI",
-      "summary": "<p>An Economic Policy Framework: a proposal for how the US government should manage labor market disruption from advanced AI. We’re contributing $200 million to a new fund to sponsor major evaluations"
-    },
-    {
-      "title": "RT by @MistralAI: SHIPPED. Mistral Vibe is now the AI agent for long-horizon productivity and coding, and the home for Work mode, Code mode, the CLI, and a brand new VS Code extension. Let's go... 🧵",
-      "link": "https://twitter.com/mistralvibe/status/2059984963932499973#m",
-      "date": "2026-05-28T13:07:42",
-      "source": "@MistralAI",
-      "summary": "<p>SHIPPED. Mistral Vibe is now the AI agent for long-horizon productivity and coding, and the home for Work mode, Code mode, the CLI, and a brand new VS Code extension. Let's go... 🧵</p>\n<a href=\"htt"
-    },
-    {
-      "title": "RT by @MistralAI: Introducing remote agents in Vibe and Mistral Medium 3.5. You can now launch remote agents in the cloud, including from the CLI or Le Chat. Plus, new Work mode in Le Chat for complex, multi-step tasks. 🧵",
-      "link": "https://twitter.com/mistralvibe/status/2049511749603168520#m",
-      "date": "2026-04-29T15:30:53",
-      "source": "@MistralAI",
-      "summary": "<p>Introducing remote agents in Vibe and Mistral Medium 3.5. You can now launch remote agents in the cloud, including from the CLI or Le Chat. Plus, new Work mode in Le Chat for complex, multi-step ta"
-    },
-    {
-      "title": "We are making our discount permanent! 🎉\n\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀",
-      "link": "https://twitter.com/deepseek_ai/status/2057854261699195173#m",
-      "date": "2026-05-22T16:01:03",
-      "source": "@deepseek_ai",
-      "summary": "<p>We are making our discount permanent! 🎉<br />\n<br />\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀</p>\n<img src=\"https://nitter.net/pic/media%2FHI7xPnWbgAAW4UO.jpg\""
-    },
-    {
-      "title": "Pinned: 🔥DeepSeek Input Cache Price Drop!\n\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less.\n\n📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
-      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
-      "date": "2026-04-26T16:35:11",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
-    },
-    {
-      "title": "🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.\n\n🛠️Integration Updates:\n🔹Claude Code: Set model to deepseek-v4-pro[1m]  to unlock 1M context!\n🔹OpenCode: Update to v1.14.24+\n🔹OpenClaw: Update to v2026.4.24+\n\nCheck the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
-      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
-      "date": "2026-04-25T15:33:11",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
-    },
-    {
-      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.\n🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI.\n\n7/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
-      "date": "2026-04-24T03:24:16",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
-    },
-    {
-      "title": "R to @deepseek_ai: API is Available Today!\n\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.\n🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://api-docs.deepseek.com/guides/thinking_mode\n\n⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking).\n\n6/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516945466188072#m",
-      "date": "2026-04-24T03:24:15",
-      "source": "@deepseek_ai",
-      "summary": "<p>API is Available Today!<br />\n<br />\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.<br />\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.<br />\n🔹 Both models suppor"
-    },
-    {
-      "title": "R to @deepseek_ai: Dedicated Optimizations for Agent Capabilities\n\n🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode.\n🔹 Already driving our in-house agentic coding at DeepSeek.\n\nThe figure below showcases a sample PDF generated by DeepSeek-V4-Pro.\n\n5/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516941074796676#m",
-      "date": "2026-04-24T03:24:14",
-      "source": "@deepseek_ai",
-      "summary": "<p>Dedicated Optimizations for Agent Capabilities<br />\n<br />\n🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode.<br />\n🔹 Already driving our in-house"
     }
   ],
-  "last_update": "2026-06-15T13:45:45.490175",
+  "last_update": "2026-06-16T12:45:29.383989",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
