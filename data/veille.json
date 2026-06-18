@@ -1,6 +1,195 @@
 {
   "articles": [
     {
+      "title": "Le livre dont on n’est plus le héros ?",
+      "link": "https://www.uneiaparjour.fr/le-livre-dont-on-nest-plus-le-heros/",
+      "date": "2026-06-17T20:24:07",
+      "source": "Une IA par jour",
+      "summary": "Focus de la lettre 41 C&#8217;est par l&#8217;une de ses fonctionnalités que je me suis mis à tester&#160;Arena&#160;cette semaine : Agent Mode. On donne une instruction, il enchaîne les étapes seul, "
+    },
+    {
+      "title": "Lium",
+      "link": "https://www.uneiaparjour.fr/lium/",
+      "date": "2026-06-11T20:19:00",
+      "source": "Une IA par jour",
+      "summary": "Lium (https://www.lium.ai/) connecte des sources de données complexes (bases, fichiers, API&#8230;) et répond en langage naturel par des analyses, scripts ou outils générés par IA. L&#8217;interface p"
+    },
+    {
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "link": "https://openai.com/index/ai-chemist-improves-reaction",
+      "date": "2026-06-17T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research."
+    },
+    {
+      "title": "Introducing LifeSciBench",
+      "link": "https://openai.com/index/introducing-life-sci-bench",
+      "date": "2026-06-17T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions."
+    },
+    {
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "link": "https://openai.com/index/preply",
+      "date": "2026-06-12T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises."
+    },
+    {
+      "title": "OpenAI to acquire Ona",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "date": "2026-06-11T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows."
+    },
+    {
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "link": "https://openai.com/index/bbva",
+      "date": "2026-06-11T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide."
+    },
+    {
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "date": "2026-06-17T15:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\" />Research in “Nature” shows our conversational AI system matche"
+    },
+    {
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "date": "2026-06-11T20:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\" />We’re helping build the state’s next-generation workforce and investing in ener"
+    },
+    {
+      "title": "Catch up on 12 major I/O 2026 moments",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+      "date": "2026-05-28T15:00:00",
+      "source": "Google AI",
+      "summary": "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote"
+    },
+    {
+      "title": "Une loi qui imposerait une température constamment entre 16° et 26° dans une salle de classe. En cas de non respect, (hors panne exceptionnelle) un système d'amende automatique payé directement et personnellement par les élus et le problème serait résolu immédiatement.",
+      "link": "https://twitter.com/nsi_xyz/status/2067464579303510238#m",
+      "date": "2026-06-18T04:29:01",
+      "source": "@nsi_xyz",
+      "summary": "<p>Une loi qui imposerait une température constamment entre 16° et 26° dans une salle de classe. En cas de non respect, (hors panne exceptionnelle) un système d'amende automatique payé directement et "
+    },
+    {
+      "title": "🌍 Combien pèse vraiment une requête #IA, une douche ou un mail avec PJ ?\nVoici un jeu en ligne pour classer les actions du quotidien selon leur empreinte carbone, seul ou jusqu’à 4 joueurs. Idéal pour travailler les ordres de grandeur en classe. \nhttps://combien.remyvdm.com/",
+      "link": "https://twitter.com/sophiaefrance/status/2063844730799034411#m",
+      "date": "2026-06-08T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🌍 Combien pèse vraiment une requête <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a>, une douche ou un mail avec PJ ?<br />\nVoici un jeu en ligne pour classer les actions du quotidi"
+    },
+    {
+      "title": "🧭 L’Odyssée de l’Intelligence propose un escape game pour explorer l’#IA en classe ou en famille : 7 époques, des énigmes, des débats et des activités pour comprendre l’entraînement des modèles, leurs usages et leurs limites \nhttps://ia-odysseeenfamille-6972d5.forge.apps.education.fr/",
+      "link": "https://twitter.com/sophiaefrance/status/2062141008117125272#m",
+      "date": "2026-06-03T11:55:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧭 L’Odyssée de l’Intelligence propose un escape game pour explorer l’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> en classe ou en famille : 7 époques, des énigmes, des débats et"
+    },
+    {
+      "title": "Débuter dans le métier, c’est souvent devoir tout penser en même temps. @acgrenoble propose une fiche claire pr construire une séance efficace : accroche, modelage, pratique guidée, autonomie, feedback & autoévaluation. \nhttps://www1.ac-grenoble.fr/debuter-dans-le-metier-126048",
+      "link": "https://twitter.com/sophiaefrance/status/2060220853996900488#m",
+      "date": "2026-05-29T04:45:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>Débuter dans le métier, c’est souvent devoir tout penser en même temps. <a href=\"https://nitter.net/acgrenoble\" title=\"Académie de Grenoble\">@acgrenoble</a> propose une fiche claire pr construire u"
+    },
+    {
+      "title": "The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees.\n\nThe net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance.\n\nAccess to all other Claude models is not affected.\n\nWe apologize for this disruption to our customers. We believe this is a misunderstanding and are working to restore access as soon as possible.\n\nRead our full statement: https://www.anthropic.com/news/fable-mythos-access",
+      "link": "https://twitter.com/AnthropicAI/status/2065597531644743999#m",
+      "date": "2026-06-13T00:50:03",
+      "source": "@AnthropicAI",
+      "summary": "<p>The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the "
+    },
+    {
+      "title": "Pinned: Mistral’s AI Now Summit is coming to Paris on May 28 and tickets are live!\n\nWhat you’ll hear:\n📷 Technical deep dives to help you build and deploy AI.\n📷 Mistral’s founders on AI-driven transformation in large organizations, company trajectory, and upcoming releases.\n\nOne day to leave with:\n✅ Hands-on techniques to deploy and scale AI\n✅ Practical insights on AI use cases\n✅ Connections with peers to help you build your own AI\n\nGet your pass now → https://ainowsummit.com",
+      "link": "https://twitter.com/MistralAI/status/2042256228668276987#m",
+      "date": "2026-04-09T15:00:02",
+      "source": "@MistralAI",
+      "summary": "<p>Mistral’s AI Now Summit is coming to Paris on May 28 and tickets are live!<br />\n<br />\nWhat you’ll hear:<br />\n📷 Technical deep dives to help you build and deploy AI.<br />\n📷 Mistral’s founders on"
+    },
+    {
+      "title": "R to @OpenAI: LifeSciBench is a foundation for more realistic evaluation, targeted improvements, and continued partnership with the life sciences community—helping the field measure progress, identify gaps, and improve AI together for the benefit of everyone.",
+      "link": "https://twitter.com/OpenAI/status/2067346920230838387#m",
+      "date": "2026-06-17T20:41:29",
+      "source": "@OpenAI",
+      "summary": "<p>LifeSciBench is a foundation for more realistic evaluation, targeted improvements, and continued partnership with the life sciences community—helping the field measure progress, identify gaps, and "
+    },
+    {
+      "title": "R to @OpenAI: Benchmarks often test biological knowledge or narrow skills. The tasks in LifeSciBench test whether models can reason from evidence, work with scientific artifacts, handle uncertainty, and make useful decisions under real-world constraints.\n\nGPT‑Rosalind scores above GPT‑5.5 across all seven workflows. These initial results show meaningful progress—and room to improve, particularly on artifact-heavy, design-intensive, and operationally constrained work.",
+      "link": "https://twitter.com/OpenAI/status/2067346918746030496#m",
+      "date": "2026-06-17T20:41:29",
+      "source": "@OpenAI",
+      "summary": "<p>Benchmarks often test biological knowledge or narrow skills. The tasks in LifeSciBench test whether models can reason from evidence, work with scientific artifacts, handle uncertainty, and make use"
+    },
+    {
+      "title": "Introducing LifeSciBench, a benchmark for measuring and improving how well AI supports real-world life science research.\n\nDeveloped with 173 scientists from biotechnology and pharmaceutical research, LifeSciBench includes 750 expert-authored tasks across seven biological research workflows.\n\nhttps://openai.com/index/introducing-life-sci-bench/",
+      "link": "https://twitter.com/OpenAI/status/2067346916929937827#m",
+      "date": "2026-06-17T20:41:29",
+      "source": "@OpenAI",
+      "summary": "<p>Introducing LifeSciBench, a benchmark for measuring and improving how well AI supports real-world life science research.<br />\n<br />\nDeveloped with 173 scientists from biotechnology and pharmaceut"
+    },
+    {
+      "title": "R to @OpenAI: The full process took about 2.5 months, plus another half month for human chemists to write up the results. \n\nThis is an early example of frontier models supporting more of the scientific research loop: reviewing studies, proposing hypotheses, designing experiments, interpreting data, and surfacing findings that human experts can validate.",
+      "link": "https://twitter.com/OpenAI/status/2067293751362679170#m",
+      "date": "2026-06-17T17:10:13",
+      "source": "@OpenAI",
+      "summary": "<p>The full process took about 2.5 months, plus another half month for human chemists to write up the results. <br />\n<br />\nThis is an early example of frontier models supporting more of the scientif"
+    },
+    {
+      "title": "R to @OpenAI: Maria tested the idea across 10,080 reactions, and human chemists later validated representative results by hand. \n\nUnder the optimized conditions, yields improved for 88% of the boronic acids and 83% of the sulfonamides tested. \n\nHuman chemists then repeated 14 representative reactions by hand: 11 showed higher yields, including 8 with a more than twofold improvement.",
+      "link": "https://twitter.com/OpenAI/status/2067293749412339980#m",
+      "date": "2026-06-17T17:10:12",
+      "source": "@OpenAI",
+      "summary": "<p>Maria tested the idea across 10,080 reactions, and human chemists later validated representative results by hand. <br />\n<br />\nUnder the optimized conditions, yields improved for 88% of the boroni"
+    },
+    {
+      "title": "R to @OpenAI: GPT-5.4 reviewed scientific literature, generated and ranked research proposals, helped design experiments, analyzed results, and proposed follow-up studies.\n\nHuman chemists steered the work, selected proposals for testing, and validated the final result.",
+      "link": "https://twitter.com/OpenAI/status/2067293747885552066#m",
+      "date": "2026-06-17T17:10:12",
+      "source": "@OpenAI",
+      "summary": "<p>GPT-5.4 reviewed scientific literature, generated and ranked research proposals, helped design experiments, analyzed results, and proposed follow-up studies.<br />\n<br />\nHuman chemists steered the"
+    },
+    {
+      "title": "R to @OpenAI: The reaction is Chan-Lam coupling, a method chemists use to build pharmaceutically relevant molecules.\n\nOne difficult version, involving primary sulfonamides, has historically produced low yields, limiting how useful it can be in medicinal chemistry.\n\nhttps://openai.com/index/ai-chemist-improves-reaction/",
+      "link": "https://twitter.com/OpenAI/status/2067293746556027376#m",
+      "date": "2026-06-17T17:10:12",
+      "source": "@OpenAI",
+      "summary": "<p>The reaction is Chan-Lam coupling, a method chemists use to build pharmaceutically relevant molecules.<br />\n<br />\nOne difficult version, involving primary sulfonamides, has historically produced "
+    },
+    {
+      "title": "GPT-5.4 helped drive a medicinal chemistry project from literature review to a validated experimental result.\n\nPaired with http://Molecule.one’s Maria AI and specialized lab, the model proposed an unexpected way to improve a widely used reaction in drug discovery.",
+      "link": "https://twitter.com/OpenAI/status/2067293745075442171#m",
+      "date": "2026-06-17T17:10:11",
+      "source": "@OpenAI",
+      "summary": "<p>GPT-5.4 helped drive a medicinal chemistry project from literature review to a validated experimental result.<br />\n<br />\nPaired with <a href=\"http://Molecule.one\">Molecule.one</a>’s Maria AI and "
+    },
+    {
+      "title": "Le mois dernier, devant des spécialistes mondiaux de cybersécurité, Luc Julia a répété son histoire de LLM dont la pertinence serait en voie de dégénérescence à cause de leur entraînement sur \"données synthétiques\". Il a affirmé que \"ChatGPT aujourd'hui a un taux d'erreur de 40%\"",
+      "link": "https://twitter.com/Fabien_Mikol/status/2067428563792404697#m",
+      "date": "2026-06-18T02:05:55",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Le mois dernier, devant des spécialistes mondiaux de cybersécurité, Luc Julia a répété son histoire de LLM dont la pertinence serait en voie de dégénérescence à cause de leur entraînement sur \"donn"
+    },
+    {
+      "title": "\"Ces modèles ne sont pas intelligents et ne comprennent rien, car ce sont juste des machines statistiques prédisant le prochain token !\"\nL'argument est peu convaincant car toute entité peut être décrite à différents niveaux (\"juste X !\"), y compris notre propre cerveau...",
+      "link": "https://twitter.com/Fabien_Mikol/status/2067334227901698427#m",
+      "date": "2026-06-17T19:51:03",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"Ces modèles ne sont pas intelligents et ne comprennent rien, car ce sont juste des machines statistiques prédisant le prochain token !\"<br />\nL'argument est peu convaincant car toute entité peut ê"
+    },
+    {
+      "title": "🎙️ Après NotebookLM, Spotify veut devenir l’espace d’écoute des podcasts personnels générés par IA.\nUne nouvelle étape : transformer documents, notes ou agendas en audio pour interagir autrement avec l’information. \nhttps://techcrunch.com/2026/05/07/spotify-wants-to-become-the-home-for-ai-generated-personal-audio/?utm_source=join1440&utm_medium=email&utm_placement=newsletter&user_id=66c4bb1f5d78644b3a925ccb  \n#IA #Podcast #Éducation #Spotify",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2062553747486613814#m",
+      "date": "2026-06-04T15:15:08",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🎙️ Après NotebookLM, Spotify veut devenir l’espace d’écoute des podcasts personnels générés par IA.<br />\nUne nouvelle étape : transformer documents, notes ou agendas en audio pour interagir autrem"
+    },
+    {
       "title": "Predicting model behavior before release by simulating deployment",
       "link": "https://openai.com/index/deployment-simulation",
       "date": "2026-06-16T00:00:00",
@@ -510,198 +699,9 @@
       "date": "2026-06-04T20:19:56",
       "source": "@OpenAI",
       "summary": "<p>What happened when one of our models found a counterexample to an 80-year-old Erdős conjecture?<br />\n<br />\nResearchers <a href=\"https://nitter.net/alexwei_\" title=\"Alexander Wei\">@alexwei_</a>, <"
-    },
-    {
-      "title": "R to @OpenAI: The new memory system will keep track of important details automatically. If you prefer the legacy saved memories experience, you can switch back in settings.\n\nThe new memory system is rolling out to Plus and Pro users in the US today, along with 2x more memory.\n\nTo access it on iOS or Android, update your ChatGPT app to the latest version. We’ll expand to more plans and countries soon.",
-      "link": "https://twitter.com/OpenAI/status/2062567561276100809#m",
-      "date": "2026-06-04T16:10:01",
-      "source": "@OpenAI",
-      "summary": "<p>The new memory system will keep track of important details automatically. If you prefer the legacy saved memories experience, you can switch back in settings.<br />\n<br />\nThe new memory system is "
-    },
-    {
-      "title": "R to @OpenAI: With the new memory system, you can review and steer what ChatGPT remembers through a memory summary, with more visibility and control over how context is used.",
-      "link": "https://twitter.com/OpenAI/status/2062567559673856346#m",
-      "date": "2026-06-04T16:10:01",
-      "source": "@OpenAI",
-      "summary": "<p>With the new memory system, you can review and steer what ChatGPT remembers through a memory summary, with more visibility and control over how context is used.</p>\n<a href=\"https://nitter.net/Open"
-    },
-    {
-      "title": "R to @OpenAI: We’re building ChatGPT to remember what matters, follow your preferences and constraints, and adapt as things change.\n\nIf you tell ChatGPT you’re planning a trip in July, memory should understand when the trip is upcoming, happening, and already over.\n\nThat helps ChatGPT keep giving relevant answers as context changes.",
-      "link": "https://twitter.com/OpenAI/status/2062567558252007554#m",
-      "date": "2026-06-04T16:10:01",
-      "source": "@OpenAI",
-      "summary": "<p>We’re building ChatGPT to remember what matters, follow your preferences and constraints, and adapt as things change.<br />\n<br />\nIf you tell ChatGPT you’re planning a trip in July, memory should "
-    },
-    {
-      "title": "We’ve been researching new ways for ChatGPT memory to carry context across conversations and keep it useful over time.\n\nToday, that work is rolling out as a more capable memory system in ChatGPT. https://openai.com/index/chatgpt-memory-dreaming/",
-      "link": "https://twitter.com/OpenAI/status/2062567556524003631#m",
-      "date": "2026-06-04T16:10:00",
-      "source": "@OpenAI",
-      "summary": "<p>We’ve been researching new ways for ChatGPT memory to carry context across conversations and keep it useful over time.<br />\n<br />\nToday, that work is rolling out as a more capable memory system i"
-    },
-    {
-      "title": "Le strip ci-dessous est censé se moquer de celui qui utilise ChatGPT pour savoir comment tirer la petite chasse d'eau... mais en réalité oui, c'est totalement pertinent, car tirer la petite au lieu de la grande chasse d'eau, c'est économiser plusieurs centaines de requêtes LLM !",
-      "link": "https://twitter.com/Fabien_Mikol/status/2065899565576806611#m",
-      "date": "2026-06-13T20:50:13",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Le strip ci-dessous est censé se moquer de celui qui utilise ChatGPT pour savoir comment tirer la petite chasse d'eau... mais en réalité oui, c'est totalement pertinent, car tirer la petite au lieu"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Le titre et la présentation dans l'article de Nature sont assez étranges : on insiste sur la supériorité humaine (de qui ? beaucoup de mathématiciens savent résoudre 6 problèmes sur 10 ? vraiment ?), alors que ce qui est bluffant reste le progrès des LLM.\nhttps://www.nature.com/articles/d41586-026-01888-9",
-      "link": "https://twitter.com/Fabien_Mikol/status/2065788342613000271#m",
-      "date": "2026-06-13T13:28:16",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Le titre et la présentation dans l'article de Nature sont assez étranges : on insiste sur la supériorité humaine (de qui ? beaucoup de mathématiciens savent résoudre 6 problèmes sur 10 ? vraiment ?"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Il faut bien noter aussi que le modèle interne d'OpenAI qui a réfuté la conjecture d'Erdős, étant non public, n'a pas non plus été testé.\nDiscussions intéressantes ici :",
-      "link": "https://twitter.com/Fabien_Mikol/status/2065788278066843785#m",
-      "date": "2026-06-13T13:28:00",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Il faut bien noter aussi que le modèle interne d'OpenAI qui a réfuté la conjecture d'Erdős, étant non public, n'a pas non plus été testé.<br />\nDiscussions intéressantes ici :</p>\n<hr />\n<blockquot"
-    },
-    {
-      "title": "Un article dans Nature rapporte les résultats de First Proof, benchmark de mathématiques avec 10 problèmes \"de niveau recherche\" jamais publiés et corrigés par des experts. Mythos et Aletheia (DeepMind) non autorisés. Le meilleur harness avec ChatGPT a résolu 6 des 10 problèmes.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2065787537918935109#m",
-      "date": "2026-06-13T13:25:04",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Un article dans Nature rapporte les résultats de First Proof, benchmark de mathématiques avec 10 problèmes \"de niveau recherche\" jamais publiés et corrigés par des experts. Mythos et Aletheia (Deep"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Poke @HercbergS, c'est notamment pour cette raison que je m'inquiète des pressions pour inclure ce critère confus \"d'ultra-transformation\" dans le Nutriscore lui-même.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2065756590901244222#m",
-      "date": "2026-06-13T11:22:05",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Poke <a href=\"https://nitter.net/HercbergS\" title=\"Hercberg Serge\">@HercbergS</a>, c'est notamment pour cette raison que je m'inquiète des pressions pour inclure ce critère confus \"d'ultra-transfor"
-    },
-    {
-      "title": "R to @Fabien_Mikol: C'était un petit rappel des absurdités entraînées par la classification NOVA, que beaucoup (comme l'association Food Watch, coqueluche des médias) souhaiteraient voir primer sur le Nutriscore.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2065756045096386604#m",
-      "date": "2026-06-13T11:19:55",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>C'était un petit rappel des absurdités entraînées par la classification NOVA, que beaucoup (comme l'association Food Watch, coqueluche des médias) souhaiteraient voir primer sur le Nutriscore.</p>\n"
-    },
-    {
-      "title": "Tiens je découvre que cette (très bonne) salade de chou rouge serait à proscrire selon nos médias car elle est apparemment \"ultra-transformée\"... Eh oui, il y a deux épaississants naturels ajoutés 😱\n(Les gommes de xanthane et de guar sont parfaitement banales et inoffensives)",
-      "link": "https://twitter.com/Fabien_Mikol/status/2065756039832621552#m",
-      "date": "2026-06-13T11:19:54",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Tiens je découvre que cette (très bonne) salade de chou rouge serait à proscrire selon nos médias car elle est apparemment \"ultra-transformée\"... Eh oui, il y a deux épaississants naturels ajoutés "
-    },
-    {
-      "title": "La Grèce envisage d’inscrire l’IA dans sa Constitution 🇬🇷\nUne idée simple, mais forte : l’IA doit servir la liberté individuelle et la prospérité de la société.\nEt si les démocraties devenaient les vrais garde-fous de l’IA ?\n🔗 https://abcnews.com/International/wireStory/greece-birthplace-democracy-seeks-put-humanity-ahead-ai-132738181\n#IA #Démocratie #Éthique",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2064362378070794700#m",
-      "date": "2026-06-09T15:01:59",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>La Grèce envisage d’inscrire l’IA dans sa Constitution 🇬🇷<br />\nUne idée simple, mais forte : l’IA doit servir la liberté individuelle et la prospérité de la société.<br />\nEt si les démocraties de"
-    },
-    {
-      "title": "Reconquérir le Hors-Classe, un enjeu pour les apprentissages, une IA accompagnatrice pour les parents et enfant au service de l’enseignant",
-      "link": "https://mathix.org/linux/archives/22441",
-      "date": "2026-06-03T07:47:21",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et à tous. A l&#8217;heure de l&#8217;IA, la notion d&#8217;aide à la maison revient en force avec son lot de travers et des bénéfices. D&#8217;abord qu&#8217;attend-on de ces devoirs"
-    },
-    {
-      "title": "HelpixMD : Boostez vos exercices avec des coups de pouce différenciés !",
-      "link": "https://mathix.org/linux/archives/22414",
-      "date": "2026-05-30T12:47:29",
-      "source": "Mathix (A. Durand)",
-      "summary": "Qui n’a jamais vécu ce grand moment de solitude en classe ? Vous donnez un exercice à chercher à la maison. Le lendemain, trois profils se dessinent : l&#8217;élève bloqué dès la première ligne qui a "
-    },
-    {
-      "title": "Les stéréotypes de genre, une histoire de conformisme : un vrai travail d’éducation",
-      "link": "https://mathix.org/linux/archives/22394",
-      "date": "2026-05-29T18:31:29",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Je me suis rappelé il y a quelque temps une célèbre expérience sur le conformisme social, ou comment le groupe peut influencer le comportement d&#8217;un individu en toute c"
-    },
-    {
-      "title": "IA et hallucination : une activité transférable dès le CM2",
-      "link": "https://mathix.org/linux/archives/22385",
-      "date": "2026-05-26T19:20:15",
-      "source": "Mathix (A. Durand)",
-      "summary": "Quand j’ai conçu l’activité “IA et hallucination” (présent dans cet article), je l’avais pensée au départ pour des élèves de collège, avec une idée simple : faire vivre aux élèves une erreur de modéli"
-    },
-    {
-      "title": "Les cours interactifs version 2 ! Markdown et IA",
-      "link": "https://mathix.org/linux/archives/22355",
-      "date": "2026-05-22T17:00:14",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Et bien voici un projet qui mûrit depuis quelques temps, alors ma version à laquelle je voulais arriver est là, mais je voulais aussi l&#8217;implémenter avec nuage pour que"
-    },
-    {
-      "title": "Un petit lecteur MD portable",
-      "link": "https://mathix.org/linux/archives/22339",
-      "date": "2026-05-17T13:36:49",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Là je suis en pleine réécriture de mes cours, et je comptais passer au MarkDown, vous savez le format de fichier qui commence à percer, car l&#8217;IA, elle, elle produit bie"
-    },
-    {
-      "title": "Éléa dans la poche : et si on arrêtait de compliquer l’accès aux parcours ?",
-      "link": "https://mathix.org/linux/archives/22328",
-      "date": "2026-05-14T10:28:37",
-      "source": "Mathix (A. Durand)",
-      "summary": "Éléa, sur le papier, c’est franchement une belle promesse.On peut y créer des parcours, différencier, proposer des exercices, intégrer des vidéos, suivre les élèves, organiser le travail, reprendre en"
-    },
-    {
-      "title": "Un peu de flashix et un peu de mapix",
-      "link": "https://mathix.org/linux/archives/22316",
-      "date": "2026-05-13T12:34:24",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Bon alors deux informations : Mapix ! https://mathix.org/mapix ou https://mapix.forge.apps.education.fr La syntaxe est la même que pour mymarkmap , on peuit exporter en SVG c"
-    },
-    {
-      "title": "Albert-Cli : première version",
-      "link": "https://mathix.org/linux/archives/22304",
-      "date": "2026-05-06T20:54:44",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Bon, d&#8217;abord j&#8217;ai tenté de vibe-coder complètement le programme, je voulais un gemini-lci mais pour albert, j&#8217;ai donc défini mon plan pour lui dire comment "
-    },
-    {
-      "title": "On apprend dans le faire et non dans le lire",
-      "link": "https://mathix.org/linux/archives/22298",
-      "date": "2026-05-06T16:20:14",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bon, et bien j&#8217;ai découvert une petite vidéo qui va servir d&#8217;appui auprès de mes élèves à qui je rabâche de s&#8217;exercer&#8230; Fabien Olicard présente des résultats d&#8217;étude sur l"
-    },
-    {
-      "title": "New OpenAI Academy courses for the next era of work",
-      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "date": "2026-06-12T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work."
-    },
-    {
-      "title": "5 ways Google Search can level up your thrift and vintage shopping",
-      "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
-      "date": "2026-06-03T13:00:00",
-      "source": "Google AI",
-      "summary": "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglas"
-    },
-    {
-      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
-      "date": "2026-05-29T19:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\" />We used Google AI Studio to vibe code a quiz about our top I/O 2026 announce"
-    },
-    {
-      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
-      "date": "2026-05-29T17:30:00",
-      "source": "Google AI",
-      "summary": "Gemini Omni & Gemini 3.5 hero"
-    },
-    {
-      "title": "Check out real-life AI prototypes from the Futures Lab.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
-      "date": "2026-05-29T12:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\" />University of Waterloo students develop AI prototypes like sign language tut"
     }
   ],
-  "last_update": "2026-06-17T12:09:47.833633",
+  "last_update": "2026-06-18T11:44:56.132495",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
