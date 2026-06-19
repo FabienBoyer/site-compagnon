@@ -1,6 +1,272 @@
 {
   "articles": [
     {
+      "title": "Reconquérir le Hors-Classe, un enjeu pour les apprentissages, une IA accompagnatrice pour les parents et enfant au service de l’enseignant",
+      "link": "https://mathix.org/linux/archives/22441",
+      "date": "2026-06-03T07:47:21",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et à tous. A l&#8217;heure de l&#8217;IA, la notion d&#8217;aide à la maison revient en force avec son lot de travers et des bénéfices. D&#8217;abord qu&#8217;attend-on de ces devoirs"
+    },
+    {
+      "title": "HelpixMD : Boostez vos exercices avec des coups de pouce différenciés !",
+      "link": "https://mathix.org/linux/archives/22414",
+      "date": "2026-05-30T12:47:29",
+      "source": "Mathix (A. Durand)",
+      "summary": "Qui n’a jamais vécu ce grand moment de solitude en classe ? Vous donnez un exercice à chercher à la maison. Le lendemain, trois profils se dessinent : l&#8217;élève bloqué dès la première ligne qui a "
+    },
+    {
+      "title": "Les stéréotypes de genre, une histoire de conformisme : un vrai travail d’éducation",
+      "link": "https://mathix.org/linux/archives/22394",
+      "date": "2026-05-29T18:31:29",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Je me suis rappelé il y a quelque temps une célèbre expérience sur le conformisme social, ou comment le groupe peut influencer le comportement d&#8217;un individu en toute c"
+    },
+    {
+      "title": "IA et hallucination : une activité transférable dès le CM2",
+      "link": "https://mathix.org/linux/archives/22385",
+      "date": "2026-05-26T19:20:15",
+      "source": "Mathix (A. Durand)",
+      "summary": "Quand j’ai conçu l’activité “IA et hallucination” (présent dans cet article), je l’avais pensée au départ pour des élèves de collège, avec une idée simple : faire vivre aux élèves une erreur de modéli"
+    },
+    {
+      "title": "Les cours interactifs version 2 ! Markdown et IA",
+      "link": "https://mathix.org/linux/archives/22355",
+      "date": "2026-05-22T17:00:14",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Et bien voici un projet qui mûrit depuis quelques temps, alors ma version à laquelle je voulais arriver est là, mais je voulais aussi l&#8217;implémenter avec nuage pour que"
+    },
+    {
+      "title": "Un petit lecteur MD portable",
+      "link": "https://mathix.org/linux/archives/22339",
+      "date": "2026-05-17T13:36:49",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Là je suis en pleine réécriture de mes cours, et je comptais passer au MarkDown, vous savez le format de fichier qui commence à percer, car l&#8217;IA, elle, elle produit bie"
+    },
+    {
+      "title": "Éléa dans la poche : et si on arrêtait de compliquer l’accès aux parcours ?",
+      "link": "https://mathix.org/linux/archives/22328",
+      "date": "2026-05-14T10:28:37",
+      "source": "Mathix (A. Durand)",
+      "summary": "Éléa, sur le papier, c’est franchement une belle promesse.On peut y créer des parcours, différencier, proposer des exercices, intégrer des vidéos, suivre les élèves, organiser le travail, reprendre en"
+    },
+    {
+      "title": "Un peu de flashix et un peu de mapix",
+      "link": "https://mathix.org/linux/archives/22316",
+      "date": "2026-05-13T12:34:24",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Bon alors deux informations : Mapix ! https://mathix.org/mapix ou https://mapix.forge.apps.education.fr La syntaxe est la même que pour mymarkmap , on peuit exporter en SVG c"
+    },
+    {
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "date": "2026-06-18T17:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence."
+    },
+    {
+      "title": "Improving health intelligence in ChatGPT",
+      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "date": "2026-06-18T11:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations."
+    },
+    {
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "date": "2026-06-18T08:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases."
+    },
+    {
+      "title": "New OpenAI Academy courses for the next era of work",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "date": "2026-06-12T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work."
+    },
+    {
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+      "date": "2026-06-03T13:00:00",
+      "source": "Google AI",
+      "summary": "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglas"
+    },
+    {
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "date": "2026-05-29T19:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\" />We used Google AI Studio to vibe code a quiz about our top I/O 2026 announce"
+    },
+    {
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "date": "2026-05-29T17:30:00",
+      "source": "Google AI",
+      "summary": "Gemini Omni & Gemini 3.5 hero"
+    },
+    {
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "date": "2026-05-29T12:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\" />University of Waterloo students develop AI prototypes like sign language tut"
+    },
+    {
+      "title": "🧠 Sciences cognitives & apprentissages : 1️⃣2️⃣ fiches pr mieux comprendre comment les élèves apprennent : mémoire, attention, motivation, métacognition, charge cognitive, différenciation... Une ressource pr ajuster ses pratiques et favoriser l’autonomie. \nhttps://digipad.app/p/509494/1b06ad323ccd7",
+      "link": "https://twitter.com/sophiaefrance/status/2067907752035299493#m",
+      "date": "2026-06-19T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧠 Sciences cognitives &amp; apprentissages : 1️⃣2️⃣ fiches pr mieux comprendre comment les élèves apprennent : mémoire, attention, motivation, métacognition, charge cognitive, différenciation... Un"
+    },
+    {
+      "title": "R to @AnthropicAI: Watch the robodogs in action in our first Project Fetch experiment:",
+      "link": "https://twitter.com/AnthropicAI/status/2067651700757086553#m",
+      "date": "2026-06-18T16:52:35",
+      "source": "@AnthropicAI",
+      "summary": "<p>Watch the robodogs in action in our first Project Fetch experiment:</p>\n<hr />\n<blockquote>\n<b>Anthropic (@AnthropicAI)</b>\n<p>\n<p>New Anthropic research: Project Fetch.<br />\n<br />\nWe asked two t"
+    },
+    {
+      "title": "New Frontier Red Team blog: Phase 2 of Project Fetch, where we test how well Claude can program a robodog.\n\nOpus 4.7, on its own, was ~20x faster than last year's best human team aided by Opus 4.1. (The robodog, alas, still failed to fetch a beach ball.)\nhttps://www.anthropic.com/research/project-fetch-phase-two",
+      "link": "https://twitter.com/AnthropicAI/status/2067651699486200091#m",
+      "date": "2026-06-18T16:52:34",
+      "source": "@AnthropicAI",
+      "summary": "<p>New Frontier Red Team blog: Phase 2 of Project Fetch, where we test how well Claude can program a robodog.<br />\n<br />\nOpus 4.7, on its own, was ~20x faster than last year's best human team aided "
+    },
+    {
+      "title": "R to @OpenAI: This is an early step toward more robustly beneficial and aligned models: training models to carry beneficial traits into new situations, so as AI becomes more capable, it also becomes more reliable, transparent, and helpful for people.",
+      "link": "https://twitter.com/OpenAI/status/2067722696759329125#m",
+      "date": "2026-06-18T21:34:41",
+      "source": "@OpenAI",
+      "summary": "<p>This is an early step toward more robustly beneficial and aligned models: training models to carry beneficial traits into new situations, so as AI becomes more capable, it also becomes more reliabl"
+    },
+    {
+      "title": "R to @OpenAI: We also tested whether alignment persisted under pressure. \n\nThe model was harder to steer toward harmful behavior with adversarial prompts, while remaining responsive to helpful instructions.\n\nWe saw preliminary evidence of greater resistance to harmful fine-tuning.",
+      "link": "https://twitter.com/OpenAI/status/2067722695270334549#m",
+      "date": "2026-06-18T21:34:41",
+      "source": "@OpenAI",
+      "summary": "<p>We also tested whether alignment persisted under pressure. <br />\n<br />\nThe model was harder to steer toward harmful behavior with adversarial prompts, while remaining responsive to helpful instru"
+    },
+    {
+      "title": "R to @OpenAI: The most interesting test was cross-domain transfer.\n\nWhen beneficial behavior training was limited to health conversations, the model still improved on non-health evaluations of misalignment, deception, and reward hacking—even though those tasks looked very different from the training data.",
+      "link": "https://twitter.com/OpenAI/status/2067722693714338044#m",
+      "date": "2026-06-18T21:34:41",
+      "source": "@OpenAI",
+      "summary": "<p>The most interesting test was cross-domain transfer.<br />\n<br />\nWhen beneficial behavior training was limited to health conversations, the model still improved on non-health evaluations of misali"
+    },
+    {
+      "title": "R to @OpenAI: A small amount of this data produced broad gains beyond the training scenarios.\n\nCompared with a compute-matched baseline, the trained model improved on 44 of 53 independent evaluations of alignment and benefits, spanning deception, reward hacking, safety, health, and mental health.\n\nThese evals varied widely in domain, task format, and grading scheme.",
+      "link": "https://twitter.com/OpenAI/status/2067722691675824637#m",
+      "date": "2026-06-18T21:34:40",
+      "source": "@OpenAI",
+      "summary": "<p>A small amount of this data produced broad gains beyond the training scenarios.<br />\n<br />\nCompared with a compute-matched baseline, the trained model improved on 44 of 53 independent evaluations"
+    },
+    {
+      "title": "R to @OpenAI: We trained models with reinforcement learning on realistic conversations to reinforce beneficial traits like truthfulness, humility under uncertainty, openness to correction, fairness, and concern for human welfare, across 12 domains, including health, science, and education.",
+      "link": "https://twitter.com/OpenAI/status/2067722689515856262#m",
+      "date": "2026-06-18T21:34:40",
+      "source": "@OpenAI",
+      "summary": "<p>We trained models with reinforcement learning on realistic conversations to reinforce beneficial traits like truthfulness, humility under uncertainty, openness to correction, fairness, and concern "
+    },
+    {
+      "title": "As AI takes on longer, higher-stakes tasks, we want models to carry beneficial and safe behavior into new domains beyond their training—and maintain it under pressure.\n\nThat’s the idea behind our new research on training models to be broadly and persistently beneficial. https://alignment.openai.com/beneficial-rl/",
+      "link": "https://twitter.com/OpenAI/status/2067722688165232654#m",
+      "date": "2026-06-18T21:34:39",
+      "source": "@OpenAI",
+      "summary": "<p>As AI takes on longer, higher-stakes tasks, we want models to carry beneficial and safe behavior into new domains beyond their training—and maintain it under pressure.<br />\n<br />\nThat’s the idea "
+    },
+    {
+      "title": "R to @OpenAI: Improving human health will be one of the most personal, tangible impacts of AGI.\n\nAs our models continue to improve, our goal is to make ChatGPT more accurate, more useful, and more impactful in those moments — and to keep bringing that progress to more people.  \n\nhttps://openai.com/index/improving-health-intelligence-in-chatgpt/",
+      "link": "https://twitter.com/OpenAI/status/2067672744108724635#m",
+      "date": "2026-06-18T18:16:12",
+      "source": "@OpenAI",
+      "summary": "<p>Improving human health will be one of the most personal, tangible impacts of AGI.<br />\n<br />\nAs our models continue to improve, our goal is to make ChatGPT more accurate, more useful, and more im"
+    },
+    {
+      "title": "R to @OpenAI: To improve our models, we collaborate with a global network of hundreds of physicians across 60 countries, 49 languages, and 26 specialties.\n\nTheir feedback helps us identify where responses miss important context, sound overly confident, need clearer next steps, or should more strongly encourage someone to seek medical care. \n\nThose insights directly shape how we train and improve our models.",
+      "link": "https://twitter.com/OpenAI/status/2067672742426775728#m",
+      "date": "2026-06-18T18:16:11",
+      "source": "@OpenAI",
+      "summary": "<p>To improve our models, we collaborate with a global network of hundreds of physicians across 60 countries, 49 languages, and 26 specialties.<br />\n<br />\nTheir feedback helps us identify where resp"
+    },
+    {
+      "title": "GPT-5.5 Instant is now on par with our frontier Thinking models for health-related questions.\n\nEvery week, more than 230 million people turn to ChatGPT with health and wellness questions, and GPT-5.5 Instant is better at recognizing when urgent care may be needed, asking for relevant context, explaining uncertainty, and making complex information easier to understand.\n\nBecause GPT-5.5 Instant is available to all free users in ChatGPT, these improvements can help more people. \n\nPhysician-led evaluation was critical to making these major intelligence gains.",
+      "link": "https://twitter.com/OpenAI/status/2067672740539306261#m",
+      "date": "2026-06-18T18:16:11",
+      "source": "@OpenAI",
+      "summary": "<p>GPT-5.5 Instant is now on par with our frontier Thinking models for health-related questions.<br />\n<br />\nEvery week, more than 230 million people turn to ChatGPT with health and wellness question"
+    },
+    {
+      "title": "R to @OpenAI: Many of these cases had evaded years of expert analysis.\n\nThis study suggests AI could make expert-led periodic reanalysis more scalable, helping clinicians revisit old cases as medical knowledge advances, identify leads worth investigating, and potentially bring answers to more families.\n\nhttps://openai.com/index/diagnose-rare-childhood-diseases/",
+      "link": "https://twitter.com/OpenAI/status/2067625115182120972#m",
+      "date": "2026-06-18T15:06:56",
+      "source": "@OpenAI",
+      "summary": "<p>Many of these cases had evaded years of expert analysis.<br />\n<br />\nThis study suggests AI could make expert-led periodic reanalysis more scalable, helping clinicians revisit old cases as medical"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Ganascia se décrédibilise de plus en plus avec un tel biais. Faire l'éloge régulier de Luc Julia et se moquer de manière aussi injustifiée des propos et des articles (non compris) de Bengio... ça fait beaucoup.\nVoir aussi l'excellent vidéo de @IA_Clash",
+      "link": "https://twitter.com/Fabien_Mikol/status/2067629738118594811#m",
+      "date": "2026-06-18T15:25:18",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Ganascia se décrédibilise de plus en plus avec un tel biais. Faire l'éloge régulier de Luc Julia et se moquer de manière aussi injustifiée des propos et des articles (non compris) de Bengio... ça f"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Il faut vraiment l'écouter racontant son changement d'état d'esprit, c'est très humble de sa part et tout à son honneur. Le contraste avec la suffisance méprisante de Ganascia est assez flagrant.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2067629735161577977#m",
+      "date": "2026-06-18T15:25:18",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Il faut vraiment l'écouter racontant son changement d'état d'esprit, c'est très humble de sa part et tout à son honneur. Le contraste avec la suffisance méprisante de Ganascia est assez flagrant.</"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Mais surtout, contrairement à ce que soutient Ganascia, Bengio n'alerte pas depuis longtemps sur les risques existentiels. Il avait même tendance à se moquer de ces inquiétudes il y a seulement quelques années, avant de réaliser le sérieux du risque !",
+      "link": "https://twitter.com/Fabien_Mikol/status/2067629732091363339#m",
+      "date": "2026-06-18T15:25:17",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Mais surtout, contrairement à ce que soutient Ganascia, Bengio n'alerte pas depuis longtemps sur les risques existentiels. Il avait même tendance à se moquer de ces inquiétudes il y a seulement que"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Prétendre que Bengio n'aurait pas d'arguments ou qu'ils seraient \"singulièrement faibles\" quand on écoute ceux de Ganascia, proprement risibles et surtout fondés sur la moquerie... c'est cocasse. Voici un exemple parmi tant d'autres interventions de Bengio",
+      "link": "https://twitter.com/Fabien_Mikol/status/2067629728702361895#m",
+      "date": "2026-06-18T15:25:16",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Prétendre que Bengio n'aurait pas d'arguments ou qu'ils seraient \"singulièrement faibles\" quand on écoute ceux de Ganascia, proprement risibles et surtout fondés sur la moquerie... c'est cocasse. V"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Je ne sais pas si Ganascia est de mauvaise foi ou s'il est vraiment désormais incapable de lire sérieusement une étude (les deux hypothèses sont inquiétantes), mais quoi qu'il en soit, @MonsieurPhi avait très bien vulgarisé le preprint à l'époque :\nhttps://www.youtube.com/watch?v=j2zv4jlo2Nw",
+      "link": "https://twitter.com/Fabien_Mikol/status/2067629713233691063#m",
+      "date": "2026-06-18T15:25:12",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Je ne sais pas si Ganascia est de mauvaise foi ou s'il est vraiment désormais incapable de lire sérieusement une étude (les deux hypothèses sont inquiétantes), mais quoi qu'il en soit, <a href=\"htt"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Depuis longtemps Ganascia croit avoir réfuté l'article que Bengio a co-écrit sur les indicateurs éventuels de conscience IA sans l'avoir jamais compris (voir sa \"critique\" ci-dessous).\nEt surtout l'article a bien été publié, même s'il prétend le contraire!",
+      "link": "https://twitter.com/Fabien_Mikol/status/2067629707529486366#m",
+      "date": "2026-06-18T15:25:11",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Depuis longtemps Ganascia croit avoir réfuté l'article que Bengio a co-écrit sur les indicateurs éventuels de conscience IA sans l'avoir jamais compris (voir sa \"critique\" ci-dessous).<br />\nEt sur"
+    },
+    {
+      "title": "Jean-Gabriel Ganascia, qui apprécie beaucoup Luc Julia, ne cache par contre pas son mépris pour la \"crainte irrationnelle\" de @Yoshua_Bengio: \"cela fait très longtemps qu'il nous alerte\" avec des arguments \"singulièrement faibles\".\nFil sur tout ce qui est faux dans ces propos 🧵",
+      "link": "https://twitter.com/Fabien_Mikol/status/2067629703611994382#m",
+      "date": "2026-06-18T15:25:10",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Jean-Gabriel Ganascia, qui apprécie beaucoup Luc Julia, ne cache par contre pas son mépris pour la \"crainte irrationnelle\" de <a href=\"https://nitter.net/Yoshua_Bengio\" title=\"Yoshua Bengio\">@Yoshu"
+    },
+    {
+      "title": "Et si l’intérêt de l’IA en éducation était justement de ne pas fonctionner comme notre cerveau ? 🧠\nMémoire limitée, attention fragile, oubli rapide : l’IA n’apprend pas comme nous, mais elle peut nous aider à apprendre autrement.\n🔗 https://carlhendrick.substack.com/p/spandrels-of-the-mind-the-case-against",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2067639157048902115#m",
+      "date": "2026-06-18T16:02:44",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Et si l’intérêt de l’IA en éducation était justement de ne pas fonctionner comme notre cerveau ? 🧠<br />\nMémoire limitée, attention fragile, oubli rapide : l’IA n’apprend pas comme nous, mais elle "
+    },
+    {
+      "title": "La Grèce envisage d’inscrire l’IA dans sa Constitution 🇬🇷\nUne idée simple, mais forte : l’IA doit servir la liberté individuelle et la prospérité de la société.\nEt si les démocraties devenaient les vrais garde-fous de l’IA ?\n🔗 https://abcnews.com/International/wireStory/greece-birthplace-democracy-seeks-put-humanity-ahead-ai-132738181\n#IA #Démocratie #Éthique",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2064362378070794700#m",
+      "date": "2026-06-09T15:01:59",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>La Grèce envisage d’inscrire l’IA dans sa Constitution 🇬🇷<br />\nUne idée simple, mais forte : l’IA doit servir la liberté individuelle et la prospérité de la société.<br />\nEt si les démocraties de"
+    },
+    {
       "title": "Le livre dont on n’est plus le héros ?",
       "link": "https://www.uneiaparjour.fr/le-livre-dont-on-nest-plus-le-heros/",
       "date": "2026-06-17T20:24:07",
@@ -433,275 +699,9 @@
       "date": "2026-06-10T18:55:03",
       "source": "@AnthropicAI",
       "summary": "<p>AI is advancing at a pace our policymaking institutions were never built for—and the gap between the two is becoming the central challenge of the technology. In his latest essay, our CEO Dario Amod"
-    },
-    {
-      "title": "R to @OpenAI: For the next two weeks, Plus and Pro users can invite up to three friends to try Codex.\n\nWhen a friend sends their first Codex message, you’ll both get another banked reset.",
-      "link": "https://twitter.com/OpenAI/status/2065225374737543376#m",
-      "date": "2026-06-12T00:11:14",
-      "source": "@OpenAI",
-      "summary": "<p>For the next two weeks, Plus and Pro users can invite up to three friends to try Codex.<br />\n<br />\nWhen a friend sends their first Codex message, you’ll both get another banked reset.</p>"
-    },
-    {
-      "title": "L’IA est conçue pour réduire l’effort cognitif.\nL’école, elle, organise cet effort pour qu’il devienne apprentissage.\nTout l’enjeu est là : former les élèves à utiliser l’IA sans lui déléguer ce qui fait apprendre. 🧠\n🔗 https://drphilippahardman.substack.com/p/from-ai-tutors-to-ai-study-mates\n#IA #Éducation #Apprentissage",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2066551967418118260#m",
-      "date": "2026-06-15T16:02:38",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>L’IA est conçue pour réduire l’effort cognitif.<br />\nL’école, elle, organise cet effort pour qu’il devienne apprentissage.<br />\nTout l’enjeu est là : former les élèves à utiliser l’IA sans lui dé"
-    },
-    {
-      "title": "L’IA générative rend-elle les élèves paresseux intellectuellement ? 🧠\nPas par nature. Mais sans cadre, elle peut encourager le raccourci cognitif.\nL’enjeu : apprendre à penser avec l’IA, sans la laisser penser à notre place.\n🔗 https://ecolebranchee.com/ia-generative-paresse-cognitive-peur-legitime-eclairer/ \n#IA #Éducation",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2065094330495230450#m",
-      "date": "2026-06-11T15:30:30",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>L’IA générative rend-elle les élèves paresseux intellectuellement ? 🧠<br />\nPas par nature. Mais sans cadre, elle peut encourager le raccourci cognitif.<br />\nL’enjeu : apprendre à penser avec l’IA"
-    },
-    {
-      "title": "Partout en France, des enseignants se forment et expérimentent l’IA générative : évaluation, esprit critique, différenciation… Une créativité pédagogique précieuse pour continuer à instruire dans un nouveau contexte technologique.\n🔗 https://www.lemonde.fr/societe/article/2026/06/02/ces-enseignants-qui-experimentent-l-intelligence-artificielle-en-classe-je-me-sens-comme-un-prof-augmente_6696335_3224.html\n#Éducation #IA",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2062191364503150806#m",
-      "date": "2026-06-03T15:15:09",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Partout en France, des enseignants se forment et expérimentent l’IA générative : évaluation, esprit critique, différenciation… Une créativité pédagogique précieuse pour continuer à instruire dans u"
-    },
-    {
-      "title": "Happycapy",
-      "link": "https://www.uneiaparjour.fr/happycapy/",
-      "date": "2026-06-14T20:59:00",
-      "source": "Une IA par jour",
-      "summary": "Happycapy (https://happycapy.ai/) est un chatbot avec des agents IA pour exécuter dans le navigateur des tâches à la place de l&#8217;utilisateur. Génération de tous types de contenus via une instruct"
-    },
-    {
-      "title": "Open Paper",
-      "link": "https://www.uneiaparjour.fr/open-paper/",
-      "date": "2026-06-09T20:25:54",
-      "source": "Une IA par jour",
-      "summary": "Open Paper (application : https://openpaper.ai/ et documentation : https://github.com/khoj-ai/openpaper) permet de lire, annoter et interroger des articles de recherche académique. Le document pdf imp"
-    },
-    {
-      "title": "Introducing the OpenAI Partner Network",
-      "link": "https://openai.com/index/introducing-openai-partner-network",
-      "date": "2026-06-14T17:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation."
-    },
-    {
-      "title": "Il ne reste que 5min pour écrire que Donald Trump est un grand philosophe sur vos copies ! Viiiiiiite.",
-      "link": "https://twitter.com/nsi_xyz/status/2066459601537519648#m",
-      "date": "2026-06-15T09:55:36",
-      "source": "@nsi_xyz",
-      "summary": "<p>Il ne reste que 5min pour écrire que Donald Trump est un grand philosophe sur vos copies ! Viiiiiiite.</p>\n<a href=\"https://nitter.net/nsi_xyz/status/2066459601537519648#m\">\n<br />Video<br />\n  <im"
-    },
-    {
-      "title": "RT by @nsi_xyz: Filles et sciences : la réforme du lycée a fait reculer l’égalité de trente ans https://www.cafepedagogique.net/2026/06/15/filles-et-sciences-la-reforme-du-lycee-a-fait-reculer-legalite-de-trente-ans/",
-      "link": "https://twitter.com/cafepedagogique/status/2066391644346204496#m",
-      "date": "2026-06-15T05:25:34",
-      "source": "@nsi_xyz",
-      "summary": "<p>Filles et sciences : la réforme du lycée a fait reculer l’égalité de trente ans <a href=\"https://www.cafepedagogique.net/2026/06/15/filles-et-sciences-la-reforme-du-lycee-a-fait-reculer-legalite-de"
-    },
-    {
-      "title": "R to @nsi_xyz: Brittia n'aime visiblement pas la vérité.",
-      "link": "https://twitter.com/nsi_xyz/status/2066254976419049851#m",
-      "date": "2026-06-14T20:22:30",
-      "source": "@nsi_xyz",
-      "summary": "<p>Brittia n'aime visiblement pas la vérité.</p>\n<img src=\"https://nitter.net/pic/media%2FHKzP84LWMAAeEjy.jpg\" />\n\n<img src=\"https://nitter.net/pic/media%2FHKzP83OWQAAS-hV.jpg\" />"
-    },
-    {
-      "title": "Quand tu découvres sur twitter que tes élèves de l'option Maths Expertes, ils ont aussi \"une épreuve\" de bac... 🤡",
-      "link": "https://twitter.com/nsi_xyz/status/2066208139007942894#m",
-      "date": "2026-06-14T17:16:23",
-      "source": "@nsi_xyz",
-      "summary": "<p>Quand tu découvres sur twitter que tes élèves de l'option Maths Expertes, ils ont aussi \"une épreuve\" de bac... 🤡</p>"
-    },
-    {
-      "title": "R to @AnthropicAI: By themselves, these projects will not be sufficient to meet the challenge of advanced AI. But they’re a signal of our intent. Over the coming months and years, we will expand our work on these fronts much further.",
-      "link": "https://twitter.com/AnthropicAI/status/2064783425807187970#m",
-      "date": "2026-06-10T18:55:05",
-      "source": "@AnthropicAI",
-      "summary": "<p>By themselves, these projects will not be sufficient to meet the challenge of advanced AI. But they’re a signal of our intent. Over the coming months and years, we will expand our work on these fro"
-    },
-    {
-      "title": "R to @AnthropicAI: And tomorrow, we’ll launch a $150 million national fellowship program designed to help people early in their careers extend the benefits of AI to communities across America.",
-      "link": "https://twitter.com/AnthropicAI/status/2064783424251101553#m",
-      "date": "2026-06-10T18:55:04",
-      "source": "@AnthropicAI",
-      "summary": "<p>And tomorrow, we’ll launch a $150 million national fellowship program designed to help people early in their careers extend the benefits of AI to communities across America.</p>"
-    },
-    {
-      "title": "New Anthropic Science Blog: Making Claude a chemist.\n\nTo manipulate a molecule, chemists first need to understand its structure. Their main tool is NMR spectroscopy.\n\nWe found Opus 4.7 matches—and on some tasks beats—dedicated NMR software. Read more: https://www.anthropic.com/research/making-claude-a-chemist",
-      "link": "https://twitter.com/AnthropicAI/status/2062979607448682731#m",
-      "date": "2026-06-05T19:27:21",
-      "source": "@AnthropicAI",
-      "summary": "<p>New Anthropic Science Blog: Making Claude a chemist.<br />\n<br />\nTo manipulate a molecule, chemists first need to understand its structure. Their main tool is NMR spectroscopy.<br />\n<br />\nWe fou"
-    },
-    {
-      "title": "R to @MistralAI: 📚 Learn more here https://mistral.ai/news/workflows",
-      "link": "https://twitter.com/MistralAI/status/2049128192405917836#m",
-      "date": "2026-04-28T14:06:46",
-      "source": "@MistralAI",
-      "summary": "<p>📚 Learn more here <a href=\"https://mistral.ai/news/workflows\">mistral.ai/news/workflows</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2064318628212953088%2Fm9tglwMi%3Fformat%3Djpg%26name%3D80"
-    },
-    {
-      "title": "R to @MistralAI: Hear from our team:",
-      "link": "https://twitter.com/MistralAI/status/2049128190874964030#m",
-      "date": "2026-04-28T14:06:46",
-      "source": "@MistralAI",
-      "summary": "<p>Hear from our team:</p>\n<a href=\"https://nitter.net/MistralAI/status/2049128190874964030#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2049128073883525120%2Fimg%2F5"
-    },
-    {
-      "title": "R to @deepseek_ai: Structural Innovation & Ultra-High Context Efficiency\n\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).\n🔹 Peak Efficiency: World-leading long context with drastically reduced compute & memory costs.\n🔹 1M Standard: 1M context is now the default across all official DeepSeek services.\n\n4/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516936289017964#m",
-      "date": "2026-04-24T03:24:13",
-      "source": "@deepseek_ai",
-      "summary": "<p>Structural Innovation & Ultra-High Context Efficiency<br />\n<br />\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).<br />\n🔹 Peak Efficiency: World-leading long context w"
-    },
-    {
-      "title": "R to @deepseek_ai: DeepSeek-V4-Flash\n\n🔹 Reasoning capabilities closely approach V4-Pro.\n🔹 Performs on par with V4-Pro on simple Agent tasks.\n🔹 Smaller parameter size, faster response times, and highly cost-effective API pricing.\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516932140884024#m",
-      "date": "2026-04-24T03:24:12",
-      "source": "@deepseek_ai",
-      "summary": "<p>DeepSeek-V4-Flash<br />\n<br />\n🔹 Reasoning capabilities closely approach V4-Pro.<br />\n🔹 Performs on par with V4-Pro on simple Agent tasks.<br />\n🔹 Smaller parameter size, faster response times, an"
-    },
-    {
-      "title": "R to @deepseek_ai: DeepSeek-V4-Pro\n\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pro.\n🔹 World-Class Reasoning: Beats all current open models in Math/STEM/Coding, rivaling top closed-source models.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516926432399791#m",
-      "date": "2026-04-24T03:24:10",
-      "source": "@deepseek_ai",
-      "summary": "<p>DeepSeek-V4-Pro<br />\n<br />\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.<br />\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pr"
-    },
-    {
-      "title": "An issue caused some user accounts to be incorrectly suspended. \n\nWe’re restoring access and working through related subscription and credit issues.\nhttps://status.openai.com/incidents/ejj40mae",
-      "link": "https://twitter.com/OpenAI/status/2062927046448431587#m",
-      "date": "2026-06-05T15:58:29",
-      "source": "@OpenAI",
-      "summary": "<p>An issue caused some user accounts to be incorrectly suspended. <br />\n<br />\nWe’re restoring access and working through related subscription and credit issues.<br />\n<a href=\"https://status.openai"
-    },
-    {
-      "title": "Face aux paniques sur la désinformation, @hugoreasoning rappelle que les fake news représentent 1 à 5% du contenu des réseaux sociaux, sont consommées par 1% des utilisateurs, et que le lien causal entre extrémisme et conso d'infox va dans le sens inverse à celui qu'on dénonce.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2066463337924186623#m",
-      "date": "2026-06-15T10:10:27",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Face aux paniques sur la désinformation, <a href=\"https://nitter.net/hugoreasoning\" title=\"Hugo Mercier\">@hugoreasoning</a> rappelle que les fake news représentent 1 à 5% du contenu des réseaux soc"
-    },
-    {
-      "title": "\"A terme, peut-être que nous aurons des machines qui seront plus intelligentes que les humains, mais elles seront sous nos ordres\".\nAh ouf, on est tranquilles. J'espère juste qu'il n'est pas trop influencé par Star Wars et ses droïdes serviables, car réalité ≠ science-fiction.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2066445428283814153#m",
-      "date": "2026-06-15T08:59:17",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>\"A terme, peut-être que nous aurons des machines qui seront plus intelligentes que les humains, mais elles seront sous nos ordres\".<br />\nAh ouf, on est tranquilles. J'espère juste qu'il n'est pas "
-    },
-    {
-      "title": "Luc Julia, \"spécialiste de l'IA devenu célèbre pour avoir cocréé l'assistant vocal Siri vendu à Apple\" (??), reste donc une référence pour nos journalistes.\n\"Il manquera toujours à l'IA ce petit truc humain qui fait qu'elle sera créative\". S'il le dit, pourquoi en douter ?",
-      "link": "https://twitter.com/Fabien_Mikol/status/2066445117586596335#m",
-      "date": "2026-06-15T08:58:03",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Luc Julia, \"spécialiste de l'IA devenu célèbre pour avoir cocréé l'assistant vocal Siri vendu à Apple\" (??), reste donc une référence pour nos journalistes.<br />\n\"Il manquera toujours à l'IA ce pe"
-    },
-    {
-      "title": "🧠 L’esprit critique ne se construit pas seul.\nFace aux IA qui flattent nos certitudes, l’enjeu est de recréer du collectif : dialogue, désaccord, confiance.\nÀ l’école aussi, l’IA peut aider chacun, mais seulement si elle renforce le commun.\n🔗 https://chut.media/intelligence-artificielle/resituer-leducation-a-lesprit-critique/",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2064724937592471850#m",
-      "date": "2026-06-10T15:02:40",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🧠 L’esprit critique ne se construit pas seul.<br />\nFace aux IA qui flattent nos certitudes, l’enjeu est de recréer du collectif : dialogue, désaccord, confiance.<br />\nÀ l’école aussi, l’IA peut a"
-    },
-    {
-      "title": "Sal Khan le reconnaît : la révolution Khanmigo n’a pas eu lieu. Beaucoup d’élèves n’ont pas utilisé le tuteur IA.\n\nLeçon essentielle : l’IA ne crée ni motivation, ni questionnement, ni apprentissage sans scénario pédagogique. 🧠\n\n🔗 https://www.chalkbeat.org/2026/04/09/sal-khan-reflects-on-ai-in-schools-and-khanmigo/\n\n#IA #Éducation #EdTech",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2062919983882019236#m",
-      "date": "2026-06-05T15:30:26",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Sal Khan le reconnaît : la révolution Khanmigo n’a pas eu lieu. Beaucoup d’élèves n’ont pas utilisé le tuteur IA.<br />\n<br />\nLeçon essentielle : l’IA ne crée ni motivation, ni questionnement, ni "
-    },
-    {
-      "title": "Bachelard évoquait la « bradypsychie » : cette pensée ralentie quand le temps manque pour réfléchir.\nÀ l’heure de l’IA et de l’accélération permanente, réhabilitons la lenteur : lire, regarder, flâner, observer.\nPenser exige parfois de décélérer. 🧠\n#IA #Bachelard #Attention",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2060072368203047165#m",
-      "date": "2026-05-28T18:55:01",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Bachelard évoquait la « bradypsychie » : cette pensée ralentie quand le temps manque pour réfléchir.<br />\nÀ l’heure de l’IA et de l’accélération permanente, réhabilitons la lenteur : lire, regarde"
-    },
-    {
-      "title": "PDFFly PDF summarizer",
-      "link": "https://www.uneiaparjour.fr/pdffly-pdf-summarizer/",
-      "date": "2026-06-13T20:46:43",
-      "source": "Une IA par jour",
-      "summary": "PDFFly (https://pdffly.com/pdf-summarizer) génère un résumé structuré depuis un PDF importé et permet d&#8217;interroger le document via un chatbot. Fchier PDF jusqu&#8217;à 100 Mo.L&#8217;outil fait "
-    },
-    {
-      "title": "RT by @nsi_xyz: Bac de maths : « C'est très compliqué de dire qu'on est contents d'une épreuve anticipée, qui n'est pas adossée sur un cours de mathématiques », explique Mélanie Guénais, mathématicienne à l'université Paris-Saclay, dans l'émission Paris d'Ecole.\n\n→ https://l.lefigaro.fr/mzD9",
-      "link": "https://twitter.com/LeFigaroTV/status/2065836780599885854#m",
-      "date": "2026-06-13T16:40:44",
-      "source": "@nsi_xyz",
-      "summary": "<p>Bac de maths : « C'est très compliqué de dire qu'on est contents d'une épreuve anticipée, qui n'est pas adossée sur un cours de mathématiques », explique Mélanie Guénais, mathématicienne à l'univer"
-    },
-    {
-      "title": "🧠 Mémoriser durablement, ça s’apprend !\n5️⃣ idées concrètes pour aider les élèves : tester régulièrement, créer des fiches questions/réponses, réactiver dans le temps, utiliser des flashcards et exploiter les murs de classe.\n🔗 https://www.linkedin.com/posts/yohann-domenech-24b49119b_idaezes-aider-tester-share-7462045983141523456-V0jX/?utm_source=share&utm_medium=member_ios&rcm=ACoAABRx4SEB0WYrJITM_mZ2ZQU6cYtw5QtsjIA \n✍️ Yohann Domenech",
-      "link": "https://twitter.com/sophiaefrance/status/2062834321371652385#m",
-      "date": "2026-06-05T09:50:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧠 Mémoriser durablement, ça s’apprend !<br />\n5️⃣ idées concrètes pour aider les élèves : tester régulièrement, créer des fiches questions/réponses, réactiver dans le temps, utiliser des flashcards"
-    },
-    {
-      "title": "2nde GT ou 2nde Pro ? @juliendelmas propose un outil gratuit pr aider les élèves de 3e à préparer leur orientation:résultats,motivation,centres d’intérêt,durée d’études, stages et lycées à proximité. Un vrai appui pour les familles et équipes éducatives 👍\nhttps://apresla3e.fr",
-      "link": "https://twitter.com/sophiaefrance/status/2061308014980743296#m",
-      "date": "2026-06-01T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>2nde GT ou 2nde Pro ? <a href=\"https://nitter.net/juliendelmas\" title=\"Julien Delmas\">@juliendelmas</a> propose un outil gratuit pr aider les élèves de 3e à préparer leur orientation:résultats,moti"
-    },
-    {
-      "title": "L’un de nos formateurs a créé un outil gratuit pour aider les enseignants à mieux comprendre leur sentiment d’efficacité personnelle en gestion de classe. \nAuto-évaluation, profil #SEP, pistes de développement et bilan PDF en 15 min.\nhttps://sep-gc-godin.base44.app/\n✍️ Anthony Godin",
-      "link": "https://twitter.com/sophiaefrance/status/2059604290490994886#m",
-      "date": "2026-05-27T11:55:03",
-      "source": "@sophiaefrance",
-      "summary": "<p>L’un de nos formateurs a créé un outil gratuit pour aider les enseignants à mieux comprendre leur sentiment d’efficacité personnelle en gestion de classe. <br />\nAuto-évaluation, profil <a href=\"ht"
-    },
-    {
-      "title": "🤖 L’IA ne s’explique pas seulement. Elle s’expérimente.\nAvec Vittascience, @ac_orleanstours propose une ressource pr faire créer des jeux de données, entraîner un modèle, tester ses résultats et comprendre les biais. \nhttps://pedagogie.ac-orleans-tours.fr/spip.php?article3903",
-      "link": "https://twitter.com/sophiaefrance/status/2058771306796007709#m",
-      "date": "2026-05-25T04:45:04",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤖 L’IA ne s’explique pas seulement. Elle s’expérimente.<br />\nAvec Vittascience, <a href=\"https://nitter.net/ac_orleanstours\" title=\"Académie d'Orléans-Tours\">@ac_orleanstours</a> propose une resso"
-    },
-    {
-      "title": "RT by @AnthropicAI: Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use.\n\nIts capabilities exceed those of any model we’ve ever made generally available.",
-      "link": "https://twitter.com/claudeai/status/2064394146916229443#m",
-      "date": "2026-06-09T17:08:13",
-      "source": "@AnthropicAI",
-      "summary": "<p>Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use.<br />\n<br />\nIts capabilities exceed those of any model we’ve ever made generally available.</p>\n<a href=\"http"
-    },
-    {
-      "title": "R to @MistralAI: mistral.ai/news/ai-now-summi…",
-      "link": "https://twitter.com/MistralAI/status/2059951141195075833#m",
-      "date": "2026-05-28T10:53:18",
-      "source": "@MistralAI",
-      "summary": "<p><a href=\"https://mistral.ai/news/ai-now-summit-2026/\">mistral.ai/news/ai-now-summi…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2065022251410345984%2FvNPHtcu2%3Fformat%3Djpg%26name%3D800x41"
-    },
-    {
-      "title": "RT by @MistralAI: Build once. Reuse everywhere.\n\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.",
-      "link": "https://twitter.com/MistralDevs/status/2044418622131437755#m",
-      "date": "2026-04-15T14:12:37",
-      "source": "@MistralAI",
-      "summary": "<p>Build once. Reuse everywhere.<br />\n<br />\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.</p>\n<im"
-    },
-    {
-      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
-      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
-      "date": "2026-04-29T02:20:52",
-      "source": "@deepseek_ai",
-      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
-    },
-    {
-      "title": "R to @OpenAI: Listen to the OpenAI Podcast on—\n\nSpotify\nhttps://open.spotify.com/episode/3ca5s3o53D5xcEKmKgLLGj?si=4a9a555641fa4293\n\nApple\nhttps://podcasts.apple.com/us/podcast/how-a-reasoning-model-cracked-an-80-year-old/id1820330260?i=1000771190131\n\nYouTube\nhttps://youtu.be/wNWz5Hbh5VQ",
-      "link": "https://twitter.com/OpenAI/status/2062630458433917126#m",
-      "date": "2026-06-04T20:19:57",
-      "source": "@OpenAI",
-      "summary": "<p>Listen to the OpenAI Podcast on—<br />\n<br />\nSpotify<br />\n<a href=\"https://open.spotify.com/episode/3ca5s3o53D5xcEKmKgLLGj?si=4a9a555641fa4293\">open.spotify.com/episode/3ca…</a><br />\n<br />\nAppl"
-    },
-    {
-      "title": "What happened when one of our models found a counterexample to an 80-year-old Erdős conjecture?\n\nResearchers @alexwei_, @HongxunWu, and @wjmzbmr1 shared the story on the OpenAI Podcast with @AndrewMayne and explained how mathematicians and models can work together to make new discoveries.",
-      "link": "https://twitter.com/OpenAI/status/2062630454537424930#m",
-      "date": "2026-06-04T20:19:56",
-      "source": "@OpenAI",
-      "summary": "<p>What happened when one of our models found a counterexample to an 80-year-old Erdős conjecture?<br />\n<br />\nResearchers <a href=\"https://nitter.net/alexwei_\" title=\"Alexander Wei\">@alexwei_</a>, <"
     }
   ],
-  "last_update": "2026-06-18T11:44:56.132495",
+  "last_update": "2026-06-19T11:58:28.656481",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
