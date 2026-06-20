@@ -1,6 +1,195 @@
 {
   "articles": [
     {
+      "title": "Happycapy",
+      "link": "https://www.uneiaparjour.fr/happycapy/",
+      "date": "2026-06-14T20:59:00",
+      "source": "Une IA par jour",
+      "summary": "Happycapy (https://happycapy.ai/) est un chatbot avec des agents IA pour exécuter dans le navigateur des tâches à la place de l&#8217;utilisateur. Génération de tous types de contenus via une instruct"
+    },
+    {
+      "title": "PDFFly PDF summarizer",
+      "link": "https://www.uneiaparjour.fr/pdffly-pdf-summarizer/",
+      "date": "2026-06-13T20:46:43",
+      "source": "Une IA par jour",
+      "summary": "PDFFly (https://pdffly.com/pdf-summarizer) génère un résumé structuré depuis un PDF importé et permet d&#8217;interroger le document via un chatbot. Fchier PDF jusqu&#8217;à 100 Mo.L&#8217;outil fait "
+    },
+    {
+      "title": "Trace Ta Route : un projet du laboratoire de mathématiques de Loué, présentation et ressources",
+      "link": "https://mathix.org/linux/archives/22495",
+      "date": "2026-06-19T15:40:11",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Voilà le 9 juin, le projet aboutissait à une gigantesque fresque de 84 carrés avec des motifs géométriques sur la route menant au collège (barrée par la mairie pour l&#8217;"
+    },
+    {
+      "title": "Introducing the OpenAI Partner Network",
+      "link": "https://openai.com/index/introducing-openai-partner-network",
+      "date": "2026-06-14T17:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation."
+    },
+    {
+      "title": "R to @nsi_xyz: Aujourd'hui je vais vous apprendre à configurer votre pare-feu préféré, FireFox, à l'aide d'un expert IA de cnews. 2/2",
+      "link": "https://twitter.com/nsi_xyz/status/2068272703270694996#m",
+      "date": "2026-06-20T10:00:13",
+      "source": "@nsi_xyz",
+      "summary": "<p>Aujourd'hui je vais vous apprendre à configurer votre pare-feu préféré, FireFox, à l'aide d'un expert IA de cnews. 2/2</p>\n<img src=\"https://nitter.net/pic/media%2FHLP7EDLXYAATp9C.jpg\" />"
+    },
+    {
+      "title": "Aujourd'hui je vais vous apprendre à configurer votre pare-feu préféré, FireFox, à l'aide d'un expert IA de cnews. 1/2 ⤵️\nhttps://youtu.be/aZZGPZ4l0_Q?is=FLgKQ2Ft63-Xb-Ex",
+      "link": "https://twitter.com/nsi_xyz/status/2068253019041337675#m",
+      "date": "2026-06-20T08:42:00",
+      "source": "@nsi_xyz",
+      "summary": "<p>Aujourd'hui je vais vous apprendre à configurer votre pare-feu préféré, FireFox, à l'aide d'un expert IA de cnews. 1/2 ⤵️<br />\n<a href=\"https://piped.video/aZZGPZ4l0_Q?is=FLgKQ2Ft63-Xb-Ex\">piped.v"
+    },
+    {
+      "title": "R to @nsi_xyz: Ah mais c'est pour la rentrée 2027, on a le temps 😆\nJ'avais mal lu. Par contre, si 2/3 du volume horaire est sur l'IA il faut former tous les enseignants de SNT, et réécrire complètement les programmes. Ou alors la SNT passe à 2h30 par semaine.",
+      "link": "https://twitter.com/nsi_xyz/status/2068023849694662980#m",
+      "date": "2026-06-19T17:31:22",
+      "source": "@nsi_xyz",
+      "summary": "<p>Ah mais c'est pour la rentrée 2027, on a le temps 😆<br />\nJ'avais mal lu. Par contre, si 2/3 du volume horaire est sur l'IA il faut former tous les enseignants de SNT, et réécrire complètement les "
+    },
+    {
+      "title": "Si on doit faire 1h d'enseignement sur l'IA en SNT, sachant que ce n'est pas actuellement dans le programme, et que l'on ne dispose que de 1h30 par semaine, quelles sont les notions du programme qui vont sauter ? Il faut réduire de 66% le programme. A vos stylos.",
+      "link": "https://twitter.com/nsi_xyz/status/2068021050693001502#m",
+      "date": "2026-06-19T17:20:15",
+      "source": "@nsi_xyz",
+      "summary": "<p>Si on doit faire 1h d'enseignement sur l'IA en SNT, sachant que ce n'est pas actuellement dans le programme, et que l'on ne dispose que de 1h30 par semaine, quelles sont les notions du programme qu"
+    },
+    {
+      "title": "🧠 Mémoriser durablement, ça s’apprend !\n5️⃣ idées concrètes pour aider les élèves : tester régulièrement, créer des fiches questions/réponses, réactiver dans le temps, utiliser des flashcards et exploiter les murs de classe.\n🔗 https://www.linkedin.com/posts/yohann-domenech-24b49119b_idaezes-aider-tester-share-7462045983141523456-V0jX/?utm_source=share&utm_medium=member_ios&rcm=ACoAABRx4SEB0WYrJITM_mZ2ZQU6cYtw5QtsjIA \n✍️ Yohann Domenech",
+      "link": "https://twitter.com/sophiaefrance/status/2062834321371652385#m",
+      "date": "2026-06-05T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧠 Mémoriser durablement, ça s’apprend !<br />\n5️⃣ idées concrètes pour aider les élèves : tester régulièrement, créer des fiches questions/réponses, réactiver dans le temps, utiliser des flashcards"
+    },
+    {
+      "title": "2nde GT ou 2nde Pro ? @juliendelmas propose un outil gratuit pr aider les élèves de 3e à préparer leur orientation:résultats,motivation,centres d’intérêt,durée d’études, stages et lycées à proximité. Un vrai appui pour les familles et équipes éducatives 👍\nhttps://apresla3e.fr",
+      "link": "https://twitter.com/sophiaefrance/status/2061308014980743296#m",
+      "date": "2026-06-01T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>2nde GT ou 2nde Pro ? <a href=\"https://nitter.net/juliendelmas\" title=\"Julien Delmas\">@juliendelmas</a> propose un outil gratuit pr aider les élèves de 3e à préparer leur orientation:résultats,moti"
+    },
+    {
+      "title": "R to @MistralAI: mistral.ai/news/ai-now-summi…",
+      "link": "https://twitter.com/MistralAI/status/2059951141195075833#m",
+      "date": "2026-05-28T10:53:18",
+      "source": "@MistralAI",
+      "summary": "<p><a href=\"https://mistral.ai/news/ai-now-summit-2026/\">mistral.ai/news/ai-now-summi…</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2067558976024436736%2FsixN-1G_%3Fformat%3Djpg%26name%3D800x41"
+    },
+    {
+      "title": "R to @MistralAI: 📚 Learn more here https://mistral.ai/news/workflows",
+      "link": "https://twitter.com/MistralAI/status/2049128192405917836#m",
+      "date": "2026-04-28T14:06:46",
+      "source": "@MistralAI",
+      "summary": "<p>📚 Learn more here <a href=\"https://mistral.ai/news/workflows\">mistral.ai/news/workflows</a></p>\n<img src=\"https://nitter.net/pic/card_img%2F2066855425874833408%2Fociw4gYg%3Fformat%3Djpg%26name%3D80"
+    },
+    {
+      "title": "R to @MistralAI: Hear from our team:",
+      "link": "https://twitter.com/MistralAI/status/2049128190874964030#m",
+      "date": "2026-04-28T14:06:46",
+      "source": "@MistralAI",
+      "summary": "<p>Hear from our team:</p>\n<a href=\"https://nitter.net/MistralAI/status/2049128190874964030#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2049128073883525120%2Fimg%2F5"
+    },
+    {
+      "title": "RT by @MistralAI: Build once. Reuse everywhere.\n\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.",
+      "link": "https://twitter.com/MistralDevs/status/2044418622131437755#m",
+      "date": "2026-04-15T14:12:37",
+      "source": "@MistralAI",
+      "summary": "<p>Build once. Reuse everywhere.<br />\n<br />\nThe Connectors API is now in Public Preview. Register MCP connectors once and use them across Le Chat, AI Studio, and all programmatic tool calls.</p>\n<im"
+    },
+    {
+      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
+      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
+      "date": "2026-04-29T02:20:52",
+      "source": "@deepseek_ai",
+      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
+    },
+    {
+      "title": "R to @deepseek_ai: Structural Innovation & Ultra-High Context Efficiency\n\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).\n🔹 Peak Efficiency: World-leading long context with drastically reduced compute & memory costs.\n🔹 1M Standard: 1M context is now the default across all official DeepSeek services.\n\n4/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516936289017964#m",
+      "date": "2026-04-24T03:24:13",
+      "source": "@deepseek_ai",
+      "summary": "<p>Structural Innovation & Ultra-High Context Efficiency<br />\n<br />\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).<br />\n🔹 Peak Efficiency: World-leading long context w"
+    },
+    {
+      "title": "R to @deepseek_ai: DeepSeek-V4-Flash\n\n🔹 Reasoning capabilities closely approach V4-Pro.\n🔹 Performs on par with V4-Pro on simple Agent tasks.\n🔹 Smaller parameter size, faster response times, and highly cost-effective API pricing.\n\n3/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516932140884024#m",
+      "date": "2026-04-24T03:24:12",
+      "source": "@deepseek_ai",
+      "summary": "<p>DeepSeek-V4-Flash<br />\n<br />\n🔹 Reasoning capabilities closely approach V4-Pro.<br />\n🔹 Performs on par with V4-Pro on simple Agent tasks.<br />\n🔹 Smaller parameter size, faster response times, an"
+    },
+    {
+      "title": "R to @deepseek_ai: DeepSeek-V4-Pro\n\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pro.\n🔹 World-Class Reasoning: Beats all current open models in Math/STEM/Coding, rivaling top closed-source models.\n\n2/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516926432399791#m",
+      "date": "2026-04-24T03:24:10",
+      "source": "@deepseek_ai",
+      "summary": "<p>DeepSeek-V4-Pro<br />\n<br />\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.<br />\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pr"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Ah et au fait non, bien sûr, Luc Julia n'est pas \"l'un des fondateurs de Siri\", on se lasse de le répéter mais apparemment il le faut bien :\nhttps://monsieurphi.com/2025/08/22/luc-julia-a-t-il-menti-les-temoignages-des-co-fondateurs-de-siri-vs-les-declarations-de-luc-julia/",
+      "link": "https://twitter.com/Fabien_Mikol/status/2068168217541914718#m",
+      "date": "2026-06-20T03:05:02",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Ah et au fait non, bien sûr, Luc Julia n'est pas \"l'un des fondateurs de Siri\", on se lasse de le répéter mais apparemment il le faut bien :<br />\n<a href=\"https://monsieurphi.com/2025/08/22/luc-ju"
+    },
+    {
+      "title": "R to @Fabien_Mikol: C'est d'autant plus risible alors que le modèle ChatGPT qui a réfuté la conjecture d'Erdős est parfaitement \"généraliste\", et qu'OpenAI continue évidemment sur cette voie quoi qu'il en dise.\nEt non, les modèles \"spécifiques\" ne sont pas meilleurs :",
+      "link": "https://twitter.com/Fabien_Mikol/status/2068167845293220164#m",
+      "date": "2026-06-20T03:03:33",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>C'est d'autant plus risible alors que le modèle ChatGPT qui a réfuté la conjecture d'Erdős est parfaitement \"généraliste\", et qu'OpenAI continue évidemment sur cette voie quoi qu'il en dise.<br />\n"
+    },
+    {
+      "title": "Journaliste tech : \"On ne peut pas parler d'IA en France sans interviewer Luc Julia\"\nLuc Julia : les LLM généralistes comme ChatGPT ne servent à rien, mais Claude est un modèle spécifique avec un meilleur taux de pertinence.\nIl répète cette absurdité depuis longtemps (voir + bas)",
+      "link": "https://twitter.com/Fabien_Mikol/status/2068167842273320969#m",
+      "date": "2026-06-20T03:03:32",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Journaliste tech : \"On ne peut pas parler d'IA en France sans interviewer Luc Julia\"<br />\nLuc Julia : les LLM généralistes comme ChatGPT ne servent à rien, mais Claude est un modèle spécifique ave"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Source : Festival Philosophia, débat de clôture le 31 mai dernier\nhttps://www.youtube.com/watch?v=7uAqdAU10yo",
+      "link": "https://twitter.com/Fabien_Mikol/status/2067968310063305056#m",
+      "date": "2026-06-19T13:50:40",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Source : Festival Philosophia, débat de clôture le 31 mai dernier<br />\n<a href=\"https://piped.video/watch?v=7uAqdAU10yo\">piped.video/watch?v=7uAqdAU1…</a></p>"
+    },
+    {
+      "title": "Etienne Klein a eu l'honneur de clôturer le Festival Philosophia sur l'intelligence : l'occasion rêvée de répéter le hoax selon lequel \"intelligence\" dans IA signifierait \"à l'origine en anglais\" traitement de l'information, ce qui serait bien différent du sens français...\n🧵",
+      "link": "https://twitter.com/Fabien_Mikol/status/2067968293000957953#m",
+      "date": "2026-06-19T13:50:36",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Etienne Klein a eu l'honneur de clôturer le Festival Philosophia sur l'intelligence : l'occasion rêvée de répéter le hoax selon lequel \"intelligence\" dans IA signifierait \"à l'origine en anglais\" t"
+    },
+    {
+      "title": "🎙️ Quand l’IA s’invite dans l’atelier de l’historien.\nAvec Caroline Muller, Victor Gysembergh et Alexandre Gefen, un épisode passionnant sur ce que l’IA transforme dans la manière de faire et d'écrire l'histoire.\n🎧 https://www.radiofrance.fr/franceculture/podcasts/le-cours-de-l-histoire/l-ia-pour-l-histoire-succes-promesses-ecueils-8808890\n#Histoire #IA #HumanitésNumériques",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2068001522319794386#m",
+      "date": "2026-06-19T16:02:39",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🎙️ Quand l’IA s’invite dans l’atelier de l’historien.<br />\nAvec Caroline Muller, Victor Gysembergh et Alexandre Gefen, un épisode passionnant sur ce que l’IA transforme dans la manière de faire et"
+    },
+    {
+      "title": "L’IA est conçue pour réduire l’effort cognitif.\nL’école, elle, organise cet effort pour qu’il devienne apprentissage.\nTout l’enjeu est là : former les élèves à utiliser l’IA sans lui déléguer ce qui fait apprendre. 🧠\n🔗 https://drphilippahardman.substack.com/p/from-ai-tutors-to-ai-study-mates\n#IA #Éducation #Apprentissage",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2066551967418118260#m",
+      "date": "2026-06-15T16:02:38",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>L’IA est conçue pour réduire l’effort cognitif.<br />\nL’école, elle, organise cet effort pour qu’il devienne apprentissage.<br />\nTout l’enjeu est là : former les élèves à utiliser l’IA sans lui dé"
+    },
+    {
+      "title": "L’IA générative rend-elle les élèves paresseux intellectuellement ? 🧠\nPas par nature. Mais sans cadre, elle peut encourager le raccourci cognitif.\nL’enjeu : apprendre à penser avec l’IA, sans la laisser penser à notre place.\n🔗 https://ecolebranchee.com/ia-generative-paresse-cognitive-peur-legitime-eclairer/ \n#IA #Éducation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2065094330495230450#m",
+      "date": "2026-06-11T15:30:30",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>L’IA générative rend-elle les élèves paresseux intellectuellement ? 🧠<br />\nPas par nature. Mais sans cadre, elle peut encourager le raccourci cognitif.<br />\nL’enjeu : apprendre à penser avec l’IA"
+    },
+    {
+      "title": "🧠 L’esprit critique ne se construit pas seul.\nFace aux IA qui flattent nos certitudes, l’enjeu est de recréer du collectif : dialogue, désaccord, confiance.\nÀ l’école aussi, l’IA peut aider chacun, mais seulement si elle renforce le commun.\n🔗 https://chut.media/intelligence-artificielle/resituer-leducation-a-lesprit-critique/",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2064724937592471850#m",
+      "date": "2026-06-10T15:02:40",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🧠 L’esprit critique ne se construit pas seul.<br />\nFace aux IA qui flattent nos certitudes, l’enjeu est de recréer du collectif : dialogue, désaccord, confiance.<br />\nÀ l’école aussi, l’IA peut a"
+    },
+    {
       "title": "Reconquérir le Hors-Classe, un enjeu pour les apprentissages, une IA accompagnatrice pour les parents et enfant au service de l’enseignant",
       "link": "https://mathix.org/linux/archives/22441",
       "date": "2026-06-03T07:47:21",
@@ -510,198 +699,9 @@
       "date": "2026-06-16T19:41:54",
       "source": "@AnthropicAI",
       "summary": "<p>The average task in Claude Code has grown more valuable.<br />\n<br />\nWe compared the type of work done in each session to what that same task would cost on a freelance marketplace. From October to"
-    },
-    {
-      "title": "R to @AnthropicAI: Using our privacy-preserving analysis tool, we analyzed 400K sessions from between October 2025 and April 2026.\n\nWe classified each session by its main goal. More than half consist of writing or repairing code; nearly 1 in 5 are operating software.",
-      "link": "https://twitter.com/AnthropicAI/status/2066969534322688427#m",
-      "date": "2026-06-16T19:41:54",
-      "source": "@AnthropicAI",
-      "summary": "<p>Using our privacy-preserving analysis tool, we analyzed 400K sessions from between October 2025 and April 2026.<br />\n<br />\nWe classified each session by its main goal. More than half consist of w"
-    },
-    {
-      "title": "Our latest economic research introduces a framework for tracking Claude Code as it scales. \n\nWho is using Claude Code, and what are they using it for? How is the value of tasks changing? And how much does domain expertise shape whether a session succeeds?\nhttps://www.anthropic.com/research/claude-code-expertise",
-      "link": "https://twitter.com/AnthropicAI/status/2066969532380721386#m",
-      "date": "2026-06-16T19:41:53",
-      "source": "@AnthropicAI",
-      "summary": "<p>Our latest economic research introduces a framework for tracking Claude Code as it scales. <br />\n<br />\nWho is using Claude Code, and what are they using it for? How is the value of tasks changing"
-    },
-    {
-      "title": "RT by @MistralAI: SHIPPED. Mistral Vibe is now the AI agent for long-horizon productivity and coding, and the home for Work mode, Code mode, the CLI, and a brand new VS Code extension. Let's go... 🧵",
-      "link": "https://twitter.com/mistralvibe/status/2059984963932499973#m",
-      "date": "2026-05-28T13:07:42",
-      "source": "@MistralAI",
-      "summary": "<p>SHIPPED. Mistral Vibe is now the AI agent for long-horizon productivity and coding, and the home for Work mode, Code mode, the CLI, and a brand new VS Code extension. Let's go... 🧵</p>\n<a href=\"htt"
-    },
-    {
-      "title": "RT by @MistralAI: Introducing remote agents in Vibe and Mistral Medium 3.5. You can now launch remote agents in the cloud, including from the CLI or Le Chat. Plus, new Work mode in Le Chat for complex, multi-step tasks. 🧵",
-      "link": "https://twitter.com/mistralvibe/status/2049511749603168520#m",
-      "date": "2026-04-29T15:30:53",
-      "source": "@MistralAI",
-      "summary": "<p>Introducing remote agents in Vibe and Mistral Medium 3.5. You can now launch remote agents in the cloud, including from the CLI or Le Chat. Plus, new Work mode in Le Chat for complex, multi-step ta"
-    },
-    {
-      "title": "We are making our discount permanent! 🎉\n\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀",
-      "link": "https://twitter.com/deepseek_ai/status/2057854261699195173#m",
-      "date": "2026-05-22T16:01:03",
-      "source": "@deepseek_ai",
-      "summary": "<p>We are making our discount permanent! 🎉<br />\n<br />\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀</p>\n<img src=\"https://nitter.net/pic/media%2FHI7xPnWbgAAW4UO.jpg\""
-    },
-    {
-      "title": "Pinned: 🔥DeepSeek Input Cache Price Drop!\n\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less.\n\n📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
-      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
-      "date": "2026-04-26T16:35:11",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
-    },
-    {
-      "title": "🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.\n\n🛠️Integration Updates:\n🔹Claude Code: Set model to deepseek-v4-pro[1m]  to unlock 1M context!\n🔹OpenCode: Update to v1.14.24+\n🔹OpenClaw: Update to v2026.4.24+\n\nCheck the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
-      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
-      "date": "2026-04-25T15:33:11",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
-    },
-    {
-      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.\n🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI.\n\n7/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
-      "date": "2026-04-24T03:24:16",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
-    },
-    {
-      "title": "R to @deepseek_ai: API is Available Today!\n\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.\n🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://api-docs.deepseek.com/guides/thinking_mode\n\n⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking).\n\n6/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516945466188072#m",
-      "date": "2026-04-24T03:24:15",
-      "source": "@deepseek_ai",
-      "summary": "<p>API is Available Today!<br />\n<br />\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.<br />\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.<br />\n🔹 Both models suppor"
-    },
-    {
-      "title": "R to @deepseek_ai: Dedicated Optimizations for Agent Capabilities\n\n🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode.\n🔹 Already driving our in-house agentic coding at DeepSeek.\n\nThe figure below showcases a sample PDF generated by DeepSeek-V4-Pro.\n\n5/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516941074796676#m",
-      "date": "2026-04-24T03:24:14",
-      "source": "@deepseek_ai",
-      "summary": "<p>Dedicated Optimizations for Agent Capabilities<br />\n<br />\n🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode.<br />\n🔹 Already driving our in-house"
-    },
-    {
-      "title": "R to @OpenAI: Deployment Simulation works best with representative production data, which external evaluators often can’t access. \n\nIn a companion post for our Alignment blog, we also explore the public WildChat dataset and find that, while less precise, it still provides a useful signal about deployment behavior.\nhttps://alignment.openai.com/validating-public-evals/",
-      "link": "https://twitter.com/OpenAI/status/2066969642774720961#m",
-      "date": "2026-06-16T19:42:19",
-      "source": "@OpenAI",
-      "summary": "<p>Deployment Simulation works best with representative production data, which external evaluators often can’t access. <br />\n<br />\nIn a companion post for our Alignment blog, we also explore the pub"
-    },
-    {
-      "title": "R to @OpenAI: Simulated deployments also reduced evaluation awareness to levels close to real production traffic. \n\nWe extended the method to agentic deployments with stateful tools, showing that tool simulators can produce realistic trajectories when given sufficient context and capabilities.",
-      "link": "https://twitter.com/OpenAI/status/2066969640727969845#m",
-      "date": "2026-06-16T19:42:19",
-      "source": "@OpenAI",
-      "summary": "<p>Simulated deployments also reduced evaluation awareness to levels close to real production traffic. <br />\n<br />\nWe extended the method to agentic deployments with stateful tools, showing that too"
-    },
-    {
-      "title": "R to @OpenAI: Across 20 behavior categories and three GPT-5-series Thinking deployments, simulated and observed rates were strongly correlated. \n\nThe method outperformed challenging-prompt and previous-deployment baselines at predicting whether rates would rise or fall—and by how much.",
-      "link": "https://twitter.com/OpenAI/status/2066969639041855852#m",
-      "date": "2026-06-16T19:42:19",
-      "source": "@OpenAI",
-      "summary": "<p>Across 20 behavior categories and three GPT-5-series Thinking deployments, simulated and observed rates were strongly correlated. <br />\n<br />\nThe method outperformed challenging-prompt and previo"
-    },
-    {
-      "title": "R to @OpenAI: Traditional evaluations and red-teaming remain essential, especially for rare or severe risks. \n\nDeployment Simulation complements them by helping us estimate how often undesired behaviors may occur in realistic use and surface new behaviors before release.",
-      "link": "https://twitter.com/OpenAI/status/2066969637880001008#m",
-      "date": "2026-06-16T19:42:18",
-      "source": "@OpenAI",
-      "summary": "<p>Traditional evaluations and red-teaming remain essential, especially for rare or severe risks. <br />\n<br />\nDeployment Simulation complements them by helping us estimate how often undesired behavi"
-    },
-    {
-      "title": "R to @OpenAI: For this research, we analyzed only ChatGPT conversations from users who allow their data to be used to improve models. \n\nBefore analysis, we removed account-linked identifiers and identifiable information, and we report only aggregate findings.",
-      "link": "https://twitter.com/OpenAI/status/2066969636369994189#m",
-      "date": "2026-06-16T19:42:18",
-      "source": "@OpenAI",
-      "summary": "<p>For this research, we analyzed only ChatGPT conversations from users who allow their data to be used to improve models. <br />\n<br />\nBefore analysis, we removed account-linked identifiers and iden"
-    },
-    {
-      "title": "We’re sharing new research on a method for anticipating how models may behave in real-world use before release: simulating deployment with recent, de-identified user requests and studying candidate model responses. https://openai.com/index/deployment-simulation/",
-      "link": "https://twitter.com/OpenAI/status/2066969635099144682#m",
-      "date": "2026-06-16T19:42:18",
-      "source": "@OpenAI",
-      "summary": "<p>We’re sharing new research on a method for anticipating how models may behave in real-world use before release: simulating deployment with recent, de-identified user requests and studying candidate"
-    },
-    {
-      "title": "R to @OpenAI: Listen to the OpenAI Podcast on—\n\nSpotify\nhttps://open.spotify.com/episode/5pkjhUnZNSdibLKyMFdFa7?si=T9tynshWSV2puIhmDT7Axg\n\nApple\nhttps://podcasts.apple.com/us/podcast/why-tejal-patwardhan-stopped-underestimating-the/id1820330260?i=1000772992914\n\nYouTube\nhttps://youtu.be/CFqjjKp9Y-Q",
-      "link": "https://twitter.com/OpenAI/status/2066934697004089626#m",
-      "date": "2026-06-16T17:23:28",
-      "source": "@OpenAI",
-      "summary": "<p>Listen to the OpenAI Podcast on—<br />\n<br />\nSpotify<br />\n<a href=\"https://open.spotify.com/episode/5pkjhUnZNSdibLKyMFdFa7?si=T9tynshWSV2puIhmDT7Axg\">open.spotify.com/episode/5pk…</a><br />\n<br /"
-    },
-    {
-      "title": "Let’s talk about evals.\n\nWe’re always looking for better ways to measure and forecast model progress, especially as benchmarks get saturated or gamed. \n\n@tejalpatwardhan, who leads our frontier evals team, spoke to @andrewmayne about why evals matter and what models need to be judged on next.",
-      "link": "https://twitter.com/OpenAI/status/2066934692641956231#m",
-      "date": "2026-06-16T17:23:27",
-      "source": "@OpenAI",
-      "summary": "<p>Let’s talk about evals.<br />\n<br />\nWe’re always looking for better ways to measure and forecast model progress, especially as benchmarks get saturated or gamed. <br />\n<br />\n<a href=\"https://nit"
-    },
-    {
-      "title": "RT by @OpenAI: More of Codex is rolling out across Europe this week.\n\nWe’re bringing Computer use, the Codex Chrome extension, personalized memory, and Chronicle to Codex users in the EEA, UK, and Switzerland.\n\nhttps://developers.openai.com/codex/changelog/#codex-2026-06-16-app",
-      "link": "https://twitter.com/OpenAIDevs/status/2066916479438930166#m",
-      "date": "2026-06-16T16:11:04",
-      "source": "@OpenAI",
-      "summary": "<p>More of Codex is rolling out across Europe this week.<br />\n<br />\nWe’re bringing Computer use, the Codex Chrome extension, personalized memory, and Chronicle to Codex users in the EEA, UK, and Swi"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Son analogie avec un stagiaire qui doit manipuler un grand nombre de textes dont il ne comprend pas la langue n'est qu'une reformulation de l'argument de la chambre chinoise de Searle. Cet argument est pourtant tout sauf décisif dans le domaine :",
-      "link": "https://twitter.com/Fabien_Mikol/status/2066794692356771848#m",
-      "date": "2026-06-16T08:07:08",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Son analogie avec un stagiaire qui doit manipuler un grand nombre de textes dont il ne comprend pas la langue n'est qu'une reformulation de l'argument de la chambre chinoise de Searle. Cet argument"
-    },
-    {
-      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "date": "2026-06-11T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content."
-    },
-    {
-      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
-      "link": "https://openai.com/index/openai-on-oracle-cloud",
-      "date": "2026-06-10T20:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance."
-    },
-    {
-      "title": "PRC-linked influence operations are targeting AI debates in the US",
-      "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "date": "2026-06-10T12:00:00",
-      "source": "OpenAI Blog",
-      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT."
-    },
-    {
-      "title": "The latest AI news we announced in May 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
-      "date": "2026-06-05T14:45:00",
-      "source": "Google AI",
-      "summary": "May AI recap"
-    },
-    {
-      "title": "How we used Gemini to build Google I/O 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-      "date": "2026-06-01T16:00:00",
-      "source": "Google AI",
-      "summary": "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and t"
-    },
-    {
-      "title": "🧩 Gestion de classe : prévenir, réagir, rétablir.\n@HEC_Montreal propose des affiches pratiques pour aider les enseignants à gérer les situations perturbatrices avec tact pédagogique : retards, prises de parole, tensions, climat à reconstruire.\nhttps://enseigner.hec.ca/pedagogie/affiches/gestion-de-classe/",
-      "link": "https://twitter.com/sophiaefrance/status/2064677716645892160#m",
-      "date": "2026-06-10T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧩 Gestion de classe : prévenir, réagir, rétablir.<br />\n<a href=\"https://nitter.net/HEC_Montreal\" title=\"HEC Montréal\">@HEC_Montreal</a> propose des affiches pratiques pour aider les enseignants à "
-    },
-    {
-      "title": "AI is advancing at a pace our policymaking institutions were never built for—and the gap between the two is becoming the central challenge of the technology. In his latest essay, our CEO Dario Amodei lays out how to close it.\n\nWe're launching three new initiatives to support the efforts he outlines.",
-      "link": "https://twitter.com/AnthropicAI/status/2064783418844762489#m",
-      "date": "2026-06-10T18:55:03",
-      "source": "@AnthropicAI",
-      "summary": "<p>AI is advancing at a pace our policymaking institutions were never built for—and the gap between the two is becoming the central challenge of the technology. In his latest essay, our CEO Dario Amod"
     }
   ],
-  "last_update": "2026-06-19T11:58:28.656481",
+  "last_update": "2026-06-20T10:26:28.380715",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
