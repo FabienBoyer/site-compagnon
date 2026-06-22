@@ -1,6 +1,62 @@
 {
   "articles": [
     {
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "date": "2026-06-21T23:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts."
+    },
+    {
+      "title": "Predicting model behavior before release by simulating deployment",
+      "link": "https://openai.com/index/deployment-simulation",
+      "date": "2026-06-16T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy."
+    },
+    {
+      "title": "🧠 Et si le véritable apprentissage commençait juste au-dessus de ce que l’élève sait déjà faire ? 👉 Trop facile : il se désengage. 👉 Trop difficile : il se décourage. 👉 Entre les deux : la #ZPD Petit à petit, l’erreur devient un signal d’apprentissage 🚀 ✍️ Mejdi Ayari",
+      "link": "https://twitter.com/sophiaefrance/status/2068918160925807073#m",
+      "date": "2026-06-22T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧠 Et si le véritable apprentissage commençait juste au-dessus de ce que l’élève sait déjà faire ?<br />\n👉 Trop facile : il se désengage.<br />\n👉  Trop difficile : il se décourage.<br />\n👉 Entre les"
+    },
+    {
+      "title": "#TDAH et #autisme : 2️⃣ réalités différentes. Mieux comprendre leurs différences et leurs points communs permet de favoriser un diagnostic précoce, un #accompagnement adapté et une #inclusion réelle à l’école comme au quotidien. ✍️ MDA Africa Thérapie",
+      "link": "https://twitter.com/sophiaefrance/status/2067214432564892112#m",
+      "date": "2026-06-17T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p><a href=\"https://nitter.net/search?f=tweets&amp;q=%23TDAH\">#TDAH</a> et <a href=\"https://nitter.net/search?f=tweets&amp;q=%23autisme\">#autisme</a> : 2️⃣ réalités différentes. Mieux comprendre leurs"
+    },
+    {
+      "title": "R to @AnthropicAI: These and other measures will allow us to track consequential shifts in the nature of work as they happen—we'll incorporate some of them into the Anthropic Economic Index going forward. Read the full report: https://www.anthropic.com/research/claude-code-expertise",
+      "link": "https://twitter.com/AnthropicAI/status/2066969542010806561#m",
+      "date": "2026-06-16T19:41:55",
+      "source": "@AnthropicAI",
+      "summary": "<p>These and other measures will allow us to track consequential shifts in the nature of work as they happen—we'll incorporate some of them into the Anthropic Economic Index going forward. <br />\n<br "
+    },
+    {
+      "title": "R to @AnthropicAI: Domain experts—as judged by the questions they ask and vocabulary they use about a subject—are more likely to see success. But the gap between intermediate and expert users is quite modest, suggesting that proficiency in a domain is sufficient to code successfully within it.",
+      "link": "https://twitter.com/AnthropicAI/status/2066969540412780644#m",
+      "date": "2026-06-16T19:41:55",
+      "source": "@AnthropicAI",
+      "summary": "<p>Domain experts—as judged by the questions they ask and vocabulary they use about a subject—are more likely to see success.<br />\n<br />\nBut the gap between intermediate and expert users is quite mo"
+    },
+    {
+      "title": "R to @AnthropicAI: We compared Claude Code success rates between occupations. On our toughest measure of success—requiring verifiable evidence that a goal was completed, like committed code—every field was within 7 percentage points of software engineering.",
+      "link": "https://twitter.com/AnthropicAI/status/2066969538193920307#m",
+      "date": "2026-06-16T19:41:54",
+      "source": "@AnthropicAI",
+      "summary": "<p>We compared Claude Code success rates between occupations. <br />\n<br />\nOn our toughest measure of success—requiring verifiable evidence that a goal was completed, like committed code—every field "
+    },
+    {
+      "title": "R to @AnthropicAI: The average task in Claude Code has grown more valuable. We compared the type of work done in each session to what that same task would cost on a freelance marketplace. From October to April, the monetary value of the average session grew 27%.",
+      "link": "https://twitter.com/AnthropicAI/status/2066969536423985295#m",
+      "date": "2026-06-16T19:41:54",
+      "source": "@AnthropicAI",
+      "summary": "<p>The average task in Claude Code has grown more valuable.<br />\n<br />\nWe compared the type of work done in each session to what that same task would cost on a freelance marketplace. From October to"
+    },
+    {
       "title": "Socrati",
       "link": "https://www.uneiaparjour.fr/socrati/",
       "date": "2026-06-20T20:02:00",
@@ -643,65 +699,9 @@
       "date": "2026-05-28T15:00:00",
       "source": "Google AI",
       "summary": "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote"
-    },
-    {
-      "title": "Une loi qui imposerait une température constamment entre 16° et 26° dans une salle de classe. En cas de non respect, (hors panne exceptionnelle) un système d'amende automatique payé directement et personnellement par les élus et le problème serait résolu immédiatement.",
-      "link": "https://twitter.com/nsi_xyz/status/2067464579303510238#m",
-      "date": "2026-06-18T04:29:01",
-      "source": "@nsi_xyz",
-      "summary": "<p>Une loi qui imposerait une température constamment entre 16° et 26° dans une salle de classe. En cas de non respect, (hors panne exceptionnelle) un système d'amende automatique payé directement et "
-    },
-    {
-      "title": "🌍 Combien pèse vraiment une requête #IA, une douche ou un mail avec PJ ?\nVoici un jeu en ligne pour classer les actions du quotidien selon leur empreinte carbone, seul ou jusqu’à 4 joueurs. Idéal pour travailler les ordres de grandeur en classe. \nhttps://combien.remyvdm.com/",
-      "link": "https://twitter.com/sophiaefrance/status/2063844730799034411#m",
-      "date": "2026-06-08T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🌍 Combien pèse vraiment une requête <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a>, une douche ou un mail avec PJ ?<br />\nVoici un jeu en ligne pour classer les actions du quotidi"
-    },
-    {
-      "title": "🧭 L’Odyssée de l’Intelligence propose un escape game pour explorer l’#IA en classe ou en famille : 7 époques, des énigmes, des débats et des activités pour comprendre l’entraînement des modèles, leurs usages et leurs limites \nhttps://ia-odysseeenfamille-6972d5.forge.apps.education.fr/",
-      "link": "https://twitter.com/sophiaefrance/status/2062141008117125272#m",
-      "date": "2026-06-03T11:55:03",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧭 L’Odyssée de l’Intelligence propose un escape game pour explorer l’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> en classe ou en famille : 7 époques, des énigmes, des débats et"
-    },
-    {
-      "title": "Débuter dans le métier, c’est souvent devoir tout penser en même temps. @acgrenoble propose une fiche claire pr construire une séance efficace : accroche, modelage, pratique guidée, autonomie, feedback & autoévaluation. \nhttps://www1.ac-grenoble.fr/debuter-dans-le-metier-126048",
-      "link": "https://twitter.com/sophiaefrance/status/2060220853996900488#m",
-      "date": "2026-05-29T04:45:03",
-      "source": "@sophiaefrance",
-      "summary": "<p>Débuter dans le métier, c’est souvent devoir tout penser en même temps. <a href=\"https://nitter.net/acgrenoble\" title=\"Académie de Grenoble\">@acgrenoble</a> propose une fiche claire pr construire u"
-    },
-    {
-      "title": "The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees.\n\nThe net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance.\n\nAccess to all other Claude models is not affected.\n\nWe apologize for this disruption to our customers. We believe this is a misunderstanding and are working to restore access as soon as possible.\n\nRead our full statement: https://www.anthropic.com/news/fable-mythos-access",
-      "link": "https://twitter.com/AnthropicAI/status/2065597531644743999#m",
-      "date": "2026-06-13T00:50:03",
-      "source": "@AnthropicAI",
-      "summary": "<p>The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the "
-    },
-    {
-      "title": "Pinned: Mistral’s AI Now Summit is coming to Paris on May 28 and tickets are live!\n\nWhat you’ll hear:\n📷 Technical deep dives to help you build and deploy AI.\n📷 Mistral’s founders on AI-driven transformation in large organizations, company trajectory, and upcoming releases.\n\nOne day to leave with:\n✅ Hands-on techniques to deploy and scale AI\n✅ Practical insights on AI use cases\n✅ Connections with peers to help you build your own AI\n\nGet your pass now → https://ainowsummit.com",
-      "link": "https://twitter.com/MistralAI/status/2042256228668276987#m",
-      "date": "2026-04-09T15:00:02",
-      "source": "@MistralAI",
-      "summary": "<p>Mistral’s AI Now Summit is coming to Paris on May 28 and tickets are live!<br />\n<br />\nWhat you’ll hear:<br />\n📷 Technical deep dives to help you build and deploy AI.<br />\n📷 Mistral’s founders on"
-    },
-    {
-      "title": "R to @OpenAI: LifeSciBench is a foundation for more realistic evaluation, targeted improvements, and continued partnership with the life sciences community—helping the field measure progress, identify gaps, and improve AI together for the benefit of everyone.",
-      "link": "https://twitter.com/OpenAI/status/2067346920230838387#m",
-      "date": "2026-06-17T20:41:29",
-      "source": "@OpenAI",
-      "summary": "<p>LifeSciBench is a foundation for more realistic evaluation, targeted improvements, and continued partnership with the life sciences community—helping the field measure progress, identify gaps, and "
-    },
-    {
-      "title": "R to @OpenAI: Benchmarks often test biological knowledge or narrow skills. The tasks in LifeSciBench test whether models can reason from evidence, work with scientific artifacts, handle uncertainty, and make useful decisions under real-world constraints.\n\nGPT‑Rosalind scores above GPT‑5.5 across all seven workflows. These initial results show meaningful progress—and room to improve, particularly on artifact-heavy, design-intensive, and operationally constrained work.",
-      "link": "https://twitter.com/OpenAI/status/2067346918746030496#m",
-      "date": "2026-06-17T20:41:29",
-      "source": "@OpenAI",
-      "summary": "<p>Benchmarks often test biological knowledge or narrow skills. The tasks in LifeSciBench test whether models can reason from evidence, work with scientific artifacts, handle uncertainty, and make use"
     }
   ],
-  "last_update": "2026-06-21T10:59:37.338445",
+  "last_update": "2026-06-22T13:26:13.263560",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
