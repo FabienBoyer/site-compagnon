@@ -1,6 +1,104 @@
 {
   "articles": [
     {
+      "title": "Mise à jour de l’outil suivi.mathix.org",
+      "link": "https://mathix.org/linux/archives/22547",
+      "date": "2026-06-24T13:45:38",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! J&#8217;ai remis un petit lifting sur l&#8217;outil suivi de mathix.org. voici donc une présentation de l&#8217;interface enseignant et élève? J&#8217;ai également ajouté que"
+    },
+    {
+      "title": "How agents are transforming work",
+      "link": "https://openai.com/index/how-agents-are-transforming-work",
+      "date": "2026-06-25T02:00:00",
+      "source": "OpenAI Blog",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles."
+    },
+    {
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "date": "2026-06-24T06:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems."
+    },
+    {
+      "title": "RT by @nsi_xyz: Le sachez-tu? En France il existe des normes pour tout et n'importe quoi. Sauf pour protéger les élèves en fixant des températures au-delà et en deça desquelles il est obligatoire de fermer les classes.",
+      "link": "https://twitter.com/CyniqueDeGauche/status/2069790892207095878#m",
+      "date": "2026-06-24T14:32:58",
+      "source": "@nsi_xyz",
+      "summary": "<p>Le sachez-tu? En France il existe des normes pour tout et n'importe quoi.<br />\n<br />\nSauf pour protéger les élèves en fixant des températures au-delà et en deça desquelles il est obligatoire de f"
+    },
+    {
+      "title": "Une classe silencieuse n’apprend pas toujours, une classe bruyante non plus. L'enjeu n’est pas le niveau sonore mais les conditions d’apprentissage : concentration, coopération, règles et objectifs clairs. Parfois, apprendre demande du silence. Parfois, de l’échange. ✍️ C. Caron",
+      "link": "https://twitter.com/sophiaefrance/status/2069751148366409888#m",
+      "date": "2026-06-24T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Une classe silencieuse n’apprend pas toujours, une classe bruyante non plus.<br />\nL'enjeu n’est pas le niveau sonore mais les conditions d’apprentissage : concentration, coopération, règles et obj"
+    },
+    {
+      "title": "R to @AnthropicAI: Watch the robodogs in action in our first Project Fetch experiment:",
+      "link": "https://twitter.com/AnthropicAI/status/2067651700757086553#m",
+      "date": "2026-06-18T16:52:35",
+      "source": "@AnthropicAI",
+      "summary": "<p>Watch the robodogs in action in our first Project Fetch experiment:</p>\n<hr />\n<blockquote>\n<b>Anthropic (@AnthropicAI)</b>\n<p>\n<p>New Anthropic research: Project Fetch.<br />\n<br />\nWe asked two t"
+    },
+    {
+      "title": "New Frontier Red Team blog: Phase 2 of Project Fetch, where we test how well Claude can program a robodog. Opus 4.7, on its own, was ~20x faster than last year's best human team aided by Opus 4.1. (The robodog, alas, still failed to fetch a beach ball.) https://www.anthropic.com/research/project-fetch-phase-two",
+      "link": "https://twitter.com/AnthropicAI/status/2067651699486200091#m",
+      "date": "2026-06-18T16:52:34",
+      "source": "@AnthropicAI",
+      "summary": "<p>New Frontier Red Team blog: Phase 2 of Project Fetch, where we test how well Claude can program a robodog.<br />\n<br />\nOpus 4.7, on its own, was ~20x faster than last year's best human team aided "
+    },
+    {
+      "title": "RT by @OpenAI: I’m very excited about this article from @OpenAI on my attempt to use GPT-5 Pro to understand the results of an experiment we did several years ago. Remarkably, GPT-5 Pro figured out the key mechanisms, as explained in the article & infographic below! https://openai.com/index/gpt-5-immunology-mystery/",
+      "link": "https://twitter.com/DeryaTR_/status/2069846329287651765#m",
+      "date": "2026-06-24T18:13:15",
+      "source": "@OpenAI",
+      "summary": "<p>I’m very excited about this article from <a href=\"https://nitter.net/OpenAI\" title=\"OpenAI\">@OpenAI</a> on my attempt to use GPT-5 Pro to understand the results of an experiment we did several year"
+    },
+    {
+      "title": "We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles complex constraints more reliably and makes shopping and local recommendations more useful and cohesive. Rolling out today to paid users, tomorrow to free users.",
+      "link": "https://twitter.com/OpenAI/status/2069843083701915755#m",
+      "date": "2026-06-24T18:00:21",
+      "source": "@OpenAI",
+      "summary": "<p>We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to.<br />\n<br />\nOur most-used model is now better at understanding the intent behind a question and adapting its re"
+    },
+    {
+      "title": "R to @OpenAI: openai.com/index/openai-broa…",
+      "link": "https://twitter.com/OpenAI/status/2069770175709335653#m",
+      "date": "2026-06-24T13:10:39",
+      "source": "@OpenAI",
+      "summary": "<p><a href=\"https://openai.com/index/openai-broadcom-jalapeno-inference-chip/\">openai.com/index/openai-broa…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://openai.com/index/openai-broadcom-jalapeno"
+    },
+    {
+      "title": "We’ve designed and built our first AI chip: Jalapeño. Designed from the ground up by OpenAI and brought to production with @Broadcom, Jalapeño is purpose-built for the LLM workloads powering ChatGPT, Codex, the API, and future agentic products. Chips are foundational to the AI economy. Building our own expands our full-stack platform from products to models to infrastructure, and will help us scale intelligence, serve more people, and expand access to AI.",
+      "link": "https://twitter.com/OpenAI/status/2069770172802773292#m",
+      "date": "2026-06-24T13:10:38",
+      "source": "@OpenAI",
+      "summary": "<p>We’ve designed and built our first AI chip: Jalapeño.<br />\n<br />\nDesigned from the ground up by OpenAI and brought to production with <a href=\"https://nitter.net/Broadcom\" title=\"Broadcom\">@Broad"
+    },
+    {
+      "title": "Pourquoi si peu d'anticipation depuis le discours Chirac de 2002 ? @RaveaudGilles : les personnes fragiles ne sont pas considérées ; on rechigne sur la clim mais on laisse des radiateurs allumés inutilement... @MathieuPlane : on a bcp parlé d'atténuation, pas assez d'adaptation.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2069861734802731398#m",
+      "date": "2026-06-24T19:14:28",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Pourquoi si peu d'anticipation depuis le discours Chirac de 2002 ?<br />\n<a href=\"https://nitter.net/RaveaudGilles\" title=\"Gilles Raveaud\">@RaveaudGilles</a> : les personnes fragiles ne sont pas co"
+    },
+    {
+      "title": "Et si le vrai risque de l’IA n’était pas seulement de supprimer des emplois, mais d’empêcher les débutants d’apprendre leur métier ? Conséquence pour l'éducation : apprendre à apprendre, exercer son esprit critique & savoir travailler avec l’IA. 🔗 https://www.leparisien.fr/etudiant/jobs-stages/emploi-1-employeur-sur-2-juge-plus-simple-de-former-une-ia-que-de-recruter-un-jeune-diplome-LHTGMOS3OBFTXI7QTHAVEKH2FU.php",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2069813491548975598#m",
+      "date": "2026-06-24T16:02:46",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Et si le vrai risque de l’IA n’était pas seulement de supprimer des emplois, mais d’empêcher les débutants d’apprendre leur métier ?<br />\nConséquence pour l'éducation : apprendre à apprendre, exer"
+    },
+    {
+      "title": "Et si l’intérêt de l’IA en éducation était justement de ne pas fonctionner comme notre cerveau ? 🧠 Mémoire limitée, attention fragile, oubli rapide : l’IA n’apprend pas comme nous, mais elle peut nous aider à apprendre autrement. 🔗 https://carlhendrick.substack.com/p/spandrels-of-the-mind-the-case-against",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2067639157048902115#m",
+      "date": "2026-06-18T16:02:44",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>Et si l’intérêt de l’IA en éducation était justement de ne pas fonctionner comme notre cerveau ? 🧠<br />\nMémoire limitée, attention fragile, oubli rapide : l’IA n’apprend pas comme nous, mais elle "
+    },
+    {
       "title": "Loopa",
       "link": "https://www.uneiaparjour.fr/loopa/",
       "date": "2026-06-23T20:48:26",
@@ -601,107 +699,9 @@
       "date": "2026-05-29T18:31:29",
       "source": "Mathix (A. Durand)",
       "summary": "Bonjour à toutes et tous ! Je me suis rappelé il y a quelque temps une célèbre expérience sur le conformisme social, ou comment le groupe peut influencer le comportement d&#8217;un individu en toute c"
-    },
-    {
-      "title": "IA et hallucination : une activité transférable dès le CM2",
-      "link": "https://mathix.org/linux/archives/22385",
-      "date": "2026-05-26T19:20:15",
-      "source": "Mathix (A. Durand)",
-      "summary": "Quand j’ai conçu l’activité “IA et hallucination” (présent dans cet article), je l’avais pensée au départ pour des élèves de collège, avec une idée simple : faire vivre aux élèves une erreur de modéli"
-    },
-    {
-      "title": "Les cours interactifs version 2 ! Markdown et IA",
-      "link": "https://mathix.org/linux/archives/22355",
-      "date": "2026-05-22T17:00:14",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Et bien voici un projet qui mûrit depuis quelques temps, alors ma version à laquelle je voulais arriver est là, mais je voulais aussi l&#8217;implémenter avec nuage pour que"
-    },
-    {
-      "title": "Un petit lecteur MD portable",
-      "link": "https://mathix.org/linux/archives/22339",
-      "date": "2026-05-17T13:36:49",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Là je suis en pleine réécriture de mes cours, et je comptais passer au MarkDown, vous savez le format de fichier qui commence à percer, car l&#8217;IA, elle, elle produit bie"
-    },
-    {
-      "title": "Éléa dans la poche : et si on arrêtait de compliquer l’accès aux parcours ?",
-      "link": "https://mathix.org/linux/archives/22328",
-      "date": "2026-05-14T10:28:37",
-      "source": "Mathix (A. Durand)",
-      "summary": "Éléa, sur le papier, c’est franchement une belle promesse.On peut y créer des parcours, différencier, proposer des exercices, intégrer des vidéos, suivre les élèves, organiser le travail, reprendre en"
-    },
-    {
-      "title": "Un peu de flashix et un peu de mapix",
-      "link": "https://mathix.org/linux/archives/22316",
-      "date": "2026-05-13T12:34:24",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! Bon alors deux informations : Mapix ! https://mathix.org/mapix ou https://mapix.forge.apps.education.fr La syntaxe est la même que pour mymarkmap , on peuit exporter en SVG c"
-    },
-    {
-      "title": "New usage analytics and updated spend controls for enterprises",
-      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "date": "2026-06-18T17:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence."
-    },
-    {
-      "title": "Improving health intelligence in ChatGPT",
-      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "date": "2026-06-18T11:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations."
-    },
-    {
-      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "date": "2026-06-18T08:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases."
-    },
-    {
-      "title": "New OpenAI Academy courses for the next era of work",
-      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "date": "2026-06-12T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work."
-    },
-    {
-      "title": "5 ways Google Search can level up your thrift and vintage shopping",
-      "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
-      "date": "2026-06-03T13:00:00",
-      "source": "Google AI",
-      "summary": "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglas"
-    },
-    {
-      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
-      "date": "2026-05-29T19:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\" />We used Google AI Studio to vibe code a quiz about our top I/O 2026 announce"
-    },
-    {
-      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
-      "date": "2026-05-29T17:30:00",
-      "source": "Google AI",
-      "summary": "Gemini Omni & Gemini 3.5 hero"
-    },
-    {
-      "title": "Check out real-life AI prototypes from the Futures Lab.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
-      "date": "2026-05-29T12:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\" />University of Waterloo students develop AI prototypes like sign language tut"
-    },
-    {
-      "title": "🧠 Sciences cognitives & apprentissages : 1️⃣2️⃣ fiches pr mieux comprendre comment les élèves apprennent : mémoire, attention, motivation, métacognition, charge cognitive, différenciation... Une ressource pr ajuster ses pratiques et favoriser l’autonomie. \nhttps://digipad.app/p/509494/1b06ad323ccd7",
-      "link": "https://twitter.com/sophiaefrance/status/2067907752035299493#m",
-      "date": "2026-06-19T09:50:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧠 Sciences cognitives &amp; apprentissages : 1️⃣2️⃣ fiches pr mieux comprendre comment les élèves apprennent : mémoire, attention, motivation, métacognition, charge cognitive, différenciation... Un"
     }
   ],
-  "last_update": "2026-06-24T10:40:40.498673",
+  "last_update": "2026-06-25T10:34:04.079852",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
