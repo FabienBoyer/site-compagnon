@@ -1,6 +1,104 @@
 {
   "articles": [
     {
+      "title": "Repartition",
+      "link": "https://mathix.org/linux/archives/22556",
+      "date": "2026-06-26T06:54:39",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Bon, notre dotation horaire s&#8217;est amusé à faire Philippe Catherine , « j&#8217;enlève une classe » « Ohhhh » « je remets une classe » « ahhhh » mais avec sans doute des"
+    },
+    {
+      "title": "IA et hallucination : une activité transférable dès le CM2",
+      "link": "https://mathix.org/linux/archives/22385",
+      "date": "2026-05-26T19:20:15",
+      "source": "Mathix (A. Durand)",
+      "summary": "Quand j’ai conçu l’activité “IA et hallucination” (présent dans cet article), je l’avais pensée au départ pour des élèves de collège, avec une idée simple : faire vivre aux élèves une erreur de modéli"
+    },
+    {
+      "title": "Les cours interactifs version 2 ! Markdown et IA",
+      "link": "https://mathix.org/linux/archives/22355",
+      "date": "2026-05-22T17:00:14",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Et bien voici un projet qui mûrit depuis quelques temps, alors ma version à laquelle je voulais arriver est là, mais je voulais aussi l&#8217;implémenter avec nuage pour que"
+    },
+    {
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "date": "2026-06-18T17:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence."
+    },
+    {
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+      "date": "2026-06-03T13:00:00",
+      "source": "Google AI",
+      "summary": "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglas"
+    },
+    {
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "date": "2026-05-29T19:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\" />We used Google AI Studio to vibe code a quiz about our top I/O 2026 announce"
+    },
+    {
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "date": "2026-05-29T17:30:00",
+      "source": "Google AI",
+      "summary": "Gemini Omni & Gemini 3.5 hero"
+    },
+    {
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "date": "2026-05-29T12:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\" />University of Waterloo students develop AI prototypes like sign language tut"
+    },
+    {
+      "title": "🤖 L’ #IA transforme les métiers mais elle ne remplace pas ce qui fait la force de l’humain : empathie, créativité, improvisation & jugement éthique.Un éclairage utile pour penser l’école, l’orientation et les compétences de demain https://findskill.ai/fr/blog/50-metiers-ia-ne-peut-pas-remplacer-2026/ #education #orientation",
+      "link": "https://twitter.com/sophiaefrance/status/2070444463164477563#m",
+      "date": "2026-06-26T09:50:01",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 L’ <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> transforme les métiers mais elle ne remplace pas ce qui fait la force de l’humain : empathie, créativité, improvisation &amp; j"
+    },
+    {
+      "title": "🧠 Sciences cognitives & apprentissages : 1️⃣2️⃣ fiches pr mieux comprendre comment les élèves apprennent : mémoire, attention, motivation, métacognition, charge cognitive, différenciation... Une ressource pr ajuster ses pratiques et favoriser l’autonomie. https://digipad.app/p/509494/1b06ad323ccd7",
+      "link": "https://twitter.com/sophiaefrance/status/2067907752035299493#m",
+      "date": "2026-06-19T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧠 Sciences cognitives &amp; apprentissages : 1️⃣2️⃣ fiches pr mieux comprendre comment les élèves apprennent : mémoire, attention, motivation, métacognition, charge cognitive, différenciation... Un"
+    },
+    {
+      "title": "AI is advancing at a pace our policymaking institutions were never built for—and the gap between the two is becoming the central challenge of the technology. In his latest essay, our CEO Dario Amodei lays out how to close it. We're launching three new initiatives to support the efforts he outlines.",
+      "link": "https://twitter.com/AnthropicAI/status/2064783418844762489#m",
+      "date": "2026-06-10T18:55:03",
+      "source": "@AnthropicAI",
+      "summary": "<p>AI is advancing at a pace our policymaking institutions were never built for—and the gap between the two is becoming the central challenge of the technology. In his latest essay, our CEO Dario Amod"
+    },
+    {
+      "title": "R to @OpenAI: openai.com/index/how-agents-…",
+      "link": "https://twitter.com/OpenAI/status/2070196107699970398#m",
+      "date": "2026-06-25T17:23:09",
+      "source": "@OpenAI",
+      "summary": "<p><a href=\"https://openai.com/index/how-agents-are-transforming-work/\">openai.com/index/how-agents-…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://openai.com/index/how-agents-are-transforming-wor"
+    },
+    {
+      "title": "Work at OpenAI is being transformed by agents, in every department. Across our entire company, people are using Codex to do work that is more complex, longer-running, and increasingly cross-functional. Our internal usage offers an early look at how agentic tools may reshape work as they become more capable and broadly available.",
+      "link": "https://twitter.com/OpenAI/status/2070196105745518913#m",
+      "date": "2026-06-25T17:23:08",
+      "source": "@OpenAI",
+      "summary": "<p>Work at OpenAI is being transformed by agents, in every department.<br />\n<br />\nAcross our entire company, people are using Codex to do work that is more complex, longer-running, and increasingly "
+    },
+    {
+      "title": "L’IA n’impose pas une rupture à l’école. Elle rend plus visibles des priorités déjà là : pensée critique, communication, collaboration, créativité, connexion. Des enjeux anciens, mais devenus plus évidents avec la diffusion massive des IA. #Éducation #IA #Pédagogie",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2070176035195212067#m",
+      "date": "2026-06-25T16:03:23",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>L’IA n’impose pas une rupture à l’école.<br />\nElle rend plus visibles des priorités déjà là : pensée critique, communication, collaboration, créativité, connexion.<br />\nDes enjeux anciens, mais d"
+    },
+    {
       "title": "Mise à jour de l’outil suivi.mathix.org",
       "link": "https://mathix.org/linux/archives/22547",
       "date": "2026-06-24T13:45:38",
@@ -601,107 +699,9 @@
       "date": "2026-04-24T03:24:13",
       "source": "@deepseek_ai",
       "summary": "<p>Structural Innovation & Ultra-High Context Efficiency<br />\n<br />\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).<br />\n🔹 Peak Efficiency: World-leading long context w"
-    },
-    {
-      "title": "R to @deepseek_ai: DeepSeek-V4-Flash\n\n🔹 Reasoning capabilities closely approach V4-Pro.\n🔹 Performs on par with V4-Pro on simple Agent tasks.\n🔹 Smaller parameter size, faster response times, and highly cost-effective API pricing.\n\n3/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516932140884024#m",
-      "date": "2026-04-24T03:24:12",
-      "source": "@deepseek_ai",
-      "summary": "<p>DeepSeek-V4-Flash<br />\n<br />\n🔹 Reasoning capabilities closely approach V4-Pro.<br />\n🔹 Performs on par with V4-Pro on simple Agent tasks.<br />\n🔹 Smaller parameter size, faster response times, an"
-    },
-    {
-      "title": "R to @deepseek_ai: DeepSeek-V4-Pro\n\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pro.\n🔹 World-Class Reasoning: Beats all current open models in Math/STEM/Coding, rivaling top closed-source models.\n\n2/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516926432399791#m",
-      "date": "2026-04-24T03:24:10",
-      "source": "@deepseek_ai",
-      "summary": "<p>DeepSeek-V4-Pro<br />\n<br />\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.<br />\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pr"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Ah et au fait non, bien sûr, Luc Julia n'est pas \"l'un des fondateurs de Siri\", on se lasse de le répéter mais apparemment il le faut bien :\nhttps://monsieurphi.com/2025/08/22/luc-julia-a-t-il-menti-les-temoignages-des-co-fondateurs-de-siri-vs-les-declarations-de-luc-julia/",
-      "link": "https://twitter.com/Fabien_Mikol/status/2068168217541914718#m",
-      "date": "2026-06-20T03:05:02",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Ah et au fait non, bien sûr, Luc Julia n'est pas \"l'un des fondateurs de Siri\", on se lasse de le répéter mais apparemment il le faut bien :<br />\n<a href=\"https://monsieurphi.com/2025/08/22/luc-ju"
-    },
-    {
-      "title": "R to @Fabien_Mikol: C'est d'autant plus risible alors que le modèle ChatGPT qui a réfuté la conjecture d'Erdős est parfaitement \"généraliste\", et qu'OpenAI continue évidemment sur cette voie quoi qu'il en dise.\nEt non, les modèles \"spécifiques\" ne sont pas meilleurs :",
-      "link": "https://twitter.com/Fabien_Mikol/status/2068167845293220164#m",
-      "date": "2026-06-20T03:03:33",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>C'est d'autant plus risible alors que le modèle ChatGPT qui a réfuté la conjecture d'Erdős est parfaitement \"généraliste\", et qu'OpenAI continue évidemment sur cette voie quoi qu'il en dise.<br />\n"
-    },
-    {
-      "title": "Journaliste tech : \"On ne peut pas parler d'IA en France sans interviewer Luc Julia\"\nLuc Julia : les LLM généralistes comme ChatGPT ne servent à rien, mais Claude est un modèle spécifique avec un meilleur taux de pertinence.\nIl répète cette absurdité depuis longtemps (voir + bas)",
-      "link": "https://twitter.com/Fabien_Mikol/status/2068167842273320969#m",
-      "date": "2026-06-20T03:03:32",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Journaliste tech : \"On ne peut pas parler d'IA en France sans interviewer Luc Julia\"<br />\nLuc Julia : les LLM généralistes comme ChatGPT ne servent à rien, mais Claude est un modèle spécifique ave"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Source : Festival Philosophia, débat de clôture le 31 mai dernier\nhttps://www.youtube.com/watch?v=7uAqdAU10yo",
-      "link": "https://twitter.com/Fabien_Mikol/status/2067968310063305056#m",
-      "date": "2026-06-19T13:50:40",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Source : Festival Philosophia, débat de clôture le 31 mai dernier<br />\n<a href=\"https://piped.video/watch?v=7uAqdAU10yo\">piped.video/watch?v=7uAqdAU1…</a></p>"
-    },
-    {
-      "title": "Etienne Klein a eu l'honneur de clôturer le Festival Philosophia sur l'intelligence : l'occasion rêvée de répéter le hoax selon lequel \"intelligence\" dans IA signifierait \"à l'origine en anglais\" traitement de l'information, ce qui serait bien différent du sens français...\n🧵",
-      "link": "https://twitter.com/Fabien_Mikol/status/2067968293000957953#m",
-      "date": "2026-06-19T13:50:36",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Etienne Klein a eu l'honneur de clôturer le Festival Philosophia sur l'intelligence : l'occasion rêvée de répéter le hoax selon lequel \"intelligence\" dans IA signifierait \"à l'origine en anglais\" t"
-    },
-    {
-      "title": "🎙️ Quand l’IA s’invite dans l’atelier de l’historien.\nAvec Caroline Muller, Victor Gysembergh et Alexandre Gefen, un épisode passionnant sur ce que l’IA transforme dans la manière de faire et d'écrire l'histoire.\n🎧 https://www.radiofrance.fr/franceculture/podcasts/le-cours-de-l-histoire/l-ia-pour-l-histoire-succes-promesses-ecueils-8808890\n#Histoire #IA #HumanitésNumériques",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2068001522319794386#m",
-      "date": "2026-06-19T16:02:39",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🎙️ Quand l’IA s’invite dans l’atelier de l’historien.<br />\nAvec Caroline Muller, Victor Gysembergh et Alexandre Gefen, un épisode passionnant sur ce que l’IA transforme dans la manière de faire et"
-    },
-    {
-      "title": "L’IA est conçue pour réduire l’effort cognitif.\nL’école, elle, organise cet effort pour qu’il devienne apprentissage.\nTout l’enjeu est là : former les élèves à utiliser l’IA sans lui déléguer ce qui fait apprendre. 🧠\n🔗 https://drphilippahardman.substack.com/p/from-ai-tutors-to-ai-study-mates\n#IA #Éducation #Apprentissage",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2066551967418118260#m",
-      "date": "2026-06-15T16:02:38",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>L’IA est conçue pour réduire l’effort cognitif.<br />\nL’école, elle, organise cet effort pour qu’il devienne apprentissage.<br />\nTout l’enjeu est là : former les élèves à utiliser l’IA sans lui dé"
-    },
-    {
-      "title": "L’IA générative rend-elle les élèves paresseux intellectuellement ? 🧠\nPas par nature. Mais sans cadre, elle peut encourager le raccourci cognitif.\nL’enjeu : apprendre à penser avec l’IA, sans la laisser penser à notre place.\n🔗 https://ecolebranchee.com/ia-generative-paresse-cognitive-peur-legitime-eclairer/ \n#IA #Éducation",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2065094330495230450#m",
-      "date": "2026-06-11T15:30:30",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>L’IA générative rend-elle les élèves paresseux intellectuellement ? 🧠<br />\nPas par nature. Mais sans cadre, elle peut encourager le raccourci cognitif.<br />\nL’enjeu : apprendre à penser avec l’IA"
-    },
-    {
-      "title": "🧠 L’esprit critique ne se construit pas seul.\nFace aux IA qui flattent nos certitudes, l’enjeu est de recréer du collectif : dialogue, désaccord, confiance.\nÀ l’école aussi, l’IA peut aider chacun, mais seulement si elle renforce le commun.\n🔗 https://chut.media/intelligence-artificielle/resituer-leducation-a-lesprit-critique/",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2064724937592471850#m",
-      "date": "2026-06-10T15:02:40",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🧠 L’esprit critique ne se construit pas seul.<br />\nFace aux IA qui flattent nos certitudes, l’enjeu est de recréer du collectif : dialogue, désaccord, confiance.<br />\nÀ l’école aussi, l’IA peut a"
-    },
-    {
-      "title": "Reconquérir le Hors-Classe, un enjeu pour les apprentissages, une IA accompagnatrice pour les parents et enfant au service de l’enseignant",
-      "link": "https://mathix.org/linux/archives/22441",
-      "date": "2026-06-03T07:47:21",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et à tous. A l&#8217;heure de l&#8217;IA, la notion d&#8217;aide à la maison revient en force avec son lot de travers et des bénéfices. D&#8217;abord qu&#8217;attend-on de ces devoirs"
-    },
-    {
-      "title": "HelpixMD : Boostez vos exercices avec des coups de pouce différenciés !",
-      "link": "https://mathix.org/linux/archives/22414",
-      "date": "2026-05-30T12:47:29",
-      "source": "Mathix (A. Durand)",
-      "summary": "Qui n’a jamais vécu ce grand moment de solitude en classe ? Vous donnez un exercice à chercher à la maison. Le lendemain, trois profils se dessinent : l&#8217;élève bloqué dès la première ligne qui a "
-    },
-    {
-      "title": "Les stéréotypes de genre, une histoire de conformisme : un vrai travail d’éducation",
-      "link": "https://mathix.org/linux/archives/22394",
-      "date": "2026-05-29T18:31:29",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Je me suis rappelé il y a quelque temps une célèbre expérience sur le conformisme social, ou comment le groupe peut influencer le comportement d&#8217;un individu en toute c"
     }
   ],
-  "last_update": "2026-06-25T10:34:04.079852",
+  "last_update": "2026-06-26T10:43:45.169081",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
