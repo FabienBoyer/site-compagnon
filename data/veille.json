@@ -1,6 +1,104 @@
 {
   "articles": [
     {
+      "title": "Trace Ta Route : un projet du laboratoire de mathématiques de Loué, présentation et ressources",
+      "link": "https://mathix.org/linux/archives/22495",
+      "date": "2026-06-19T15:40:11",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Voilà le 9 juin, le projet aboutissait à une gigantesque fresque de 84 carrés avec des motifs géométriques sur la route menant au collège (barrée par la mairie pour l&#8217;"
+    },
+    {
+      "title": "🧠 Mémoriser durablement, ça s’apprend ! 5️⃣ idées concrètes pour aider les élèves : tester régulièrement, créer des fiches questions/réponses, réactiver dans le temps, utiliser des flashcards et exploiter les murs de classe. 🔗 https://www.linkedin.com/posts/yohann-domenech-24b49119b_idaezes-aider-tester-share-7462045983141523456-V0jX/?utm_source=share&utm_medium=member_ios&rcm=ACoAABRx4SEB0WYrJITM_mZ2ZQU6cYtw5QtsjIA ✍️ Yohann Domenech",
+      "link": "https://twitter.com/sophiaefrance/status/2062834321371652385#m",
+      "date": "2026-06-05T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧠 Mémoriser durablement, ça s’apprend !<br />\n5️⃣ idées concrètes pour aider les élèves : tester régulièrement, créer des fiches questions/réponses, réactiver dans le temps, utiliser des flashcards"
+    },
+    {
+      "title": "RT by @MistralAI: SHIPPED. Mistral Vibe is now the AI agent for long-horizon productivity and coding, and the home for Work mode, Code mode, the CLI, and a brand new VS Code extension. Let's go... 🧵",
+      "link": "https://twitter.com/mistralvibe/status/2059984963932499973#m",
+      "date": "2026-05-28T13:07:42",
+      "source": "@MistralAI",
+      "summary": "<p>SHIPPED. Mistral Vibe is now the AI agent for long-horizon productivity and coding, and the home for Work mode, Code mode, the CLI, and a brand new VS Code extension. Let's go... 🧵</p>\n<a href=\"htt"
+    },
+    {
+      "title": "R to @MistralAI: mistral.ai/news/ai-now-summi…",
+      "link": "https://twitter.com/MistralAI/status/2059951141195075833#m",
+      "date": "2026-05-28T10:53:18",
+      "source": "@MistralAI",
+      "summary": "<p><a href=\"https://mistral.ai/news/ai-now-summit-2026/\">mistral.ai/news/ai-now-summi…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://mistral.ai/news/ai-now-summit-2026/\">\n<img src=\"https://nitter."
+    },
+    {
+      "title": "We are making our discount permanent! 🎉 Enjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀",
+      "link": "https://twitter.com/deepseek_ai/status/2057854261699195173#m",
+      "date": "2026-05-22T16:01:03",
+      "source": "@deepseek_ai",
+      "summary": "<p>We are making our discount permanent! 🎉<br />\n<br />\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀</p>\n<img src=\"https://nitter.net/pic/media%2FHI7xPnWbgAAW4UO.jpg\""
+    },
+    {
+      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
+      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
+      "date": "2026-04-29T02:20:52",
+      "source": "@deepseek_ai",
+      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
+    },
+    {
+      "title": "Pinned: 🔥DeepSeek Input Cache Price Drop! Effective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less. 📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
+      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
+      "date": "2026-04-26T16:35:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
+    },
+    {
+      "title": "🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount. 🛠️Integration Updates: 🔹Claude Code: Set model to deepseek-v4-pro[1m] to unlock 1M context! 🔹OpenCode: Update to v1.14.24+ 🔹OpenClaw: Update to v2026.4.24+ Check the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
+      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
+      "date": "2026-04-25T15:33:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
+    },
+    {
+      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views. 🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI. 7/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
+      "date": "2026-04-24T03:24:16",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
+    },
+    {
+      "title": "R to @deepseek_ai: API is Available Today! 🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash. 🔹 Supports OpenAI ChatCompletions & Anthropic APIs. 🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://api-docs.deepseek.com/guides/thinking_mode ⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking). 6/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516945466188072#m",
+      "date": "2026-04-24T03:24:15",
+      "source": "@deepseek_ai",
+      "summary": "<p>API is Available Today!<br />\n<br />\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.<br />\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.<br />\n🔹 Both models suppor"
+    },
+    {
+      "title": "R to @deepseek_ai: Dedicated Optimizations for Agent Capabilities 🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode. 🔹 Already driving our in-house agentic coding at DeepSeek. The figure below showcases a sample PDF generated by DeepSeek-V4-Pro. 5/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516941074796676#m",
+      "date": "2026-04-24T03:24:14",
+      "source": "@deepseek_ai",
+      "summary": "<p>Dedicated Optimizations for Agent Capabilities<br />\n<br />\n🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode.<br />\n🔹 Already driving our in-house"
+    },
+    {
+      "title": "R to @deepseek_ai: Structural Innovation & Ultra-High Context Efficiency 🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention). 🔹 Peak Efficiency: World-leading long context with drastically reduced compute & memory costs. 🔹 1M Standard: 1M context is now the default across all official DeepSeek services. 4/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516936289017964#m",
+      "date": "2026-04-24T03:24:13",
+      "source": "@deepseek_ai",
+      "summary": "<p>Structural Innovation & Ultra-High Context Efficiency<br />\n<br />\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).<br />\n🔹 Peak Efficiency: World-leading long context w"
+    },
+    {
+      "title": "Jean-Gabriel Ganascia, dans sa dernière chronique pour Science & Avenir, dénigre la dangerosité de Mythos : \"Quasiment personne, à l’exception des ingénieurs d’Anthropic, ne l’a testé\". Il oublie juste les tests de l'@AISecurityInst, de Mozilla, les nombreux benchmarks... 😑",
+      "link": "https://twitter.com/Fabien_Mikol/status/2071175701567254803#m",
+      "date": "2026-06-28T10:15:42",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Jean-Gabriel Ganascia, dans sa dernière chronique pour Science &amp; Avenir, dénigre la dangerosité de Mythos : \"Quasiment personne, à l’exception des ingénieurs d’Anthropic, ne l’a testé\".<br />\nI"
+    },
+    {
+      "title": "A propos de cette fameuse étude Viguié et al 2020 sur la clim je conseille fortement de lire le très pédagogique fil de @laydgeur de l'été dernier. Il a migré sur Bluesky mais ce n'est pas une raison pour se priver de son excellente vulgarisation ! https://bsky.app/profile/laydgeur.bsky.social/post/3lwhm4qaw4c2b",
+      "link": "https://twitter.com/Fabien_Mikol/status/2071170700195266675#m",
+      "date": "2026-06-28T09:55:50",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>A propos de cette fameuse étude Viguié et al 2020 sur la clim je conseille fortement de lire le très pédagogique fil de <a href=\"https://nitter.net/laydgeur\" title=\"laydgeur\">@laydgeur</a> de l'été"
+    },
+    {
       "title": "Reconquérir le Hors-Classe, un enjeu pour les apprentissages, une IA accompagnatrice pour les parents et enfant au service de l’enseignant",
       "link": "https://mathix.org/linux/archives/22441",
       "date": "2026-06-03T07:47:21",
@@ -601,107 +699,9 @@
       "date": "2026-06-21T23:00:00",
       "source": "OpenAI Blog",
       "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts."
-    },
-    {
-      "title": "Predicting model behavior before release by simulating deployment",
-      "link": "https://openai.com/index/deployment-simulation",
-      "date": "2026-06-16T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy."
-    },
-    {
-      "title": "🧠 Et si le véritable apprentissage commençait juste au-dessus de ce que l’élève sait déjà faire ? 👉 Trop facile : il se désengage. 👉 Trop difficile : il se décourage. 👉 Entre les deux : la #ZPD Petit à petit, l’erreur devient un signal d’apprentissage 🚀 ✍️ Mejdi Ayari",
-      "link": "https://twitter.com/sophiaefrance/status/2068918160925807073#m",
-      "date": "2026-06-22T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧠 Et si le véritable apprentissage commençait juste au-dessus de ce que l’élève sait déjà faire ?<br />\n👉 Trop facile : il se désengage.<br />\n👉  Trop difficile : il se décourage.<br />\n👉 Entre les"
-    },
-    {
-      "title": "#TDAH et #autisme : 2️⃣ réalités différentes. Mieux comprendre leurs différences et leurs points communs permet de favoriser un diagnostic précoce, un #accompagnement adapté et une #inclusion réelle à l’école comme au quotidien. ✍️ MDA Africa Thérapie",
-      "link": "https://twitter.com/sophiaefrance/status/2067214432564892112#m",
-      "date": "2026-06-17T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p><a href=\"https://nitter.net/search?f=tweets&amp;q=%23TDAH\">#TDAH</a> et <a href=\"https://nitter.net/search?f=tweets&amp;q=%23autisme\">#autisme</a> : 2️⃣ réalités différentes. Mieux comprendre leurs"
-    },
-    {
-      "title": "R to @AnthropicAI: These and other measures will allow us to track consequential shifts in the nature of work as they happen—we'll incorporate some of them into the Anthropic Economic Index going forward. Read the full report: https://www.anthropic.com/research/claude-code-expertise",
-      "link": "https://twitter.com/AnthropicAI/status/2066969542010806561#m",
-      "date": "2026-06-16T19:41:55",
-      "source": "@AnthropicAI",
-      "summary": "<p>These and other measures will allow us to track consequential shifts in the nature of work as they happen—we'll incorporate some of them into the Anthropic Economic Index going forward. <br />\n<br "
-    },
-    {
-      "title": "R to @AnthropicAI: Domain experts—as judged by the questions they ask and vocabulary they use about a subject—are more likely to see success. But the gap between intermediate and expert users is quite modest, suggesting that proficiency in a domain is sufficient to code successfully within it.",
-      "link": "https://twitter.com/AnthropicAI/status/2066969540412780644#m",
-      "date": "2026-06-16T19:41:55",
-      "source": "@AnthropicAI",
-      "summary": "<p>Domain experts—as judged by the questions they ask and vocabulary they use about a subject—are more likely to see success.<br />\n<br />\nBut the gap between intermediate and expert users is quite mo"
-    },
-    {
-      "title": "R to @AnthropicAI: We compared Claude Code success rates between occupations. On our toughest measure of success—requiring verifiable evidence that a goal was completed, like committed code—every field was within 7 percentage points of software engineering.",
-      "link": "https://twitter.com/AnthropicAI/status/2066969538193920307#m",
-      "date": "2026-06-16T19:41:54",
-      "source": "@AnthropicAI",
-      "summary": "<p>We compared Claude Code success rates between occupations. <br />\n<br />\nOn our toughest measure of success—requiring verifiable evidence that a goal was completed, like committed code—every field "
-    },
-    {
-      "title": "R to @AnthropicAI: The average task in Claude Code has grown more valuable. We compared the type of work done in each session to what that same task would cost on a freelance marketplace. From October to April, the monetary value of the average session grew 27%.",
-      "link": "https://twitter.com/AnthropicAI/status/2066969536423985295#m",
-      "date": "2026-06-16T19:41:54",
-      "source": "@AnthropicAI",
-      "summary": "<p>The average task in Claude Code has grown more valuable.<br />\n<br />\nWe compared the type of work done in each session to what that same task would cost on a freelance marketplace. From October to"
-    },
-    {
-      "title": "Socrati",
-      "link": "https://www.uneiaparjour.fr/socrati/",
-      "date": "2026-06-20T20:02:00",
-      "source": "Une IA par jour",
-      "summary": "Socrati (https://socrati.app/) transforme une instruction, un sujet, un PDF, une vidéo YouTube ou une photo en un cours interactif avec leçons, quiz, flashcards (et audio en version payante). Trois ét"
-    },
-    {
-      "title": "The latest AI news we announced in May 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
-      "date": "2026-06-05T14:45:00",
-      "source": "Google AI",
-      "summary": "May AI recap"
-    },
-    {
-      "title": "How we used Gemini to build Google I/O 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-      "date": "2026-06-01T16:00:00",
-      "source": "Google AI",
-      "summary": "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and t"
-    },
-    {
-      "title": "Je viens d'ouvrir Faillefox avec firefox, mais j'ai vérifié tout est bon et je suis bien sécurisé. Reste \"le problème de l'eau\" comme l'a précisé Pascal, expert en IA aquatique.",
-      "link": "https://twitter.com/nsi_xyz/status/2068320336966262967#m",
-      "date": "2026-06-20T13:09:30",
-      "source": "@nsi_xyz",
-      "summary": "<p>Je viens d'ouvrir Faillefox avec firefox, mais j'ai vérifié tout est bon et je suis bien sécurisé. Reste \"le problème de l'eau\" comme l'a précisé Pascal, expert en IA aquatique.</p>\n<img src=\"https"
-    },
-    {
-      "title": "RT by @nsi_xyz: Il y a quelques semaines, certains politiques voulaient faire travailler élèves et profs jusqu’au 15 juillet. Aujourd’hui, ils découvrent… la canicule en été. À ce niveau-là, ce n’est plus du déni, c’est de l’hors-sol sous climatisation permanente.",
-      "link": "https://twitter.com/kalyce83/status/2068302548688069109#m",
-      "date": "2026-06-20T11:58:49",
-      "source": "@nsi_xyz",
-      "summary": "<p>Il y a quelques semaines, certains politiques voulaient faire travailler élèves et profs jusqu’au 15 juillet. Aujourd’hui, ils découvrent… la canicule en été. À ce niveau-là, ce n’est plus du déni,"
-    },
-    {
-      "title": "RT by @nsi_xyz: Rappel aux correcteurs du Bac et du DNB : Les consignes de correction sont des documents publics, communicables à toute personne en faisant la demande. Le ministère peut marquer CONFIDENTIEL dessus si ça l'amuse, ça ne vaut rien. La CADA a jugé.",
-      "link": "https://twitter.com/nb4ld/status/2068064948043780122#m",
-      "date": "2026-06-19T20:14:41",
-      "source": "@nsi_xyz",
-      "summary": "<p>Rappel aux correcteurs du Bac et du DNB :<br />\n<br />\nLes consignes de correction sont des documents publics, communicables à toute personne en faisant la demande.<br />\n<br />\nLe ministère peut m"
-    },
-    {
-      "title": "🧩 Gestion de classe : prévenir, réagir, rétablir. @HEC_Montreal propose des affiches pratiques pour aider les enseignants à gérer les situations perturbatrices avec tact pédagogique : retards, prises de parole, tensions, climat à reconstruire. https://enseigner.hec.ca/pedagogie/affiches/gestion-de-classe/",
-      "link": "https://twitter.com/sophiaefrance/status/2064677716645892160#m",
-      "date": "2026-06-10T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧩 Gestion de classe : prévenir, réagir, rétablir.<br />\n<a href=\"https://nitter.net/HEC_Montreal\" title=\"HEC Montréal\">@HEC_Montreal</a> propose des affiches pratiques pour aider les enseignants à "
     }
   ],
-  "last_update": "2026-06-27T09:56:18.552798",
+  "last_update": "2026-06-28T10:20:24.754469",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
