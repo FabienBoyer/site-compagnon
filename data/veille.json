@@ -1,6 +1,160 @@
 {
   "articles": [
     {
+      "title": "How ChatGPT adoption has expanded",
+      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "date": "2026-06-30T09:00:00",
+      "source": "OpenAI Blog",
+      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages."
+    },
+    {
+      "title": "Introducing GeneBench-Pro",
+      "link": "https://openai.com/index/introducing-genebench-pro",
+      "date": "2026-06-30T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets."
+    },
+    {
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "date": "2026-06-30T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug."
+    },
+    {
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "date": "2026-06-17T15:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\" />Research in “Nature” shows our conversational AI system matche"
+    },
+    {
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "date": "2026-06-11T20:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\" />We’re helping build the state’s next-generation workforce and investing in ener"
+    },
+    {
+      "title": "🌍 Combien pèse vraiment une requête #IA, une douche ou un mail avec PJ ? Voici un jeu en ligne pour classer les actions du quotidien selon leur empreinte carbone, seul ou jusqu’à 4 joueurs. Idéal pour travailler les ordres de grandeur en classe. https://combien.remyvdm.com/",
+      "link": "https://twitter.com/sophiaefrance/status/2063844730799034411#m",
+      "date": "2026-06-08T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🌍 Combien pèse vraiment une requête <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a>, une douche ou un mail avec PJ ?<br />\nVoici un jeu en ligne pour classer les actions du quotidi"
+    },
+    {
+      "title": "Claude Fable 5 will be available again globally tomorrow. After a series of productive conversations with the US government, we're redeploying the model with a new set of classifiers to target and block more cybersecurity tasks. In the near term, some routine tasks like coding and debugging will fall back to Opus 4.8. We’ll continue to refine these classifiers over the coming weeks to reduce false positives and better distinguish genuine misuse from legitimate requests. We’ve also begun drafting a consensus framework—with Amazon, Microsoft, Google, and other Glasswing partners—for assessing the severity of AI jailbreaks and how AI developers should respond to them. We invite other industry partners and model providers to join us in this effort. Finally, we’re scaling up our collaboration with the US government on model testing and safeguards. This will include pre-release access to models and safeguards for evaluation, information sharing on jailbreaks and misuse, and dedicated resources for joint research. Thank you to our users for your patience, and to our partners across the government, industry, and the research community who worked alongside us to make Fable 5 available again. Read our full blog: https://www.anthropic.com/news/redeploying-fable-5",
+      "link": "https://twitter.com/AnthropicAI/status/2072163884430229756#m",
+      "date": "2026-07-01T03:42:23",
+      "source": "@AnthropicAI",
+      "summary": "<p>Claude Fable 5 will be available again globally tomorrow.<br />\n<br />\nAfter a series of productive conversations with the US government, we're redeploying the model with a new set of classifiers t"
+    },
+    {
+      "title": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We'll begin restoring access tomorrow, and will share an update soon. We’re grateful to our users for their patience, and to everyone who worked with us on redeploying the models.",
+      "link": "https://twitter.com/AnthropicAI/status/2072106151890809341#m",
+      "date": "2026-06-30T23:52:59",
+      "source": "@AnthropicAI",
+      "summary": "<p>We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.<br />\n<br />\nWe'll begin restoring access tomorrow, and will share an update soon.<b"
+    },
+    {
+      "title": "RT by @AnthropicAI: Introducing Claude Sonnet 5, our most agentic Sonnet yet. It makes plans, uses tools like browsers and terminals, and runs autonomously at a level that just a few months ago required larger and more expensive models.",
+      "link": "https://twitter.com/claudeai/status/2072017450611142835#m",
+      "date": "2026-06-30T18:00:31",
+      "source": "@AnthropicAI",
+      "summary": "<p>Introducing Claude Sonnet 5, our most agentic Sonnet yet.<br />\n<br />\nIt makes plans, uses tools like browsers and terminals, and runs autonomously at a level that just a few months ago required l"
+    },
+    {
+      "title": "R to @MistralAI: Available today: the API, Document AI in Mistral AI Studio, Amazon SageMaker, Microsoft Foundry, coming soon Snowflake Parse Document, or self-hosted on a single container, so your documents never leave your environment. 👉 https://mistral.ai/news/ocr-4",
+      "link": "https://twitter.com/MistralAI/status/2069420271438573780#m",
+      "date": "2026-06-23T14:00:15",
+      "source": "@MistralAI",
+      "summary": "<p>Available today: the API, Document AI in Mistral AI Studio, Amazon SageMaker, Microsoft Foundry, coming soon Snowflake Parse Document, or self-hosted on a single container, so your documents never "
+    },
+    {
+      "title": "R to @MistralAI: Why the structure matters: OCR 4 localizes each block with a bounding box, classifies it (title, table, equation, signature…), and scores confidence per region, the foundation for source-grounded citations, redactions, RAG chunking, and human-in-the-loop review.",
+      "link": "https://twitter.com/MistralAI/status/2069420269748269179#m",
+      "date": "2026-06-23T14:00:14",
+      "source": "@MistralAI",
+      "summary": "<p>Why the structure matters: OCR 4 localizes each block with a bounding box, classifies it (title, table, equation, signature…), and scores confidence per region, the foundation for source-grounded c"
+    },
+    {
+      "title": "R to @MistralAI: On public benchmarks, OCR 4 tops OlmOCRBench (85.20) and leads our internal multilingual eval, with the widest gains on rare and low-resource languages, where most systems fall off.",
+      "link": "https://twitter.com/MistralAI/status/2069420268179575034#m",
+      "date": "2026-06-23T14:00:14",
+      "source": "@MistralAI",
+      "summary": "<p>On public benchmarks, OCR 4 tops OlmOCRBench (85.20) and leads our internal multilingual eval, with the widest gains on rare and low-resource languages, where most systems fall off.</p>"
+    },
+    {
+      "title": "R to @MistralAI: We ran OCR 4 head-to-head against the field. Independent annotators blindly ranked 600+ real-world documents across 12+ languages, and preferred OCR 4 over every system tested, with win rates averaging 72%.",
+      "link": "https://twitter.com/MistralAI/status/2069420266061475935#m",
+      "date": "2026-06-23T14:00:14",
+      "source": "@MistralAI",
+      "summary": "<p>We ran OCR 4 head-to-head against the field. Independent annotators blindly ranked 600+ real-world documents across 12+ languages, and preferred OCR 4 over every system tested, with win rates avera"
+    },
+    {
+      "title": "Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇",
+      "link": "https://twitter.com/MistralAI/status/2069420263825895917#m",
+      "date": "2026-06-23T14:00:13",
+      "source": "@MistralAI",
+      "summary": "<p>Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇</p>\n<img src=\"https://nitter.net/pic/media%2FHLgKXVjWEAA"
+    },
+    {
+      "title": "Mistral officially has 1,000 team members around the world! Thank you to our incredible talent for believing in the mission and contributing to what we are building each and every day. You too can be a part of the next chapter in our journey as we continue to grow and serve our customers. Apply for open roles at Mistral across all functions here: https://mistral.ai/careers/",
+      "link": "https://twitter.com/MistralAI/status/2069077356266795207#m",
+      "date": "2026-06-22T15:17:37",
+      "source": "@MistralAI",
+      "summary": "<p>Mistral officially has 1,000 team members around the world!<br />\n<br />\nThank you to our incredible talent for believing in the mission and contributing to what we are building each and every day."
+    },
+    {
+      "title": "We’re introducing GeneBench-Pro, a research-level benchmark for a harder kind of AI progress: how well agents can navigate messy biological data, choose the right analysis path, and make judgment calls that real computational research depends on. https://openai.com/index/introducing-genebench-pro/",
+      "link": "https://twitter.com/OpenAI/status/2072004836674167294#m",
+      "date": "2026-06-30T17:10:23",
+      "source": "@OpenAI",
+      "summary": "<p>We’re introducing GeneBench-Pro, a research-level benchmark for a harder kind of AI progress: how well agents can navigate messy biological data, choose the right analysis path, and make judgment c"
+    },
+    {
+      "title": "Invité sur Tech&Co de BFM hier, \"l'expert en IA\" Luc Julia a pu donner son avis sur le lancement de Google AI Overview en Europe : \"je fais rarement attention au truc, de toute façon ça me sert à rien, je fais pas confiance à l'IA moi tu sais\".",
+      "link": "https://twitter.com/Fabien_Mikol/status/2072264840387678623#m",
+      "date": "2026-07-01T10:23:33",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Invité sur Tech&amp;Co de BFM hier, \"l'expert en IA\" Luc Julia a pu donner son avis sur le lancement de Google AI Overview en Europe : \"je fais rarement attention au truc, de toute façon ça me sert"
+    },
+    {
+      "title": "Bon article sur l'économiste qui a sans doute le mieux anticipé les progrès exponentiels de l'IA. \"Il a ajouté — en plaisantant, je prie pour que ce soit le cas — qu'une IA puissante pourrait « faire tout ce qu'elle voudrait, je veux dire, y compris se débarrasser de nous tous »\"",
+      "link": "https://twitter.com/Fabien_Mikol/status/2072091423743021191#m",
+      "date": "2026-06-30T22:54:27",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Bon article sur l'économiste qui a sans doute le mieux anticipé les progrès exponentiels de l'IA.<br />\n\"Il a ajouté — en plaisantant, je prie pour que ce soit le cas — qu'une IA puissante pourrait"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Et sur les raisons théoriques pour lesquelles on pouvait finalement s'y attendre, lire l'analyse de @danwilliamsphil ⤵️",
+      "link": "https://twitter.com/Fabien_Mikol/status/2072080198523052046#m",
+      "date": "2026-06-30T22:09:51",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Et sur les raisons théoriques pour lesquelles on pouvait finalement s'y attendre, lire l'analyse de <a href=\"https://nitter.net/danwilliamsphil\" title=\"Dan Williams\">@danwilliamsphil</a> ⤵️</p>\n<hr"
+    },
+    {
+      "title": "\"Ces IA sycophantes flattent toujours l'utilisateur, qui s'enferme dans une bulle de radicalisation\" Cette étude montre l'inverse : malgré ce caractère flatteur, les LLM dépolarisent davantage en réalité les utilisateurs. Un résultat qui n'était pas anticipé par 82% des experts !",
+      "link": "https://twitter.com/Fabien_Mikol/status/2072080193355743299#m",
+      "date": "2026-06-30T22:09:50",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"Ces IA sycophantes flattent toujours l'utilisateur, qui s'enferme dans une bulle de radicalisation\"<br />\nCette étude montre l'inverse : malgré ce caractère flatteur, les LLM dépolarisent davantag"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: \"L'IA va révolutionner la façon de faire de la science. Parce que c'est un outil extraordinaire. Toute la question est de savoir : jusqu'où cela ira-t-il ? Les ordinateurs, par exemple, ont eux aussi révolutionné la façon de faire de la science, mais intellectuellement, les processus sont restés les mêmes. L'IA va-t-elle aller jusqu'à modifier le processus intellectuel ? Dans le sens où l'on n'aurait plus besoin du \"coup de génie\" d'un Galilée ou d'un Newton qui, à un moment donné, ont l'idée géniale qui ensuite va se révéler fructueuse et bouleverser le monde... Ça, je ne le sais pas - j'espère que non - mais je pense que ce n'est pas complètement exclu. Si l'IA était capable d'avoir de telles épiphanies, de faire émerger un concept totalement nouveau auquel personne n'a pensé ? Ce serait vertigineux.\" Le grand physicien, prix Nobel, et académicien Alain Aspect est l'invité exceptionnel des Grands Entretiens de @LEXPRESS. On a parlé physique quantique - si, et c'était clair ! -, maths à l'école, crise de la recherche en France, confiance en le progrès, intelligence artificielle... Une interview passionnante à retrouver gratuitement dans son intégralité ici https://l.lexpress.fr/iIg",
+      "link": "https://twitter.com/ARosencher/status/2071986904044621939#m",
+      "date": "2026-06-30T15:59:08",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"L'IA va révolutionner la façon de faire de la science.  Parce que c'est un outil extraordinaire. Toute la question est de savoir : jusqu'où cela ira-t-il ? Les ordinateurs, par exemple, ont eux au"
+    },
+    {
+      "title": "🚀 Dans 2 jours, \"J’apprends avec l’IA\" sort en librairie. Un peu de fierté. Et de vertige aussi. Avec cet ouvrage, j’ai voulu m’adresser plus directement aux élèves et à leurs parents pour les aider à faire de l’IA un outil au service de leur réussite. https://www.magnard.fr/livre/9782210787933-j-apprends-avec-l-ia",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2071987718473576473#m",
+      "date": "2026-06-30T16:02:22",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🚀 Dans 2 jours, \"J’apprends avec l’IA\" sort en librairie.<br />\nUn peu de fierté. Et de vertige aussi.<br />\nAvec cet ouvrage, j’ai voulu m’adresser plus directement aux élèves et à leurs parents p"
+    },
+    {
       "title": "Music0 AI",
       "link": "https://www.uneiaparjour.fr/music0-ai/",
       "date": "2026-06-29T18:27:28",
@@ -545,163 +699,9 @@
       "date": "2026-06-26T09:50:01",
       "source": "@sophiaefrance",
       "summary": "<p>🤖 L’ <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> transforme les métiers mais elle ne remplace pas ce qui fait la force de l’humain : empathie, créativité, improvisation &amp; j"
-    },
-    {
-      "title": "🧠 Sciences cognitives & apprentissages : 1️⃣2️⃣ fiches pr mieux comprendre comment les élèves apprennent : mémoire, attention, motivation, métacognition, charge cognitive, différenciation... Une ressource pr ajuster ses pratiques et favoriser l’autonomie. https://digipad.app/p/509494/1b06ad323ccd7",
-      "link": "https://twitter.com/sophiaefrance/status/2067907752035299493#m",
-      "date": "2026-06-19T09:50:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧠 Sciences cognitives &amp; apprentissages : 1️⃣2️⃣ fiches pr mieux comprendre comment les élèves apprennent : mémoire, attention, motivation, métacognition, charge cognitive, différenciation... Un"
-    },
-    {
-      "title": "AI is advancing at a pace our policymaking institutions were never built for—and the gap between the two is becoming the central challenge of the technology. In his latest essay, our CEO Dario Amodei lays out how to close it. We're launching three new initiatives to support the efforts he outlines.",
-      "link": "https://twitter.com/AnthropicAI/status/2064783418844762489#m",
-      "date": "2026-06-10T18:55:03",
-      "source": "@AnthropicAI",
-      "summary": "<p>AI is advancing at a pace our policymaking institutions were never built for—and the gap between the two is becoming the central challenge of the technology. In his latest essay, our CEO Dario Amod"
-    },
-    {
-      "title": "R to @OpenAI: openai.com/index/how-agents-…",
-      "link": "https://twitter.com/OpenAI/status/2070196107699970398#m",
-      "date": "2026-06-25T17:23:09",
-      "source": "@OpenAI",
-      "summary": "<p><a href=\"https://openai.com/index/how-agents-are-transforming-work/\">openai.com/index/how-agents-…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://openai.com/index/how-agents-are-transforming-wor"
-    },
-    {
-      "title": "Work at OpenAI is being transformed by agents, in every department. Across our entire company, people are using Codex to do work that is more complex, longer-running, and increasingly cross-functional. Our internal usage offers an early look at how agentic tools may reshape work as they become more capable and broadly available.",
-      "link": "https://twitter.com/OpenAI/status/2070196105745518913#m",
-      "date": "2026-06-25T17:23:08",
-      "source": "@OpenAI",
-      "summary": "<p>Work at OpenAI is being transformed by agents, in every department.<br />\n<br />\nAcross our entire company, people are using Codex to do work that is more complex, longer-running, and increasingly "
-    },
-    {
-      "title": "L’IA n’impose pas une rupture à l’école. Elle rend plus visibles des priorités déjà là : pensée critique, communication, collaboration, créativité, connexion. Des enjeux anciens, mais devenus plus évidents avec la diffusion massive des IA. #Éducation #IA #Pédagogie",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2070176035195212067#m",
-      "date": "2026-06-25T16:03:23",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>L’IA n’impose pas une rupture à l’école.<br />\nElle rend plus visibles des priorités déjà là : pensée critique, communication, collaboration, créativité, connexion.<br />\nDes enjeux anciens, mais d"
-    },
-    {
-      "title": "Mise à jour de l’outil suivi.mathix.org",
-      "link": "https://mathix.org/linux/archives/22547",
-      "date": "2026-06-24T13:45:38",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! J&#8217;ai remis un petit lifting sur l&#8217;outil suivi de mathix.org. voici donc une présentation de l&#8217;interface enseignant et élève? J&#8217;ai également ajouté que"
-    },
-    {
-      "title": "How agents are transforming work",
-      "link": "https://openai.com/index/how-agents-are-transforming-work",
-      "date": "2026-06-25T02:00:00",
-      "source": "OpenAI Blog",
-      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles."
-    },
-    {
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "date": "2026-06-24T06:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems."
-    },
-    {
-      "title": "RT by @nsi_xyz: Le sachez-tu? En France il existe des normes pour tout et n'importe quoi. Sauf pour protéger les élèves en fixant des températures au-delà et en deça desquelles il est obligatoire de fermer les classes.",
-      "link": "https://twitter.com/CyniqueDeGauche/status/2069790892207095878#m",
-      "date": "2026-06-24T14:32:58",
-      "source": "@nsi_xyz",
-      "summary": "<p>Le sachez-tu? En France il existe des normes pour tout et n'importe quoi.<br />\n<br />\nSauf pour protéger les élèves en fixant des températures au-delà et en deça desquelles il est obligatoire de f"
-    },
-    {
-      "title": "Une classe silencieuse n’apprend pas toujours, une classe bruyante non plus. L'enjeu n’est pas le niveau sonore mais les conditions d’apprentissage : concentration, coopération, règles et objectifs clairs. Parfois, apprendre demande du silence. Parfois, de l’échange. ✍️ C. Caron",
-      "link": "https://twitter.com/sophiaefrance/status/2069751148366409888#m",
-      "date": "2026-06-24T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>Une classe silencieuse n’apprend pas toujours, une classe bruyante non plus.<br />\nL'enjeu n’est pas le niveau sonore mais les conditions d’apprentissage : concentration, coopération, règles et obj"
-    },
-    {
-      "title": "R to @AnthropicAI: Watch the robodogs in action in our first Project Fetch experiment:",
-      "link": "https://twitter.com/AnthropicAI/status/2067651700757086553#m",
-      "date": "2026-06-18T16:52:35",
-      "source": "@AnthropicAI",
-      "summary": "<p>Watch the robodogs in action in our first Project Fetch experiment:</p>\n<hr />\n<blockquote>\n<b>Anthropic (@AnthropicAI)</b>\n<p>\n<p>New Anthropic research: Project Fetch.<br />\n<br />\nWe asked two t"
-    },
-    {
-      "title": "New Frontier Red Team blog: Phase 2 of Project Fetch, where we test how well Claude can program a robodog. Opus 4.7, on its own, was ~20x faster than last year's best human team aided by Opus 4.1. (The robodog, alas, still failed to fetch a beach ball.) https://www.anthropic.com/research/project-fetch-phase-two",
-      "link": "https://twitter.com/AnthropicAI/status/2067651699486200091#m",
-      "date": "2026-06-18T16:52:34",
-      "source": "@AnthropicAI",
-      "summary": "<p>New Frontier Red Team blog: Phase 2 of Project Fetch, where we test how well Claude can program a robodog.<br />\n<br />\nOpus 4.7, on its own, was ~20x faster than last year's best human team aided "
-    },
-    {
-      "title": "RT by @OpenAI: I’m very excited about this article from @OpenAI on my attempt to use GPT-5 Pro to understand the results of an experiment we did several years ago. Remarkably, GPT-5 Pro figured out the key mechanisms, as explained in the article & infographic below! https://openai.com/index/gpt-5-immunology-mystery/",
-      "link": "https://twitter.com/DeryaTR_/status/2069846329287651765#m",
-      "date": "2026-06-24T18:13:15",
-      "source": "@OpenAI",
-      "summary": "<p>I’m very excited about this article from <a href=\"https://nitter.net/OpenAI\" title=\"OpenAI\">@OpenAI</a> on my attempt to use GPT-5 Pro to understand the results of an experiment we did several year"
-    },
-    {
-      "title": "We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles complex constraints more reliably and makes shopping and local recommendations more useful and cohesive. Rolling out today to paid users, tomorrow to free users.",
-      "link": "https://twitter.com/OpenAI/status/2069843083701915755#m",
-      "date": "2026-06-24T18:00:21",
-      "source": "@OpenAI",
-      "summary": "<p>We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to.<br />\n<br />\nOur most-used model is now better at understanding the intent behind a question and adapting its re"
-    },
-    {
-      "title": "R to @OpenAI: openai.com/index/openai-broa…",
-      "link": "https://twitter.com/OpenAI/status/2069770175709335653#m",
-      "date": "2026-06-24T13:10:39",
-      "source": "@OpenAI",
-      "summary": "<p><a href=\"https://openai.com/index/openai-broadcom-jalapeno-inference-chip/\">openai.com/index/openai-broa…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://openai.com/index/openai-broadcom-jalapeno"
-    },
-    {
-      "title": "We’ve designed and built our first AI chip: Jalapeño. Designed from the ground up by OpenAI and brought to production with @Broadcom, Jalapeño is purpose-built for the LLM workloads powering ChatGPT, Codex, the API, and future agentic products. Chips are foundational to the AI economy. Building our own expands our full-stack platform from products to models to infrastructure, and will help us scale intelligence, serve more people, and expand access to AI.",
-      "link": "https://twitter.com/OpenAI/status/2069770172802773292#m",
-      "date": "2026-06-24T13:10:38",
-      "source": "@OpenAI",
-      "summary": "<p>We’ve designed and built our first AI chip: Jalapeño.<br />\n<br />\nDesigned from the ground up by OpenAI and brought to production with <a href=\"https://nitter.net/Broadcom\" title=\"Broadcom\">@Broad"
-    },
-    {
-      "title": "Pourquoi si peu d'anticipation depuis le discours Chirac de 2002 ? @RaveaudGilles : les personnes fragiles ne sont pas considérées ; on rechigne sur la clim mais on laisse des radiateurs allumés inutilement... @MathieuPlane : on a bcp parlé d'atténuation, pas assez d'adaptation.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2069861734802731398#m",
-      "date": "2026-06-24T19:14:28",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Pourquoi si peu d'anticipation depuis le discours Chirac de 2002 ?<br />\n<a href=\"https://nitter.net/RaveaudGilles\" title=\"Gilles Raveaud\">@RaveaudGilles</a> : les personnes fragiles ne sont pas co"
-    },
-    {
-      "title": "Et si le vrai risque de l’IA n’était pas seulement de supprimer des emplois, mais d’empêcher les débutants d’apprendre leur métier ? Conséquence pour l'éducation : apprendre à apprendre, exercer son esprit critique & savoir travailler avec l’IA. 🔗 https://www.leparisien.fr/etudiant/jobs-stages/emploi-1-employeur-sur-2-juge-plus-simple-de-former-une-ia-que-de-recruter-un-jeune-diplome-LHTGMOS3OBFTXI7QTHAVEKH2FU.php",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2069813491548975598#m",
-      "date": "2026-06-24T16:02:46",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Et si le vrai risque de l’IA n’était pas seulement de supprimer des emplois, mais d’empêcher les débutants d’apprendre leur métier ?<br />\nConséquence pour l'éducation : apprendre à apprendre, exer"
-    },
-    {
-      "title": "Et si l’intérêt de l’IA en éducation était justement de ne pas fonctionner comme notre cerveau ? 🧠 Mémoire limitée, attention fragile, oubli rapide : l’IA n’apprend pas comme nous, mais elle peut nous aider à apprendre autrement. 🔗 https://carlhendrick.substack.com/p/spandrels-of-the-mind-the-case-against",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2067639157048902115#m",
-      "date": "2026-06-18T16:02:44",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Et si l’intérêt de l’IA en éducation était justement de ne pas fonctionner comme notre cerveau ? 🧠<br />\nMémoire limitée, attention fragile, oubli rapide : l’IA n’apprend pas comme nous, mais elle "
-    },
-    {
-      "title": "Loopa",
-      "link": "https://www.uneiaparjour.fr/loopa/",
-      "date": "2026-06-23T20:48:26",
-      "source": "Une IA par jour",
-      "summary": "Loopa (https://www.loopa.im) est une plateforme d&#8217;agents IA qui exécute des tâches de recherche, création, analyse et automatisation. Après instructions, l&#8217;agent générer des rapports de re"
-    },
-    {
-      "title": "Helping build shared standards for advanced AI",
-      "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-      "date": "2026-06-23T13:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation."
-    },
-    {
-      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "link": "https://openai.com/index/gpt-5-immunology-mystery",
-      "date": "2026-06-23T17:00:00",
-      "source": "OpenAI Blog",
-      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research."
     }
   ],
-  "last_update": "2026-06-30T10:48:24.374205",
+  "last_update": "2026-07-01T11:16:49.279191",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
