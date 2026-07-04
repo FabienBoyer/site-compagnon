@@ -1,6 +1,153 @@
 {
   "articles": [
     {
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "link": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "date": "2026-06-26T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack."
+    },
+    {
+      "title": "RT by @nsi_xyz: La répression plutôt que l’éducation ? A la veille des vacances, le BO du 2 juillet précise les modalités d’interdiction du téléphone portable au lycée pour la rentrée 2026 : https://www.cafepedagogique.net/2026/07/03/interdiction-de-lutilisation-du-telephone-portable-et-des-autres-objets-connectes-au-lycee/",
+      "link": "https://twitter.com/cafepedagogique/status/2073063972891177309#m",
+      "date": "2026-07-03T15:19:01",
+      "source": "@nsi_xyz",
+      "summary": "<p>La répression plutôt que l’éducation ? A la veille des vacances, le BO du 2 juillet précise les modalités d’interdiction du téléphone portable au lycée pour la rentrée 2026 : <a href=\"https://www.c"
+    },
+    {
+      "title": "RT by @nsi_xyz: #GrandOral mon conseil pour les élèves: quand vous utilisez des termes compliqués comme loi binomiale\", sachez que le jury est constitué de profs nuls qui ne savent pas ce que c'est et va vous le demander. Si vous ne répondez pas il va prendre ça pour du mépris.",
+      "link": "https://twitter.com/CyniqueDeGauche/status/2070368497863975424#m",
+      "date": "2026-06-26T04:48:10",
+      "source": "@nsi_xyz",
+      "summary": "<p><a href=\"https://nitter.net/search?f=tweets&amp;q=%23GrandOral\">#GrandOral</a> mon conseil pour les élèves: quand vous utilisez des termes compliqués comme loi binomiale\", sachez que le jury est co"
+    },
+    {
+      "title": "Since June 12, we’ve been working closely with the US government to restore access to Claude Mythos 5 and Fable 5. Today, the government notified us that Mythos 5, our strongest cybersecurity model, can be redeployed to a set of US organizations that operate and defend critical infrastructure. We’re restoring access for these organizations quickly, and we’re continuing to work with the government to expand access to Mythos 5 and make Fable 5 available for general use again.",
+      "link": "https://twitter.com/AnthropicAI/status/2070665903440871779#m",
+      "date": "2026-06-27T00:29:57",
+      "source": "@AnthropicAI",
+      "summary": "<p>Since June 12, we’ve been working closely with the US government to restore access to Claude Mythos 5 and Fable 5. Today, the government notified us that Mythos 5, our strongest cybersecurity model"
+    },
+    {
+      "title": "R to @AnthropicAI: AI's impact on the economy will ultimately show up in aggregate data like employment and productivity. But it will first be visible where AI is doing the most work. By tracking how usage shifts, hour by hour, surface by surface, we can start to see those changes as they happen. Read the full report: https://www.anthropic.com/research/economic-index-june-2026-report",
+      "link": "https://twitter.com/AnthropicAI/status/2070528971687755796#m",
+      "date": "2026-06-26T15:25:50",
+      "source": "@AnthropicAI",
+      "summary": "<p>AI's impact on the economy will ultimately show up in aggregate data like employment and productivity. But it will first be visible where AI is doing the most work. By tracking how usage shifts, ho"
+    },
+    {
+      "title": "R to @AnthropicAI: Nearly half of respondents expect their work responsibilities to significantly change in the next 12 months. Fewer than 10% think they'll lose their own job within a year, but far more worry for coworkers: over 1/3 put the odds of a junior colleague losing their job above 60%.",
+      "link": "https://twitter.com/AnthropicAI/status/2070528969523499460#m",
+      "date": "2026-06-26T15:25:49",
+      "source": "@AnthropicAI",
+      "summary": "<p>Nearly half of respondents expect their work responsibilities to significantly change in the next 12 months.<br />\n<br />\nFewer than 10% think they'll lose their own job within a year, but far more"
+    },
+    {
+      "title": "R to @AnthropicAI: This Econ Index is also the first to survey Claude users. Over 1/3 expect AI to be able to do most or nearly all of their work tasks within a year. But those who delegate the most work to AI are also the most optimistic about what it means for their pay and job security.",
+      "link": "https://twitter.com/AnthropicAI/status/2070528967501849073#m",
+      "date": "2026-06-26T15:25:49",
+      "source": "@AnthropicAI",
+      "summary": "<p>This Econ Index is also the first to survey Claude users.<br />\n<br />\nOver 1/3 expect AI to be able to do most or nearly all of their work tasks within a year. <br />\n<br />\nBut those who delegate"
+    },
+    {
+      "title": "R to @AnthropicAI: The Econ Index now tracks artifacts—the primary output Claude produces in a session. We looked across Claude conversations and compared how often each artifact was used for work, coursework, or personal life. Blogging is mostly a work activity; translation falls in between.",
+      "link": "https://twitter.com/AnthropicAI/status/2070528964989456753#m",
+      "date": "2026-06-26T15:25:48",
+      "source": "@AnthropicAI",
+      "summary": "<p>The Econ Index now tracks artifacts—the primary output Claude produces in a session. We looked across Claude conversations and compared how often each artifact was used for work, coursework, or per"
+    },
+    {
+      "title": "R to @AnthropicAI: Hour by hour, Claude usage is woven into how people live and work. Prompts for news rise in the morning, while recipe requests peak in the evening. People most often seek sleep advice at 5am. Gardening, meanwhile, is stable from dawn until dusk—a perennial topic of interest.",
+      "link": "https://twitter.com/AnthropicAI/status/2070528962602901624#m",
+      "date": "2026-06-26T15:25:47",
+      "source": "@AnthropicAI",
+      "summary": "<p>Hour by hour, Claude usage is woven into how people live and work. <br />\n<br />\nPrompts for news rise in the morning, while recipe requests peak in the evening. People most often seek sleep advice"
+    },
+    {
+      "title": "Customers are not an abstraction for us: we exist to help enterprises, public institutions, and industries build their own intelligence, so the value created from their data, workflows, feedback, and models accrues to them rather than to model providers.",
+      "link": "https://twitter.com/MistralAI/status/2073163455910330528#m",
+      "date": "2026-07-03T21:54:20",
+      "source": "@MistralAI",
+      "summary": "<p>Customers are not an abstraction for us: we exist to help enterprises, public institutions, and industries build their own intelligence, so the value created from their data, workflows, feedback, a"
+    },
+    {
+      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
+      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
+      "date": "2026-04-29T02:20:52",
+      "source": "@deepseek_ai",
+      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
+    },
+    {
+      "title": "Pinned: 🔥DeepSeek Input Cache Price Drop! Effective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less. 📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
+      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
+      "date": "2026-04-26T16:35:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
+    },
+    {
+      "title": "🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount. 🛠️Integration Updates: 🔹Claude Code: Set model to deepseek-v4-pro[1m] to unlock 1M context! 🔹OpenCode: Update to v1.14.24+ 🔹OpenClaw: Update to v2026.4.24+ Check the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
+      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
+      "date": "2026-04-25T15:33:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
+    },
+    {
+      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views. 🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI. 7/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
+      "date": "2026-04-24T03:24:16",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
+    },
+    {
+      "title": "R to @deepseek_ai: API is Available Today! 🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash. 🔹 Supports OpenAI ChatCompletions & Anthropic APIs. 🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://api-docs.deepseek.com/guides/thinking_mode ⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking). 6/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516945466188072#m",
+      "date": "2026-04-24T03:24:15",
+      "source": "@deepseek_ai",
+      "summary": "<p>API is Available Today!<br />\n<br />\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.<br />\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.<br />\n🔹 Both models suppor"
+    },
+    {
+      "title": "R to @deepseek_ai: Dedicated Optimizations for Agent Capabilities 🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode. 🔹 Already driving our in-house agentic coding at DeepSeek. The figure below showcases a sample PDF generated by DeepSeek-V4-Pro. 5/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516941074796676#m",
+      "date": "2026-04-24T03:24:14",
+      "source": "@deepseek_ai",
+      "summary": "<p>Dedicated Optimizations for Agent Capabilities<br />\n<br />\n🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode.<br />\n🔹 Already driving our in-house"
+    },
+    {
+      "title": "R to @deepseek_ai: Structural Innovation & Ultra-High Context Efficiency 🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention). 🔹 Peak Efficiency: World-leading long context with drastically reduced compute & memory costs. 🔹 1M Standard: 1M context is now the default across all official DeepSeek services. 4/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516936289017964#m",
+      "date": "2026-04-24T03:24:13",
+      "source": "@deepseek_ai",
+      "summary": "<p>Structural Innovation & Ultra-High Context Efficiency<br />\n<br />\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).<br />\n🔹 Peak Efficiency: World-leading long context w"
+    },
+    {
+      "title": "R to @Fabien_Mikol: En quelques minutes, il m'a créé un jeu assez ludique et exigeant, maniable, pas trop moche, tout en prenant de bonnes initiatives (les boules à tête chercheuse, la pluie de feu...) J'avais pas essayé avec les modèles précédents cependant. https://claude.ai/share/eb0a530d-8966-4621-833e-9e2dfc28e1d1",
+      "link": "https://twitter.com/Fabien_Mikol/status/2073186949343400320#m",
+      "date": "2026-07-03T23:27:41",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>En quelques minutes, il m'a créé un jeu assez ludique et exigeant, maniable, pas trop moche, tout en prenant de bonnes initiatives (les boules à tête chercheuse, la pluie de feu...)<br />\nJ'avais p"
+    },
+    {
+      "title": "Juste un test un peu débile : j'ai demandé à Fable de me créer un jeu style R-Type où un canard combat un dragon. 2 niveaux, la difficulté croît à mesure que le dragon est blessé, et le deuxième dragon est bien fourbe. Pas facile mais ça va, j'ai de l'entraînement sur Cuphead.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2073186946537398384#m",
+      "date": "2026-07-03T23:27:40",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Juste un test un peu débile : j'ai demandé à Fable de me créer un jeu style R-Type où un canard combat un dragon. 2 niveaux, la difficulté croît à mesure que le dragon est blessé, et le deuxième dr"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: La désinformation sur l'IA fait des ravages dans les médias français. J'ai invité Fabien Mikol et Thibaut Giraud pour débunker les plus grandes idées reçues sur l'IA, dans cette interview : https://go.lefuturologue.com/FabienMikol-ThibautGiraud",
+      "link": "https://twitter.com/le_futurologue/status/2073149907477713136#m",
+      "date": "2026-07-03T21:00:29",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>La désinformation sur l'IA fait des ravages dans les médias français. J'ai invité Fabien Mikol et Thibaut Giraud pour débunker les plus grandes idées reçues sur l'IA, dans cette interview : <a href"
+    },
+    {
+      "title": "⏰ Dernière ligne droite ! Le marathon des ateliers d’été ÊtrePROF démarre lundi avec 14 ateliers autour de la thématique « J’enseigne avec l’IA ». On se retrouve ? 👉 https://etreprof.fr/ateliers?auteur=26355 #IA #Éducation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2073075028577423364#m",
+      "date": "2026-07-03T16:02:57",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>⏰ Dernière ligne droite !<br />\nLe marathon des ateliers d’été ÊtrePROF démarre lundi avec 14 ateliers autour de la thématique « J’enseigne avec l’IA ». <br />\nOn se retrouve ? 👉 <a href=\"https://e"
+    },
+    {
       "title": "L’outil pour les répartitions",
       "link": "https://mathix.org/linux/archives/22556",
       "date": "2026-06-26T06:54:39",
@@ -552,156 +699,9 @@
       "date": "2026-06-29T16:02:27",
       "source": "@MIKL_Bertrand",
       "summary": "<p>L’échec scolaire n’est pas une fatalité.<br />\nC’est aussi le produit d’attentes implicites, de consignes opaques et d’évaluations piégeuses.<br />\nKaczmarek propose une pédagogie explicite, exigea"
-    },
-    {
-      "title": "Fake news, antivax, complotisme : la réponse n’est pas seulement la prévention. L’esprit critique exige des savoirs solides, des méthodes pour évaluer… et la capacité à douter sans renoncer à faire confiance. Article du Café pédagogique : https://www.cafepedagogique.net/2026/06/15/former-lesprit-critique-apprendre-a-douter-mais-aussi-a-faire-confiance/?utm_campaign=Lexpresso_15-06-2026&utm_medium=email&utm_source=Expresso",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2069451107626041612#m",
-      "date": "2026-06-23T16:02:47",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Fake news, antivax, complotisme : la réponse n’est pas seulement la prévention.<br />\nL’esprit critique exige des savoirs solides, des méthodes pour évaluer… et la capacité à douter sans renoncer à"
-    },
-    {
-      "title": "L’IA en 2026 sert de plus en plus à décider, s’organiser, coder… ou se rassurer. Mais l’usage “apprentissage/éducation” recule : 16 % en 2024 → 11 % en 2026. Signal faible ? Oui. Mais essentiel : l’IA apprend-elle à penser… ou à éviter de penser ? 🔗 https://hbr.org/2026/06/how-people-are-really-using-ai-in-2026?ab=HP-hero-featured-1",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2069088684805071020#m",
-      "date": "2026-06-22T16:02:38",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>L’IA en 2026 sert de plus en plus à décider, s’organiser, coder… ou se rassurer.<br />\nMais l’usage “apprentissage/éducation” recule : 16 % en 2024 → 11 % en 2026.<br />\nSignal faible ? Oui. Mais e"
-    },
-    {
-      "title": "Mistral OCR 4",
-      "link": "https://www.uneiaparjour.fr/mistral-ocr-4/",
-      "date": "2026-06-28T20:31:00",
-      "source": "Une IA par jour",
-      "summary": "Mistral OCR 4 (https://console.mistral.ai/build/document-ai/ocr-playground et documentation : https://docs.mistral.ai/models/model-cards/ocr-4-0) extrait et structure le contenu de documents. Il succè"
-    },
-    {
-      "title": "Socrati",
-      "link": "https://www.uneiaparjour.fr/socrati/",
-      "date": "2026-06-20T20:02:00",
-      "source": "Une IA par jour",
-      "summary": "Socrati (https://socrati.app/) transforme une instruction, un sujet, un PDF, une vidéo YouTube ou une photo en un cours interactif avec leçons, quiz, flashcards (et audio en version payante). Trois ét"
-    },
-    {
-      "title": "Mapping Europe’s AI Workforce Opportunity",
-      "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "date": "2026-06-29T07:00:00",
-      "source": "OpenAI Blog",
-      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes."
-    },
-    {
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "link": "https://openai.com/index/hp-frontier-partnership",
-      "date": "2026-06-28T17:00:00",
-      "source": "OpenAI Blog",
-      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations."
-    },
-    {
-      "title": "The latest AI news we announced in May 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
-      "date": "2026-06-05T14:45:00",
-      "source": "Google AI",
-      "summary": "May AI recap"
-    },
-    {
-      "title": "How we used Gemini to build Google I/O 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-      "date": "2026-06-01T16:00:00",
-      "source": "Google AI",
-      "summary": "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and t"
-    },
-    {
-      "title": "⚠️ Accessibilité pédagogique ≠ adaptation. Avec la #M2PA, on anticipe dès la conception de la séance : besoins partagés, différenciations, adaptations si nécessaire. Un outil libre, institutionnel, avec appui de l#’IA Albert. https://m2pa.forge.apps.education.fr/",
-      "link": "https://twitter.com/sophiaefrance/status/2071454876253462747#m",
-      "date": "2026-06-29T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>⚠️ Accessibilité pédagogique ≠ adaptation. <br />\nAvec la <a href=\"https://nitter.net/search?f=tweets&amp;q=%23M2PA\">#M2PA</a>, on anticipe dès la conception de la séance : besoins partagés, différ"
-    },
-    {
-      "title": "🧠 Et si le véritable apprentissage commençait juste au-dessus de ce que l’élève sait déjà faire ? 👉 Trop facile : il se désengage. 👉 Trop difficile : il se décourage. 👉 Entre les deux : la #ZPD Petit à petit, l’erreur devient un signal d’apprentissage 🚀 ✍️ Mejdi Ayari",
-      "link": "https://twitter.com/sophiaefrance/status/2068918160925807073#m",
-      "date": "2026-06-22T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧠 Et si le véritable apprentissage commençait juste au-dessus de ce que l’élève sait déjà faire ?<br />\n👉 Trop facile : il se désengage.<br />\n👉  Trop difficile : il se décourage.<br />\n👉 Entre les"
-    },
-    {
-      "title": "#TDAH et #autisme : 2️⃣ réalités différentes. Mieux comprendre leurs différences et leurs points communs permet de favoriser un diagnostic précoce, un #accompagnement adapté et une #inclusion réelle à l’école comme au quotidien. ✍️ MDA Africa Thérapie",
-      "link": "https://twitter.com/sophiaefrance/status/2067214432564892112#m",
-      "date": "2026-06-17T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p><a href=\"https://nitter.net/search?f=tweets&amp;q=%23TDAH\">#TDAH</a> et <a href=\"https://nitter.net/search?f=tweets&amp;q=%23autisme\">#autisme</a> : 2️⃣ réalités différentes. Mieux comprendre leurs"
-    },
-    {
-      "title": "🧩 Gestion de classe : prévenir, réagir, rétablir. @HEC_Montreal propose des affiches pratiques pour aider les enseignants à gérer les situations perturbatrices avec tact pédagogique : retards, prises de parole, tensions, climat à reconstruire. https://enseigner.hec.ca/pedagogie/affiches/gestion-de-classe/",
-      "link": "https://twitter.com/sophiaefrance/status/2064677716645892160#m",
-      "date": "2026-06-10T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧩 Gestion de classe : prévenir, réagir, rétablir.<br />\n<a href=\"https://nitter.net/HEC_Montreal\" title=\"HEC Montréal\">@HEC_Montreal</a> propose des affiches pratiques pour aider les enseignants à "
-    },
-    {
-      "title": "R to @Fabien_Mikol: Un exemple journalistique typique était la série \"les gourous de l'IA\" du Monde. C'était pas inintéressant en soi (quoique souvent caricatural), mais ça prend clairement le pas en volume sur les articles concernant les enjeux réels des futurs modèles d'IA dans les années à venir.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2071561431607034368#m",
-      "date": "2026-06-29T11:48:27",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Un exemple journalistique typique était la série \"les gourous de l'IA\" du Monde. C'était pas inintéressant en soi (quoique souvent caricatural), mais ça prend clairement le pas en volume sur les ar"
-    },
-    {
-      "title": "En novembre 2023, le conseil d’administration d'OpenAI tenta de virer Sam Altman pour son manque constant d'honnêteté et de fiabilité, mais ce dernier est finalement parvenu à retourner la manœuvre en sa faveur. Fascinante et inquiétante rétrospective ⤵️ https://www.youtube.com/watch?v=_eYTkvZqbnQ",
-      "link": "https://twitter.com/Fabien_Mikol/status/2071381887281475726#m",
-      "date": "2026-06-28T23:55:00",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>En novembre 2023, le conseil d’administration d'OpenAI tenta de virer Sam Altman pour son manque constant d'honnêteté et de fiabilité, mais ce dernier est finalement parvenu à retourner la manœuvre"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Parmi les membres de ce conseil, il y avait Ilya Sutskever, qui depuis des années avait saisi l'importance civilisationnelle des progrès de l'IA, et la responsabilité énorme qui incombe à ceux qui la fabriqueront. Très bon passage sur ses motivations et ses inquiétudes ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2071381889667989689#m",
-      "date": "2026-06-28T23:55:01",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Parmi les membres de ce conseil, il y avait Ilya Sutskever, qui depuis des années avait saisi l'importance civilisationnelle des progrès de l'IA, et la responsabilité énorme qui incombe à ceux qui "
-    },
-    {
-      "title": "Encore une passionnante conférence de l'anthropologue Christophe Darmangeat 👌 Il revient ici sur le buzz médiatique des dernières années concernant les \"femmes chasseuses de la Préhistoire\", Lady Sapiens, etc Toute la conf vaut l'écoute, je mets quelques extraits pour motiver 🧵",
-      "link": "https://twitter.com/Fabien_Mikol/status/2071216765292454115#m",
-      "date": "2026-06-28T12:58:52",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Encore une passionnante conférence de l'anthropologue Christophe Darmangeat 👌<br />\nIl revient ici sur le buzz médiatique des dernières années concernant les \"femmes chasseuses de la Préhistoire\", "
-    },
-    {
-      "title": "Trace Ta Route : un projet du laboratoire de mathématiques de Loué, présentation et ressources",
-      "link": "https://mathix.org/linux/archives/22495",
-      "date": "2026-06-19T15:40:11",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Voilà le 9 juin, le projet aboutissait à une gigantesque fresque de 84 carrés avec des motifs géométriques sur la route menant au collège (barrée par la mairie pour l&#8217;"
-    },
-    {
-      "title": "🧠 Mémoriser durablement, ça s’apprend ! 5️⃣ idées concrètes pour aider les élèves : tester régulièrement, créer des fiches questions/réponses, réactiver dans le temps, utiliser des flashcards et exploiter les murs de classe. 🔗 https://www.linkedin.com/posts/yohann-domenech-24b49119b_idaezes-aider-tester-share-7462045983141523456-V0jX/?utm_source=share&utm_medium=member_ios&rcm=ACoAABRx4SEB0WYrJITM_mZ2ZQU6cYtw5QtsjIA ✍️ Yohann Domenech",
-      "link": "https://twitter.com/sophiaefrance/status/2062834321371652385#m",
-      "date": "2026-06-05T09:50:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧠 Mémoriser durablement, ça s’apprend !<br />\n5️⃣ idées concrètes pour aider les élèves : tester régulièrement, créer des fiches questions/réponses, réactiver dans le temps, utiliser des flashcards"
-    },
-    {
-      "title": "RT by @MistralAI: SHIPPED. Mistral Vibe is now the AI agent for long-horizon productivity and coding, and the home for Work mode, Code mode, the CLI, and a brand new VS Code extension. Let's go... 🧵",
-      "link": "https://twitter.com/mistralvibe/status/2059984963932499973#m",
-      "date": "2026-05-28T13:07:42",
-      "source": "@MistralAI",
-      "summary": "<p>SHIPPED. Mistral Vibe is now the AI agent for long-horizon productivity and coding, and the home for Work mode, Code mode, the CLI, and a brand new VS Code extension. Let's go... 🧵</p>\n<a href=\"htt"
-    },
-    {
-      "title": "R to @MistralAI: mistral.ai/news/ai-now-summi…",
-      "link": "https://twitter.com/MistralAI/status/2059951141195075833#m",
-      "date": "2026-05-28T10:53:18",
-      "source": "@MistralAI",
-      "summary": "<p><a href=\"https://mistral.ai/news/ai-now-summit-2026/\">mistral.ai/news/ai-now-summi…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://mistral.ai/news/ai-now-summit-2026/\">\n<img src=\"https://nitter."
-    },
-    {
-      "title": "We are making our discount permanent! 🎉 Enjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀",
-      "link": "https://twitter.com/deepseek_ai/status/2057854261699195173#m",
-      "date": "2026-05-22T16:01:03",
-      "source": "@deepseek_ai",
-      "summary": "<p>We are making our discount permanent! 🎉<br />\n<br />\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀</p>\n<img src=\"https://nitter.net/pic/media%2FHI7xPnWbgAAW4UO.jpg\""
     }
   ],
-  "last_update": "2026-07-03T10:26:10.578009",
+  "last_update": "2026-07-04T09:59:21.517704",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
