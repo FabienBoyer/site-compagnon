@@ -1,6 +1,97 @@
 {
   "articles": [
     {
+      "title": "Briefed",
+      "link": "https://www.uneiaparjour.fr/briefed/",
+      "date": "2026-07-05T17:54:34",
+      "source": "Une IA par jour",
+      "summary": "Briefed (https://briefednewsletter.com/) génère une newsletter personnalisée par IA à partir d&#8217;une instruction. La lettre est envoyée par email selon la fréquence choisie : quotidienne, tous les"
+    },
+    {
+      "title": "Music0 AI",
+      "link": "https://www.uneiaparjour.fr/music0-ai/",
+      "date": "2026-06-29T18:27:28",
+      "source": "Une IA par jour",
+      "summary": "Music0 AI (https://music0.org/) génère des morceaux de musique et des clips vidéo depuis une instruction. Après l&#8217;instruction, le morceau peut-être décrit par genre, type de voix, ambiance, temp"
+    },
+    {
+      "title": "🤖 IA ou réel ? 3 jeux gratuits pour entraîner les élèves à repérer les images générées par #IA: observation des détails, cohérence des ombres, textes suspects, sources… Une excellente activité d’EMI pour aiguiser l’esprit critique. https://outilstice.com/2025/10/jeux-pour-detecter-images-ia/ Source 👉 @outilstice",
+      "link": "https://twitter.com/sophiaefrance/status/2073991590247276922#m",
+      "date": "2026-07-06T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 IA ou réel ? 3 jeux gratuits pour entraîner les élèves à repérer les images générées par <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a>: observation des détails, cohérence des o"
+    },
+    {
+      "title": "We’re introducing GeneBench-Pro, a research-level benchmark for a harder kind of AI progress: how well agents can navigate messy biological data, choose the right analysis path, and make judgment calls that real computational research depends on. https://openai.com/index/introducing-genebench-pro/",
+      "link": "https://twitter.com/OpenAI/status/2072004836674167294#m",
+      "date": "2026-06-30T17:10:23",
+      "source": "@OpenAI",
+      "summary": "<p>We’re introducing GeneBench-Pro, a research-level benchmark for a harder kind of AI progress: how well agents can navigate messy biological data, choose the right analysis path, and make judgment c"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Pour rappel, ce sont uniquement des modèles publics disponibles qui ont été évalués, et donc ce ne fut pas le cas du modèle interne d'OpenAI qui a récemment réfuté la conjecture d'Erdős sur le problème des distances unitaires. L'article du Nouvel Obs : https://www.nouvelobs.com/sciences/20260705.OBS116432/l-ia-peut-elle-rivaliser-avec-les-meilleurs-mathematiciens.html",
+      "link": "https://twitter.com/Fabien_Mikol/status/2074055671012585487#m",
+      "date": "2026-07-06T08:59:40",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Pour rappel, ce sont uniquement des modèles publics disponibles qui ont été évalués, et donc ce ne fut pas le cas du modèle interne d'OpenAI qui a récemment réfuté la conjecture d'Erdős sur le prob"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Voit-on un plafond ? @Amaury_Hayat : \"Pour l'instant, elles ont du mal à créer de nouveaux concepts et définitions. Elles n'en sont pas encore à réaliser de longues preuves très innovantes\" Sylvia Serfaty : \"Mais je ne mettrais pas ma main à couper que ça restera le cas\"",
+      "link": "https://twitter.com/Fabien_Mikol/status/2074055667782943148#m",
+      "date": "2026-07-06T08:59:39",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Voit-on un plafond ?<br />\n<a href=\"https://nitter.net/Amaury_Hayat\" title=\"Amaury Hayat\">@Amaury_Hayat</a> : \"Pour l'instant, elles ont du mal à créer de nouveaux concepts et définitions. Elles n'"
+    },
+    {
+      "title": "R to @Fabien_Mikol: La majorité des problèmes a pu être résolue par ces modèles, dont une réponse \"plus solide que la solution humaine\". Défi croissant : ces IA trop confiantes font des erreurs de plus en plus subtiles à repérer. @Amaury_Hayat : une fois avec un collègue \"on a failli se faire avoir\"",
+      "link": "https://twitter.com/Fabien_Mikol/status/2074055663081202087#m",
+      "date": "2026-07-06T08:59:38",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>La majorité des problèmes a pu être résolue par ces modèles, dont une réponse \"plus solide que la solution humaine\".<br />\nDéfi croissant : ces IA trop confiantes font des erreurs de plus en plus s"
+    },
+    {
+      "title": "Le Nouvel Obs parle du benchmark First Proof ! Les LLM publics disponibles peuvent-ils résoudre en autonomie des problèmes difficiles et originaux, dont on a pu vérifier qu'aucune solution n'existait en ligne ? (Mythos ou Aletheia de DeepMind n'ont pas pu participer) 🧵",
+      "link": "https://twitter.com/Fabien_Mikol/status/2074055657813106698#m",
+      "date": "2026-07-06T08:59:37",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Le Nouvel Obs parle du benchmark First Proof !<br />\nLes LLM publics disponibles peuvent-ils résoudre en autonomie des problèmes difficiles et originaux, dont on a pu vérifier qu'aucune solution n'"
+    },
+    {
+      "title": "R to @Fabien_Mikol: J'ai gardé le premier jet cette fois-ci, rien à reprendre de flagrant. D'un autre côté j'ai gardé la conversation sur le projet Lune, ce qui l'a déjà aidé à l'aiguiller. https://claude.ai/share/0b000c87-a460-4c11-98e4-196cac2e208c",
+      "link": "https://twitter.com/Fabien_Mikol/status/2073783184697778667#m",
+      "date": "2026-07-05T14:56:54",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>J'ai gardé le premier jet cette fois-ci, rien à reprendre de flagrant. D'un autre côté j'ai gardé la conversation sur le projet Lune, ce qui l'a déjà aidé à l'aiguiller.<br />\n<a href=\"https://clau"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Pour rappel, Luc Julia est régulièrement invité dans ce genre de cycles d'écoles d'ingénieur",
+      "link": "https://twitter.com/Fabien_Mikol/status/2073777999850192958#m",
+      "date": "2026-07-05T14:36:18",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Pour rappel, Luc Julia est régulièrement invité dans ce genre de cycles d'écoles d'ingénieur</p>\n<hr />\n<blockquote>\n<b>Fabien (@Fabien_Mikol)</b>\n<p>\n<p>Et il n'est pas juste invité dans des confé"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Et pour la 3e session en mars dernier, il s'agissait \"d'ouvrir la réflexion\" et d'apporter un \"éclairage philosophique sur les enjeux humains, éducatifs et sociétaux de l’IA\" en invitant Luc Ferry https://association.centralesupelec-alumni.com/fr/event/cycle-ingenieurs-a-l-ere-de-l-ia-reperes-pratiques-et-responsabilites-3/2025/11/04/9547",
+      "link": "https://twitter.com/Fabien_Mikol/status/2073777275552637130#m",
+      "date": "2026-07-05T14:33:26",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Et pour la 3e session en mars dernier, il s'agissait \"d'ouvrir la réflexion\" et d'apporter un \"éclairage philosophique sur les enjeux humains, éducatifs et sociétaux de l’IA\" en invitant Luc Ferry<"
+    },
+    {
+      "title": "🚀 Dans 2 jours, \"J’apprends avec l’IA\" sort en librairie. Un peu de fierté. Et de vertige aussi. Avec cet ouvrage, j’ai voulu m’adresser plus directement aux élèves et à leurs parents pour les aider à faire de l’IA un outil au service de leur réussite. https://www.magnard.fr/livre/9782210787933-j-apprends-avec-l-ia",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2071987718473576473#m",
+      "date": "2026-06-30T16:02:22",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🚀 Dans 2 jours, \"J’apprends avec l’IA\" sort en librairie.<br />\nUn peu de fierté. Et de vertige aussi.<br />\nAvec cet ouvrage, j’ai voulu m’adresser plus directement aux élèves et à leurs parents p"
+    },
+    {
+      "title": "L’échec scolaire n’est pas une fatalité. C’est aussi le produit d’attentes implicites, de consignes opaques et d’évaluations piégeuses. Kaczmarek propose une pédagogie explicite, exigeante et démocratique. Une urgence pédagogique. Et politique. 🎒 https://www.cafepedagogique.net/2026/06/22/nicolas-kaczmarek-cest-lecole-qui-transforme-des-inegalites-sociales-pre-existantes-en-inegalites-scolaires/?utm_campaign=Lexpresso_22-06-2026&utm_medium=email&utm_source=Expresso",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2071625350522515932#m",
+      "date": "2026-06-29T16:02:27",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>L’échec scolaire n’est pas une fatalité.<br />\nC’est aussi le produit d’attentes implicites, de consignes opaques et d’évaluations piégeuses.<br />\nKaczmarek propose une pédagogie explicite, exigea"
+    },
+    {
       "title": "LearnKata",
       "link": "https://www.uneiaparjour.fr/learnkata/",
       "date": "2026-07-04T18:33:02",
@@ -608,100 +699,9 @@
       "date": "2026-06-30T00:00:00",
       "source": "OpenAI Blog",
       "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets."
-    },
-    {
-      "title": "Core dump epidemiology: fixing an 18-year-old bug",
-      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "date": "2026-06-30T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug."
-    },
-    {
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "date": "2026-06-17T15:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\" />Research in “Nature” shows our conversational AI system matche"
-    },
-    {
-      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
-      "date": "2026-06-11T20:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\" />We’re helping build the state’s next-generation workforce and investing in ener"
-    },
-    {
-      "title": "🌍 Combien pèse vraiment une requête #IA, une douche ou un mail avec PJ ? Voici un jeu en ligne pour classer les actions du quotidien selon leur empreinte carbone, seul ou jusqu’à 4 joueurs. Idéal pour travailler les ordres de grandeur en classe. https://combien.remyvdm.com/",
-      "link": "https://twitter.com/sophiaefrance/status/2063844730799034411#m",
-      "date": "2026-06-08T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🌍 Combien pèse vraiment une requête <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a>, une douche ou un mail avec PJ ?<br />\nVoici un jeu en ligne pour classer les actions du quotidi"
-    },
-    {
-      "title": "Claude Fable 5 will be available again globally tomorrow. After a series of productive conversations with the US government, we're redeploying the model with a new set of classifiers to target and block more cybersecurity tasks. In the near term, some routine tasks like coding and debugging will fall back to Opus 4.8. We’ll continue to refine these classifiers over the coming weeks to reduce false positives and better distinguish genuine misuse from legitimate requests. We’ve also begun drafting a consensus framework—with Amazon, Microsoft, Google, and other Glasswing partners—for assessing the severity of AI jailbreaks and how AI developers should respond to them. We invite other industry partners and model providers to join us in this effort. Finally, we’re scaling up our collaboration with the US government on model testing and safeguards. This will include pre-release access to models and safeguards for evaluation, information sharing on jailbreaks and misuse, and dedicated resources for joint research. Thank you to our users for your patience, and to our partners across the government, industry, and the research community who worked alongside us to make Fable 5 available again. Read our full blog: https://www.anthropic.com/news/redeploying-fable-5",
-      "link": "https://twitter.com/AnthropicAI/status/2072163884430229756#m",
-      "date": "2026-07-01T03:42:23",
-      "source": "@AnthropicAI",
-      "summary": "<p>Claude Fable 5 will be available again globally tomorrow.<br />\n<br />\nAfter a series of productive conversations with the US government, we're redeploying the model with a new set of classifiers t"
-    },
-    {
-      "title": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We'll begin restoring access tomorrow, and will share an update soon. We’re grateful to our users for their patience, and to everyone who worked with us on redeploying the models.",
-      "link": "https://twitter.com/AnthropicAI/status/2072106151890809341#m",
-      "date": "2026-06-30T23:52:59",
-      "source": "@AnthropicAI",
-      "summary": "<p>We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.<br />\n<br />\nWe'll begin restoring access tomorrow, and will share an update soon.<b"
-    },
-    {
-      "title": "RT by @AnthropicAI: Introducing Claude Sonnet 5, our most agentic Sonnet yet. It makes plans, uses tools like browsers and terminals, and runs autonomously at a level that just a few months ago required larger and more expensive models.",
-      "link": "https://twitter.com/claudeai/status/2072017450611142835#m",
-      "date": "2026-06-30T18:00:31",
-      "source": "@AnthropicAI",
-      "summary": "<p>Introducing Claude Sonnet 5, our most agentic Sonnet yet.<br />\n<br />\nIt makes plans, uses tools like browsers and terminals, and runs autonomously at a level that just a few months ago required l"
-    },
-    {
-      "title": "R to @MistralAI: Available today: the API, Document AI in Mistral AI Studio, Amazon SageMaker, Microsoft Foundry, coming soon Snowflake Parse Document, or self-hosted on a single container, so your documents never leave your environment. 👉 https://mistral.ai/news/ocr-4",
-      "link": "https://twitter.com/MistralAI/status/2069420271438573780#m",
-      "date": "2026-06-23T14:00:15",
-      "source": "@MistralAI",
-      "summary": "<p>Available today: the API, Document AI in Mistral AI Studio, Amazon SageMaker, Microsoft Foundry, coming soon Snowflake Parse Document, or self-hosted on a single container, so your documents never "
-    },
-    {
-      "title": "R to @MistralAI: Why the structure matters: OCR 4 localizes each block with a bounding box, classifies it (title, table, equation, signature…), and scores confidence per region, the foundation for source-grounded citations, redactions, RAG chunking, and human-in-the-loop review.",
-      "link": "https://twitter.com/MistralAI/status/2069420269748269179#m",
-      "date": "2026-06-23T14:00:14",
-      "source": "@MistralAI",
-      "summary": "<p>Why the structure matters: OCR 4 localizes each block with a bounding box, classifies it (title, table, equation, signature…), and scores confidence per region, the foundation for source-grounded c"
-    },
-    {
-      "title": "R to @MistralAI: On public benchmarks, OCR 4 tops OlmOCRBench (85.20) and leads our internal multilingual eval, with the widest gains on rare and low-resource languages, where most systems fall off.",
-      "link": "https://twitter.com/MistralAI/status/2069420268179575034#m",
-      "date": "2026-06-23T14:00:14",
-      "source": "@MistralAI",
-      "summary": "<p>On public benchmarks, OCR 4 tops OlmOCRBench (85.20) and leads our internal multilingual eval, with the widest gains on rare and low-resource languages, where most systems fall off.</p>"
-    },
-    {
-      "title": "R to @MistralAI: We ran OCR 4 head-to-head against the field. Independent annotators blindly ranked 600+ real-world documents across 12+ languages, and preferred OCR 4 over every system tested, with win rates averaging 72%.",
-      "link": "https://twitter.com/MistralAI/status/2069420266061475935#m",
-      "date": "2026-06-23T14:00:14",
-      "source": "@MistralAI",
-      "summary": "<p>We ran OCR 4 head-to-head against the field. Independent annotators blindly ranked 600+ real-world documents across 12+ languages, and preferred OCR 4 over every system tested, with win rates avera"
-    },
-    {
-      "title": "Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇",
-      "link": "https://twitter.com/MistralAI/status/2069420263825895917#m",
-      "date": "2026-06-23T14:00:13",
-      "source": "@MistralAI",
-      "summary": "<p>Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇</p>\n<img src=\"https://nitter.net/pic/media%2FHLgKXVjWEAA"
-    },
-    {
-      "title": "Mistral officially has 1,000 team members around the world! Thank you to our incredible talent for believing in the mission and contributing to what we are building each and every day. You too can be a part of the next chapter in our journey as we continue to grow and serve our customers. Apply for open roles at Mistral across all functions here: https://mistral.ai/careers/",
-      "link": "https://twitter.com/MistralAI/status/2069077356266795207#m",
-      "date": "2026-06-22T15:17:37",
-      "source": "@MistralAI",
-      "summary": "<p>Mistral officially has 1,000 team members around the world!<br />\n<br />\nThank you to our incredible talent for believing in the mission and contributing to what we are building each and every day."
     }
   ],
-  "last_update": "2026-07-05T10:03:23.454433",
+  "last_update": "2026-07-06T11:55:06.782613",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
