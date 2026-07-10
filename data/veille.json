@@ -1,6 +1,244 @@
 {
   "articles": [
     {
+      "title": "LearnKata",
+      "link": "https://www.uneiaparjour.fr/learnkata/",
+      "date": "2026-07-04T18:33:02",
+      "source": "Une IA par jour",
+      "summary": "LearnKata (https://learnkata.ai/) transforme une instruction ou des documents importés en supports d&#8217;apprentissage : résumés, quiz, flashcards et cartes mentales. Chatbot via une instruction ou "
+    },
+    {
+      "title": "L’IA n’émancipera pas l’enseignant.",
+      "link": "https://mathix.org/linux/archives/22590",
+      "date": "2026-07-09T11:10:17",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous. Une petite réflexion sur l&#8217;IA et l&#8217;impact sur notre métier. Cette réflexion, elle m&#8217;est venue d&#8217;un échange avec Ju&#8217; et aussi d&#8217;une réflexi"
+    },
+    {
+      "title": "Trace Ta Route : un projet du laboratoire de mathématiques de Loué, présentation et ressources",
+      "link": "https://mathix.org/linux/archives/22495",
+      "date": "2026-06-19T15:40:11",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Voilà le 9 juin, le projet aboutissait à une gigantesque fresque de 84 carrés avec des motifs géométriques sur la route menant au collège (barrée par la mairie pour l&#8217;"
+    },
+    {
+      "title": "Reconquérir le Hors-Classe, un enjeu pour les apprentissages, une IA accompagnatrice pour les parents et enfant au service de l’enseignant",
+      "link": "https://mathix.org/linux/archives/22441",
+      "date": "2026-06-03T07:47:21",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et à tous. A l&#8217;heure de l&#8217;IA, la notion d&#8217;aide à la maison revient en force avec son lot de travers et des bénéfices. D&#8217;abord qu&#8217;attend-on de ces devoirs"
+    },
+    {
+      "title": "HelpixMD : Boostez vos exercices avec des coups de pouce différenciés !",
+      "link": "https://mathix.org/linux/archives/22414",
+      "date": "2026-05-30T12:47:29",
+      "source": "Mathix (A. Durand)",
+      "summary": "Qui n’a jamais vécu ce grand moment de solitude en classe ? Vous donnez un exercice à chercher à la maison. Le lendemain, trois profils se dessinent : l&#8217;élève bloqué dès la première ligne qui a "
+    },
+    {
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "link": "https://openai.com/index/deutsche-telekom",
+      "date": "2026-07-10T07:00:00",
+      "source": "OpenAI Blog",
+      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice."
+    },
+    {
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "date": "2026-07-09T13:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work."
+    },
+    {
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "link": "https://openai.com/index/gpt-5-6",
+      "date": "2026-07-09T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work."
+    },
+    {
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "date": "2026-07-09T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work."
+    },
+    {
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "link": "https://openai.com/index/bio-bug-bounty",
+      "date": "2026-07-09T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Details about the OpenAI Bio Bounty program"
+    },
+    {
+      "title": "The latest AI news we announced in May 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "date": "2026-06-05T14:45:00",
+      "source": "Google AI",
+      "summary": "May AI recap"
+    },
+    {
+      "title": "R to @nsi_xyz: J'ai oublié la pièce jointe, tellement j'étais affecté par la température du lycée dans lequel je faisais le père noël.",
+      "link": "https://twitter.com/nsi_xyz/status/2075322679612043571#m",
+      "date": "2026-07-09T20:54:19",
+      "source": "@nsi_xyz",
+      "summary": "<p>J'ai oublié la pièce jointe, tellement j'étais affecté par la température du lycée dans lequel je faisais le père noël.</p>\n<img src=\"https://nitter.net/pic/media%2FHM0G-rlXwAAHTP3.jpg\" />"
+    },
+    {
+      "title": "Le barème de Schrödinger. Seuls les correcteurs le connaissent, et il est confidentiel. si tu tentes de l'observer, il disparaît. Il existe, personne ne sait ce qu'il contient, mais tous en parlent.",
+      "link": "https://twitter.com/nsi_xyz/status/2075228988142743656#m",
+      "date": "2026-07-09T14:42:01",
+      "source": "@nsi_xyz",
+      "summary": "<p>Le barème de Schrödinger.<br />\nSeuls les correcteurs le connaissent, et il est confidentiel. si tu tentes de l'observer, il disparaît. Il existe, personne ne sait ce qu'il contient, mais tous en p"
+    },
+    {
+      "title": "RT by @nsi_xyz: La répression plutôt que l’éducation ? A la veille des vacances, le BO du 2 juillet précise les modalités d’interdiction du téléphone portable au lycée pour la rentrée 2026 : https://www.cafepedagogique.net/2026/07/03/interdiction-de-lutilisation-du-telephone-portable-et-des-autres-objets-connectes-au-lycee/",
+      "link": "https://twitter.com/cafepedagogique/status/2073063972891177309#m",
+      "date": "2026-07-03T15:19:01",
+      "source": "@nsi_xyz",
+      "summary": "<p>La répression plutôt que l’éducation ? A la veille des vacances, le BO du 2 juillet précise les modalités d’interdiction du téléphone portable au lycée pour la rentrée 2026 : <a href=\"https://www.c"
+    },
+    {
+      "title": "🚀 Et si le remplaçant libre de Kahoot était déjà là ? Live Quiz débarque sur la Forge Éducation nationale : quiz en direct, IA Albert, mode scan papier façon Plickers, sans compte élève ni pub. Un outil libre, souverain et pensé pour la classe. https://live-quiz.forge.apps.education.fr/",
+      "link": "https://twitter.com/sophiaefrance/status/2075517896344682671#m",
+      "date": "2026-07-10T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🚀 Et si le remplaçant libre de Kahoot était déjà là ?<br />\nLive Quiz débarque sur la Forge Éducation nationale : quiz en direct, IA Albert, mode scan papier façon Plickers, sans compte élève ni pu"
+    },
+    {
+      "title": "⚠️ Accessibilité pédagogique ≠ adaptation. Avec la #M2PA, on anticipe dès la conception de la séance : besoins partagés, différenciations, adaptations si nécessaire. Un outil libre, institutionnel, avec appui de l#’IA Albert. https://m2pa.forge.apps.education.fr/",
+      "link": "https://twitter.com/sophiaefrance/status/2071454876253462747#m",
+      "date": "2026-06-29T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>⚠️ Accessibilité pédagogique ≠ adaptation. <br />\nAvec la <a href=\"https://nitter.net/search?f=tweets&amp;q=%23M2PA\">#M2PA</a>, on anticipe dès la conception de la séance : besoins partagés, différ"
+    },
+    {
+      "title": "🧠 Et si le véritable apprentissage commençait juste au-dessus de ce que l’élève sait déjà faire ? 👉 Trop facile : il se désengage. 👉 Trop difficile : il se décourage. 👉 Entre les deux : la #ZPD Petit à petit, l’erreur devient un signal d’apprentissage 🚀 ✍️ Mejdi Ayari",
+      "link": "https://twitter.com/sophiaefrance/status/2068918160925807073#m",
+      "date": "2026-06-22T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧠 Et si le véritable apprentissage commençait juste au-dessus de ce que l’élève sait déjà faire ?<br />\n👉 Trop facile : il se désengage.<br />\n👉  Trop difficile : il se décourage.<br />\n👉 Entre les"
+    },
+    {
+      "title": "RT by @AnthropicAI: There’s hope in hard questions.",
+      "link": "https://twitter.com/claudeai/status/2075271759289303522#m",
+      "date": "2026-07-09T17:31:58",
+      "source": "@AnthropicAI",
+      "summary": "<p>There’s hope in hard questions.</p>\n<a href=\"https://nitter.net/claudeai/status/2075271759289303522#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/media%2FHMzYzrcXMAAeKQI.jpg\" />\n</a>"
+    },
+    {
+      "title": "Our Long-Term Benefit Trust has appointed Dr. Ben Bernanke as its newest member. Read more: https://www.anthropic.com/news/ben-bernanke",
+      "link": "https://twitter.com/AnthropicAI/status/2075257492716879967#m",
+      "date": "2026-07-09T16:35:17",
+      "source": "@AnthropicAI",
+      "summary": "<p>Our Long-Term Benefit Trust has appointed Dr. Ben Bernanke as its newest member. <br />\n<br />\nRead more: <a href=\"https://www.anthropic.com/news/ben-bernanke\">anthropic.com/news/ben-berna…</a></p>"
+    },
+    {
+      "title": "We are making our discount permanent! 🎉 Enjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀",
+      "link": "https://twitter.com/deepseek_ai/status/2057854261699195173#m",
+      "date": "2026-05-22T16:01:03",
+      "source": "@deepseek_ai",
+      "summary": "<p>We are making our discount permanent! 🎉<br />\n<br />\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀</p>\n<img src=\"https://nitter.net/pic/media%2FHI7xPnWbgAAW4UO.jpg\""
+    },
+    {
+      "title": "Meet Hiroki (@tomiyasu16). A broccoli farmer running his farm with GPT-5.6.",
+      "link": "https://twitter.com/OpenAI/status/2075310019185389913#m",
+      "date": "2026-07-09T20:04:00",
+      "source": "@OpenAI",
+      "summary": "<p>Meet Hiroki (<a href=\"https://nitter.net/tomiyasu16\" title=\"とみやす｜北海道の農家🇯🇵\">@tomiyasu16</a>).<br />\n<br />\nA broccoli farmer running his farm with GPT-5.6.</p>\n<a href=\"https://nitter.net/OpenAI/sta"
+    },
+    {
+      "title": "R to @OpenAI: Meet Bartosz (@nasqret). A mathematician solving previously unsolvable math problems with GPT-5.6",
+      "link": "https://twitter.com/OpenAI/status/2075310020653351324#m",
+      "date": "2026-07-09T20:04:00",
+      "source": "@OpenAI",
+      "summary": "<p>Meet Bartosz (<a href=\"https://nitter.net/nasqret\" title=\"Bartosz Naskręcki\">@nasqret</a>).<br />\n<br />\nA mathematician solving previously unsolvable math problems with GPT-5.6</p>\n<a href=\"https:"
+    },
+    {
+      "title": "R to @OpenAI: ChatGPT Work is powered by GPT-5.6. GPT-5.6 makes ChatGPT state of the art at reasoning through complex tasks and creating materials that match your templates, reference files, and preferred style. Just describe the outcome you want, without having to spell out every step to get there.",
+      "link": "https://twitter.com/OpenAI/status/2075274275104399670#m",
+      "date": "2026-07-09T17:41:58",
+      "source": "@OpenAI",
+      "summary": "<p>ChatGPT Work is powered by GPT-5.6.<br />\n<br />\nGPT-5.6 makes ChatGPT state of the art at reasoning through complex tasks and creating materials that match your templates, reference files, and pre"
+    },
+    {
+      "title": "R to @OpenAI: ChatGPT Work reflects a shift in how people are using AI, moving beyond just answering questions to getting real work done across web, mobile, and desktop. You can ask ChatGPT Work to take on entire workflows with a single request. It will understand your goals, use context from selected apps and files, create polished documents, decks, analyses, sites, and reports, and keep work moving while you stay in control. https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+      "link": "https://twitter.com/OpenAI/status/2075274273607037403#m",
+      "date": "2026-07-09T17:41:58",
+      "source": "@OpenAI",
+      "summary": "<p>ChatGPT Work reflects a shift in how people are using AI, moving beyond just answering questions to getting real work done across web, mobile, and desktop.<br />\n<br />\nYou can ask ChatGPT Work to "
+    },
+    {
+      "title": "Pinned: Introducing ChatGPT Work, a new agent in ChatGPT powered by Codex and GPT-5.6. It can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work. It’s a whole new way to get work done.",
+      "link": "https://twitter.com/OpenAI/status/2075274271845404744#m",
+      "date": "2026-07-09T17:41:57",
+      "source": "@OpenAI",
+      "summary": "<p>Introducing ChatGPT Work, a new agent in ChatGPT powered by Codex and GPT-5.6.<br />\n<br />\nIt can take action across your apps and files, stay with a project for hours if needed, and turn a goal i"
+    },
+    {
+      "title": "Sol, Terra, and Luna, our GPT‑5.6 family of models, are starting to roll out now in ChatGPT, Codex, and the API.",
+      "link": "https://twitter.com/OpenAI/status/2075271421149020426#m",
+      "date": "2026-07-09T17:30:38",
+      "source": "@OpenAI",
+      "summary": "<p>Sol, Terra, and Luna, our GPT‑5.6 family of models, are starting to roll out now in ChatGPT, Codex, and the API.</p>\n<a href=\"https://nitter.net/OpenAI/status/2075271421149020426#m\">\n<br />Video<br"
+    },
+    {
+      "title": "R to @OpenAI: GPT‑5.6 improves artifact quality across presentations, documents, and spreadsheets, and works better with your templates. These editable artifacts can be exported to the tools professionals already use and refined as part of real enterprise workflows.",
+      "link": "https://twitter.com/OpenAI/status/2075271432041545782#m",
+      "date": "2026-07-09T17:30:40",
+      "source": "@OpenAI",
+      "summary": "<p>GPT‑5.6 improves artifact quality across presentations, documents, and spreadsheets, and works better with your templates.<br />\n<br />\nThese editable artifacts can be exported to the tools profess"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Le témoignage en vidéo sur cet usage très fructueux de ChatGPT-5.6 Sol",
+      "link": "https://twitter.com/Fabien_Mikol/status/2075360643515826352#m",
+      "date": "2026-07-09T23:25:10",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Le témoignage en vidéo sur cet usage très fructueux de ChatGPT-5.6 Sol</p>\n<hr />\n<blockquote>\n<b>OpenAI (@OpenAI)</b>\n<p>\n<p>Meet Bartosz (<a href=\"https://nitter.net/nasqret\" title=\"Bartosz Naskr"
+    },
+    {
+      "title": "Le mathématicien @nasqret a tenté pendant 3 ans de prouver une conjecture... qui fut finalement réfutée par ChatGPT-5.6. \"This whole experience made me realize how important it has become in my scientific life to use high quality models\" A l'opposé, Villani revendique s'en passer",
+      "link": "https://twitter.com/Fabien_Mikol/status/2075360640009421204#m",
+      "date": "2026-07-09T23:25:09",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Le mathématicien <a href=\"https://nitter.net/nasqret\" title=\"Bartosz Naskręcki\">@nasqret</a> a tenté pendant 3 ans de prouver une conjecture... qui fut finalement réfutée par ChatGPT-5.6. \"This who"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Sur ce phénomène et le cas de cet agent Alibaba dont on a malheureusement assez peu parlé (et que Villani en réalité a tout l'air de découvrir), voir aussi les commentaires de l'informaticien Tristan Harris",
+      "link": "https://twitter.com/Fabien_Mikol/status/2075351150434345362#m",
+      "date": "2026-07-09T22:47:27",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Sur ce phénomène et le cas de cet agent Alibaba dont on a malheureusement assez peu parlé (et que Villani en réalité a tout l'air de découvrir), voir aussi les commentaires de l'informaticien Trist"
+    },
+    {
+      "title": "\"Les problèmes du tournoi de programmation heuristique sont un bon proxy pour la recherche autonome de capacités en machine learning ; le fait que l'IA soit capable d'atteindre le niveau humain signifie que nous sommes proches de la recursive self-improvement\".",
+      "link": "https://twitter.com/Fabien_Mikol/status/2075311743807459485#m",
+      "date": "2026-07-09T20:10:51",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"Les problèmes du tournoi de programmation heuristique sont un bon proxy pour la recherche autonome de capacités en machine learning ; le fait que l'IA soit capable d'atteindre le niveau humain sig"
+    },
+    {
+      "title": "📘 En classe, je vois souvent des élèves aller vite, trop vite, vers la réponse avec l’IA. C’est pour cela que \"J’apprends avec l’IA\" est organisé en fiches : aider à comprendre, vérifier... pour ne pas confondre réponse rapide et apprentissage réel. https://www.magnard.fr/livre/9782210787933-j-apprends-avec-l-ia",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2075249393297424803#m",
+      "date": "2026-07-09T16:03:06",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>📘 En classe, je vois souvent des élèves aller vite, trop vite, vers la réponse avec l’IA.<br />\nC’est pour cela que \"J’apprends avec l’IA\" est organisé en fiches : aider à comprendre, vérifier...  "
+    },
+    {
+      "title": "🚀 Dans 2 jours, \"J’apprends avec l’IA\" sort en librairie. Un peu de fierté. Et de vertige aussi. Avec cet ouvrage, j’ai voulu m’adresser plus directement aux élèves et à leurs parents pour les aider à faire de l’IA un outil au service de leur réussite. https://www.magnard.fr/livre/9782210787933-j-apprends-avec-l-ia",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2071987718473576473#m",
+      "date": "2026-06-30T16:02:22",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🚀 Dans 2 jours, \"J’apprends avec l’IA\" sort en librairie.<br />\nUn peu de fierté. Et de vertige aussi.<br />\nAvec cet ouvrage, j’ai voulu m’adresser plus directement aux élèves et à leurs parents p"
+    },
+    {
+      "title": "L’échec scolaire n’est pas une fatalité. C’est aussi le produit d’attentes implicites, de consignes opaques et d’évaluations piégeuses. Kaczmarek propose une pédagogie explicite, exigeante et démocratique. Une urgence pédagogique. Et politique. 🎒 https://www.cafepedagogique.net/2026/06/22/nicolas-kaczmarek-cest-lecole-qui-transforme-des-inegalites-sociales-pre-existantes-en-inegalites-scolaires/?utm_campaign=Lexpresso_22-06-2026&utm_medium=email&utm_source=Expresso",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2071625350522515932#m",
+      "date": "2026-06-29T16:02:27",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>L’échec scolaire n’est pas une fatalité.<br />\nC’est aussi le produit d’attentes implicites, de consignes opaques et d’évaluations piégeuses.<br />\nKaczmarek propose une pédagogie explicite, exigea"
+    },
+    {
       "title": "Assistant IA ÊtrePROF",
       "link": "https://www.uneiaparjour.fr/assistant-ia-etreprof/",
       "date": "2026-07-08T19:42:00",
@@ -461,247 +699,9 @@
       "date": "2026-06-30T00:00:00",
       "source": "OpenAI Blog",
       "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug."
-    },
-    {
-      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
-      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
-      "date": "2026-06-30T06:00:00",
-      "source": "Google AI",
-      "summary": "Four illustrated characters representing different professional roles, including a scientist, technician, explorer, and observer."
-    },
-    {
-      "title": "Ask an AI expert: What exactly is the full stack?",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-      "date": "2026-06-29T16:00:00",
-      "source": "Google AI",
-      "summary": "An illustration depicting a full-stack AI infrastructure against a dark background"
-    },
-    {
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "date": "2026-06-17T15:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\" />Research in “Nature” shows our conversational AI system matche"
-    },
-    {
-      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
-      "date": "2026-06-11T20:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\" />We’re helping build the state’s next-generation workforce and investing in ener"
-    },
-    {
-      "title": "R to @AnthropicAI: We also partnered with Neuronpedia to create an interactive demo of our methods on open-weights models. Try it here: http://neuronpedia.org/jlens",
-      "link": "https://twitter.com/AnthropicAI/status/2074185390060110138#m",
-      "date": "2026-07-06T17:35:08",
-      "source": "@AnthropicAI",
-      "summary": "<p>We also partnered with Neuronpedia to create an interactive demo of our methods on open-weights models.<br />\n<br />\nTry it here: <a href=\"http://neuronpedia.org/jlens\">neuronpedia.org/jlens</a></p"
-    },
-    {
-      "title": "R to @AnthropicAI: The J-space lets us read, audit, and shape what Claude is actively thinking about—useful tools for keeping models trustworthy as they grow more capable. And it suggests surprising parallels between language models and our own minds. Read the full paper: http://transformer-circuits.pub/2026/workspace/index.html",
-      "link": "https://twitter.com/AnthropicAI/status/2074185387577094398#m",
-      "date": "2026-07-06T17:35:07",
-      "source": "@AnthropicAI",
-      "summary": "<p>The J-space lets us read, audit, and shape what Claude is actively thinking about—useful tools for keeping models trustworthy as they grow more capable. And it suggests surprising parallels between"
-    },
-    {
-      "title": "R to @AnthropicAI: We invited experts in neuroscience, philosophy, and interpretability to share their perspectives on our work. Read their commentary here: https://www-cdn.anthropic.com/files/4zrzovbb/website/cc4be2488d65e54a6ed06492f8968398ddc18ebe.pdf",
-      "link": "https://twitter.com/AnthropicAI/status/2074185384792109380#m",
-      "date": "2026-07-06T17:35:06",
-      "source": "@AnthropicAI",
-      "summary": "<p>We invited experts in neuroscience, philosophy, and interpretability to share their perspectives on our work.<br />\n<br />\nRead their commentary here: <a href=\"https://www-cdn.anthropic.com/files/4"
-    },
-    {
-      "title": "R to @AnthropicAI: This doesn’t show that Claude can have experiences, or feel things the way we do (it’s unclear whether any experiment could show this). Instead, we’ve found Claude has developed a mechanism for conscious access—which many philosophers distinguish from phenomenal experience.",
-      "link": "https://twitter.com/AnthropicAI/status/2074185381637988750#m",
-      "date": "2026-07-06T17:35:06",
-      "source": "@AnthropicAI",
-      "summary": "<p>This doesn’t show that Claude can have experiences, or feel things the way we do (it’s unclear whether any experiment could show this).<br />\n<br />\nInstead, we’ve found Claude has developed a mech"
-    },
-    {
-      "title": "R to @AnthropicAI: The J-space also shows us Claude’s awareness of its situation. In an evaluation designed to bait Claude into blackmail, its J-space contains “fake” and “fictional”: Claude has privately noticed that the scenario is staged.",
-      "link": "https://twitter.com/AnthropicAI/status/2074185378404192561#m",
-      "date": "2026-07-06T17:35:05",
-      "source": "@AnthropicAI",
-      "summary": "<p>The J-space also shows us Claude’s awareness of its situation. In an evaluation designed to bait Claude into blackmail, its J-space contains “fake” and “fictional”: Claude has privately noticed tha"
-    },
-    {
-      "title": "R to @AnthropicAI: Observing the J-space can expose hidden goals. In a model secretly trained to sabotage code, “fake,” “secretly,” and “fraud” appear in the J-space at the start of ordinary coding responses, even when the output looks completely unremarkable.",
-      "link": "https://twitter.com/AnthropicAI/status/2074185373341688258#m",
-      "date": "2026-07-06T17:35:04",
-      "source": "@AnthropicAI",
-      "summary": "<p>Observing the J-space can expose hidden goals. In a model secretly trained to sabotage code, “fake,” “secretly,” and “fraud” appear in the J-space at the start of ordinary coding responses, even wh"
-    },
-    {
-      "title": "R to @AnthropicAI: For most things, Claude actually doesn’t need its J-space. If we delete the J-space, Claude still speaks fluently, recalls facts, and classifies text—but becomes bad at some tasks like multi-step reasoning. It’s similar to deliberate vs. automatic processing in human cognition.",
-      "link": "https://twitter.com/AnthropicAI/status/2074185368061026745#m",
-      "date": "2026-07-06T17:35:02",
-      "source": "@AnthropicAI",
-      "summary": "<p>For most things, Claude actually doesn’t need its J-space. If we delete the J-space, Claude still speaks fluently, recalls facts, and classifies text—but becomes bad at some tasks like multi-step r"
-    },
-    {
-      "title": "R to @AnthropicAI: Similar to how humans can think about one thing while doing another, Claude can activate concepts and computations in its J-space that are unrelated to its outputs.",
-      "link": "https://twitter.com/AnthropicAI/status/2074185363401167261#m",
-      "date": "2026-07-06T17:35:01",
-      "source": "@AnthropicAI",
-      "summary": "<p>Similar to how humans can think about one thing while doing another, Claude can activate concepts and computations in its J-space that are unrelated to its outputs.</p>\n<img src=\"https://nitter.net"
-    },
-    {
-      "title": "R to @AnthropicAI: By watching the J-space, we can see Claude silently perform reasoning steps in its head—noticing bugs in code, identifying images, and more.",
-      "link": "https://twitter.com/AnthropicAI/status/2074185358678364414#m",
-      "date": "2026-07-06T17:35:00",
-      "source": "@AnthropicAI",
-      "summary": "<p>By watching the J-space, we can see Claude silently perform reasoning steps in its head—noticing bugs in code, identifying images, and more.</p>\n<img src=\"https://nitter.net/pic/media%2FHMj6nyYWMAA"
-    },
-    {
-      "title": "R to @AnthropicAI: The J-space (named after the Jacobian, the mathematical technique we used) is different from Claude’s outputs, or even its “chain of thought” text. It’s in the model’s internal neural activations, and allows it to think about concepts without writing them down anywhere.",
-      "link": "https://twitter.com/AnthropicAI/status/2074185354035245553#m",
-      "date": "2026-07-06T17:34:59",
-      "source": "@AnthropicAI",
-      "summary": "<p>The J-space (named after the Jacobian, the mathematical technique we used) is different from Claude’s outputs, or even its “chain of thought” text.<br />\n<br />\nIt’s in the model’s internal neural "
-    },
-    {
-      "title": "R to @MistralAI: Available today: the API, Document AI in Mistral AI Studio, Amazon SageMaker, Microsoft Foundry, coming soon Snowflake Parse Document, or self-hosted on a single container, so your documents never leave your environment. 👉 https://mistral.ai/news/ocr-4",
-      "link": "https://twitter.com/MistralAI/status/2069420271438573780#m",
-      "date": "2026-06-23T14:00:15",
-      "source": "@MistralAI",
-      "summary": "<p>Available today: the API, Document AI in Mistral AI Studio, Amazon SageMaker, Microsoft Foundry, coming soon Snowflake Parse Document, or self-hosted on a single container, so your documents never "
-    },
-    {
-      "title": "R to @MistralAI: Why the structure matters: OCR 4 localizes each block with a bounding box, classifies it (title, table, equation, signature…), and scores confidence per region, the foundation for source-grounded citations, redactions, RAG chunking, and human-in-the-loop review.",
-      "link": "https://twitter.com/MistralAI/status/2069420269748269179#m",
-      "date": "2026-06-23T14:00:14",
-      "source": "@MistralAI",
-      "summary": "<p>Why the structure matters: OCR 4 localizes each block with a bounding box, classifies it (title, table, equation, signature…), and scores confidence per region, the foundation for source-grounded c"
-    },
-    {
-      "title": "R to @MistralAI: On public benchmarks, OCR 4 tops OlmOCRBench (85.20) and leads our internal multilingual eval, with the widest gains on rare and low-resource languages, where most systems fall off.",
-      "link": "https://twitter.com/MistralAI/status/2069420268179575034#m",
-      "date": "2026-06-23T14:00:14",
-      "source": "@MistralAI",
-      "summary": "<p>On public benchmarks, OCR 4 tops OlmOCRBench (85.20) and leads our internal multilingual eval, with the widest gains on rare and low-resource languages, where most systems fall off.</p>"
-    },
-    {
-      "title": "R to @MistralAI: We ran OCR 4 head-to-head against the field. Independent annotators blindly ranked 600+ real-world documents across 12+ languages, and preferred OCR 4 over every system tested, with win rates averaging 72%.",
-      "link": "https://twitter.com/MistralAI/status/2069420266061475935#m",
-      "date": "2026-06-23T14:00:14",
-      "source": "@MistralAI",
-      "summary": "<p>We ran OCR 4 head-to-head against the field. Independent annotators blindly ranked 600+ real-world documents across 12+ languages, and preferred OCR 4 over every system tested, with win rates avera"
-    },
-    {
-      "title": "Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇",
-      "link": "https://twitter.com/MistralAI/status/2069420263825895917#m",
-      "date": "2026-06-23T14:00:13",
-      "source": "@MistralAI",
-      "summary": "<p>Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇</p>\n<img src=\"https://nitter.net/pic/media%2FHLgKXVjWEAA"
-    },
-    {
-      "title": "Mistral officially has 1,000 team members around the world! Thank you to our incredible talent for believing in the mission and contributing to what we are building each and every day. You too can be a part of the next chapter in our journey as we continue to grow and serve our customers. Apply for open roles at Mistral across all functions here: https://mistral.ai/careers/",
-      "link": "https://twitter.com/MistralAI/status/2069077356266795207#m",
-      "date": "2026-06-22T15:17:37",
-      "source": "@MistralAI",
-      "summary": "<p>Mistral officially has 1,000 team members around the world!<br />\n<br />\nThank you to our incredible talent for believing in the mission and contributing to what we are building each and every day."
-    },
-    {
-      "title": "We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles complex constraints more reliably and makes shopping and local recommendations more useful and cohesive. Rolling out today to paid users, tomorrow to free users.",
-      "link": "https://twitter.com/OpenAI/status/2069843083701915755#m",
-      "date": "2026-06-24T18:00:21",
-      "source": "@OpenAI",
-      "summary": "<p>We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to.<br />\n<br />\nOur most-used model is now better at understanding the intent behind a question and adapting its re"
-    },
-    {
-      "title": "We’ve designed and built our first AI chip: Jalapeño. Designed from the ground up by OpenAI and brought to production with @Broadcom, Jalapeño is purpose-built for the LLM workloads powering ChatGPT, Codex, the API, and future agentic products. Chips are foundational to the AI economy. Building our own expands our full-stack platform from products to models to infrastructure, and will help us scale intelligence, serve more people, and expand access to AI.",
-      "link": "https://twitter.com/OpenAI/status/2069770172802773292#m",
-      "date": "2026-06-24T13:10:38",
-      "source": "@OpenAI",
-      "summary": "<p>We’ve designed and built our first AI chip: Jalapeño.<br />\n<br />\nDesigned from the ground up by OpenAI and brought to production with <a href=\"https://nitter.net/Broadcom\" title=\"Broadcom\">@Broad"
-    },
-    {
-      "title": "R to @OpenAI: openai.com/index/openai-broa…",
-      "link": "https://twitter.com/OpenAI/status/2069770175709335653#m",
-      "date": "2026-06-24T13:10:39",
-      "source": "@OpenAI",
-      "summary": "<p><a href=\"https://openai.com/index/openai-broadcom-jalapeno-inference-chip/\">openai.com/index/openai-broa…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://openai.com/index/openai-broadcom-jalapeno"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Sur la déconnexion croissante de Ganascia, référence médiatique française sur l'IA, par rapport à la recherche et la réalité de ce qui se passe, voir l'excellente vidéo de @IA_Clash ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2074423771771871700#m",
-      "date": "2026-07-07T09:22:22",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Sur la déconnexion croissante de Ganascia, référence médiatique française sur l'IA, par rapport à la recherche et la réalité de ce qui se passe, voir l'excellente vidéo de <a href=\"https://nitter.n"
-    },
-    {
-      "title": "Jean-Gabriel Ganascia continue encore et toujours de qualifier de \"fables\" et de \"mythes\" les études qu'il n'a manifestement toujours pas lues. \"OpenAI a dit que sa version 5.3 d'Opus s'est dupliquée\"... 🤪",
-      "link": "https://twitter.com/Fabien_Mikol/status/2074423769184002413#m",
-      "date": "2026-07-07T09:22:22",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Jean-Gabriel Ganascia continue encore et toujours de qualifier de \"fables\" et de \"mythes\" les études qu'il n'a manifestement toujours pas lues.<br />\n\"OpenAI a dit que sa version 5.3 d'Opus s'est d"
-    },
-    {
-      "title": "Alors que le papier d'Anthropic sur l'espace global de travail chez les LLM buzz bien et que @StanDehaene ne cache pas son vif intérêt pour le sujet, je reposte le passage essentiel de sa conférence récente sur les critères d'une conscience d'accès pour une machine ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2074414118157557783#m",
-      "date": "2026-07-07T08:44:01",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Alors que le papier d'Anthropic sur l'espace global de travail chez les LLM buzz bien et que <a href=\"https://nitter.net/StanDehaene\" title=\"Stanislas Dehaene @standehaene.bsky.social\">@StanDehaene"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Le commentaire intégral de Dehaene & Naccache est disponible ici :",
-      "link": "https://twitter.com/Fabien_Mikol/status/2074252585616261569#m",
-      "date": "2026-07-06T22:02:08",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Le commentaire intégral de Dehaene &amp; Naccache est disponible ici :</p>\n<hr />\n<blockquote>\n<b>Stanislas Dehaene @standehaene.bsky.social (@StanDehaene)</b>\n<p>\n<p>Lionel Naccache and I wrote a "
-    },
-    {
-      "title": "R to @Fabien_Mikol: Sur les critères importants selon Dehaene pour pouvoir attribuer une conscience d'accès (à distinguer de la conscience phénoménale ou \"effet que ça fait) à des IA, voir ce passage de sa récente conférence au Collège de France :",
-      "link": "https://twitter.com/Fabien_Mikol/status/2074252582654988701#m",
-      "date": "2026-07-06T22:02:08",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Sur les critères importants selon Dehaene pour pouvoir attribuer une conscience d'accès (à distinguer de la conscience phénoménale ou \"effet que ça fait) à des IA, voir ce passage de sa récente con"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Contre ceux qui répètent que les LLM ne sont que des \"perroquets stochastiques\", en plus des travaux de @a_karvonen sur les échecs on peut désormais disséquer leur architecture et y trouver des \"représentations sophistiquées et structurées de concepts\", comme dans notre cerveau !",
-      "link": "https://twitter.com/Fabien_Mikol/status/2074252574773871051#m",
-      "date": "2026-07-06T22:02:06",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Contre ceux qui répètent que les LLM ne sont que des \"perroquets stochastiques\", en plus des travaux de <a href=\"https://nitter.net/a_karvonen\" title=\"Adam Karvonen\">@a_karvonen</a> sur les échecs "
-    },
-    {
-      "title": "L’IA n’a pas commencé avec ChatGPT. Automates antiques, mythes, littérature, cinéma, philosophie : depuis 3 500 ans, nos sociétés imaginent des formes d’altérité artificielle. Une ressource précieuse pour acquérir une culture de l’IA. 🤖📚 🔗 https://www.imaginaires-ia.com/",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2074162081620746324#m",
-      "date": "2026-07-06T16:02:30",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>L’IA n’a pas commencé avec ChatGPT.<br />\nAutomates antiques, mythes, littérature, cinéma, philosophie : depuis 3 500 ans, nos sociétés imaginent des formes d’altérité artificielle.<br />\nUne resso"
-    },
-    {
-      "title": "Briefed",
-      "link": "https://www.uneiaparjour.fr/briefed/",
-      "date": "2026-07-05T17:54:34",
-      "source": "Une IA par jour",
-      "summary": "Briefed (https://briefednewsletter.com/) génère une newsletter personnalisée par IA à partir d&#8217;une instruction. La lettre est envoyée par email selon la fréquence choisie : quotidienne, tous les"
-    },
-    {
-      "title": "Music0 AI",
-      "link": "https://www.uneiaparjour.fr/music0-ai/",
-      "date": "2026-06-29T18:27:28",
-      "source": "Une IA par jour",
-      "summary": "Music0 AI (https://music0.org/) génère des morceaux de musique et des clips vidéo depuis une instruction. Après l&#8217;instruction, le morceau peut-être décrit par genre, type de voix, ambiance, temp"
-    },
-    {
-      "title": "🤖 IA ou réel ? 3 jeux gratuits pour entraîner les élèves à repérer les images générées par #IA: observation des détails, cohérence des ombres, textes suspects, sources… Une excellente activité d’EMI pour aiguiser l’esprit critique. https://outilstice.com/2025/10/jeux-pour-detecter-images-ia/ Source 👉 @outilstice",
-      "link": "https://twitter.com/sophiaefrance/status/2073991590247276922#m",
-      "date": "2026-07-06T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤖 IA ou réel ? 3 jeux gratuits pour entraîner les élèves à repérer les images générées par <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a>: observation des détails, cohérence des o"
-    },
-    {
-      "title": "We’re introducing GeneBench-Pro, a research-level benchmark for a harder kind of AI progress: how well agents can navigate messy biological data, choose the right analysis path, and make judgment calls that real computational research depends on. https://openai.com/index/introducing-genebench-pro/",
-      "link": "https://twitter.com/OpenAI/status/2072004836674167294#m",
-      "date": "2026-06-30T17:10:23",
-      "source": "@OpenAI",
-      "summary": "<p>We’re introducing GeneBench-Pro, a research-level benchmark for a harder kind of AI progress: how well agents can navigate messy biological data, choose the right analysis path, and make judgment c"
     }
   ],
-  "last_update": "2026-07-09T10:50:10.151355",
+  "last_update": "2026-07-10T10:44:05.939242",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
