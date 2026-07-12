@@ -1,6 +1,139 @@
 {
   "articles": [
     {
+      "title": "Bubul",
+      "link": "https://www.uneiaparjour.fr/bubul/",
+      "date": "2026-07-06T21:20:04",
+      "source": "Une IA par jour",
+      "summary": "Bubul (https://bubul.app/) propose huit outils IA destinés aux enseignants et formateurs : Chaque action consomme des tokens décomptés d&#8217;une enveloppe mensuelle commune aux huit outils, avec un "
+    },
+    {
+      "title": "Mise à jour de l’outil suivi.mathix.org",
+      "link": "https://mathix.org/linux/archives/22547",
+      "date": "2026-06-24T13:45:38",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! J&#8217;ai remis un petit lifting sur l&#8217;outil suivi de mathix.org. voici donc une présentation de l&#8217;interface enseignant et élève? J&#8217;ai également ajouté que"
+    },
+    {
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "link": "https://openai.com/index/mufg",
+      "date": "2026-07-07T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale."
+    },
+    {
+      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "date": "2026-07-07T08:54:00",
+      "source": "Google AI",
+      "summary": "Managed agents feature bundle launch"
+    },
+    {
+      "title": "The latest AI news we announced in June 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "date": "2026-07-01T18:15:00",
+      "source": "Google AI",
+      "summary": "June Pixel Drop hero"
+    },
+    {
+      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+      "date": "2026-07-01T16:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp\" />Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit fo"
+    },
+    {
+      "title": "RT by @nsi_xyz: Qui a contesté le redoublement ? Qui a contesté les notes ? Qui s’est accommodé du gel quasi continu du salaire des profs depuis 30 ans ? On ne peut pas affaiblir l’exigence, dévaloriser les enseignants, puis s’étonner du niveau obtenu. Vous récoltez les conséquences de vos choix",
+      "link": "https://twitter.com/ElisaLePrettre/status/2072206029073334477#m",
+      "date": "2026-07-01T06:29:51",
+      "source": "@nsi_xyz",
+      "summary": "<p>Qui a contesté le redoublement ?<br />\nQui a contesté les notes ?<br />\nQui s’est accommodé du gel quasi continu du salaire des profs depuis 30 ans ?<br />\nOn ne peut pas affaiblir l’exigence, déva"
+    },
+    {
+      "title": "🤖 Soupçon d’usage abusif de l’#IA par un élève ? @ualbany invite à dépasser la logique de “détection-punition” : dialoguer, clarifier les attentes, demander des traces de réflexion et faire retravailler l’activité #enseignement #ethique #EdTech https://www.albany.edu/teaching-and-learning/teaching-resources/respond-suspicions-student-cheating-ai",
+      "link": "https://twitter.com/sophiaefrance/status/2072287861269745811#m",
+      "date": "2026-07-01T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 Soupçon d’usage abusif de l’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> par un élève ? <br />\n<a href=\"https://nitter.net/ualbany\" title=\"University at Albany\">@ualbany</a> i"
+    },
+    {
+      "title": "Une classe silencieuse n’apprend pas toujours, une classe bruyante non plus. L'enjeu n’est pas le niveau sonore mais les conditions d’apprentissage : concentration, coopération, règles et objectifs clairs. Parfois, apprendre demande du silence. Parfois, de l’échange. ✍️ C. Caron",
+      "link": "https://twitter.com/sophiaefrance/status/2069751148366409888#m",
+      "date": "2026-06-24T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Une classe silencieuse n’apprend pas toujours, une classe bruyante non plus.<br />\nL'enjeu n’est pas le niveau sonore mais les conditions d’apprentissage : concentration, coopération, règles et obj"
+    },
+    {
+      "title": "🧠 Sciences cognitives & apprentissages : 1️⃣2️⃣ fiches pr mieux comprendre comment les élèves apprennent : mémoire, attention, motivation, métacognition, charge cognitive, différenciation... Une ressource pr ajuster ses pratiques et favoriser l’autonomie. https://digipad.app/p/509494/1b06ad323ccd7",
+      "link": "https://twitter.com/sophiaefrance/status/2067907752035299493#m",
+      "date": "2026-06-19T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧠 Sciences cognitives &amp; apprentissages : 1️⃣2️⃣ fiches pr mieux comprendre comment les élèves apprennent : mémoire, attention, motivation, métacognition, charge cognitive, différenciation... Un"
+    },
+    {
+      "title": "R to @MistralAI: On public benchmarks, OCR 4 tops OlmOCRBench (85.20) and leads our internal multilingual eval, with the widest gains on rare and low-resource languages, where most systems fall off.",
+      "link": "https://twitter.com/MistralAI/status/2069420268179575034#m",
+      "date": "2026-06-23T14:00:14",
+      "source": "@MistralAI",
+      "summary": "<p>On public benchmarks, OCR 4 tops OlmOCRBench (85.20) and leads our internal multilingual eval, with the widest gains on rare and low-resource languages, where most systems fall off.</p>"
+    },
+    {
+      "title": "R to @Fabien_Mikol: \"OpenAI’s gold-medal-winning model [...] relaxes AlphaProof’s constraints on only following rigorous thought. It enables messier, higher-level reasoning in the language space rather than in the Lean-verified proof space\". Tout l'article vaut lecture :",
+      "link": "https://twitter.com/Fabien_Mikol/status/2076240528996171924#m",
+      "date": "2026-07-12T09:41:31",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"OpenAI’s gold-medal-winning model [...] relaxes AlphaProof’s constraints on only following rigorous thought. It enables messier, higher-level reasoning in the language space rather than in the Lea"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Cette conférence a eu lieu en mai dernier, Chalmers ne pouvait donc pas encore connaître les preuves expérimentales d'un quasi analogue au global workspace chez les LLM",
+      "link": "https://twitter.com/Fabien_Mikol/status/2076225885045235896#m",
+      "date": "2026-07-12T08:43:20",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Cette conférence a eu lieu en mai dernier, Chalmers ne pouvait donc pas encore connaître les preuves expérimentales d'un quasi analogue au global workspace chez les LLM</p>\n<hr />\n<blockquote>\n<b>F"
+    },
+    {
+      "title": "Très bonne présentation par @davidchalmers42 des objections contre la conscience des LLM ainsi que des éléments en sa faveur. Si lui-même ne pense pas que ces modèles soient actuellement conscients, il estime tout à fait possible que leurs successeurs le soient à l'avenir.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2076225882679619896#m",
+      "date": "2026-07-12T08:43:19",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Très bonne présentation par <a href=\"https://nitter.net/davidchalmers42\" title=\"David Chalmers\">@davidchalmers42</a> des objections contre la conscience des LLM ainsi que des éléments en sa faveur."
+    },
+    {
+      "title": "📅 Déjà l’événement de la prochaine rentrée : la Semaine de l’apprentissage numérique 2026 de l’@UNESCO, du 8 au 11 sept. à Paris. À l’ère de l’IA, l’urgence n’est pas d’utiliser les machines, mais de former des humains qui pensent. 🔗 https://www.unesco.org/fr/weeks/digital-learning #IA #Éducation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2074524617360756935#m",
+      "date": "2026-07-07T16:03:06",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>📅 Déjà l’événement de la prochaine rentrée : la Semaine de l’apprentissage numérique 2026 de l’<a href=\"https://nitter.net/UNESCO\" title=\"UNESCO\">@UNESCO</a>, du 8 au 11 sept. à Paris.<br />\nÀ l’èr"
+    },
+    {
+      "title": "⏰ Dernière ligne droite ! Le marathon des ateliers d’été ÊtrePROF démarre lundi avec 14 ateliers autour de la thématique « J’enseigne avec l’IA ». On se retrouve ? 👉 https://etreprof.fr/ateliers?auteur=26355 #IA #Éducation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2073075028577423364#m",
+      "date": "2026-07-03T16:02:57",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>⏰ Dernière ligne droite !<br />\nLe marathon des ateliers d’été ÊtrePROF démarre lundi avec 14 ateliers autour de la thématique « J’enseigne avec l’IA ». <br />\nOn se retrouve ? 👉 <a href=\"https://e"
+    },
+    {
+      "title": "📘 Aujourd’hui sort \"J’apprends avec l’IA\". Un guide pensé à destination des élèves pour comprendre, vérifier, reformuler, s’entraîner, sans laisser l’outil penser à leur place. Et si vous le croisez en librairie, je serai ravi de le voir passer ici 📷️ https://www.magnard.fr/livre/9782210787933-j-apprends-avec-l-ia",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2072712705723576616#m",
+      "date": "2026-07-02T16:03:12",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>📘 Aujourd’hui sort \"J’apprends avec l’IA\".<br />\nUn guide pensé à destination des élèves pour comprendre, vérifier, reformuler, s’entraîner, sans laisser l’outil penser à leur place.<br />\nEt si vo"
+    },
+    {
+      "title": "23 % des moins de 40 ans utilisent une IA comme psy, ami ou amoureux. Le CRÉDOC y voit un « safe space »… mais aussi le risque d’une économie de l’attachement. 🤖💬 https://www.credoc.fr/publications/lia-emotionnelle-un-ami-qui-vous-veut-du-bien",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2072350280360845386#m",
+      "date": "2026-07-01T16:03:03",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>23 % des moins de 40 ans utilisent une IA comme psy, ami ou amoureux. <br />\nLe CRÉDOC y voit un « safe space »… mais aussi le risque d’une économie de l’attachement. 🤖💬 <a href=\"https://www.credoc"
+    },
+    {
+      "title": "☀️ Les ateliers d’été ÊtrePROF reviennent ! 📅 14 RDV autour de « J’enseigne avec l’IA ». Des anciens pour rattraper, des nouveaux pour approfondir. En 2024, vous étiez + de 1800. On fait encore mieux cette année ? 👉 https://etreprof.fr/ateliers?auteur=26355 #IA #Éducation",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2070538121469456862#m",
+      "date": "2026-06-26T16:02:11",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>☀️ Les ateliers d’été ÊtrePROF reviennent !<br />\n📅 14 RDV autour de « J’enseigne avec l’IA ».<br />\nDes anciens pour rattraper, des nouveaux pour approfondir.<br />\nEn 2024, vous étiez + de 1800. "
+    },
+    {
       "title": "Briefed",
       "link": "https://www.uneiaparjour.fr/briefed/",
       "date": "2026-07-05T17:54:34",
@@ -566,142 +699,9 @@
       "date": "2026-07-08T14:01:08",
       "source": "@MistralAI",
       "summary": "<p>No LiDAR. No depth sensors. No camera rig. Where leading systems lean on depth or multiple cameras, Robostral Navigate works from one ordinary RGB camera, and still comes out ahead.</p>"
-    },
-    {
-      "title": "Customers are not an abstraction for us: we exist to help enterprises, public institutions, and industries build their own intelligence, so the value created from their data, workflows, feedback, and models accrues to them rather than to model providers.",
-      "link": "https://twitter.com/MistralAI/status/2073163455910330528#m",
-      "date": "2026-07-03T21:54:20",
-      "source": "@MistralAI",
-      "summary": "<p>Customers are not an abstraction for us: we exist to help enterprises, public institutions, and industries build their own intelligence, so the value created from their data, workflows, feedback, a"
-    },
-    {
-      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
-      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
-      "date": "2026-04-29T02:20:52",
-      "source": "@deepseek_ai",
-      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
-    },
-    {
-      "title": "Pinned: 🔥DeepSeek Input Cache Price Drop! Effective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less. 📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
-      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
-      "date": "2026-04-26T16:35:11",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
-    },
-    {
-      "title": "🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount. 🛠️Integration Updates: 🔹Claude Code: Set model to deepseek-v4-pro[1m] to unlock 1M context! 🔹OpenCode: Update to v1.14.24+ 🔹OpenClaw: Update to v2026.4.24+ Check the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
-      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
-      "date": "2026-04-25T15:33:11",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
-    },
-    {
-      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views. 🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI. 7/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
-      "date": "2026-04-24T03:24:16",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
-    },
-    {
-      "title": "R to @deepseek_ai: API is Available Today! 🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash. 🔹 Supports OpenAI ChatCompletions & Anthropic APIs. 🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://api-docs.deepseek.com/guides/thinking_mode ⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking). 6/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516945466188072#m",
-      "date": "2026-04-24T03:24:15",
-      "source": "@deepseek_ai",
-      "summary": "<p>API is Available Today!<br />\n<br />\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.<br />\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.<br />\n🔹 Both models suppor"
-    },
-    {
-      "title": "R to @deepseek_ai: Dedicated Optimizations for Agent Capabilities 🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode. 🔹 Already driving our in-house agentic coding at DeepSeek. The figure below showcases a sample PDF generated by DeepSeek-V4-Pro. 5/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516941074796676#m",
-      "date": "2026-04-24T03:24:14",
-      "source": "@deepseek_ai",
-      "summary": "<p>Dedicated Optimizations for Agent Capabilities<br />\n<br />\n🔹 DeepSeek-V4 is seamlessly integrated with leading AI agents like Claude Code, OpenClaw & OpenCode.<br />\n🔹 Already driving our in-house"
-    },
-    {
-      "title": "R to @deepseek_ai: Structural Innovation & Ultra-High Context Efficiency 🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention). 🔹 Peak Efficiency: World-leading long context with drastically reduced compute & memory costs. 🔹 1M Standard: 1M context is now the default across all official DeepSeek services. 4/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516936289017964#m",
-      "date": "2026-04-24T03:24:13",
-      "source": "@deepseek_ai",
-      "summary": "<p>Structural Innovation & Ultra-High Context Efficiency<br />\n<br />\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).<br />\n🔹 Peak Efficiency: World-leading long context w"
-    },
-    {
-      "title": "R to @deepseek_ai: DeepSeek-V4-Flash 🔹 Reasoning capabilities closely approach V4-Pro. 🔹 Performs on par with V4-Pro on simple Agent tasks. 🔹 Smaller parameter size, faster response times, and highly cost-effective API pricing. 3/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516932140884024#m",
-      "date": "2026-04-24T03:24:12",
-      "source": "@deepseek_ai",
-      "summary": "<p>DeepSeek-V4-Flash<br />\n<br />\n🔹 Reasoning capabilities closely approach V4-Pro.<br />\n🔹 Performs on par with V4-Pro on simple Agent tasks.<br />\n🔹 Smaller parameter size, faster response times, an"
-    },
-    {
-      "title": "R to @deepseek_ai: DeepSeek-V4-Pro 🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks. 🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pro. 🔹 World-Class Reasoning: Beats all current open models in Math/STEM/Coding, rivaling top closed-source models. 2/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516926432399791#m",
-      "date": "2026-04-24T03:24:10",
-      "source": "@deepseek_ai",
-      "summary": "<p>DeepSeek-V4-Pro<br />\n<br />\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.<br />\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pr"
-    },
-    {
-      "title": "GPT-Live is now fully rolled out to all ChatGPT users on Go, Plus, and Pro plans. Free user rollout is in progress. Update to the latest version of the ChatGPT app on iOS or Android to try it out.",
-      "link": "https://twitter.com/OpenAI/status/2075019750569378007#m",
-      "date": "2026-07-09T00:50:35",
-      "source": "@OpenAI",
-      "summary": "<p>GPT-Live is now fully rolled out to all ChatGPT users on Go, Plus, and Pro plans. Free user rollout is in progress. <br />\n<br />\nUpdate to the latest version of the ChatGPT app on iOS or Android t"
-    },
-    {
-      "title": "R to @OpenAI: As coding models improve, evals need to become harder, fairer, and more trustworthy. Better benchmarks help the field understand real progress and where the frontier is moving.",
-      "link": "https://twitter.com/OpenAI/status/2074972185895342084#m",
-      "date": "2026-07-08T21:41:34",
-      "source": "@OpenAI",
-      "summary": "<p>As coding models improve, evals need to become harder, fairer, and more trustworthy.<br />\n<br />\nBetter benchmarks help the field understand real progress and where the frontier is moving.</p>"
-    },
-    {
-      "title": "R to @OpenAI: To audit SWE-Bench Pro, we used model-based investigator agents alongside independent reviews from five independent experienced software engineers. That helped us examine tasks at scale while keeping expert judgment at the center.",
-      "link": "https://twitter.com/OpenAI/status/2074972182640492731#m",
-      "date": "2026-07-08T21:41:34",
-      "source": "@OpenAI",
-      "summary": "<p>To audit SWE-Bench Pro, we used model-based investigator agents alongside independent reviews from five independent experienced software engineers.<br />\n<br />\nThat helped us examine tasks at scal"
-    },
-    {
-      "title": "R to @OpenAI: Our audit of SWE-Bench Pro found that a meaningful share of public tasks contain issues that can distort results. Some correct solutions fail because of hidden requirements, contradictory instructions, overly strict tests, or incomplete grading criteria.",
-      "link": "https://twitter.com/OpenAI/status/2074972180769907186#m",
-      "date": "2026-07-08T21:41:33",
-      "source": "@OpenAI",
-      "summary": "<p>Our audit of SWE-Bench Pro found that a meaningful share of public tasks contain issues that can distort results.<br />\n<br />\nSome correct solutions fail because of hidden requirements, contradict"
-    },
-    {
-      "title": "We audited SWE-Bench Pro, one of the most widely used AI coding benchmarks, and found it no longer reliably measures frontier coding capability. We find 30% of SWE-Bench Pro tasks to be broken, and are retracting our previous recommendation that the research community use it as a leading coding eval. https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
-      "link": "https://twitter.com/OpenAI/status/2074972179385720836#m",
-      "date": "2026-07-08T21:41:33",
-      "source": "@OpenAI",
-      "summary": "<p>We audited SWE-Bench Pro, one of the most widely used AI coding benchmarks, and found it no longer reliably measures frontier coding capability.<br />\n<br />\nWe find 30% of SWE-Bench Pro tasks to b"
-    },
-    {
-      "title": "R to @OpenAI: These new models are rolling out to everyone over the next few days, starting today. They’ll be available in ChatGPT across iOS, Android, and web. Coming soon to the API. Just tap the Voice button to talk with ChatGPT, and you’ll feel the magic of GPT-Live.",
-      "link": "https://twitter.com/OpenAI/status/2074907035225981169#m",
-      "date": "2026-07-08T17:22:41",
-      "source": "@OpenAI",
-      "summary": "<p>These new models are rolling out to everyone over the next few days, starting today. <br />\n<br />\nThey’ll be available in ChatGPT across iOS, Android, and web. Coming soon to the API.<br />\n<br />"
-    },
-    {
-      "title": "R to @OpenAI: For questions that require web search, deeper reasoning, or more complex work, GPT-Live can delegate to our latest frontier model behind the scenes, and brings the result back into the conversation when it's ready.",
-      "link": "https://twitter.com/OpenAI/status/2074907033577693636#m",
-      "date": "2026-07-08T17:22:41",
-      "source": "@OpenAI",
-      "summary": "<p>For questions that require web search, deeper reasoning, or more complex work, GPT-Live can delegate to our latest frontier model behind the scenes, and brings the result back into the conversation"
-    },
-    {
-      "title": "R to @OpenAI: A good voice model should be enjoyable to talk to, and GPT-Live is a great conversationalist with a more natural and defined personality than previous voice models.",
-      "link": "https://twitter.com/OpenAI/status/2074907031862190406#m",
-      "date": "2026-07-08T17:22:40",
-      "source": "@OpenAI",
-      "summary": "<p>A good voice model should be enjoyable to talk to, and GPT-Live is a great conversationalist with a more natural and defined personality than previous voice models.</p>\n<a href=\"https://nitter.net/"
-    },
-    {
-      "title": "R to @OpenAI: Our full-duplex architecture allows the model to engage in more natural back-and-forth, maintain a better sense of time, and even perform live translation.",
-      "link": "https://twitter.com/OpenAI/status/2074907030343839925#m",
-      "date": "2026-07-08T17:22:40",
-      "source": "@OpenAI",
-      "summary": "<p>Our full-duplex architecture allows the model to engage in more natural back-and-forth, maintain a better sense of time, and even perform live translation.</p>\n<a href=\"https://nitter.net/OpenAI/st"
     }
   ],
-  "last_update": "2026-07-11T09:17:17.838499",
+  "last_update": "2026-07-12T09:42:34.989286",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
