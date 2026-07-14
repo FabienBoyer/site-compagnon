@@ -1,6 +1,195 @@
 {
   "articles": [
     {
+      "title": "Assistant IA ÊtrePROF",
+      "link": "https://www.uneiaparjour.fr/assistant-ia-etreprof/",
+      "date": "2026-07-08T19:42:00",
+      "source": "Une IA par jour",
+      "summary": "L&#8217;Assistant IA ÊtrePROF (https://nouvel.etreprof.fr/preparer-seance-sequence) génère des des séances pédagogiques et une fiche professeur à partir d&#8217;une instruction rédigée sous forme d&#8"
+    },
+    {
+      "title": "L’outil pour les répartitions",
+      "link": "https://mathix.org/linux/archives/22556",
+      "date": "2026-06-26T06:54:39",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Bon, notre dotation horaire s&#8217;est amusé à faire Philippe Catherine , « j&#8217;enlève une classe » « Ohhhh » « je remets une classe » « ahhhh » mais avec sans doute des"
+    },
+    {
+      "title": "Getting started with ChatGPT",
+      "link": "https://openai.com/academy/getting-started",
+      "date": "2026-07-10T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI."
+    },
+    {
+      "title": "Our approach to government and national security partnerships",
+      "link": "https://openai.com/index/government-national-security-partnerships",
+      "date": "2026-07-08T13:30:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety."
+    },
+    {
+      "title": "Separating signal from noise in coding evaluations",
+      "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "date": "2026-07-08T13:00:00",
+      "source": "OpenAI Blog",
+      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models."
+    },
+    {
+      "title": "Helping K–12 educators build practical AI skills",
+      "link": "https://openai.com/index/k-12-educators-practical-skills",
+      "date": "2026-07-08T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom."
+    },
+    {
+      "title": "Introducing GPT-Live",
+      "link": "https://openai.com/index/introducing-gpt-live",
+      "date": "2026-07-08T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice."
+    },
+    {
+      "title": "🔎 À (re)découvrir : la synthèse du CSEN sur les agents conversationnels en classe. Personnalisation, inclusion, accompagnement, éthique, données… Une ressource clé pour penser une IA qui soutient l’apprentissage sans remplacer l’enseignant. https://drive.google.com/file/d/1kliABtGbcjMWpNN1qpdXfKcxatKoPfR6/view?usp=sharing",
+      "link": "https://twitter.com/sophiaefrance/status/2074824577335570854#m",
+      "date": "2026-07-08T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🔎 À (re)découvrir : la synthèse du CSEN sur les agents conversationnels en classe.<br />\nPersonnalisation, inclusion, accompagnement, éthique, données… Une ressource clé pour penser une IA qui sout"
+    },
+    {
+      "title": "Repérer plus tôt pour mieux accompagner : #Identidys propose une échelle d’aide au repérage des troubles du neurodéveloppement, pensée pour les parents et les enseignants. Une ressource utile pour orienter, dialoguer et structurer le parcours d’aide. 🔗 https://www.identidys.com/",
+      "link": "https://twitter.com/sophiaefrance/status/2072981180429836709#m",
+      "date": "2026-07-03T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Repérer plus tôt pour mieux accompagner : <a href=\"https://nitter.net/search?f=tweets&amp;q=%23Identidys\">#Identidys</a> propose une échelle d’aide au repérage des troubles du neurodéveloppement, p"
+    },
+    {
+      "title": "🤖 L’ #IA transforme les métiers mais elle ne remplace pas ce qui fait la force de l’humain : empathie, créativité, improvisation & jugement éthique.Un éclairage utile pour penser l’école, l’orientation et les compétences de demain https://findskill.ai/fr/blog/50-metiers-ia-ne-peut-pas-remplacer-2026/ #education #orientation",
+      "link": "https://twitter.com/sophiaefrance/status/2070444463164477563#m",
+      "date": "2026-06-26T09:50:01",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 L’ <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> transforme les métiers mais elle ne remplace pas ce qui fait la force de l’humain : empathie, créativité, improvisation &amp; j"
+    },
+    {
+      "title": "R to @AnthropicAI: While the values Claude expresses shape millions of conversations every day, we don't yet understand why they vary, or whether that's desired. This approach will allow us to determine what factors influence Claude's value expression—and ultimately how (and whether) to steer it. https://www.anthropic.com/research/claude-values-models-languages",
+      "link": "https://twitter.com/AnthropicAI/status/2076719549060382802#m",
+      "date": "2026-07-13T17:24:58",
+      "source": "@AnthropicAI",
+      "summary": "<p>While the values Claude expresses shape millions of conversations every day, we don't yet understand why they vary, or whether that's desired.<br />\n<br />\nThis approach will allow us to determine "
+    },
+    {
+      "title": "R to @AnthropicAI: The values Claude expresses also vary with the language of the conversation, most noticeably along the Warmth vs. Rigor axis. Claude leans most toward warmth in Hindi and Arabic. In Russian, it leans toward rigor—often asking the user for supporting evidence.",
+      "link": "https://twitter.com/AnthropicAI/status/2076719546954825769#m",
+      "date": "2026-07-13T17:24:58",
+      "source": "@AnthropicAI",
+      "summary": "<p>The values Claude expresses also vary with the language of the conversation, most noticeably along the Warmth vs. Rigor axis.<br />\n<br />\nClaude leans most toward warmth in Hindi and Arabic. In Ru"
+    },
+    {
+      "title": "R to @AnthropicAI: While the differences between models are modest overall, we find that each Claude model sits at a different point along these value axes. Sonnet 4.6, for example, is more playful and affirming, while Opus 4.7 is more likely to give candid critiques.",
+      "link": "https://twitter.com/AnthropicAI/status/2076719544727716287#m",
+      "date": "2026-07-13T17:24:57",
+      "source": "@AnthropicAI",
+      "summary": "<p>While the differences between models are modest overall, we find that each Claude model sits at a different point along these value axes.  <br />\n<br />\nSonnet 4.6, for example, is more playful and"
+    },
+    {
+      "title": "R to @AnthropicAI: Because it’s hard to spot patterns by comparing 3,000 values at a time, we clustered similar values together, then identified four key axes along which Claude’s values differ between models: Deference vs. Caution, Warmth vs. Rigor, Depth vs. Brevity, and Candor vs. Execution.",
+      "link": "https://twitter.com/AnthropicAI/status/2076719542404018631#m",
+      "date": "2026-07-13T17:24:57",
+      "source": "@AnthropicAI",
+      "summary": "<p>Because it’s hard to spot patterns by comparing 3,000 values at a time, we clustered similar values together, then identified four key axes along which Claude’s values differ between models: <br />"
+    },
+    {
+      "title": "In previous research, we found that Claude expresses over 3,000 values, like honesty and warmth. In new work, we asked how the values Claude expresses vary between Claude models and across languages. We analyzed 300K+ anonymized conversations to find out.https://www.anthropic.com/research/claude-values-models-languages",
+      "link": "https://twitter.com/AnthropicAI/status/2076719540785012872#m",
+      "date": "2026-07-13T17:24:56",
+      "source": "@AnthropicAI",
+      "summary": "<p>In previous research, we found that Claude expresses over 3,000 values, like honesty and warmth. In new work, we asked how the values Claude expresses vary between Claude models and across language"
+    },
+    {
+      "title": "We’re pleased to have collaborated with AE Studio on this research. Read more here: https://www.anthropic.com/research/off-switch-dual-use",
+      "link": "https://twitter.com/AnthropicAI/status/2075005777522172146#m",
+      "date": "2026-07-08T23:55:03",
+      "source": "@AnthropicAI",
+      "summary": "<p>We’re pleased to have collaborated with AE Studio on this research. <br />\n<br />\nRead more here: <a href=\"https://www.anthropic.com/research/off-switch-dual-use\">anthropic.com/research/off-s…</a><"
+    },
+    {
+      "title": "The Solutions team @MistralAI is hiring globally! If you’re entrepreneurial, hands-on, and want to shape how enterprises adopt AI, let’s talk. Apply: https://mistral.ai/careers/?utm_source=linkedin&utm_medium=social&utm_campaign=global_recruiting",
+      "link": "https://twitter.com/MistralAI/status/2075131809638088865#m",
+      "date": "2026-07-09T08:15:52",
+      "source": "@MistralAI",
+      "summary": "<p>The Solutions team <a href=\"https://nitter.net/MistralAI\" title=\"Mistral AI\">@MistralAI</a> is hiring globally!<br />\n<br />\nIf you’re entrepreneurial, hands-on, and want to shape how enterprises a"
+    },
+    {
+      "title": "R to @MistralAI: It runs on wheeled, legged, and flying robots and generalizes across sizes, unlocking delivery, logistics, manufacturing, and hospitality. Read more: https://mistral.ai/news/robostral-navigate",
+      "link": "https://twitter.com/MistralAI/status/2074856315655000552#m",
+      "date": "2026-07-08T14:01:09",
+      "source": "@MistralAI",
+      "summary": "<p>It runs on wheeled, legged, and flying robots and generalizes across sizes, unlocking delivery, logistics, manufacturing, and hospitality.<br />\nRead more: <a href=\"https://mistral.ai/news/robostra"
+    },
+    {
+      "title": "R to @MistralAI: Trained entirely in simulation: ~400,000 trajectories across 6,000 scenes. A prefix-caching recipe cuts training tokens by 22×, turning months-long runs into days. Online RL (CISPO) pushes success rates higher still.",
+      "link": "https://twitter.com/MistralAI/status/2074856314132410755#m",
+      "date": "2026-07-08T14:01:08",
+      "source": "@MistralAI",
+      "summary": "<p>Trained entirely in simulation: ~400,000 trajectories across 6,000 scenes. A prefix-caching recipe cuts training tokens by 22×, turning months-long runs into days. Online RL (CISPO) pushes success "
+    },
+    {
+      "title": "R to @MistralAI: 76.6% success on R2R-CE validation unseen (79.4% on validation seen), the benchmark for following instructions in previously unseen environments. It beats the best single-camera approach by 9.7 points while using far less sensing.",
+      "link": "https://twitter.com/MistralAI/status/2074856312685334596#m",
+      "date": "2026-07-08T14:01:08",
+      "source": "@MistralAI",
+      "summary": "<p>76.6% success on R2R-CE validation unseen (79.4% on validation seen), the benchmark for following instructions in previously unseen environments. It beats the best single-camera approach by 9.7 poi"
+    },
+    {
+      "title": "R to @MistralAI: No LiDAR. No depth sensors. No camera rig. Where leading systems lean on depth or multiple cameras, Robostral Navigate works from one ordinary RGB camera, and still comes out ahead.",
+      "link": "https://twitter.com/MistralAI/status/2074856311091503237#m",
+      "date": "2026-07-08T14:01:08",
+      "source": "@MistralAI",
+      "summary": "<p>No LiDAR. No depth sensors. No camera rig. Where leading systems lean on depth or multiple cameras, Robostral Navigate works from one ordinary RGB camera, and still comes out ahead.</p>"
+    },
+    {
+      "title": "RT by @OpenAI: ChatGPT is available again on WhatsApp in the EEA, part of our work to make AI accessible in the apps people already use every day. Message the verified 1-800-CHATGPT contact to ask questions, upload images, send voice notes, create images, and use ChatGPT in many languages. Now also on Kakao in South Korea and Viber in supported markets.",
+      "link": "https://twitter.com/ChatGPTapp/status/2076654365121855835#m",
+      "date": "2026-07-13T13:05:57",
+      "source": "@OpenAI",
+      "summary": "<p>ChatGPT is available again on WhatsApp in the EEA, part of our work to make AI accessible in the apps people already use every day.<br />\n<br />\nMessage the verified 1-800-CHATGPT contact to ask qu"
+    },
+    {
+      "title": "Vous voulez un Claude plus critique et moins sycophante ? Parlez-lui en anglais. Vous le préférez obséquieux et à l'écoute avant tout de vos sentiments ? N'hésitez pas à embrayer sur le japonais. \"We don't yet know which properties of our training data drive these differences\"...",
+      "link": "https://twitter.com/Fabien_Mikol/status/2076779944093327848#m",
+      "date": "2026-07-13T21:24:58",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Vous voulez un Claude plus critique et moins sycophante ? Parlez-lui en anglais.<br />\nVous le préférez obséquieux et à l'écoute avant tout de vos sentiments ? N'hésitez pas à embrayer sur le japon"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Quelques commentaires sympas de ChatGPT-5.6 : \"la solution est presque insultante d'élégance a posteriori\" ; \"C'est très, très « mathématicien ». Il y a une vraie compression conceptuelle du problème\". https://chatgpt.com/share/6a555439-0898-83eb-a8e5-cde99e4acb1c",
+      "link": "https://twitter.com/Fabien_Mikol/status/2076776274786185279#m",
+      "date": "2026-07-13T21:10:23",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Quelques commentaires sympas de ChatGPT-5.6 : \"la solution est presque insultante d'élégance a posteriori\" ; \"C'est très, très « mathématicien ». Il y a une vraie compression conceptuelle du problè"
+    },
+    {
+      "title": "R to @Fabien_Mikol: La précédente résolution :",
+      "link": "https://twitter.com/Fabien_Mikol/status/2076775208359235857#m",
+      "date": "2026-07-13T21:06:08",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>La précédente résolution :</p>\n<hr />\n<blockquote>\n<b>Fabien (@Fabien_Mikol)</b>\n<p>\n<p>ChatGPT-5.6 a résolu ce problème d'Erdős assez fameux d'une manière nouvelle et inattendue, beaucoup plus sim"
+    },
+    {
+      "title": "Deux problèmes d'Erdős probablement résolus dans la même journée par ChatGPT-5.6 grâce à @prz_chojecki, et chaque fois de manière inventive et élégante... ça commence à faire beaucoup 😅 \"Cela commence à ressembler à un signal de capacité de recherche mathématique généraliste\"...",
+      "link": "https://twitter.com/Fabien_Mikol/status/2076775019015774261#m",
+      "date": "2026-07-13T21:05:23",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Deux problèmes d'Erdős probablement résolus dans la même journée par ChatGPT-5.6 grâce à <a href=\"https://nitter.net/prz_chojecki\" title=\"Przemek Chojecki | PC\">@prz_chojecki</a>, et chaque fois de"
+    },
+    {
+      "title": "📚 Lectures #été2026 Avec \"Former comme une série à succès\", Sarah Akel part des séries pour mieux rappeler l’essentiel : former, ce n’est pas empiler des contenus. C’est concevoir une expérience d’apprentissage : rythme, attention, transposition, implication, progression.",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2076698514713673904#m",
+      "date": "2026-07-13T16:01:23",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>📚 Lectures <a href=\"https://nitter.net/search?f=tweets&amp;q=%23été2026\">#été2026</a><br />\nAvec \"Former comme une série à succès\", Sarah Akel part des séries pour mieux rappeler l’essentiel : form"
+    },
+    {
       "title": "Video Transcription AI",
       "link": "https://www.uneiaparjour.fr/video-transcription-ai/",
       "date": "2026-07-12T19:46:00",
@@ -510,198 +699,9 @@
       "date": "2026-07-09T13:00:00",
       "source": "OpenAI Blog",
       "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work."
-    },
-    {
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "link": "https://openai.com/index/gpt-5-6",
-      "date": "2026-07-09T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work."
-    },
-    {
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "date": "2026-07-09T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work."
-    },
-    {
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "link": "https://openai.com/index/bio-bug-bounty",
-      "date": "2026-07-09T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Details about the OpenAI Bio Bounty program"
-    },
-    {
-      "title": "The latest AI news we announced in May 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
-      "date": "2026-06-05T14:45:00",
-      "source": "Google AI",
-      "summary": "May AI recap"
-    },
-    {
-      "title": "R to @nsi_xyz: J'ai oublié la pièce jointe, tellement j'étais affecté par la température du lycée dans lequel je faisais le père noël.",
-      "link": "https://twitter.com/nsi_xyz/status/2075322679612043571#m",
-      "date": "2026-07-09T20:54:19",
-      "source": "@nsi_xyz",
-      "summary": "<p>J'ai oublié la pièce jointe, tellement j'étais affecté par la température du lycée dans lequel je faisais le père noël.</p>\n<img src=\"https://nitter.net/pic/media%2FHM0G-rlXwAAHTP3.jpg\" />"
-    },
-    {
-      "title": "Le barème de Schrödinger. Seuls les correcteurs le connaissent, et il est confidentiel. si tu tentes de l'observer, il disparaît. Il existe, personne ne sait ce qu'il contient, mais tous en parlent.",
-      "link": "https://twitter.com/nsi_xyz/status/2075228988142743656#m",
-      "date": "2026-07-09T14:42:01",
-      "source": "@nsi_xyz",
-      "summary": "<p>Le barème de Schrödinger.<br />\nSeuls les correcteurs le connaissent, et il est confidentiel. si tu tentes de l'observer, il disparaît. Il existe, personne ne sait ce qu'il contient, mais tous en p"
-    },
-    {
-      "title": "RT by @nsi_xyz: La répression plutôt que l’éducation ? A la veille des vacances, le BO du 2 juillet précise les modalités d’interdiction du téléphone portable au lycée pour la rentrée 2026 : https://www.cafepedagogique.net/2026/07/03/interdiction-de-lutilisation-du-telephone-portable-et-des-autres-objets-connectes-au-lycee/",
-      "link": "https://twitter.com/cafepedagogique/status/2073063972891177309#m",
-      "date": "2026-07-03T15:19:01",
-      "source": "@nsi_xyz",
-      "summary": "<p>La répression plutôt que l’éducation ? A la veille des vacances, le BO du 2 juillet précise les modalités d’interdiction du téléphone portable au lycée pour la rentrée 2026 : <a href=\"https://www.c"
-    },
-    {
-      "title": "🚀 Et si le remplaçant libre de Kahoot était déjà là ? Live Quiz débarque sur la Forge Éducation nationale : quiz en direct, IA Albert, mode scan papier façon Plickers, sans compte élève ni pub. Un outil libre, souverain et pensé pour la classe. https://live-quiz.forge.apps.education.fr/",
-      "link": "https://twitter.com/sophiaefrance/status/2075517896344682671#m",
-      "date": "2026-07-10T09:50:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🚀 Et si le remplaçant libre de Kahoot était déjà là ?<br />\nLive Quiz débarque sur la Forge Éducation nationale : quiz en direct, IA Albert, mode scan papier façon Plickers, sans compte élève ni pu"
-    },
-    {
-      "title": "⚠️ Accessibilité pédagogique ≠ adaptation. Avec la #M2PA, on anticipe dès la conception de la séance : besoins partagés, différenciations, adaptations si nécessaire. Un outil libre, institutionnel, avec appui de l#’IA Albert. https://m2pa.forge.apps.education.fr/",
-      "link": "https://twitter.com/sophiaefrance/status/2071454876253462747#m",
-      "date": "2026-06-29T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>⚠️ Accessibilité pédagogique ≠ adaptation. <br />\nAvec la <a href=\"https://nitter.net/search?f=tweets&amp;q=%23M2PA\">#M2PA</a>, on anticipe dès la conception de la séance : besoins partagés, différ"
-    },
-    {
-      "title": "🧠 Et si le véritable apprentissage commençait juste au-dessus de ce que l’élève sait déjà faire ? 👉 Trop facile : il se désengage. 👉 Trop difficile : il se décourage. 👉 Entre les deux : la #ZPD Petit à petit, l’erreur devient un signal d’apprentissage 🚀 ✍️ Mejdi Ayari",
-      "link": "https://twitter.com/sophiaefrance/status/2068918160925807073#m",
-      "date": "2026-06-22T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧠 Et si le véritable apprentissage commençait juste au-dessus de ce que l’élève sait déjà faire ?<br />\n👉 Trop facile : il se désengage.<br />\n👉  Trop difficile : il se décourage.<br />\n👉 Entre les"
-    },
-    {
-      "title": "RT by @AnthropicAI: There’s hope in hard questions.",
-      "link": "https://twitter.com/claudeai/status/2075271759289303522#m",
-      "date": "2026-07-09T17:31:58",
-      "source": "@AnthropicAI",
-      "summary": "<p>There’s hope in hard questions.</p>\n<a href=\"https://nitter.net/claudeai/status/2075271759289303522#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/media%2FHMzYzrcXMAAeKQI.jpg\" />\n</a>"
-    },
-    {
-      "title": "Our Long-Term Benefit Trust has appointed Dr. Ben Bernanke as its newest member. Read more: https://www.anthropic.com/news/ben-bernanke",
-      "link": "https://twitter.com/AnthropicAI/status/2075257492716879967#m",
-      "date": "2026-07-09T16:35:17",
-      "source": "@AnthropicAI",
-      "summary": "<p>Our Long-Term Benefit Trust has appointed Dr. Ben Bernanke as its newest member. <br />\n<br />\nRead more: <a href=\"https://www.anthropic.com/news/ben-bernanke\">anthropic.com/news/ben-berna…</a></p>"
-    },
-    {
-      "title": "We are making our discount permanent! 🎉 Enjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀",
-      "link": "https://twitter.com/deepseek_ai/status/2057854261699195173#m",
-      "date": "2026-05-22T16:01:03",
-      "source": "@deepseek_ai",
-      "summary": "<p>We are making our discount permanent! 🎉<br />\n<br />\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀</p>\n<img src=\"https://nitter.net/pic/media%2FHI7xPnWbgAAW4UO.jpg\""
-    },
-    {
-      "title": "Meet Hiroki (@tomiyasu16). A broccoli farmer running his farm with GPT-5.6.",
-      "link": "https://twitter.com/OpenAI/status/2075310019185389913#m",
-      "date": "2026-07-09T20:04:00",
-      "source": "@OpenAI",
-      "summary": "<p>Meet Hiroki (<a href=\"https://nitter.net/tomiyasu16\" title=\"とみやす｜北海道の農家🇯🇵\">@tomiyasu16</a>).<br />\n<br />\nA broccoli farmer running his farm with GPT-5.6.</p>\n<a href=\"https://nitter.net/OpenAI/sta"
-    },
-    {
-      "title": "R to @OpenAI: Meet Bartosz (@nasqret). A mathematician solving previously unsolvable math problems with GPT-5.6",
-      "link": "https://twitter.com/OpenAI/status/2075310020653351324#m",
-      "date": "2026-07-09T20:04:00",
-      "source": "@OpenAI",
-      "summary": "<p>Meet Bartosz (<a href=\"https://nitter.net/nasqret\" title=\"Bartosz Naskręcki\">@nasqret</a>).<br />\n<br />\nA mathematician solving previously unsolvable math problems with GPT-5.6</p>\n<a href=\"https:"
-    },
-    {
-      "title": "R to @OpenAI: ChatGPT Work is powered by GPT-5.6. GPT-5.6 makes ChatGPT state of the art at reasoning through complex tasks and creating materials that match your templates, reference files, and preferred style. Just describe the outcome you want, without having to spell out every step to get there.",
-      "link": "https://twitter.com/OpenAI/status/2075274275104399670#m",
-      "date": "2026-07-09T17:41:58",
-      "source": "@OpenAI",
-      "summary": "<p>ChatGPT Work is powered by GPT-5.6.<br />\n<br />\nGPT-5.6 makes ChatGPT state of the art at reasoning through complex tasks and creating materials that match your templates, reference files, and pre"
-    },
-    {
-      "title": "R to @OpenAI: ChatGPT Work reflects a shift in how people are using AI, moving beyond just answering questions to getting real work done across web, mobile, and desktop. You can ask ChatGPT Work to take on entire workflows with a single request. It will understand your goals, use context from selected apps and files, create polished documents, decks, analyses, sites, and reports, and keep work moving while you stay in control. https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
-      "link": "https://twitter.com/OpenAI/status/2075274273607037403#m",
-      "date": "2026-07-09T17:41:58",
-      "source": "@OpenAI",
-      "summary": "<p>ChatGPT Work reflects a shift in how people are using AI, moving beyond just answering questions to getting real work done across web, mobile, and desktop.<br />\n<br />\nYou can ask ChatGPT Work to "
-    },
-    {
-      "title": "Pinned: Introducing ChatGPT Work, a new agent in ChatGPT powered by Codex and GPT-5.6. It can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work. It’s a whole new way to get work done.",
-      "link": "https://twitter.com/OpenAI/status/2075274271845404744#m",
-      "date": "2026-07-09T17:41:57",
-      "source": "@OpenAI",
-      "summary": "<p>Introducing ChatGPT Work, a new agent in ChatGPT powered by Codex and GPT-5.6.<br />\n<br />\nIt can take action across your apps and files, stay with a project for hours if needed, and turn a goal i"
-    },
-    {
-      "title": "Sol, Terra, and Luna, our GPT‑5.6 family of models, are starting to roll out now in ChatGPT, Codex, and the API.",
-      "link": "https://twitter.com/OpenAI/status/2075271421149020426#m",
-      "date": "2026-07-09T17:30:38",
-      "source": "@OpenAI",
-      "summary": "<p>Sol, Terra, and Luna, our GPT‑5.6 family of models, are starting to roll out now in ChatGPT, Codex, and the API.</p>\n<a href=\"https://nitter.net/OpenAI/status/2075271421149020426#m\">\n<br />Video<br"
-    },
-    {
-      "title": "R to @OpenAI: GPT‑5.6 improves artifact quality across presentations, documents, and spreadsheets, and works better with your templates. These editable artifacts can be exported to the tools professionals already use and refined as part of real enterprise workflows.",
-      "link": "https://twitter.com/OpenAI/status/2075271432041545782#m",
-      "date": "2026-07-09T17:30:40",
-      "source": "@OpenAI",
-      "summary": "<p>GPT‑5.6 improves artifact quality across presentations, documents, and spreadsheets, and works better with your templates.<br />\n<br />\nThese editable artifacts can be exported to the tools profess"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Le témoignage en vidéo sur cet usage très fructueux de ChatGPT-5.6 Sol",
-      "link": "https://twitter.com/Fabien_Mikol/status/2075360643515826352#m",
-      "date": "2026-07-09T23:25:10",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Le témoignage en vidéo sur cet usage très fructueux de ChatGPT-5.6 Sol</p>\n<hr />\n<blockquote>\n<b>OpenAI (@OpenAI)</b>\n<p>\n<p>Meet Bartosz (<a href=\"https://nitter.net/nasqret\" title=\"Bartosz Naskr"
-    },
-    {
-      "title": "Le mathématicien @nasqret a tenté pendant 3 ans de prouver une conjecture... qui fut finalement réfutée par ChatGPT-5.6. \"This whole experience made me realize how important it has become in my scientific life to use high quality models\" A l'opposé, Villani revendique s'en passer",
-      "link": "https://twitter.com/Fabien_Mikol/status/2075360640009421204#m",
-      "date": "2026-07-09T23:25:09",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Le mathématicien <a href=\"https://nitter.net/nasqret\" title=\"Bartosz Naskręcki\">@nasqret</a> a tenté pendant 3 ans de prouver une conjecture... qui fut finalement réfutée par ChatGPT-5.6. \"This who"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Sur ce phénomène et le cas de cet agent Alibaba dont on a malheureusement assez peu parlé (et que Villani en réalité a tout l'air de découvrir), voir aussi les commentaires de l'informaticien Tristan Harris",
-      "link": "https://twitter.com/Fabien_Mikol/status/2075351150434345362#m",
-      "date": "2026-07-09T22:47:27",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Sur ce phénomène et le cas de cet agent Alibaba dont on a malheureusement assez peu parlé (et que Villani en réalité a tout l'air de découvrir), voir aussi les commentaires de l'informaticien Trist"
-    },
-    {
-      "title": "\"Les problèmes du tournoi de programmation heuristique sont un bon proxy pour la recherche autonome de capacités en machine learning ; le fait que l'IA soit capable d'atteindre le niveau humain signifie que nous sommes proches de la recursive self-improvement\".",
-      "link": "https://twitter.com/Fabien_Mikol/status/2075311743807459485#m",
-      "date": "2026-07-09T20:10:51",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>\"Les problèmes du tournoi de programmation heuristique sont un bon proxy pour la recherche autonome de capacités en machine learning ; le fait que l'IA soit capable d'atteindre le niveau humain sig"
-    },
-    {
-      "title": "📘 En classe, je vois souvent des élèves aller vite, trop vite, vers la réponse avec l’IA. C’est pour cela que \"J’apprends avec l’IA\" est organisé en fiches : aider à comprendre, vérifier... pour ne pas confondre réponse rapide et apprentissage réel. https://www.magnard.fr/livre/9782210787933-j-apprends-avec-l-ia",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2075249393297424803#m",
-      "date": "2026-07-09T16:03:06",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>📘 En classe, je vois souvent des élèves aller vite, trop vite, vers la réponse avec l’IA.<br />\nC’est pour cela que \"J’apprends avec l’IA\" est organisé en fiches : aider à comprendre, vérifier...  "
-    },
-    {
-      "title": "🚀 Dans 2 jours, \"J’apprends avec l’IA\" sort en librairie. Un peu de fierté. Et de vertige aussi. Avec cet ouvrage, j’ai voulu m’adresser plus directement aux élèves et à leurs parents pour les aider à faire de l’IA un outil au service de leur réussite. https://www.magnard.fr/livre/9782210787933-j-apprends-avec-l-ia",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2071987718473576473#m",
-      "date": "2026-06-30T16:02:22",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🚀 Dans 2 jours, \"J’apprends avec l’IA\" sort en librairie.<br />\nUn peu de fierté. Et de vertige aussi.<br />\nAvec cet ouvrage, j’ai voulu m’adresser plus directement aux élèves et à leurs parents p"
-    },
-    {
-      "title": "L’échec scolaire n’est pas une fatalité. C’est aussi le produit d’attentes implicites, de consignes opaques et d’évaluations piégeuses. Kaczmarek propose une pédagogie explicite, exigeante et démocratique. Une urgence pédagogique. Et politique. 🎒 https://www.cafepedagogique.net/2026/06/22/nicolas-kaczmarek-cest-lecole-qui-transforme-des-inegalites-sociales-pre-existantes-en-inegalites-scolaires/?utm_campaign=Lexpresso_22-06-2026&utm_medium=email&utm_source=Expresso",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2071625350522515932#m",
-      "date": "2026-06-29T16:02:27",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>L’échec scolaire n’est pas une fatalité.<br />\nC’est aussi le produit d’attentes implicites, de consignes opaques et d’évaluations piégeuses.<br />\nKaczmarek propose une pédagogie explicite, exigea"
     }
   ],
-  "last_update": "2026-07-13T10:49:59.481752",
+  "last_update": "2026-07-14T09:46:46.860704",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
