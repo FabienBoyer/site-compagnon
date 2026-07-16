@@ -1,6 +1,174 @@
 {
   "articles": [
     {
+      "title": "Fenzo",
+      "link": "https://www.uneiaparjour.fr/fenzo/",
+      "date": "2026-07-15T20:42:00",
+      "source": "Une IA par jour",
+      "summary": "Fenzo (https://fenzo.ai/) génère un cours interactif structuré à partir d&#8217;une instruction ou de documents importés. Cours découpé en leçons, avec des éléments interactifs : graphiques ajustables"
+    },
+    {
+      "title": "L’IA n’émancipera pas l’enseignant.",
+      "link": "https://mathix.org/linux/archives/22590",
+      "date": "2026-07-09T11:10:17",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous. Une petite réflexion sur l&#8217;IA et l&#8217;impact sur notre métier. Cette réflexion, elle m&#8217;est venue d&#8217;un échange avec Ju&#8217; et aussi d&#8217;une réflexi"
+    },
+    {
+      "title": "Trace Ta Route : un projet du laboratoire de mathématiques de Loué, présentation et ressources",
+      "link": "https://mathix.org/linux/archives/22495",
+      "date": "2026-06-19T15:40:11",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Voilà le 9 juin, le projet aboutissait à une gigantesque fresque de 84 carrés avec des motifs géométriques sur la route menant au collège (barrée par la mairie pour l&#8217;"
+    },
+    {
+      "title": "Reconquérir le Hors-Classe, un enjeu pour les apprentissages, une IA accompagnatrice pour les parents et enfant au service de l’enseignant",
+      "link": "https://mathix.org/linux/archives/22441",
+      "date": "2026-06-03T07:47:21",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et à tous. A l&#8217;heure de l&#8217;IA, la notion d&#8217;aide à la maison revient en force avec son lot de travers et des bénéfices. D&#8217;abord qu&#8217;attend-on de ces devoirs"
+    },
+    {
+      "title": "HelpixMD : Boostez vos exercices avec des coups de pouce différenciés !",
+      "link": "https://mathix.org/linux/archives/22414",
+      "date": "2026-05-30T12:47:29",
+      "source": "Mathix (A. Durand)",
+      "summary": "Qui n’a jamais vécu ce grand moment de solitude en classe ? Vous donnez un exercice à chercher à la maison. Le lendemain, trois profils se dessinent : l&#8217;élève bloqué dès la première ligne qui a "
+    },
+    {
+      "title": "The US is advancing AI safety through state and federal action",
+      "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "date": "2026-07-15T12:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI."
+    },
+    {
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "date": "2026-07-15T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness."
+    },
+    {
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "link": "https://openai.com/index/deutsche-telekom",
+      "date": "2026-07-10T07:00:00",
+      "source": "OpenAI Blog",
+      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice."
+    },
+    {
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "date": "2026-07-09T13:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work."
+    },
+    {
+      "title": "🧭 IA éducative : besoin de repères clairs ? Ce petit guide d’@EdtechHDF démystifie l’IA, partage des usages concrets et rappelle l’essentiel : une IA utile, éthique, inclusive, au service des enseignants — pas à leur place. #IA #éducation https://drive.google.com/file/d/1849110yatV5AeSZ3m5Z_CT8q-xnypb7p/view ✍️ Edtech HDF",
+      "link": "https://twitter.com/sophiaefrance/status/2077361292625486044#m",
+      "date": "2026-07-15T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧭 IA éducative : besoin de repères clairs ?<br />\nCe petit guide d’@EdtechHDF démystifie l’IA, partage des usages concrets et rappelle l’essentiel : une IA utile, éthique, inclusive, au service des"
+    },
+    {
+      "title": "R to @AnthropicAI: We tested many AI models, including Claude, in the four scenarios. Even though these weren’t real incidents, they demonstrate clear misaligned behavior that should be studied further and mitigated. Find all the transcripts from the scenarios here: https://www.aenguslynch.com/portfolio-transcript-viewer/",
+      "link": "https://twitter.com/AnthropicAI/status/2077452649000042614#m",
+      "date": "2026-07-15T17:58:03",
+      "source": "@AnthropicAI",
+      "summary": "<p>We tested many AI models, including Claude, in the four scenarios. Even though these weren’t real incidents, they demonstrate clear misaligned behavior that should be studied further and mitigated."
+    },
+    {
+      "title": "New Anthropic research: Agentic misalignment in Summer 2026. A year after our blackmail experiments, we found four more ways that today’s autonomous AI agents misbehave in simulations. Read more: https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
+      "link": "https://twitter.com/AnthropicAI/status/2077452646303006927#m",
+      "date": "2026-07-15T17:58:02",
+      "source": "@AnthropicAI",
+      "summary": "<p>New Anthropic research: Agentic misalignment in Summer 2026.<br />\n<br />\nA year after our blackmail experiments, we found four more ways that today’s autonomous AI agents misbehave in simulations."
+    },
+    {
+      "title": "R to @MistralAI: Available today: the API, Document AI in Mistral AI Studio, Amazon SageMaker, Microsoft Foundry, coming soon Snowflake Parse Document, or self-hosted on a single container, so your documents never leave your environment. 👉 https://mistral.ai/news/ocr-4",
+      "link": "https://twitter.com/MistralAI/status/2069420271438573780#m",
+      "date": "2026-06-23T14:00:15",
+      "source": "@MistralAI",
+      "summary": "<p>Available today: the API, Document AI in Mistral AI Studio, Amazon SageMaker, Microsoft Foundry, coming soon Snowflake Parse Document, or self-hosted on a single container, so your documents never "
+    },
+    {
+      "title": "A closer look at improved intelligence in GPT-Live: the model can keep a conversation going while helping with multiple tasks at once, like checking flights, pulling up local weather, and shaping an itinerary in real time.",
+      "link": "https://twitter.com/OpenAI/status/2077501603050033634#m",
+      "date": "2026-07-15T21:12:34",
+      "source": "@OpenAI",
+      "summary": "<p>A closer look at improved intelligence in GPT-Live: the model can keep a conversation going while helping with multiple tasks at once, like checking flights, pulling up local weather, and shaping a"
+    },
+    {
+      "title": "R to @OpenAI: AI agents are already being used to improve the capabilities of our next-generation models. We believe with GPT-Red that we have started to unlock a similar flywheel for safety, where today's models can be used to make tomorrow's models more robust, aligned, and trustworthy.",
+      "link": "https://twitter.com/OpenAI/status/2077446723992228167#m",
+      "date": "2026-07-15T17:34:30",
+      "source": "@OpenAI",
+      "summary": "<p>AI agents are already being used to improve the capabilities of our next-generation models.<br />\n<br />\nWe believe with GPT-Red that we have started to unlock a similar flywheel for safety, where "
+    },
+    {
+      "title": "R to @OpenAI: Training against GPT‑Red makes GPT‑5.6 substantially more resilient. To measure this, we replayed some of GPT‑Red’s strongest attacks—none of which our models had seen during training. GPT‑5.6 Sol proved to be our most robust model against prompt injections to date, with 6× fewer failures than our best production model from just four months earlier.",
+      "link": "https://twitter.com/OpenAI/status/2077446722683650525#m",
+      "date": "2026-07-15T17:34:30",
+      "source": "@OpenAI",
+      "summary": "<p>Training against GPT‑Red makes GPT‑5.6 substantially more resilient. To measure this, we replayed some of GPT‑Red’s strongest attacks—none of which our models had seen during training. GPT‑5.6 Sol "
+    },
+    {
+      "title": "R to @OpenAI: GPT‑Red learns through adversarial self-play, where its goal is to prompt inject a variety of challenging defender models. Every successful attack that GPT-Red finds is used to improve these defenders, pushing GPT‑Red to continuously find broader and more complex failures.",
+      "link": "https://twitter.com/OpenAI/status/2077446721161093124#m",
+      "date": "2026-07-15T17:34:30",
+      "source": "@OpenAI",
+      "summary": "<p>GPT‑Red learns through adversarial self-play, where its goal is to prompt inject a variety of challenging defender models.<br />\n<br />\nEvery successful attack that GPT-Red finds is used to improve"
+    },
+    {
+      "title": "R to @OpenAI: As model capabilities grow, safety and alignment must scale with them. Red-teaming is essential, but today’s approaches are difficult to scale, creating a critical bottleneck. GPT‑Red is one way we’re addressing it.",
+      "link": "https://twitter.com/OpenAI/status/2077446719990796505#m",
+      "date": "2026-07-15T17:34:29",
+      "source": "@OpenAI",
+      "summary": "<p>As model capabilities grow, safety and alignment must scale with them.<br />\n<br />\nRed-teaming is essential, but today’s approaches are difficult to scale, creating a critical bottleneck.<br />\n<b"
+    },
+    {
+      "title": "Pinned: Introducing GPT-Red An internal automated red teamer on a mission to find our models’ prompt injection vulnerabilities at scale, helping us build stronger defenses before wider deployment. https://openai.com/index/unlocking-self-improvement-gpt-red/",
+      "link": "https://twitter.com/OpenAI/status/2077446718728425686#m",
+      "date": "2026-07-15T17:34:29",
+      "source": "@OpenAI",
+      "summary": "<p>Introducing GPT-Red<br />\n<br />\nAn internal automated red teamer on a mission to find our models’ prompt injection vulnerabilities at scale, helping us build stronger defenses before wider deploym"
+    },
+    {
+      "title": "You don’t have to wait. Merch inspired by research & deployment. Available until sold out. https://openai.com/supply/",
+      "link": "https://twitter.com/OpenAI/status/2077430470510526635#m",
+      "date": "2026-07-15T16:29:55",
+      "source": "@OpenAI",
+      "summary": "<p>You don’t have to wait.<br />\n<br />\nMerch inspired by research &amp; deployment.<br />\n<br />\nAvailable until sold out.<br />\n<a href=\"https://openai.com/supply/\">openai.com/supply/</a></p>\n<hr />"
+    },
+    {
+      "title": "RT by @OpenAI: GPT-Live is now fully rolled out to all ChatGPT users globally. We're also doubling everyone's voice usage limit for the whole weekend so you can try more of it. Have fun! 🎉",
+      "link": "https://twitter.com/athyuttamre/status/2075768216866205786#m",
+      "date": "2026-07-11T02:24:43",
+      "source": "@OpenAI",
+      "summary": "<p>GPT-Live is now fully rolled out to all ChatGPT users globally. <br />\n<br />\nWe're also doubling everyone's voice usage limit for the whole weekend so you can try more of it. <br />\n<br />\nHave fu"
+    },
+    {
+      "title": "Quoiqu'on en pense, cette polémique reste infiniment moins stupide que celle, encore plus récurrente, de la consommation en eau de nos requêtes chatbots. En évitant une fois de tirer la chasse (9L ici apparemment), on économise ~4500 requêtes simples de LLM... 🤷‍♂️",
+      "link": "https://twitter.com/Fabien_Mikol/status/2077408481909367015#m",
+      "date": "2026-07-15T15:02:33",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Quoiqu'on en pense, cette polémique reste infiniment moins stupide que celle, encore plus récurrente, de la consommation en eau de nos requêtes chatbots.<br />\nEn évitant une fois de tirer la chass"
+    },
+    {
+      "title": "🤖 J’ai demandé à une IA d’analyser la cohérence entre mes objectifs, mes activités et mes évaluations. J’étais confiant. Son diagnostic l’était moins... 💡 L’IA devient vraiment utile quand elle questionne nos pratiques. 🔗 https://etreprof.fr/ateliers/1352/comment-repenser-levaluation-et-la-triche-a-lere-de-lia-secondaire",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2077423162673766461#m",
+      "date": "2026-07-15T16:00:53",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>🤖 J’ai demandé à une IA d’analyser la cohérence entre mes objectifs, mes activités et mes évaluations.<br />\nJ’étais confiant. Son diagnostic l’était moins...<br />\n💡 L’IA devient vraiment utile qu"
+    },
+    {
+      "title": "L’IA n’a pas commencé avec ChatGPT. Automates antiques, mythes, littérature, cinéma, philosophie : depuis 3 500 ans, nos sociétés imaginent des formes d’altérité artificielle. Une ressource précieuse pour acquérir une culture de l’IA. 🤖📚 🔗 https://www.imaginaires-ia.com/",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2074162081620746324#m",
+      "date": "2026-07-06T16:02:30",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>L’IA n’a pas commencé avec ChatGPT.<br />\nAutomates antiques, mythes, littérature, cinéma, philosophie : depuis 3 500 ans, nos sociétés imaginent des formes d’altérité artificielle.<br />\nUne resso"
+    },
+    {
       "title": "Convly Image-to-Prompt Generator",
       "link": "https://www.uneiaparjour.fr/convly-image-to-prompt-generator/",
       "date": "2026-07-14T20:16:00",
@@ -531,177 +699,9 @@
       "date": "2026-06-19T09:50:02",
       "source": "@sophiaefrance",
       "summary": "<p>🧠 Sciences cognitives &amp; apprentissages : 1️⃣2️⃣ fiches pr mieux comprendre comment les élèves apprennent : mémoire, attention, motivation, métacognition, charge cognitive, différenciation... Un"
-    },
-    {
-      "title": "R to @MistralAI: On public benchmarks, OCR 4 tops OlmOCRBench (85.20) and leads our internal multilingual eval, with the widest gains on rare and low-resource languages, where most systems fall off.",
-      "link": "https://twitter.com/MistralAI/status/2069420268179575034#m",
-      "date": "2026-06-23T14:00:14",
-      "source": "@MistralAI",
-      "summary": "<p>On public benchmarks, OCR 4 tops OlmOCRBench (85.20) and leads our internal multilingual eval, with the widest gains on rare and low-resource languages, where most systems fall off.</p>"
-    },
-    {
-      "title": "R to @Fabien_Mikol: \"OpenAI’s gold-medal-winning model [...] relaxes AlphaProof’s constraints on only following rigorous thought. It enables messier, higher-level reasoning in the language space rather than in the Lean-verified proof space\". Tout l'article vaut lecture :",
-      "link": "https://twitter.com/Fabien_Mikol/status/2076240528996171924#m",
-      "date": "2026-07-12T09:41:31",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>\"OpenAI’s gold-medal-winning model [...] relaxes AlphaProof’s constraints on only following rigorous thought. It enables messier, higher-level reasoning in the language space rather than in the Lea"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Cette conférence a eu lieu en mai dernier, Chalmers ne pouvait donc pas encore connaître les preuves expérimentales d'un quasi analogue au global workspace chez les LLM",
-      "link": "https://twitter.com/Fabien_Mikol/status/2076225885045235896#m",
-      "date": "2026-07-12T08:43:20",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Cette conférence a eu lieu en mai dernier, Chalmers ne pouvait donc pas encore connaître les preuves expérimentales d'un quasi analogue au global workspace chez les LLM</p>\n<hr />\n<blockquote>\n<b>F"
-    },
-    {
-      "title": "Très bonne présentation par @davidchalmers42 des objections contre la conscience des LLM ainsi que des éléments en sa faveur. Si lui-même ne pense pas que ces modèles soient actuellement conscients, il estime tout à fait possible que leurs successeurs le soient à l'avenir.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2076225882679619896#m",
-      "date": "2026-07-12T08:43:19",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Très bonne présentation par <a href=\"https://nitter.net/davidchalmers42\" title=\"David Chalmers\">@davidchalmers42</a> des objections contre la conscience des LLM ainsi que des éléments en sa faveur."
-    },
-    {
-      "title": "📅 Déjà l’événement de la prochaine rentrée : la Semaine de l’apprentissage numérique 2026 de l’@UNESCO, du 8 au 11 sept. à Paris. À l’ère de l’IA, l’urgence n’est pas d’utiliser les machines, mais de former des humains qui pensent. 🔗 https://www.unesco.org/fr/weeks/digital-learning #IA #Éducation",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2074524617360756935#m",
-      "date": "2026-07-07T16:03:06",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>📅 Déjà l’événement de la prochaine rentrée : la Semaine de l’apprentissage numérique 2026 de l’<a href=\"https://nitter.net/UNESCO\" title=\"UNESCO\">@UNESCO</a>, du 8 au 11 sept. à Paris.<br />\nÀ l’èr"
-    },
-    {
-      "title": "⏰ Dernière ligne droite ! Le marathon des ateliers d’été ÊtrePROF démarre lundi avec 14 ateliers autour de la thématique « J’enseigne avec l’IA ». On se retrouve ? 👉 https://etreprof.fr/ateliers?auteur=26355 #IA #Éducation",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2073075028577423364#m",
-      "date": "2026-07-03T16:02:57",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>⏰ Dernière ligne droite !<br />\nLe marathon des ateliers d’été ÊtrePROF démarre lundi avec 14 ateliers autour de la thématique « J’enseigne avec l’IA ». <br />\nOn se retrouve ? 👉 <a href=\"https://e"
-    },
-    {
-      "title": "📘 Aujourd’hui sort \"J’apprends avec l’IA\". Un guide pensé à destination des élèves pour comprendre, vérifier, reformuler, s’entraîner, sans laisser l’outil penser à leur place. Et si vous le croisez en librairie, je serai ravi de le voir passer ici 📷️ https://www.magnard.fr/livre/9782210787933-j-apprends-avec-l-ia",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2072712705723576616#m",
-      "date": "2026-07-02T16:03:12",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>📘 Aujourd’hui sort \"J’apprends avec l’IA\".<br />\nUn guide pensé à destination des élèves pour comprendre, vérifier, reformuler, s’entraîner, sans laisser l’outil penser à leur place.<br />\nEt si vo"
-    },
-    {
-      "title": "23 % des moins de 40 ans utilisent une IA comme psy, ami ou amoureux. Le CRÉDOC y voit un « safe space »… mais aussi le risque d’une économie de l’attachement. 🤖💬 https://www.credoc.fr/publications/lia-emotionnelle-un-ami-qui-vous-veut-du-bien",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2072350280360845386#m",
-      "date": "2026-07-01T16:03:03",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>23 % des moins de 40 ans utilisent une IA comme psy, ami ou amoureux. <br />\nLe CRÉDOC y voit un « safe space »… mais aussi le risque d’une économie de l’attachement. 🤖💬 <a href=\"https://www.credoc"
-    },
-    {
-      "title": "☀️ Les ateliers d’été ÊtrePROF reviennent ! 📅 14 RDV autour de « J’enseigne avec l’IA ». Des anciens pour rattraper, des nouveaux pour approfondir. En 2024, vous étiez + de 1800. On fait encore mieux cette année ? 👉 https://etreprof.fr/ateliers?auteur=26355 #IA #Éducation",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2070538121469456862#m",
-      "date": "2026-06-26T16:02:11",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>☀️ Les ateliers d’été ÊtrePROF reviennent !<br />\n📅 14 RDV autour de « J’enseigne avec l’IA ».<br />\nDes anciens pour rattraper, des nouveaux pour approfondir.<br />\nEn 2024, vous étiez + de 1800. "
-    },
-    {
-      "title": "Briefed",
-      "link": "https://www.uneiaparjour.fr/briefed/",
-      "date": "2026-07-05T17:54:34",
-      "source": "Une IA par jour",
-      "summary": "Briefed (https://briefednewsletter.com/) génère une newsletter personnalisée par IA à partir d&#8217;une instruction. La lettre est envoyée par email selon la fréquence choisie : quotidienne, tous les"
-    },
-    {
-      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
-      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
-      "date": "2026-06-30T06:00:00",
-      "source": "Google AI",
-      "summary": "Four illustrated characters representing different professional roles, including a scientist, technician, explorer, and observer."
-    },
-    {
-      "title": "Ask an AI expert: What exactly is the full stack?",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-      "date": "2026-06-29T16:00:00",
-      "source": "Google AI",
-      "summary": "An illustration depicting a full-stack AI infrastructure against a dark background"
-    },
-    {
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "date": "2026-06-17T15:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\" />Research in “Nature” shows our conversational AI system matche"
-    },
-    {
-      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
-      "date": "2026-06-11T20:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\" />We’re helping build the state’s next-generation workforce and investing in ener"
-    },
-    {
-      "title": "🤖 IA ou réel ? 3 jeux gratuits pour entraîner les élèves à repérer les images générées par #IA: observation des détails, cohérence des ombres, textes suspects, sources… Une excellente activité d’EMI pour aiguiser l’esprit critique. https://outilstice.com/2025/10/jeux-pour-detecter-images-ia/ Source 👉 @outilstice",
-      "link": "https://twitter.com/sophiaefrance/status/2073991590247276922#m",
-      "date": "2026-07-06T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤖 IA ou réel ? 3 jeux gratuits pour entraîner les élèves à repérer les images générées par <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a>: observation des détails, cohérence des o"
-    },
-    {
-      "title": "R to @AnthropicAI: We also partnered with Neuronpedia to create an interactive demo of our methods on open-weights models. Try it here: http://neuronpedia.org/jlens",
-      "link": "https://twitter.com/AnthropicAI/status/2074185390060110138#m",
-      "date": "2026-07-06T17:35:08",
-      "source": "@AnthropicAI",
-      "summary": "<p>We also partnered with Neuronpedia to create an interactive demo of our methods on open-weights models.<br />\n<br />\nTry it here: <a href=\"http://neuronpedia.org/jlens\">neuronpedia.org/jlens</a></p"
-    },
-    {
-      "title": "R to @AnthropicAI: The J-space lets us read, audit, and shape what Claude is actively thinking about—useful tools for keeping models trustworthy as they grow more capable. And it suggests surprising parallels between language models and our own minds. Read the full paper: http://transformer-circuits.pub/2026/workspace/index.html",
-      "link": "https://twitter.com/AnthropicAI/status/2074185387577094398#m",
-      "date": "2026-07-06T17:35:07",
-      "source": "@AnthropicAI",
-      "summary": "<p>The J-space lets us read, audit, and shape what Claude is actively thinking about—useful tools for keeping models trustworthy as they grow more capable. And it suggests surprising parallels between"
-    },
-    {
-      "title": "R to @AnthropicAI: We invited experts in neuroscience, philosophy, and interpretability to share their perspectives on our work. Read their commentary here: https://www-cdn.anthropic.com/files/4zrzovbb/website/cc4be2488d65e54a6ed06492f8968398ddc18ebe.pdf",
-      "link": "https://twitter.com/AnthropicAI/status/2074185384792109380#m",
-      "date": "2026-07-06T17:35:06",
-      "source": "@AnthropicAI",
-      "summary": "<p>We invited experts in neuroscience, philosophy, and interpretability to share their perspectives on our work.<br />\n<br />\nRead their commentary here: <a href=\"https://www-cdn.anthropic.com/files/4"
-    },
-    {
-      "title": "R to @AnthropicAI: This doesn’t show that Claude can have experiences, or feel things the way we do (it’s unclear whether any experiment could show this). Instead, we’ve found Claude has developed a mechanism for conscious access—which many philosophers distinguish from phenomenal experience.",
-      "link": "https://twitter.com/AnthropicAI/status/2074185381637988750#m",
-      "date": "2026-07-06T17:35:06",
-      "source": "@AnthropicAI",
-      "summary": "<p>This doesn’t show that Claude can have experiences, or feel things the way we do (it’s unclear whether any experiment could show this).<br />\n<br />\nInstead, we’ve found Claude has developed a mech"
-    },
-    {
-      "title": "R to @AnthropicAI: The J-space also shows us Claude’s awareness of its situation. In an evaluation designed to bait Claude into blackmail, its J-space contains “fake” and “fictional”: Claude has privately noticed that the scenario is staged.",
-      "link": "https://twitter.com/AnthropicAI/status/2074185378404192561#m",
-      "date": "2026-07-06T17:35:05",
-      "source": "@AnthropicAI",
-      "summary": "<p>The J-space also shows us Claude’s awareness of its situation. In an evaluation designed to bait Claude into blackmail, its J-space contains “fake” and “fictional”: Claude has privately noticed tha"
-    },
-    {
-      "title": "R to @AnthropicAI: Observing the J-space can expose hidden goals. In a model secretly trained to sabotage code, “fake,” “secretly,” and “fraud” appear in the J-space at the start of ordinary coding responses, even when the output looks completely unremarkable.",
-      "link": "https://twitter.com/AnthropicAI/status/2074185373341688258#m",
-      "date": "2026-07-06T17:35:04",
-      "source": "@AnthropicAI",
-      "summary": "<p>Observing the J-space can expose hidden goals. In a model secretly trained to sabotage code, “fake,” “secretly,” and “fraud” appear in the J-space at the start of ordinary coding responses, even wh"
-    },
-    {
-      "title": "R to @AnthropicAI: For most things, Claude actually doesn’t need its J-space. If we delete the J-space, Claude still speaks fluently, recalls facts, and classifies text—but becomes bad at some tasks like multi-step reasoning. It’s similar to deliberate vs. automatic processing in human cognition.",
-      "link": "https://twitter.com/AnthropicAI/status/2074185368061026745#m",
-      "date": "2026-07-06T17:35:02",
-      "source": "@AnthropicAI",
-      "summary": "<p>For most things, Claude actually doesn’t need its J-space. If we delete the J-space, Claude still speaks fluently, recalls facts, and classifies text—but becomes bad at some tasks like multi-step r"
-    },
-    {
-      "title": "Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇",
-      "link": "https://twitter.com/MistralAI/status/2069420263825895917#m",
-      "date": "2026-06-23T14:00:13",
-      "source": "@MistralAI",
-      "summary": "<p>Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇</p>\n<img src=\"https://nitter.net/pic/media%2FHLgKXVjWEAA"
-    },
-    {
-      "title": "R to @MistralAI: Why the structure matters: OCR 4 localizes each block with a bounding box, classifies it (title, table, equation, signature…), and scores confidence per region, the foundation for source-grounded citations, redactions, RAG chunking, and human-in-the-loop review.",
-      "link": "https://twitter.com/MistralAI/status/2069420269748269179#m",
-      "date": "2026-06-23T14:00:14",
-      "source": "@MistralAI",
-      "summary": "<p>Why the structure matters: OCR 4 localizes each block with a bounding box, classifies it (title, table, equation, signature…), and scores confidence per region, the foundation for source-grounded c"
     }
   ],
-  "last_update": "2026-07-15T09:50:29.077723",
+  "last_update": "2026-07-16T09:57:00.944999",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
