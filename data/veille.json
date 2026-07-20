@@ -1,6 +1,104 @@
 {
   "articles": [
     {
+      "title": "L’outil pour les répartitions",
+      "link": "https://mathix.org/linux/archives/22556",
+      "date": "2026-06-26T06:54:39",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Bon, notre dotation horaire s&#8217;est amusé à faire Philippe Catherine , « j&#8217;enlève une classe » « Ohhhh » « je remets une classe » « ahhhh » mais avec sans doute des"
+    },
+    {
+      "title": "Getting started with ChatGPT",
+      "link": "https://openai.com/academy/getting-started",
+      "date": "2026-07-10T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI."
+    },
+    {
+      "title": "🤖 Et si l’#IA devenait un atelier de création pédagogique ? 🚀 Avec EduVibe, découvrez le vibe coding appliqué à l’éducation : imaginer, prototyper et créer des applications utiles pour la classe, même sans être développeur. 🔗 https://mchoyer.forge.apps.education.fr/eduvibe/ ✍️ HOYER Marie-Charlotte",
+      "link": "https://twitter.com/sophiaefrance/status/2079065020722291063#m",
+      "date": "2026-07-20T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 Et si l’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> devenait un atelier de création pédagogique ? 🚀<br />\nAvec EduVibe, découvrez le vibe coding appliqué à l’éducation : imag"
+    },
+    {
+      "title": "🔎 À (re)découvrir : la synthèse du CSEN sur les agents conversationnels en classe. Personnalisation, inclusion, accompagnement, éthique, données… Une ressource clé pour penser une IA qui soutient l’apprentissage sans remplacer l’enseignant. https://drive.google.com/file/d/1kliABtGbcjMWpNN1qpdXfKcxatKoPfR6/view?usp=sharing",
+      "link": "https://twitter.com/sophiaefrance/status/2074824577335570854#m",
+      "date": "2026-07-08T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🔎 À (re)découvrir : la synthèse du CSEN sur les agents conversationnels en classe.<br />\nPersonnalisation, inclusion, accompagnement, éthique, données… Une ressource clé pour penser une IA qui sout"
+    },
+    {
+      "title": "Repérer plus tôt pour mieux accompagner : #Identidys propose une échelle d’aide au repérage des troubles du neurodéveloppement, pensée pour les parents et les enseignants. Une ressource utile pour orienter, dialoguer et structurer le parcours d’aide. 🔗 https://www.identidys.com/",
+      "link": "https://twitter.com/sophiaefrance/status/2072981180429836709#m",
+      "date": "2026-07-03T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Repérer plus tôt pour mieux accompagner : <a href=\"https://nitter.net/search?f=tweets&amp;q=%23Identidys\">#Identidys</a> propose une échelle d’aide au repérage des troubles du neurodéveloppement, p"
+    },
+    {
+      "title": "R to @AnthropicAI: While the values Claude expresses shape millions of conversations every day, we don't yet understand why they vary, or whether that's desired. This approach will allow us to determine what factors influence Claude's value expression—and ultimately how (and whether) to steer it. https://www.anthropic.com/research/claude-values-models-languages",
+      "link": "https://twitter.com/AnthropicAI/status/2076719549060382802#m",
+      "date": "2026-07-13T17:24:58",
+      "source": "@AnthropicAI",
+      "summary": "<p>While the values Claude expresses shape millions of conversations every day, we don't yet understand why they vary, or whether that's desired.<br />\n<br />\nThis approach will allow us to determine "
+    },
+    {
+      "title": "R to @MistralAI: 76.6% success on R2R-CE validation unseen (79.4% on validation seen), the benchmark for following instructions in previously unseen environments. It beats the best single-camera approach by 9.7 points while using far less sensing.",
+      "link": "https://twitter.com/MistralAI/status/2074856312685334596#m",
+      "date": "2026-07-08T14:01:08",
+      "source": "@MistralAI",
+      "summary": "<p>76.6% success on R2R-CE validation unseen (79.4% on validation seen), the benchmark for following instructions in previously unseen environments. It beats the best single-camera approach by 9.7 poi"
+    },
+    {
+      "title": "R to @MistralAI: No LiDAR. No depth sensors. No camera rig. Where leading systems lean on depth or multiple cameras, Robostral Navigate works from one ordinary RGB camera, and still comes out ahead.",
+      "link": "https://twitter.com/MistralAI/status/2074856311091503237#m",
+      "date": "2026-07-08T14:01:08",
+      "source": "@MistralAI",
+      "summary": "<p>No LiDAR. No depth sensors. No camera rig. Where leading systems lean on depth or multiple cameras, Robostral Navigate works from one ordinary RGB camera, and still comes out ahead.</p>"
+    },
+    {
+      "title": "We are making our discount permanent! 🎉 Enjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀",
+      "link": "https://twitter.com/deepseek_ai/status/2057854261699195173#m",
+      "date": "2026-05-22T16:01:03",
+      "source": "@deepseek_ai",
+      "summary": "<p>We are making our discount permanent! 🎉<br />\n<br />\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀</p>\n<img src=\"https://nitter.net/pic/media%2FHI7xPnWbgAAW4UO.jpg\""
+    },
+    {
+      "title": "\"En 5 ans la consommation de poulet a augmenté de 25%\" \"On est tous persuadés d'avoir réduit notre consommation de viande mais on n'a pas bougé depuis 20 ans, on mange un peu moins de bœuf mais on mange beaucoup plus d'oiseaux, et on fait tuer beaucoup plus d'animaux aujourd'hui\"",
+      "link": "https://twitter.com/Fabien_Mikol/status/2079139287895867519#m",
+      "date": "2026-07-20T09:40:09",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"En 5 ans la consommation de poulet a augmenté de 25%\"<br />\n\"On est tous persuadés d'avoir réduit notre consommation de viande mais on n'a pas bougé depuis 20 ans, on mange un peu moins de bœuf ma"
+    },
+    {
+      "title": "C'est presque tous les jours maintenant... Fable : \"contrairement à une preuve de 300 pages (ou aux résolutions de pbs d'Erdős qui demandent relecture), le certificat est autovérifiable en une seconde par n'importe quel système de calcul formel\" ; \"mathématiquement, c'est plié\".",
+      "link": "https://twitter.com/Fabien_Mikol/status/2079113797390745702#m",
+      "date": "2026-07-20T07:58:52",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>C'est presque tous les jours maintenant...<br />\nFable : \"contrairement à une preuve de 300 pages (ou aux résolutions de pbs d'Erdős qui demandent relecture), le certificat est autovérifiable en un"
+    },
+    {
+      "title": "Bon rappel par @RobinRivaton que contrairement à ce qui se dit parfois, le coût du token ne s'envole pas, au contraire. \"Une étude d'Epoch AI estime que la somme d'argent nécessaire pour atteindre un niveau de performance donné diminue de cinq à dix fois par an selon les tâches\".",
+      "link": "https://twitter.com/Fabien_Mikol/status/2078960832138846483#m",
+      "date": "2026-07-19T21:51:02",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Bon rappel par <a href=\"https://nitter.net/RobinRivaton\" title=\"Robin Rivaton\">@RobinRivaton</a> que contrairement à ce qui se dit parfois, le coût du token ne s'envole pas, au contraire.<br />\n\"Un"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Tout l'article est intéressant : https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious",
+      "link": "https://twitter.com/Fabien_Mikol/status/2078947238772912448#m",
+      "date": "2026-07-19T20:57:01",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Tout l'article est intéressant :<br />\n<a href=\"https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious\">theguardian.com/technology/2…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"htt"
+    },
+    {
+      "title": "📘 En classe, je vois souvent des élèves aller vite, trop vite, vers la réponse avec l’IA. C’est pour cela que \"J’apprends avec l’IA\" est organisé en fiches : aider à comprendre, vérifier... pour ne pas confondre réponse rapide et apprentissage réel. https://www.magnard.fr/livre/9782210787933-j-apprends-avec-l-ia",
+      "link": "https://twitter.com/MIKL_Bertrand/status/2075249393297424803#m",
+      "date": "2026-07-09T16:03:06",
+      "source": "@MIKL_Bertrand",
+      "summary": "<p>📘 En classe, je vois souvent des élèves aller vite, trop vite, vers la réponse avec l’IA.<br />\nC’est pour cela que \"J’apprends avec l’IA\" est organisé en fiches : aider à comprendre, vérifier...  "
+    },
+    {
       "title": "Video Transcription AI",
       "link": "https://www.uneiaparjour.fr/video-transcription-ai/",
       "date": "2026-07-12T19:46:00",
@@ -601,107 +699,9 @@
       "date": "2026-07-14T10:00:00",
       "source": "OpenAI Blog",
       "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows."
-    },
-    {
-      "title": "How data science teams use ChatGPT Work",
-      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "date": "2026-07-14T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs."
-    },
-    {
-      "title": "How sales teams use ChatGPT Work",
-      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "date": "2026-07-14T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs."
-    },
-    {
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "link": "https://openai.com/index/gpt-5-6",
-      "date": "2026-07-09T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work."
-    },
-    {
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "link": "https://openai.com/index/bio-bug-bounty",
-      "date": "2026-07-09T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Details about the OpenAI Bio Bounty program"
-    },
-    {
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "date": "2026-07-09T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work."
-    },
-    {
-      "title": "R to @nsi_xyz: J'ai oublié la pièce jointe, tellement j'étais affecté par la température du lycée dans lequel je faisais le père noël.",
-      "link": "https://twitter.com/nsi_xyz/status/2075322679612043571#m",
-      "date": "2026-07-09T20:54:19",
-      "source": "@nsi_xyz",
-      "summary": "<p>J'ai oublié la pièce jointe, tellement j'étais affecté par la température du lycée dans lequel je faisais le père noël.</p>\n<img src=\"https://nitter.net/pic/media%2FHM0G-rlXwAAHTP3.jpg\" />"
-    },
-    {
-      "title": "Le barème de Schrödinger. Seuls les correcteurs le connaissent, et il est confidentiel. si tu tentes de l'observer, il disparaît. Il existe, personne ne sait ce qu'il contient, mais tous en parlent.",
-      "link": "https://twitter.com/nsi_xyz/status/2075228988142743656#m",
-      "date": "2026-07-09T14:42:01",
-      "source": "@nsi_xyz",
-      "summary": "<p>Le barème de Schrödinger.<br />\nSeuls les correcteurs le connaissent, et il est confidentiel. si tu tentes de l'observer, il disparaît. Il existe, personne ne sait ce qu'il contient, mais tous en p"
-    },
-    {
-      "title": "RT by @nsi_xyz: La répression plutôt que l’éducation ? A la veille des vacances, le BO du 2 juillet précise les modalités d’interdiction du téléphone portable au lycée pour la rentrée 2026 : https://www.cafepedagogique.net/2026/07/03/interdiction-de-lutilisation-du-telephone-portable-et-des-autres-objets-connectes-au-lycee/",
-      "link": "https://twitter.com/cafepedagogique/status/2073063972891177309#m",
-      "date": "2026-07-03T15:19:01",
-      "source": "@nsi_xyz",
-      "summary": "<p>La répression plutôt que l’éducation ? A la veille des vacances, le BO du 2 juillet précise les modalités d’interdiction du téléphone portable au lycée pour la rentrée 2026 : <a href=\"https://www.c"
-    },
-    {
-      "title": "🚀 Et si le remplaçant libre de Kahoot était déjà là ? Live Quiz débarque sur la Forge Éducation nationale : quiz en direct, IA Albert, mode scan papier façon Plickers, sans compte élève ni pub. Un outil libre, souverain et pensé pour la classe. https://live-quiz.forge.apps.education.fr/",
-      "link": "https://twitter.com/sophiaefrance/status/2075517896344682671#m",
-      "date": "2026-07-10T09:50:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🚀 Et si le remplaçant libre de Kahoot était déjà là ?<br />\nLive Quiz débarque sur la Forge Éducation nationale : quiz en direct, IA Albert, mode scan papier façon Plickers, sans compte élève ni pu"
-    },
-    {
-      "title": "⚠️ Accessibilité pédagogique ≠ adaptation. Avec la #M2PA, on anticipe dès la conception de la séance : besoins partagés, différenciations, adaptations si nécessaire. Un outil libre, institutionnel, avec appui de l#’IA Albert. https://m2pa.forge.apps.education.fr/",
-      "link": "https://twitter.com/sophiaefrance/status/2071454876253462747#m",
-      "date": "2026-06-29T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>⚠️ Accessibilité pédagogique ≠ adaptation. <br />\nAvec la <a href=\"https://nitter.net/search?f=tweets&amp;q=%23M2PA\">#M2PA</a>, on anticipe dès la conception de la séance : besoins partagés, différ"
-    },
-    {
-      "title": "🧠 Et si le véritable apprentissage commençait juste au-dessus de ce que l’élève sait déjà faire ? 👉 Trop facile : il se désengage. 👉 Trop difficile : il se décourage. 👉 Entre les deux : la #ZPD Petit à petit, l’erreur devient un signal d’apprentissage 🚀 ✍️ Mejdi Ayari",
-      "link": "https://twitter.com/sophiaefrance/status/2068918160925807073#m",
-      "date": "2026-06-22T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧠 Et si le véritable apprentissage commençait juste au-dessus de ce que l’élève sait déjà faire ?<br />\n👉 Trop facile : il se désengage.<br />\n👉  Trop difficile : il se décourage.<br />\n👉 Entre les"
-    },
-    {
-      "title": "RT by @AnthropicAI: We're introducing Claude for Teachers: free access to premium Claude capabilities for verified K-12 educators in the US, with a library of teaching skills and a direct connection to evidence-based curricula, mapped to academic standards in all 50 states. https://claude.com/solutions/teachers",
-      "link": "https://twitter.com/claudeai/status/2077047278078931243#m",
-      "date": "2026-07-14T15:07:15",
-      "source": "@AnthropicAI",
-      "summary": "<p>We're introducing Claude for Teachers: free access to premium Claude capabilities for verified K-12 educators in the US, with a library of teaching skills and a direct connection to evidence-based "
-    },
-    {
-      "title": "We’re committing $10 million CAD and partnering with leading AI institutions in Canada to help fund new AI research. https://www.anthropic.com/news/canadian-ai-research",
-      "link": "https://twitter.com/AnthropicAI/status/2077026346375540870#m",
-      "date": "2026-07-14T13:44:04",
-      "source": "@AnthropicAI",
-      "summary": "<p>We’re committing $10 million CAD and partnering with leading AI institutions in Canada to help fund new AI research. <br />\n<br />\n<a href=\"https://www.anthropic.com/news/canadian-ai-research\">anth"
-    },
-    {
-      "title": "RT by @AnthropicAI: There’s hope in hard questions.",
-      "link": "https://twitter.com/claudeai/status/2075271759289303522#m",
-      "date": "2026-07-09T17:31:58",
-      "source": "@AnthropicAI",
-      "summary": "<p>There’s hope in hard questions.</p>\n<a href=\"https://nitter.net/claudeai/status/2075271759289303522#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/media%2FHMzYzrcXMAAeKQI.jpg\" />\n</a>"
     }
   ],
-  "last_update": "2026-07-19T09:44:18.172982",
+  "last_update": "2026-07-20T10:40:48.322563",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
