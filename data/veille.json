@@ -1,6 +1,167 @@
 {
   "articles": [
     {
+      "title": "MemeCam",
+      "link": "https://www.uneiaparjour.fr/memecam/",
+      "date": "2026-07-16T20:04:00",
+      "source": "Une IA par jour",
+      "summary": "MemeCam (https://www.memecam.io) génère un mème à partir d&#8217;une photo importée ou prise via la caméra. Reconnaissance d&#8217;image puis génération d&#8217;une légende humoristique (GPT-4o) adapt"
+    },
+    {
+      "title": "Launching Health in ChatGPT",
+      "link": "https://openai.com/index/health-in-chatgpt",
+      "date": "2026-07-23T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health."
+    },
+    {
+      "title": "Create, edit and star in videos with two Google Vids updates",
+      "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+      "date": "2026-07-16T16:00:00",
+      "source": "Google AI",
+      "summary": "Text \"Gemini Omni and Personal Avatars in Google Vids\" surrounded by various images"
+    },
+    {
+      "title": "The latest AI news we announced in June 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "date": "2026-07-01T18:15:00",
+      "source": "Google AI",
+      "summary": "June Pixel Drop hero"
+    },
+    {
+      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+      "date": "2026-07-01T16:00:00",
+      "source": "Google AI",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp\" />Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit fo"
+    },
+    {
+      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+      "date": "2026-06-30T06:00:00",
+      "source": "Google AI",
+      "summary": "Four illustrated characters representing different professional roles, including a scientist, technician, explorer, and observer."
+    },
+    {
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "date": "2026-06-29T16:00:00",
+      "source": "Google AI",
+      "summary": "An illustration depicting a full-stack AI infrastructure against a dark background"
+    },
+    {
+      "title": "L'IA, la robotique, le travail (humain). https://youtu.be/6Kn4JPcv3dA?is=9bWocZjxzX29qqAR",
+      "link": "https://twitter.com/nsi_xyz/status/2080302419590738400#m",
+      "date": "2026-07-23T14:42:01",
+      "source": "@nsi_xyz",
+      "summary": "<p>L'IA, la robotique, le travail (humain).<br />\n<a href=\"https://piped.video/6Kn4JPcv3dA?is=9bWocZjxzX29qqAR\">piped.video/6Kn4JPcv3dA?is=9bWo…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://piped"
+    },
+    {
+      "title": "Et si déplacer quelques tables déplaçait aussi les postures ? Espace fermé ＝ “reste à ta place”. Espace ouvert ＝ “tu es attendu, tu peux agir”. L’ #aménagement d’une #classe influence interactions, sécurité, #coopération et engagement. #education #pédagogie ✍️ Christophe Caron",
+      "link": "https://twitter.com/sophiaefrance/status/2080591324286157150#m",
+      "date": "2026-07-24T09:50:01",
+      "source": "@sophiaefrance",
+      "summary": "<p>Et si déplacer quelques tables déplaçait aussi les postures ?<br />\nEspace fermé ＝ “reste à ta place”.<br />\nEspace ouvert ＝ “tu es attendu, tu peux agir”.<br />\nL’ <a href=\"https://nitter.net/sear"
+    },
+    {
+      "title": "Adapter, ce n’est pas baisser les exigences. Le Cartable Fantastique propose 16 principes pour aider les élèves dyspraxiques : éviter la double tâche, favoriser l’autonomie, varier les supports et penser l’adaptation avec l’élève. #ÉcoleInclusive #DYS https://www.cartablefantastique.fr/outils-pour-adapter/16-principes-pour-adapter/",
+      "link": "https://twitter.com/sophiaefrance/status/2078054610888011998#m",
+      "date": "2026-07-17T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Adapter, ce n’est pas baisser les exigences.<br />\nLe Cartable Fantastique propose 16 principes pour aider les élèves dyspraxiques : éviter la double tâche, favoriser l’autonomie, varier les suppor"
+    },
+    {
+      "title": "🤖 IA ou réel ? 3 jeux gratuits pour entraîner les élèves à repérer les images générées par #IA: observation des détails, cohérence des ombres, textes suspects, sources… Une excellente activité d’EMI pour aiguiser l’esprit critique. https://outilstice.com/2025/10/jeux-pour-detecter-images-ia/ Source 👉 @outilstice",
+      "link": "https://twitter.com/sophiaefrance/status/2073991590247276922#m",
+      "date": "2026-07-06T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 IA ou réel ? 3 jeux gratuits pour entraîner les élèves à repérer les images générées par <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a>: observation des détails, cohérence des o"
+    },
+    {
+      "title": "Pinned: 🔥DeepSeek Input Cache Price Drop! Effective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less. 📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
+      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
+      "date": "2026-04-26T16:35:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
+    },
+    {
+      "title": "🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount. 🛠️Integration Updates: 🔹Claude Code: Set model to deepseek-v4-pro[1m] to unlock 1M context! 🔹OpenCode: Update to v1.14.24+ 🔹OpenClaw: Update to v2026.4.24+ Check the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
+      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
+      "date": "2026-04-25T15:33:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
+    },
+    {
+      "title": "R to @deepseek_ai: API is Available Today! 🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash. 🔹 Supports OpenAI ChatCompletions & Anthropic APIs. 🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://api-docs.deepseek.com/guides/thinking_mode ⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking). 6/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516945466188072#m",
+      "date": "2026-04-24T03:24:15",
+      "source": "@deepseek_ai",
+      "summary": "<p>API is Available Today!<br />\n<br />\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.<br />\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.<br />\n🔹 Both models suppor"
+    },
+    {
+      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views. 🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI. 7/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
+      "date": "2026-04-24T03:24:16",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
+    },
+    {
+      "title": "R to @OpenAI: You can also use ChatGPT Voice in Codex from the iOS app with paired remote access. Android support is coming soon.",
+      "link": "https://twitter.com/OpenAI/status/2080392280549253392#m",
+      "date": "2026-07-23T20:39:06",
+      "source": "@OpenAI",
+      "summary": "<p>You can also use ChatGPT Voice in Codex from the iOS app with paired remote access. Android support is coming soon.</p>"
+    },
+    {
+      "title": "Health in ChatGPT is starting to roll out to U.S. users. You can securely connect Apple Health and supported medical records to understand your information in context, track what has changed, and have more informed conversations. https://openai.com/index/health-in-chatgpt/",
+      "link": "https://twitter.com/OpenAI/status/2080339982288568709#m",
+      "date": "2026-07-23T17:11:17",
+      "source": "@OpenAI",
+      "summary": "<p>Health in ChatGPT is starting to roll out to U.S. users.<br />\n<br />\nYou can securely connect Apple Health and supported medical records to understand your information in context, track what has c"
+    },
+    {
+      "title": "R to @OpenAI: We built this experience based on feedback from early testers and physicians. With your permission, ChatGPT can use relevant context you’ve connected in Health across your conversations — to help you compare a new result with prior tests, summarize changes since your last appointment, or explore how your sleep and activity relate. Connected medical records and Apple Health information are not used to train foundation models or target ads. In the sidebar, Health is your home base for connecting and managing information, browsing records, and revisiting health chats.",
+      "link": "https://twitter.com/OpenAI/status/2080339983962181983#m",
+      "date": "2026-07-23T17:11:17",
+      "source": "@OpenAI",
+      "summary": "<p>We built this experience based on feedback from early testers and physicians.<br />\n<br />\nWith your permission, ChatGPT can use relevant context you’ve connected in Health across your conversation"
+    },
+    {
+      "title": "R to @OpenAI: More than 300 million people turn to ChatGPT with health-related questions each week—and we’re continuing to improve how our models respond. We work with hundreds of physicians around the world to measure and improve accuracy, safety, communication, context awareness, completeness, and appropriate escalation. GPT‑5.5 Instant brought frontier health intelligence to all free users. GPT‑5.6 Sol builds on that progress with even stronger performance on more complex questions.",
+      "link": "https://twitter.com/OpenAI/status/2080339986717790394#m",
+      "date": "2026-07-23T17:11:18",
+      "source": "@OpenAI",
+      "summary": "<p>More than 300 million people turn to ChatGPT with health-related questions each week—and we’re continuing to improve how our models respond.<br />\n<br />\nWe work with hundreds of physicians around "
+    },
+    {
+      "title": "R to @Fabien_Mikol: Non non quand on fait la chasse aux \"sionistes\", c'est sans lien avec les juifs, puisqu'on vous le dit et qu'on vous le répète",
+      "link": "https://twitter.com/Fabien_Mikol/status/2080584878710550794#m",
+      "date": "2026-07-24T09:24:25",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Non non quand on fait la chasse aux \"sionistes\", c'est sans lien avec les juifs, puisqu'on vous le dit et qu'on vous le répète</p>\n<img src=\"https://nitter.net/pic/media%2FHN-4v8aXYAAXs5o.jpg\" />\n\n"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: “AGI is achieved if AI can do any three of the following” — @GaryMarcus",
+      "link": "https://twitter.com/spicey_lemonade/status/2080432909148942527#m",
+      "date": "2026-07-23T23:20:32",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>“AGI is achieved if AI can do any three of the following” — <a href=\"https://nitter.net/GaryMarcus\" title=\"Gary Marcus\">@GaryMarcus</a></p>\n<img src=\"https://nitter.net/pic/media%2FHN8utLXakAAPnn_."
+    },
+    {
+      "title": "Selon @bshlgrs et @RyanGreenblatt, le comportement observé ces derniers mois chez les LLM correspond de moins en moins au modèle \"classique\" de sélection de personas, et davantage à celui de reward hackers monomaniaques, notamment en raison du rôle de + en + important du RL. 🧵",
+      "link": "https://twitter.com/Fabien_Mikol/status/2080431529356939691#m",
+      "date": "2026-07-23T23:15:03",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Selon <a href=\"https://nitter.net/bshlgrs\" title=\"Buck Shlegeris\">@bshlgrs</a> et <a href=\"https://nitter.net/RyanGreenblatt\" title=\"Ryan Greenblatt\">@RyanGreenblatt</a>, le comportement observé ce"
+    },
+    {
+      "title": "Publication (enfin) dans Nature de l'étude qui avait montré que GPT-4 pouvait assez bien prédire le résultat d'expérimentations sociales : très forte corrélation des réponses simulées par le LLM avec les réponses réelles obtenues (et non présentes dans les données d'entraînement)",
+      "link": "https://twitter.com/Fabien_Mikol/status/2080343387652165780#m",
+      "date": "2026-07-23T17:24:49",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Publication (enfin) dans Nature de l'étude qui avait montré que GPT-4 pouvait assez bien prédire le résultat d'expérimentations sociales : très forte corrélation des réponses simulées par le LLM av"
+    },
+    {
       "title": "Playyy",
       "link": "https://www.uneiaparjour.fr/playyy/",
       "date": "2026-07-22T21:39:50",
@@ -538,170 +699,9 @@
       "date": "2026-07-19T20:57:01",
       "source": "@Fabien_Mikol",
       "summary": "<p>Tout l'article est intéressant :<br />\n<a href=\"https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious\">theguardian.com/technology/2…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"htt"
-    },
-    {
-      "title": "📘 En classe, je vois souvent des élèves aller vite, trop vite, vers la réponse avec l’IA. C’est pour cela que \"J’apprends avec l’IA\" est organisé en fiches : aider à comprendre, vérifier... pour ne pas confondre réponse rapide et apprentissage réel. https://www.magnard.fr/livre/9782210787933-j-apprends-avec-l-ia",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2075249393297424803#m",
-      "date": "2026-07-09T16:03:06",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>📘 En classe, je vois souvent des élèves aller vite, trop vite, vers la réponse avec l’IA.<br />\nC’est pour cela que \"J’apprends avec l’IA\" est organisé en fiches : aider à comprendre, vérifier...  "
-    },
-    {
-      "title": "Video Transcription AI",
-      "link": "https://www.uneiaparjour.fr/video-transcription-ai/",
-      "date": "2026-07-12T19:46:00",
-      "source": "Une IA par jour",
-      "summary": "Video Transcription AI (https://videotranscription.ai/) transcrit automatiquement des vidéos Youtube, Tiktok ou Instagram, des fichiers vidéos, audios ou texte avec résumé, chatbot et carte mentale. A"
-    },
-    {
-      "title": "🧠 Les compétences psychosociales ne se limitent pas à la confiance en soi : penser, réguler ses émotions, coopérer et s’adapter s’apprennent avec nuance selon l’âge, le contexte et les besoins. #CPS https://frapscentre.org/wp-content/uploads/2025/05/Guide-CAPSule-1.pdf ✍️ FRAPS",
-      "link": "https://twitter.com/sophiaefrance/status/2076528307621781951#m",
-      "date": "2026-07-13T04:45:03",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧠 Les compétences psychosociales ne se limitent pas à la confiance en soi : penser, réguler ses émotions, coopérer et s’adapter s’apprennent avec nuance selon l’âge, le contexte et les besoins. <a "
-    },
-    {
-      "title": "R to @AnthropicAI: The values Claude expresses also vary with the language of the conversation, most noticeably along the Warmth vs. Rigor axis. Claude leans most toward warmth in Hindi and Arabic. In Russian, it leans toward rigor—often asking the user for supporting evidence.",
-      "link": "https://twitter.com/AnthropicAI/status/2076719546954825769#m",
-      "date": "2026-07-13T17:24:58",
-      "source": "@AnthropicAI",
-      "summary": "<p>The values Claude expresses also vary with the language of the conversation, most noticeably along the Warmth vs. Rigor axis.<br />\n<br />\nClaude leans most toward warmth in Hindi and Arabic. In Ru"
-    },
-    {
-      "title": "R to @AnthropicAI: While the differences between models are modest overall, we find that each Claude model sits at a different point along these value axes. Sonnet 4.6, for example, is more playful and affirming, while Opus 4.7 is more likely to give candid critiques.",
-      "link": "https://twitter.com/AnthropicAI/status/2076719544727716287#m",
-      "date": "2026-07-13T17:24:57",
-      "source": "@AnthropicAI",
-      "summary": "<p>While the differences between models are modest overall, we find that each Claude model sits at a different point along these value axes.  <br />\n<br />\nSonnet 4.6, for example, is more playful and"
-    },
-    {
-      "title": "R to @AnthropicAI: Because it’s hard to spot patterns by comparing 3,000 values at a time, we clustered similar values together, then identified four key axes along which Claude’s values differ between models: Deference vs. Caution, Warmth vs. Rigor, Depth vs. Brevity, and Candor vs. Execution.",
-      "link": "https://twitter.com/AnthropicAI/status/2076719542404018631#m",
-      "date": "2026-07-13T17:24:57",
-      "source": "@AnthropicAI",
-      "summary": "<p>Because it’s hard to spot patterns by comparing 3,000 values at a time, we clustered similar values together, then identified four key axes along which Claude’s values differ between models: <br />"
-    },
-    {
-      "title": "In previous research, we found that Claude expresses over 3,000 values, like honesty and warmth. In new work, we asked how the values Claude expresses vary between Claude models and across languages. We analyzed 300K+ anonymized conversations to find out.https://www.anthropic.com/research/claude-values-models-languages",
-      "link": "https://twitter.com/AnthropicAI/status/2076719540785012872#m",
-      "date": "2026-07-13T17:24:56",
-      "source": "@AnthropicAI",
-      "summary": "<p>In previous research, we found that Claude expresses over 3,000 values, like honesty and warmth. In new work, we asked how the values Claude expresses vary between Claude models and across language"
-    },
-    {
-      "title": "The Solutions team @MistralAI is hiring globally! If you’re entrepreneurial, hands-on, and want to shape how enterprises adopt AI, let’s talk. Apply: https://mistral.ai/careers/?utm_source=linkedin&utm_medium=social&utm_campaign=global_recruiting",
-      "link": "https://twitter.com/MistralAI/status/2075131809638088865#m",
-      "date": "2026-07-09T08:15:52",
-      "source": "@MistralAI",
-      "summary": "<p>The Solutions team <a href=\"https://nitter.net/MistralAI\" title=\"Mistral AI\">@MistralAI</a> is hiring globally!<br />\n<br />\nIf you’re entrepreneurial, hands-on, and want to shape how enterprises a"
-    },
-    {
-      "title": "R to @MistralAI: Trained entirely in simulation: ~400,000 trajectories across 6,000 scenes. A prefix-caching recipe cuts training tokens by 22×, turning months-long runs into days. Online RL (CISPO) pushes success rates higher still.",
-      "link": "https://twitter.com/MistralAI/status/2074856314132410755#m",
-      "date": "2026-07-08T14:01:08",
-      "source": "@MistralAI",
-      "summary": "<p>Trained entirely in simulation: ~400,000 trajectories across 6,000 scenes. A prefix-caching recipe cuts training tokens by 22×, turning months-long runs into days. Online RL (CISPO) pushes success "
-    },
-    {
-      "title": "R to @MistralAI: It runs on wheeled, legged, and flying robots and generalizes across sizes, unlocking delivery, logistics, manufacturing, and hospitality. Read more: https://mistral.ai/news/robostral-navigate",
-      "link": "https://twitter.com/MistralAI/status/2074856315655000552#m",
-      "date": "2026-07-08T14:01:09",
-      "source": "@MistralAI",
-      "summary": "<p>It runs on wheeled, legged, and flying robots and generalizes across sizes, unlocking delivery, logistics, manufacturing, and hospitality.<br />\nRead more: <a href=\"https://mistral.ai/news/robostra"
-    },
-    {
-      "title": "Customers are not an abstraction for us: we exist to help enterprises, public institutions, and industries build their own intelligence, so the value created from their data, workflows, feedback, and models accrues to them rather than to model providers.",
-      "link": "https://twitter.com/MistralAI/status/2073163455910330528#m",
-      "date": "2026-07-03T21:54:20",
-      "source": "@MistralAI",
-      "summary": "<p>Customers are not an abstraction for us: we exist to help enterprises, public institutions, and industries build their own intelligence, so the value created from their data, workflows, feedback, a"
-    },
-    {
-      "title": "Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇",
-      "link": "https://twitter.com/MistralAI/status/2069420263825895917#m",
-      "date": "2026-06-23T14:00:13",
-      "source": "@MistralAI",
-      "summary": "<p>Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇</p>\n<img src=\"https://nitter.net/pic/media%2FHLgKXVjWEAA"
-    },
-    {
-      "title": "Mistral officially has 1,000 team members around the world! Thank you to our incredible talent for believing in the mission and contributing to what we are building each and every day. You too can be a part of the next chapter in our journey as we continue to grow and serve our customers. Apply for open roles at Mistral across all functions here: https://mistral.ai/careers/",
-      "link": "https://twitter.com/MistralAI/status/2069077356266795207#m",
-      "date": "2026-06-22T15:17:37",
-      "source": "@MistralAI",
-      "summary": "<p>Mistral officially has 1,000 team members around the world!<br />\n<br />\nThank you to our incredible talent for believing in the mission and contributing to what we are building each and every day."
-    },
-    {
-      "title": "RT by @MistralAI: SHIPPED. Mistral Vibe is now the AI agent for long-horizon productivity and coding, and the home for Work mode, Code mode, the CLI, and a brand new VS Code extension. Let's go... 🧵",
-      "link": "https://twitter.com/mistralvibe/status/2059984963932499973#m",
-      "date": "2026-05-28T13:07:42",
-      "source": "@MistralAI",
-      "summary": "<p>SHIPPED. Mistral Vibe is now the AI agent for long-horizon productivity and coding, and the home for Work mode, Code mode, the CLI, and a brand new VS Code extension. Let's go... 🧵</p>\n<a href=\"htt"
-    },
-    {
-      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
-      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
-      "date": "2026-04-29T02:20:52",
-      "source": "@deepseek_ai",
-      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Source : https://legrandcontinent.eu/fr/2026/07/19/ia-enseignement/",
-      "link": "https://twitter.com/Fabien_Mikol/status/2078758286665408982#m",
-      "date": "2026-07-19T08:26:11",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Source :<br />\n<a href=\"https://legrandcontinent.eu/fr/2026/07/19/ia-enseignement/\">legrandcontinent.eu/fr/2026/…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://legrandcontinent.eu/fr/2026/07/19"
-    },
-    {
-      "title": "R to @Fabien_Mikol: \"l’IA relève davantage du fantasme collectif que d’une analyse rigoureuse\" OK mais dans ce cas, prendre comme référence un preprint très fortement critiqué en faisant croire qu'il a été publié et revu par les pairs, c'est pour le coup pas du tout rigoureux",
-      "link": "https://twitter.com/Fabien_Mikol/status/2078758280302604720#m",
-      "date": "2026-07-19T08:26:10",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>\"l’IA relève davantage du fantasme collectif que d’une analyse rigoureuse\"<br />\nOK mais dans ce cas, prendre comme référence un preprint très fortement critiqué en faisant croire qu'il a été publi"
-    },
-    {
-      "title": "R to @Fabien_Mikol: \"La priorité devrait être de démystifier et de former aux concepts de l’IA les enfants\" Oui on a même plein de \"capsules pédagogiques\" pour prêcher cette bonne parole, je sais pas dans quel monde elle vit, c'est littéralement le discours officiel permanent",
-      "link": "https://twitter.com/Fabien_Mikol/status/2078758277714686280#m",
-      "date": "2026-07-19T08:26:09",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>\"La priorité devrait être de démystifier et de former aux concepts de l’IA les enfants\"<br />\nOui on a même plein de \"capsules pédagogiques\" pour prêcher cette bonne parole, je sais pas dans quel m"
-    },
-    {
-      "title": "Laurence Devillers : l'IA \"nécessite des quantités considérables d’eau, d’électricité et de métaux rares sur une planète qui suffoque. Voilà précisément ce que l’école devrait enseigner\". Qu'elle se rassure, c'est évidemment ce qui est inculqué en permanence aux enfants... ⤵️ 🧵",
-      "link": "https://twitter.com/Fabien_Mikol/status/2078758274774569190#m",
-      "date": "2026-07-19T08:26:08",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Laurence Devillers : l'IA \"nécessite des quantités considérables d’eau, d’électricité et de métaux rares sur une planète qui suffoque. Voilà précisément ce que l’école devrait enseigner\".<br />\nQu'"
-    },
-    {
-      "title": "📚 Lectures #été2026 Avec \"Former comme une série à succès\", Sarah Akel part des séries pour mieux rappeler l’essentiel : former, ce n’est pas empiler des contenus. C’est concevoir une expérience d’apprentissage : rythme, attention, transposition, implication, progression.",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2076698514713673904#m",
-      "date": "2026-07-13T16:01:23",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>📚 Lectures <a href=\"https://nitter.net/search?f=tweets&amp;q=%23été2026\">#été2026</a><br />\nAvec \"Former comme une série à succès\", Sarah Akel part des séries pour mieux rappeler l’essentiel : form"
-    },
-    {
-      "title": "Mise à jour de l’outil suivi.mathix.org",
-      "link": "https://mathix.org/linux/archives/22547",
-      "date": "2026-06-24T13:45:38",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! J&#8217;ai remis un petit lifting sur l&#8217;outil suivi de mathix.org. voici donc une présentation de l&#8217;interface enseignant et élève? J&#8217;ai également ajouté que"
-    },
-    {
-      "title": "A scorecard for the AI age",
-      "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "date": "2026-07-17T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute."
-    },
-    {
-      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "date": "2026-07-07T08:54:00",
-      "source": "Google AI",
-      "summary": "Managed agents feature bundle launch"
     }
   ],
-  "last_update": "2026-07-23T10:11:12.532498",
+  "last_update": "2026-07-24T10:07:33.796205",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
