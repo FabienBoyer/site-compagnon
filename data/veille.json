@@ -1,6 +1,111 @@
 {
   "articles": [
     {
+      "title": "L’outil pour les répartitions",
+      "link": "https://mathix.org/linux/archives/22556",
+      "date": "2026-06-26T06:54:39",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! Bon, notre dotation horaire s&#8217;est amusé à faire Philippe Catherine , « j&#8217;enlève une classe » « Ohhhh » « je remets une classe » « ahhhh » mais avec sans doute des"
+    },
+    {
+      "title": "Une IA vient d'obtenir 42/42 à une olympiade de mathématiques. (Sans utiliser ni agent, ni outil)",
+      "link": "https://twitter.com/nsi_xyz/status/2080957513281773785#m",
+      "date": "2026-07-25T10:05:08",
+      "source": "@nsi_xyz",
+      "summary": "<p>Une IA vient d'obtenir 42/42 à une olympiade de mathématiques. (Sans utiliser ni agent, ni outil)</p>\n<hr />\n<blockquote>\n<b>AiBattle (@AiBattle_)</b>\n<p>\n<p>Claude Opus 5 achieved a perfect 42/42,"
+    },
+    {
+      "title": "🤖 Et si l’#IA devenait un atelier de création pédagogique ? 🚀 Avec EduVibe, découvrez le vibe coding appliqué à l’éducation : imaginer, prototyper et créer des applications utiles pour la classe, même sans être développeur. 🔗 https://mchoyer.forge.apps.education.fr/eduvibe/ ✍️ HOYER Marie-Charlotte",
+      "link": "https://twitter.com/sophiaefrance/status/2079065020722291063#m",
+      "date": "2026-07-20T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🤖 Et si l’<a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> devenait un atelier de création pédagogique ? 🚀<br />\nAvec EduVibe, découvrez le vibe coding appliqué à l’éducation : imag"
+    },
+    {
+      "title": "🔎 À (re)découvrir : la synthèse du CSEN sur les agents conversationnels en classe. Personnalisation, inclusion, accompagnement, éthique, données… Une ressource clé pour penser une IA qui soutient l’apprentissage sans remplacer l’enseignant. https://drive.google.com/file/d/1kliABtGbcjMWpNN1qpdXfKcxatKoPfR6/view?usp=sharing",
+      "link": "https://twitter.com/sophiaefrance/status/2074824577335570854#m",
+      "date": "2026-07-08T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🔎 À (re)découvrir : la synthèse du CSEN sur les agents conversationnels en classe.<br />\nPersonnalisation, inclusion, accompagnement, éthique, données… Une ressource clé pour penser une IA qui sout"
+    },
+    {
+      "title": "Repérer plus tôt pour mieux accompagner : #Identidys propose une échelle d’aide au repérage des troubles du neurodéveloppement, pensée pour les parents et les enseignants. Une ressource utile pour orienter, dialoguer et structurer le parcours d’aide. 🔗 https://www.identidys.com/",
+      "link": "https://twitter.com/sophiaefrance/status/2072981180429836709#m",
+      "date": "2026-07-03T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Repérer plus tôt pour mieux accompagner : <a href=\"https://nitter.net/search?f=tweets&amp;q=%23Identidys\">#Identidys</a> propose une échelle d’aide au repérage des troubles du neurodéveloppement, p"
+    },
+    {
+      "title": "R to @AnthropicAI: While the values Claude expresses shape millions of conversations every day, we don't yet understand why they vary, or whether that's desired. This approach will allow us to determine what factors influence Claude's value expression—and ultimately how (and whether) to steer it. https://www.anthropic.com/research/claude-values-models-languages",
+      "link": "https://twitter.com/AnthropicAI/status/2076719549060382802#m",
+      "date": "2026-07-13T17:24:58",
+      "source": "@AnthropicAI",
+      "summary": "<p>While the values Claude expresses shape millions of conversations every day, we don't yet understand why they vary, or whether that's desired.<br />\n<br />\nThis approach will allow us to determine "
+    },
+    {
+      "title": "We are making our discount permanent! 🎉 Enjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀",
+      "link": "https://twitter.com/deepseek_ai/status/2057854261699195173#m",
+      "date": "2026-05-22T16:01:03",
+      "source": "@deepseek_ai",
+      "summary": "<p>We are making our discount permanent! 🎉<br />\n<br />\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀</p>\n<img src=\"https://nitter.net/pic/media%2FHI7xPnWbgAAW4UO.jpg\""
+    },
+    {
+      "title": "R to @deepseek_ai: 💻 API Update 🔹 V3.2: Same usage pattern as V3.2-Exp. 🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"https://api.deepseek.com/v3.2_speciale_expires_on_20251215\". Same pricing as V3.2, no tool calls, available until Dec 15th, 2025, 15:59 (UTC Time). 💡 V3.2 now supports Thinking in Tool-Use — details: https://api-docs.deepseek.com/guides/thinking_mode 4/n",
+      "link": "https://twitter.com/deepseek_ai/status/1995452654659805334#m",
+      "date": "2025-12-01T11:19:21",
+      "source": "@deepseek_ai",
+      "summary": "<p>💻 API Update<br />\n<br />\n🔹 V3.2: Same usage pattern as V3.2-Exp.<br />\n🔹 V3.2-Speciale: Served via a temporary endpoint: base_url=\"<a href=\"https://api.deepseek.com/v3.2_speciale_expires_on_202512"
+    },
+    {
+      "title": "R to @deepseek_ai: 🛠 Open Source Release 📦 DeepSeek-V3.2 Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2 📦 DeepSeek-V3.2-Speciale Model: https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale 📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf 5/n",
+      "link": "https://twitter.com/deepseek_ai/status/1995452658149405148#m",
+      "date": "2025-12-01T11:19:22",
+      "source": "@deepseek_ai",
+      "summary": "<p>🛠 Open Source Release<br />\n<br />\n📦 DeepSeek-V3.2 Model: <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V3.2\">huggingface.co/deepseek-ai/D…</a><br />\n📦 DeepSeek-V3.2-Speciale Model: <a href="
+    },
+    {
+      "title": "Commentaire de @alextmallen au sujet des notes laissées par le modèle d'OpenAI devenu rogue : ce n'était probablement pas destiné à d'autres modèles, mais la possibilité est néanmoins réelle et inquiétante, car une telle coordination peut être renforcée lors du post-training ⤵️",
+      "link": "https://twitter.com/Fabien_Mikol/status/2081314616005566913#m",
+      "date": "2026-07-26T09:44:08",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Commentaire de <a href=\"https://nitter.net/alextmallen\" title=\"Alex Mallen\">@alextmallen</a> au sujet des notes laissées par le modèle d'OpenAI devenu rogue : ce n'était probablement pas destiné à "
+    },
+    {
+      "title": "R to @Fabien_Mikol: Source : https://blog.redwoodresearch.org/p/an-openai-model-left-notes-about",
+      "link": "https://twitter.com/Fabien_Mikol/status/2081314618798915798#m",
+      "date": "2026-07-26T09:44:08",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Source :<br />\n<a href=\"https://blog.redwoodresearch.org/p/an-openai-model-left-notes-about\">blog.redwoodresearch.org/p/a…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://blog.redwoodresearch.org"
+    },
+    {
+      "title": "Etienne Klein : \"On peut se demander si les attaques que je subis ne viennent pas de ces gens [proches d'Idriss Aberkane]. J'ai quelques indices\". Je découvre tout juste cette séquence assez choquante. Ainsi @JeanAbbiateci et @lorisguemart sont assimilés à des complotistes ?",
+      "link": "https://twitter.com/Fabien_Mikol/status/2081305832239624398#m",
+      "date": "2026-07-26T09:09:13",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Etienne Klein : \"On peut se demander si les attaques que je subis ne viennent pas de ces gens [proches d'Idriss Aberkane]. J'ai quelques indices\".<br />\nJe découvre tout juste cette séquence assez "
+    },
+    {
+      "title": "R to @Fabien_Mikol: NB : il est vrai qu'Etienne Klein est la cible de nombreux complotistes antisémites et que c'est proprement scandaleux et indigne, mais là n'est pas le sujet de la séquence que j'ai postée, où il semble bien parler de l'origine des accusations de plagiat",
+      "link": "https://twitter.com/Fabien_Mikol/status/2081308756910956998#m",
+      "date": "2026-07-26T09:20:51",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>NB : il est vrai qu'Etienne Klein est la cible de nombreux complotistes antisémites et que c'est proprement scandaleux et indigne, mais là n'est pas le sujet de la séquence que j'ai postée, où il s"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: L'affaire Barbara Butch, ou la généralisation de l'assignation identitaire des juifs : ce texte d'un abonné de Mediapart pose, de façon réfléchie et argumentée, les questions de fond soulevées par ce fait-divers militant. Et qui ne sont pas secondaires. https://blogs.mediapart.fr/nessigerson/blog/260726/laffaire-barbara-butch-ou-la-generalisation-de-lassignation-identitaire-des-juifs",
+      "link": "https://twitter.com/edwyplenel/status/2081275571418390788#m",
+      "date": "2026-07-26T07:08:59",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>L'affaire Barbara Butch, ou la généralisation de l'assignation identitaire des juifs : ce texte d'un abonné de Mediapart pose, de façon réfléchie et argumentée, les questions de fond soulevées par "
+    },
+    {
+      "title": "En 1976, Hans Moravec s'est opposé aux idées de McCarthy et autres pionniers de l'IA : reproduire l'intelligence ne nécessite pas de trouver les algorithmes élégants susceptibles de capturer l'essence du génie humain ; il suffit d'avoir beaucoup plus de puissance de calcul ! 🧵",
+      "link": "https://twitter.com/Fabien_Mikol/status/2080993213939089820#m",
+      "date": "2026-07-25T12:26:59",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>En 1976, Hans Moravec s'est opposé aux idées de McCarthy et autres pionniers de l'IA : reproduire l'intelligence ne nécessite pas de trouver les algorithmes élégants susceptibles de capturer l'esse"
+    },
+    {
       "title": "Mode IA de Google",
       "link": "https://www.uneiaparjour.fr/mode-ia-de-google/",
       "date": "2026-07-24T20:42:14",
@@ -594,114 +699,9 @@
       "date": "2026-07-21T19:18:37",
       "source": "@OpenAI",
       "summary": "<p>We’re sharing new research with <a href=\"https://nitter.net/apolloaievals\" title=\"Apollo Research\">@apolloaievals</a> on reward-seeking—when models follow what they believe a grader rewards rather "
-    },
-    {
-      "title": "R to @OpenAI: Contrastive SDF gives copies of the same model opposing beliefs about what the grader prefers, then measures how their behavior changes.",
-      "link": "https://twitter.com/OpenAI/status/2079647254701634028#m",
-      "date": "2026-07-21T19:18:38",
-      "source": "@OpenAI",
-      "summary": "<p>Contrastive SDF gives copies of the same model opposing beliefs about what the grader prefers, then measures how their behavior changes.</p>\n<img src=\"https://nitter.net/pic/media%2FHNxjtRZbUAA71aa"
-    },
-    {
-      "title": "R to @OpenAI: We had guessed reward seeking might increase over the course of capabilities-focused RL training, but had no way of measuring it until now. We’re continuing to collaborate with Apollo Research to improve how reward-seeking is measured during training—and better detect whether models are doing the right thing for the right reason.",
-      "link": "https://twitter.com/OpenAI/status/2079647256941412817#m",
-      "date": "2026-07-21T19:18:38",
-      "source": "@OpenAI",
-      "summary": "<p>We had guessed reward seeking might increase over the course of capabilities-focused RL training, but had no way of measuring it until now.<br />\n<br />\nWe’re continuing to collaborate with Apollo "
-    },
-    {
-      "title": "Safety and alignment in an era of long-horizon models",
-      "link": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "date": "2026-07-20T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment."
-    },
-    {
-      "title": "How sales teams use ChatGPT Work",
-      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "date": "2026-07-14T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs."
-    },
-    {
-      "title": "How data science teams use ChatGPT Work",
-      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "date": "2026-07-14T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs."
-    },
-    {
-      "title": "R to @nsi_xyz: J'ai oublié la pièce jointe, tellement j'étais affecté par la température du lycée dans lequel je faisais le père noël.",
-      "link": "https://twitter.com/nsi_xyz/status/2075322679612043571#m",
-      "date": "2026-07-09T20:54:19",
-      "source": "@nsi_xyz",
-      "summary": "<p>J'ai oublié la pièce jointe, tellement j'étais affecté par la température du lycée dans lequel je faisais le père noël.</p>\n<img src=\"https://nitter.net/pic/media%2FHM0G-rlXwAAHTP3.jpg\" />"
-    },
-    {
-      "title": "Le barème de Schrödinger. Seuls les correcteurs le connaissent, et il est confidentiel. si tu tentes de l'observer, il disparaît. Il existe, personne ne sait ce qu'il contient, mais tous en parlent.",
-      "link": "https://twitter.com/nsi_xyz/status/2075228988142743656#m",
-      "date": "2026-07-09T14:42:01",
-      "source": "@nsi_xyz",
-      "summary": "<p>Le barème de Schrödinger.<br />\nSeuls les correcteurs le connaissent, et il est confidentiel. si tu tentes de l'observer, il disparaît. Il existe, personne ne sait ce qu'il contient, mais tous en p"
-    },
-    {
-      "title": "RT by @nsi_xyz: La répression plutôt que l’éducation ? A la veille des vacances, le BO du 2 juillet précise les modalités d’interdiction du téléphone portable au lycée pour la rentrée 2026 : https://www.cafepedagogique.net/2026/07/03/interdiction-de-lutilisation-du-telephone-portable-et-des-autres-objets-connectes-au-lycee/",
-      "link": "https://twitter.com/cafepedagogique/status/2073063972891177309#m",
-      "date": "2026-07-03T15:19:01",
-      "source": "@nsi_xyz",
-      "summary": "<p>La répression plutôt que l’éducation ? A la veille des vacances, le BO du 2 juillet précise les modalités d’interdiction du téléphone portable au lycée pour la rentrée 2026 : <a href=\"https://www.c"
-    },
-    {
-      "title": "🚀 Et si le remplaçant libre de Kahoot était déjà là ? Live Quiz débarque sur la Forge Éducation nationale : quiz en direct, IA Albert, mode scan papier façon Plickers, sans compte élève ni pub. Un outil libre, souverain et pensé pour la classe. https://live-quiz.forge.apps.education.fr/",
-      "link": "https://twitter.com/sophiaefrance/status/2075517896344682671#m",
-      "date": "2026-07-10T09:50:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🚀 Et si le remplaçant libre de Kahoot était déjà là ?<br />\nLive Quiz débarque sur la Forge Éducation nationale : quiz en direct, IA Albert, mode scan papier façon Plickers, sans compte élève ni pu"
-    },
-    {
-      "title": "⚠️ Accessibilité pédagogique ≠ adaptation. Avec la #M2PA, on anticipe dès la conception de la séance : besoins partagés, différenciations, adaptations si nécessaire. Un outil libre, institutionnel, avec appui de l#’IA Albert. https://m2pa.forge.apps.education.fr/",
-      "link": "https://twitter.com/sophiaefrance/status/2071454876253462747#m",
-      "date": "2026-06-29T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>⚠️ Accessibilité pédagogique ≠ adaptation. <br />\nAvec la <a href=\"https://nitter.net/search?f=tweets&amp;q=%23M2PA\">#M2PA</a>, on anticipe dès la conception de la séance : besoins partagés, différ"
-    },
-    {
-      "title": "We're offering grants of up to $50,000 in Claude usage credits to researchers accelerating cures for rare diseases. This is our first focused call within AI for Science, our program supporting scientists using Claude to speed up discovery. https://www.anthropic.com/news/rare-disease-research-grants",
-      "link": "https://twitter.com/AnthropicAI/status/2079256626771665098#m",
-      "date": "2026-07-20T17:26:25",
-      "source": "@AnthropicAI",
-      "summary": "<p>We're offering grants of up to $50,000 in Claude usage credits to researchers accelerating cures for rare diseases.<br />\n<br />\nThis is our first focused call within AI for Science, our program su"
-    },
-    {
-      "title": "RT by @AnthropicAI: We're introducing Claude for Teachers: free access to premium Claude capabilities for verified K-12 educators in the US, with a library of teaching skills and a direct connection to evidence-based curricula, mapped to academic standards in all 50 states. https://claude.com/solutions/teachers",
-      "link": "https://twitter.com/claudeai/status/2077047278078931243#m",
-      "date": "2026-07-14T15:07:15",
-      "source": "@AnthropicAI",
-      "summary": "<p>We're introducing Claude for Teachers: free access to premium Claude capabilities for verified K-12 educators in the US, with a library of teaching skills and a direct connection to evidence-based "
-    },
-    {
-      "title": "We’re committing $10 million CAD and partnering with leading AI institutions in Canada to help fund new AI research. https://www.anthropic.com/news/canadian-ai-research",
-      "link": "https://twitter.com/AnthropicAI/status/2077026346375540870#m",
-      "date": "2026-07-14T13:44:04",
-      "source": "@AnthropicAI",
-      "summary": "<p>We’re committing $10 million CAD and partnering with leading AI institutions in Canada to help fund new AI research. <br />\n<br />\n<a href=\"https://www.anthropic.com/news/canadian-ai-research\">anth"
-    },
-    {
-      "title": "🚀 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-effective 1M context length. 🔹 DeepSeek-V4-Pro: 1.6T total / 49B active params. Performance rivaling the world's top closed-source models. 🔹 DeepSeek-V4-Flash: 284B total / 13B active params. Your fast, efficient, and economical choice. Try it now at http://chat.deepseek.com via Expert Mode / Instant Mode. API is updated & available today! 📄 Tech Report: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf 🤗 Open Weights: https://huggingface.co/collections/deepseek-ai/deepseek-v4 1/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516922263285776#m",
-      "date": "2026-04-24T03:24:09",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-effective 1M context length.<br />\n<br />\n🔹 DeepSeek-V4-Pro: 1.6T total / 49B active params. Performance rivaling"
-    },
-    {
-      "title": "🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents! 🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API. 🔹 DeepSeek-V3.2-Speciale: Pushing the boundaries of reasoning capabilities. API-only for now. 📄 Tech report: https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf 1/n",
-      "link": "https://twitter.com/deepseek_ai/status/1995452641430651132#m",
-      "date": "2025-12-01T11:19:18",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 Launching DeepSeek-V3.2 & DeepSeek-V3.2-Speciale — Reasoning-first models built for agents!<br />\n<br />\n🔹 DeepSeek-V3.2: Official successor to V3.2-Exp. Now live on App, Web & API.<br />\n🔹 DeepS"
     }
   ],
-  "last_update": "2026-07-25T09:27:27.601759",
+  "last_update": "2026-07-26T09:50:21.960288",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
