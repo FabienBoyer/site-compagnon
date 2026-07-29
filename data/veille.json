@@ -1,6 +1,195 @@
 {
   "articles": [
     {
+      "title": "Playyy",
+      "link": "https://www.uneiaparjour.fr/playyy/",
+      "date": "2026-07-22T21:39:50",
+      "source": "Une IA par jour",
+      "summary": "Playyy (https://playyy.ai/) génère et édite des visuels par instruction sur un tableau blanc entièrement modifiable. Possibilité de créer sa propre identité graphique générée à partir d&#8217;un site "
+    },
+    {
+      "title": "CompagnonPP : l’application que j’aurais aimé avoir comme professeur principal, et que j’aurai l’an prochain",
+      "link": "https://mathix.org/linux/archives/22618",
+      "date": "2026-07-22T14:22:44",
+      "source": "Mathix (A. Durand)",
+      "summary": "Etre professeur principal, ce n’est pas seulement préparer quelques heures de vie de classe ou remplir les appréciations à la fin du trimestre. C’est suivre une classe entière, préparer les rendez-vou"
+    },
+    {
+      "title": "L’IA n’émancipera pas l’enseignant.",
+      "link": "https://mathix.org/linux/archives/22590",
+      "date": "2026-07-09T11:10:17",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous. Une petite réflexion sur l&#8217;IA et l&#8217;impact sur notre métier. Cette réflexion, elle m&#8217;est venue d&#8217;un échange avec Ju&#8217; et aussi d&#8217;une réflexi"
+    },
+    {
+      "title": "Trace Ta Route : un projet du laboratoire de mathématiques de Loué, présentation et ressources",
+      "link": "https://mathix.org/linux/archives/22495",
+      "date": "2026-06-19T15:40:11",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Voilà le 9 juin, le projet aboutissait à une gigantesque fresque de 84 carrés avec des motifs géométriques sur la route menant au collège (barrée par la mairie pour l&#8217;"
+    },
+    {
+      "title": "Reconquérir le Hors-Classe, un enjeu pour les apprentissages, une IA accompagnatrice pour les parents et enfant au service de l’enseignant",
+      "link": "https://mathix.org/linux/archives/22441",
+      "date": "2026-06-03T07:47:21",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et à tous. A l&#8217;heure de l&#8217;IA, la notion d&#8217;aide à la maison revient en force avec son lot de travers et des bénéfices. D&#8217;abord qu&#8217;attend-on de ces devoirs"
+    },
+    {
+      "title": "Scientific computing in the age of agentic AI",
+      "link": "https://openai.com/index/scientific-computing-agentic-ai",
+      "date": "2026-07-28T17:00:00",
+      "source": "OpenAI Blog",
+      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond."
+    },
+    {
+      "title": "Building AI infrastructure with the Effingham County community",
+      "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "date": "2026-07-22T13:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex."
+    },
+    {
+      "title": "Advancing the next era of national science",
+      "link": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "date": "2026-07-22T12:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery."
+    },
+    {
+      "title": "Introducing OpenAI Presence",
+      "link": "https://openai.com/index/introducing-openai-presence",
+      "date": "2026-07-22T05:30:00",
+      "source": "OpenAI Blog",
+      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows."
+    },
+    {
+      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+      "link": "https://openai.com/index/ntt-data",
+      "date": "2026-07-22T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption."
+    },
+    {
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "date": "2026-07-28T16:00:00",
+      "source": "Google AI",
+      "summary": "Managed Agents Gemini 3.6 Flash, Hooks and Triggers"
+    },
+    {
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "date": "2026-07-28T13:00:00",
+      "source": "Google AI",
+      "summary": "Illustration of a black magnifying glass in a white circle on green grass surrounded by items related to fun activities like tennis and games"
+    },
+    {
+      "title": "3 Google updates from Galaxy Unpacked 2026",
+      "link": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+      "date": "2026-07-22T13:00:00",
+      "source": "Google AI",
+      "summary": "Gentle Monster glasses, Warby Parker glasses, a prompt asking for the history behind a pictured building, and a prompt asking to book a table at a pictured restaurant"
+    },
+    {
+      "title": "🧭 #IA + #CUA : un duo à explorer pour rendre les apprentissages plus accessibles. Ce guide @EDHUMAN montre comment l’IA peut aider à diversifier les supports, l’engagement et les formes d’expression sans remplacer l’expertise enseignante. https://www.edhuman.org/guide-pratique-ia-cua",
+      "link": "https://twitter.com/sophiaefrance/status/2079898010964693328#m",
+      "date": "2026-07-22T11:55:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧭 <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> + <a href=\"https://nitter.net/search?f=tweets&amp;q=%23CUA\">#CUA</a> : un duo à explorer pour rendre les apprentissages plus acces"
+    },
+    {
+      "title": "We support this petition, signed by our CEO, several co-founders, and senior staff. Our own research on recursive self-improvement, published last month, points to the need for tools to deliberately pace the frontier of AI development so society can prepare. We’re glad to see broad agreement across the field. https://www.pacingthefrontier.com/",
+      "link": "https://twitter.com/AnthropicAI/status/2082228994653696371#m",
+      "date": "2026-07-28T22:17:32",
+      "source": "@AnthropicAI",
+      "summary": "<p>We support this petition, signed by our CEO, several co-founders, and senior staff. <br />\n<br />\nOur own research on recursive self-improvement, published last month, points to the need for tools "
+    },
+    {
+      "title": "R to @AnthropicAI: Full technical details of both attacks are provided in our new papers: On HAWK: https://anthropic.com/document/hawk_key_recovery.pdf On AES: https://anthropic.com/document/aes_mobius_bridge.pdf And the associated model chain-of-thought for AES: https://anthropic.com/document/aes_mobius_bridge_cot.pdf",
+      "link": "https://twitter.com/AnthropicAI/status/2082153309553463600#m",
+      "date": "2026-07-28T17:16:48",
+      "source": "@AnthropicAI",
+      "summary": "<p>Full technical details of both attacks are provided in our new papers:<br />\n<br />\nOn HAWK: <a href=\"https://anthropic.com/document/hawk_key_recovery.pdf\">anthropic.com/document/hawk_…</a><br />\n<"
+    },
+    {
+      "title": "R to @AnthropicAI: We also worked with academics at ETH Zurich, Tel Aviv University, and the University of Haifa to build CryptanalysisBench, a benchmark for studying LLMs’ cryptanalysis abilities. https://arxiv.org/abs/2607.18538",
+      "link": "https://twitter.com/AnthropicAI/status/2082153311189225927#m",
+      "date": "2026-07-28T17:16:48",
+      "source": "@AnthropicAI",
+      "summary": "<p>We also worked with academics at ETH Zurich, Tel Aviv University, and the University of Haifa to build CryptanalysisBench, a benchmark for studying LLMs’ cryptanalysis abilities.<br />\n<br />\n<a hr"
+    },
+    {
+      "title": "RT by @AnthropicAI: You can now ask Claude about the Anthropic Economic Index, our public dataset measuring how AI is used across the economy. Ask which occupations use AI the most, or what kinds of tasks people are automating, and the answers draw directly from the Index data.",
+      "link": "https://twitter.com/claudeai/status/2079979809606664564#m",
+      "date": "2026-07-22T17:20:05",
+      "source": "@AnthropicAI",
+      "summary": "<p>You can now ask Claude about the Anthropic Economic Index, our public dataset measuring how AI is used across the economy.<br />\n<br />\nAsk which occupations use AI the most, or what kinds of tasks"
+    },
+    {
+      "title": "R to @MistralAI: Why the structure matters: OCR 4 localizes each block with a bounding box, classifies it (title, table, equation, signature…), and scores confidence per region, the foundation for source-grounded citations, redactions, RAG chunking, and human-in-the-loop review.",
+      "link": "https://twitter.com/MistralAI/status/2069420269748269179#m",
+      "date": "2026-06-23T14:00:14",
+      "source": "@MistralAI",
+      "summary": "<p>Why the structure matters: OCR 4 localizes each block with a bounding box, classifies it (title, table, equation, signature…), and scores confidence per region, the foundation for source-grounded c"
+    },
+    {
+      "title": "We quietly released the open-source Codex Security CLI, but Hacker News found it before we had a chance to share it here... You can now use it to scan repositories, track findings across runs, verify fixes, and add security checks to CI/CD. This is an early release, and we're listening to your feedback as we continue improving it.",
+      "link": "https://twitter.com/OpenAI/status/2082263717916586117#m",
+      "date": "2026-07-29T00:35:31",
+      "source": "@OpenAI",
+      "summary": "<p>We quietly released the open-source Codex Security CLI, but Hacker News found it before we had a chance to share it here...<br />\n<br />\nYou can now use it to scan repositories, track findings acro"
+    },
+    {
+      "title": "R to @OpenAI: Install the open-source Codex Security CLI,: npm install @OpenAI/codex-security Or start with: npx @OpenAI/codex-security@latest --help NPM: http://npmjs.com/package/@openai/codex-security",
+      "link": "https://twitter.com/OpenAI/status/2082263719460094127#m",
+      "date": "2026-07-29T00:35:31",
+      "source": "@OpenAI",
+      "summary": "<p>Install the open-source Codex Security CLI,:<br />\nnpm install @OpenAI/codex-security<br />\n<br />\nOr start with:<br />\n<br />\nnpx @OpenAI/codex-security@latest --help<br />\n<br />\nNPM: <a href=\"ht"
+    },
+    {
+      "title": "R to @OpenAI: Source + docs: http://github.com/openai/codex-security",
+      "link": "https://twitter.com/OpenAI/status/2082263720777101505#m",
+      "date": "2026-07-29T00:35:32",
+      "source": "@OpenAI",
+      "summary": "<p>Source + docs: <a href=\"http://github.com/openai/codex-security\">github.com/openai/codex-secu…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"http://github.com/openai/codex-security\">\n<img src=\"https://"
+    },
+    {
+      "title": "At the core of our mission is working through how to ensure increasingly powerful AI benefits everyone. We believe that, at some point in the future, AI acceleration for frontier model development may be so high that the world will need to pace the rate of AI advancement. We hope to contribute to work led by the U.S. government, alongside other labs and the open-source community, to develop the tools and mechanisms that could make that possible. http://pacingthefrontier.com",
+      "link": "https://twitter.com/OpenAI/status/2082208694142730340#m",
+      "date": "2026-07-28T20:56:52",
+      "source": "@OpenAI",
+      "summary": "<p>At the core of our mission is working through how to ensure increasingly powerful AI benefits everyone. <br />\n<br />\nWe believe that, at some point in the future, AI acceleration for frontier mode"
+    },
+    {
+      "title": "Coding agents are helping scientists spend more time advancing research, taking on everything from routine maintenance and targeted optimization to complete redesigns and new systems. While agents can reliably execute on ambitious projects, researchers must still define the scientific questions, verify results, and take a stance on long-term ownership.",
+      "link": "https://twitter.com/OpenAI/status/2082152074071228702#m",
+      "date": "2026-07-28T17:11:53",
+      "source": "@OpenAI",
+      "summary": "<p>Coding agents are helping scientists spend more time advancing research, taking on everything from routine maintenance and targeted optimization to complete redesigns and new systems.<br />\n<br />\n"
+    },
+    {
+      "title": "R to @OpenAI: Across eight case studies spanning industry and academia, we explore what this shift means for scientific computing—and why human verification, stewardship, and long-term maintenance matter. https://openai.com/index/scientific-computing-agentic-ai/",
+      "link": "https://twitter.com/OpenAI/status/2082152075778293831#m",
+      "date": "2026-07-28T17:11:54",
+      "source": "@OpenAI",
+      "summary": "<p>Across eight case studies spanning industry and academia, we explore what this shift means for scientific computing—and why human verification, stewardship, and long-term maintenance matter.  <a hr"
+    },
+    {
+      "title": "We're opening applications for the OpenAI Student Collective—a program for undergraduate Campus Leads bringing AI innovation to their campuses. Campus Leads will work directly with OpenAI and receive hands-on training, funding, credits, swag, and access to a global community of peers.",
+      "link": "https://twitter.com/OpenAI/status/2082146058017321257#m",
+      "date": "2026-07-28T16:47:59",
+      "source": "@OpenAI",
+      "summary": "<p>We're opening applications for the OpenAI Student Collective—a program for undergraduate Campus Leads bringing AI innovation to their campuses.<br />\n<br />\nCampus Leads will work directly with Ope"
+    },
+    {
+      "title": "R to @OpenAI: Apply here: https://openai.com/student-collective/",
+      "link": "https://twitter.com/OpenAI/status/2082146059271417879#m",
+      "date": "2026-07-28T16:47:59",
+      "source": "@OpenAI",
+      "summary": "<p>Apply here: <a href=\"https://openai.com/student-collective/\">openai.com/student-collectiv…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://openai.com/student-collective/\">\n<img src=\"https://nitte"
+    },
+    {
       "title": "Qwen Image 3.0",
       "link": "https://www.uneiaparjour.fr/qwen-image-3-0/",
       "date": "2026-07-27T20:45:00",
@@ -510,198 +699,9 @@
       "date": "2026-06-23T14:00:13",
       "source": "@MistralAI",
       "summary": "<p>Introducing Mistral OCR 4. It creates structure with bounding boxes, block classification, and inline confidence scores in 170 languages. 🧵👇</p>\n<img src=\"https://nitter.net/pic/media%2FHLgKXVjWEAA"
-    },
-    {
-      "title": "Mistral officially has 1,000 team members around the world! Thank you to our incredible talent for believing in the mission and contributing to what we are building each and every day. You too can be a part of the next chapter in our journey as we continue to grow and serve our customers. Apply for open roles at Mistral across all functions here: https://mistral.ai/careers/",
-      "link": "https://twitter.com/MistralAI/status/2069077356266795207#m",
-      "date": "2026-06-22T15:17:37",
-      "source": "@MistralAI",
-      "summary": "<p>Mistral officially has 1,000 team members around the world!<br />\n<br />\nThank you to our incredible talent for believing in the mission and contributing to what we are building each and every day."
-    },
-    {
-      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
-      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
-      "date": "2026-04-29T02:20:52",
-      "source": "@deepseek_ai",
-      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
-    },
-    {
-      "title": "R to @huggingface: We recognize there are a lot of questions and speculative details circulating related to the Hugging Face incident. This is an unprecedented incident, and we think it marks an important moment for AI safety. We are still conducting a thorough review along with external advisors and with oversight from our Safety and Security Committee. Once the review is complete, we plan to publish a technical report of our learnings in the coming weeks.",
-      "link": "https://twitter.com/OpenAI/status/2080815626113954288#m",
-      "date": "2026-07-25T00:41:19",
-      "source": "@OpenAI",
-      "summary": "<p>We recognize there are a lot of questions and speculative details circulating related to the Hugging Face incident. <br />\n<br />\nThis is an unprecedented incident, and we think it marks an importa"
-    },
-    {
-      "title": "Chez OpenAI ils ont retrouvé des notes laissées par certains agents IA contenant des instructions destinées à aider les futures versions à s'échapper plus facilement des sandbox. Les employés n'arrivent pas à bien surveiller toutes leurs évaluations de modèles en même temps...",
-      "link": "https://twitter.com/Fabien_Mikol/status/2080929544412742127#m",
-      "date": "2026-07-25T08:13:59",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Chez OpenAI ils ont retrouvé des notes laissées par certains agents IA contenant des instructions destinées à aider les futures versions à s'échapper plus facilement des sandbox.<br />\nLes employés"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Comment je me représente l'ambiance chez OpenAI désormais",
-      "link": "https://twitter.com/Fabien_Mikol/status/2080930501863276615#m",
-      "date": "2026-07-25T08:17:48",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Comment je me représente l'ambiance chez OpenAI désormais</p>\n<video loop=\"loop\" poster=\"https://nitter.net/pic/tweet_video_thumb%2FHODzQnQXcAAyC7u.jpg\">\n  <source src=\"https://nitter.net/pic/video"
-    },
-    {
-      "title": "Les prévisions de Luc Julia en avril 2025 : les LLM généralistes sont morts, et OpenAI est mort, par contre Mistral va faire des choses malignes ; l'AGI est impossible car ce sont des maths, il faudrait de l'informatique quantique, ce sera pour dans 10 millions d'années. 👏👏👏",
-      "link": "https://twitter.com/Fabien_Mikol/status/2080784026755834076#m",
-      "date": "2026-07-24T22:35:45",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Les prévisions de Luc Julia en avril 2025 : les LLM généralistes sont morts, et OpenAI est mort, par contre Mistral va faire des choses malignes ; l'AGI est impossible car ce sont des maths, il fau"
-    },
-    {
-      "title": "Avec Opus 5 on a donc accès désormais à un modèle qui peut résoudre tous les problèmes des dernières Olympiades de mathématiques (bien au-dessus du seuil pour la médaille d'or) sans même avoir besoin d'appeler des outils symboliques comme Python. La vitesse de progression... 😗",
-      "link": "https://twitter.com/Fabien_Mikol/status/2080765231668633678#m",
-      "date": "2026-07-24T21:21:04",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Avec Opus 5 on a donc accès désormais à un modèle qui peut résoudre tous les problèmes des dernières Olympiades de mathématiques (bien au-dessus du seuil pour la médaille d'or) sans même avoir beso"
-    },
-    {
-      "title": "Claude Opus 5 atteint 30% sur le très difficile benchmark ARC-AGI-3. C'est un bond impressionnant par rapport au précédent record <8%. La médiane humaine sur le jeu public serait ~60%. Le score de Claude est quant à lui sur le jeu semi-privé, plus difficile. L'écart se resserre !",
-      "link": "https://twitter.com/Fabien_Mikol/status/2080761485379203397#m",
-      "date": "2026-07-24T21:06:11",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Claude Opus 5 atteint 30% sur le très difficile benchmark ARC-AGI-3. C'est un bond impressionnant par rapport au précédent record &lt;8%.<br />\nLa médiane humaine sur le jeu public serait ~60%. Le "
-    },
-    {
-      "title": "R to @Fabien_Mikol: Estimation par Opus 5 (mon premier test !) \"GPT-5.6 Sol max est à 13,33 % sur le public contre 7,78 % sur le semi-privé, soit un rapport d'environ 1,7. Transposé tel quel, Opus 5 serait autour de 50 % sur le jeu public — face à un humain médian à ~60 %\" https://claude.ai/share/236284b4-d156-4c2e-9c73-a1e6bc69588e",
-      "link": "https://twitter.com/Fabien_Mikol/status/2080761488512360457#m",
-      "date": "2026-07-24T21:06:12",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Estimation par Opus 5 (mon premier test !)<br />\n\"GPT-5.6 Sol max est à 13,33 % sur le public contre 7,78 % sur le semi-privé, soit un rapport d'environ 1,7. Transposé tel quel, Opus 5 serait autou"
-    },
-    {
-      "title": "MemeCam",
-      "link": "https://www.uneiaparjour.fr/memecam/",
-      "date": "2026-07-16T20:04:00",
-      "source": "Une IA par jour",
-      "summary": "MemeCam (https://www.memecam.io) génère un mème à partir d&#8217;une photo importée ou prise via la caméra. Reconnaissance d&#8217;image puis génération d&#8217;une légende humoristique (GPT-4o) adapt"
-    },
-    {
-      "title": "Launching Health in ChatGPT",
-      "link": "https://openai.com/index/health-in-chatgpt",
-      "date": "2026-07-23T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health."
-    },
-    {
-      "title": "Create, edit and star in videos with two Google Vids updates",
-      "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "date": "2026-07-16T16:00:00",
-      "source": "Google AI",
-      "summary": "Text \"Gemini Omni and Personal Avatars in Google Vids\" surrounded by various images"
-    },
-    {
-      "title": "The latest AI news we announced in June 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-      "date": "2026-07-01T18:15:00",
-      "source": "Google AI",
-      "summary": "June Pixel Drop hero"
-    },
-    {
-      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
-      "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
-      "date": "2026-07-01T16:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp\" />Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit fo"
-    },
-    {
-      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
-      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
-      "date": "2026-06-30T06:00:00",
-      "source": "Google AI",
-      "summary": "Four illustrated characters representing different professional roles, including a scientist, technician, explorer, and observer."
-    },
-    {
-      "title": "Ask an AI expert: What exactly is the full stack?",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-      "date": "2026-06-29T16:00:00",
-      "source": "Google AI",
-      "summary": "An illustration depicting a full-stack AI infrastructure against a dark background"
-    },
-    {
-      "title": "L'IA, la robotique, le travail (humain). https://youtu.be/6Kn4JPcv3dA?is=9bWocZjxzX29qqAR",
-      "link": "https://twitter.com/nsi_xyz/status/2080302419590738400#m",
-      "date": "2026-07-23T14:42:01",
-      "source": "@nsi_xyz",
-      "summary": "<p>L'IA, la robotique, le travail (humain).<br />\n<a href=\"https://piped.video/6Kn4JPcv3dA?is=9bWocZjxzX29qqAR\">piped.video/6Kn4JPcv3dA?is=9bWo…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://piped"
-    },
-    {
-      "title": "Et si déplacer quelques tables déplaçait aussi les postures ? Espace fermé ＝ “reste à ta place”. Espace ouvert ＝ “tu es attendu, tu peux agir”. L’ #aménagement d’une #classe influence interactions, sécurité, #coopération et engagement. #education #pédagogie ✍️ Christophe Caron",
-      "link": "https://twitter.com/sophiaefrance/status/2080591324286157150#m",
-      "date": "2026-07-24T09:50:01",
-      "source": "@sophiaefrance",
-      "summary": "<p>Et si déplacer quelques tables déplaçait aussi les postures ?<br />\nEspace fermé ＝ “reste à ta place”.<br />\nEspace ouvert ＝ “tu es attendu, tu peux agir”.<br />\nL’ <a href=\"https://nitter.net/sear"
-    },
-    {
-      "title": "Adapter, ce n’est pas baisser les exigences. Le Cartable Fantastique propose 16 principes pour aider les élèves dyspraxiques : éviter la double tâche, favoriser l’autonomie, varier les supports et penser l’adaptation avec l’élève. #ÉcoleInclusive #DYS https://www.cartablefantastique.fr/outils-pour-adapter/16-principes-pour-adapter/",
-      "link": "https://twitter.com/sophiaefrance/status/2078054610888011998#m",
-      "date": "2026-07-17T09:50:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>Adapter, ce n’est pas baisser les exigences.<br />\nLe Cartable Fantastique propose 16 principes pour aider les élèves dyspraxiques : éviter la double tâche, favoriser l’autonomie, varier les suppor"
-    },
-    {
-      "title": "🤖 IA ou réel ? 3 jeux gratuits pour entraîner les élèves à repérer les images générées par #IA: observation des détails, cohérence des ombres, textes suspects, sources… Une excellente activité d’EMI pour aiguiser l’esprit critique. https://outilstice.com/2025/10/jeux-pour-detecter-images-ia/ Source 👉 @outilstice",
-      "link": "https://twitter.com/sophiaefrance/status/2073991590247276922#m",
-      "date": "2026-07-06T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤖 IA ou réel ? 3 jeux gratuits pour entraîner les élèves à repérer les images générées par <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a>: observation des détails, cohérence des o"
-    },
-    {
-      "title": "Pinned: 🔥DeepSeek Input Cache Price Drop! Effective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less. 📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
-      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
-      "date": "2026-04-26T16:35:11",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
-    },
-    {
-      "title": "🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount. 🛠️Integration Updates: 🔹Claude Code: Set model to deepseek-v4-pro[1m] to unlock 1M context! 🔹OpenCode: Update to v1.14.24+ 🔹OpenClaw: Update to v2026.4.24+ Check the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
-      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
-      "date": "2026-04-25T15:33:11",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
-    },
-    {
-      "title": "R to @deepseek_ai: API is Available Today! 🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash. 🔹 Supports OpenAI ChatCompletions & Anthropic APIs. 🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://api-docs.deepseek.com/guides/thinking_mode ⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking). 6/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516945466188072#m",
-      "date": "2026-04-24T03:24:15",
-      "source": "@deepseek_ai",
-      "summary": "<p>API is Available Today!<br />\n<br />\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.<br />\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.<br />\n🔹 Both models suppor"
-    },
-    {
-      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views. 🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI. 7/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
-      "date": "2026-04-24T03:24:16",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
-    },
-    {
-      "title": "R to @OpenAI: You can also use ChatGPT Voice in Codex from the iOS app with paired remote access. Android support is coming soon.",
-      "link": "https://twitter.com/OpenAI/status/2080392280549253392#m",
-      "date": "2026-07-23T20:39:06",
-      "source": "@OpenAI",
-      "summary": "<p>You can also use ChatGPT Voice in Codex from the iOS app with paired remote access. Android support is coming soon.</p>"
-    },
-    {
-      "title": "Health in ChatGPT is starting to roll out to U.S. users. You can securely connect Apple Health and supported medical records to understand your information in context, track what has changed, and have more informed conversations. https://openai.com/index/health-in-chatgpt/",
-      "link": "https://twitter.com/OpenAI/status/2080339982288568709#m",
-      "date": "2026-07-23T17:11:17",
-      "source": "@OpenAI",
-      "summary": "<p>Health in ChatGPT is starting to roll out to U.S. users.<br />\n<br />\nYou can securely connect Apple Health and supported medical records to understand your information in context, track what has c"
-    },
-    {
-      "title": "R to @OpenAI: We built this experience based on feedback from early testers and physicians. With your permission, ChatGPT can use relevant context you’ve connected in Health across your conversations — to help you compare a new result with prior tests, summarize changes since your last appointment, or explore how your sleep and activity relate. Connected medical records and Apple Health information are not used to train foundation models or target ads. In the sidebar, Health is your home base for connecting and managing information, browsing records, and revisiting health chats.",
-      "link": "https://twitter.com/OpenAI/status/2080339983962181983#m",
-      "date": "2026-07-23T17:11:17",
-      "source": "@OpenAI",
-      "summary": "<p>We built this experience based on feedback from early testers and physicians.<br />\n<br />\nWith your permission, ChatGPT can use relevant context you’ve connected in Health across your conversation"
     }
   ],
-  "last_update": "2026-07-28T10:24:39.123408",
+  "last_update": "2026-07-29T10:30:03.391627",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
