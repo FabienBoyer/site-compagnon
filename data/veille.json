@@ -1,6 +1,76 @@
 {
   "articles": [
     {
+      "title": "Qwen Image 3.0",
+      "link": "https://www.uneiaparjour.fr/qwen-image-3-0/",
+      "date": "2026-07-27T20:45:00",
+      "source": "Une IA par jour",
+      "summary": "Qwen Image 3.0 (https://chat.qwen.ai/), 3ème génération du modèle d&#8217;images d&#8217;Alibaba, génère et retouche des images à partir d&#8217;une instruction, avec une gestion fine des textes et de"
+    },
+    {
+      "title": "Vite, protégeons les enfants !",
+      "link": "https://twitter.com/nsi_xyz/status/2079663403183075502#m",
+      "date": "2026-07-21T20:22:48",
+      "source": "@nsi_xyz",
+      "summary": "<p>Vite, protégeons les enfants !</p>\n<img src=\"https://nitter.net/pic/media%2FHNxy10lXYAAIKTw.jpg\" />\n\n<hr />\n<blockquote>\n<b>Cerfia (@CerfiaFR)</b>\n<p>\n<p>🚨🇫🇷 ALERTE INFO | Le Parlement ADOPTE DÉFIN"
+    },
+    {
+      "title": "🧭 IA éducative : besoin de repères clairs ? Ce petit guide d’@EdtechHDF démystifie l’IA, partage des usages concrets et rappelle l’essentiel : une IA utile, éthique, inclusive, au service des enseignants — pas à leur place. #IA #éducation https://drive.google.com/file/d/1849110yatV5AeSZ3m5Z_CT8q-xnypb7p/view ✍️ Edtech HDF",
+      "link": "https://twitter.com/sophiaefrance/status/2077361292625486044#m",
+      "date": "2026-07-15T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧭 IA éducative : besoin de repères clairs ?<br />\nCe petit guide d’@EdtechHDF démystifie l’IA, partage des usages concrets et rappelle l’essentiel : une IA utile, éthique, inclusive, au service des"
+    },
+    {
+      "title": "There’s been a lot of speculation about where we stand on open-weights models. We’ve outlined our views in full here: https://www.anthropic.com/news/position-open-weights-models",
+      "link": "https://twitter.com/AnthropicAI/status/2081864750296658008#m",
+      "date": "2026-07-27T22:10:10",
+      "source": "@AnthropicAI",
+      "summary": "<p>There’s been a lot of speculation about where we stand on open-weights models. We’ve outlined our views in full here: <a href=\"https://www.anthropic.com/news/position-open-weights-models\">anthropic"
+    },
+    {
+      "title": "RT by @AnthropicAI: You can now ask Claude about the Anthropic Economic Index, our public dataset measuring how AI is used across the economy. Ask which occupations use AI the most, or what kinds of tasks people are automating, and the answers draw directly from the Index data.",
+      "link": "https://twitter.com/claudeai/status/2079979809606664564#m",
+      "date": "2026-07-22T17:20:05",
+      "source": "@AnthropicAI",
+      "summary": "<p>You can now ask Claude about the Anthropic Economic Index, our public dataset measuring how AI is used across the economy.<br />\n<br />\nAsk which occupations use AI the most, or what kinds of tasks"
+    },
+    {
+      "title": "New Anthropic research: Agentic misalignment in Summer 2026. A year after our blackmail experiments, we found four more ways that today’s autonomous AI agents misbehave in simulations. Read more: https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
+      "link": "https://twitter.com/AnthropicAI/status/2077452646303006927#m",
+      "date": "2026-07-15T17:58:02",
+      "source": "@AnthropicAI",
+      "summary": "<p>New Anthropic research: Agentic misalignment in Summer 2026.<br />\n<br />\nA year after our blackmail experiments, we found four more ways that today’s autonomous AI agents misbehave in simulations."
+    },
+    {
+      "title": "Mistral is announcing an expanded global strategic partnership with @Microsoft to give enterprises and regulated industries frontier AI they can control. As Mistral is expanding its AI compute capacity in Europe, the companies are expanding their strategic partnership with Microsoft’s commitment to leverage part of this capacity, bringing Mistral’s frontier and efficient models across Microsoft’s AI platform and giving customers flexible deployment options from cloud to fully disconnected environments. Learn more from @arthurmensch and @BradSmi on what this means for enterprises. Watch here: https://www.youtube.com/watch?v=xr4VUV-7rN0",
+      "link": "https://twitter.com/MistralAI/status/2079598447234064801#m",
+      "date": "2026-07-21T16:04:41",
+      "source": "@MistralAI",
+      "summary": "<p>Mistral is announcing an expanded global strategic partnership with <a href=\"https://nitter.net/Microsoft\" title=\"Microsoft\">@Microsoft</a> to give enterprises and regulated industries frontier AI "
+    },
+    {
+      "title": "R to @MistralAI: Why the structure matters: OCR 4 localizes each block with a bounding box, classifies it (title, table, equation, signature…), and scores confidence per region, the foundation for source-grounded citations, redactions, RAG chunking, and human-in-the-loop review.",
+      "link": "https://twitter.com/MistralAI/status/2069420269748269179#m",
+      "date": "2026-06-23T14:00:14",
+      "source": "@MistralAI",
+      "summary": "<p>Why the structure matters: OCR 4 localizes each block with a bounding box, classifies it (title, table, equation, signature…), and scores confidence per region, the foundation for source-grounded c"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: OpenAI publie une \"sélection\" de résultats sur 10 problèmes mathématiques importants, dus à leur modèle interne Astra. https://openai.com/index/ten-advances-in-mathematics/ Du point de vue de 2023 ou 2024, c'est de la pure SF. Ma vidéo d'il y a 2 mois annonçait cette accélération, et ce n'est que le début :",
+      "link": "https://twitter.com/MonsieurPhi/status/2083834371065156040#m",
+      "date": "2026-08-02T08:36:44",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>OpenAI publie une \"sélection\" de résultats sur 10 problèmes mathématiques importants, dus à leur modèle interne Astra. <a href=\"https://openai.com/index/ten-advances-in-mathematics/\">openai.com/ind"
+    },
+    {
+      "title": "Le rapport de la mission parlementaire sur l'alignement des systèmes d'IA, dirigé par @GaginPaoli, contient des éléments étonnamment techniques et informés : alignment faking, scheming (dont sandbagging), et loi de Goodhart... ça change ! C'est grâce à de bonnes auditions ⤵️ 🧵",
+      "link": "https://twitter.com/Fabien_Mikol/status/2083594574077858131#m",
+      "date": "2026-08-01T16:43:52",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Le rapport de la mission parlementaire sur l'alignement des systèmes d'IA, dirigé par <a href=\"https://nitter.net/GaginPaoli\" title=\"Vanina Paoli-Gagin\">@GaginPaoli</a>, contient des éléments étonn"
+    },
+    {
       "title": "Aperçu IA de Google",
       "link": "https://www.uneiaparjour.fr/apercu-ia-de-google/",
       "date": "2026-07-26T20:53:00",
@@ -629,79 +699,9 @@
       "date": "2026-07-22T13:00:00",
       "source": "OpenAI Blog",
       "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex."
-    },
-    {
-      "title": "Advancing the next era of national science",
-      "link": "https://openai.com/index/advancing-the-next-era-of-national-science",
-      "date": "2026-07-22T12:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery."
-    },
-    {
-      "title": "Introducing OpenAI Presence",
-      "link": "https://openai.com/index/introducing-openai-presence",
-      "date": "2026-07-22T05:30:00",
-      "source": "OpenAI Blog",
-      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows."
-    },
-    {
-      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
-      "link": "https://openai.com/index/ntt-data",
-      "date": "2026-07-22T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption."
-    },
-    {
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "date": "2026-07-28T16:00:00",
-      "source": "Google AI",
-      "summary": "Managed Agents Gemini 3.6 Flash, Hooks and Triggers"
-    },
-    {
-      "title": "5 ways AI Mode in Search helps you enjoy the real world",
-      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-      "date": "2026-07-28T13:00:00",
-      "source": "Google AI",
-      "summary": "Illustration of a black magnifying glass in a white circle on green grass surrounded by items related to fun activities like tennis and games"
-    },
-    {
-      "title": "3 Google updates from Galaxy Unpacked 2026",
-      "link": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "date": "2026-07-22T13:00:00",
-      "source": "Google AI",
-      "summary": "Gentle Monster glasses, Warby Parker glasses, a prompt asking for the history behind a pictured building, and a prompt asking to book a table at a pictured restaurant"
-    },
-    {
-      "title": "🧭 #IA + #CUA : un duo à explorer pour rendre les apprentissages plus accessibles. Ce guide @EDHUMAN montre comment l’IA peut aider à diversifier les supports, l’engagement et les formes d’expression sans remplacer l’expertise enseignante. https://www.edhuman.org/guide-pratique-ia-cua",
-      "link": "https://twitter.com/sophiaefrance/status/2079898010964693328#m",
-      "date": "2026-07-22T11:55:03",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧭 <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> + <a href=\"https://nitter.net/search?f=tweets&amp;q=%23CUA\">#CUA</a> : un duo à explorer pour rendre les apprentissages plus acces"
-    },
-    {
-      "title": "We support this petition, signed by our CEO, several co-founders, and senior staff. Our own research on recursive self-improvement, published last month, points to the need for tools to deliberately pace the frontier of AI development so society can prepare. We’re glad to see broad agreement across the field. https://www.pacingthefrontier.com/",
-      "link": "https://twitter.com/AnthropicAI/status/2082228994653696371#m",
-      "date": "2026-07-28T22:17:32",
-      "source": "@AnthropicAI",
-      "summary": "<p>We support this petition, signed by our CEO, several co-founders, and senior staff. <br />\n<br />\nOur own research on recursive self-improvement, published last month, points to the need for tools "
-    },
-    {
-      "title": "R to @AnthropicAI: Full technical details of both attacks are provided in our new papers: On HAWK: https://anthropic.com/document/hawk_key_recovery.pdf On AES: https://anthropic.com/document/aes_mobius_bridge.pdf And the associated model chain-of-thought for AES: https://anthropic.com/document/aes_mobius_bridge_cot.pdf",
-      "link": "https://twitter.com/AnthropicAI/status/2082153309553463600#m",
-      "date": "2026-07-28T17:16:48",
-      "source": "@AnthropicAI",
-      "summary": "<p>Full technical details of both attacks are provided in our new papers:<br />\n<br />\nOn HAWK: <a href=\"https://anthropic.com/document/hawk_key_recovery.pdf\">anthropic.com/document/hawk_…</a><br />\n<"
-    },
-    {
-      "title": "R to @AnthropicAI: We also worked with academics at ETH Zurich, Tel Aviv University, and the University of Haifa to build CryptanalysisBench, a benchmark for studying LLMs’ cryptanalysis abilities. https://arxiv.org/abs/2607.18538",
-      "link": "https://twitter.com/AnthropicAI/status/2082153311189225927#m",
-      "date": "2026-07-28T17:16:48",
-      "source": "@AnthropicAI",
-      "summary": "<p>We also worked with academics at ETH Zurich, Tel Aviv University, and the University of Haifa to build CryptanalysisBench, a benchmark for studying LLMs’ cryptanalysis abilities.<br />\n<br />\n<a hr"
     }
   ],
-  "last_update": "2026-08-01T09:49:20.209221",
+  "last_update": "2026-08-02T09:48:04.648311",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
