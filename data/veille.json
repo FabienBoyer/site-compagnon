@@ -1,6 +1,118 @@
 {
   "articles": [
     {
+      "title": "MyColoring.AI",
+      "link": "https://www.uneiaparjour.fr/mycoloring-ai/",
+      "date": "2026-08-03T19:47:00",
+      "source": "Une IA par jour",
+      "summary": "MyColoring.AI (https://mycoloring.ai/) transforme une photo ou une instruction texte en coloriage imprimable. Trois modes de génération : à partir d&#8217;une photo, à partir d&#8217;une instruction t"
+    },
+    {
+      "title": "CompagnonPP : l’application que j’aurais aimé avoir comme professeur principal, et que j’aurai l’an prochain",
+      "link": "https://mathix.org/linux/archives/22618",
+      "date": "2026-07-22T14:22:44",
+      "source": "Mathix (A. Durand)",
+      "summary": "Etre professeur principal, ce n’est pas seulement préparer quelques heures de vie de classe ou remplir les appréciations à la fin du trimestre. C’est suivre une classe entière, préparer les rendez-vou"
+    },
+    {
+      "title": "L’IA n’émancipera pas l’enseignant.",
+      "link": "https://mathix.org/linux/archives/22590",
+      "date": "2026-07-09T11:10:17",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous. Une petite réflexion sur l&#8217;IA et l&#8217;impact sur notre métier. Cette réflexion, elle m&#8217;est venue d&#8217;un échange avec Ju&#8217; et aussi d&#8217;une réflexi"
+    },
+    {
+      "title": "Trace Ta Route : un projet du laboratoire de mathématiques de Loué, présentation et ressources",
+      "link": "https://mathix.org/linux/archives/22495",
+      "date": "2026-06-19T15:40:11",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Voilà le 9 juin, le projet aboutissait à une gigantesque fresque de 84 carrés avec des motifs géométriques sur la route menant au collège (barrée par la mairie pour l&#8217;"
+    },
+    {
+      "title": "Reconquérir le Hors-Classe, un enjeu pour les apprentissages, une IA accompagnatrice pour les parents et enfant au service de l’enseignant",
+      "link": "https://mathix.org/linux/archives/22441",
+      "date": "2026-06-03T07:47:21",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et à tous. A l&#8217;heure de l&#8217;IA, la notion d&#8217;aide à la maison revient en force avec son lot de travers et des bénéfices. D&#8217;abord qu&#8217;attend-on de ces devoirs"
+    },
+    {
+      "title": "Apple is getting this wrong",
+      "link": "https://openai.com/index/apple-is-getting-this-wrong",
+      "date": "2026-08-03T22:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened."
+    },
+    {
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "date": "2026-08-03T07:00:00",
+      "source": "OpenAI Blog",
+      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations."
+    },
+    {
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "link": "https://openai.com/index/circles",
+      "date": "2026-08-03T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency."
+    },
+    {
+      "title": "GPT-Live can listen while it speaks. To make that feel natural at ChatGPT scale, we rebuilt the voice stack from client to model. This new architecture keeps audio flowing continuously, so deeper reasoning and tool use don't interrupt the conversation.",
+      "link": "https://twitter.com/OpenAI/status/2084378415818579975#m",
+      "date": "2026-08-03T20:38:34",
+      "source": "@OpenAI",
+      "summary": "<p>GPT-Live can listen while it speaks.<br />\n<br />\nTo make that feel natural at ChatGPT scale, we rebuilt the voice stack from client to model.<br />\n<br />\nThis new architecture keeps audio flowing"
+    },
+    {
+      "title": "R to @OpenAI: The result is a faster, more natural conversation with ChatGPT Voice from the moment a session starts. How we built it: https://openai.com/index/continuous-voice-interaction-with-gpt-live/",
+      "link": "https://twitter.com/OpenAI/status/2084378418989379822#m",
+      "date": "2026-08-03T20:38:35",
+      "source": "@OpenAI",
+      "summary": "<p>The result is a faster, more natural conversation with ChatGPT Voice from the moment a session starts.  <br />\n<br />\nHow we built it: <a href=\"https://openai.com/index/continuous-voice-interaction"
+    },
+    {
+      "title": "An internal version of our next major model produced 10 new results on long-standing open problems in mathematics and theoretical computer science, using roughly $2,000 worth of tokens at GPT-5.6 Sol API rates.",
+      "link": "https://twitter.com/OpenAI/status/2084352161404920316#m",
+      "date": "2026-08-03T18:54:15",
+      "source": "@OpenAI",
+      "summary": "<p>An internal version of our next major model produced 10 new results on long-standing open problems in mathematics and theoretical computer science, using roughly $2,000 worth of tokens at GPT-5.6 S"
+    },
+    {
+      "title": "R to @OpenAI: We’re releasing the manuscripts, formal Lean certificates, and reasoning walkthroughs so mathematicians can examine these results and build on their ideas. https://openai.com/index/ten-advances-in-mathematics/",
+      "link": "https://twitter.com/OpenAI/status/2084352165464903730#m",
+      "date": "2026-08-03T18:54:16",
+      "source": "@OpenAI",
+      "summary": "<p>We’re releasing the manuscripts, formal Lean certificates, and reasoning walkthroughs so mathematicians can examine these results and build on their ideas. <a href=\"https://openai.com/index/ten-adv"
+    },
+    {
+      "title": "Yoshua Bengio : ce n'est pas tant la vitesse de développement de l'IA qui pose problème en soi, mais plutôt que nous sommes dans une voiture très rapide, sans phares, sans savoir où l'on va, et sans avoir eu de contrôle technique...",
+      "link": "https://twitter.com/Fabien_Mikol/status/2084582634521301464#m",
+      "date": "2026-08-04T10:10:04",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Yoshua Bengio : ce n'est pas tant la vitesse de développement de l'IA qui pose problème en soi, mais plutôt que nous sommes dans une voiture très rapide, sans phares, sans savoir où l'on va, et san"
+    },
+    {
+      "title": "Je suis allé écouter une présentation de 2021 sur l'IA par l'experte invitée ce matin sur France Inter. \"On est très très loin de résoudre le pb de faire une intelligence artificielle\" ; \"une machine aussi intelligente qu'un humain, croyez-moi on en est très très loin\"... 🧵",
+      "link": "https://twitter.com/Fabien_Mikol/status/2084288990329364658#m",
+      "date": "2026-08-03T14:43:14",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Je suis allé écouter une présentation de 2021 sur l'IA par l'experte invitée ce matin sur France Inter.<br />\n\"On est très très loin de résoudre le pb de faire une intelligence artificielle\" ; \"une"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Cette confusion entre systèmes experts et réseaux de neurones profonds pourrait peut-être expliquer pourquoi Amélie Cordier a tendance à assimiler les systèmes actuels d'IA à de simples outils comme un marteau ou un couteau ? Je me pose la question.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2084289001284907314#m",
+      "date": "2026-08-03T14:43:16",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Cette confusion entre systèmes experts et réseaux de neurones profonds pourrait peut-être expliquer pourquoi Amélie Cordier a tendance à assimiler les systèmes actuels d'IA à de simples outils comm"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: Nouvelle méthode rassuriste : \"c'est pas si grave si ces IAs ont mené des attaques, ce sont pas des modèles grand public\". C'est un raisonnement à très courte vue pour au moins 3 raisons. 🧵",
+      "link": "https://twitter.com/IA_Clash/status/2084238143444684800#m",
+      "date": "2026-08-03T11:21:11",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Nouvelle méthode rassuriste : \"c'est pas si grave si ces IAs ont mené des attaques, ce sont pas des modèles grand public\". <br />\nC'est un raisonnement à très courte vue pour au moins 3 raisons. 🧵<"
+    },
+    {
       "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
       "date": "2026-07-28T16:00:00",
@@ -587,121 +699,9 @@
       "date": "2026-07-29T11:55:02",
       "source": "@sophiaefrance",
       "summary": "<p>🤝 Coopérer pour apprendre… et apprendre à coopérer.<br />\nLe rapport IGÉSR rappelle que le travail en groupe ne suffit pas : rôles explicites, interdépendance, temps de concertation et formation so"
-    },
-    {
-      "title": "Et si déplacer quelques tables déplaçait aussi les postures ? Espace fermé ＝ “reste à ta place”. Espace ouvert ＝ “tu es attendu, tu peux agir”. L’ #aménagement d’une #classe influence interactions, sécurité, #coopération et engagement. #education #pédagogie ✍️ Christophe Caron",
-      "link": "https://twitter.com/sophiaefrance/status/2080591324286157150#m",
-      "date": "2026-07-24T09:50:01",
-      "source": "@sophiaefrance",
-      "summary": "<p>Et si déplacer quelques tables déplaçait aussi les postures ?<br />\nEspace fermé ＝ “reste à ta place”.<br />\nEspace ouvert ＝ “tu es attendu, tu peux agir”.<br />\nL’ <a href=\"https://nitter.net/sear"
-    },
-    {
-      "title": "Adapter, ce n’est pas baisser les exigences. Le Cartable Fantastique propose 16 principes pour aider les élèves dyspraxiques : éviter la double tâche, favoriser l’autonomie, varier les supports et penser l’adaptation avec l’élève. #ÉcoleInclusive #DYS https://www.cartablefantastique.fr/outils-pour-adapter/16-principes-pour-adapter/",
-      "link": "https://twitter.com/sophiaefrance/status/2078054610888011998#m",
-      "date": "2026-07-17T09:50:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>Adapter, ce n’est pas baisser les exigences.<br />\nLe Cartable Fantastique propose 16 principes pour aider les élèves dyspraxiques : éviter la double tâche, favoriser l’autonomie, varier les suppor"
-    },
-    {
-      "title": "Mistral officially has 1,000 team members around the world! Thank you to our incredible talent for believing in the mission and contributing to what we are building each and every day. You too can be a part of the next chapter in our journey as we continue to grow and serve our customers. Apply for open roles at Mistral across all functions here: https://mistral.ai/careers/",
-      "link": "https://twitter.com/MistralAI/status/2069077356266795207#m",
-      "date": "2026-06-22T15:17:37",
-      "source": "@MistralAI",
-      "summary": "<p>Mistral officially has 1,000 team members around the world!<br />\n<br />\nThank you to our incredible talent for believing in the mission and contributing to what we are building each and every day."
-    },
-    {
-      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
-      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
-      "date": "2026-04-29T02:20:52",
-      "source": "@deepseek_ai",
-      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
-    },
-    {
-      "title": "Pinned: 🔥DeepSeek Input Cache Price Drop! Effective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less. 📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
-      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
-      "date": "2026-04-26T16:35:11",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
-    },
-    {
-      "title": "🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount. 🛠️Integration Updates: 🔹Claude Code: Set model to deepseek-v4-pro[1m] to unlock 1M context! 🔹OpenCode: Update to v1.14.24+ 🔹OpenClaw: Update to v2026.4.24+ Check the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
-      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
-      "date": "2026-04-25T15:33:11",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
-    },
-    {
-      "title": "R to @deepseek_ai: API is Available Today! 🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash. 🔹 Supports OpenAI ChatCompletions & Anthropic APIs. 🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://api-docs.deepseek.com/guides/thinking_mode ⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking). 6/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516945466188072#m",
-      "date": "2026-04-24T03:24:15",
-      "source": "@deepseek_ai",
-      "summary": "<p>API is Available Today!<br />\n<br />\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.<br />\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.<br />\n🔹 Both models suppor"
-    },
-    {
-      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views. 🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI. 7/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
-      "date": "2026-04-24T03:24:16",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
-    },
-    {
-      "title": "GPT-5.6 Sol has been used to solve open problems in mathematics. So why was it struggling with ARC-AGI-3, a benchmark of 2D puzzle games? We investigated. The harness was not letting it remember what it had learned. We found that enabling two API settings tripled our scores with 6x fewer output tokens.",
-      "link": "https://twitter.com/OpenAI/status/2082616636989952217#m",
-      "date": "2026-07-29T23:57:54",
-      "source": "@OpenAI",
-      "summary": "<p>GPT-5.6 Sol has been used to solve open problems in mathematics. So why was it struggling with ARC-AGI-3, a benchmark of 2D puzzle games?<br />\n<br />\nWe investigated. The harness was not letting i"
-    },
-    {
-      "title": "R to @OpenAI: A benchmark score reflects the model as well as the harness and settings used to run it. For long-running agents, retaining reasoning and compacting context lets the model build on what it has already learned. https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/",
-      "link": "https://twitter.com/OpenAI/status/2082616641834422740#m",
-      "date": "2026-07-29T23:57:55",
-      "source": "@OpenAI",
-      "summary": "<p>A benchmark score reflects the model as well as the harness and settings used to run it.<br />\n<br />\nFor long-running agents, retaining reasoning and compacting context lets the model build on wha"
-    },
-    {
-      "title": "R to @OpenAI: We hope these experiments serve as a reminder that evals rarely measure models in isolation—they also measure a bundle of less visible choices about API settings, harness design, and prompting. If you’re an API developer trying to maximize performance, we recommend using the same settings that we deploy in our own products: - Use our Responses API, not our legacy Chat - Completions API - Retain reasoning - Use compaction If you want to test your own mettle against frontier models, try the public games yourself at http://arcprize.org/tasks",
-      "link": "https://twitter.com/OpenAI/status/2082616643394703682#m",
-      "date": "2026-07-29T23:57:55",
-      "source": "@OpenAI",
-      "summary": "<p>We hope these experiments serve as a reminder that evals rarely measure models in isolation—they also measure a bundle of less visible choices about API settings, harness design, and prompting.<br "
-    },
-    {
-      "title": "After deployment, we applied GPT-5.6 Sol to advance the frontier of efficiency by making itself more efficient to run. The results: - 20% lower serving costs from production GPU kernel improvements. - 15%+ better token-generation efficiency from improved speculative decoding.",
-      "link": "https://twitter.com/OpenAI/status/2082577277246972300#m",
-      "date": "2026-07-29T21:21:29",
-      "source": "@OpenAI",
-      "summary": "<p>After deployment, we applied GPT-5.6 Sol to advance the frontier of efficiency by making itself more efficient to run. <br />\n<br />\nThe results:<br />\n- 20% lower serving costs from production GPU"
-    },
-    {
-      "title": "R to @OpenAI: These optimizations across our stack compound to unlock the most performant models at every point in the cost-intelligence curve. https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/",
-      "link": "https://twitter.com/OpenAI/status/2082577278450676080#m",
-      "date": "2026-07-29T21:21:30",
-      "source": "@OpenAI",
-      "summary": "<p>These optimizations across our stack compound to unlock the most performant models at every point in the cost-intelligence curve. <br />\n<a href=\"https://openai.com/index/gpt-5-6-frontier-intellige"
-    },
-    {
-      "title": "We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027. ChatGPT for Academic Researchers is built to accelerate discovery across disciplines.",
-      "link": "https://twitter.com/OpenAI/status/2082516370949062989#m",
-      "date": "2026-07-29T17:19:28",
-      "source": "@OpenAI",
-      "summary": "<p>We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027.<br />\n<br />\nChatGPT for Academic R"
-    },
-    {
-      "title": "R to @OpenAI: We believe the benefits of frontier AI should not be concentrated in a few companies and well-resourced labs. Researchers know their fields best. Our role is to put powerful tools in their hands and help accelerate their work. The program will help researchers take on the hardest problems, accelerate discovery, and improve productivity across their work, from preparing grant applications to testing hypotheses.",
-      "link": "https://twitter.com/OpenAI/status/2082516372656111654#m",
-      "date": "2026-07-29T17:19:29",
-      "source": "@OpenAI",
-      "summary": "<p>We believe the benefits of frontier AI should not be concentrated in a few companies and well-resourced labs. Researchers know their fields best. Our role is to put powerful tools in their hands an"
-    },
-    {
-      "title": "Ah enfin, on a droit à un article du Monde sur cet événement majeur (le piratage de Hugging Face par un modèle d'OpenAI devenu \"rogue\"). La couverture médiatique mainstream me paraît toujours incroyablement mince. Sur Radio France rien à signaler, ou presque. Tout va bien 😐 🧵",
-      "link": "https://twitter.com/Fabien_Mikol/status/2082762021653631125#m",
-      "date": "2026-07-30T09:35:36",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Ah enfin, on a droit à un article du Monde sur cet événement majeur (le piratage de Hugging Face par un modèle d'OpenAI devenu \"rogue\").<br />\nLa couverture médiatique mainstream me paraît toujours"
     }
   ],
-  "last_update": "2026-08-03T11:12:43.265295",
+  "last_update": "2026-08-04T10:26:47.331922",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
