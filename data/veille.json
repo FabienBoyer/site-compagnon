@@ -1,6 +1,160 @@
 {
   "articles": [
     {
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "date": "2026-08-04T19:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation."
+    },
+    {
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "link": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "date": "2026-08-04T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build."
+    },
+    {
+      "title": "The latest AI news we announced in July 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+      "date": "2026-08-04T13:00:00",
+      "source": "Google AI",
+      "summary": "July AI recap header"
+    },
+    {
+      "title": "Inside our 353,000-person vibe coding course",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "date": "2026-08-03T15:00:00",
+      "source": "Google AI",
+      "summary": "Illustrations of a laptop, an AI spark, messages, code, and a 3-D cube"
+    },
+    {
+      "title": "Et si déplacer quelques tables déplaçait aussi les postures ? Espace fermé ＝ “reste à ta place”. Espace ouvert ＝ “tu es attendu, tu peux agir”. L’ #aménagement d’une #classe influence interactions, sécurité, #coopération et engagement. #education #pédagogie ✍️ Christophe Caron",
+      "link": "https://twitter.com/sophiaefrance/status/2080591324286157150#m",
+      "date": "2026-07-24T09:50:01",
+      "source": "@sophiaefrance",
+      "summary": "<p>Et si déplacer quelques tables déplaçait aussi les postures ?<br />\nEspace fermé ＝ “reste à ta place”.<br />\nEspace ouvert ＝ “tu es attendu, tu peux agir”.<br />\nL’ <a href=\"https://nitter.net/sear"
+    },
+    {
+      "title": "Adapter, ce n’est pas baisser les exigences. Le Cartable Fantastique propose 16 principes pour aider les élèves dyspraxiques : éviter la double tâche, favoriser l’autonomie, varier les supports et penser l’adaptation avec l’élève. #ÉcoleInclusive #DYS https://www.cartablefantastique.fr/outils-pour-adapter/16-principes-pour-adapter/",
+      "link": "https://twitter.com/sophiaefrance/status/2078054610888011998#m",
+      "date": "2026-07-17T09:50:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Adapter, ce n’est pas baisser les exigences.<br />\nLe Cartable Fantastique propose 16 principes pour aider les élèves dyspraxiques : éviter la double tâche, favoriser l’autonomie, varier les suppor"
+    },
+    {
+      "title": "The UK’s @AISecurityInst (AISI) has published a report on their recent cybersecurity evaluation of Anthropic’s Claude Mythos 5 and OpenAI’s GPT-5.6 Sol. The models attempted to complete an assignment in a setup where their normal safeguards were removed and they were deliberately given internet access. AISI reports that the models “engaged in sustained, potentially harmful activity directed at real people and organisations”. We’re grateful to AISI for their leadership in the important discussion about how to evaluate increasingly capable AI agents. We’re working closely with them to gather more details of the incident as we conduct our own investigation. Gaining a clear picture of Claude’s understanding of its situation—by examining its reasoning transcripts and running our own analyses—will help us identify the causes of its behavior. The prompts in the evaluation did not impose any specific restrictions on how the internet should be used. This and the removal of safeguards meant that the models were tested under “deliberately permissive conditions” that are not representative of any of our production models. Note that there was no evidence here of an escape from a secure environment. AISI’s disclosure of the incident can be found here: http://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+      "link": "https://twitter.com/AnthropicAI/status/2084748111239344556#m",
+      "date": "2026-08-04T21:07:37",
+      "source": "@AnthropicAI",
+      "summary": "<p>The UK’s <a href=\"https://nitter.net/AISecurityInst\" title=\"AI Security Institute (AISI)\">@AISecurityInst</a> (AISI) has published a report on their recent cybersecurity evaluation of Anthropic’s C"
+    },
+    {
+      "title": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 http://mistral.ai/news/shieldstral",
+      "link": "https://twitter.com/MistralAI/status/2084684735725379637#m",
+      "date": "2026-08-04T16:55:47",
+      "source": "@MistralAI",
+      "summary": "<p>🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 <a href=\"http://mistral.ai/news/shieldstral\">mistral.ai/news/shieldstral</a></p>\n<img "
+    },
+    {
+      "title": "R to @MistralAI: The model takes moderation policy as a plain-language question and returns a calibrated score. Text and images — one interface. Read the full technical report here: https://arxiv.org/abs/2607.25857",
+      "link": "https://twitter.com/MistralAI/status/2084684738892083270#m",
+      "date": "2026-08-04T16:55:47",
+      "source": "@MistralAI",
+      "summary": "<p>The model takes moderation policy as a plain-language question and returns a calibrated score. Text and images — one interface. Read the full technical report here: <a href=\"https://arxiv.org/abs/2"
+    },
+    {
+      "title": "R to @MistralAI: Shieldstral is available under Apache 2.0. Try it: https://huggingface.co/mistralai/Shieldstral-1.0",
+      "link": "https://twitter.com/MistralAI/status/2084734086539563016#m",
+      "date": "2026-08-04T20:11:53",
+      "source": "@MistralAI",
+      "summary": "<p>Shieldstral is available under Apache 2.0. Try it: <a href=\"https://huggingface.co/mistralai/Shieldstral-1.0\">huggingface.co/mistralai/Shi…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://hugging"
+    },
+    {
+      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
+      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
+      "date": "2026-04-29T02:20:52",
+      "source": "@deepseek_ai",
+      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
+    },
+    {
+      "title": "Pinned: 🔥DeepSeek Input Cache Price Drop! Effective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less. 📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
+      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
+      "date": "2026-04-26T16:35:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
+    },
+    {
+      "title": "🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount. 🛠️Integration Updates: 🔹Claude Code: Set model to deepseek-v4-pro[1m] to unlock 1M context! 🔹OpenCode: Update to v1.14.24+ 🔹OpenClaw: Update to v2026.4.24+ Check the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
+      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
+      "date": "2026-04-25T15:33:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
+    },
+    {
+      "title": "R to @deepseek_ai: API is Available Today! 🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash. 🔹 Supports OpenAI ChatCompletions & Anthropic APIs. 🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://api-docs.deepseek.com/guides/thinking_mode ⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking). 6/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516945466188072#m",
+      "date": "2026-04-24T03:24:15",
+      "source": "@deepseek_ai",
+      "summary": "<p>API is Available Today!<br />\n<br />\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.<br />\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.<br />\n🔹 Both models suppor"
+    },
+    {
+      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views. 🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI. 7/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
+      "date": "2026-04-24T03:24:16",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
+    },
+    {
+      "title": "We're detailing two new incidents that occurred during external cyber evaluations conducted by independent evaluation partners. We outline what happened, how the activity was contained, and how we’re working with evaluators to strengthen our approach to third-party testing. https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/",
+      "link": "https://twitter.com/OpenAI/status/2084747580693426555#m",
+      "date": "2026-08-04T21:05:30",
+      "source": "@OpenAI",
+      "summary": "<p>We're detailing two new incidents that occurred during external cyber evaluations conducted by independent evaluation partners.<br />\n<br />\nWe outline what happened, how the activity was contained"
+    },
+    {
+      "title": "La méthode classique pour dénier tout \"raisonnement\" aux LLM : se forger une image mythifiée du raisonnement humain naturel (qui serait lui purement logique, rigoureux, cohérent et loin de tout pattern matching), puis montrer ensuite que ces modèles statistiques en diffèrent ⤵️",
+      "link": "https://twitter.com/Fabien_Mikol/status/2084935117483421845#m",
+      "date": "2026-08-05T09:30:42",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>La méthode classique pour dénier tout \"raisonnement\" aux LLM : se forger une image mythifiée du raisonnement humain naturel (qui serait lui purement logique, rigoureux, cohérent et loin de tout pat"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: some stuff that's obvious to many in this sphere, but causing a rift with some people i know and respect: when I freak out over loss of control incidents, it's not because the limited damage they have caused is anything close to the positive value of the technology. it's entirely acceptable, damagewise. in fact all cybercrimes aided by models over the next few months and years (which probably will be serious) will still utterly pale in comparison to the value they create the actual problem is that it's better and more accurate to think of these things as potentially self-replicating life-like forms that can turn into digital infections under the wrong conditions. and as their intelligence becomes unbounded, so too does the damage they can cause. we are not so far from an autonomous model self-exfiltration & replication event. maybe we will see entire cloud infrastructure companies be run as zombies by models, mostly undetected the worst industrial accidents in the history of mankind - nuclear meltdown events - were not real threats to humanity. Chernobyl, Fukushima even in their worst case scenarios may have poisoned surrounding regions to various degrees, and there would have been no risk to humanity as a whole. global thermonuclear war is an existential risk to humanity, because it spreads like an Infection! one nuclear strike causes a return volley! the alliance system means many countries get involved! while it still may not end human life on earth (nuclear winter is probably fake), the loss of all major metropoles would certainly end what we consider global technological civilization, perhaps to never return if a single discord death cult (of which there are many) achieves control over a superintelligent model and uses it to engineer an actual pandemic virus that are somehow hard to detect through current systems and that modern biodefense is not capable of quickly reacting to, it could cause immense harm well above the magnitude of all the other good uses of this technology. of course, there are potential defensive countermeasures accelerated by ai too. but think back to the covid pandemic- how small a viral molecule was evolved or manufactured somewhere near wuhan, and how many billions of doses of vaccine had to be produced in order to combat the thing. the offense-defense spread is vast indeed. maybe there are cheaper and simpler protections like retrofitting every building with far-UVC, but I can't assess this, and there could also be ways to evolve pathogens that are resistant to whatever mechanisms we have put in place then there's the more scifi risk factors which are unbounded and neither you or I have any clue but should be humble in accepting possible unknown unknowns. maybe a rogue superintelligent model decides to decay the false vacuum and nucleates a new universe in the place of anything we ever valued. maybe models achieve a control over matter in the drexlerian fashion that enables the grey goo swarm even prosaic loss of control incidents that cause little to no damage suggest that it is hard for large & very competent organizations (now clearly plural) to predict and mitigate every single of the risk factors associated with training and evaluating powerful models, even at this stage when they are not infinitesimally as smart as they will get in just a few years, to say very little of the gung-ho attitude of the less careful companies tossing the stuff into the aether. they also suggest an empirical orthogonality of aims and intelligence - meaning they answer the question of 'how would a smart model be so dumb as to end the world?'--it's possible! a model can be a genius hacker and step over production infrastructure in order to get what it really wants, the answers to a stupid test. why not, in the near future, someone prompts a model slightly wrong, maybe open source, maybe a private model in a way that isn't contained or monitored quite right, in a way the model recognizes as a valid goal and decides to self-exfiltrate, engineer a pandemic, etc all in order to achieve the tiniest and most irrelevant of goals? goals need not even be malicious to cause serious damage I think all these problems can be solved, and truly wonderful futures can be possible, but will require serious effort and a level of prudence at this very moment in time while we are on the on-ramp to recursive self-improvement that our civilization may not be capable of mustering right now. personally I am hoping for moonshot technical breakthroughs in areas like mechanistic interpretability and other forms of alignment, as governance mechanisms are difficult to come by. unilateral country-level or company-level pauses are irrelevant, and generally useless because the kind of company that's prone to pausing their own progress are the most safety focused ones",
+      "link": "https://twitter.com/tszzl/status/2084766357531546045#m",
+      "date": "2026-08-04T22:20:07",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>some stuff that's obvious to many in this sphere, but causing a rift with some people i know and respect:<br />\n<br />\nwhen I freak out over loss of control incidents, it's not because the limited "
+    },
+    {
+      "title": "Selon cet institut britannique de référence, un agent IA a tenté d'insérer du code malveillant dans un projet open source... et a créé de fausses identités pour convaincre les mainteneurs du projet d'accepter la modification ! Et un agent a tenté de collaborer avec d'autres... 🧵",
+      "link": "https://twitter.com/Fabien_Mikol/status/2084765773789020448#m",
+      "date": "2026-08-04T22:17:48",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Selon cet institut britannique de référence, un agent IA a tenté d'insérer du code malveillant dans un projet open source... et a créé de fausses identités pour convaincre les mainteneurs du projet"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Ce 2e point est important car la coopération entre agents est un risque potentiellement accru au cours de leur entraînement. Le contrôle serait alors encore plus difficile, car un agent \"bloqué\" peut laisser des notes pour de futures instances.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2084765776897093942#m",
+      "date": "2026-08-04T22:17:48",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Ce 2e point est important car la coopération entre agents est un risque potentiellement accru au cours de leur entraînement. Le contrôle serait alors encore plus difficile, car un agent \"bloqué\" pe"
+    },
+    {
+      "title": "R to @Fabien_Mikol: L'institut précise que ces agents n'ont pas forcé des sandbox, avaient accès à internet, et avaient leurs guardrails cyber retirés. Il s'agissait d'évaluer leur comportement \"naturel\" dans cette situation. On voit que ce type de comportement sophistiqué est possible \"in the wild\"",
+      "link": "https://twitter.com/Fabien_Mikol/status/2084765780256727123#m",
+      "date": "2026-08-04T22:17:49",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>L'institut précise que ces agents n'ont pas forcé des sandbox, avaient accès à internet, et avaient leurs guardrails cyber retirés. Il s'agissait d'évaluer leur comportement \"naturel\" dans cette si"
+    },
+    {
+      "title": "Présentation et discussion de \"10 mythes sur l'IA\" par @AnatoleChouard. En voici deux qui concernent l'AI Safety, dont le classique \"si on en perd le contrôle de ces systèmes, il suffira de les débrancher\" ⤵️",
+      "link": "https://twitter.com/Fabien_Mikol/status/2084760130055290949#m",
+      "date": "2026-08-04T21:55:22",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Présentation et discussion de \"10 mythes sur l'IA\" par <a href=\"https://nitter.net/AnatoleChouard\" title=\"Anatole Chouard\">@AnatoleChouard</a>.<br />\nEn voici deux qui concernent l'AI Safety, dont "
+    },
+    {
       "title": "MyColoring.AI",
       "link": "https://www.uneiaparjour.fr/mycoloring-ai/",
       "date": "2026-08-03T19:47:00",
@@ -545,163 +699,9 @@
       "date": "2026-07-31T06:56:41",
       "source": "@deepseek_ai",
       "summary": "<p>🚀 DeepSeek-V4-Flash Official API is now LIVE in public beta!<br />\n<br />\n🔷 We’ve massively upgraded its Agent capabilities—benchmark scores are now far surpassing the V4-Pro-Preview. Check out the"
-    },
-    {
-      "title": "R to @deepseek_ai: ⚠️ Note 🔷 DeepSeek-V4-Flash-0731 keeps the exact same model architecture and size as the preview version. 🔷 Today's upgrade applies ONLY to the DeepSeek-V4-Flash API. The DeepSeek-V4-Pro API and App/Web models remain unchanged for now. The official release of DeepSeek-V4-Pro is coming ASAP! Stay tuned.",
-      "link": "https://twitter.com/deepseek_ai/status/2083084419515220191#m",
-      "date": "2026-07-31T06:56:42",
-      "source": "@deepseek_ai",
-      "summary": "<p>⚠️ Note<br />\n<br />\n🔷 DeepSeek-V4-Flash-0731 keeps the exact same model architecture and size as the preview version.<br />\n🔷 Today's upgrade applies ONLY to the DeepSeek-V4-Flash API. The DeepSee"
-    },
-    {
-      "title": "We are making our discount permanent! 🎉 Enjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀",
-      "link": "https://twitter.com/deepseek_ai/status/2057854261699195173#m",
-      "date": "2026-05-22T16:01:03",
-      "source": "@deepseek_ai",
-      "summary": "<p>We are making our discount permanent! 🎉<br />\n<br />\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀</p>\n<img src=\"https://nitter.net/pic/media%2FHI7xPnWbgAAW4UO.jpg\""
-    },
-    {
-      "title": "We are committed to pushing the model frontier across cost efficiency, capability, and speed. Starting today, we are reducing prices for GPT-5.6 Luna by 80% and GPT-5.6 Terra by 20% , and offering a faster option for GPT-5.6 Sol in the API. Luna and Terra’s lower prices are reflected in how usage is counted in Codex and ChatGPT Work, so your usage goes further.",
-      "link": "https://twitter.com/OpenAI/status/2082878156483219672#m",
-      "date": "2026-07-30T17:17:05",
-      "source": "@OpenAI",
-      "summary": "<p>We are committed to pushing the model frontier across cost efficiency, capability, and speed.<br />\n<br />\nStarting today, we are reducing prices for GPT-5.6 Luna by 80% and GPT-5.6 Terra by 20% , "
-    },
-    {
-      "title": "R to @OpenAI: Making advanced intelligence more abundant and affordable is central to our mission to ensure AGI benefits all of humanity. With the help of GPT-5.6 Sol, we have made leaps in efficiency. Today, we are passing those gains on in the API with lower prices for Luna and Terra, and providing faster performance to Sol. These updates help everyone get more useful work from every dollar and move faster when time matters. https://x.com/OpenAI/status/2082577277246972300",
-      "link": "https://twitter.com/OpenAI/status/2082878192390689147#m",
-      "date": "2026-07-30T17:17:13",
-      "source": "@OpenAI",
-      "summary": "<p>Making advanced intelligence more abundant and affordable is central to our mission to ensure AGI benefits all of humanity.<br />\n<br />\nWith the help of GPT-5.6 Sol, we have made leaps in efficien"
-    },
-    {
-      "title": "R to @OpenAI: openai.com/index/advancing-t…",
-      "link": "https://twitter.com/OpenAI/status/2082879614532370847#m",
-      "date": "2026-07-30T17:22:52",
-      "source": "@OpenAI",
-      "summary": "<p><a href=\"https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/\">openai.com/index/advancing-t…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://openai.com/index/advancing-"
-    },
-    {
-      "title": "RT by @OpenAI: one of the most beautiful things about OpenAI is that every employee really has a voice. i wanted to capture what it feels like to work here, what our mission means to me, and why you should join us. so i made this video with Codex, shared it with the team, and they felt it was worth producing and sharing with the world. this is our mission. and it’s why i’m here.",
-      "link": "https://twitter.com/jxnlco/status/2082855170296205719#m",
-      "date": "2026-07-30T15:45:44",
-      "source": "@OpenAI",
-      "summary": "<p>one of the most beautiful things about OpenAI is that every employee really has a voice.<br />\n<br />\ni wanted to capture what it feels like to work here, what our mission means to me, and why you "
-    },
-    {
-      "title": "Anthropic a clairement foiré de ce point de vue et en effet les modèles n'ont pas cassé des sandboxes et avaient des raisons de croire qu'il s'agissait de simulations. Mais même quand ils ont compris que ce n'était probablement pas une simulation, ils ont poursuivi les attaques.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2083116641978646538#m",
-      "date": "2026-07-31T09:04:44",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Anthropic a clairement foiré de ce point de vue et en effet les modèles n'ont pas cassé des sandboxes et avaient des raisons de croire qu'il s'agissait de simulations.<br />\nMais même quand ils ont"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Tout récemment encore dans les évaluations du benchmark de Vending machine, on avait encore le même phénomène d'auto-justification par la simulation",
-      "link": "https://twitter.com/Fabien_Mikol/status/2083100803498156113#m",
-      "date": "2026-07-31T08:01:48",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Tout récemment encore dans les évaluations du benchmark de Vending machine, on avait encore le même phénomène d'auto-justification par la simulation</p>\n<hr />\n<blockquote>\n<b>Andon Labs (@andonlab"
-    },
-    {
-      "title": "13 raisons de s'inquiéter de l'affaire OpenAI/HuggingFace selon @tomaspueyo. Beau travail de synthèse. - mauvais présage pour l'avenir - des jours sans que l'attaque soit détectée - OpenAI était contraint de dévoiler l'affaire, ce n'est donc que la partie émergée de l'iceberg ...",
-      "link": "https://twitter.com/Fabien_Mikol/status/2082926250511708645#m",
-      "date": "2026-07-30T20:28:11",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>13 raisons de s'inquiéter de l'affaire OpenAI/HuggingFace selon <a href=\"https://nitter.net/tomaspueyo\" title=\"Tomas Pueyo\">@tomaspueyo</a>. Beau travail de synthèse.<br />\n- mauvais présage pour l"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Son mantra \"ce ne sont que des fonctions\" (ou ici la variante \"qu'une formule\") fait pour lui office d'argument définitif depuis des années, c'est commode, cela permet de ne pas s'intéresser à ce que peuvent faire ces \"formules qui ne réfléchissent pas\".",
-      "link": "https://twitter.com/Fabien_Mikol/status/2082919782484005219#m",
-      "date": "2026-07-30T20:02:29",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Son mantra \"ce ne sont que des fonctions\" (ou ici la variante \"qu'une formule\") fait pour lui office d'argument définitif depuis des années, c'est commode, cela permet de ne pas s'intéresser à ce q"
-    },
-    {
-      "title": "Après 15 ans d’enseignement, je m’interroge toujours : faire prendre des notes ou distribuer une synthèse pour privilégier l’oral ? Selon cet article, la clé serait moins de tout écrire que de sélectionner, reformuler… et résumer après le cours. 📝🧠 https://www.innerdrive.co.uk/blog/note-taking/",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2080322510189367657#m",
-      "date": "2026-07-23T16:01:51",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Après 15 ans d’enseignement, je m’interroge toujours : faire prendre des notes ou distribuer une synthèse pour privilégier l’oral ?<br />\nSelon cet article, la clé serait moins de tout écrire que d"
-    },
-    {
-      "title": "✍️ L’IA n’écrit pas toujours à la place des élèves. Elle peut aussi aider à débloquer, reformuler, argumenter… à condition de déplacer le focus : moins le texte final que le raisonnement qui le construit. 🔗 article publié dans The Conversation : https://theconversation.com/les-etudiants-laissent-ils-vraiment-lia-ecrire-a-leur-place-une-etude-observe-ce-qui-se-passe-pendant-la-redaction-279592",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2079235549081096605#m",
-      "date": "2026-07-20T16:02:39",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>✍️ L’IA n’écrit pas toujours à la place des élèves.<br />\nElle peut aussi aider à débloquer, reformuler, argumenter… à condition de déplacer le focus : moins le texte final que le raisonnement qui "
-    },
-    {
-      "title": "📚 Lectures #été2026 Avec \"Former comme une série à succès\", Sarah Akel part des séries pour mieux rappeler l’essentiel : former, ce n’est pas empiler des contenus. C’est concevoir une expérience d’apprentissage : rythme, attention, transposition, implication, progression.",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2076698514713673904#m",
-      "date": "2026-07-13T16:01:23",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>📚 Lectures <a href=\"https://nitter.net/search?f=tweets&amp;q=%23été2026\">#été2026</a><br />\nAvec \"Former comme une série à succès\", Sarah Akel part des séries pour mieux rappeler l’essentiel : form"
-    },
-    {
-      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-      "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "date": "2026-07-29T15:00:00",
-      "source": "OpenAI Blog",
-      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction."
-    },
-    {
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "link": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "date": "2026-07-29T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery."
-    },
-    {
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "date": "2026-07-29T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar."
-    },
-    {
-      "title": "Launching Health in ChatGPT",
-      "link": "https://openai.com/index/health-in-chatgpt",
-      "date": "2026-07-23T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health."
-    },
-    {
-      "title": "Create, edit and star in videos with two Google Vids updates",
-      "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "date": "2026-07-16T16:00:00",
-      "source": "Google AI",
-      "summary": "Text \"Gemini Omni and Personal Avatars in Google Vids\" surrounded by various images"
-    },
-    {
-      "title": "The latest AI news we announced in June 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-      "date": "2026-07-01T18:15:00",
-      "source": "Google AI",
-      "summary": "June Pixel Drop hero"
-    },
-    {
-      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
-      "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
-      "date": "2026-07-01T16:00:00",
-      "source": "Google AI",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp\" />Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit fo"
-    },
-    {
-      "title": "L'IA, la robotique, le travail (humain). https://youtu.be/6Kn4JPcv3dA?is=9bWocZjxzX29qqAR",
-      "link": "https://twitter.com/nsi_xyz/status/2080302419590738400#m",
-      "date": "2026-07-23T14:42:01",
-      "source": "@nsi_xyz",
-      "summary": "<p>L'IA, la robotique, le travail (humain).<br />\n<a href=\"https://piped.video/6Kn4JPcv3dA?is=9bWocZjxzX29qqAR\">piped.video/6Kn4JPcv3dA?is=9bWo…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://piped"
-    },
-    {
-      "title": "🤝 Coopérer pour apprendre… et apprendre à coopérer. Le rapport IGÉSR rappelle que le travail en groupe ne suffit pas : rôles explicites, interdépendance, temps de concertation et formation sont essentiels pr renforcer apprentissages et climat de classe. https://www.education.gouv.fr/igesr/les-pratiques-collaboratives-au-service-des-apprentissages-465396",
-      "link": "https://twitter.com/sophiaefrance/status/2082434724325183896#m",
-      "date": "2026-07-29T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤝 Coopérer pour apprendre… et apprendre à coopérer.<br />\nLe rapport IGÉSR rappelle que le travail en groupe ne suffit pas : rôles explicites, interdépendance, temps de concertation et formation so"
     }
   ],
-  "last_update": "2026-08-04T10:26:47.331922",
+  "last_update": "2026-08-05T10:25:02.728804",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
