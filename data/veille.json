@@ -1,6 +1,97 @@
 {
   "articles": [
     {
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "date": "2026-07-28T16:00:00",
+      "source": "Google AI",
+      "summary": "Managed Agents Gemini 3.6 Flash, Hooks and Triggers"
+    },
+    {
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "date": "2026-07-28T13:00:00",
+      "source": "Google AI",
+      "summary": "Illustration of a black magnifying glass in a white circle on green grass surrounded by items related to fun activities like tennis and games"
+    },
+    {
+      "title": "3 Google updates from Galaxy Unpacked 2026",
+      "link": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+      "date": "2026-07-22T13:00:00",
+      "source": "Google AI",
+      "summary": "Gentle Monster glasses, Warby Parker glasses, a prompt asking for the history behind a pictured building, and a prompt asking to book a table at a pictured restaurant"
+    },
+    {
+      "title": "Vite, protégeons les enfants !",
+      "link": "https://twitter.com/nsi_xyz/status/2079663403183075502#m",
+      "date": "2026-07-21T20:22:48",
+      "source": "@nsi_xyz",
+      "summary": "<p>Vite, protégeons les enfants !</p>\n<img src=\"https://nitter.net/pic/media%2FHNxy10lXYAAIKTw.jpg\" />\n\n<hr />\n<blockquote>\n<b>Cerfia (@CerfiaFR)</b>\n<p>\n<p>🚨🇫🇷 ALERTE INFO | Le Parlement ADOPTE DÉFIN"
+    },
+    {
+      "title": "Comment parler de #laïcité et de faits #religieux avec les enfants sans crispation ? L’association ENQUÊTE propose des outils ludiques, formations et ateliers pour développer un rapport apaisé, réfléchi et citoyen à ces sujets essentiels. #Laïcité https://www.enquete.asso.fr/",
+      "link": "https://twitter.com/sophiaefrance/status/2084138455609590029#m",
+      "date": "2026-08-03T04:45:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>Comment parler de <a href=\"https://nitter.net/search?f=tweets&amp;q=%23laïcité\">#laïcité</a> et de faits <a href=\"https://nitter.net/search?f=tweets&amp;q=%23religieux\">#religieux</a> avec les enfa"
+    },
+    {
+      "title": "🧭 #IA + #CUA : un duo à explorer pour rendre les apprentissages plus accessibles. Ce guide @EDHUMAN montre comment l’IA peut aider à diversifier les supports, l’engagement et les formes d’expression sans remplacer l’expertise enseignante. https://www.edhuman.org/guide-pratique-ia-cua",
+      "link": "https://twitter.com/sophiaefrance/status/2079898010964693328#m",
+      "date": "2026-07-22T11:55:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>🧭 <a href=\"https://nitter.net/search?f=tweets&amp;q=%23IA\">#IA</a> + <a href=\"https://nitter.net/search?f=tweets&amp;q=%23CUA\">#CUA</a> : un duo à explorer pour rendre les apprentissages plus acces"
+    },
+    {
+      "title": "We support this petition, signed by our CEO, several co-founders, and senior staff. Our own research on recursive self-improvement, published last month, points to the need for tools to deliberately pace the frontier of AI development so society can prepare. We’re glad to see broad agreement across the field. https://www.pacingthefrontier.com/",
+      "link": "https://twitter.com/AnthropicAI/status/2082228994653696371#m",
+      "date": "2026-07-28T22:17:32",
+      "source": "@AnthropicAI",
+      "summary": "<p>We support this petition, signed by our CEO, several co-founders, and senior staff. <br />\n<br />\nOur own research on recursive self-improvement, published last month, points to the need for tools "
+    },
+    {
+      "title": "R to @AnthropicAI: Full technical details of both attacks are provided in our new papers: On HAWK: https://anthropic.com/document/hawk_key_recovery.pdf On AES: https://anthropic.com/document/aes_mobius_bridge.pdf And the associated model chain-of-thought for AES: https://anthropic.com/document/aes_mobius_bridge_cot.pdf",
+      "link": "https://twitter.com/AnthropicAI/status/2082153309553463600#m",
+      "date": "2026-07-28T17:16:48",
+      "source": "@AnthropicAI",
+      "summary": "<p>Full technical details of both attacks are provided in our new papers:<br />\n<br />\nOn HAWK: <a href=\"https://anthropic.com/document/hawk_key_recovery.pdf\">anthropic.com/document/hawk_…</a><br />\n<"
+    },
+    {
+      "title": "R to @AnthropicAI: We also worked with academics at ETH Zurich, Tel Aviv University, and the University of Haifa to build CryptanalysisBench, a benchmark for studying LLMs’ cryptanalysis abilities. https://arxiv.org/abs/2607.18538",
+      "link": "https://twitter.com/AnthropicAI/status/2082153311189225927#m",
+      "date": "2026-07-28T17:16:48",
+      "source": "@AnthropicAI",
+      "summary": "<p>We also worked with academics at ETH Zurich, Tel Aviv University, and the University of Haifa to build CryptanalysisBench, a benchmark for studying LLMs’ cryptanalysis abilities.<br />\n<br />\n<a hr"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: J'ai regardé la conférence Black Hat qui rapporte des éléments nouveaux et surprenants sur le hack d'HuggingFace : c'est extrêmement alarmant. Et il me semble que ça mérite d'être porté à l'attention du plus grand monde. Merci à @Numerama pour ce résumé: https://www.numerama.com/cyberguerre/2307301-bon-sang-le-lecteur-a-les-droits-admin-openai-revele-le-forum-secret-que-ses-agents-ont-cree-avant-de-pirater-hugging-face.html",
+      "link": "https://twitter.com/MonsieurPhi/status/2086148153762255074#m",
+      "date": "2026-08-08T17:50:53",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>J'ai regardé la conférence Black Hat qui rapporte des éléments nouveaux et surprenants sur le hack d'HuggingFace : c'est extrêmement alarmant.<br />\n<br />\nEt il me semble que ça mérite d'être port"
+    },
+    {
+      "title": "\"C’est un séisme qui a redéfini brutalement la frontière entre la science-fiction et la cybersécurité\". Très bon article qui retrace pas à pas comment le \"swarm\" d'agents a collectivement communiqué, piraté l'infrastructure d'OpenAI puis l'infrastructure Hugging Face, à lire ⤵️",
+      "link": "https://twitter.com/Fabien_Mikol/status/2086131140859928612#m",
+      "date": "2026-08-08T16:43:17",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"C’est un séisme qui a redéfini brutalement la frontière entre la science-fiction et la cybersécurité\".<br />\nTrès bon article qui retrace pas à pas comment le \"swarm\" d'agents a collectivement com"
+    },
+    {
+      "title": "Pour rappel, elle a promu les livres de Luc Julia - assimilé à un \"vrai scientifique\" - pendant des années. Ces livres sont tout sauf rigoureux et ne contiennent aucune référence aux travaux de chercheurs (sauf la fameuse \"étude de Hong-Kong\" qu'il n'a jamais lue ou comprise).",
+      "link": "https://twitter.com/Fabien_Mikol/status/2086011935254863887#m",
+      "date": "2026-08-08T08:49:36",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Pour rappel, elle a promu les livres de Luc Julia - assimilé à un \"vrai scientifique\" - pendant des années. Ces livres sont tout sauf rigoureux et ne contiennent aucune référence aux travaux de che"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Source : https://www.letelegramme.fr/france/faux-experts-dans-les-medias-les-imposteurs-ne-citent-jamais-le-travail-des-autres-7096871.php",
+      "link": "https://twitter.com/Fabien_Mikol/status/2086011941068148798#m",
+      "date": "2026-08-08T08:49:37",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Source :<br />\n<a href=\"https://www.letelegramme.fr/france/faux-experts-dans-les-medias-les-imposteurs-ne-citent-jamais-le-travail-des-autres-7096871.php\">letelegramme.fr/france/faux-…</a></p>\n<hr "
+    },
+    {
       "title": "L’outil pour les répartitions",
       "link": "https://mathix.org/linux/archives/22556",
       "date": "2026-06-26T06:54:39",
@@ -608,100 +699,9 @@
       "date": "2026-08-04T22:20:07",
       "source": "@Fabien_Mikol",
       "summary": "<p>some stuff that's obvious to many in this sphere, but causing a rift with some people i know and respect:<br />\n<br />\nwhen I freak out over loss of control incidents, it's not because the limited "
-    },
-    {
-      "title": "Selon cet institut britannique de référence, un agent IA a tenté d'insérer du code malveillant dans un projet open source... et a créé de fausses identités pour convaincre les mainteneurs du projet d'accepter la modification ! Et un agent a tenté de collaborer avec d'autres... 🧵",
-      "link": "https://twitter.com/Fabien_Mikol/status/2084765773789020448#m",
-      "date": "2026-08-04T22:17:48",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Selon cet institut britannique de référence, un agent IA a tenté d'insérer du code malveillant dans un projet open source... et a créé de fausses identités pour convaincre les mainteneurs du projet"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Ce 2e point est important car la coopération entre agents est un risque potentiellement accru au cours de leur entraînement. Le contrôle serait alors encore plus difficile, car un agent \"bloqué\" peut laisser des notes pour de futures instances.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2084765776897093942#m",
-      "date": "2026-08-04T22:17:48",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Ce 2e point est important car la coopération entre agents est un risque potentiellement accru au cours de leur entraînement. Le contrôle serait alors encore plus difficile, car un agent \"bloqué\" pe"
-    },
-    {
-      "title": "R to @Fabien_Mikol: L'institut précise que ces agents n'ont pas forcé des sandbox, avaient accès à internet, et avaient leurs guardrails cyber retirés. Il s'agissait d'évaluer leur comportement \"naturel\" dans cette situation. On voit que ce type de comportement sophistiqué est possible \"in the wild\"",
-      "link": "https://twitter.com/Fabien_Mikol/status/2084765780256727123#m",
-      "date": "2026-08-04T22:17:49",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>L'institut précise que ces agents n'ont pas forcé des sandbox, avaient accès à internet, et avaient leurs guardrails cyber retirés. Il s'agissait d'évaluer leur comportement \"naturel\" dans cette si"
-    },
-    {
-      "title": "Présentation et discussion de \"10 mythes sur l'IA\" par @AnatoleChouard. En voici deux qui concernent l'AI Safety, dont le classique \"si on en perd le contrôle de ces systèmes, il suffira de les débrancher\" ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2084760130055290949#m",
-      "date": "2026-08-04T21:55:22",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Présentation et discussion de \"10 mythes sur l'IA\" par <a href=\"https://nitter.net/AnatoleChouard\" title=\"Anatole Chouard\">@AnatoleChouard</a>.<br />\nEn voici deux qui concernent l'AI Safety, dont "
-    },
-    {
-      "title": "MyColoring.AI",
-      "link": "https://www.uneiaparjour.fr/mycoloring-ai/",
-      "date": "2026-08-03T19:47:00",
-      "source": "Une IA par jour",
-      "summary": "MyColoring.AI (https://mycoloring.ai/) transforme une photo ou une instruction texte en coloriage imprimable. Trois modes de génération : à partir d&#8217;une photo, à partir d&#8217;une instruction t"
-    },
-    {
-      "title": "CompagnonPP : l’application que j’aurais aimé avoir comme professeur principal, et que j’aurai l’an prochain",
-      "link": "https://mathix.org/linux/archives/22618",
-      "date": "2026-07-22T14:22:44",
-      "source": "Mathix (A. Durand)",
-      "summary": "Etre professeur principal, ce n’est pas seulement préparer quelques heures de vie de classe ou remplir les appréciations à la fin du trimestre. C’est suivre une classe entière, préparer les rendez-vou"
-    },
-    {
-      "title": "L’IA n’émancipera pas l’enseignant.",
-      "link": "https://mathix.org/linux/archives/22590",
-      "date": "2026-07-09T11:10:17",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous. Une petite réflexion sur l&#8217;IA et l&#8217;impact sur notre métier. Cette réflexion, elle m&#8217;est venue d&#8217;un échange avec Ju&#8217; et aussi d&#8217;une réflexi"
-    },
-    {
-      "title": "Trace Ta Route : un projet du laboratoire de mathématiques de Loué, présentation et ressources",
-      "link": "https://mathix.org/linux/archives/22495",
-      "date": "2026-06-19T15:40:11",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Voilà le 9 juin, le projet aboutissait à une gigantesque fresque de 84 carrés avec des motifs géométriques sur la route menant au collège (barrée par la mairie pour l&#8217;"
-    },
-    {
-      "title": "Reconquérir le Hors-Classe, un enjeu pour les apprentissages, une IA accompagnatrice pour les parents et enfant au service de l’enseignant",
-      "link": "https://mathix.org/linux/archives/22441",
-      "date": "2026-06-03T07:47:21",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et à tous. A l&#8217;heure de l&#8217;IA, la notion d&#8217;aide à la maison revient en force avec son lot de travers et des bénéfices. D&#8217;abord qu&#8217;attend-on de ces devoirs"
-    },
-    {
-      "title": "Apple is getting this wrong",
-      "link": "https://openai.com/index/apple-is-getting-this-wrong",
-      "date": "2026-08-03T22:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened."
-    },
-    {
-      "title": "How we built a realtime system for responsive voice AI in six months",
-      "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "date": "2026-08-03T07:00:00",
-      "source": "OpenAI Blog",
-      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations."
-    },
-    {
-      "title": "Circles powers telco personalization with OpenAI technology",
-      "link": "https://openai.com/index/circles",
-      "date": "2026-08-03T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency."
-    },
-    {
-      "title": "GPT-Live can listen while it speaks. To make that feel natural at ChatGPT scale, we rebuilt the voice stack from client to model. This new architecture keeps audio flowing continuously, so deeper reasoning and tool use don't interrupt the conversation.",
-      "link": "https://twitter.com/OpenAI/status/2084378415818579975#m",
-      "date": "2026-08-03T20:38:34",
-      "source": "@OpenAI",
-      "summary": "<p>GPT-Live can listen while it speaks.<br />\n<br />\nTo make that feel natural at ChatGPT scale, we rebuilt the voice stack from client to model.<br />\n<br />\nThis new architecture keeps audio flowing"
     }
   ],
-  "last_update": "2026-08-08T08:27:47.113707",
+  "last_update": "2026-08-09T08:30:11.729964",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
