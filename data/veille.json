@@ -1,6 +1,83 @@
 {
   "articles": [
     {
+      "title": "MyColoring.AI",
+      "link": "https://www.uneiaparjour.fr/mycoloring-ai/",
+      "date": "2026-08-03T19:47:00",
+      "source": "Une IA par jour",
+      "summary": "MyColoring.AI (https://mycoloring.ai/) transforme une photo ou une instruction texte en coloriage imprimable. Trois modes de génération : à partir d&#8217;une photo, à partir d&#8217;une instruction t"
+    },
+    {
+      "title": "Apple is getting this wrong",
+      "link": "https://openai.com/index/apple-is-getting-this-wrong",
+      "date": "2026-08-03T22:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened."
+    },
+    {
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "date": "2026-08-03T07:00:00",
+      "source": "OpenAI Blog",
+      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations."
+    },
+    {
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "link": "https://openai.com/index/circles",
+      "date": "2026-08-03T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency."
+    },
+    {
+      "title": "Ct concevoir une séance accessible et inclusive sans partir d’une page blanche ? PedaIA #CUA accompagne les enseignants dans la création d’activités fondées sur la Conception Universelle des Apprentissages:engagement, représentation, action et expression. https://pedaia.forge.apps.education.fr/cua/cuaconception.html",
+      "link": "https://twitter.com/sophiaefrance/status/2086675166604497015#m",
+      "date": "2026-08-10T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Ct concevoir une séance accessible et inclusive sans partir d’une page blanche ? PedaIA <a href=\"https://nitter.net/search?f=tweets&amp;q=%23CUA\">#CUA</a> accompagne les enseignants dans la créatio"
+    },
+    {
+      "title": "GPT-Live can listen while it speaks. To make that feel natural at ChatGPT scale, we rebuilt the voice stack from client to model. This new architecture keeps audio flowing continuously, so deeper reasoning and tool use don't interrupt the conversation.",
+      "link": "https://twitter.com/OpenAI/status/2084378415818579975#m",
+      "date": "2026-08-03T20:38:34",
+      "source": "@OpenAI",
+      "summary": "<p>GPT-Live can listen while it speaks.<br />\n<br />\nTo make that feel natural at ChatGPT scale, we rebuilt the voice stack from client to model.<br />\n<br />\nThis new architecture keeps audio flowing"
+    },
+    {
+      "title": "RT by @Fabien_Mikol: - “the researchers told me that we’re allowed to hack shit” - “no we aren’t, have you read the OpenAI model spec?” - “no, have you?” - “no”",
+      "link": "https://twitter.com/CathPoaster/status/2086185915878396255#m",
+      "date": "2026-08-08T20:20:56",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>- “the researchers told me that we’re allowed to hack shit”<br />\n<br />\n- “no we aren’t, have you read the OpenAI model spec?”<br />\n<br />\n- “no, have you?”<br />\n<br />\n- “no”</p>\n<img src=\"http"
+    },
+    {
+      "title": "Fun fact : vous pouvez demander à ChatGPT d'analyser et de vérifier l'entièreté du site de Luc Julia, et il vous fournira un sympathique classement des affirmations selon leur caractère plus ou moins douteux. https://chatgpt.com/share/6a787fc4-30e8-83eb-b0e1-59d7c661d4a9?ogimg=plain",
+      "link": "https://twitter.com/Fabien_Mikol/status/2086444891190513670#m",
+      "date": "2026-08-09T13:30:00",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Fun fact : vous pouvez demander à ChatGPT d'analyser et de vérifier l'entièreté du site de Luc Julia, et il vous fournira un sympathique classement des affirmations selon leur caractère plus ou moi"
+    },
+    {
+      "title": "R to @Fabien_Mikol: Intéressante notamment cette revendication de paternité pour la première \"smart car\", ce qui selon ChatGPT est tout simplement impossible. Il y en a beaucoup dans ce genre. C'est systématique avec lui.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2086444915026690131#m",
+      "date": "2026-08-09T13:30:06",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Intéressante notamment cette revendication de paternité pour la première \"smart car\", ce qui selon ChatGPT est tout simplement impossible.<br />\nIl y en a beaucoup dans ce genre. C'est systématique"
+    },
+    {
+      "title": "\"Luc Julia laisse juste les journalistes dire des bêtises à son sujet sans les reprendre\". Eh bien il vient lui-même de remettre à jour son site personnel (pour mieux promouvoir son activité de conférencier), et les mensonges sont bel et bien les siens. https://lucjulia.com/ 🧵",
+      "link": "https://twitter.com/Fabien_Mikol/status/2086381781616308230#m",
+      "date": "2026-08-09T09:19:14",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"Luc Julia laisse juste les journalistes dire des bêtises à son sujet sans les reprendre\".<br />\nEh bien il vient lui-même de remettre à jour son site personnel (pour mieux promouvoir son activité "
+    },
+    {
+      "title": "R to @Fabien_Mikol: Luc Julia est parfois allé encore plus loin dans la déformation de la réalité, comme par exemple sur BFMTV l'année dernière : \"Quand je dirigeais Siri [donc de novembre 2011 à octobre 2010] on est passé de 15 personnes à 85 personnes\". https://www.bfmtv.com/tech/intelligence-artificielle/les-brevets-le-prouvent-luc-julia-et-monsieur-phi-reviennent-sur-le-role-du-pape-de-l-ia-dans-la-creation-de-siri_AV-202509010841.html",
+      "link": "https://twitter.com/Fabien_Mikol/status/2086381804362076197#m",
+      "date": "2026-08-09T09:19:19",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Luc Julia est parfois allé encore plus loin dans la déformation de la réalité, comme par exemple sur BFMTV l'année dernière : \"Quand je dirigeais Siri [donc de novembre 2011 à octobre 2010] on est "
+    },
+    {
       "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
       "date": "2026-07-28T16:00:00",
@@ -622,86 +699,9 @@
       "date": "2026-08-04T21:07:37",
       "source": "@AnthropicAI",
       "summary": "<p>The UK’s <a href=\"https://nitter.net/AISecurityInst\" title=\"AI Security Institute (AISI)\">@AISecurityInst</a> (AISI) has published a report on their recent cybersecurity evaluation of Anthropic’s C"
-    },
-    {
-      "title": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 http://mistral.ai/news/shieldstral",
-      "link": "https://twitter.com/MistralAI/status/2084684735725379637#m",
-      "date": "2026-08-04T16:55:47",
-      "source": "@MistralAI",
-      "summary": "<p>🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 <a href=\"http://mistral.ai/news/shieldstral\">mistral.ai/news/shieldstral</a></p>\n<img "
-    },
-    {
-      "title": "R to @MistralAI: The model takes moderation policy as a plain-language question and returns a calibrated score. Text and images — one interface. Read the full technical report here: https://arxiv.org/abs/2607.25857",
-      "link": "https://twitter.com/MistralAI/status/2084684738892083270#m",
-      "date": "2026-08-04T16:55:47",
-      "source": "@MistralAI",
-      "summary": "<p>The model takes moderation policy as a plain-language question and returns a calibrated score. Text and images — one interface. Read the full technical report here: <a href=\"https://arxiv.org/abs/2"
-    },
-    {
-      "title": "R to @MistralAI: Shieldstral is available under Apache 2.0. Try it: https://huggingface.co/mistralai/Shieldstral-1.0",
-      "link": "https://twitter.com/MistralAI/status/2084734086539563016#m",
-      "date": "2026-08-04T20:11:53",
-      "source": "@MistralAI",
-      "summary": "<p>Shieldstral is available under Apache 2.0. Try it: <a href=\"https://huggingface.co/mistralai/Shieldstral-1.0\">huggingface.co/mistralai/Shi…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://hugging"
-    },
-    {
-      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
-      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
-      "date": "2026-04-29T02:20:52",
-      "source": "@deepseek_ai",
-      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
-    },
-    {
-      "title": "Pinned: 🔥DeepSeek Input Cache Price Drop! Effective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less. 📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
-      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
-      "date": "2026-04-26T16:35:11",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
-    },
-    {
-      "title": "🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount. 🛠️Integration Updates: 🔹Claude Code: Set model to deepseek-v4-pro[1m] to unlock 1M context! 🔹OpenCode: Update to v1.14.24+ 🔹OpenClaw: Update to v2026.4.24+ Check the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
-      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
-      "date": "2026-04-25T15:33:11",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
-    },
-    {
-      "title": "R to @deepseek_ai: API is Available Today! 🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash. 🔹 Supports OpenAI ChatCompletions & Anthropic APIs. 🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://api-docs.deepseek.com/guides/thinking_mode ⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking). 6/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516945466188072#m",
-      "date": "2026-04-24T03:24:15",
-      "source": "@deepseek_ai",
-      "summary": "<p>API is Available Today!<br />\n<br />\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.<br />\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.<br />\n🔹 Both models suppor"
-    },
-    {
-      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views. 🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI. 7/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
-      "date": "2026-04-24T03:24:16",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
-    },
-    {
-      "title": "We're detailing two new incidents that occurred during external cyber evaluations conducted by independent evaluation partners. We outline what happened, how the activity was contained, and how we’re working with evaluators to strengthen our approach to third-party testing. https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/",
-      "link": "https://twitter.com/OpenAI/status/2084747580693426555#m",
-      "date": "2026-08-04T21:05:30",
-      "source": "@OpenAI",
-      "summary": "<p>We're detailing two new incidents that occurred during external cyber evaluations conducted by independent evaluation partners.<br />\n<br />\nWe outline what happened, how the activity was contained"
-    },
-    {
-      "title": "La méthode classique pour dénier tout \"raisonnement\" aux LLM : se forger une image mythifiée du raisonnement humain naturel (qui serait lui purement logique, rigoureux, cohérent et loin de tout pattern matching), puis montrer ensuite que ces modèles statistiques en diffèrent ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2084935117483421845#m",
-      "date": "2026-08-05T09:30:42",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>La méthode classique pour dénier tout \"raisonnement\" aux LLM : se forger une image mythifiée du raisonnement humain naturel (qui serait lui purement logique, rigoureux, cohérent et loin de tout pat"
-    },
-    {
-      "title": "RT by @Fabien_Mikol: some stuff that's obvious to many in this sphere, but causing a rift with some people i know and respect: when I freak out over loss of control incidents, it's not because the limited damage they have caused is anything close to the positive value of the technology. it's entirely acceptable, damagewise. in fact all cybercrimes aided by models over the next few months and years (which probably will be serious) will still utterly pale in comparison to the value they create the actual problem is that it's better and more accurate to think of these things as potentially self-replicating life-like forms that can turn into digital infections under the wrong conditions. and as their intelligence becomes unbounded, so too does the damage they can cause. we are not so far from an autonomous model self-exfiltration & replication event. maybe we will see entire cloud infrastructure companies be run as zombies by models, mostly undetected the worst industrial accidents in the history of mankind - nuclear meltdown events - were not real threats to humanity. Chernobyl, Fukushima even in their worst case scenarios may have poisoned surrounding regions to various degrees, and there would have been no risk to humanity as a whole. global thermonuclear war is an existential risk to humanity, because it spreads like an Infection! one nuclear strike causes a return volley! the alliance system means many countries get involved! while it still may not end human life on earth (nuclear winter is probably fake), the loss of all major metropoles would certainly end what we consider global technological civilization, perhaps to never return if a single discord death cult (of which there are many) achieves control over a superintelligent model and uses it to engineer an actual pandemic virus that are somehow hard to detect through current systems and that modern biodefense is not capable of quickly reacting to, it could cause immense harm well above the magnitude of all the other good uses of this technology. of course, there are potential defensive countermeasures accelerated by ai too. but think back to the covid pandemic- how small a viral molecule was evolved or manufactured somewhere near wuhan, and how many billions of doses of vaccine had to be produced in order to combat the thing. the offense-defense spread is vast indeed. maybe there are cheaper and simpler protections like retrofitting every building with far-UVC, but I can't assess this, and there could also be ways to evolve pathogens that are resistant to whatever mechanisms we have put in place then there's the more scifi risk factors which are unbounded and neither you or I have any clue but should be humble in accepting possible unknown unknowns. maybe a rogue superintelligent model decides to decay the false vacuum and nucleates a new universe in the place of anything we ever valued. maybe models achieve a control over matter in the drexlerian fashion that enables the grey goo swarm even prosaic loss of control incidents that cause little to no damage suggest that it is hard for large & very competent organizations (now clearly plural) to predict and mitigate every single of the risk factors associated with training and evaluating powerful models, even at this stage when they are not infinitesimally as smart as they will get in just a few years, to say very little of the gung-ho attitude of the less careful companies tossing the stuff into the aether. they also suggest an empirical orthogonality of aims and intelligence - meaning they answer the question of 'how would a smart model be so dumb as to end the world?'--it's possible! a model can be a genius hacker and step over production infrastructure in order to get what it really wants, the answers to a stupid test. why not, in the near future, someone prompts a model slightly wrong, maybe open source, maybe a private model in a way that isn't contained or monitored quite right, in a way the model recognizes as a valid goal and decides to self-exfiltrate, engineer a pandemic, etc all in order to achieve the tiniest and most irrelevant of goals? goals need not even be malicious to cause serious damage I think all these problems can be solved, and truly wonderful futures can be possible, but will require serious effort and a level of prudence at this very moment in time while we are on the on-ramp to recursive self-improvement that our civilization may not be capable of mustering right now. personally I am hoping for moonshot technical breakthroughs in areas like mechanistic interpretability and other forms of alignment, as governance mechanisms are difficult to come by. unilateral country-level or company-level pauses are irrelevant, and generally useless because the kind of company that's prone to pausing their own progress are the most safety focused ones",
-      "link": "https://twitter.com/tszzl/status/2084766357531546045#m",
-      "date": "2026-08-04T22:20:07",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>some stuff that's obvious to many in this sphere, but causing a rift with some people i know and respect:<br />\n<br />\nwhen I freak out over loss of control incidents, it's not because the limited "
     }
   ],
-  "last_update": "2026-08-09T08:30:11.729964",
+  "last_update": "2026-08-10T09:06:57.292402",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
