@@ -1,6 +1,90 @@
 {
   "articles": [
     {
+      "title": "GPT-Live",
+      "link": "https://www.uneiaparjour.fr/gpt-live/",
+      "date": "2026-08-05T19:36:00",
+      "source": "Une IA par jour",
+      "summary": "GPT-Live (https://openai.com/index/introducing-gpt-live/) est le nouveau modèle vocal d&#8217;OpenAI qui alimente ChatGPT Voix, les conversations en temps réel avec écoute et paroles simultanées. GPT-"
+    },
+    {
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "date": "2026-08-12T06:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption."
+    },
+    {
+      "title": "How RingCentral builds AI-native work from engineering to ops",
+      "link": "https://openai.com/index/ringcentral",
+      "date": "2026-08-12T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations."
+    },
+    {
+      "title": "Create, edit and star in videos with two Google Vids updates",
+      "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+      "date": "2026-07-16T16:00:00",
+      "source": "Google AI",
+      "summary": "Text \"Gemini Omni and Personal Avatars in Google Vids\" surrounded by various images"
+    },
+    {
+      "title": "🚨 Équiper les écoles ne suffit pas! Sans formation #enseignants, sans stratégie pédagogique et sans lutte contre les inégalités, le #numérique reste un outil sous-exploité. La #DEPP livre 5️⃣ enseignements essentiels pr passer du matériel à l’impact réel. https://edtechactu.com/evaluation/numerique-a-lecole-cinq-enseignements-cles-du-rapport-de-la-depp/",
+      "link": "https://twitter.com/sophiaefrance/status/2087508153789260160#m",
+      "date": "2026-08-12T11:55:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>🚨 Équiper les écoles ne suffit pas!<br />\nSans formation <a href=\"https://nitter.net/search?f=tweets&amp;q=%23enseignants\">#enseignants</a>, sans stratégie pédagogique et sans lutte contre les inég"
+    },
+    {
+      "title": "In a review of our cybersecurity evaluations, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations. Our post describes what happened, how it happened, and what we’re changing. We encourage other AI developers to perform similar reviews. We conducted this review together with @Irregular, one of our evaluation partners, and thank them for the joint investigation and their collaboration on this post. This type of collaboration is increasingly critical to safe, rigorous evaluation of models, and we look forward to continuing to work together on security. https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "link": "https://twitter.com/AnthropicAI/status/2082965101083320543#m",
+      "date": "2026-07-30T23:02:34",
+      "source": "@AnthropicAI",
+      "summary": "<p>In a review of our cybersecurity evaluations, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and t"
+    },
+    {
+      "title": "RT by @AnthropicAI: Introducing Claude Opus 5. It's a thoughtful and proactive model that comes close to the frontier intelligence of Fable 5 at half the price.",
+      "link": "https://twitter.com/claudeai/status/2080699495453528290#m",
+      "date": "2026-07-24T16:59:51",
+      "source": "@AnthropicAI",
+      "summary": "<p>Introducing Claude Opus 5.<br />\n<br />\nIt's a thoughtful and proactive model that comes close to the frontier intelligence of Fable 5 at half the price.</p>\n<a href=\"https://nitter.net/claudeai/st"
+    },
+    {
+      "title": "The Solutions team @MistralAI is hiring globally! If you’re entrepreneurial, hands-on, and want to shape how enterprises adopt AI, let’s talk. Apply: https://mistral.ai/careers/?utm_source=linkedin&utm_medium=social&utm_campaign=global_recruiting",
+      "link": "https://twitter.com/MistralAI/status/2075131809638088865#m",
+      "date": "2026-07-09T08:15:52",
+      "source": "@MistralAI",
+      "summary": "<p>The Solutions team <a href=\"https://nitter.net/MistralAI\" title=\"Mistral AI\">@MistralAI</a> is hiring globally!<br />\n<br />\nIf you’re entrepreneurial, hands-on, and want to shape how enterprises a"
+    },
+    {
+      "title": "🚀 DeepSeek-V4-Flash Official API is now LIVE in public beta! 🔷 We’ve massively upgraded its Agent capabilities—benchmark scores are now far surpassing the V4-Pro-Preview. Check out the massive performance leap below! 👇 🔷 The official V4-Flash now natively supports the Responses API format and is fully adapted for Codex! Check out the configuration details in our official API docs: https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
+      "link": "https://twitter.com/deepseek_ai/status/2083084415157022911#m",
+      "date": "2026-07-31T06:56:41",
+      "source": "@deepseek_ai",
+      "summary": "<p>🚀 DeepSeek-V4-Flash Official API is now LIVE in public beta!<br />\n<br />\n🔷 We’ve massively upgraded its Agent capabilities—benchmark scores are now far surpassing the V4-Pro-Preview. Check out the"
+    },
+    {
+      "title": "R to @OpenAI: Plus and Pro users can access the updated version of GPT‑5.6 Sol in ChatGPT along with the new slider starting today. This version of GPT-5.6 Sol is for everyday chats, so it will only be available in the Chat experience in ChatGPT. The version of GPT-5.6 Sol that powers Work and Codex is not changing as part of this release. https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "link": "https://twitter.com/OpenAI/status/2085434718393418101#m",
+      "date": "2026-08-06T18:35:57",
+      "source": "@OpenAI",
+      "summary": "<p>Plus and Pro users can access the updated version of GPT‑5.6 Sol in ChatGPT along with the new slider starting today.<br />\n<br />\nThis version of GPT-5.6 Sol is for everyday chats, so it will only"
+    },
+    {
+      "title": "R to @OpenAI: In addition to the upgrade in intelligence with GPT-5.6 Luna, Free and Go users can now use the “Think” button for more reasoning on harder questions.",
+      "link": "https://twitter.com/OpenAI/status/2085434717051240642#m",
+      "date": "2026-08-06T18:35:56",
+      "source": "@OpenAI",
+      "summary": "<p>In addition to the upgrade in intelligence with GPT-5.6 Luna, Free and Go users can now use the “Think” button for more reasoning on harder questions.</p>"
+    },
+    {
+      "title": "R to @OpenAI: Plus and Pro users also now have a slider to choose how much reasoning effort ChatGPT puts into each response. We think it’s easier to use, and we’re listening to your feedback.",
+      "link": "https://twitter.com/OpenAI/status/2085434715675426889#m",
+      "date": "2026-08-06T18:35:56",
+      "source": "@OpenAI",
+      "summary": "<p>Plus and Pro users also now have a slider to choose how much reasoning effort ChatGPT puts into each response.<br />\n<br />\nWe think it’s easier to use, and we’re listening to your feedback.</p>\n<a"
+    },
+    {
       "title": "Testing ads in ChatGPT",
       "link": "https://openai.com/index/testing-ads-in-chatgpt",
       "date": "2026-08-11T10:00:00",
@@ -615,93 +699,9 @@
       "date": "2026-07-22T16:02:46",
       "source": "@MIKL_Bertrand",
       "summary": "<p>Corriger, ce n’est pas juste “mettre une note”.<br />\nC’est évaluer, annoter, encourager, expliciter… dans un temps contraint.<br />\nAprès Logbook &amp; <a href=\"http://Ed.ai\">Ed.ai</a>, <a href=\"h"
-    },
-    {
-      "title": "IA à l’école : le rapport @ChudeauR / @celinecalvez pousse fort sur la formation des enseignants. Mais l’usage de l’IA dès la 6e interroge, face au cadre MEN actuel et aux repères UNESCO. 🔗 https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2993_rapport-information#_Toc256000109 #IA #Éducation",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2079598005770940544#m",
-      "date": "2026-07-21T16:02:56",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>IA à l’école : le rapport <a href=\"https://nitter.net/ChudeauR\" title=\"Roger Chudeau\">@ChudeauR</a> / <a href=\"https://nitter.net/celinecalvez\" title=\"Céline Calvez\">@celinecalvez</a> pousse fort s"
-    },
-    {
-      "title": "🧠 Un bon prompt n’est pas une formule magique. C’est une consigne de travail. Dans \"J’apprends avec l’IA\", deux niveaux de prompts aident les élèves à comprendre, vérifier et progresser sans laisser l’outil décider à leur place. 📚️ https://www.magnard.fr/livre/9782210787933-j-apprends-avec-l-ia",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2077785844027363565#m",
-      "date": "2026-07-16T16:02:03",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🧠 Un bon prompt n’est pas une formule magique. C’est une consigne de travail.<br />\n<br />\nDans \"J’apprends avec l’IA\", deux niveaux de prompts aident les élèves à comprendre, vérifier et progresse"
-    },
-    {
-      "title": "🤖 J’ai demandé à une IA d’analyser la cohérence entre mes objectifs, mes activités et mes évaluations. J’étais confiant. Son diagnostic l’était moins... 💡 L’IA devient vraiment utile quand elle questionne nos pratiques. 🔗 https://etreprof.fr/ateliers/1352/comment-repenser-levaluation-et-la-triche-a-lere-de-lia-secondaire",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2077423162673766461#m",
-      "date": "2026-07-15T16:00:53",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🤖 J’ai demandé à une IA d’analyser la cohérence entre mes objectifs, mes activités et mes évaluations.<br />\nJ’étais confiant. Son diagnostic l’était moins...<br />\n💡 L’IA devient vraiment utile qu"
-    },
-    {
-      "title": "Frontpage",
-      "link": "https://www.uneiaparjour.fr/frontpage/",
-      "date": "2026-08-06T20:12:00",
-      "source": "Une IA par jour",
-      "summary": "Frontpage (https://frontpage.host/) génère un site web à partir d&#8217;une description en langage naturel, avec édition progressive via un chatbot. Trois possibilités de génération : génération après"
-    },
-    {
-      "title": "Mise à jour de l’outil suivi.mathix.org",
-      "link": "https://mathix.org/linux/archives/22547",
-      "date": "2026-06-24T13:45:38",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! J&#8217;ai remis un petit lifting sur l&#8217;outil suivi de mathix.org. voici donc une présentation de l&#8217;interface enseignant et élève? J&#8217;ai également ajouté que"
-    },
-    {
-      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-      "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "date": "2026-08-06T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna."
-    },
-    {
-      "title": "Working with the American Psychological Association on youth mental health and AI",
-      "link": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-      "date": "2026-08-06T06:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health."
-    },
-    {
-      "title": "From asking to doing: How the world is putting ChatGPT to work",
-      "link": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "date": "2026-08-06T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior."
-    },
-    {
-      "title": "Advancing responsible AI across Europe",
-      "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "date": "2026-07-31T15:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances."
-    },
-    {
-      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "date": "2026-07-07T08:54:00",
-      "source": "Google AI",
-      "summary": "Managed agents feature bundle launch"
-    },
-    {
-      "title": "Une IA vient d'obtenir 42/42 à une olympiade de mathématiques. (Sans utiliser ni agent, ni outil)",
-      "link": "https://twitter.com/nsi_xyz/status/2080957513281773785#m",
-      "date": "2026-07-25T10:05:08",
-      "source": "@nsi_xyz",
-      "summary": "<p>Une IA vient d'obtenir 42/42 à une olympiade de mathématiques. (Sans utiliser ni agent, ni outil)</p>\n<hr />\n<blockquote>\n<b>AiBattle (@AiBattle_)</b>\n<p>\n<p>Claude Opus 5 achieved a perfect 42/42,"
-    },
-    {
-      "title": "Et si le bulletin scolaire de demain n’évaluait plus seulement ce que l’élève sait restituer, mais sa capacité à questionner, relier, coopérer et décider avec discernement ? À l’ère de l’ #IA, bien penser devient une compétence stratégique. ✍️ Patricia Wansi",
-      "link": "https://twitter.com/sophiaefrance/status/2083128042256306479#m",
-      "date": "2026-07-31T09:50:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>Et si le bulletin scolaire de demain n’évaluait plus seulement ce que l’élève sait restituer, mais sa capacité à questionner, relier, coopérer et décider avec discernement ?<br />\nÀ l’ère de l’ <a "
     }
   ],
-  "last_update": "2026-08-12T09:01:05.126760",
+  "last_update": "2026-08-13T09:03:01.943287",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
