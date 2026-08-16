@@ -1,6 +1,62 @@
 {
   "articles": [
     {
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "date": "2026-07-28T16:00:00",
+      "source": "Google AI",
+      "summary": "Managed Agents Gemini 3.6 Flash, Hooks and Triggers"
+    },
+    {
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "date": "2026-07-28T13:00:00",
+      "source": "Google AI",
+      "summary": "Illustration of a black magnifying glass in a white circle on green grass surrounded by items related to fun activities like tennis and games"
+    },
+    {
+      "title": "3 Google updates from Galaxy Unpacked 2026",
+      "link": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+      "date": "2026-07-22T13:00:00",
+      "source": "Google AI",
+      "summary": "Gentle Monster glasses, Warby Parker glasses, a prompt asking for the history behind a pictured building, and a prompt asking to book a table at a pictured restaurant"
+    },
+    {
+      "title": "Comment parler de #laïcité et de faits #religieux avec les enfants sans crispation ? L’association ENQUÊTE propose des outils ludiques, formations et ateliers pour développer un rapport apaisé, réfléchi et citoyen à ces sujets essentiels. #Laïcité https://www.enquete.asso.fr/",
+      "link": "https://twitter.com/sophiaefrance/status/2084138455609590029#m",
+      "date": "2026-08-03T04:45:03",
+      "source": "@sophiaefrance",
+      "summary": "<p>Comment parler de <a href=\"https://nitter.net/search?f=tweets&amp;q=%23laïcité\">#laïcité</a> et de faits <a href=\"https://nitter.net/search?f=tweets&amp;q=%23religieux\">#religieux</a> avec les enfa"
+    },
+    {
+      "title": "We support this petition, signed by our CEO, several co-founders, and senior staff. Our own research on recursive self-improvement, published last month, points to the need for tools to deliberately pace the frontier of AI development so society can prepare. We’re glad to see broad agreement across the field. https://www.pacingthefrontier.com/",
+      "link": "https://twitter.com/AnthropicAI/status/2082228994653696371#m",
+      "date": "2026-07-28T22:17:32",
+      "source": "@AnthropicAI",
+      "summary": "<p>We support this petition, signed by our CEO, several co-founders, and senior staff. <br />\n<br />\nOur own research on recursive self-improvement, published last month, points to the need for tools "
+    },
+    {
+      "title": "R to @AnthropicAI: Full technical details of both attacks are provided in our new papers: On HAWK: https://anthropic.com/document/hawk_key_recovery.pdf On AES: https://anthropic.com/document/aes_mobius_bridge.pdf And the associated model chain-of-thought for AES: https://anthropic.com/document/aes_mobius_bridge_cot.pdf",
+      "link": "https://twitter.com/AnthropicAI/status/2082153309553463600#m",
+      "date": "2026-07-28T17:16:48",
+      "source": "@AnthropicAI",
+      "summary": "<p>Full technical details of both attacks are provided in our new papers:<br />\n<br />\nOn HAWK: <a href=\"https://anthropic.com/document/hawk_key_recovery.pdf\">anthropic.com/document/hawk_…</a><br />\n<"
+    },
+    {
+      "title": "R to @AnthropicAI: We also worked with academics at ETH Zurich, Tel Aviv University, and the University of Haifa to build CryptanalysisBench, a benchmark for studying LLMs’ cryptanalysis abilities. https://arxiv.org/abs/2607.18538",
+      "link": "https://twitter.com/AnthropicAI/status/2082153311189225927#m",
+      "date": "2026-07-28T17:16:48",
+      "source": "@AnthropicAI",
+      "summary": "<p>We also worked with academics at ETH Zurich, Tel Aviv University, and the University of Haifa to build CryptanalysisBench, a benchmark for studying LLMs’ cryptanalysis abilities.<br />\n<br />\n<a hr"
+    },
+    {
+      "title": "\"Ces IA ne sont que des outils et n'ont aucun but, il faut arrêter de délirer !\" @Yoshua_Bengio : ces modèles d'IA ont bel et bien des objectifs, jamais parfaitement conformes avec nos intentions, et l'apprentissage par renforcement chez le chat en est une bonne illustration ! ⤵️",
+      "link": "https://twitter.com/Fabien_Mikol/status/2088548466091819251#m",
+      "date": "2026-08-15T08:48:52",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"Ces IA ne sont que des outils et n'ont aucun but, il faut arrêter de délirer !\"<br />\n<a href=\"https://nitter.net/Yoshua_Bengio\" title=\"Yoshua Bengio\">@Yoshua_Bengio</a> : ces modèles d'IA ont bel"
+    },
+    {
       "title": "L’outil pour les répartitions",
       "link": "https://mathix.org/linux/archives/22556",
       "date": "2026-06-26T06:54:39",
@@ -643,65 +699,9 @@
       "date": "2026-08-10T16:00:41",
       "source": "@Fabien_Mikol",
       "summary": "<p>Pour bien réaliser à quel point le discours \"ce n'est qu'un outil logiciel comme un autre\" est hors sol, regardez la dernière conférence d'OpenAI sur la manière dont ils \"gardent le contrôle\" de le"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Arthur Mensch a ces dernières années été présenté dans nos médias comme \"la voix de la raison\" contre les \"délires\" des CEO américains. J'espère que le décalage flagrant entre son discours et les faits permettra de remettre un peu en question ce biais.",
-      "link": "https://twitter.com/Fabien_Mikol/status/2086845199313965471#m",
-      "date": "2026-08-10T16:00:41",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Arthur Mensch a ces dernières années été présenté dans nos médias comme \"la voix de la raison\" contre les \"délires\" des CEO américains. J'espère que le décalage flagrant entre son discours et les f"
-    },
-    {
-      "title": "MyColoring.AI",
-      "link": "https://www.uneiaparjour.fr/mycoloring-ai/",
-      "date": "2026-08-03T19:47:00",
-      "source": "Une IA par jour",
-      "summary": "MyColoring.AI (https://mycoloring.ai/) transforme une photo ou une instruction texte en coloriage imprimable. Trois modes de génération : à partir d&#8217;une photo, à partir d&#8217;une instruction t"
-    },
-    {
-      "title": "Apple is getting this wrong",
-      "link": "https://openai.com/index/apple-is-getting-this-wrong",
-      "date": "2026-08-03T22:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened."
-    },
-    {
-      "title": "How we built a realtime system for responsive voice AI in six months",
-      "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "date": "2026-08-03T07:00:00",
-      "source": "OpenAI Blog",
-      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations."
-    },
-    {
-      "title": "Circles powers telco personalization with OpenAI technology",
-      "link": "https://openai.com/index/circles",
-      "date": "2026-08-03T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency."
-    },
-    {
-      "title": "Ct concevoir une séance accessible et inclusive sans partir d’une page blanche ? PedaIA #CUA accompagne les enseignants dans la création d’activités fondées sur la Conception Universelle des Apprentissages:engagement, représentation, action et expression. https://pedaia.forge.apps.education.fr/cua/cuaconception.html",
-      "link": "https://twitter.com/sophiaefrance/status/2086675166604497015#m",
-      "date": "2026-08-10T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>Ct concevoir une séance accessible et inclusive sans partir d’une page blanche ? PedaIA <a href=\"https://nitter.net/search?f=tweets&amp;q=%23CUA\">#CUA</a> accompagne les enseignants dans la créatio"
-    },
-    {
-      "title": "GPT-Live can listen while it speaks. To make that feel natural at ChatGPT scale, we rebuilt the voice stack from client to model. This new architecture keeps audio flowing continuously, so deeper reasoning and tool use don't interrupt the conversation.",
-      "link": "https://twitter.com/OpenAI/status/2084378415818579975#m",
-      "date": "2026-08-03T20:38:34",
-      "source": "@OpenAI",
-      "summary": "<p>GPT-Live can listen while it speaks.<br />\n<br />\nTo make that feel natural at ChatGPT scale, we rebuilt the voice stack from client to model.<br />\n<br />\nThis new architecture keeps audio flowing"
-    },
-    {
-      "title": "RT by @Fabien_Mikol: - “the researchers told me that we’re allowed to hack shit” - “no we aren’t, have you read the OpenAI model spec?” - “no, have you?” - “no”",
-      "link": "https://twitter.com/CathPoaster/status/2086185915878396255#m",
-      "date": "2026-08-08T20:20:56",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>- “the researchers told me that we’re allowed to hack shit”<br />\n<br />\n- “no we aren’t, have you read the OpenAI model spec?”<br />\n<br />\n- “no, have you?”<br />\n<br />\n- “no”</p>\n<img src=\"http"
     }
   ],
-  "last_update": "2026-08-15T08:15:08.927109",
+  "last_update": "2026-08-16T08:16:51.794406",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
