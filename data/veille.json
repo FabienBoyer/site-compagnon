@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "MindDory",
+      "link": "https://www.uneiaparjour.fr/minddory/",
+      "date": "2026-08-16T19:47:00",
+      "source": "Une IA par jour",
+      "summary": "MindDory (https://minddory.com/) génère des cartes de vocabulaire à partir de listes adaptées à son niveau initial ou de mots enregistrés par l&#8217;utilisateur. Disponible en ligne, sur iPhone et An"
+    },
+    {
+      "title": "Get closer to the game with Gemini and Pixel",
+      "link": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+      "date": "2026-08-17T08:00:00",
+      "source": "Google AI",
+      "summary": "Low-angle view of a soccer player kicking a ball mid-air against a bright blue sky, with grass flying from their cleats."
+    },
+    {
+      "title": "Ct concevoir une séance accessible et inclusive sans partir d’une page blanche ? PedaIA #CUA accompagne les enseignants dans la création d’activités fondées sur la Conception Universelle des Apprentissages:engagement, représentation, action et expression. https://pedaia.forge.apps.education.fr/cua/cuaconception.html",
+      "link": "https://twitter.com/sophiaefrance/status/2086675166604497015#m",
+      "date": "2026-08-10T04:45:02",
+      "source": "@sophiaefrance",
+      "summary": "<p>Ct concevoir une séance accessible et inclusive sans partir d’une page blanche ? PedaIA <a href=\"https://nitter.net/search?f=tweets&amp;q=%23CUA\">#CUA</a> accompagne les enseignants dans la créatio"
+    },
+    {
       "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
       "date": "2026-07-28T16:00:00",
@@ -678,30 +699,9 @@
       "date": "2026-08-10T17:16:53",
       "source": "@OpenAI",
       "summary": "<p>We've used GPT-5.6-Cyber extensively in real-world vulnerability research, including work that uncovered previously unknown vulnerabilities in popular open-source software like Chrome’s v8 engine.<"
-    },
-    {
-      "title": "R to @OpenAI: Advanced capabilities require strong safeguards. That’s why access is limited to approved defenders, with additional controls and monitoring for higher-risk cybersecurity work. https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "link": "https://twitter.com/OpenAI/status/2086864374837150108#m",
-      "date": "2026-08-10T17:16:53",
-      "source": "@OpenAI",
-      "summary": "<p>Advanced capabilities require strong safeguards. That’s why access is limited to approved defenders, with additional controls and monitoring for higher-risk cybersecurity work.<br />\n<br />\n<a href"
-    },
-    {
-      "title": "Fable : \"Claude a produit une preuve formelle vérifiable en Lean, et deux experts externes du domaine, Brian Conrey et Dan Goldston, ont examiné le papier\" ; \"Passer de 41,6 % à 67,2 % d'un coup, c'est un saut sans commune mesure avec le rythme historique\".",
-      "link": "https://twitter.com/Fabien_Mikol/status/2086884849529356636#m",
-      "date": "2026-08-10T18:38:15",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Fable : \"Claude a produit une preuve formelle vérifiable en Lean, et deux experts externes du domaine, Brian Conrey et Dan Goldston, ont examiné le papier\" ; \"Passer de 41,6 % à 67,2 % d'un coup, c"
-    },
-    {
-      "title": "R to @Fabien_Mikol: Pour bien réaliser à quel point le discours \"ce n'est qu'un outil logiciel comme un autre\" est hors sol, regardez la dernière conférence d'OpenAI sur la manière dont ils \"gardent le contrôle\" de leurs agents :",
-      "link": "https://twitter.com/Fabien_Mikol/status/2086845195815878799#m",
-      "date": "2026-08-10T16:00:41",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Pour bien réaliser à quel point le discours \"ce n'est qu'un outil logiciel comme un autre\" est hors sol, regardez la dernière conférence d'OpenAI sur la manière dont ils \"gardent le contrôle\" de le"
     }
   ],
-  "last_update": "2026-08-16T08:16:51.794406",
+  "last_update": "2026-08-17T08:31:18.225285",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
