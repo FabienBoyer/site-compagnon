@@ -1,6 +1,76 @@
 {
   "articles": [
     {
+      "title": "The Defender’s Window",
+      "link": "https://openai.com/index/the-defenders-window",
+      "date": "2026-08-17T05:30:00",
+      "source": "OpenAI Blog",
+      "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now."
+    },
+    {
+      "title": "OpenAI joins PORTS-Pike project",
+      "link": "https://openai.com/index/openai-joins-ports-pike-project",
+      "date": "2026-08-17T05:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs"
+    },
+    {
+      "title": "New policy ideas for the Intelligence Age",
+      "link": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "date": "2026-08-17T03:15:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age."
+    },
+    {
+      "title": "RT by @nsi_xyz: Le combat contre le capitalisme algorithmique ce serait de surveiller tout le monde ? D'instaurer un contrôle d'identité avant l'accès aux réseaux sociaux ? Vous n'êtes pas capable d'assurer la sécurité de la DGFiP ni de l'ANTS, et vous voulez contrôler l'identité sur internet ?",
+      "link": "https://twitter.com/Geometriquement/status/2089287367907541061#m",
+      "date": "2026-08-17T09:45:00",
+      "source": "@nsi_xyz",
+      "summary": "<p>Le combat contre le capitalisme algorithmique ce serait de surveiller tout le monde ? D'instaurer un contrôle d'identité avant l'accès aux réseaux sociaux ?<br />\n<br />\nVous n'êtes pas capable d'a"
+    },
+    {
+      "title": "RT by @nsi_xyz: 🤡 D'après l'OCDE, en une vingtaine d'années, le salaire des enseignants français à 15 ans de carrière a complètement décroché par rapport à leurs voisins européens. En US$ (parité de pouvoir d'achat), les enseignants roumains sont bientôt mieux rémunérés que les enseignants 🇫🇷.",
+      "link": "https://twitter.com/Ithyphallique/status/2089094616863690934#m",
+      "date": "2026-08-16T20:59:04",
+      "source": "@nsi_xyz",
+      "summary": "<p>🤡<br />\nD'après l'OCDE, en une vingtaine d'années, le salaire des enseignants français à 15 ans de carrière a complètement décroché par rapport à leurs voisins européens.<br />\nEn US$ (parité de po"
+    },
+    {
+      "title": "RT by @OpenAI: defenders can see the future, and have a narrow window to uplevel their cybersecurity practices now. key is to uplevel fundamentals and apply the best AI tools. what we’re doing at OpenAI, and where other organizations can start: https://blog.gregbrockman.com/the-defenders-window",
+      "link": "https://twitter.com/gdb/status/2089326994714763665#m",
+      "date": "2026-08-17T12:22:28",
+      "source": "@OpenAI",
+      "summary": "<p>defenders can see the future, and have a narrow window to uplevel their cybersecurity practices now.<br />\n<br />\nkey is to uplevel fundamentals and apply the best AI tools.<br />\n<br />\nwhat we’re"
+    },
+    {
+      "title": "R to @Fabien_Mikol: C'est la norme médiatique sur ce sujet : seuls les soucis que cela pose aux humains sont évoqués, les animaux premiers concernés étant réduits à l'état de ressources ou de matière première absolument dénuée de la moindre importance morale dans cette crise.",
+      "link": "https://twitter.com/Fabien_Mikol/status/2089276141802524983#m",
+      "date": "2026-08-17T09:00:23",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>C'est la norme médiatique sur ce sujet : seuls les soucis que cela pose aux humains sont évoqués, les animaux premiers concernés étant réduits à l'état de ressources ou de matière première absolume"
+    },
+    {
+      "title": "Ainsi donc ce soir au journal de France Inter on nous a bien expliqué comment distinguer les \"charlatans\" des vrais druides, \"gens sérieux\", car \"devenir druide, c'est un long processus d'apprentissage d'une douzaine d'années\". C'est pas une blague. Sur le service public 😶",
+      "link": "https://twitter.com/Fabien_Mikol/status/2089109592542228618#m",
+      "date": "2026-08-16T21:58:35",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Ainsi donc ce soir au journal de France Inter on nous a bien expliqué comment distinguer les \"charlatans\" des vrais druides, \"gens sérieux\", car \"devenir druide, c'est un long processus d'apprentis"
+    },
+    {
+      "title": "Luc Julia : les IA ne sont pas créatives car \"basées sur des données déjà existantes, c'est pour cela qu'on parle de modèles, donc les modèles par définition sont des modèles\". Il explique ensuite comment il parvient à rester toujours à la pointe pour aider \"le petit peuple\" 🙃",
+      "link": "https://twitter.com/Fabien_Mikol/status/2088925022496686375#m",
+      "date": "2026-08-16T09:45:10",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>Luc Julia : les IA ne sont pas créatives car \"basées sur des données déjà existantes, c'est pour cela qu'on parle de modèles, donc les modèles par définition sont des modèles\".<br />\nIl explique en"
+    },
+    {
+      "title": "\"Don't worry\" https://www.economist.com/the-world-this-week/2026/08/13/cartoon-ai-finds-a-way",
+      "link": "https://twitter.com/Fabien_Mikol/status/2088905833346109843#m",
+      "date": "2026-08-16T08:28:55",
+      "source": "@Fabien_Mikol",
+      "summary": "<p>\"Don't worry\"<br />\n<a href=\"https://www.economist.com/the-world-this-week/2026/08/13/cartoon-ai-finds-a-way\">economist.com/the-world-this…</a></p>\n<img src=\"https://nitter.net/pic/media%2FHP1InQrW"
+    },
+    {
       "title": "MindDory",
       "link": "https://www.uneiaparjour.fr/minddory/",
       "date": "2026-08-16T19:47:00",
@@ -629,79 +699,9 @@
       "date": "2026-08-10T17:28:18",
       "source": "@AnthropicAI",
       "summary": "<p>We asked an unreleased research version of Claude to take a stab at the Riemann hypothesis.<br />\n<br />\nIt didn’t solve it, but it did make strides on a related problem: it increased the lower bou"
-    },
-    {
-      "title": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 http://mistral.ai/news/shieldstral",
-      "link": "https://twitter.com/MistralAI/status/2084684735725379637#m",
-      "date": "2026-08-04T16:55:47",
-      "source": "@MistralAI",
-      "summary": "<p>🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 <a href=\"http://mistral.ai/news/shieldstral\">mistral.ai/news/shieldstral</a></p>\n<img "
-    },
-    {
-      "title": "R to @MistralAI: The model takes moderation policy as a plain-language question and returns a calibrated score. Text and images — one interface. Read the full technical report here: https://arxiv.org/abs/2607.25857",
-      "link": "https://twitter.com/MistralAI/status/2084684738892083270#m",
-      "date": "2026-08-04T16:55:47",
-      "source": "@MistralAI",
-      "summary": "<p>The model takes moderation policy as a plain-language question and returns a calibrated score. Text and images — one interface. Read the full technical report here: <a href=\"https://arxiv.org/abs/2"
-    },
-    {
-      "title": "R to @MistralAI: Shieldstral is available under Apache 2.0. Try it: https://huggingface.co/mistralai/Shieldstral-1.0",
-      "link": "https://twitter.com/MistralAI/status/2084734086539563016#m",
-      "date": "2026-08-04T20:11:53",
-      "source": "@MistralAI",
-      "summary": "<p>Shieldstral is available under Apache 2.0. Try it: <a href=\"https://huggingface.co/mistralai/Shieldstral-1.0\">huggingface.co/mistralai/Shi…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://hugging"
-    },
-    {
-      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
-      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
-      "date": "2026-04-29T02:20:52",
-      "source": "@deepseek_ai",
-      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
-    },
-    {
-      "title": "Pinned: 🔥DeepSeek Input Cache Price Drop! Effective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less. 📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
-      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
-      "date": "2026-04-26T16:35:11",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
-    },
-    {
-      "title": "🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount. 🛠️Integration Updates: 🔹Claude Code: Set model to deepseek-v4-pro[1m] to unlock 1M context! 🔹OpenCode: Update to v1.14.24+ 🔹OpenClaw: Update to v2026.4.24+ Check the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
-      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
-      "date": "2026-04-25T15:33:11",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
-    },
-    {
-      "title": "R to @deepseek_ai: API is Available Today! 🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash. 🔹 Supports OpenAI ChatCompletions & Anthropic APIs. 🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://api-docs.deepseek.com/guides/thinking_mode ⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking). 6/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516945466188072#m",
-      "date": "2026-04-24T03:24:15",
-      "source": "@deepseek_ai",
-      "summary": "<p>API is Available Today!<br />\n<br />\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.<br />\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.<br />\n🔹 Both models suppor"
-    },
-    {
-      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views. 🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI. 7/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
-      "date": "2026-04-24T03:24:16",
-      "source": "@deepseek_ai",
-      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
-    },
-    {
-      "title": "We’re expanding our cybersecurity initiative Daybreak and introducing GPT-5.6-Cyber, a new model for advanced, authorized cybersecurity work. As the threat landscape evolves, we’re putting frontier intelligence in the hands of trusted defenders before attackers can deploy offensive AI at scale.",
-      "link": "https://twitter.com/OpenAI/status/2086864365379010729#m",
-      "date": "2026-08-10T17:16:51",
-      "source": "@OpenAI",
-      "summary": "<p>We’re expanding our cybersecurity initiative Daybreak and introducing GPT-5.6-Cyber, a new model for advanced, authorized cybersecurity work.<br />\n<br />\nAs the threat landscape evolves, we’re put"
-    },
-    {
-      "title": "R to @OpenAI: We've used GPT-5.6-Cyber extensively in real-world vulnerability research, including work that uncovered previously unknown vulnerabilities in popular open-source software like Chrome’s v8 engine.",
-      "link": "https://twitter.com/OpenAI/status/2086864372500942906#m",
-      "date": "2026-08-10T17:16:53",
-      "source": "@OpenAI",
-      "summary": "<p>We've used GPT-5.6-Cyber extensively in real-world vulnerability research, including work that uncovered previously unknown vulnerabilities in popular open-source software like Chrome’s v8 engine.<"
     }
   ],
-  "last_update": "2026-08-17T08:31:18.225285",
+  "last_update": "2026-08-18T08:23:47.991640",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
