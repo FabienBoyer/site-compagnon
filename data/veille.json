@@ -1,6 +1,146 @@
 {
   "articles": [
     {
+      "title": "CoachLingo",
+      "link": "https://www.uneiaparjour.fr/coachlingo/",
+      "date": "2026-08-18T20:19:54",
+      "source": "Une IA par jour",
+      "summary": "CoachLingo (https://www.coachlingo.ai/) fait pratiquer 30 langues ou variations (ex anglais US, GB ou Australie) à l&#8217;oral et à l&#8217;écrit via un avatar IA. L&#8217;utilisateur choisit une lan"
+    },
+    {
+      "title": "MindDory",
+      "link": "https://www.uneiaparjour.fr/minddory-2/",
+      "date": "2026-08-16T19:58:10",
+      "source": "Une IA par jour",
+      "summary": "MindDory (https://minddory.com/) génère des cartes de vocabulaire à partir de listes adaptées à son niveau initial ou de mots enregistrés par l&#8217;utilisateur. Disponible en ligne, sur iPhone et An"
+    },
+    {
+      "title": "ChatGPT Ads expands across Europe",
+      "link": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "date": "2026-08-18T22:00:00",
+      "source": "OpenAI Blog",
+      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions."
+    },
+    {
+      "title": "Strengthening democratic oversight in national security",
+      "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "date": "2026-08-18T19:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise."
+    },
+    {
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "link": "https://openai.com/index/partnering-with-codeai",
+      "date": "2026-08-18T11:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly."
+    },
+    {
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "link": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "date": "2026-08-18T11:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development."
+    },
+    {
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "link": "https://openai.com/index/chatgpt-for-teens",
+      "date": "2026-08-18T11:00:00",
+      "source": "OpenAI Blog",
+      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents."
+    },
+    {
+      "title": "How NVIDIA scales expertise with ChatGPT Work",
+      "link": "https://openai.com/index/nvidia/chatgpt-work",
+      "date": "2026-08-18T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally."
+    },
+    {
+      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "link": "https://openai.com/index/asana",
+      "date": "2026-08-18T07:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K."
+    },
+    {
+      "title": "Many drugs work by binding to a specific target in the body and blocking or changing what it does. An important first step in the drug development process is designing a molecule that can bind tightly to its target. Traditionally, that's meant weeks or months of expert work per target, sifting through a large number of candidates to identify the few that work. We wanted to test if Claude could successfully design novel protein binders from scratch (also called de novo design). With a protein design prompt written by a human expert, Claude autonomously designed protein binders against 14 out of 15 targets. We then worked with Adaptyv Bio and Twist Bioscience, who independently built and tested the proteins Claude designed.",
+      "link": "https://twitter.com/AnthropicAI/status/2089842387845804246#m",
+      "date": "2026-08-18T22:30:27",
+      "source": "@AnthropicAI",
+      "summary": "<p>Many drugs work by binding to a specific target in the body and blocking or changing what it does. An important first step in the drug development process is designing a molecule that can bind tigh"
+    },
+    {
+      "title": "R to @AnthropicAI: For more on how Claude ran this experiment and the full results, see our blog: https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "link": "https://twitter.com/AnthropicAI/status/2089842394527301881#m",
+      "date": "2026-08-18T22:30:28",
+      "source": "@AnthropicAI",
+      "summary": "<p>For more on how Claude ran this experiment and the full results, see our blog: <a href=\"https://www.anthropic.com/research/Claude-accelerates-protein-design\">anthropic.com/research/Claud…</a></p>\n<"
+    },
+    {
+      "title": "R to @AnthropicAI: We're also publishing a technical report: https://www-cdn.anthropic.com/30bf50e22a01388bb29bf077ee3f244531594b7a.pdf And open-sourcing our prompts and data here: https://huggingface.co/datasets/Anthropic/claude-protein-binder-design/tree/main",
+      "link": "https://twitter.com/AnthropicAI/status/2089842395722678689#m",
+      "date": "2026-08-18T22:30:29",
+      "source": "@AnthropicAI",
+      "summary": "<p>We're also publishing a technical report: <a href=\"https://www-cdn.anthropic.com/30bf50e22a01388bb29bf077ee3f244531594b7a.pdf\">www-cdn.anthropic.com/30bf50…</a><br />\n<br />\nAnd open-sourcing our p"
+    },
+    {
+      "title": "🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 http://mistral.ai/news/shieldstral",
+      "link": "https://twitter.com/MistralAI/status/2084684735725379637#m",
+      "date": "2026-08-04T16:55:47",
+      "source": "@MistralAI",
+      "summary": "<p>🛡️Introducing Shieldstral, Mistral’s 3B open-weights model for content safety that can be deployed on-device 🧵 <a href=\"http://mistral.ai/news/shieldstral\">mistral.ai/news/shieldstral</a></p>\n<img "
+    },
+    {
+      "title": "R to @MistralAI: The model takes moderation policy as a plain-language question and returns a calibrated score. Text and images — one interface. Read the full technical report here: https://arxiv.org/abs/2607.25857",
+      "link": "https://twitter.com/MistralAI/status/2084684738892083270#m",
+      "date": "2026-08-04T16:55:47",
+      "source": "@MistralAI",
+      "summary": "<p>The model takes moderation policy as a plain-language question and returns a calibrated score. Text and images — one interface. Read the full technical report here: <a href=\"https://arxiv.org/abs/2"
+    },
+    {
+      "title": "R to @MistralAI: Shieldstral is available under Apache 2.0. Try it: https://huggingface.co/mistralai/Shieldstral-1.0",
+      "link": "https://twitter.com/MistralAI/status/2084734086539563016#m",
+      "date": "2026-08-04T20:11:53",
+      "source": "@MistralAI",
+      "summary": "<p>Shieldstral is available under Apache 2.0. Try it: <a href=\"https://huggingface.co/mistralai/Shieldstral-1.0\">huggingface.co/mistralai/Shi…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://hugging"
+    },
+    {
+      "title": "The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!",
+      "link": "https://twitter.com/deepseek_ai/status/2049312932014813344#m",
+      "date": "2026-04-29T02:20:52",
+      "source": "@deepseek_ai",
+      "summary": "<p>The DeepSeek-V4-Pro discount has been extended until May 31, 2026, 15:59 UTC!</p>\n<img src=\"https://nitter.net/pic/media%2FHHCeB16bIAAGQeE.jpg\" />\n\n<hr />\n<blockquote>\n<b>DeepSeek (@deepseek_ai)</b"
+    },
+    {
+      "title": "🔥DeepSeek Input Cache Price Drop! Effective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build more efficiently for less. 📌Reminder: The DeepSeek-V4-Pro 75% OFF promotion is still active until May 5th, 2026, 15:59 (UTC Time).",
+      "link": "https://twitter.com/deepseek_ai/status/2048440764368347611#m",
+      "date": "2026-04-26T16:35:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek Input Cache Price Drop!<br />\n<br />\nEffective immediately, the price for input cache hits across the ENTIRE DeepSeek API series is reduced to just 1/10th of the original price! Build mor"
+    },
+    {
+      "title": "🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount. 🛠️Integration Updates: 🔹Claude Code: Set model to deepseek-v4-pro[1m] to unlock 1M context! 🔹OpenCode: Update to v1.14.24+ 🔹OpenClaw: Update to v2026.4.24+ Check the latest official API docs for full details: https://api-docs.deepseek.com/quick_start/pricing",
+      "link": "https://twitter.com/deepseek_ai/status/2048062777357750316#m",
+      "date": "2026-04-25T15:33:11",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔥DeepSeek-V4-Pro API is 75% OFF until May 5th, 2026, 15:59 (UTC Time)! Don't miss out on this massive discount.<br />\n<br />\n🛠️Integration Updates:<br />\n🔹Claude Code: Set model to deepseek-v4-pro["
+    },
+    {
+      "title": "As models become more capable, the risks associated with developing and testing them internally also grow. We temporarily paused reinforcement learning (RL) training on our latest models intended for deployment for two weeks while we hardened and red-teamed our research environments and expanded monitoring coverage. Our largest planned frontier RL run remains on hold while smaller-scale training and evaluations validate these safeguards and establish more evidence of alignment. https://openai.com/index/pacing-model-development-cyber-capabilities/",
+      "link": "https://twitter.com/OpenAI/status/2089777845187031262#m",
+      "date": "2026-08-18T18:13:59",
+      "source": "@OpenAI",
+      "summary": "<p>As models become more capable, the risks associated with developing and testing them internally also grow.<br />\n<br />\nWe temporarily paused reinforcement learning (RL) training on our latest mode"
+    },
+    {
+      "title": "R to @OpenAI: We’re sharing the concrete changes we’re making to strengthen monitoring, security, and alignment as capabilities advance. We’ve introduced stronger workload and network isolation, continuous security testing, and expanded multistage monitoring for higher-risk training, evaluations, and tool-using inference. These safeguards are designed to detect concerning behavior quickly and limit what systems can access or affect.",
+      "link": "https://twitter.com/OpenAI/status/2089777846583763370#m",
+      "date": "2026-08-18T18:13:59",
+      "source": "@OpenAI",
+      "summary": "<p>We’re sharing the concrete changes we’re making to strengthen monitoring, security, and alignment as capabilities advance.<br />\n<br />\nWe’ve introduced stronger workload and network isolation, con"
+    },
+    {
       "title": "The Defender’s Window",
       "link": "https://openai.com/index/the-defenders-window",
       "date": "2026-08-17T05:30:00",
@@ -559,149 +699,9 @@
       "date": "2026-07-24T09:50:01",
       "source": "@sophiaefrance",
       "summary": "<p>Et si déplacer quelques tables déplaçait aussi les postures ?<br />\nEspace fermé ＝ “reste à ta place”.<br />\nEspace ouvert ＝ “tu es attendu, tu peux agir”.<br />\nL’ <a href=\"https://nitter.net/sear"
-    },
-    {
-      "title": "The UK’s @AISecurityInst (AISI) has published a report on their recent cybersecurity evaluation of Anthropic’s Claude Mythos 5 and OpenAI’s GPT-5.6 Sol. The models attempted to complete an assignment in a setup where their normal safeguards were removed and they were deliberately given internet access. AISI reports that the models “engaged in sustained, potentially harmful activity directed at real people and organisations”. We’re grateful to AISI for their leadership in the important discussion about how to evaluate increasingly capable AI agents. We’re working closely with them to gather more details of the incident as we conduct our own investigation. Gaining a clear picture of Claude’s understanding of its situation—by examining its reasoning transcripts and running our own analyses—will help us identify the causes of its behavior. The prompts in the evaluation did not impose any specific restrictions on how the internet should be used. This and the removal of safeguards meant that the models were tested under “deliberately permissive conditions” that are not representative of any of our production models. Note that there was no evidence here of an escape from a secure environment. AISI’s disclosure of the incident can be found here: http://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
-      "link": "https://twitter.com/AnthropicAI/status/2084748111239344556#m",
-      "date": "2026-08-04T21:07:37",
-      "source": "@AnthropicAI",
-      "summary": "<p>The UK’s <a href=\"https://nitter.net/AISecurityInst\" title=\"AI Security Institute (AISI)\">@AISecurityInst</a> (AISI) has published a report on their recent cybersecurity evaluation of Anthropic’s C"
-    },
-    {
-      "title": "☁️Mistral is bringing together the inference infrastructure, open models, and long-term commitments Europe needs to control its AI future, and setting a roadmap for the world. 🧵: https://mistral.ai/news/regional-inference-open-models-new-compute/",
-      "link": "https://twitter.com/MistralAI/status/2087305196841922782#m",
-      "date": "2026-08-11T22:28:33",
-      "source": "@MistralAI",
-      "summary": "<p>☁️Mistral is bringing together the inference infrastructure, open models, and long-term commitments Europe needs to control its AI future, and setting a roadmap for the world. 🧵: <a href=\"https://m"
-    },
-    {
-      "title": "R to @MistralAI: 💡The world needs an open-source platform, and that’s exactly what we’re building to give our customers more choice and the flexibility to choose the right model for the right task. As part of this, we’ll continue to innovate in frontier, efficient open models across modalities.",
-      "link": "https://twitter.com/MistralAI/status/2087305205163364555#m",
-      "date": "2026-08-11T22:28:35",
-      "source": "@MistralAI",
-      "summary": "<p>💡The world needs an open-source platform, and that’s exactly what we’re building to give our customers more choice and the flexibility to choose the right model for the right task. As part of this,"
-    },
-    {
-      "title": "R to @MistralAI: ⚡️A coalition that secures long-term AI capacity: We’re aggregating long-term compute demand in Europe to determine what capacity is built, where it’s located, and whom it serves. Through these multi-year commitments, European Compute Units, participants can use the capacity across the range of products available on Mistral Compute as their needs evolve.",
-      "link": "https://twitter.com/MistralAI/status/2087303612418453862#m",
-      "date": "2026-08-11T22:22:16",
-      "source": "@MistralAI",
-      "summary": "<p>⚡️A coalition that secures long-term AI capacity: We’re aggregating long-term compute demand in Europe to determine what capacity is built, where it’s located, and whom it serves. Through these mul"
-    },
-    {
-      "title": "R to @deepseek_ai: ⚠️ Note 🔷 DeepSeek-V4-Flash-0731 keeps the exact same model architecture and size as the preview version. 🔷 Today's upgrade applies ONLY to the DeepSeek-V4-Flash API. The DeepSeek-V4-Pro API and App/Web models remain unchanged for now. The official release of DeepSeek-V4-Pro is coming ASAP! Stay tuned.",
-      "link": "https://twitter.com/deepseek_ai/status/2083084419515220191#m",
-      "date": "2026-07-31T06:56:42",
-      "source": "@deepseek_ai",
-      "summary": "<p>⚠️ Note<br />\n<br />\n🔷 DeepSeek-V4-Flash-0731 keeps the exact same model architecture and size as the preview version.<br />\n🔷 Today's upgrade applies ONLY to the DeepSeek-V4-Flash API. The DeepSee"
-    },
-    {
-      "title": "We are making our discount permanent! 🎉 Enjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀",
-      "link": "https://twitter.com/deepseek_ai/status/2057854261699195173#m",
-      "date": "2026-05-22T16:01:03",
-      "source": "@deepseek_ai",
-      "summary": "<p>We are making our discount permanent! 🎉<br />\n<br />\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀</p>\n<img src=\"https://nitter.net/pic/media%2FHI7xPnWbgAAW4UO.jpg\""
-    },
-    {
-      "title": "Now in preview: The ChatGPT desktop app for Linux. Use ChatGPT, ChatGPT Work, and Codex where you already work and build, with your projects and browser workflows on supported Linux systems.",
-      "link": "https://twitter.com/OpenAI/status/2087231350134980830#m",
-      "date": "2026-08-11T17:35:07",
-      "source": "@OpenAI",
-      "summary": "<p>Now in preview: The ChatGPT desktop app for Linux.<br />\n<br />\nUse ChatGPT, ChatGPT Work, and Codex where you already work and build, with your projects and browser workflows on supported Linux sy"
-    },
-    {
-      "title": "R to @OpenAI: The ChatGPT desktop app is now available in preview for desktop variants of these Linux distributions: • Ubuntu 24.04 LTS and 26.04 LTS • Debian 13 • Fedora 43 and 44 Install with .deb or .rpm packages for x64 or ARM64. http://openai.com/codex",
-      "link": "https://twitter.com/OpenAI/status/2087248033906094175#m",
-      "date": "2026-08-11T18:41:25",
-      "source": "@OpenAI",
-      "summary": "<p>The ChatGPT desktop app is now available in preview for desktop variants of these Linux distributions:<br />\n<br />\n• Ubuntu 24.04 LTS and 26.04 LTS<br />\n• Debian 13<br />\n• Fedora 43 and 44<br />"
-    },
-    {
-      "title": "Après 15 ans d’enseignement, je m’interroge toujours : faire prendre des notes ou distribuer une synthèse pour privilégier l’oral ? Selon cet article, la clé serait moins de tout écrire que de sélectionner, reformuler… et résumer après le cours. 📝🧠 https://www.innerdrive.co.uk/blog/note-taking/",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2080322510189367657#m",
-      "date": "2026-07-23T16:01:51",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>Après 15 ans d’enseignement, je m’interroge toujours : faire prendre des notes ou distribuer une synthèse pour privilégier l’oral ?<br />\nSelon cet article, la clé serait moins de tout écrire que d"
-    },
-    {
-      "title": "✍️ L’IA n’écrit pas toujours à la place des élèves. Elle peut aussi aider à débloquer, reformuler, argumenter… à condition de déplacer le focus : moins le texte final que le raisonnement qui le construit. 🔗 article publié dans The Conversation : https://theconversation.com/les-etudiants-laissent-ils-vraiment-lia-ecrire-a-leur-place-une-etude-observe-ce-qui-se-passe-pendant-la-redaction-279592",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2079235549081096605#m",
-      "date": "2026-07-20T16:02:39",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>✍️ L’IA n’écrit pas toujours à la place des élèves.<br />\nElle peut aussi aider à débloquer, reformuler, argumenter… à condition de déplacer le focus : moins le texte final que le raisonnement qui "
-    },
-    {
-      "title": "📚 Lectures #été2026 Avec \"Former comme une série à succès\", Sarah Akel part des séries pour mieux rappeler l’essentiel : former, ce n’est pas empiler des contenus. C’est concevoir une expérience d’apprentissage : rythme, attention, transposition, implication, progression.",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2076698514713673904#m",
-      "date": "2026-07-13T16:01:23",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>📚 Lectures <a href=\"https://nitter.net/search?f=tweets&amp;q=%23été2026\">#été2026</a><br />\nAvec \"Former comme une série à succès\", Sarah Akel part des séries pour mieux rappeler l’essentiel : form"
-    },
-    {
-      "title": "CompagnonPP : l’application que j’aurais aimé avoir comme professeur principal, et que j’aurai l’an prochain",
-      "link": "https://mathix.org/linux/archives/22618",
-      "date": "2026-07-22T14:22:44",
-      "source": "Mathix (A. Durand)",
-      "summary": "Etre professeur principal, ce n’est pas seulement préparer quelques heures de vie de classe ou remplir les appréciations à la fin du trimestre. C’est suivre une classe entière, préparer les rendez-vou"
-    },
-    {
-      "title": "L’IA n’émancipera pas l’enseignant.",
-      "link": "https://mathix.org/linux/archives/22590",
-      "date": "2026-07-09T11:10:17",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous. Une petite réflexion sur l&#8217;IA et l&#8217;impact sur notre métier. Cette réflexion, elle m&#8217;est venue d&#8217;un échange avec Ju&#8217; et aussi d&#8217;une réflexi"
-    },
-    {
-      "title": "Trace Ta Route : un projet du laboratoire de mathématiques de Loué, présentation et ressources",
-      "link": "https://mathix.org/linux/archives/22495",
-      "date": "2026-06-19T15:40:11",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous ! Voilà le 9 juin, le projet aboutissait à une gigantesque fresque de 84 carrés avec des motifs géométriques sur la route menant au collège (barrée par la mairie pour l&#8217;"
-    },
-    {
-      "title": "Reconquérir le Hors-Classe, un enjeu pour les apprentissages, une IA accompagnatrice pour les parents et enfant au service de l’enseignant",
-      "link": "https://mathix.org/linux/archives/22441",
-      "date": "2026-06-03T07:47:21",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et à tous. A l&#8217;heure de l&#8217;IA, la notion d&#8217;aide à la maison revient en force avec son lot de travers et des bénéfices. D&#8217;abord qu&#8217;attend-on de ces devoirs"
-    },
-    {
-      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-      "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
-      "date": "2026-08-10T14:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans."
-    },
-    {
-      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-      "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "date": "2026-08-10T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing."
-    },
-    {
-      "title": "Putting frontier cyber models in more trusted hands",
-      "link": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "date": "2026-08-10T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers."
-    },
-    {
-      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-      "link": "https://openai.com/index/virgin-atlantic/chatgpt-work",
-      "date": "2026-08-10T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey."
-    },
-    {
-      "title": "We asked an unreleased research version of Claude to take a stab at the Riemann hypothesis. It didn’t solve it, but it did make strides on a related problem: it increased the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis from 41.6% to 67.2%. https://www.anthropic.com/research/riemann-zeta",
-      "link": "https://twitter.com/AnthropicAI/status/2086867246073401655#m",
-      "date": "2026-08-10T17:28:18",
-      "source": "@AnthropicAI",
-      "summary": "<p>We asked an unreleased research version of Claude to take a stab at the Riemann hypothesis.<br />\n<br />\nIt didn’t solve it, but it did make strides on a related problem: it increased the lower bou"
     }
   ],
-  "last_update": "2026-08-18T08:23:47.991640",
+  "last_update": "2026-08-19T08:23:47.882784",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
