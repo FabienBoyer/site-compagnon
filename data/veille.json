@@ -1,6 +1,48 @@
 {
   "articles": [
     {
+      "title": "CompagnonPP : l’application que j’aurais aimé avoir comme professeur principal, et que j’aurai l’an prochain",
+      "link": "https://mathix.org/linux/archives/22618",
+      "date": "2026-07-22T14:22:44",
+      "source": "Mathix (A. Durand)",
+      "summary": "Etre professeur principal, ce n’est pas seulement préparer quelques heures de vie de classe ou remplir les appréciations à la fin du trimestre. C’est suivre une classe entière, préparer les rendez-vou"
+    },
+    {
+      "title": "L’IA n’émancipera pas l’enseignant.",
+      "link": "https://mathix.org/linux/archives/22590",
+      "date": "2026-07-09T11:10:17",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous. Une petite réflexion sur l&#8217;IA et l&#8217;impact sur notre métier. Cette réflexion, elle m&#8217;est venue d&#8217;un échange avec Ju&#8217; et aussi d&#8217;une réflexi"
+    },
+    {
+      "title": "Trace Ta Route : un projet du laboratoire de mathématiques de Loué, présentation et ressources",
+      "link": "https://mathix.org/linux/archives/22495",
+      "date": "2026-06-19T15:40:11",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous ! Voilà le 9 juin, le projet aboutissait à une gigantesque fresque de 84 carrés avec des motifs géométriques sur la route menant au collège (barrée par la mairie pour l&#8217;"
+    },
+    {
+      "title": "Reconquérir le Hors-Classe, un enjeu pour les apprentissages, une IA accompagnatrice pour les parents et enfant au service de l’enseignant",
+      "link": "https://mathix.org/linux/archives/22441",
+      "date": "2026-06-03T07:47:21",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et à tous. A l&#8217;heure de l&#8217;IA, la notion d&#8217;aide à la maison revient en force avec son lot de travers et des bénéfices. D&#8217;abord qu&#8217;attend-on de ces devoirs"
+    },
+    {
+      "title": "Offering Zero Data Retention for frontier models",
+      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "date": "2026-08-19T19:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy."
+    },
+    {
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "link": "https://openai.com/index/replit",
+      "date": "2026-08-19T07:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs."
+    },
+    {
       "title": "CoachLingo",
       "link": "https://www.uneiaparjour.fr/coachlingo/",
       "date": "2026-08-18T20:19:54",
@@ -657,51 +699,9 @@
       "date": "2026-08-04T13:00:00",
       "source": "Google AI",
       "summary": "July AI recap header"
-    },
-    {
-      "title": "Inside our 353,000-person vibe coding course",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "date": "2026-08-03T15:00:00",
-      "source": "Google AI",
-      "summary": "Illustrations of a laptop, an AI spark, messages, code, and a 3-D cube"
-    },
-    {
-      "title": "RT by @nsi_xyz: Je suis un Pro Poutine qui minimise la désinformation Russe. Voilà ce que je lis depuis hier. Ma réponse. A écouter en entier. Merci. Bonne journée.",
-      "link": "https://twitter.com/vinceflibustier/status/2086747014268686831#m",
-      "date": "2026-08-10T09:30:32",
-      "source": "@nsi_xyz",
-      "summary": "<p>Je suis un Pro Poutine qui minimise la désinformation Russe.<br />\n<br />\nVoilà ce que je lis depuis hier. Ma réponse. A écouter en entier. Merci. Bonne journée.</p>\n<a href=\"https://nitter.net/vin"
-    },
-    {
-      "title": "L'IA, la robotique, le travail (humain). https://youtu.be/6Kn4JPcv3dA?is=9bWocZjxzX29qqAR",
-      "link": "https://twitter.com/nsi_xyz/status/2080302419590738400#m",
-      "date": "2026-07-23T14:42:01",
-      "source": "@nsi_xyz",
-      "summary": "<p>L'IA, la robotique, le travail (humain).<br />\n<a href=\"https://piped.video/6Kn4JPcv3dA?is=9bWocZjxzX29qqAR\">piped.video/6Kn4JPcv3dA?is=9bWo…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://piped"
-    },
-    {
-      "title": "La langue utilisée peut faire varier certaines réponses d’une IA mais prudence : cela ne dit rien des opinions des populations qui parlent cette langue. Les LLM reflètent surtout des données, des choix de conception et des contextes d’entraînement. ✍️ Via Mehdi Moussaid",
-      "link": "https://twitter.com/sophiaefrance/status/2084971436607758574#m",
-      "date": "2026-08-05T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>La langue utilisée peut faire varier certaines réponses d’une IA mais prudence : cela ne dit rien des opinions des populations qui parlent cette langue. Les LLM reflètent surtout des données, des c"
-    },
-    {
-      "title": "🤝 Coopérer pour apprendre… et apprendre à coopérer. Le rapport IGÉSR rappelle que le travail en groupe ne suffit pas : rôles explicites, interdépendance, temps de concertation et formation sont essentiels pr renforcer apprentissages et climat de classe. https://www.education.gouv.fr/igesr/les-pratiques-collaboratives-au-service-des-apprentissages-465396",
-      "link": "https://twitter.com/sophiaefrance/status/2082434724325183896#m",
-      "date": "2026-07-29T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🤝 Coopérer pour apprendre… et apprendre à coopérer.<br />\nLe rapport IGÉSR rappelle que le travail en groupe ne suffit pas : rôles explicites, interdépendance, temps de concertation et formation so"
-    },
-    {
-      "title": "Et si déplacer quelques tables déplaçait aussi les postures ? Espace fermé ＝ “reste à ta place”. Espace ouvert ＝ “tu es attendu, tu peux agir”. L’ #aménagement d’une #classe influence interactions, sécurité, #coopération et engagement. #education #pédagogie ✍️ Christophe Caron",
-      "link": "https://twitter.com/sophiaefrance/status/2080591324286157150#m",
-      "date": "2026-07-24T09:50:01",
-      "source": "@sophiaefrance",
-      "summary": "<p>Et si déplacer quelques tables déplaçait aussi les postures ?<br />\nEspace fermé ＝ “reste à ta place”.<br />\nEspace ouvert ＝ “tu es attendu, tu peux agir”.<br />\nL’ <a href=\"https://nitter.net/sear"
     }
   ],
-  "last_update": "2026-08-19T08:23:47.882784",
+  "last_update": "2026-08-20T08:25:21.010197",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
