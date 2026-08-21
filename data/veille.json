@@ -1,6 +1,48 @@
 {
   "articles": [
     {
+      "title": "Introducing AI Futures",
+      "link": "https://openai.com/index/introducing-ai-futures",
+      "date": "2026-08-20T07:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
+    },
+    {
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "link": "https://openai.com/index/stampli",
+      "date": "2026-08-20T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days."
+    },
+    {
+      "title": "Inside our 353,000-person vibe coding course",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "date": "2026-08-03T15:00:00",
+      "source": "Google AI",
+      "summary": "Illustrations of a laptop, an AI spark, messages, code, and a 3-D cube"
+    },
+    {
+      "title": "R to @deepseek_ai: ⚠️ Note 🔷 DeepSeek-V4-Flash-0731 keeps the exact same model architecture and size as the preview version. 🔷 Today's upgrade applies ONLY to the DeepSeek-V4-Flash API. The DeepSeek-V4-Pro API and App/Web models remain unchanged for now. The official release of DeepSeek-V4-Pro is coming ASAP! Stay tuned.",
+      "link": "https://twitter.com/deepseek_ai/status/2083084419515220191#m",
+      "date": "2026-07-31T06:56:42",
+      "source": "@deepseek_ai",
+      "summary": "<p>⚠️ Note<br />\n<br />\n🔷 DeepSeek-V4-Flash-0731 keeps the exact same model architecture and size as the preview version.<br />\n🔷 Today's upgrade applies ONLY to the DeepSeek-V4-Flash API. The DeepSee"
+    },
+    {
+      "title": "We are making our discount permanent! 🎉 Enjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀",
+      "link": "https://twitter.com/deepseek_ai/status/2057854261699195173#m",
+      "date": "2026-05-22T16:01:03",
+      "source": "@deepseek_ai",
+      "summary": "<p>We are making our discount permanent! 🎉<br />\n<br />\nEnjoy building with DeepSeek-V4-Pro and bring your innovative ideas to life! 🚀</p>\n<img src=\"https://nitter.net/pic/media%2FHI7xPnWbgAAW4UO.jpg\""
+    },
+    {
+      "title": "R to @deepseek_ai: 🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views. 🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI. 7/n",
+      "link": "https://twitter.com/deepseek_ai/status/2047516948611960897#m",
+      "date": "2026-04-24T03:24:16",
+      "source": "@deepseek_ai",
+      "summary": "<p>🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.<br />\n🔹 Thank you for your continued"
+    },
+    {
       "title": "CompagnonPP : l’application que j’aurais aimé avoir comme professeur principal, et que j’aurai l’an prochain",
       "link": "https://mathix.org/linux/archives/22618",
       "date": "2026-07-22T14:22:44",
@@ -657,51 +699,9 @@
       "date": "2026-08-06T18:35:57",
       "source": "@OpenAI",
       "summary": "<p>Plus and Pro users can access the updated version of GPT‑5.6 Sol in ChatGPT along with the new slider starting today.<br />\n<br />\nThis version of GPT-5.6 Sol is for everyday chats, so it will only"
-    },
-    {
-      "title": "R to @OpenAI: In addition to the upgrade in intelligence with GPT-5.6 Luna, Free and Go users can now use the “Think” button for more reasoning on harder questions.",
-      "link": "https://twitter.com/OpenAI/status/2085434717051240642#m",
-      "date": "2026-08-06T18:35:56",
-      "source": "@OpenAI",
-      "summary": "<p>In addition to the upgrade in intelligence with GPT-5.6 Luna, Free and Go users can now use the “Think” button for more reasoning on harder questions.</p>"
-    },
-    {
-      "title": "R to @OpenAI: Plus and Pro users also now have a slider to choose how much reasoning effort ChatGPT puts into each response. We think it’s easier to use, and we’re listening to your feedback.",
-      "link": "https://twitter.com/OpenAI/status/2085434715675426889#m",
-      "date": "2026-08-06T18:35:56",
-      "source": "@OpenAI",
-      "summary": "<p>Plus and Pro users also now have a slider to choose how much reasoning effort ChatGPT puts into each response.<br />\n<br />\nWe think it’s easier to use, and we’re listening to your feedback.</p>\n<a"
-    },
-    {
-      "title": "Testing ads in ChatGPT",
-      "link": "https://openai.com/index/testing-ads-in-chatgpt",
-      "date": "2026-08-11T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control."
-    },
-    {
-      "title": "Daybreak models are now available on AWS",
-      "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "date": "2026-08-11T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows."
-    },
-    {
-      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-      "date": "2026-08-11T17:00:00",
-      "source": "Google AI",
-      "summary": "AMIE promotional video"
-    },
-    {
-      "title": "The latest AI news we announced in July 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
-      "date": "2026-08-04T13:00:00",
-      "source": "Google AI",
-      "summary": "July AI recap header"
     }
   ],
-  "last_update": "2026-08-20T08:25:21.010197",
+  "last_update": "2026-08-21T08:27:25.938846",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
