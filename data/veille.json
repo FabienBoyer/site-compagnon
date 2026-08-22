@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "EduquIA",
+      "link": "https://www.uneiaparjour.fr/eduquia/",
+      "date": "2026-08-21T21:12:00",
+      "source": "Une IA par jour",
+      "summary": "EduquIA (https://eduquia.fr/) génère des supports pédagogiques prêts à l&#8217;emploi pour enseignants, étudiants et familles : exercices, fiches de révision, visuels et adaptations de cours. Côté ens"
+    },
+    {
+      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+      "date": "2026-08-11T17:00:00",
+      "source": "Google AI",
+      "summary": "AMIE promotional video"
+    },
+    {
+      "title": "The latest AI news we announced in July 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+      "date": "2026-08-04T13:00:00",
+      "source": "Google AI",
+      "summary": "July AI recap header"
+    },
+    {
       "title": "Introducing AI Futures",
       "link": "https://openai.com/index/introducing-ai-futures",
       "date": "2026-08-20T07:00:00",
@@ -678,30 +699,9 @@
       "date": "2026-07-24T16:59:51",
       "source": "@AnthropicAI",
       "summary": "<p>Introducing Claude Opus 5.<br />\n<br />\nIt's a thoughtful and proactive model that comes close to the frontier intelligence of Fable 5 at half the price.</p>\n<a href=\"https://nitter.net/claudeai/st"
-    },
-    {
-      "title": "The Solutions team @MistralAI is hiring globally! If you’re entrepreneurial, hands-on, and want to shape how enterprises adopt AI, let’s talk. Apply: https://mistral.ai/careers/?utm_source=linkedin&utm_medium=social&utm_campaign=global_recruiting",
-      "link": "https://twitter.com/MistralAI/status/2075131809638088865#m",
-      "date": "2026-07-09T08:15:52",
-      "source": "@MistralAI",
-      "summary": "<p>The Solutions team <a href=\"https://nitter.net/MistralAI\" title=\"Mistral AI\">@MistralAI</a> is hiring globally!<br />\n<br />\nIf you’re entrepreneurial, hands-on, and want to shape how enterprises a"
-    },
-    {
-      "title": "🚀 DeepSeek-V4-Flash Official API is now LIVE in public beta! 🔷 We’ve massively upgraded its Agent capabilities—benchmark scores are now far surpassing the V4-Pro-Preview. Check out the massive performance leap below! 👇 🔷 The official V4-Flash now natively supports the Responses API format and is fully adapted for Codex! Check out the configuration details in our official API docs: https://api-docs.deepseek.com/quick_start/agent_integrations/codex",
-      "link": "https://twitter.com/deepseek_ai/status/2083084415157022911#m",
-      "date": "2026-07-31T06:56:41",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 DeepSeek-V4-Flash Official API is now LIVE in public beta!<br />\n<br />\n🔷 We’ve massively upgraded its Agent capabilities—benchmark scores are now far surpassing the V4-Pro-Preview. Check out the"
-    },
-    {
-      "title": "R to @OpenAI: Plus and Pro users can access the updated version of GPT‑5.6 Sol in ChatGPT along with the new slider starting today. This version of GPT-5.6 Sol is for everyday chats, so it will only be available in the Chat experience in ChatGPT. The version of GPT-5.6 Sol that powers Work and Codex is not changing as part of this release. https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
-      "link": "https://twitter.com/OpenAI/status/2085434718393418101#m",
-      "date": "2026-08-06T18:35:57",
-      "source": "@OpenAI",
-      "summary": "<p>Plus and Pro users can access the updated version of GPT‑5.6 Sol in ChatGPT along with the new slider starting today.<br />\n<br />\nThis version of GPT-5.6 Sol is for everyday chats, so it will only"
     }
   ],
-  "last_update": "2026-08-21T08:27:25.938846",
+  "last_update": "2026-08-22T08:17:13.195469",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
