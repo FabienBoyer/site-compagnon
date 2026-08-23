@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Learn Leap",
+      "link": "https://www.uneiaparjour.fr/learn-leap/",
+      "date": "2026-08-22T20:23:20",
+      "source": "Une IA par jour",
+      "summary": "Learn Leap (https://learnleap.xyz/) fait office de tuteur IA qui enseigne pas à pas à partir d&#8217;un document importé. Une fois le document chargé, une conversation par étapes débute jusqu&#8217;à "
+    },
+    {
       "title": "EduquIA",
       "link": "https://www.uneiaparjour.fr/eduquia/",
       "date": "2026-08-21T21:12:00",
@@ -692,16 +699,9 @@
       "date": "2026-07-30T23:02:34",
       "source": "@AnthropicAI",
       "summary": "<p>In a review of our cybersecurity evaluations, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and t"
-    },
-    {
-      "title": "RT by @AnthropicAI: Introducing Claude Opus 5. It's a thoughtful and proactive model that comes close to the frontier intelligence of Fable 5 at half the price.",
-      "link": "https://twitter.com/claudeai/status/2080699495453528290#m",
-      "date": "2026-07-24T16:59:51",
-      "source": "@AnthropicAI",
-      "summary": "<p>Introducing Claude Opus 5.<br />\n<br />\nIt's a thoughtful and proactive model that comes close to the frontier intelligence of Fable 5 at half the price.</p>\n<a href=\"https://nitter.net/claudeai/st"
     }
   ],
-  "last_update": "2026-08-22T08:17:13.195469",
+  "last_update": "2026-08-23T08:17:59.623317",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
