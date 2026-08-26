@@ -1,6 +1,41 @@
 {
   "articles": [
     {
+      "title": "The full stack behind abundant intelligence",
+      "link": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "date": "2026-08-25T07:05:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost."
+    },
+    {
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "link": "https://openai.com/index/jalapeno-first-results",
+      "date": "2026-08-25T07:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models."
+    },
+    {
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "date": "2026-08-25T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West."
+    },
+    {
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "link": "https://openai.com/index/introducing-admin-plugin",
+      "date": "2026-08-25T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests."
+    },
+    {
+      "title": "5 ways to upgrade your home decor with Google Search",
+      "link": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
+      "date": "2026-08-25T16:00:00",
+      "source": "Google AI",
+      "summary": "Illustration of ombre rainbow furniture items like a sofa, lamp, and chair against a purple background"
+    },
+    {
       "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
       "link": "https://openai.com/index/gpt-5-6-in-kiro",
       "date": "2026-08-24T12:00:00",
@@ -664,44 +699,9 @@
       "date": "2026-07-15T16:00:53",
       "source": "@MIKL_Bertrand",
       "summary": "<p>🤖 J’ai demandé à une IA d’analyser la cohérence entre mes objectifs, mes activités et mes évaluations.<br />\nJ’étais confiant. Son diagnostic l’était moins...<br />\n💡 L’IA devient vraiment utile qu"
-    },
-    {
-      "title": "GPT-Live",
-      "link": "https://www.uneiaparjour.fr/gpt-live/",
-      "date": "2026-08-05T19:36:00",
-      "source": "Une IA par jour",
-      "summary": "GPT-Live (https://openai.com/index/introducing-gpt-live/) est le nouveau modèle vocal d&#8217;OpenAI qui alimente ChatGPT Voix, les conversations en temps réel avec écoute et paroles simultanées. GPT-"
-    },
-    {
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "date": "2026-08-12T06:00:00",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption."
-    },
-    {
-      "title": "How RingCentral builds AI-native work from engineering to ops",
-      "link": "https://openai.com/index/ringcentral",
-      "date": "2026-08-12T00:00:00",
-      "source": "OpenAI Blog",
-      "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations."
-    },
-    {
-      "title": "Create, edit and star in videos with two Google Vids updates",
-      "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-      "date": "2026-07-16T16:00:00",
-      "source": "Google AI",
-      "summary": "Text \"Gemini Omni and Personal Avatars in Google Vids\" surrounded by various images"
-    },
-    {
-      "title": "🚨 Équiper les écoles ne suffit pas! Sans formation #enseignants, sans stratégie pédagogique et sans lutte contre les inégalités, le #numérique reste un outil sous-exploité. La #DEPP livre 5️⃣ enseignements essentiels pr passer du matériel à l’impact réel. https://edtechactu.com/evaluation/numerique-a-lecole-cinq-enseignements-cles-du-rapport-de-la-depp/",
-      "link": "https://twitter.com/sophiaefrance/status/2087508153789260160#m",
-      "date": "2026-08-12T11:55:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🚨 Équiper les écoles ne suffit pas!<br />\nSans formation <a href=\"https://nitter.net/search?f=tweets&amp;q=%23enseignants\">#enseignants</a>, sans stratégie pédagogique et sans lutte contre les inég"
     }
   ],
-  "last_update": "2026-08-25T08:30:04.380275",
+  "last_update": "2026-08-26T08:30:58.919921",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
