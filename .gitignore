@@ -1,0 +1,53 @@
+# ---- Sauvegardes de pages web (signets Twitter, bookmarks) ----
+*_fichiers/
+bookmarks*/
+bookmarks*.htm
+bookmarks*.html
+bookmarks*_analysis.txt
+signets*twitter*.htm
+signets*twitter*.html
+new_bookmarks_analysis*.txt
+
+# ---- Projets externes (ont leur propre depot) ----
+projet PP suivi des eleves/
+pp-tracker/
+
+# ---- Executables et installeurs lourds ----
+*.exe
+*.msi
+*.zip
+
+# ---- Secrets : ne JAMAIS committer ----
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+keys/
+
+# ---- Donnees personnelles / eleves ----
+*.db
+*.db-shm
+*.db-wal
+logs/
+
+# ---- Environnements et dependances ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+dist/
+build/
+target/
+
+# ---- Fichiers de travail temporaires ----
+audit_site_complet.md
+*.tmp
+*.bak
+
+# ---- Systeme ----
+.DS_Store
+Thumbs.db
+desktop.ini
