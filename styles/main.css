@@ -996,6 +996,91 @@ button {
 /* ----------------------------------------
    Dropdown Navigation
    ---------------------------------------- */
+
+/* ----------------------------------------
+   Page d'accueil - direction éditoriale
+   ---------------------------------------- */
+:root {
+    --color-primary: #bd3f32;
+    --color-primary-light: #d85a42;
+    --color-primary-dark: #842a25;
+    --color-accent: #f3c536;
+    --bg-primary: #fffaf3;
+    --bg-secondary: #f6eee5;
+    --bg-tertiary: #eadbce;
+    --text-primary: #201b18;
+    --text-secondary: #655a53;
+    --text-tertiary: #8b7b70;
+    --border-color: #e6d8cb;
+    --radius-lg: 0.25rem;
+    --radius-xl: 0.35rem;
+    --radius-2xl: 0.5rem;
+    --font-sans: Georgia, 'Times New Roman', serif;
+    --font-body: 'Open Sans', Arial, sans-serif;
+}
+
+[data-theme="dark"] {
+    --bg-primary: #241d1a;
+    --bg-secondary: #302622;
+    --bg-tertiary: #493a32;
+    --bg-card: #2b231f;
+    --text-primary: #fffaf3;
+    --text-secondary: #dbcfc5;
+    --text-tertiary: #b8a79b;
+    --border-color: #54443a;
+}
+
+.header {
+    background: var(--bg-primary);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    box-shadow: 0 1px 0 var(--border-color);
+}
+
+.logo-text { letter-spacing: -0.02em; }
+.logo-icon { filter: grayscale(1); }
+.nav-link:hover, .nav-link.active { background: transparent; color: var(--color-primary); }
+.btn { border-radius: 0.2rem; }
+.btn-primary { background: var(--color-primary); box-shadow: none; }
+.btn-primary:hover { transform: none; background: var(--color-primary-dark); box-shadow: none; }
+.btn-secondary { background: transparent; border-color: var(--color-primary); }
+
+.hero { padding-top: 9rem; padding-bottom: 6rem; }
+.hero-gradient { background: linear-gradient(120deg, rgba(243,197,54,.14), transparent 55%); }
+.hero-pattern { display: none; }
+.hero-badge, .section-badge { padding: 0; border: 0; border-radius: 0; background: transparent; color: var(--color-primary); text-transform: uppercase; letter-spacing: .12em; }
+.hero-title { font-size: clamp(2.5rem, 5vw, 4.6rem); font-weight: 700; letter-spacing: -.045em; }
+.text-gradient { background: none; -webkit-text-fill-color: initial; color: var(--color-primary); }
+.hero-subtitle { font-size: 1.08rem; line-height: 1.8; }
+.hero-stat-value { color: var(--color-primary); }
+.hero-visual { align-items: center; }
+.book-cover { width: 300px; height: auto; aspect-ratio: 0.6875; background: transparent; border-radius: 0; transform: rotate(2deg); box-shadow: 12px 18px 0 rgba(189,63,50,.14); }
+.book-cover a, .book-cover img { width: 100%; height: 100%; }
+.book-cover img { object-fit: cover; clip-path: inset(1px); }
+.book-card:hover .book-cover { transform: rotate(0); }
+.book-glow { display: none; }
+.features { background: var(--bg-secondary); }
+.section-header { text-align: left; max-width: 700px; }
+.section-subtitle { margin-left: 0; }
+.features-grid { grid-template-columns: repeat(3, 1fr); gap: 0; border-top: 1px solid var(--border-color); border-left: 1px solid var(--border-color); }
+.feature-card { padding: 1.75rem; border-radius: 0; border-top: 0; border-left: 0; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); box-shadow: none; }
+.feature-card:hover { transform: none; scale: none; box-shadow: inset 0 3px 0 var(--color-primary); border-color: var(--border-color); }
+.feature-icon { width: auto; height: auto; background: transparent !important; color: var(--color-primary); justify-content: flex-start; margin-bottom: 1rem; }
+.feature-icon svg { color: var(--color-primary); width: 22px; height: 22px; }
+.feature-title { font-size: 1.35rem; }
+.about-section { background: var(--bg-primary); }
+.about-card { border-radius: 0; background: var(--bg-secondary); border-left: 4px solid var(--color-accent); }
+.cta-card { border-radius: .25rem; background: var(--color-primary); }
+.footer { background: #201b18; color: #fffaf3; }
+.footer h4, .footer .logo, .footer .logo:hover { color: #fffaf3; }
+.footer-description, .footer-links a { color: #d8c9bd; }
+.footer-bottom { border-color: #55443a; }
+
+@media (max-width: 768px) {
+    .features-grid { grid-template-columns: 1fr; }
+    .section-header { text-align: left; }
+    .book-cover { width: 230px; }
+}
 .nav-item {
     position: relative;
 }

@@ -253,10 +253,6 @@ def update_veille_html(new_articles: list):
         print("veille.html not found")
         return
     
-    if not new_articles:
-        print("No new articles to include.")
-        return
-
     with open(VEILLE_HTML, 'r', encoding='utf-8') as f:
         html = f.read()
     
@@ -270,6 +266,20 @@ def update_veille_html(new_articles: list):
                  "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"]
     now = datetime.now()
     current_month_str = f"{months_fr[now.month - 1]} {now.year}"
+
+    # Keep the page header synchronized even when a run finds no new article.
+    alert = soup.find('div', class_='alert-info')
+    if alert:
+        strong = alert.find('strong')
+        if strong:
+            strong.replace_with('🆕 Mis à jour :')
+        alert.append(f" {current_month_str} — veille actualisée régulièrement")
+
+    if not new_articles:
+        with open(VEILLE_HTML, 'w', encoding='utf-8') as f:
+            f.write(str(soup))
+        print("No new articles to include; header synchronized.")
+        return
     
     # Find the container for monthly updates
     # We look for the h2 with "Mises à jour mensuelles"
