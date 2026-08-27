@@ -41,7 +41,7 @@ async function loadPrompts() {
         // Group by subject (Category)
         const groupedPrompts = {};
         prompts.forEach(p => {
-            const category = p.subject || "Autres";
+            const category = p.part || "Autres";
             if (!groupedPrompts[category]) {
                 groupedPrompts[category] = [];
             }
@@ -50,6 +50,11 @@ async function loadPrompts() {
 
         // Icon mapping for categories
         const categoryIcons = {
+            "Méthodes Transversales": "layers",
+            "Dans votre Discipline": "graduation-cap",
+            "Pilotage et Vie Scolaire": "building",
+            "Vers le Professeur Augmenté": "rocket",
+            "Annexes": "folder",
             "Préparation de cours": "book-open",
             "Évaluation": "clipboard-check",
             "Gestion de classe": "users",
@@ -73,6 +78,11 @@ async function loadPrompts() {
         // The original order in annexe_prompts.tex:
         // Préparation de cours, Évaluation, Gestion de classe, Aide aux élèves, Disciplines, Productivité
         const orderedCategories = [
+            "Méthodes Transversales",
+            "Dans votre Discipline",
+            "Pilotage et Vie Scolaire",
+            "Vers le Professeur Augmenté",
+            "Annexes",
             "Préparation de cours",
             "Évaluation",
             "Gestion de classe",
@@ -115,6 +125,11 @@ async function loadPrompts() {
                     if (titleMatch) {
                         displayNumber = titleMatch[1];
                         displayTitle = titleMatch[2];
+                    } else {
+                        // Sinon on derive le numero de l'identifiant (p002 -> 2),
+                        // sans quoi la pastille deborde de son cercle
+                        const idMatch = String(p.id).match(/(\d+)\s*$/);
+                        if (idMatch) displayNumber = String(parseInt(idMatch[1], 10));
                     }
 
                     // Reconstruct clean multi-line content for copy
@@ -145,6 +160,7 @@ async function loadPrompts() {
                                 <button class="copy-btn" data-content="${encodeURIComponent(copyContent)}" title="Copier"><i data-lucide="copy"></i></button>
                             </div>
                             <div class="prompt-body">
+                                ${p.chapter ? `<p class="prompt-meta-line">${p.subject && p.subject !== p.chapter ? p.subject + ' \u00b7 ' : ''}${p.chapter}</p>` : ''}
                                 ${renderCrofi(p.structure, p.content)}
                             </div>
                         </article>
