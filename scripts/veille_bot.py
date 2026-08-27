@@ -8,10 +8,12 @@ import feedparser
 import json
 import os
 import re
+from html import escape
 from datetime import datetime, timedelta
 from pathlib import Path
 import urllib.request
 import urllib.error
+from urllib.parse import urlsplit, urlunsplit
 import socket
 from bs4 import BeautifulSoup
 
@@ -24,6 +26,8 @@ PROJECT_DIR = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_DIR / "data"
 VEILLE_JSON = DATA_DIR / "veille.json"
 VEILLE_HTML = PROJECT_DIR / "veille.html"
+MAX_STORED_ARTICLES = 100
+MAX_HTML_ITEMS_PER_MONTH = 100
 
 # Sources RSS
 RSS_SOURCES = {
@@ -162,6 +166,15 @@ def calculate_score(article: dict) -> int:
         
     return score
 
+def normalize_link(link: str) -> str:
+    """Return a stable comparison key for an article URL."""
+    link = str(link or '').strip()
+    if not link:
+        return ''
+    parts = urlsplit(link)
+    path = parts.path.rstrip('/') or '/'
+    return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), path, parts.query, ''))
+
 def filter_ai_content(articles: list) -> list:
     """Filter articles based on score"""
     filtered = []
@@ -219,13 +232,16 @@ def generate_html_updates(articles: list) -> str:
     
     html_items = []
     for article in articles[:20]:  # Top 20 most recent
-        tag_class = "update-new" if "nouveau" in article.get('title', '').lower() else "update-update"
+        title = str(article.get('title', 'Sans titre'))
+        link = str(article.get('link', ''))
+        source = str(article.get('source', 'Source inconnue'))
+        tag_class = "update-new" if "nouveau" in title.lower() else "update-update"
         html_items.append(f'''
                                 <div class="update-item {tag_class}">
                                     <span class="update-tag">Nouveau</span>
                                     <div class="update-content">
-                                        <strong><a href="{article['link']}" target="_blank" rel="noopener">{article['title']}</a></strong>
-                                        <span class="update-source">— {article['source']}</span>
+                                        <strong><a href="{escape(link, quote=True)}" target="_blank" rel="noopener">{escape(title)}</a></strong>
+                                        <span class="update-source">— {escape(source)}</span>
                                     </div>
                                 </div>''')
     
@@ -308,6 +324,12 @@ def update_veille_html(new_articles: list):
                 items_container.insert(0, new_items_soup)
             else:
                 items_container.append(new_items_soup)
+            # Keep one month readable even if a feed suddenly produces a
+            # large burst of relevant items. Older months are left untouched
+            # until the dedicated history migration is approved.
+            month_items = items_container.find_all('div', class_='update-item', recursive=False)
+            for old_item in month_items[MAX_HTML_ITEMS_PER_MONTH:]:
+                old_item.decompose()
     else:
         print(f"Creating new card for {current_month_str}")
         
@@ -348,7 +370,7 @@ def main():
     
     # Load existing data
     data = load_existing_data()
-    existing_links = {a['link'] for a in data['articles']}
+    existing_links = {normalize_link(a.get('link', '')) for a in data['articles']}
     
     # Fetch all RSS feeds
     all_articles = []
@@ -370,18 +392,19 @@ def main():
     print(f"AI-related: {len(ai_articles)} articles")
     
     # Find new articles
-    new_articles = [a for a in ai_articles if a['link'] not in existing_links]
+    new_articles = [a for a in ai_articles if normalize_link(a.get('link', '')) not in existing_links]
     print(f"New articles: {len(new_articles)}")
     
     if new_articles:
         # Update data
         data['articles'] = new_articles + data['articles']
-        data['articles'] = data['articles'][:100]  # Keep last 100
+        data['articles'] = data['articles'][:MAX_STORED_ARTICLES]
         data['last_update'] = datetime.now().isoformat()
         save_data(data)
         
-    # Always update HTML with latest data (top 20)
-    update_veille_html(data['articles'])
+    # Update the HTML only with genuinely new articles. Passing the full
+    # retained dataset here re-inserted the same 20 articles at every run.
+    update_veille_html(new_articles)
     
     print("Done!")
     return len(new_articles)

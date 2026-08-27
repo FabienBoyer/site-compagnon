@@ -46,6 +46,8 @@ target/
 audit_site_complet.md
 *.tmp
 *.bak
+veille.html.before-*
+work/
 
 # ---- Systeme ----
 .DS_Store

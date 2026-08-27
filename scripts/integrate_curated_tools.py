@@ -15,6 +15,9 @@ import json
 import glob
 from datetime import datetime
 
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
+
 # French months mapping
 MONTHS_FR = {
     "01": "Janvier",
@@ -33,11 +36,11 @@ MONTHS_FR = {
 
 def get_latest_tools_file():
     """Finds the latest tools JSON file in veille-outils-ia/output/."""
-    pattern = os.path.join("veille-outils-ia", "output", "tools-*.json")
+    pattern = os.path.join(PROJECT_DIR, "veille-outils-ia", "output", "tools-*.json")
     files = glob.glob(pattern)
     if not files:
         # Check current directory fallback
-        pattern = os.path.join("output", "tools-*.json")
+        pattern = os.path.join(PROJECT_DIR, "output", "tools-*.json")
         files = glob.glob(pattern)
         
     if not files:
@@ -92,7 +95,7 @@ def map_keywords_to_tags(keywords):
 
 def update_index_html(tools_list, month_str):
     """Updates the Veille card description on index.html."""
-    filepath = "index.html"
+    filepath = os.path.join(PROJECT_DIR, "index.html")
     if not os.path.exists(filepath):
         print(f"⚠️ {filepath} not found")
         return
@@ -119,7 +122,7 @@ def update_index_html(tools_list, month_str):
 
 def update_outils_html(tools_list, month_str):
     """Updates the tools list inside outils.html."""
-    filepath = "outils.html"
+    filepath = os.path.join(PROJECT_DIR, "outils.html")
     if not os.path.exists(filepath):
         print(f"⚠️ {filepath} not found")
         return
@@ -196,7 +199,7 @@ def update_outils_html(tools_list, month_str):
 
 def update_veille_html(tools_list, month_str):
     """Inserts a beautiful summary card under monthly updates on veille.html."""
-    filepath = "veille.html"
+    filepath = os.path.join(PROJECT_DIR, "veille.html")
     if not os.path.exists(filepath):
         print(f"⚠️ {filepath} not found")
         return

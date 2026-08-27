@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prompts du Livre - Enseigner avec l'IA</title>
     <meta name="description" content="Tous les prompts du livre organisés par chapitre et par matière.">
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="ethicia/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -171,7 +171,7 @@
                     <h4 class="footer-title">Contact</h4>
                     <ul>
                         <li>
-                            <a href="https://twitter.com/" target="_blank" rel="noopener">
+                            <a href="https://x.com/" target="_blank" rel="noopener">
                                 <i data-lucide="twitter"></i>
                                 Twitter
                             </a>
@@ -303,12 +303,45 @@
                 `;
 
                 // Copy functionality
-                card.querySelector('.copy-btn').addEventListener('click', function () {
-                    navigator.clipboard.writeText(prompt.content);
-                    this.innerHTML = '<i data-lucide="check"></i>';
+                card.querySelector('.copy-btn').addEventListener('click', async function () {
+                    const button = this;
+                    let copied = false;
+
+                    try {
+                        if (navigator.clipboard?.writeText) {
+                            await navigator.clipboard.writeText(prompt.content);
+                            copied = true;
+                        }
+                    } catch (error) {
+                        console.warn('Copie moderne indisponible, tentative de secours.', error);
+                    }
+
+                    if (!copied) {
+                        const fallback = document.createElement('textarea');
+                        fallback.value = prompt.content;
+                        fallback.setAttribute('readonly', '');
+                        fallback.style.position = 'fixed';
+                        fallback.style.opacity = '0';
+                        document.body.appendChild(fallback);
+                        fallback.select();
+                        try {
+                            copied = document.execCommand('copy');
+                        } catch (error) {
+                            console.warn('Copie de secours impossible.', error);
+                        }
+                        fallback.remove();
+                    }
+
+                    button.title = copied ? 'Prompt copié' : 'Copie impossible';
+                    button.setAttribute('aria-label', button.title);
+                    button.innerHTML = copied
+                        ? '<i data-lucide="check"></i>'
+                        : '<i data-lucide="alert-circle"></i>';
                     lucide.createIcons();
                     setTimeout(() => {
-                        this.innerHTML = '<i data-lucide="copy"></i>';
+                        button.title = 'Copier le prompt';
+                        button.setAttribute('aria-label', button.title);
+                        button.innerHTML = '<i data-lucide="copy"></i>';
                         lucide.createIcons();
                     }, 2000);
                 });

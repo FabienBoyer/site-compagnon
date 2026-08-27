@@ -9,7 +9,7 @@
         content="Discutez avec l'assistant IA du livre. Posez vos questions sur le contenu, les outils et les méthodes recommandées.">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="ethicia/favicon.ico">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -352,7 +352,7 @@
                     <ul class="assistant-features">
                         <li><i data-lucide="check-circle-2"></i> Réponse immédiate</li>
                         <li><i data-lucide="check-circle-2"></i> Directement ici</li>
-                        <li><i data-lucide="check-circle-2"></i> Technologie RAG (Mistral)</li>
+                        <li><i data-lucide="check-circle-2"></i> Technologie RAG (Qwen)</li>
                     </ul>
                     <button onclick="document.getElementById('hf-chatbot-wrap').scrollIntoView({behavior: 'smooth'})"
                         class="btn btn-secondary btn-block">
@@ -366,6 +366,21 @@
                 <iframe class="chatbot-iframe" src="https://dw4rf-chatbot-livre-ia.hf.space"
                     title="Assistant IA du Livre">
                 </iframe>
+            </div>
+
+            <div class="chatbot-note">
+                <h3>Pourquoi la première réponse peut-elle prendre un peu de temps ?</h3>
+                <p>
+                    Cet assistant fonctionne dans un Space Hugging Face qui peut se mettre en veille lorsqu’il n’est
+                    pas utilisé. Le premier message doit alors réveiller le service ; les suivants sont généralement
+                    plus rapides. Le chatbot Qwen est une version expérimentale, conçue pour rechercher dans les
+                    ressources du livre. Pour une exploration documentaire plus approfondie, NotebookLM reste le
+                    choix recommandé.
+                </p>
+                <p>
+                    Évitez de saisir des données personnelles ou des informations confidentielles concernant vos
+                    élèves : utilisez des exemples anonymisés.
+                </p>
             </div>
 
             <!-- Features Grid -->
@@ -477,7 +492,7 @@
                     <h4 class="footer-title">Contact</h4>
                     <ul>
                         <li>
-                            <a href="https://twitter.com/" target="_blank" rel="noopener">
+                            <a href="https://x.com/" target="_blank" rel="noopener">
                                 <i data-lucide="twitter"></i>
                                 Twitter
                             </a>
