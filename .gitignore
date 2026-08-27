@@ -55,3 +55,6 @@ desktop.ini
 # ---- Depot imbrique : veille-outils-ia a son propre depot GitHub ----
 # (FabienBoyer/veille-outils-ia) - a arbitrer : fusionner ici ou garder separe
 veille-outils-ia/
+
+# ---- Assistant Hugging Face : depot imbrique, garde hors du site public ----
+chatbot-rag/
