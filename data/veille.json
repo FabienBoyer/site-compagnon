@@ -1,6 +1,48 @@
 {
   "articles": [
     {
+      "title": "Revise",
+      "link": "https://www.uneiaparjour.fr/revise/",
+      "date": "2026-08-26T20:52:00",
+      "source": "Une IA par jour",
+      "summary": "Revise (https://revise.io/) est un traitement de texte en ligne avec agent IA intégré qui édite des documents directement dans le navigateur. Les fichiers DOCX, PDF ou Markdown peuvent être importés t"
+    },
+    {
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "date": "2026-08-27T09:00:00",
+      "source": "OpenAI Blog",
+      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment."
+    },
+    {
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "date": "2026-08-26T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff."
+    },
+    {
+      "title": "Learning never stops: How AI makes learning continuous",
+      "link": "https://openai.com/index/learning-never-stops",
+      "date": "2026-08-26T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
+    },
+    {
+      "title": "The Hugging Face incident and the road ahead",
+      "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "date": "2026-08-26T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment."
+    },
+    {
+      "title": "3 new ways to plan and book travel in Search",
+      "link": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "date": "2026-08-27T16:00:00",
+      "source": "Google AI",
+      "summary": "Graphic depicting new travel features for AI Mode in Search"
+    },
+    {
       "title": "The full stack behind abundant intelligence",
       "link": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
       "date": "2026-08-25T07:05:00",
@@ -657,51 +699,9 @@
       "date": "2026-08-13T12:10:25",
       "source": "@Fabien_Mikol",
       "summary": "<p>\"Nous quittons le paradigme informatique d'un programme déterministe à qui l'on donne des instructions en sachant ce qu'il renverra. Les réseaux de neurones sont probabilistes, ce qui pose des prob"
-    },
-    {
-      "title": "RT by @Fabien_Mikol: Sondage avancées de l'IA A votre avis dans moins de deux ans, une IA (assistée ou pas) résout un problème du millénaire ?",
-      "link": "https://twitter.com/enraje/status/2087837784459391113#m",
-      "date": "2026-08-13T09:44:52",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Sondage avancées de l'IA<br />\n<br />\nA votre avis dans moins de deux ans, une IA (assistée ou pas) résout un problème du millénaire ?</p>\n<hr />\n<b>Poll</b>\n<p>\n74% — Oui<br />\n26% — Non<br />\n<i>"
-    },
-    {
-      "title": "Quel article 😬 @alexstamos : Des criminels et des services de renseignement étatiques vont utiliser des essaims d'agents pour lancer des attaques sophistiquées \"d'ici quelques mois\", et \"dans ces cas-là, les modèles ne seront pas éteints ; ils continueront, tout simplement\". 🧵",
-      "link": "https://twitter.com/Fabien_Mikol/status/2087866929012683080#m",
-      "date": "2026-08-13T11:40:41",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Quel article 😬<br />\n<a href=\"https://nitter.net/alexstamos\" title=\"Alex Stamos\">@alexstamos</a> : Des criminels et des services de renseignement étatiques vont utiliser des essaims d'agents pour l"
-    },
-    {
-      "title": "R to @Fabien_Mikol: \"Les entreprises d'IA ont foncé tête baissée dans le développement de modèles toujours plus avancés avant de comprendre ce qu'elles construisaient, et a fortiori comment le contrôler\" Le problème n'est pas la conscience mais la convergence instrumentale ⤵️",
-      "link": "https://twitter.com/Fabien_Mikol/status/2087866935702634857#m",
-      "date": "2026-08-13T11:40:42",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>\"Les entreprises d'IA ont foncé tête baissée dans le développement de modèles toujours plus avancés avant de comprendre ce qu'elles construisaient, et a fortiori comment le contrôler\"<br />\nLe prob"
-    },
-    {
-      "title": "IA à l’école : le rapport @ChudeauR / @celinecalvez pousse fort sur la formation des enseignants. Mais l’usage de l’IA dès la 6e interroge, face au cadre MEN actuel et aux repères UNESCO. 🔗 https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2993_rapport-information#_Toc256000109 #IA #Éducation",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2079598005770940544#m",
-      "date": "2026-07-21T16:02:56",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>IA à l’école : le rapport <a href=\"https://nitter.net/ChudeauR\" title=\"Roger Chudeau\">@ChudeauR</a> / <a href=\"https://nitter.net/celinecalvez\" title=\"Céline Calvez\">@celinecalvez</a> pousse fort s"
-    },
-    {
-      "title": "🧠 Un bon prompt n’est pas une formule magique. C’est une consigne de travail. Dans \"J’apprends avec l’IA\", deux niveaux de prompts aident les élèves à comprendre, vérifier et progresser sans laisser l’outil décider à leur place. 📚️ https://www.magnard.fr/livre/9782210787933-j-apprends-avec-l-ia",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2077785844027363565#m",
-      "date": "2026-07-16T16:02:03",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🧠 Un bon prompt n’est pas une formule magique. C’est une consigne de travail.<br />\n<br />\nDans \"J’apprends avec l’IA\", deux niveaux de prompts aident les élèves à comprendre, vérifier et progresse"
-    },
-    {
-      "title": "🤖 J’ai demandé à une IA d’analyser la cohérence entre mes objectifs, mes activités et mes évaluations. J’étais confiant. Son diagnostic l’était moins... 💡 L’IA devient vraiment utile quand elle questionne nos pratiques. 🔗 https://etreprof.fr/ateliers/1352/comment-repenser-levaluation-et-la-triche-a-lere-de-lia-secondaire",
-      "link": "https://twitter.com/MIKL_Bertrand/status/2077423162673766461#m",
-      "date": "2026-07-15T16:00:53",
-      "source": "@MIKL_Bertrand",
-      "summary": "<p>🤖 J’ai demandé à une IA d’analyser la cohérence entre mes objectifs, mes activités et mes évaluations.<br />\nJ’étais confiant. Son diagnostic l’était moins...<br />\n💡 L’IA devient vraiment utile qu"
     }
   ],
-  "last_update": "2026-08-26T08:30:58.919921",
+  "last_update": "2026-08-27T18:37:49.040452",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
