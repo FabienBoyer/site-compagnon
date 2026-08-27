@@ -84,11 +84,6 @@
                         <label for="filter-part">Partie</label>
                         <select id="filter-part">
                             <option value="">Toutes les parties</option>
-                            <option value="P1 - Comprendre">P1 - Comprendre</option>
-                            <option value="P2 - Méthodes">P2 - Méthodes</option>
-                            <option value="P3 - Disciplines">P3 - Disciplines</option>
-                            <option value="P4 - Métiers">P4 - Métiers</option>
-                            <option value="P5 - Futur">P5 - Futur</option>
                         </select>
                     </div>
                     <div class="filter-group">
@@ -229,6 +224,17 @@
                 option.value = subject;
                 option.textContent = subject;
                 select.appendChild(option);
+            });
+
+            // Les parties sont deduites des donnees : des libelles ecrits a la main
+            // finissaient par ne plus rien filtrer du tout
+            const parts = [...new Set(allPrompts.map(p => p.part).filter(Boolean))].sort();
+            const partSelect = document.getElementById('filter-part');
+            parts.forEach(part => {
+                const option = document.createElement('option');
+                option.value = part;
+                option.textContent = part;
+                partSelect.appendChild(option);
             });
         }
 
