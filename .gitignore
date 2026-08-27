@@ -51,3 +51,7 @@ audit_site_complet.md
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# ---- Depot imbrique : veille-outils-ia a son propre depot GitHub ----
+# (FabienBoyer/veille-outils-ia) - a arbitrer : fusionner ici ou garder separe
+veille-outils-ia/
