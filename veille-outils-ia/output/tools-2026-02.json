@@ -1,0 +1,68 @@
+[
+  {
+    "name": "MagicSchool AI",
+    "description": "Un assistant IA conçu spécifiquement pour les enseignants",
+    "url": "https://magicschool.ai",
+    "score": 86,
+    "source_newsletter": "exemple-test.md",
+    "keywords_found": [
+      "EDU:enseignant",
+      "EDU:cours",
+      "EDU:quiz",
+      "EDU:exercice",
+      "EDU:school",
+      "EDU:quiz",
+      "IA:AI",
+      "IA:IA",
+      "IA:génère",
+      "FREE:gratuit",
+      "HAS_URL"
+    ]
+  },
+  {
+    "name": "Notion AI",
+    "description": "L'assistant IA intégré à Notion aide à structurer des cours, résumer des documents et générer des idées pédagogiques",
+    "url": "https://notion.so",
+    "score": 54,
+    "source_newsletter": "exemple-test.md",
+    "keywords_found": [
+      "EDU:pédagogique",
+      "EDU:cours",
+      "IA:AI",
+      "IA:IA",
+      "IA:résumer",
+      "FREE:gratuit",
+      "FREE:essai gratuit",
+      "HAS_URL"
+    ]
+  },
+  {
+    "name": "Diffit",
+    "description": "Génère automatiquement des ressources de lecture adaptées au niveau de chaque élève",
+    "url": "https://diffit.me",
+    "score": 36,
+    "source_newsletter": "exemple-test.md",
+    "keywords_found": [
+      "EDU:élève",
+      "IA:AI",
+      "IA:IA",
+      "IA:génère",
+      "FREE:gratuit",
+      "HAS_URL"
+    ]
+  },
+  {
+    "name": "Curipod",
+    "description": "Plateforme interactive qui utilise l'IA pour créer des présentations engageantes avec des questions, sondages et activités intégrées",
+    "url": "https://curipod.com",
+    "score": 29,
+    "source_newsletter": "exemple-test.md",
+    "keywords_found": [
+      "IA:AI",
+      "IA:IA",
+      "FREE:free",
+      "FREE:free tier",
+      "HAS_URL"
+    ]
+  }
+]

@@ -52,9 +52,9 @@ audit_site_complet.md
 Thumbs.db
 desktop.ini
 
-# ---- Depot imbrique : veille-outils-ia a son propre depot GitHub ----
-# (FabienBoyer/veille-outils-ia) - a arbitrer : fusionner ici ou garder separe
-veille-outils-ia/
+# veille-outils-ia a ete fusionne dans ce depot le 27/08/2026 : son .git d'origine
+# est conserve dans ../_archive-depots-git/. Les artefacts compiles restent exclus.
+veille-outils-ia/**/__pycache__/
 
 # ---- Assistant Hugging Face : depot imbrique, garde hors du site public ----
 chatbot-rag/
