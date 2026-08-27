@@ -1,11 +1,26 @@
 name: Monthly AI Tools Digest
 
+# ⚠️ PLANIFICATION SUSPENDUE le 27/08/2026.
+#
+# Ce workflow échouait à chaque exécution (1er juin, 1er juillet, 1er août 2026 —
+# code de sortie 1 après ~11 s). Cause : les étapes ci-dessous utilisent le dossier
+# « veille-outils-ia/ », qui n'a jamais fait partie de ce dépôt. C'est un dépôt Git
+# imbriqué, avec son propre remote privé (FabienBoyer/veille-outils-ia), et Git
+# ignore silencieusement ce genre de dossier.
+#
+# Pour réactiver, deux voies au choix :
+#   1. Fusionner veille-outils-ia dans ce dépôt (ses fichiers deviennent publics) ;
+#   2. Garder les deux dépôts séparés et ajouter une étape actions/checkout avec
+#      « repository: FabienBoyer/veille-outils-ia » et un token d'accès personnel
+#      en secret, le dépôt étant privé.
+#
+# Une fois l'une des deux voies en place, décommenter le bloc « schedule ».
+
 on:
-  # Exécution automatique le 1er de chaque mois à 9h (heure de Paris)
-  schedule:
-    - cron: '0 8 1 * *'
-  
-  # Permet aussi l'exécution manuelle depuis GitHub
+  # schedule:
+  #   - cron: '0 8 1 * *'   # le 1er de chaque mois à 9h (heure de Paris)
+
+  # Exécution manuelle uniquement, tant que le point ci-dessus n'est pas tranché
   workflow_dispatch:
 
 jobs:
