@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Proseable",
+      "link": "https://www.uneiaparjour.fr/proseable/",
+      "date": "2026-08-27T21:44:26",
+      "source": "Une IA par jour",
+      "summary": "Proseable (https://www.proseable.com/) fait pratiquer une langue étrangère à l&#8217;oral par conversation avec une IA, sur des sujets choisis selon les centres d&#8217;intérêt. Onze langues disponibl"
+    },
+    {
       "title": "Revise",
       "link": "https://www.uneiaparjour.fr/revise/",
       "date": "2026-08-26T20:52:00",
@@ -692,16 +699,9 @@
       "date": "2026-08-13T12:10:24",
       "source": "@Fabien_Mikol",
       "summary": "<p>François Charles (directeur du département mathématiques &amp; applications ENS-PSL) : \"En dialoguant avec ces modèles, beaucoup de mes collègues franchissent des barrières théoriques sur lesquelle"
-    },
-    {
-      "title": "R to @Fabien_Mikol: \"Nous quittons le paradigme informatique d'un programme déterministe à qui l'on donne des instructions en sachant ce qu'il renverra. Les réseaux de neurones sont probabilistes, ce qui pose des problèmes de sécurité\" ; \"on ne sait pas prédire a priori le comportement d'un LLM\"...",
-      "link": "https://twitter.com/Fabien_Mikol/status/2087874411034558612#m",
-      "date": "2026-08-13T12:10:25",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>\"Nous quittons le paradigme informatique d'un programme déterministe à qui l'on donne des instructions en sachant ce qu'il renverra. Les réseaux de neurones sont probabilistes, ce qui pose des prob"
     }
   ],
-  "last_update": "2026-08-27T18:37:49.040452",
+  "last_update": "2026-08-28T19:46:47.135127",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
