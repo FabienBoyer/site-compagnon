@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "title": "Argos",
+      "link": "https://www.uneiaparjour.fr/argos/",
+      "date": "2026-09-02T21:41:47",
+      "source": "Une IA par jour",
+      "summary": "Argos (https://ia-des.rochane.fr/) fait dialoguer l&#8217;utilisateur dans un chatbot sur un sujet donné pour exercer la construction du raisonnement et l&#8217;esprit critique. Deux modes de dialogue"
+    },
+    {
+      "title": "Proactive cyber defense for governments and enterprises",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "date": "2026-09-02T15:40:00",
+      "source": "Google AI",
+      "summary": "Introducing Fairwind Program"
+    },
+    {
       "title": "EnglishPal",
       "link": "https://www.uneiaparjour.fr/englishpal/",
       "date": "2026-09-01T21:26:00",
@@ -685,23 +699,9 @@
       "date": "2026-08-13T10:00:00",
       "source": "OpenAI Blog",
       "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second."
-    },
-    {
-      "title": "Une IA vient d'obtenir 42/42 à une olympiade de mathématiques. (Sans utiliser ni agent, ni outil)",
-      "link": "https://twitter.com/nsi_xyz/status/2080957513281773785#m",
-      "date": "2026-07-25T10:05:08",
-      "source": "@nsi_xyz",
-      "summary": "<p>Une IA vient d'obtenir 42/42 à une olympiade de mathématiques. (Sans utiliser ni agent, ni outil)</p>\n<hr />\n<blockquote>\n<b>AiBattle (@AiBattle_)</b>\n<p>\n<p>Claude Opus 5 achieved a perfect 42/42,"
-    },
-    {
-      "title": "Et si le bulletin scolaire de demain n’évaluait plus seulement ce que l’élève sait restituer, mais sa capacité à questionner, relier, coopérer et décider avec discernement ? À l’ère de l’ #IA, bien penser devient une compétence stratégique. ✍️ Patricia Wansi",
-      "link": "https://twitter.com/sophiaefrance/status/2083128042256306479#m",
-      "date": "2026-07-31T09:50:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>Et si le bulletin scolaire de demain n’évaluait plus seulement ce que l’élève sait restituer, mais sa capacité à questionner, relier, coopérer et décider avec discernement ?<br />\nÀ l’ère de l’ <a "
     }
   ],
-  "last_update": "2026-09-02T12:23:16.695783",
+  "last_update": "2026-09-03T12:21:04.220850",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
