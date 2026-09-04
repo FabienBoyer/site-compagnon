@@ -1,6 +1,34 @@
 {
   "articles": [
     {
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "link": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "date": "2026-09-03T13:15:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services."
+    },
+    {
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "date": "2026-09-03T12:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow."
+    },
+    {
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "date": "2026-09-03T12:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model."
+    },
+    {
+      "title": "Safety overview: GPT-6 Astra",
+      "link": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "date": "2026-09-03T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework."
+    },
+    {
       "title": "Argos",
       "link": "https://www.uneiaparjour.fr/argos/",
       "date": "2026-09-02T21:41:47",
@@ -671,37 +699,9 @@
       "date": "2026-07-22T16:02:46",
       "source": "@MIKL_Bertrand",
       "summary": "<p>Corriger, ce n’est pas juste “mettre une note”.<br />\nC’est évaluer, annoter, encourager, expliciter… dans un temps contraint.<br />\nAprès Logbook &amp; <a href=\"http://Ed.ai\">Ed.ai</a>, <a href=\"h"
-    },
-    {
-      "title": "Looops",
-      "link": "https://www.uneiaparjour.fr/looops/",
-      "date": "2026-08-13T21:25:28",
-      "source": "Une IA par jour",
-      "summary": "Looops (https://looops.ai/) génère un site web à partir d&#8217;une instruction. Instruction dans un chatbot, aperçu en direct modifiable en continuant la conversation. Chaque élément de la page (text"
-    },
-    {
-      "title": "Frontpage",
-      "link": "https://www.uneiaparjour.fr/frontpage/",
-      "date": "2026-08-06T20:12:00",
-      "source": "Une IA par jour",
-      "summary": "Frontpage (https://frontpage.host/) génère un site web à partir d&#8217;une description en langage naturel, avec édition progressive via un chatbot. Trois possibilités de génération : génération après"
-    },
-    {
-      "title": "Mise à jour de l’outil suivi.mathix.org",
-      "link": "https://mathix.org/linux/archives/22547",
-      "date": "2026-06-24T13:45:38",
-      "source": "Mathix (A. Durand)",
-      "summary": "Bonjour à toutes et tous! J&#8217;ai remis un petit lifting sur l&#8217;outil suivi de mathix.org. voici donc une présentation de l&#8217;interface enseignant et élève? J&#8217;ai également ajouté que"
-    },
-    {
-      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-      "link": "https://openai.com/index/previewing-ultrafast",
-      "date": "2026-08-13T10:00:00",
-      "source": "OpenAI Blog",
-      "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second."
     }
   ],
-  "last_update": "2026-09-03T12:21:04.220850",
+  "last_update": "2026-09-04T12:21:51.797932",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
