@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "title": "Quad",
+      "link": "https://www.uneiaparjour.fr/quad/",
+      "date": "2026-09-05T20:54:00",
+      "source": "Une IA par jour",
+      "summary": "Quad (https://www.quad.chat/) est un chatbot avec 70 modèles dans une seule interface (40 en versio, gratuite). Choix manuel ou automatique des modèles, comparaison jusqu&#8217;à 3 modèles. Génération"
+    },
+    {
       "title": "Mise à jour de l’outil suivi.mathix.org",
       "link": "https://mathix.org/linux/archives/22547",
       "date": "2026-06-24T13:45:38",
@@ -692,16 +699,9 @@
       "date": "2026-08-14T21:55:46",
       "source": "@Fabien_Mikol",
       "summary": "<p>Cyberattaque d'agents IA contre Taiwan ⤵️<br />\n\"Aucune directive sur la façon avec laquelle procéder ne leur a été donnée. Et pourtant, en quelques heures seulement, les agents se sont chacun défi"
-    },
-    {
-      "title": "RT by @Fabien_Mikol: 🚨Premier cas d’article de philosophie analytique écrit en grande partie par une IA publié dans une très bonne revue ! Ça correspond à ma propre expérience : l’IA peut déjà faire des feedbacks de grande qualité sur des travaux de philo académique ; ..",
-      "link": "https://twitter.com/antoninbroi/status/2088253800817553787#m",
-      "date": "2026-08-14T13:17:58",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>🚨Premier cas d’article de philosophie analytique écrit en grande partie par une IA publié dans une très bonne revue !<br />\n<br />\nÇa correspond à ma propre expérience : l’IA peut déjà faire des fe"
     }
   ],
-  "last_update": "2026-09-05T11:28:37.626715",
+  "last_update": "2026-09-06T11:49:42.994873",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
