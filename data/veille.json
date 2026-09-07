@@ -1,6 +1,27 @@
 {
   "articles": [
     {
+      "title": "Supporting independent journalism in Ukraine",
+      "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "date": "2026-09-07T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism."
+    },
+    {
+      "title": "An Alien Mind",
+      "link": "https://openai.com/index/an-alien-mind",
+      "date": "2026-09-06T09:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination."
+    },
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "date": "2026-09-06T08:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration."
+    },
+    {
       "title": "Quad",
       "link": "https://www.uneiaparjour.fr/quad/",
       "date": "2026-09-05T20:54:00",
@@ -678,30 +699,9 @@
       "date": "2026-07-27T22:10:10",
       "source": "@AnthropicAI",
       "summary": "<p>There’s been a lot of speculation about where we stand on open-weights models. We’ve outlined our views in full here: <a href=\"https://www.anthropic.com/news/position-open-weights-models\">anthropic"
-    },
-    {
-      "title": "Mistral is announcing an expanded global strategic partnership with @Microsoft to give enterprises and regulated industries frontier AI they can control. As Mistral is expanding its AI compute capacity in Europe, the companies are expanding their strategic partnership with Microsoft’s commitment to leverage part of this capacity, bringing Mistral’s frontier and efficient models across Microsoft’s AI platform and giving customers flexible deployment options from cloud to fully disconnected environments. Learn more from @arthurmensch and @BradSmi on what this means for enterprises. Watch here: https://www.youtube.com/watch?v=xr4VUV-7rN0",
-      "link": "https://twitter.com/MistralAI/status/2079598447234064801#m",
-      "date": "2026-07-21T16:04:41",
-      "source": "@MistralAI",
-      "summary": "<p>Mistral is announcing an expanded global strategic partnership with <a href=\"https://nitter.net/Microsoft\" title=\"Microsoft\">@Microsoft</a> to give enterprises and regulated industries frontier AI "
-    },
-    {
-      "title": "🚀 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-effective 1M context length. 🔹 DeepSeek-V4-Pro: 1.6T total / 49B active params. Performance rivaling the world's top closed-source models. 🔹 DeepSeek-V4-Flash: 284B total / 13B active params. Your fast, efficient, and economical choice. Try it now at http://chat.deepseek.com via Expert Mode / Instant Mode. API is updated & available today! 📄 Tech Report: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf 🤗 Open Weights: https://huggingface.co/collections/deepseek-ai/deepseek-v4 1/n",
-      "link": "https://twitter.com/deepseek_ai/status/2047516922263285776#m",
-      "date": "2026-04-24T03:24:09",
-      "source": "@deepseek_ai",
-      "summary": "<p>🚀 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-effective 1M context length.<br />\n<br />\n🔹 DeepSeek-V4-Pro: 1.6T total / 49B active params. Performance rivaling"
-    },
-    {
-      "title": "Cyberattaque d'agents IA contre Taiwan ⤵️ \"Aucune directive sur la façon avec laquelle procéder ne leur a été donnée. Et pourtant, en quelques heures seulement, les agents se sont chacun défini un champ d’action\". \"L’IA s’est autocorrigée et a appris de ses propres échecs\". 🧵",
-      "link": "https://twitter.com/Fabien_Mikol/status/2088384107642311136#m",
-      "date": "2026-08-14T21:55:46",
-      "source": "@Fabien_Mikol",
-      "summary": "<p>Cyberattaque d'agents IA contre Taiwan ⤵️<br />\n\"Aucune directive sur la façon avec laquelle procéder ne leur a été donnée. Et pourtant, en quelques heures seulement, les agents se sont chacun défi"
     }
   ],
-  "last_update": "2026-09-06T11:49:42.994873",
+  "last_update": "2026-09-07T13:47:47.250285",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
