@@ -1,6 +1,55 @@
 {
   "articles": [
     {
+      "title": "Mise à jour de Macamdoc",
+      "link": "https://mathix.org/linux/archives/22677",
+      "date": "2026-09-08T19:07:41",
+      "source": "Mathix (A. Durand)",
+      "summary": "Bonjour à toutes et tous! J&#8217;espère que votre rentrée s&#8217;est bien passée! À Loué, une belle surprise de voir notre collège changer de nom (on croyait tous que ce serait l&#8217;année prochai"
+    },
+    {
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "link": "https://openai.com/index/codex-quantum-computing-experiments",
+      "date": "2026-09-08T17:00:00",
+      "source": "OpenAI Blog",
+      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits."
+    },
+    {
+      "title": "Introducing ChatGPT Images 2.5",
+      "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "date": "2026-09-08T11:30:00",
+      "source": "OpenAI Blog",
+      "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas."
+    },
+    {
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "link": "https://openai.com/index/navier-stokes-solution",
+      "date": "2026-09-08T10:00:00",
+      "source": "OpenAI Blog",
+      "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean."
+    },
+    {
+      "title": "Funding grants for new research into AI and teen development",
+      "link": "https://openai.com/index/teen-development-research-grants",
+      "date": "2026-09-08T09:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety."
+    },
+    {
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "link": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "date": "2026-09-08T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations."
+    },
+    {
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "link": "https://openai.com/index/1password",
+      "date": "2026-09-08T00:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies."
+    },
+    {
       "title": "Supporting independent journalism in Ukraine",
       "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
       "date": "2026-09-07T00:00:00",
@@ -650,58 +699,9 @@
       "date": "2026-06-26T06:54:39",
       "source": "Mathix (A. Durand)",
       "summary": "Bonjour à toutes et tous! Bon, notre dotation horaire s&#8217;est amusé à faire Philippe Catherine , « j&#8217;enlève une classe » « Ohhhh » « je remets une classe » « ahhhh » mais avec sans doute des"
-    },
-    {
-      "title": "Les 42 premiers km gratuits.",
-      "link": "https://twitter.com/nsi_xyz/status/2086002964125155379#m",
-      "date": "2026-08-08T08:13:57",
-      "source": "@nsi_xyz",
-      "summary": "<p>Les 42 premiers km gratuits.</p>\n<img src=\"https://nitter.net/pic/media%2FHPL4oaWWkAAI2Q2.jpg\" />"
-    },
-    {
-      "title": "🎲 Apprendre à perdre, c’est aussi apprendre à grandir 🚀 Le #jeu offre un cadre sécurisé pour vivre l’échec, réguler ses émotions, ajuster sa stratégie et #persévérer. Une #compétence clé pour l’école… et pour la vie. https://www.linkedin.com/posts/s%C3%A9bastien-serlet-roger_neuropsychologie-jeuvidaezo-jeudesociaeztaez-activity-7478741017249157120-enSf?utm_source=share&utm_medium=member_desktop&rcm=ACoAABRx4SEB0WYrJITM_mZ2ZQU6cYtw5QtsjIA via S. Serlet",
-      "link": "https://twitter.com/sophiaefrance/status/2088201469052723334#m",
-      "date": "2026-08-14T09:50:01",
-      "source": "@sophiaefrance",
-      "summary": "<p>🎲 Apprendre à perdre, c’est aussi apprendre à grandir 🚀<br />\nLe <a href=\"https://nitter.net/search?f=tweets&amp;q=%23jeu\">#jeu</a> offre un cadre sécurisé pour vivre l’échec, réguler ses émotions,"
-    },
-    {
-      "title": "La #classeflexible ce n’est pas seulement bouger les tables. C’est repenser les pratiques pour placer l’élève au centre : autonomie, coopération, créativité, réflexion. Avancer par petits pas et faire vivre le collectif restent 2 leviers clés. https://www.linkedin.com/posts/conseillerprincipaldeducation_classeflexible-education-innovationpedagogique-share-7473318933110964225-iuHI/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABRx4SEB0WYrJITM_mZ2ZQU6cYtw5QtsjIA",
-      "link": "https://twitter.com/sophiaefrance/status/2085664754341732837#m",
-      "date": "2026-08-07T09:50:01",
-      "source": "@sophiaefrance",
-      "summary": "<p>La <a href=\"https://nitter.net/search?f=tweets&amp;q=%23classeflexible\">#classeflexible</a> ce n’est pas seulement bouger les tables. C’est repenser les pratiques pour placer l’élève au centre : au"
-    },
-    {
-      "title": "🧠 IA et devoirs à la maison : interdire ne suffit plus. Cette ressource propose un cadre simple en 3️⃣ niveaux : IA libre, IA explicitée, ou devoir sans IA. 🎯 Apprendre aux élèves à utiliser l’ #IA sans lui déléguer l’ #apprentissage. 🔗 https://pedagogie.ac-toulouse.fr/emi/system/files/2025-08/IA_et_devoirs_a_la_maison_Version_28_mai_25.pdf",
-      "link": "https://twitter.com/sophiaefrance/status/2081601734867128433#m",
-      "date": "2026-07-27T04:45:02",
-      "source": "@sophiaefrance",
-      "summary": "<p>🧠 IA et devoirs à la maison : interdire ne suffit plus.<br />\nCette ressource propose un cadre simple en 3️⃣ niveaux : IA libre, IA explicitée, ou devoir sans IA. <br />\n🎯 Apprendre aux élèves à ut"
-    },
-    {
-      "title": "We’ve written an FAQ to answer some of the questions we've received about watermarking. In summary: • We’re implementing watermarking to comply with the EU AI Act. Other major model developers have signed the same Code of Practice and will also be implementing watermarking; • Our watermarking method doesn’t have any practical impact on the quality or content of Claude’s outputs; • The difference between watermarked and un-watermarked text will not be distinguishable to readers; • Nothing is added to the text and there are no hidden characters; • Watermarking doesn’t require extra tokens, and will not be more expensive; • Watermarks can’t be traced to a specific person, organization, or chat. Read more: https://www.anthropic.com/news/claude-text-watermark",
-      "link": "https://twitter.com/AnthropicAI/status/2088343978873966687#m",
-      "date": "2026-08-14T19:16:18",
-      "source": "@AnthropicAI",
-      "summary": "<p>We’ve written an FAQ to answer some of the questions we've received about watermarking. <br />\n<br />\nIn summary:<br />\n<br />\n• We’re implementing watermarking to comply with the EU AI Act. Other "
-    },
-    {
-      "title": "As part of our Responsible Scaling Policy, we publish regular Risk Reports. These share detailed information on the risks of our systems and how prepared we are to address them. Our second Risk Report is now available: https://www.anthropic.com/aug-2026-risk-report",
-      "link": "https://twitter.com/AnthropicAI/status/2088324824863236248#m",
-      "date": "2026-08-14T18:00:12",
-      "source": "@AnthropicAI",
-      "summary": "<p>As part of our Responsible Scaling Policy, we publish regular Risk Reports. These share detailed information on the risks of our systems and how prepared we are to address them.<br />\n<br />\nOur se"
-    },
-    {
-      "title": "There’s been a lot of speculation about where we stand on open-weights models. We’ve outlined our views in full here: https://www.anthropic.com/news/position-open-weights-models",
-      "link": "https://twitter.com/AnthropicAI/status/2081864750296658008#m",
-      "date": "2026-07-27T22:10:10",
-      "source": "@AnthropicAI",
-      "summary": "<p>There’s been a lot of speculation about where we stand on open-weights models. We’ve outlined our views in full here: <a href=\"https://www.anthropic.com/news/position-open-weights-models\">anthropic"
     }
   ],
-  "last_update": "2026-09-07T13:47:47.250285",
+  "last_update": "2026-09-09T12:34:12.072996",
   "sources": [
     "Une IA par jour",
     "Mathix (A. Durand)",
