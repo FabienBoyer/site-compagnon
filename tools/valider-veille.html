@@ -89,7 +89,7 @@
     <span>
       <button id="export-inbox">Exporter le reliquat</button>
       <button id="export-dispatch">Exporter à dispatcher</button>
-      <button class="primary" id="export">Exporter veille.json</button>
+      <button class="primary" id="export">Exporter la sélection</button>
     </span>
   </div>
 </footer>
@@ -272,7 +272,7 @@ $('export').onclick = () => {
   if (!kept.length) { alert('Aucune entrée gardée n\'est destinée au fil de veille.'); return; }
   const bad = kept.filter(i => !i.titre.trim() || !i.resume.trim());
   if (bad.length && !confirm(`${bad.length} entrée(s) gardée(s) n'ont pas de titre ou de résumé. Exporter quand même ?`)) return;
-  download('veille.json', {
+  download('veille-selection.json', {
     last_update: new Date().toISOString(),
     sources: [...new Set(kept.map(i => i.source).filter(Boolean))],
     articles: kept.map(i => ({

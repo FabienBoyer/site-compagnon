@@ -30,13 +30,16 @@
   .flux-titre a:hover { text-decoration:underline; }
   .flux-resume { margin:0; line-height:1.65; }
   .flux-vide { color:#6b7280; font-style:italic; }
+  .archive-mois { margin:1.5rem 0 0; }
+  .archive-mois h3 { font-size:1rem; margin:0 0 .4rem; }
 </style>
 </head>
 <style>
 /* Les anciennes sélections éditoriales restent conservées dans le fichier,
    mais ne doivent plus être présentées comme l'actualité courante. */
 #fevrier-2026,
-#veille-curation-automatique { display: none; }
+#veille-curation-automatique,
+#mises-a-jour-legacy { display: none; }
 </style>
 <body>
 <header class="header">
@@ -107,6 +110,11 @@
 <div id="flux-filtres" class="flux-filtres" hidden></div>
 <div id="flux-liste"></div>
 <noscript><p class="text-muted small">Le fil de veille nécessite JavaScript. Les dossiers ci-dessous restent consultables.</p></noscript>
+</section>
+<section class="mb-5" id="archive-veille" hidden>
+<h2>Archives de la veille</h2>
+<p id="archive-meta" class="text-muted small"></p>
+<div id="archive-liste"></div>
 </section>
 <!-- ARCHIVE : SECTION FEVRIER 2026 MAJOR RESOURCES -->
 <section class="mb-5" id="fevrier-2026">
@@ -836,7 +844,7 @@
 </a>
 </div>
 </section>
-<section class="veille-section">
+<section class="veille-section" id="mises-a-jour-legacy">
 <h2 class="section-title-veille"><i data-lucide="calendar"></i>Mises à jour mensuelles</h2>
 <article class="update-card update-card-current">
 <div class="update-header">
@@ -1996,9 +2004,12 @@
   var liste = document.getElementById('flux-liste');
   var meta  = document.getElementById('flux-meta');
   var barre = document.getElementById('flux-filtres');
+  var archiveSection = document.getElementById('archive-veille');
+  var archiveMeta = document.getElementById('archive-meta');
+  var archiveListe = document.getElementById('archive-liste');
   if (!liste) return;
 
-  var articles = [], actif = null;
+  var articles = [], archive = [], actif = null;
 
   function esc(v) {
     return String(v == null ? '' : v).replace(/[&<>"]/g, function (c) {
@@ -2011,23 +2022,50 @@
       { day:'numeric', month:'long', year:'numeric' });
   }
 
+  function estRecent(a) {
+    var date = new Date(a.date);
+    var seuil = new Date();
+    seuil.setMonth(seuil.getMonth() - 3);
+    return !isNaN(date) && date >= seuil;
+  }
+
+  function carte(a) {
+    return '<article class="flux-item">'
+      + '<div class="flux-head">'
+      +   (a.categorie ? '<span class="flux-cat">' + esc(a.categorie) + '</span>' : '')
+      +   '<span>' + esc(a.source || '') + '</span>'
+      +   '<span>' + esc(jour(a.date)) + '</span>'
+      +   (a.niveau ? '<span>' + esc(a.niveau) + '</span>' : '')
+      + '</div>'
+      + '<h3 class="flux-titre">'
+      +   (a.link ? '<a href="' + esc(a.link) + '" target="_blank" rel="noopener">' + esc(a.title) + '</a>'
+                  : esc(a.title))
+      + '</h3>'
+      + '<p class="flux-resume">' + esc(a.summary) + '</p>'
+      + '</article>';
+  }
+
   function dessiner() {
     var vus = actif ? articles.filter(function (a) { return a.categorie === actif; }) : articles;
     if (!vus.length) { liste.innerHTML = '<p class="flux-vide">Aucune entrée dans cette catégorie.</p>'; return; }
-    liste.innerHTML = vus.map(function (a) {
-      return '<article class="flux-item">'
-        + '<div class="flux-head">'
-        +   (a.categorie ? '<span class="flux-cat">' + esc(a.categorie) + '</span>' : '')
-        +   '<span>' + esc(a.source || '') + '</span>'
-        +   '<span>' + esc(jour(a.date)) + '</span>'
-        +   (a.niveau ? '<span>' + esc(a.niveau) + '</span>' : '')
-        + '</div>'
-        + '<h3 class="flux-titre">'
-        +   (a.link ? '<a href="' + esc(a.link) + '" target="_blank" rel="noopener">' + esc(a.title) + '</a>'
-                    : esc(a.title))
-        + '</h3>'
-        + '<p class="flux-resume">' + esc(a.summary) + '</p>'
-        + '</article>';
+    liste.innerHTML = vus.map(carte).join('');
+  }
+
+  function dessinerArchive() {
+    if (!archiveSection || !archiveListe) return;
+    archiveSection.hidden = !archive.length;
+    if (!archive.length) return;
+    var groupes = {};
+    archive.forEach(function (a) {
+      var date = new Date(a.date);
+      var cle = isNaN(date) ? 'Sans date' : date.toLocaleDateString('fr-FR',
+        { month:'long', year:'numeric' });
+      (groupes[cle] = groupes[cle] || []).push(a);
+    });
+    archiveMeta.textContent = archive.length + ' entrée(s) de plus de trois mois, conservée(s) ici.';
+    archiveListe.innerHTML = Object.keys(groupes).map(function (cle) {
+      return '<div class="archive-mois"><h3>' + esc(cle) + '</h3>'
+        + groupes[cle].map(carte).join('') + '</div>';
     }).join('');
   }
 
@@ -2057,26 +2095,26 @@
   fetch('data/veille.json')
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (d) {
-      // N'affiche QUE ce qui est passé par la chaîne de validation.
-      // Les entrées héritées de l'ancien bot (tweets bruts avec balises <p>,
-      // titres « R to @… », résumés coupés en plein mot) n'ont pas de champ
-      // « categorie » : elles restent invisibles tant qu'elles n'ont pas été
-      // reprises par enrich_inbox.py puis validées.
+      // N'affiche que ce qui est passé par la chaîne de validation. Les éléments
+      // de plus de trois mois restent disponibles dans l'archive, hors du fil courant.
       var tout = (d.articles || []).filter(function (a) { return a && a.title; });
-      articles = tout.filter(function (a) { return a.categorie; });
-      var heritees = tout.length - articles.length;
-      articles.sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
+      var valides = tout.filter(function (a) { return a.categorie; });
+      valides.sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
+      articles = valides.filter(estRecent);
+      archive = valides.filter(function (a) { return !estRecent(a); });
       if (!articles.length) {
-        meta.textContent = heritees
-          ? 'Le fil sera alimenté dès la première validation. '
-            + heritees + ' entrée(s) de l\'ancienne collecte attendent d\'être reprises.'
+        meta.textContent = archive.length
+          ? 'Aucune entrée publiée au cours des trois derniers mois.'
           : 'Aucune entrée publiée pour le moment.';
+        dessinerArchive();
         return;
       }
-      meta.textContent = articles.length + ' entrées · dernière mise à jour le '
-                       + (jour(d.last_update) || jour(articles[0].date));
+      meta.textContent = articles.length + ' entrées des trois derniers mois · dernière mise à jour le '
+                       + (jour(d.last_update) || jour(articles[0].date))
+                       + (archive.length ? ' · ' + archive.length + ' dans les archives' : '');
       filtres();
       dessiner();
+      dessinerArchive();
     })
     .catch(function () {
       meta.textContent = 'Le fil de veille est momentanément indisponible. Les dossiers ci-dessous restent consultables.';

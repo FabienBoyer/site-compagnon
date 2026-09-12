@@ -13,7 +13,7 @@ veille-inbox-AAAA-MM-JJ.json
    ▼
 data/veille-inbox.json
    │  tools/valider-veille.html      garder / jeter / corriger
-   ▼
+   ▼  scripts/fusionner_veille.py    ajoute sans effacer les archives
 data/veille.json                     publié
    │
    ▼  veille.html                    section « Fil de veille »
@@ -67,11 +67,19 @@ Trois exports, selon ce que vous en faites :
 
 | Bouton | Contenu | Où le mettre |
 |---|---|---|
-| Exporter veille.json | ce qui est gardé **et** destiné au fil | `data/veille.json` |
+| Exporter la sélection | ce qui est gardé **et** destiné au fil | à fusionner avec `data/veille.json` |
 | Exporter à dispatcher | ce qui est gardé pour une autre rubrique, groupé par rubrique | à intégrer à la main dans `outils.html`, `formation.html`… |
 | Exporter le reliquat | ce qui n'a pas été tranché | `data/veille-inbox.json`, pour la prochaine fois |
 
-La page ne fait aucun appel réseau : tout reste sur le poste.
+La page ne fait aucun appel réseau : tout reste sur le poste. Après l'export, ajoutez
+la sélection à la veille existante plutôt que de remplacer celle-ci :
+
+```bash
+python scripts/fusionner_veille.py ~/Téléchargements/veille-selection.json
+```
+
+Le fil public affiche les trois derniers mois ; les entrées plus anciennes restent
+consultables dans les archives de la page Veille.
 
 ## 5. Publier
 
@@ -124,7 +132,8 @@ git pull                                   # récupérer ce que le bot a collect
 ollama serve
 python scripts/enrich_inbox.py --rss       # rédiger les articles RSS en attente
 python scripts/enrich_inbox.py ~/Téléchargements/veille-inbox-*.json   # + les signets
-# valider dans tools/valider-veille.html, déposer veille.json dans data/
+# valider dans tools/valider-veille.html, puis fusionner veille-selection.json
+python scripts/fusionner_veille.py ~/Téléchargements/veille-selection.json
 git add data/veille.json data/veille-inbox.json && git commit && git push
 ```
 
