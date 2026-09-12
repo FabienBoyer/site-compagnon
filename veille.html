@@ -13,6 +13,24 @@
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 <link href="styles/main.css" rel="stylesheet"/>
 <link href="styles/veille.css" rel="stylesheet"/>
+<style>
+  /* Fil de veille */
+  .flux-filtres { display:flex; gap:.5rem; flex-wrap:wrap; margin:0 0 1.25rem; }
+  .flux-filtre { font:inherit; font-size:.82rem; padding:.3rem .75rem; cursor:pointer;
+                 border:1px solid var(--border-color,#dde1e6); border-radius:99px;
+                 background:transparent; color:inherit; }
+  .flux-filtre[aria-pressed="true"] { background:#1a6b45; border-color:#1a6b45; color:#fff; }
+  .flux-item { padding:1rem 0 1.1rem; border-bottom:1px solid var(--border-color,#e6e9ed); }
+  .flux-item:last-child { border-bottom:0; }
+  .flux-head { display:flex; gap:.6rem; flex-wrap:wrap; align-items:baseline;
+               font-size:.78rem; color:#6b7280; margin-bottom:.35rem; }
+  .flux-cat { border:1px solid currentColor; border-radius:99px; padding:0 .55rem; }
+  .flux-titre { font-size:1.03rem; font-weight:600; margin:0 0 .3rem; line-height:1.4; }
+  .flux-titre a { color:inherit; text-decoration:none; }
+  .flux-titre a:hover { text-decoration:underline; }
+  .flux-resume { margin:0; line-height:1.65; }
+  .flux-vide { color:#6b7280; font-style:italic; }
+</style>
 </head>
 <style>
 /* Les anciennes sélections éditoriales restent conservées dans le fichier,
@@ -74,14 +92,22 @@
                 Ces ressources complètent le livre avec les évolutions récentes.
             </p>
 <div class="alert alert-info" style="max-width: 600px; margin: 2rem auto 0;">
-🆕 Mis à jour : Août 2026 — veille actualisée régulièrement
-             Août 2026 — veille actualisée régulièrement Août 2026 — veille actualisée régulièrement Août 2026 — veille actualisée régulièrement Août 2026 — veille actualisée régulièrement Septembre 2026 — veille actualisée régulièrement Septembre 2026 — veille actualisée régulièrement Septembre 2026 — veille actualisée régulièrement Septembre 2026 — veille actualisée régulièrement Septembre 2026 — veille actualisée régulièrement Septembre 2026 — veille actualisée régulièrement Septembre 2026 — veille actualisée régulièrement Septembre 2026 — veille actualisée régulièrement Septembre 2026 — veille actualisée régulièrement Septembre 2026 — veille actualisée régulièrement Septembre 2026 — veille actualisée régulièrement</div>
+<strong>Dernière mise à jour :</strong> septembre 2026 — veille actualisée régulièrement
+            </div>
 </div>
 </section>
 <main class="veille-main">
 <div class="container">
 <div class="veille-layout">
 <div class="veille-content">
+<!-- FLUX : rendu depuis data/veille.json (voir scripts/enrich_inbox.py) -->
+<section class="mb-5" id="flux-veille">
+<h2>Fil de veille</h2>
+<p id="flux-meta" class="text-muted small">Chargement…</p>
+<div id="flux-filtres" class="flux-filtres" hidden></div>
+<div id="flux-liste"></div>
+<noscript><p class="text-muted small">Le fil de veille nécessite JavaScript. Les dossiers ci-dessous restent consultables.</p></noscript>
+</section>
 <!-- ARCHIVE : SECTION FEVRIER 2026 MAJOR RESOURCES -->
 <section class="mb-5" id="fevrier-2026">
 <h2>Février 2026 : Ressources Majeures</h2>
@@ -1852,8 +1878,8 @@
 <aside class="veille-sidebar">
 <div class="sidebar-card">
 <h3 class="sidebar-title"><i data-lucide="bell"></i>Restez informé</h3>
-<p class="sidebar-text">Page mise à jour chaque mois.</p>
-<div class="sidebar-meta"><i data-lucide="refresh-cw"></i>Mars 2026</div>
+<p class="sidebar-text">Page mise à jour régulièrement.</p>
+<div class="sidebar-meta"><i data-lucide="refresh-cw"></i>Août 2026</div>
 </div>
 <div class="sidebar-card">
 <h3 class="sidebar-title"><i data-lucide="rss"></i>Veille recommandée</h3>
@@ -1906,7 +1932,7 @@
 <li><a href="ethique.html">Ressources</a></li>
 <li><a href="lexique.html">Lexique</a></li>
 <li><a href="formation.html">Formation</a></li>
-<li><a href="veille.html">🆕 Veille IA — mise à jour quotidienne</a></li>
+<li><a href="veille.html">🆕 Veille IA — mise à jour régulière</a></li>
 </ul>
 </div>
 <div class="footer-links">
@@ -1964,5 +1990,98 @@
             });
         });
     </script>
+<script>
+/* Fil de veille — lit data/veille.json produit par tools/valider-veille.html */
+(function () {
+  var liste = document.getElementById('flux-liste');
+  var meta  = document.getElementById('flux-meta');
+  var barre = document.getElementById('flux-filtres');
+  if (!liste) return;
+
+  var articles = [], actif = null;
+
+  function esc(v) {
+    return String(v == null ? '' : v).replace(/[&<>"]/g, function (c) {
+      return { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c];
+    });
+  }
+  function jour(d) {
+    var x = new Date(d);
+    return isNaN(x) ? '' : x.toLocaleDateString('fr-FR',
+      { day:'numeric', month:'long', year:'numeric' });
+  }
+
+  function dessiner() {
+    var vus = actif ? articles.filter(function (a) { return a.categorie === actif; }) : articles;
+    if (!vus.length) { liste.innerHTML = '<p class="flux-vide">Aucune entrée dans cette catégorie.</p>'; return; }
+    liste.innerHTML = vus.map(function (a) {
+      return '<article class="flux-item">'
+        + '<div class="flux-head">'
+        +   (a.categorie ? '<span class="flux-cat">' + esc(a.categorie) + '</span>' : '')
+        +   '<span>' + esc(a.source || '') + '</span>'
+        +   '<span>' + esc(jour(a.date)) + '</span>'
+        +   (a.niveau ? '<span>' + esc(a.niveau) + '</span>' : '')
+        + '</div>'
+        + '<h3 class="flux-titre">'
+        +   (a.link ? '<a href="' + esc(a.link) + '" target="_blank" rel="noopener">' + esc(a.title) + '</a>'
+                    : esc(a.title))
+        + '</h3>'
+        + '<p class="flux-resume">' + esc(a.summary) + '</p>'
+        + '</article>';
+    }).join('');
+  }
+
+  function filtres() {
+    var cats = [];
+    articles.forEach(function (a) {
+      if (a.categorie && cats.indexOf(a.categorie) === -1) cats.push(a.categorie);
+    });
+    if (cats.length < 2) return;
+    cats.sort();
+    barre.hidden = false;
+    barre.innerHTML = ['<button class="flux-filtre" aria-pressed="true" data-cat="">Tout</button>']
+      .concat(cats.map(function (c) {
+        return '<button class="flux-filtre" aria-pressed="false" data-cat="' + esc(c) + '">' + esc(c) + '</button>';
+      })).join('');
+    barre.addEventListener('click', function (e) {
+      var b = e.target.closest('.flux-filtre');
+      if (!b) return;
+      actif = b.dataset.cat || null;
+      Array.prototype.forEach.call(barre.children, function (x) {
+        x.setAttribute('aria-pressed', String(x === b));
+      });
+      dessiner();
+    });
+  }
+
+  fetch('data/veille.json')
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (d) {
+      // N'affiche QUE ce qui est passé par la chaîne de validation.
+      // Les entrées héritées de l'ancien bot (tweets bruts avec balises <p>,
+      // titres « R to @… », résumés coupés en plein mot) n'ont pas de champ
+      // « categorie » : elles restent invisibles tant qu'elles n'ont pas été
+      // reprises par enrich_inbox.py puis validées.
+      var tout = (d.articles || []).filter(function (a) { return a && a.title; });
+      articles = tout.filter(function (a) { return a.categorie; });
+      var heritees = tout.length - articles.length;
+      articles.sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
+      if (!articles.length) {
+        meta.textContent = heritees
+          ? 'Le fil sera alimenté dès la première validation. '
+            + heritees + ' entrée(s) de l\'ancienne collecte attendent d\'être reprises.'
+          : 'Aucune entrée publiée pour le moment.';
+        return;
+      }
+      meta.textContent = articles.length + ' entrées · dernière mise à jour le '
+                       + (jour(d.last_update) || jour(articles[0].date));
+      filtres();
+      dessiner();
+    })
+    .catch(function () {
+      meta.textContent = 'Le fil de veille est momentanément indisponible. Les dossiers ci-dessous restent consultables.';
+    });
+})();
+</script>
 </body>
 </html>

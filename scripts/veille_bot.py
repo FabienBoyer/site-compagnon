@@ -15,6 +15,7 @@ import urllib.request
 import urllib.error
 from urllib.parse import urlsplit, urlunsplit
 import socket
+import sys
 from bs4 import BeautifulSoup
 
 # Set global timeout for all socket operations (including feedparser)
@@ -24,7 +25,8 @@ socket.setdefaulttimeout(15)
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_DIR = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_DIR / "data"
-VEILLE_JSON = DATA_DIR / "veille.json"
+VEILLE_JSON = DATA_DIR / "veille.json"        # publié — n'est plus écrit par défaut
+INBOX_JSON = DATA_DIR / "veille-inbox.json"   # file d'attente, relue par enrich_inbox.py
 VEILLE_HTML = PROJECT_DIR / "veille.html"
 MAX_STORED_ARTICLES = 100
 MAX_HTML_ITEMS_PER_MONTH = 100
@@ -38,20 +40,12 @@ RSS_SOURCES = {
     "Perdir (Padlet)": "https://padlet.com/feed/frederic_vedrenne/l-ia-pour-les-perdir-yruwibp5pviv2te3",
 }
 
-# Twitter accounts via Nitter (open-source Twitter mirror)
-TWITTER_SOURCES = {
-    "@nsi_xyz": "https://nitter.net/nsi_xyz/rss",
-    "@sophiaefrance": "https://nitter.net/sophiaefrance/rss",
-    # Official AI Labs
-    "@AnthropicAI": "https://nitter.net/AnthropicAI/rss",
-    "@MistralAI": "https://nitter.net/MistralAI/rss",
-    "@deepseek_ai": "https://nitter.net/deepseek_ai/rss",
-    "@OpenAI": "https://nitter.net/OpenAI/rss",
-    # EdTech Community
-    "@outiltice": "https://nitter.net/outiltice/rss",
-    "@Fabien_Mikol": "https://nitter.net/Fabien_Mikol/rss",
-    "@MIKL_Bertrand": "https://nitter.net/MIKL_Bertrand/rss",
-}
+# Comptes Twitter — DÉSACTIVÉS.
+# nitter.net a été mis en demeure par X le 24 août 2026 et s'est arrêté le lendemain ;
+# c'est la cause de l'arrêt de la veille le 27 août. Les flux ci-dessous ne répondent plus
+# et ne reviendront pas. La couverture X passe désormais par les signets personnels :
+#   veille-extension-v3 (export)  →  scripts/enrich_inbox.py  →  tools/valider-veille.html
+TWITTER_SOURCES = {}
 
 # Keywords to filter AI-related content
 AI_KEYWORDS = [
@@ -124,13 +118,34 @@ def fetch_rss(url: str, source_name: str, is_twitter: bool = False) -> list:
                 "link": link,
                 "date": pub_date or datetime.now().isoformat(),
                 "source": source_name,
-                "summary": entry.get("summary", "")[:200] if entry.get("summary") else ""
+                "summary": clean_summary(entry.get("summary", ""))
             })
     except (socket.timeout, urllib.error.URLError) as e:
         print(f"Network error fetching {source_name}: {e}")
     except Exception as e:
         print(f"Error fetching {source_name}: {e}")
     return articles
+
+def clean_summary(raw: str, limit: int = 400) -> str:
+    """Nettoie un résumé de flux RSS sans jamais couper en plein mot.
+
+    L'ancienne version faisait `raw[:200]`, ce qui produisait des résumés
+    finissant sur « peuvent être importés t ». On retire le HTML, puis on
+    coupe sur la dernière fin de phrase disponible ; à défaut, sur un mot.
+    """
+    if not raw:
+        return ""
+    text = BeautifulSoup(str(raw), "html.parser").get_text(" ")
+    text = " ".join(text.split())
+    if len(text) <= limit:
+        return text
+    head = text[:limit]
+    cut = max(head.rfind(". "), head.rfind("! "), head.rfind("? "))
+    if cut > limit * 0.5:
+        return head[:cut + 1]
+    cut = head.rfind(" ")
+    return (head[:cut] if cut > 0 else head).rstrip(",;:") + "…"
+
 
 def calculate_score(article: dict) -> int:
     """Calculate relevance score for an article"""
@@ -268,12 +283,9 @@ def update_veille_html(new_articles: list):
     current_month_str = f"{months_fr[now.month - 1]} {now.year}"
 
     # Keep the page header synchronized even when a run finds no new article.
-    alert = soup.find('div', class_='alert-info')
-    if alert:
-        strong = alert.find('strong')
-        if strong:
-            strong.replace_with('🆕 Mis à jour :')
-        alert.append(f" {current_month_str} — veille actualisée régulièrement")
+    # Le bandeau porte une date validée à la main : le bot ne la réécrit plus.
+    # (L'ancienne version y réinjectait « 🆕 Mis à jour : <mois> » à chaque exécution,
+    #  écrasant toute correction éditoriale.)
 
     if not new_articles:
         with open(VEILLE_HTML, 'w', encoding='utf-8') as f:
@@ -374,6 +386,44 @@ def update_veille_html(new_articles: list):
         
     print(f"Updated veille.html with {len(new_articles)} new articles")
 
+def queue_for_review(articles: list):
+    """Dépose les articles dans la boîte de réception, sans rien publier.
+
+    Rien n'apparaît sur le site tant que ces entrées n'ont pas été enrichies
+    (scripts/enrich_inbox.py) puis validées (tools/valider-veille.html).
+    """
+    DATA_DIR.mkdir(exist_ok=True)
+    inbox = {"items": [], "last_update": None}
+    if INBOX_JSON.exists():
+        try:
+            with open(INBOX_JSON, encoding='utf-8') as f:
+                inbox = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            print(f"  ! {INBOX_JSON.name} illisible, il sera reconstruit")
+
+    known = {normalize_link(i.get('link', '')) for i in inbox.get('items', [])}
+    fresh = []
+    for a in articles:
+        key = normalize_link(a.get('link', ''))
+        if not key or key in known:
+            continue
+        known.add(key)
+        fresh.append({
+            "key": key, "link": a.get('link'), "date": a.get('date'),
+            "source": a.get('source'), "origine": "rss", "status": "brut",
+            "raw_text": f"{a.get('title', '')}. {a.get('summary', '')}".strip(),
+            "links": [], "titre": "", "resume": "",
+        })
+
+    inbox['items'] = fresh + inbox.get('items', [])
+    inbox['last_update'] = datetime.now().isoformat(timespec='seconds')
+    with open(INBOX_JSON, 'w', encoding='utf-8') as f:
+        json.dump(inbox, f, ensure_ascii=False, indent=2)
+    print(f"{len(fresh)} article(s) déposé(s) dans {INBOX_JSON.name} "
+          f"({len(inbox['items'])} en attente de relecture).")
+    print("Suite : python scripts/enrich_inbox.py --rss")
+
+
 def main():
     print("Veille Bot - Starting...")
     print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
@@ -381,6 +431,16 @@ def main():
     # Load existing data
     data = load_existing_data()
     existing_links = {normalize_link(a.get('link', '')) for a in data['articles']}
+    pending_links = set()
+    if not LEGACY_MODE and INBOX_JSON.exists():
+        try:
+            with open(INBOX_JSON, encoding='utf-8') as f:
+                pending_links = {
+                    normalize_link(item.get('link', ''))
+                    for item in json.load(f).get('items', [])
+                }
+        except (json.JSONDecodeError, OSError):
+            print(f"Warning: {INBOX_JSON.name} could not be read; pending items will be rechecked.")
     
     # Fetch all RSS feeds
     all_articles = []
@@ -402,22 +462,28 @@ def main():
     print(f"AI-related: {len(ai_articles)} articles")
     
     # Find new articles
-    new_articles = [a for a in ai_articles if normalize_link(a.get('link', '')) not in existing_links]
+    new_articles = [
+        a for a in ai_articles
+        if normalize_link(a.get('link', '')) not in existing_links
+        and normalize_link(a.get('link', '')) not in pending_links
+    ]
     print(f"New articles: {len(new_articles)}")
     
     if new_articles:
-        # Update data
-        data['articles'] = new_articles + data['articles']
-        data['articles'] = data['articles'][:MAX_STORED_ARTICLES]
-        data['last_update'] = datetime.now().isoformat()
-        save_data(data)
-        
-    # Update the HTML only with genuinely new articles. Passing the full
-    # retained dataset here re-inserted the same 20 articles at every run.
-    update_veille_html(new_articles)
-    
+        if LEGACY_MODE:
+            # Ancien comportement : publication directe, sans relecture humaine.
+            data['articles'] = new_articles + data['articles']
+            data['articles'] = data['articles'][:MAX_STORED_ARTICLES]
+            data['last_update'] = datetime.now().isoformat()
+            save_data(data)
+            update_veille_html(new_articles)
+        else:
+            queue_for_review(new_articles)
+
     print("Done!")
     return len(new_articles)
+
+LEGACY_MODE = "--legacy" in sys.argv   # republication directe, sans relecture
 
 if __name__ == "__main__":
     main()

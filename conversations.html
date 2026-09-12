@@ -16,6 +16,16 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/conversations.css">
+    <style>
+        /* Ajouts : réponses réellement générées + notes de transparence */
+        .prompt-tested-real { background: #e8f5ee; color: #1a6b45; border-color: #9ed4b8; }
+        .response-note {
+            margin: .75rem 0 0; padding: .6rem .8rem; border-left: 3px solid #c9c9c9;
+            background: rgba(0,0,0,.035); font-size: .85rem; line-height: 1.5; border-radius: 0 4px 4px 0;
+        }
+        .response-note-hyp { border-left-color: #d19a2e; }
+        .response-note-check { border-left-color: #2e7dd1; }
+    </style>
 </head>
 
 <body>
@@ -49,6 +59,7 @@
                         <a href="outils.html">Outils & Prompts</a>
                         <a href="disciplines.html">Disciplines</a>
                         <a href="conversations.html" class="active">Conversations du Livre</a>
+                        <a href="methodologie.html">Méthodologie des réponses</a>
                         <a href="comparatif-ia.html">Comparatif IA Images</a>
                                             <div class="dropdown-divider" style="height: 1px; background-color: var(--border-color); margin: 0.5rem 0;"></div>
                         <a href="ia-locale.html">Tutoriel IA Locale</a>
@@ -154,7 +165,7 @@
                         <li><a href="ethique.html">Ressources</a></li>
                         <li><a href="lexique.html">Lexique</a></li>
                         <li><a href="formation.html">Formation</a></li>
-                        <li><a href="veille.html">🆕 Veille IA — mise à jour quotidienne</a></li>
+                        <li><a href="veille.html">🆕 Veille IA — mise à jour régulière</a></li>
                     </ul>
                 </div>
 
@@ -198,17 +209,53 @@
         let allPrompts = [];
         let arenaResults = {};
 
-        // Load both data sources
+        // Load historical comparisons, simulations and actual model outputs.
         Promise.all([
             fetch('data/prompts.json').then(r => r.json()),
-            fetch('data/arena-results.json').then(r => r.json()).catch(() => [])
-        ]).then(([prompts, arena]) => {
+            fetch('data/arena-results.json').then(r => r.json()).catch(() => []),
+            fetch('data/luna-simulations.json').then(r => r.json()).catch(() => []),
+            fetch('data/claude-responses.json').then(r => r.json()).catch(() => []),
+            fetch('data/gemini-responses.json').then(r => r.json()).catch(() => []),
+            fetch('data/gemini-verifications.json').then(r => r.json()).catch(() => ({}))
+        ]).then(([prompts, arena, lunaSimulations, claudeResponses, geminiResponses, geminiVerifications]) => {
             allPrompts = prompts;
             // Index arena results by id
             arena.forEach(r => {
                 if (r.responses && (r.responses.outputA || r.responses.outputB)) {
                     arenaResults[r.id] = r.responses;
                 }
+            });
+            lunaSimulations.forEach(r => {
+                if (r.responses && (r.responses.outputA || r.responses.outputB || r.responses.outputC)) {
+                    const { modelA, outputA, ...simulation } = r.responses;
+                    arenaResults[r.id] = {
+                        ...arenaResults[r.id],
+                        ...simulation,
+                        modelC: modelA,
+                        outputC: outputA
+                    };
+                }
+            });
+            // Reponses Claude : reellement generees, pas simulees. Slots D (Sonnet) et E (Haiku).
+            claudeResponses.forEach(r => {
+                if (!r.responses) return;
+                const { status, ...claude } = r.responses;
+                arenaResults[r.id] = {
+                    ...arenaResults[r.id],
+                    ...claude,
+                    claudeReal: true
+                };
+            });
+            // Réponses Gemini : réellement générées, ajoutées au fil de leur production.
+            geminiResponses.forEach(r => {
+                if (!r.responses) return;
+                const { status, ...gemini } = r.responses;
+                arenaResults[r.id] = {
+                    ...arenaResults[r.id],
+                    ...gemini,
+                    verificationF: geminiVerifications[r.id] || '',
+                    geminiReal: true
+                };
             });
             populateSubjectFilter();
             updateTestedCount();
@@ -240,9 +287,18 @@
 
         // Update tested count
         function updateTestedCount() {
-            const testedCount = Object.keys(arenaResults).length;
+            const responses = Object.values(arenaResults);
+            const simulationCount = responses.filter(r => r.status === 'simulation').length;
+            const claudeCount = responses.filter(r => r.claudeReal).length;
+            const geminiCount = responses.filter(r => r.geminiReal).length;
+            const archivedCount = responses.filter(r => r.modelA || r.modelB).length;
+            const parts = [];
+            if (claudeCount > 0) parts.push(`${claudeCount} réponses Claude réelles`);
+            if (geminiCount > 0) parts.push(`${geminiCount} réponses Gemini réelles`);
+            if (simulationCount > 0) parts.push(`${simulationCount} simulations Luna`);
+            if (archivedCount > 0) parts.push(`${archivedCount} réponses archivées`);
             document.getElementById('tested-count').textContent =
-                testedCount > 0 ? `• ${testedCount} avec réponses IA` : '';
+                parts.length ? `• ${parts.join(' · ')}` : '';
         }
 
         // Render prompts
@@ -265,18 +321,23 @@
                                 <i data-lucide="chevron-down" class="chevron"></i>
                             </button>
                             <div class="responses-content" style="display: none;">
-                                ${hasResponses.modelA && hasResponses.outputA ? `
-                                    <div class="response-block">
-                                        <div class="model-name">${escapeHtml(hasResponses.modelA)}</div>
-                                        <div class="model-output">${renderOutput(hasResponses.outputA)}</div>
-                                    </div>
-                                ` : ''}
-                                ${hasResponses.modelB && hasResponses.outputB ? `
-                                    <div class="response-block">
-                                        <div class="model-name">${escapeHtml(hasResponses.modelB)}</div>
-                                        <div class="model-output">${renderOutput(hasResponses.outputB)}</div>
-                                    </div>
-                                ` : ''}
+                                ${['A', 'B', 'C', 'D', 'E', 'F'].map(key =>
+                                    hasResponses[`model${key}`] && hasResponses[`output${key}`] ? `
+                                        <div class="response-block">
+                                            <div class="model-name">${escapeHtml(hasResponses[`model${key}`])}</div>
+                                            <div class="model-output">${renderOutput(hasResponses[`output${key}`])}</div>
+                                            ${key === 'D' && hasResponses.hypothesis ? `
+                                                <p class="response-note response-note-hyp"><strong>Hypothèse (test Claude) :</strong> ${escapeHtml(hasResponses.hypothesis)}</p>
+                                            ` : ''}
+                                            ${key === 'D' && hasResponses.verification ? `
+                                                <p class="response-note response-note-check"><strong>Vérification (réponse Claude) :</strong> ${escapeHtml(hasResponses.verification)}</p>
+                                            ` : ''}
+                                            ${key === 'F' && hasResponses.verificationF ? `
+                                                <p class="response-note response-note-check"><strong>Vérification (réponse Gemini) :</strong> ${escapeHtml(hasResponses.verificationF)}</p>
+                                            ` : ''}
+                                        </div>
+                                    ` : ''
+                                ).join('')}
                             </div>
                         </div>
                     `;
@@ -287,7 +348,10 @@
                         <div class="prompt-meta">
                             <span class="prompt-part">${prompt.part}</span>
                             <span class="prompt-chapter">${prompt.chapter}</span>
-                            ${hasResponses ? '<span class="prompt-tested">✓ Testé</span>' : ''}
+                            ${hasResponses && hasResponses.claudeReal ? `<span class="prompt-tested prompt-tested-real">✓ Claude — réponse réelle</span>` : ''}
+                            ${hasResponses && hasResponses.geminiReal ? `<span class="prompt-tested prompt-tested-real">✓ Gemini — réponse réelle</span>` : ''}
+                            ${hasResponses && hasResponses.status === 'simulation' ? `<span class="prompt-tested">≈ Simulation Luna</span>` : ''}
+                            ${hasResponses && (hasResponses.modelA || hasResponses.modelB) ? `<span class="prompt-tested">◷ Archivée</span>` : ''}
                         </div>
                         <button class="copy-btn" title="Copier le prompt"><i data-lucide="copy"></i></button>
                     </div>
@@ -349,8 +413,8 @@
                 container.appendChild(card);
             });
 
-            lucide.createIcons();
             document.getElementById('results-count').textContent = prompts.length;
+            lucide.createIcons();
         }
 
         // Toggle responses visibility

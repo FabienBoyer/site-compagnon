@@ -1,0 +1,10 @@
+{
+  "p005": "Le titre Last Flower on Earth n’a pas été confirmé comme une œuvre documentée de Banksy. Gemini en décrit pourtant des détails visuels précis : ne pas utiliser cette analyse comme référence sans source ou image de l’œuvre.",
+  "p007": "Le déroulé annoncé pour 45 minutes totalise 47 minutes (5 + 15 + 10 + 15 + 2). Les énigmes sont justes, mais le minutage doit être ajusté avant usage.",
+  "p017": "Cette réponse montre que Gemini peut rédiger une consigne cachée lorsqu’on le lui demande. Elle ne montre pas qu’un modèle l’exécutera lorsqu’un élève collera réellement le PDF : ce second test doit être réalisé dans une conversation neuve.",
+  "p036": "Le prompt contient une date inexacte, reprise dans la réponse : l’Allemagne déclare la guerre à la France le 3 août 1914. Le 4 août correspond notamment à l’entrée en guerre du Royaume-Uni contre l’Allemagne. À contextualiser avant utilisation.",
+  "p080": "Gemini reprend les valeurs de la note DEPP de 2016 pour 1987-2015. La note DEPP de 2022, qui prolonge la comparaison à 2021, donne 10,7 erreurs en 1987, 14,7 en 2007, 18,0 en 2015 et 19,4 en 2021. Utiliser cette source actualisée avant toute reprise.",
+  "p082": "Les ordres de grandeur environnementaux sont présentés comme des constantes alors qu’ils dépendent fortement du modèle, du centre de données, du mix électrique et du protocole de calcul. À sourcer et contextualiser avant emploi avec les élèves.",
+  "p097": "Le délai de 8 jours concerne le recours contre une décision du conseil de discipline. Pour une sanction décidée par le chef d’établissement, la procédure et les délais de recours doivent être indiqués dans la notification ; Service-Public indique un recours administratif possible dans les deux mois. À faire valider par la direction avant envoi.",
+  "p102": "Cette charte propose des usages d’IA générative dès la 6e. Or le cadre national d’usage publié en 2025 limite l’utilisation pédagogique par les élèves à partir de la 4e, sous supervision. Elle doit donc être réécrite avant intégration dans un règlement intérieur."
+}

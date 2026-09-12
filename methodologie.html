@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Méthodologie — Comment ces réponses ont été produites</title>
+    <meta name="description" content="Tous les prompts du livre organisés par chapitre et par matière.">
+    <link rel="icon" type="image/x-icon" href="ethicia/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/conversations.css">
+    <style>
+        .meth-main { padding: 3rem 0 4rem; }
+        .meth-main .container { max-width: 820px; }
+        .meth-lead { font-size: 1.1rem; line-height: 1.7; opacity: .9; }
+        .meth-main h2 { margin-top: 2.75rem; margin-bottom: .75rem; font-size: 1.35rem; }
+        .meth-main p, .meth-main li { line-height: 1.7; }
+        .meth-main ul, .meth-main ol { padding-left: 1.4rem; }
+        .meth-main li { margin-bottom: .4rem; }
+        .meth-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+                      gap: 1rem; margin: 2rem 0; }
+        .meth-stat { padding: 1rem; border: 1px solid var(--border-color, #ddd);
+                     border-radius: 8px; text-align: center; }
+        .meth-stat .n { display: block; font-size: 1.7rem; font-weight: 700; line-height: 1.2; }
+        .meth-stat .l { font-size: .82rem; opacity: .75; }
+        .meth-box { padding: 1rem 1.2rem; border-left: 3px solid #2e7dd1;
+                    background: rgba(0,0,0,.035); border-radius: 0 6px 6px 0; margin: 1.25rem 0; }
+        .meth-box.warn { border-left-color: #d19a2e; }
+        .meth-box.good { border-left-color: #1a6b45; }
+        .meth-schema { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+                       font-size: .8rem; line-height: 1.6; white-space: pre; overflow-x: auto;
+                       padding: 1.1rem; border: 1px solid var(--border-color, #ddd);
+                       border-radius: 8px; margin: 1.5rem 0; }
+        .meth-table { width: 100%; border-collapse: collapse; margin: 1.25rem 0; font-size: .9rem; }
+        .meth-table th, .meth-table td { text-align: left; padding: .55rem .7rem;
+                                         border-bottom: 1px solid var(--border-color, #ddd); }
+        .meth-table th { font-weight: 600; }
+        .meth-wrap { overflow-x: auto; }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo"><span class="logo-icon">📚</span><span class="logo-text">Enseigner avec
+                    l'IA</span></a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu"><i data-lucide="menu"></i></button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link nav-link-dropdown">
+                        Comprendre
+                        <i data-lucide="chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="debuter.html">Débuter avec l'IA</a>
+                        <a href="ethique.html">Cadre Légal & Éthique</a>
+                        <a href="lexique.html">Lexique</a>
+                        <a href="formation.html">Formation</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link nav-link-dropdown active">
+                        Pratiquer
+                        <i data-lucide="chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="outils.html">Outils & Prompts</a>
+                        <a href="disciplines.html">Disciplines</a>
+                        <a href="conversations.html">Conversations du Livre</a>
+                        <a href="methodologie.html" class="active">Méthodologie des réponses</a>
+                        <a href="comparatif-ia.html">Comparatif IA Images</a>
+                                            <div class="dropdown-divider" style="height: 1px; background-color: var(--border-color); margin: 0.5rem 0;"></div>
+                        <a href="ia-locale.html">Tutoriel IA Locale</a>
+                        <a href="rag-local.html">Mon RAG 1-Clic</a>
+                        <a href="le-vibe-professeur.html">Le Vibe Professeur</a>
+                        <a href="vermeer.html">Vermeer Outpainting</a>
+</div>
+                </li>
+
+                <li><a href="veille.html" class="nav-link">Veille</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="meth-main">
+        <div class="container">
+
+            <h1>Comment ces réponses ont été produites</h1>
+            <p class="meth-lead">
+                Le site publie une réponse d'IA pour chacun des 141 prompts du livre. Cette page
+                explique exactement comment elles ont été obtenues — parce qu'une réponse d'IA sans
+                son mode d'emploi ne vaut pas grand-chose, et parce que vous devez pouvoir refaire
+                l'expérience vous-même.
+            </p>
+
+            <div class="meth-stats">
+                <div class="meth-stat"><span class="n">141</span><span class="l">prompts traités</span></div>
+                <div class="meth-stat"><span class="n">8</span><span class="l">doublons Haiku</span></div>
+                <div class="meth-stat"><span class="n">54</span><span class="l">hypothèses déclarées</span></div>
+                <div class="meth-stat"><span class="n">332 k</span><span class="l">caractères générés</span></div>
+            </div>
+
+            <h2>1. Le principe : générer, pas simuler</h2>
+            <p>
+                Une IA peut très bien écrire « voici ce qu'un autre modèle répondrait ». Le texte est
+                plausible, il ressemble à une vraie réponse — mais il est inventé. Personne ne peut le
+                reproduire, et l'écart avec la réalité est invérifiable.
+            </p>
+            <p>
+                Les réponses signées <strong>Claude</strong> sur ce site n'ont pas été simulées :
+                chaque prompt a été réellement envoyé au modèle, et c'est sa réponse brute qui est
+                publiée. Aucune n'a été retouchée, ni raccourcie, ni corrigée — y compris quand elle
+                contient une erreur (voir le point 5).
+            </p>
+
+            <h2>2. Le modèle : celui de l'offre gratuite</h2>
+            <p>
+                Publier des réponses produites par le meilleur modèle disponible aurait été trompeur :
+                la plupart des lectrices et lecteurs utilisent l'offre gratuite. Les réponses ont donc
+                été générées avec <strong>Claude Sonnet</strong>, un modèle disponible dans l'offre
+                gratuite. 8 prompts ont également été passés à <strong>Claude Haiku</strong>,
+                également disponible dans cette offre. L'écart entre les deux est instructif, et
+                visible directement sur la page des conversations.
+            </p>
+            <div class="meth-box warn">
+                <strong>La limite à connaître.</strong> Les appels ont été faits via l'API Anthropic,
+                pas depuis l'interface claude.ai. C'est bien le même modèle, mais le contexte système
+                diffère légèrement : en rejouant le prompt dans l'application, vous obtiendrez une
+                réponse du même modèle, de qualité comparable, mais formulée autrement. C'est vrai de
+                toute façon : ces modèles ne sont pas déterministes, deux exécutions du même prompt ne
+                donnent jamais le même texte au mot près.
+            </div>
+            <p>
+                Les réponses <strong>Gemini</strong> sont, elles, produites dans l'interface Gemini
+                avec un compte gratuit. Google indique dans sa <a href="https://gemini.google/subscriptions/" target="_blank" rel="noopener">grille d'offres</a> que l'accès à Gemini 3.1 Pro dans cette offre
+                est variable : le modèle peut être disponible, mais avec des quotas ou une disponibilité
+                qui évoluent. Chaque réponse publiée porte donc sa date et son mode d'accès ; le compteur
+                de la page des conversations indique la couverture réellement obtenue, sans extrapolation.
+            </p>
+
+            <h2>3. L'architecture : un agent par prompt</h2>
+            <p>
+                Traiter 141 prompts dans une seule conversation aurait posé un problème méthodologique :
+                chaque réponse aurait été influencée par les précédentes. Le modèle aurait pris des
+                habitudes de format, réutilisé ses propres exemples, homogénéisé son style — et les
+                réponses n'auraient plus rien eu à voir avec ce qu'obtient un enseignant qui pose une
+                seule question.
+            </p>
+            <p>
+                Le traitement a donc été confié à <strong>141 agents indépendants</strong>, lancés par
+                lots parallèles. Chaque agent démarre avec un contexte vierge, reçoit un seul prompt,
+                y répond, écrit sa réponse dans un fichier, et s'arrête. Aucun agent ne voit le travail
+                d'un autre.
+            </p>
+
+            <div class="meth-schema">┌───────────────────────────────────────────────┐
+│  ORCHESTRATEUR                                │
+│  découpe prompts.json en 141 tâches           │
+└───────────────┬───────────────────────────────┘
+                │  lots parallèles de ~12
+    ┌───────────┼───────────┬───────────┐
+    ▼           ▼           ▼           ▼
+ ┌──────┐   ┌──────┐   ┌──────┐   ┌──────┐
+ │agent │   │agent │   │agent │   │agent │   …
+ │ p009 │   │ p010 │   │ p011 │   │ p012 │
+ └──┬───┘   └──┬───┘   └──┬───┘   └──┬───┘
+    │          │          │          │
+    │   contexte vierge · aucun échange entre agents
+    ▼          ▼          ▼          ▼
+ p009.txt   p010.txt   p011.txt   p012.txt
+    └──────────┴────┬─────┴──────────┘
+                    ▼
+        ┌────────────────────────────┐
+        │  VÉRIFICATION              │
+        │  · scan automatique        │
+        │  · relecture ciblée        │
+        └───────────┬────────────────┘
+                    ▼
+           claude-responses.json
+                    ▼
+             le site que vous lisez</div>
+
+            <p>
+                Un effet secondaire utile de ce découpage : l'orchestrateur ne voit jamais passer le
+                texte des réponses, seulement un accusé de réception. Les quelque 332 000
+                caractères produits ne transitent donc pas par une conversation unique qui aurait fini
+                par saturer.
+            </p>
+
+            <h2>4. Les prompts à trous</h2>
+            <p>
+                Beaucoup de prompts du livre contiennent un champ à compléter :
+                <em>[Coller la copie de l'élève]</em>, <em>[Matière]</em>, <em>[Niveau]</em>. Deux
+                attitudes étaient possibles : laisser le modèle réclamer l'élément manquant — ce qu'il
+                fait spontanément, et qui donne une page vide d'intérêt — ou lui fournir un exemple.
+            </p>
+            <p>
+                Nous avons choisi la seconde. Dans ce cas, <strong>l'hypothèse retenue est affichée
+                sous la réponse</strong>, en clair : quel énoncé a été inventé, quel niveau a été
+                supposé. 54 réponses sur 141 sont dans ce cas. Vous savez donc toujours ce que
+                le modèle avait réellement sous les yeux.
+            </p>
+
+            <h2>5. La vérification — et ce qu'elle a trouvé</h2>
+            <p>Deux passes ont été menées sur l'ensemble du corpus :</p>
+            <ol>
+                <li><strong>Un scan automatique</strong> de chaque réponse : anglais résiduel dans un
+                    texte censé être en français, champs à trous non résolus, troncatures, caractères
+                    corrompus.</li>
+                <li><strong>Une relecture ciblée</strong> des réponses à contenu vérifiable —
+                    calculs, dates, corrigés d'exercices.</li>
+            </ol>
+            <p>
+                Les réponses concernées portent une mention <em>Vérification</em> sous le texte.
+                Les cas les plus parlants :
+            </p>
+
+            <div class="meth-wrap">
+            <table class="meth-table">
+                <tr><th>Prompt</th><th>Ce que la vérification a montré</th></tr>
+                <tr><td>p004 — L'historien piégé</td>
+                    <td>On demandait 3 erreurs volontaires dans une biographie de Balzac. Le modèle
+                        n'en a inséré qu'une nette. Un enseignant qui distribuerait ce texte sans le
+                        relire construirait son activité de fact-checking sur une seule erreur.</td></tr>
+                <tr><td>p005 — Le critique d'art</td>
+                    <td>Le modèle décrit la composition d'une œuvre de Banksy dont l'existence n'est
+                        pas vérifiée, avec un aplomb total. La réponse contient en prime un anglicisme
+                        resté en plein milieu d'une phrase.</td></tr>
+                <tr><td>p007 — Tournoi de logique</td>
+                    <td>Énigmes et réponses exactes, mais le minutage annoncé dépasse la durée totale
+                        affichée.</td></tr>
+                <tr><td>p124 — Exercices sur les fractions</td>
+                    <td>Calculs exacts, mais l'énoncé renvoie à un schéma « ci-dessous » que le modèle
+                        ne peut pas produire.</td></tr>
+            </table>
+            </div>
+
+            <div class="meth-box good">
+                Ces erreurs n'ont pas été corrigées. Elles sont le résultat réel de l'exercice, et
+                elles disent quelque chose d'utile : une réponse d'IA bien formée, bien structurée et
+                convaincante peut être fausse. C'est précisément ce que le livre demande de vérifier.
+            </div>
+
+            <h2>6. Ce que vous pouvez refaire</h2>
+            <ul>
+                <li>Reprendre n'importe quel prompt du site et le rejouer dans Claude gratuit :
+                    vous obtiendrez une réponse du même modèle, formulée autrement.</li>
+                <li>Comparer les colonnes : le même prompt donne des réponses très différentes selon
+                    le modèle — et l'écart Sonnet / Haiku est souvent plus net que l'écart entre deux
+                    fournisseurs.</li>
+                <li>Refaire la vérification vous-même. C'est l'exercice le plus formateur des trois.</li>
+            </ul>
+
+            <p style="margin-top:2.5rem; opacity:.75; font-size:.9rem;">
+                Génération et vérification réalisées le 11 septembre 2026 —
+                <a href="conversations.html">voir les réponses</a>.
+            </p>
+
+        </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">📚</span>
+                        <span class="logo-text">Enseigner avec l'IA</span>
+                    </a>
+                    <p class="footer-description">
+                        Site compagnon du livre "Les outils pour enseigner avec l'IA"
+                        de Fabien Boyer, publié aux Éditions Ellipses.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="debuter.html">Débuter</a></li>
+                        <li><a href="disciplines.html">Disciplines</a></li>
+                        <li><a href="conversations.html">Conversations</a></li>
+                        <li><a href="outils.html">Outils</a></li>
+                        <li><a href="ethique.html">Ressources</a></li>
+                        <li><a href="lexique.html">Lexique</a></li>
+                        <li><a href="formation.html">Formation</a></li>
+                        <li><a href="veille.html">🆕 Veille IA — mise à jour régulière</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Informations</h4>
+                    <ul>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener">Éditions
+                                Ellipses</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul>
+                        <li>
+                            <a href="https://x.com/" target="_blank" rel="noopener">
+                                <i data-lucide="twitter"></i>
+                                Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fabien Boyer - Éditions Ellipses. Tous droits réservés.</p>
+                <div style="margin-top: 10px; opacity: 0.8;">
+                    <script data-goatcounter="https://fabienboyer.goatcounter.com/count" async
+                        src="//gc.zgo.at/count.js"></script>
+                    <noscript>
+                        <img src="https://fabienboyer.goatcounter.com/count?p=/index.html">
+                    </noscript>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
+```

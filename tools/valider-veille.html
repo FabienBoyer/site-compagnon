@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Validation de la veille</title>
+<style>
+  :root { --bg:#f7f8fa; --card:#fff; --ink:#16202a; --muted:#64748b;
+          --line:#e2e8f0; --ok:#1a6b45; --no:#b91c1c; --warn:#b45309; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#12161b; --card:#1b2027; --ink:#e6eaef; --muted:#94a3b8; --line:#2b323b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:0 0 120px; background:var(--bg); color:var(--ink);
+         font:15px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  header { position:sticky; top:0; z-index:5; background:var(--card);
+           border-bottom:1px solid var(--line); padding:14px 20px; }
+  .wrap { max-width:880px; margin:0 auto; }
+  h1 { font-size:17px; margin:0 0 4px; }
+  .sub { font-size:13px; color:var(--muted); }
+  .bar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:10px; }
+  button, .btn { font:inherit; font-size:13px; padding:7px 12px; border-radius:6px;
+                 border:1px solid var(--line); background:var(--card); color:var(--ink);
+                 cursor:pointer; }
+  button.primary { background:var(--ok); color:#fff; border-color:var(--ok); font-weight:600; }
+  button:disabled { opacity:.5; cursor:default; }
+  main { max-width:880px; margin:22px auto; padding:0 20px; }
+  .drop { border:2px dashed var(--line); border-radius:12px; padding:48px 20px;
+          text-align:center; color:var(--muted); background:var(--card); }
+  .drop.over { border-color:var(--ok); color:var(--ok); }
+  .card { background:var(--card); border:1px solid var(--line); border-left-width:4px;
+          border-radius:8px; padding:14px 16px; margin-bottom:14px; }
+  .card.keep { border-left-color:var(--ok); }
+  .card.drop-it { border-left-color:var(--no); opacity:.5; }
+  .card.pending { border-left-color:var(--line); }
+  .meta { display:flex; gap:10px; flex-wrap:wrap; font-size:12px;
+          color:var(--muted); margin-bottom:8px; align-items:center; }
+  .pill { border:1px solid var(--line); border-radius:99px; padding:1px 8px; }
+  .pill.low { color:var(--warn); border-color:var(--warn); }
+  .pill.raw { color:var(--no); border-color:var(--no); }
+  .f { display:block; width:100%; margin:6px 0; padding:7px 9px; font:inherit;
+       border:1px solid var(--line); border-radius:6px; background:transparent; color:inherit; }
+  textarea.f { min-height:64px; resize:vertical; }
+  label.lbl { font-size:11px; text-transform:uppercase; letter-spacing:.04em;
+              color:var(--muted); font-weight:600; }
+  .row { display:flex; gap:10px; flex-wrap:wrap; }
+  .row > div { flex:1 1 160px; }
+  .acts { display:flex; gap:8px; margin-top:10px; align-items:center; }
+  .src { font-size:12px; color:var(--muted); word-break:break-all; }
+  .src a { color:inherit; }
+  footer { position:fixed; bottom:0; left:0; right:0; background:var(--card);
+           border-top:1px solid var(--line); padding:12px 20px; }
+  .count { font-size:13px; color:var(--muted); }
+  .hidden { display:none; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Validation de la veille</h1>
+    <div class="sub">Rien n'est publié tant que vous n'avez pas exporté. Outil local, aucune donnée ne sort de cette page.</div>
+    <div class="bar">
+      <label class="btn">Charger veille-inbox.json<input type="file" id="file" accept=".json" hidden></label>
+      <button id="all-keep">Tout garder</button>
+      <button id="all-drop">Tout jeter</button>
+      <button id="auto">Pré-trier (pertinence ≥ 3)</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="drop" id="drop">Déposez ici <code>data/veille-inbox.json</code>, ou utilisez le bouton ci-dessus.</div>
+  <div id="list"></div>
+</main>
+
+<footer class="hidden" id="foot">
+  <div class="wrap bar" style="margin:0; justify-content:space-between;">
+    <span class="count" id="count"></span>
+    <span>
+      <button id="export-inbox">Exporter le reliquat</button>
+      <button id="export-dispatch">Exporter à dispatcher</button>
+      <button class="primary" id="export">Exporter veille.json</button>
+    </span>
+  </div>
+</footer>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let items = [];
+const DESTINATIONS = ['Fil de veille', 'Outils', 'Formation', 'Éthique', 'Disciplines'];
+
+const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g,
+  c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function fmtDate(d) {
+  if (!d) return 'sans date';
+  const x = new Date(d);
+  return isNaN(x) ? 'sans date' : x.toLocaleDateString('fr-FR');
+}
+
+function render() {
+  const list = $('list');
+  list.innerHTML = '';
+  items.forEach((it, i) => {
+    const el = document.createElement('div');
+    el.className = 'card ' + (it.decision === 'keep' ? 'keep'
+                    : it.decision === 'drop' ? 'drop-it' : 'pending');
+    const raw = it.status === 'brut';
+    el.innerHTML = `
+      <div class="meta">
+        <span class="pill">${esc(it.source || '?')}</span>
+        <span>${fmtDate(it.date)}</span>
+        <span class="pill ${it.pertinence < 3 ? 'low' : ''}">pertinence ${it.pertinence ?? '?'}</span>
+        ${raw ? '<span class="pill raw">non enrichi — à rédiger</span>' : ''}
+        ${it.langue_source && it.langue_source !== 'fr'
+            ? `<span class="pill low">source ${esc(it.langue_source)}</span>` : ''}
+      </div>
+      <label class="lbl">Titre</label>
+      <input class="f" data-i="${i}" data-k="titre" value="${esc(it.titre)}">
+      <label class="lbl">Résumé</label>
+      <textarea class="f" data-i="${i}" data-k="resume">${esc(it.resume)}</textarea>
+      <div class="row">
+        <div><label class="lbl">Destination</label>
+          <select class="f" data-i="${i}" data-k="destination">${DESTINATIONS.map(function(d){
+            return '<option'+(d===it.destination?' selected':'')+'>'+esc(d)+'</option>';}).join('')}</select></div>
+        <div><label class="lbl">Catégorie</label>
+          <input class="f" data-i="${i}" data-k="categorie" value="${esc(it.categorie)}"></div>
+        <div><label class="lbl">Niveau</label>
+          <input class="f" data-i="${i}" data-k="niveau" value="${esc(it.niveau)}"></div>
+      </div>
+      <div class="src">Source : <a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.link)}</a></div>
+      <div class="acts">
+        <button data-i="${i}" data-act="keep">Garder</button>
+        <button data-i="${i}" data-act="drop">Jeter</button>
+        <button data-i="${i}" data-act="raw">Voir le texte d'origine</button>
+      </div>
+      <pre class="hidden" style="white-space:pre-wrap; font:inherit; color:var(--muted);
+           border-left:2px solid var(--line); padding-left:10px; margin-top:10px;"
+           data-raw="${i}">${esc(it.raw_text)}</pre>`;
+    list.appendChild(el);
+  });
+  updateCount();
+}
+
+function updateCount() {
+  const k = items.filter(i => i.decision === 'keep').length;
+  const d = items.filter(i => i.decision === 'drop').length;
+  const flux = items.filter(i => i.decision === 'keep' && i.destination === 'Fil de veille').length;
+  $('count').textContent = `${k} gardé(s) — dont ${flux} pour le fil et ${k - flux} pour une rubrique `
+                         + `· ${d} jeté(s) · ${items.length - k - d} en attente`;
+  $('export').disabled = flux === 0;
+}
+
+['input', 'change'].forEach(ev => document.addEventListener(ev, e => {
+  const t = e.target;
+  if (t.dataset && t.dataset.k !== undefined) items[+t.dataset.i][t.dataset.k] = t.value;
+}));
+
+document.addEventListener('click', e => {
+  const b = e.target.closest('button[data-act]');
+  if (!b) return;
+  const i = +b.dataset.i;
+  if (b.dataset.act === 'raw') {
+    document.querySelector(`[data-raw="${i}"]`).classList.toggle('hidden');
+    return;
+  }
+  items[i].decision = items[i].decision === b.dataset.act ? null : b.dataset.act;
+  render();
+});
+
+$('all-keep').onclick = () => { items.forEach(i => i.decision = 'keep'); render(); };
+$('all-drop').onclick = () => { items.forEach(i => i.decision = 'drop'); render(); };
+$('auto').onclick = () => {
+  items.forEach(i => i.decision = (i.pertinence ?? 3) >= 3 ? 'keep' : 'drop');
+  render();
+};
+
+function load(text) {
+  let data;
+  try { data = JSON.parse(text); }
+  catch (err) { alert('JSON illisible : ' + err.message); return; }
+  const raw = Array.isArray(data) ? data : (data.items || []);
+  if (!raw.length) { alert('Aucune entrée dans ce fichier.'); return; }
+  items = raw.map(o => Object.assign({
+    titre: '', resume: '', categorie: '', niveau: '', pertinence: 3,
+    destination: 'Fil de veille',
+    raw_text: '', link: '', date: null, source: '', status: 'a_valider'
+  }, o, { decision: null }));
+  $('drop').classList.add('hidden');
+  $('foot').classList.remove('hidden');
+  render();
+}
+
+$('file').onchange = e => {
+  const f = e.target.files[0];
+  if (f) f.text().then(load);
+};
+const dz = $('drop');
+dz.ondragover = e => { e.preventDefault(); dz.classList.add('over'); };
+dz.ondragleave = () => dz.classList.remove('over');
+dz.ondrop = e => {
+  e.preventDefault(); dz.classList.remove('over');
+  const f = e.dataTransfer.files[0];
+  if (f) f.text().then(load);
+};
+
+function download(name, obj) {
+  const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = name;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 30000);
+}
+
+$('export').onclick = () => {
+  const kept = items.filter(i => i.decision === 'keep' && i.destination === 'Fil de veille');
+  if (!kept.length) { alert('Aucune entrée gardée n\'est destinée au fil de veille.'); return; }
+  const bad = kept.filter(i => !i.titre.trim() || !i.resume.trim());
+  if (bad.length && !confirm(`${bad.length} entrée(s) gardée(s) n'ont pas de titre ou de résumé. Exporter quand même ?`)) return;
+  download('veille.json', {
+    last_update: new Date().toISOString(),
+    sources: [...new Set(kept.map(i => i.source).filter(Boolean))],
+    articles: kept.map(i => ({
+      title: i.titre.trim(), link: i.link, date: i.date,
+      source: i.source, summary: i.resume.trim(),
+      categorie: i.categorie, niveau: i.niveau
+    }))
+  });
+};
+
+$('export-dispatch').onclick = () => {
+  const ailleurs = items.filter(i => i.decision === 'keep' && i.destination !== 'Fil de veille');
+  if (!ailleurs.length) { alert('Tout ce que vous avez gardé va au fil de veille.'); return; }
+  const parRubrique = {};
+  ailleurs.forEach(i => { (parRubrique[i.destination] = parRubrique[i.destination] || []).push({
+    titre: i.titre.trim(), lien: i.link, source: i.source, date: i.date,
+    resume: i.resume.trim(), categorie: i.categorie, niveau: i.niveau }); });
+  download('a-dispatcher.json', { last_update: new Date().toISOString(), rubriques: parRubrique });
+};
+
+$('export-inbox').onclick = () => {
+  const rest = items.filter(i => i.decision !== 'keep' && i.decision !== 'drop')
+                    .map(({ decision, ...k }) => k);
+  download('veille-inbox.json', { last_update: new Date().toISOString(), items: rest });
+};
+</script>
+</body>
+</html>
