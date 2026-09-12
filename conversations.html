@@ -357,7 +357,7 @@
                     </div>
                     <h3 class="prompt-title">${prompt.title}</h3>
                     <span class="prompt-subject">${prompt.subject}</span>
-                    <pre class="prompt-content">${escapeHtml(prompt.content)}</pre>
+                    <div class="prompt-content">${formatPromptContent(prompt)}</div>
                     ${prompt.image ? `
                     <div class="prompt-image-wrapper">
                         <span class="prompt-image-label"><i data-lucide="image"></i> Image jointe au prompt</span>
@@ -434,6 +434,30 @@
             const div = document.createElement('div');
             div.textContent = text;
             return div.innerHTML;
+        }
+
+        // Rend la structure C.R.O.F.I. lisible au premier coup d'œil, sans modifier
+        // le texte copié du prompt.
+        function formatPromptContent(prompt) {
+            if (!prompt.structure) return escapeHtml(prompt.content);
+
+            const sections = [
+                ['context', 'Contexte'],
+                ['role', 'Rôle'],
+                ['task', 'Objectif'],
+                ['format', 'Format'],
+                ['input', 'Input']
+            ];
+
+            return sections
+                .filter(([key]) => prompt.structure[key])
+                .map(([key, label]) => `
+                    <section class="prompt-section">
+                        <span class="prompt-section-label">${label}</span>
+                        <span class="prompt-section-text">${escapeHtml(prompt.structure[key])}</span>
+                    </section>
+                `)
+                .join('');
         }
 
         // Render output - detect images vs text
