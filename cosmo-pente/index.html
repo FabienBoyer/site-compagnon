@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Un jeu progressif pour apprivoiser la pente d'une droite." />
+    <title>Cosmo Pente — Chasse aux cibles</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2320154a'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23ff5370'/%3E%3Cpath d='M9 55 55 9' stroke='%23ffe66d' stroke-width='5'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a href="#jeu" class="logo"><span class="logo-orbit">✦</span><span>COSMO <b>PENTE</b></span></a>
+      <div class="top-meter"><span>niveau <b id="topLevel">1</b></span><div class="mini-progress"><i id="miniProgress"></i></div><span id="score">0 ✦</span></div>
+      <div class="topbar-right">
+        <label class="stage-pick"><span>Tableau</span><select id="stageSelect"></select></label>
+        <button class="reset" id="resetButton" type="button">↻ Rejouer</button>
+      </div>
+    </header>
+
+    <main id="jeu">
+      <section class="mission-banner">
+        <div class="mission-copy"><p class="kicker" id="stageTag">TABLEAU 1 · ON ESSAIE</p><h1 id="stageTitle">Fais bouger le rayon !</h1><p id="stageText">Deux manettes suffisent pour rejoindre la cible rouge. Essaie, observe, recommence.</p></div>
+        <div class="niveau-box">
+          <span class="niveau-chip" id="stageNiveau">3e</span>
+          <div class="niveau-copy">
+            <small>NOTION TRAVAILLÉE</small>
+            <strong id="stageNotion">Coefficient directeur</strong>
+            <span class="niveau-count">Tableau <b id="missionCount">1 / 10</b></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="game-shell">
+        <div class="arena-card">
+          <div class="arena-head">
+            <span class="live"><i></i> ZONE DE TIR</span>
+            <div class="target-legend"><span><i class="dot red"></i> cible rouge</span><span class="decoy-legend"><i class="dot blue"></i> leurre</span></div>
+          </div>
+          <div class="canvas-frame"><canvas id="arena" width="960" height="560" aria-label="Zone de jeu avec un vaisseau et des cibles"></canvas><div class="impact" id="impact"></div><p class="grid-note" id="gridNote">Pas de repère : utilise tes yeux de pilote.</p></div>
+          <div class="arena-foot"><span id="sourceLabel">Ton canon se déplace avec la manette.</span><span id="equationPreview">Rayon en préparation…</span></div>
+        </div>
+
+        <aside class="pilot-card">
+          <div class="pilot-head"><span class="avatar">☄</span><div><p>POSTE DE PILOTAGE</p><h2 id="controlTitle">Joue avec les manettes</h2></div></div>
+
+          <div class="sliders" id="slidersPanel">
+            <div class="slider-card pink" id="bControl"><div class="slider-title"><span><i>⚓</i> Canon verrouillé</span><output id="bOut">0</output></div><input type="range" id="bRange" min="-4" max="5" step="1" value="0" disabled /><p id="bHint">Le vaisseau est ancré : cette hauteur fixe b.</p></div>
+            <div class="slider-card yellow"><div class="slider-title"><span><i>↗</i> Inclinaison du rayon</span><output id="mOut">0</output></div><input type="range" id="mRange" min="-3" max="3" step="0.5" value="0" /><p id="mHint">Tourne la trajectoire vers le haut ou le bas.</p></div>
+          </div>
+
+          <div class="equation-panel" id="equationPanel">
+            <div class="equation-label">TON CODE DE TRAJECTOIRE</div>
+            <div class="equation-input"><span>y =</span><label><input id="mInput" type="number" inputmode="decimal" step="0.5" value="0" aria-label="coefficient directeur m" /><small>m</small></label><span>x +</span><label><input id="bInput" type="number" inputmode="decimal" step="1" value="0" aria-label="ordonnée à l'origine b" /><small>b</small></label></div>
+            <p id="equationHelp">Les nombres apparaîtront bientôt ici.</p>
+          </div>
+
+          <button class="fire" id="fireButton" type="button"><span>✦</span> LANCER LE RAYON <kbd>↵</kbd></button>
+          <div class="feedback waiting" id="feedback" role="status" aria-live="polite"><span>☻</span><p>La cible rouge attend ton rayon.</p></div>
+        </aside>
+      </section>
+
+      <section class="learning-strip">
+        <article class="step-card active"><span>1</span><div><b>Je manipule</b><small>sans nombres</small></div></article>
+        <article class="step-card" id="step2"><span>2</span><div><b>Je vois</b><small>avec le repère</small></div></article>
+        <article class="step-card" id="step3"><span>3</span><div><b>Je calcule</b><small>sans manettes</small></div></article>
+        <article class="coach"><span>ASTUCE DE PILOTE</span><p id="coachText">Change une manette à la fois : tu verras mieux son effet.</p></article>
+      </section>
+    </main>
+
+    <dialog id="resultModal"><div class="modal-stars">✦　·　✦</div><div class="modal-inner"><span class="result-icon" id="resultIcon">✦</span><p class="kicker" id="resultKicker">CIBLE ATTEINTE</p><h2 id="resultTitle">Super tir !</h2><p id="resultText"></p><div id="mathMoment" class="math-moment"></div><button id="nextButton" type="button">Tableau suivant <span>→</span></button></div></dialog>
+    <script src="script.js"></script>
+  </body>
+</html>

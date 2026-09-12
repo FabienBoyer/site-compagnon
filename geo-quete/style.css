@@ -1,0 +1,360 @@
+/* ==========================================================================
+   GéoQuête - feuille de style
+   Aucune ressource externe : l'app fonctionne hors connexion, en classe.
+   ========================================================================== */
+
+:root {
+    --bg-primary: #0d1b2a;
+    --bg-sidebar: #0b1725;
+    --gold: #d4af37;
+    --gold-light: #f7d774;
+    --gold-dark: #8c7324;
+    --text-primary: #e6e8e6;
+    --text-muted: #8fa3ba;
+    --danger: #ff6b6b;
+    --success: #4ecdc4;
+    --near: #ffb703;
+
+    --font-title: Georgia, 'Times New Roman', 'Palatino Linotype', serif;
+    --font-text: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body { height: 100%; }
+
+body {
+    font-family: var(--font-text);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.app-container { display: flex; height: 100vh; width: 100vw; }
+
+/* ----------------------------------------------------------------- Sidebar */
+
+.sidebar {
+    width: 340px;
+    flex: 0 0 340px;
+    background: var(--bg-sidebar);
+    border-right: 1px solid rgba(212, 175, 55, 0.28);
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 0.9rem 1rem 1rem;
+    box-shadow: 4px 0 18px rgba(0, 0, 0, 0.55);
+    z-index: 10;
+    overflow: hidden;            /* rien ne doit sortir de l'écran */
+}
+
+.app-header { text-align: center; }
+
+h1 {
+    font-family: var(--font-title);
+    color: var(--gold);
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    line-height: 1.1;
+}
+
+.subtitle {
+    font-family: var(--font-title);
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-top: 0.15rem;
+}
+
+h3 {
+    font-family: var(--font-title);
+    color: var(--gold-light);
+    font-size: 0.92rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.45rem;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+h3::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(to right, rgba(212, 175, 55, 0.45), transparent);
+    margin-left: 8px;
+}
+
+/* Sélecteur de mission */
+
+.level-selector { display: flex; flex-direction: column; gap: 0.25rem; }
+
+.level-selector label {
+    font-size: 0.68rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.level-selector select {
+    background: #132437;
+    color: var(--gold-light);
+    border: 1px solid var(--gold-dark);
+    padding: 0.42rem 0.5rem;
+    border-radius: 5px;
+    font-family: var(--font-text);
+    font-size: 0.86rem;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    color-scheme: dark;
+}
+.level-selector select option { background: #132437; color: #f7d774; }
+
+/* Case du niveau scolaire requis */
+
+.level-card {
+    background: rgba(212, 175, 55, 0.07);
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border-radius: 7px;
+    padding: 0.55rem 0.65rem;
+}
+
+.level-card-top { display: flex; align-items: center; gap: 0.5rem; }
+
+.badge-niveau {
+    flex: 0 0 auto;
+    background: var(--gold);
+    color: #16202c;
+    font-family: var(--font-title);
+    font-weight: bold;
+    font-size: 0.95rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+.lvl-notion {
+    font-size: 0.86rem;
+    font-weight: 600;
+    color: var(--gold-light);
+    line-height: 1.25;
+}
+
+.lvl-competence {
+    font-size: 0.74rem;
+    color: var(--text-muted);
+    line-height: 1.35;
+    margin-top: 0.35rem;
+}
+
+.lvl-outils { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.3rem; }
+.lvl-outils strong { color: var(--text-primary); }
+
+/* Journal de bord : la seule zone qui défile */
+
+.quest-log { flex: 1 1 auto; min-height: 74px; display: flex; flex-direction: column; }
+
+.quest-text {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    background: rgba(255, 255, 255, 0.04);
+    padding: 0.7rem 0.8rem;
+    border-radius: 6px;
+    border-left: 3px solid var(--gold);
+    color: #fff;
+}
+.quest-text .hl { color: var(--gold-light); }
+.quest-text .q {
+    display: block;
+    margin-top: 0.6rem;
+    padding-top: 0.5rem;
+    border-top: 1px dashed rgba(212, 175, 55, 0.3);
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+/* Instruments */
+
+.tool-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.35rem; }
+
+.tool-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 6px;
+    padding: 0.32rem 0.1rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+    font-family: var(--font-text);
+    min-height: 46px;
+}
+.tool-btn:hover { background: rgba(212, 175, 55, 0.12); border-color: rgba(212, 175, 55, 0.55); }
+.tool-btn.active {
+    background: rgba(212, 175, 55, 0.22);
+    border-color: var(--gold);
+    color: var(--gold-light);
+}
+.tool-btn.suggested::after {
+    content: '';
+    position: absolute;
+    margin-top: -0.3rem;
+}
+.tool-btn .icon { font-size: 1.05rem; line-height: 1; }
+.tool-btn .tool-name { font-size: 0.58rem; letter-spacing: 0.2px; text-align: center; }
+.tool-btn .tool-key { display: none; }
+
+/* Actions */
+
+.action-panel { display: flex; flex-direction: column; gap: 0.4rem; }
+
+.mini-actions { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.3rem; }
+
+.btn-mini {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    color: var(--text-primary);
+    border-radius: 5px;
+    padding: 0.32rem 0.1rem;
+    font-size: 0.7rem;
+    cursor: pointer;
+    font-family: var(--font-text);
+}
+.btn-mini:hover { background: rgba(212, 175, 55, 0.14); border-color: rgba(212, 175, 55, 0.5); }
+.btn-mini.on { background: rgba(212, 175, 55, 0.22); border-color: var(--gold); color: var(--gold-light); }
+
+.hint-box {
+    font-size: 0.78rem;
+    line-height: 1.4;
+    background: rgba(78, 205, 196, 0.09);
+    border-left: 3px solid var(--success);
+    padding: 0.5rem 0.6rem;
+    border-radius: 5px;
+    color: #d6f5f2;
+    max-height: 8.5rem;
+    overflow-y: auto;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, var(--gold-dark), var(--gold));
+    border: none;
+    padding: 0.6rem;
+    border-radius: 6px;
+    color: #14202c;
+    font-family: var(--font-title);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-primary:hover:not(:disabled) { background: linear-gradient(45deg, var(--gold), var(--gold-light)); }
+.btn-primary:disabled { background: #24313d; color: #5d6b78; cursor: not-allowed; }
+
+.btn-next {
+    background: var(--success);
+    border: none;
+    padding: 0.5rem;
+    border-radius: 6px;
+    color: #0a1f1d;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: var(--font-text);
+}
+
+.feedback-msg {
+    text-align: center;
+    font-size: 0.8rem;
+    min-height: 1.15rem;
+    line-height: 1.25;
+    font-weight: 600;
+}
+.feedback-msg.success { color: var(--success); }
+.feedback-msg.error { color: var(--danger); }
+.feedback-msg.near { color: var(--near); }
+.feedback-msg.info { color: var(--text-muted); font-weight: 400; }
+
+.btn-reveal {
+    background: none;
+    border: 1px dashed rgba(143, 163, 186, 0.4);
+    color: var(--text-muted);
+    border-radius: 5px;
+    padding: 0.28rem;
+    font-size: 0.68rem;
+    cursor: pointer;
+    font-family: var(--font-text);
+}
+.btn-reveal:hover { color: var(--text-primary); border-color: var(--text-muted); }
+.btn-reveal.on { color: var(--near); border-color: var(--near); border-style: solid; }
+
+/* --------------------------------------------------------------- Carte */
+
+.map-container {
+    flex: 1 1 auto;
+    position: relative;
+    min-width: 0;
+    background: radial-gradient(circle at 45% 40%, #24384a 0%, #11202c 70%, #0b1621 100%);
+    box-shadow: inset 0 0 120px rgba(0, 0, 0, 0.75);
+}
+
+#gameCanvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    cursor: crosshair;
+    touch-action: none;          /* indispensable au TBI et aux tablettes */
+}
+
+.status-bar {
+    position: absolute;
+    left: 0.7rem;
+    bottom: 0.6rem;
+    font-size: 0.76rem;
+    color: var(--text-muted);
+    background: rgba(8, 17, 26, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+    padding: 0.28rem 0.6rem;
+    pointer-events: none;
+    max-width: calc(100% - 1.4rem);
+}
+.status-bar strong { color: var(--gold-light); font-weight: 600; }
+
+/* Écrans courts : on comprime encore, rien ne doit sortir */
+@media (max-height: 700px) {
+    body { font-size: 14px; }
+    .sidebar { gap: 0.5rem; padding: 0.6rem 0.8rem 0.7rem; }
+    h1 { font-size: 1.3rem; }
+    .lvl-competence { display: none; }
+    .tool-btn { min-height: 40px; }
+    .btn-primary { padding: 0.45rem; font-size: 0.9rem; }
+}
+
+/* Fenêtre étroite : la carte passe au-dessus, la colonne en dessous */
+@media (max-width: 820px) {
+    .app-container { flex-direction: column; }
+    .sidebar { width: 100%; flex: 0 0 auto; max-height: 58vh; overflow-y: auto; }
+    .map-container { flex: 1 1 auto; min-height: 42vh; }
+}
+
+/* Ascenseur discret mais visible dans le journal et l'aide */
+.quest-text::-webkit-scrollbar, .hint-box::-webkit-scrollbar { width: 8px; }
+.quest-text::-webkit-scrollbar-track, .hint-box::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+}
+.quest-text::-webkit-scrollbar-thumb, .hint-box::-webkit-scrollbar-thumb {
+    background: rgba(212, 175, 55, 0.45);
+    border-radius: 4px;
+}
+.quest-text, .hint-box { scrollbar-width: thin; scrollbar-color: rgba(212,175,55,0.45) rgba(255,255,255,0.06); }

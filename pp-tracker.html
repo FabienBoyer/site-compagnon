@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PP Tracker - Les outils pour enseigner avec l'IA</title>
+    <meta name="description"
+        content="PP Tracker, tableau de bord de professeur principal conçu RGPD by design : architecture, vue simulée de l'interface, et les raisons pour lesquelles le moteur de récupération des données n'est pas distribué.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="ethicia/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        .step-container {
+            position: relative;
+            padding-left: 3rem;
+            margin-bottom: var(--spacing-3xl);
+            border-left: 2px solid var(--border-color);
+        }
+
+        .step-number {
+            position: absolute;
+            left: -1.25rem;
+            top: 0;
+            width: 2.5rem;
+            height: 2.5rem;
+            background: var(--color-primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.25rem;
+            box-shadow: 0 0 0 4px var(--bg-primary);
+        }
+
+        .step-content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .step-title {
+            margin-bottom: var(--spacing-md);
+            color: var(--color-primary);
+        }
+
+
+        .vp-exchange {
+            display: grid;
+            gap: var(--spacing-lg);
+            margin-bottom: 2rem;
+        }
+
+        .vp-meta {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+        }
+
+        .vp-meta span {
+            padding: 0.4rem 0.9rem;
+            border: 1px solid var(--border-color);
+            border-radius: 999px;
+            background: var(--bg-secondary);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .vp-meta strong {
+            color: var(--color-primary);
+        }
+
+        .vp-turn {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .vp-turn-key {
+            border-color: var(--color-primary);
+        }
+
+        .vp-who {
+            display: inline-block;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+        }
+
+        .vp-who-key {
+            color: var(--color-primary);
+        }
+
+        .vp-bubble {
+            margin: 0 0 1rem;
+            padding: 1rem 1.25rem;
+            background: var(--bg-secondary);
+            border-left: 3px solid var(--color-primary);
+            border-radius: var(--radius-md);
+            font-style: italic;
+            line-height: 1.7;
+        }
+
+        .vp-note {
+            margin-top: 0.75rem;
+        }
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-lg);
+        }
+
+        .tool-choice {
+            padding: var(--spacing-md);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            text-align: center;
+            transition: all var(--transition-base);
+        }
+
+        .tool-choice:hover {
+            border-color: var(--color-primary);
+            background: var(--bg-secondary);
+        }
+
+        .crofi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing-sm);
+            margin-top: var(--spacing-md);
+        }
+
+        .crofi-item {
+            background: var(--bg-secondary);
+            padding: var(--spacing-md);
+            border-radius: var(--radius-md);
+            text-align: center;
+        }
+
+        .crofi-letter {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-primary);
+            display: block;
+            margin-bottom: var(--spacing-xs);
+        }
+    </style>
+    <style>
+        /* Schéma d'architecture */
+        .ppt-flow { max-width: 620px; margin: 0 auto; }
+        .ppt-step {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-left: 4px solid var(--color-primary);
+            border-radius: var(--radius-md);
+            padding: 1rem 1.25rem;
+        }
+        .ppt-step-key { border-left-color: #16a34a; }
+        .ppt-step strong { display: block; margin: 0.35rem 0 0.3rem; font-size: 1.05rem; }
+        .ppt-step p { margin: 0; font-size: 0.92rem; color: var(--text-secondary); line-height: 1.55; }
+        .ppt-tag {
+            display: inline-block;
+            font-size: 0.66rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--color-primary);
+        }
+        .ppt-tag-key { color: #16a34a; }
+        .ppt-arrow { text-align: center; font-size: 1.35rem; line-height: 1; color: var(--text-secondary); margin: 0.4rem 0; opacity: 0.6; }
+
+        /* Avertissement données fictives */
+        .ppt-fake-banner {
+            max-width: 760px;
+            margin: 0 auto 1.25rem;
+            background: rgba(217, 119, 6, 0.1);
+            border: 1px solid rgba(217, 119, 6, 0.45);
+            border-radius: var(--radius-md);
+            padding: 0.85rem 1.1rem;
+            font-size: 0.92rem;
+            line-height: 1.55;
+            text-align: center;
+        }
+
+        /* Vue simulée */
+        .ppt-mock {
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            background: var(--bg-card);
+            box-shadow: var(--shadow-sm);
+        }
+        .ppt-mock-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            padding: 0.85rem 1.15rem;
+            border-bottom: 1px solid var(--border-color);
+            background: var(--bg-secondary);
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        .ppt-mock-sync { font-weight: 400; font-size: 0.82rem; color: var(--text-secondary); }
+        .ppt-kpis {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1px;
+            background: var(--border-color);
+        }
+        .ppt-kpi { background: var(--bg-card); padding: 0.85rem 1.15rem; }
+        .ppt-kpi small { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-secondary); }
+        .ppt-kpi b { display: block; font-size: 1.7rem; line-height: 1.2; margin: 0.15rem 0; }
+        .ppt-kpi span { font-size: 0.76rem; color: var(--text-secondary); }
+        .ppt-up { color: #16a34a !important; }
+        .ppt-down { color: #dc2626 !important; }
+
+        .ppt-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+        .ppt-table th, .ppt-table td { padding: 0.6rem 1.15rem; text-align: left; border-top: 1px solid var(--border-color); }
+        .ppt-table th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-secondary); font-weight: 700; }
+        .ppt-table tbody tr.ppt-alert { background: rgba(220, 38, 38, 0.08); }
+        .ppt-table tbody tr.ppt-watch { background: rgba(217, 119, 6, 0.08); }
+        .ppt-spark { letter-spacing: -1px; color: var(--text-secondary); }
+        .ppt-spark-up { color: #16a34a; }
+        .ppt-spark-down { color: #dc2626; }
+
+        .ppt-draft { padding: 1rem 1.15rem; border-top: 1px solid var(--border-color); background: var(--bg-secondary); }
+        .ppt-draft-label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); font-weight: 700; margin-bottom: 0.4rem; }
+        .ppt-draft p { margin: 0; font-style: italic; line-height: 1.6; }
+
+        @media (max-width: 600px) {
+            .ppt-table th:nth-child(3), .ppt-table td:nth-child(3),
+            .ppt-table th:nth-child(5), .ppt-table td:nth-child(5) { display: none; }
+            .ppt-kpi b { font-size: 1.35rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">Enseigner avec l'IA</span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link nav-link-dropdown">
+                        Comprendre
+                        <i data-lucide="chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="debuter.html">Débuter avec l'IA</a>
+                        <a href="ethique.html">Cadre Légal & Éthique</a>
+                        <a href="lexique.html">Lexique</a>
+                        <a href="formation.html">Formation</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link nav-link-dropdown active">
+                        Pratiquer
+                        <i data-lucide="chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="outils.html">Outils & Prompts</a>
+                        <a href="disciplines.html">Disciplines</a>
+                        <a href="conversations.html">Conversations du Livre</a>
+                        <a href="comparatif-ia.html">Comparatif IA Images</a>
+                        <a href="chatbot.html">Assistant IA</a>
+                                             <div class="dropdown-divider" style="height: 1px; background-color: var(--border-color); margin: 0.5rem 0;"></div>
+                        <a href="ia-locale.html">Tutoriel IA Locale</a>
+                        <a href="rag-local.html">Mon RAG 1-Clic</a>
+                        <a href="le-vibe-professeur.html">Le Vibe Professeur</a>
+                        <a href="pp-tracker.html" class="active">PP Tracker</a>
+                        <a href="vermeer.html">Vermeer Outpainting</a>
+</div>
+                </li>
+
+                <li><a href="veille.html" class="nav-link">Veille</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                </button>
+                <a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener" class="btn btn-primary">
+                    <i data-lucide="shopping-cart"></i>
+                    <span>Commander</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding: 4rem 0 2rem;">
+        <div class="container" style="text-align: center;">
+            <h1 class="hero-title" style="font-size: 2.5rem;">PP Tracker</h1>
+            <p class="hero-subtitle" style="margin-left: auto; margin-right: auto;">
+                Un tableau de bord de professeur principal. Et la raison pour laquelle vous ne pourrez pas le
+                télécharger.
+            </p>
+        </div>
+    </section>
+
+    <div class="container" style="max-width: 820px; padding-bottom: 4rem;">
+
+        <div class="step-content" style="border-left: 4px solid var(--color-primary);">
+            <h2 class="step-title" style="margin-top:0;">Ce que fait l'outil</h2>
+            <p>Un professeur principal passe une partie de ses soirées à recoller des informations qui existent
+                déjà : les notes sont dans Pronote, les retards aussi, les incidents dans un autre onglet, et
+                l'appréciation de fin de trimestre doit tenir compte des trois. PP Tracker récupère ces éléments
+                pour ses propres classes, les range dans une base locale, et affiche pour chaque élève une fiche
+                qui tient sur un écran : la tendance des moyennes, les absences, les retards, les incidents,
+                les dispositifs en cours.</p>
+            <p>Il tourne sur un seul ordinateur, le mien. C'est un exécutable Windows avec une icône dans la barre
+                des tâches, pas un service en ligne. En seconde phase, un modèle de langage installé en local
+                propose un brouillon d'appréciation ou de courrier aux familles, que je réécris.</p>
+        </div>
+
+        <div class="step-content" style="margin-top: 1.5rem; border-left: 4px solid var(--color-primary);">
+            <h2 class="step-title" style="margin-top:0;">Pourquoi il n'est pas distribué</h2>
+            <p>Parce que la partie utile de cet outil est aussi la plus délicate : le module qui va chercher les
+                données dans Pronote. Publier ce moteur, ce serait mettre en circulation un moyen d'extraire
+                automatiquement des données personnelles de mineurs, sans savoir qui l'utilise, sur quelles classes,
+                avec quelle base légale, ni où les fichiers finissent.</p>
+            <p><strong>Le flou juridique n'est pas de mon côté ici, il est du côté de celui qui téléchargerait.</strong>
+                Je suis fondé à traiter les données des élèves dont je suis professeur principal, dans le cadre de
+                ma mission et sur les outils de mon établissement. Un collègue qui installerait le même binaire sur
+                une autre classe, un autre établissement, un autre compte, sortirait de ce cadre sans même s'en
+                rendre compte. Et le responsable de traitement, au sens du RGPD, ce n'est pas moi : c'est le chef
+                d'établissement.</p>
+            <p>Alors cette page montre l'architecture et une vue de l'interface. Il n'y a rien à télécharger :
+                pas de code, pas de connecteur, pas d'exécutable.</p>
+        </div>
+
+        <h2 style="margin: 3rem 0 0.5rem; text-align: center;">L'architecture</h2>
+        <p style="text-align:center; color: var(--text-secondary); max-width: 620px; margin: 0 auto 1.75rem;">
+            Le schéma se lit de haut en bas. Le point important est la seule flèche qui sort de la machine :
+            elle va vers Pronote, et il n'y en a pas d'autre.
+        </p>
+
+        <div class="ppt-flow">
+            <div class="ppt-step">
+                <span class="ppt-tag">Source</span>
+                <strong>Pronote de l'établissement</strong>
+                <p>Connexion HTTPS sortante, et c'est la seule sortie réseau de l'application.</p>
+            </div>
+            <div class="ppt-arrow" aria-hidden="true">↓</div>
+            <div class="ppt-step">
+                <span class="ppt-tag">Acquisition</span>
+                <strong>Récupération en deux voies</strong>
+                <p>Une bibliothèque Python dédiée, avec une seconde voie en navigateur sans interface si la
+                    première échoue. <em>C'est ce module qui n'est pas publié.</em></p>
+            </div>
+            <div class="ppt-arrow" aria-hidden="true">↓</div>
+            <div class="ppt-step">
+                <span class="ppt-tag">Normalisation</span>
+                <strong>Un format unique</strong>
+                <p>Notes, absences, retards, appréciations, incidents et sanctions ramenés à une seule structure,
+                    pour que l'affichage ne dépende plus de la source.</p>
+            </div>
+            <div class="ppt-arrow" aria-hidden="true">↓</div>
+            <div class="ppt-step ppt-step-key">
+                <span class="ppt-tag ppt-tag-key">Stockage</span>
+                <strong>Base locale chiffrée</strong>
+                <p>Un fichier de base de données chiffré, dont la clé est dérivée de la session Windows. Copié sur
+                    une clé USB, le fichier est illisible. Purge programmée en fin d'année scolaire.</p>
+            </div>
+            <div class="ppt-arrow" aria-hidden="true">↓</div>
+            <div class="ppt-step">
+                <span class="ppt-tag">Backend</span>
+                <strong>Une API qui n'écoute que la machine</strong>
+                <p>Elle n'est accessible que depuis l'ordinateur lui-même. Une synchronisation hebdomadaire le
+                    vendredi soir, ou à la demande.</p>
+            </div>
+            <div class="ppt-arrow" aria-hidden="true">↓</div>
+            <div class="ppt-step">
+                <span class="ppt-tag">Interface</span>
+                <strong>Fiche élève, tableau de bord, rapport hebdomadaire</strong>
+                <p>Plus un module de préparation du conseil de classe et un suivi des dispositifs.</p>
+            </div>
+            <div class="ppt-arrow" aria-hidden="true">↓</div>
+            <div class="ppt-step">
+                <span class="ppt-tag">Optionnel</span>
+                <strong>Modèle de langage local</strong>
+                <p>Installé sur la même machine, jamais en ligne. S'il est absent, les boutons de rédaction sont
+                    simplement grisés et le reste fonctionne.</p>
+            </div>
+        </div>
+
+        <h2 style="margin: 3rem 0 0.5rem; text-align: center;">Une vue de l'interface</h2>
+
+        <div class="ppt-fake-banner">
+            <strong>Données entièrement fictives.</strong> Les élèves ci-dessous n'existent pas. Aucune capture du
+            logiciel en fonctionnement n'est publiée sur ce site, ni ici ni ailleurs.
+        </div>
+
+        <div class="ppt-mock" role="img"
+            aria-label="Vue simulée du tableau de bord : quatre indicateurs de classe, une liste de six élèves fictifs avec moyenne, retards, absences et incidents, et un brouillon d'appréciation.">
+            <div class="ppt-mock-head">
+                <span>4<sup>e</sup> B &middot; 27 élèves</span>
+                <span class="ppt-mock-sync">Dernière synchronisation : vendredi, 18 h 02</span>
+            </div>
+
+            <div class="ppt-kpis">
+                <div class="ppt-kpi"><small>Moyenne de classe</small><b>12,4</b><span class="ppt-up">+0,3 ce mois</span></div>
+                <div class="ppt-kpi"><small>Retards</small><b>31</b><span class="ppt-down">+9 ce mois</span></div>
+                <div class="ppt-kpi"><small>Demi-journées d'absence</small><b>58</b><span>stable</span></div>
+                <div class="ppt-kpi"><small>Élèves à suivre</small><b>4</b><span>dont 2 nouveaux</span></div>
+            </div>
+
+            <table class="ppt-table">
+                <thead>
+                    <tr><th>Élève</th><th>Moyenne</th><th>Tendance</th><th>Retards</th><th>Absences</th><th>Incidents</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Alric, Noé</td><td>14,8</td><td><span class="ppt-spark ppt-spark-up">▁▃▄▆▇</span></td><td>1</td><td>2</td><td>0</td></tr>
+                    <tr class="ppt-alert"><td>Baradel, Iris</td><td>7,9</td><td><span class="ppt-spark ppt-spark-down">▇▆▄▃▁</span></td><td>9</td><td>14</td><td>2</td></tr>
+                    <tr><td>Cheval, Maël</td><td>11,2</td><td><span class="ppt-spark">▃▄▃▄▅</span></td><td>2</td><td>4</td><td>0</td></tr>
+                    <tr><td>Dorval, Lina</td><td>15,6</td><td><span class="ppt-spark">▆▆▇▆▇</span></td><td>0</td><td>1</td><td>0</td></tr>
+                    <tr class="ppt-watch"><td>Estoup, Gabin</td><td>9,4</td><td><span class="ppt-spark ppt-spark-down">▅▄▄▃▂</span></td><td>6</td><td>9</td><td>1</td></tr>
+                    <tr><td>Fauvel, Anouk</td><td>13,1</td><td><span class="ppt-spark ppt-spark-up">▃▄▅▅▆</span></td><td>1</td><td>0</td><td>0</td></tr>
+                </tbody>
+            </table>
+
+            <div class="ppt-draft">
+                <span class="ppt-draft-label">Brouillon proposé par le modèle local · à réécrire</span>
+                <p>« Iris a les moyens de réussir, mais les absences répétées de ce trimestre ont creusé des lacunes
+                    en mathématiques et en anglais. Un point avec la famille serait utile avant les vacances. »</p>
+            </div>
+        </div>
+
+        <div class="step-content" style="margin-top: 2.5rem; border-left: 4px solid var(--text-secondary);">
+            <h3 style="margin-top:0;">Ce qu'il faut en retenir, même sans l'outil</h3>
+            <p>Le principe intéressant n'est pas le logiciel, c'est l'ordre dans lequel les décisions ont été
+                prises. Le chiffrement, l'absence de sortie réseau et la purge de fin d'année n'ont pas été
+                ajoutés à la fin, ils ont déterminé le choix de chaque brique. Un outil qui manipule des données
+                d'élèves se conçoit dans ce sens, ou ne se conçoit pas.</p>
+            <p>Et la conclusion vaut au-delà de ce projet : <strong>une application pédagogique peut être une
+                    réussite technique et rester indistribuable.</strong> Savoir la garder pour soi fait partie du
+                métier.</p>
+        </div>
+
+    </div>
+
+<!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">📚</span>
+                        <span class="logo-text">Enseigner avec l'IA</span>
+                    </a>
+                    <p class="footer-description">
+                        Site compagnon du livre "Les outils pour enseigner avec l'IA"
+                        de Fabien Boyer, publié aux Éditions Ellipses.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="debuter.html">Débuter</a></li>
+                        <li><a href="disciplines.html">Disciplines</a></li>
+                        <li><a href="conversations.html">Conversations</a></li>
+                        <li><a href="outils.html">Outils</a></li>
+                        <li><a href="ethique.html">Ressources</a></li>
+                        <li><a href="lexique.html">Lexique</a></li>
+                        <li><a href="formation.html">Formation</a></li>
+                        <li><a href="veille.html">🆕 Veille IA — mise à jour régulière</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Informations</h4>
+                    <ul>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener">Éditions
+                                Ellipses</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul>
+                        <li>
+                            <a href="https://x.com/" target="_blank" rel="noopener">
+                                <i data-lucide="twitter"></i>
+                                Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fabien Boyer - Éditions Ellipses. Tous droits réservés.</p>
+                <div style="margin-top: 10px; opacity: 0.8;">
+                    <script data-goatcounter="https://fabienboyer.goatcounter.com/count" async
+                        src="//gc.zgo.at/count.js"></script>
+                    <noscript>
+                        <img src="https://fabienboyer.goatcounter.com/count?p=/index.html">
+                    </noscript>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

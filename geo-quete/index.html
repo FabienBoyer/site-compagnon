@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GéoQuête : Le Trésor d'Euclide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-container">
+
+  <aside class="sidebar">
+
+    <header class="app-header">
+      <h1>GéoQuête</h1>
+      <p class="subtitle">Le Trésor d'Euclide</p>
+    </header>
+
+    <div class="level-selector">
+      <label for="level-select">Mission</label>
+      <select id="level-select"></select>
+    </div>
+
+    <!-- Case "niveau scolaire requis", en haut de chaque mission -->
+    <section class="level-card" id="level-card">
+      <div class="level-card-top">
+        <span class="badge-niveau" id="lvl-niveau">6e</span>
+        <span class="lvl-notion" id="lvl-notion"></span>
+      </div>
+      <p class="lvl-competence" id="lvl-competence"></p>
+      <p class="lvl-outils"><span>Instruments conseillés :</span> <strong id="lvl-outils"></strong></p>
+    </section>
+
+    <section class="quest-log">
+      <h3>Journal de Bord</h3>
+      <div id="quest-text" class="quest-text"></div>
+    </section>
+
+    <section class="tools-panel">
+      <h3>Instruments</h3>
+      <div class="tool-grid" id="tool-grid"></div>
+    </section>
+
+    <section class="action-panel">
+      <div class="mini-actions">
+        <button id="btn-undo" class="btn-mini" title="Annuler le dernier tracé (touche A)">↩ Annuler</button>
+        <button id="btn-clear" class="btn-mini" title="Effacer tous mes tracés (touche E)">✕ Effacer</button>
+        <button id="btn-hint" class="btn-mini" title="Afficher ou masquer l'aide">? Aide</button>
+      </div>
+      <div id="hint-box" class="hint-box" hidden></div>
+      <button id="btn-dig" class="btn-primary" disabled>Creuser ici</button>
+      <button id="btn-next" class="btn-next" hidden>Mission suivante →</button>
+      <div id="feedback-msg" class="feedback-msg"></div>
+      <button id="btn-reveal" class="btn-reveal" title="Réservé à l'enseignant : montre la zone de la solution">Révéler la solution (prof)</button>
+    </section>
+
+  </aside>
+
+  <main class="map-container" id="map-container">
+    <canvas id="gameCanvas"></canvas>
+    <div class="status-bar" id="status-bar"></div>
+  </main>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

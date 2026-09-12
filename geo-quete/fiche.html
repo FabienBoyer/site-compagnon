@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8">
+<title>GéoQuête - fiche enseignant</title>
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; margin: 1.5cm; color: #111; font-size: 10.5pt; }
+  h1 { font-size: 15pt; margin: 0 0 0.1cm; }
+  .lead { font-size: 9.5pt; color: #444; margin-bottom: 0.5cm; line-height: 1.35; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #999; padding: 4px 6px; vertical-align: top; }
+  th { background: #eee; font-size: 9pt; text-align: left; }
+  td { font-size: 9pt; }
+  .num, .niv { text-align: center; font-weight: bold; }
+  .niv { background: #f4f4f4; }
+  .en, .comp { font-size: 8pt; color: #555; font-style: italic; margin-top: 2px; line-height: 1.3; }
+  .q { font-size: 8.5pt; }
+  .sol { font-family: monospace; font-size: 8pt; text-align: center; }
+  .note { font-size: 8.5pt; color: #444; margin-top: 0.4cm; line-height: 1.4; }
+  @media print { body { margin: 1cm; } @page { size: A4 landscape; } }
+</style></head><body>
+<h1>GéoQuête, le Trésor d'Euclide &ndash; fiche enseignant</h1>
+<p class="lead">Douze missions de construction géométrique, de la 6<sup>e</sup> à la 3<sup>e</sup>. Chaque mission affiche
+en haut de l'écran le niveau scolaire et la notion travaillée. Les longueurs sont exprimées en « pas » ; la carte
+mesure 1000 pas sur 700, le quadrillage vaut 50 pas. La tolérance de réussite est de 18 pas, et l'aimantation
+place automatiquement le point de fouille sur une intersection de tracés. Raccourcis : touches 1 à 8 pour les
+instruments, A pour annuler, E pour effacer, Entrée pour creuser. Le bouton « Révéler la solution » est réservé
+à la vidéoprojection.</p>
+<table>
+<tr><th>N°</th><th>Mission et énoncé</th><th>Niveau</th><th>Notion et compétence</th><th>Instruments</th><th>Question pour le cahier</th><th>Solution</th></tr>
+<tr>
+    <td class="num">1</td>
+    <td><strong>Le Secret de l'Ancre</strong><div class="en">L'antique légende raconte : « Le trésor d'Euclide repose à exactement 300 pas du repère de l'Ancre (A) et à 260 pas du repère du Palmier (B). On dit aussi qu'il a été enterré le plus au Nord possible. »</div></td>
+    <td class="niv">6e</td>
+    <td>Report de longueurs au compas<div class="comp">Construire un point situé à deux distances données de deux points connus.</div></td>
+    <td>Compas, Pointeur</td>
+    <td class="q">Pourquoi obtient-on deux points possibles, et pas un seul ?</td>
+    <td class="sol">(391 ; 155)</td>
+  </tr>
+<tr>
+    <td class="num">2</td>
+    <td><strong>Le Phare Oublié</strong><div class="en">« Le trésor dort sous le Pont invisible. Ce pont est la droite qui passe par le Rocher (A) et par l'Arbre (B). Et depuis le Phare (C), le trésor se trouve exactement au plus court : à la perpendiculaire. »</div></td>
+    <td class="niv">6e</td>
+    <td>Droite perpendiculaire à une droite passant par un point<div class="comp">Construire la perpendiculaire à une droite passant par un point donné, et reconnaître un pied de perpendiculaire.</div></td>
+    <td>Règle, Équerre</td>
+    <td class="q">Le « plus court chemin » du Phare au Pont, c'est la distance du point à la droite. Pourquoi est-ce forcément la perpendiculaire ?</td>
+    <td class="sol">(489 ; 428)</td>
+  </tr>
+<tr>
+    <td class="num">3</td>
+    <td><strong>La Voie du Navire</strong><div class="en">« Place-toi à la Statue (S). Regarde droit vers le grand Chêne (C). Tourne de exactement 45° vers ta droite, puis marche tout droit jusqu'à la Rivière. Creuse là où tes pieds touchent l'eau. »</div></td>
+    <td class="niv">6e</td>
+    <td>Mesurer et construire un angle au rapporteur<div class="comp">Construire une demi-droite formant un angle donné avec une direction de référence.</div></td>
+    <td>Rapporteur</td>
+    <td class="q">Si l'explorateur avait tourné de 45° vers la gauche, où serait-il arrivé ?</td>
+    <td class="sol">(675 ; 175)</td>
+  </tr>
+<tr>
+    <td class="num">4</td>
+    <td><strong>Le Trésor des Jumeaux</strong><div class="en">« Le trésor est scellé dans la Grande Muraille de Glace. Il est à égale distance du Campement (A) et de l'Épave (B). »</div></td>
+    <td class="niv">5e</td>
+    <td>Médiatrice d'un segment<div class="comp">Caractériser la médiatrice comme l'ensemble des points équidistants de deux points, et la construire.</div></td>
+    <td>Compas, Règle</td>
+    <td class="q">Traduis l'énoncé en langage mathématique : quelle égalité de longueurs le trésor vérifie-t-il ?</td>
+    <td class="sol">(448 ; 219)</td>
+  </tr>
+<tr>
+    <td class="num">5</td>
+    <td><strong>La Faille de l'Île</strong><div class="en">Trois lieux forment un triangle : le Volcan (V), le Temple (T) et la Grotte (G). « Le trésor se trouve sur la droite qui relie le milieu du chemin [VT] au milieu du chemin [VG], là où elle franchit le Méridien Zéro. »</div></td>
+    <td class="niv">4e</td>
+    <td>Droite des milieux<div class="comp">Utiliser le théorème de la droite des milieux dans un triangle.</div></td>
+    <td>Milieu, Règle</td>
+    <td class="q">Mesure [TG] puis le segment qui joint les deux milieux. Quel rapport obtiens-tu, et pourquoi ?</td>
+    <td class="sol">(500 ; 345)</td>
+  </tr>
+<tr>
+    <td class="num">6</td>
+    <td><strong>Les Deux Rives</strong><div class="en">Deux rives partent du Fort (O) : l'une vers la Rive Nord (R), l'autre vers la Rive Sud (S). « Le trésor est à égale distance des deux rives, et à 250 pas du Fort. »</div></td>
+    <td class="niv">5e</td>
+    <td>Bissectrice d'un angle<div class="comp">Construire la bissectrice d'un angle et l'interpréter comme axe de symétrie de l'angle.</div></td>
+    <td>Bissectrice, Compas</td>
+    <td class="q">Un point de la bissectrice est à égale distance des deux côtés de l'angle. Quelles longueurs compare-t-on exactement ?</td>
+    <td class="sol">(716 ; 462)</td>
+  </tr>
+<tr>
+    <td class="num">7</td>
+    <td><strong>Le Moulin et la Route</strong><div class="en">« Depuis le Moulin (M), suis un sentier qui ne coupe jamais la Route Royale, quelle que soit la distance parcourue. Le trésor t'attend là où ce sentier rencontre le Canal. »</div></td>
+    <td class="niv">6e</td>
+    <td>Droite parallèle à une droite passant par un point<div class="comp">Construire la parallèle à une droite passant par un point donné.</div></td>
+    <td>Parallèle, Règle</td>
+    <td class="q">Deux droites parallèles n'ont aucun point commun. Pourquoi le sentier coupe-t-il quand même le Canal ?</td>
+    <td class="sol">(709 ; 621)</td>
+  </tr>
+<tr>
+    <td class="num">8</td>
+    <td><strong>Le Reflet de la Falaise</strong><div class="en">« La Falaise est un miroir. Le trésor est le reflet exact de la Cabane (P) de l'autre côté de la Falaise. »</div></td>
+    <td class="niv">6e</td>
+    <td>Symétrie axiale<div class="comp">Construire le symétrique d'un point par rapport à une droite.</div></td>
+    <td>Équerre, Compas</td>
+    <td class="q">Note H le pied de la perpendiculaire et P' le reflet. Quelles deux propriétés caractérisent P' ?</td>
+    <td class="sol">(596 ; 106)</td>
+  </tr>
+<tr>
+    <td class="num">9</td>
+    <td><strong>Le Puits Sans Fond</strong><div class="en">« Fais demi-tour autour du Puits (O). Le trésor est le point tel que le Puits soit exactement le milieu du chemin qui va de la Chapelle (C) au trésor. »</div></td>
+    <td class="niv">5e</td>
+    <td>Symétrie centrale<div class="comp">Construire le symétrique d'un point par rapport à un point.</div></td>
+    <td>Règle, Compas</td>
+    <td class="q">Le symétrique de C par rapport à O est aussi l'image de C par une rotation. Laquelle ?</td>
+    <td class="sol">(720 ; 160)</td>
+  </tr>
+<tr>
+    <td class="num">10</td>
+    <td><strong>Le Conseil des Trois</strong><div class="en">Trois tours veillent sur l'île. « Le trésor est enterré à égale distance des trois tours. »</div></td>
+    <td class="niv">5e</td>
+    <td>Point équidistant de trois points<div class="comp">Construire le centre du cercle circonscrit à un triangle par intersection de deux médiatrices.</div></td>
+    <td>Compas, Règle</td>
+    <td class="q">Pourquoi la troisième médiatrice passe-t-elle forcément par ce même point ?</td>
+    <td class="sol">(504 ; 348)</td>
+  </tr>
+<tr>
+    <td class="num">11</td>
+    <td><strong>La Corde de l'Arpenteur</strong><div class="en">La Ruine (A) et la Borne (B) sont distantes de 400 pas sur la Vieille Route. « Quitte la Borne perpendiculairement à la route, marche vers le Nord, et arrête-toi quand la Ruine sera à 500 pas de toi. »</div></td>
+    <td class="niv">4e</td>
+    <td>Théorème de Pythagore<div class="comp">Calculer une longueur dans un triangle rectangle, puis la reporter au compas.</div></td>
+    <td>Équerre, Compas</td>
+    <td class="q">Calcule BT sans l'app. Que remarques-tu sur le triplet (300 ; 400 ; 500) ?</td>
+    <td class="sol">(700 ; 200)</td>
+  </tr>
+<tr>
+    <td class="num">12</td>
+    <td><strong>L'Œil du Cyclope</strong><div class="en">Les deux Colonnes A et B sont distantes de 500 pas. « Depuis le trésor, on voit les deux Colonnes sous un angle droit. Et le trésor est à 250 pas de la Colonne A, au Nord de la route. »</div></td>
+    <td class="niv">3e</td>
+    <td>Angle droit et cercle de diamètre donné<div class="comp">Utiliser le fait qu'un point voyant un segment sous un angle droit appartient au cercle de diamètre ce segment.</div></td>
+    <td>Milieu, Compas</td>
+    <td class="q">Vérifie ta réponse avec Pythagore : mesure TA et TB, puis compare TA² + TB² à AB².</td>
+    <td class="sol">(375 ; 183)</td>
+  </tr>
+</table>
+<p class="note">Les coordonnées de la dernière colonne sont celles du trésor dans le repère de la carte
+(origine en haut à gauche, axe des ordonnées vers le bas). Elles servent au contrôle, pas à l'élève.</p>
+</body></html>

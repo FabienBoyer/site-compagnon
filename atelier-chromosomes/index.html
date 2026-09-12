@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>L'atelier des chromosomes — Méiose &amp; fécondation</title>
+<meta name="description" content="Application pédagogique de SVT (cycle 4) : les élèves déplacent eux-mêmes les chromosomes pour fabriquer des gamètes puis une cellule-œuf, guidés par six défis.">
+<link rel="icon" type="image/x-icon" href="../ethicia/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+</head>
+<body>
+<div class="site-back">
+  <a href="../le-vibe-professeur.html">&larr; Retour au Vibe Professeur</a>
+  <span>Site compagnon — <em>Les outils pour enseigner avec l'IA</em></span>
+</div>
+<style>
+  :root{
+    --bg:#EDF0F7; --surface:#FFFFFF; --surface-2:#F5F7FC;
+    --ink:#161A2B; --muted:#5D6480; --line:#D5DAEA;
+    --accent:#3B45A8; --accent-soft:#E4E7F9; --on-accent:#FFFFFF;
+    --mat:#0E8F82; --mat-soft:#DCF0ED;
+    --pat:#C03A72; --pat-soft:#FBE3EC;
+    --ok:#1C7F4F; --ok-soft:#DEF3E7;
+    --ask:#B26A00; --ask-soft:#FBEEDA;
+    --cell-fill:#F8FAFE; --cell-line:#AEB6D4;
+    --shadow:0 1px 2px rgba(22,26,43,.06), 0 10px 26px -14px rgba(22,26,43,.22);
+    --f-disp:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
+    --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+    --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#10121C; --surface:#191C2A; --surface-2:#212536;
+      --ink:#ECEEF7; --muted:#9BA2BE; --line:#2F3449;
+      --accent:#9AA2F5; --accent-soft:#272C4C; --on-accent:#10121C;
+      --mat:#3FC9B7; --mat-soft:#143330;
+      --pat:#F5789F; --pat-soft:#3A1825;
+      --ok:#57D390; --ok-soft:#123021;
+      --ask:#E8B15C; --ask-soft:#332612;
+      --cell-fill:#1C2030; --cell-line:#4C5480;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 30px -16px rgba(0,0,0,.8);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#10121C; --surface:#191C2A; --surface-2:#212536;
+    --ink:#ECEEF7; --muted:#9BA2BE; --line:#2F3449;
+    --accent:#9AA2F5; --accent-soft:#272C4C; --on-accent:#10121C;
+    --mat:#3FC9B7; --mat-soft:#143330;
+    --pat:#F5789F; --pat-soft:#3A1825;
+    --ok:#57D390; --ok-soft:#123021;
+    --ask:#E8B15C; --ask-soft:#332612;
+    --cell-fill:#1C2030; --cell-line:#4C5480;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 30px -16px rgba(0,0,0,.8);
+  }
+
+  *{box-sizing:border-box}
+  body{background:var(--bg); color:var(--ink); font-family:var(--f-body); font-size:16px; line-height:1.55; margin:0;
+       -webkit-user-select:none; user-select:none; touch-action:manipulation;}
+  .wrap{max-width:1060px; margin:0 auto; padding-inline:18px; padding-block:26px 70px;}
+  h1,h2,h3{font-family:var(--f-disp); margin:0; line-height:1.12; text-wrap:balance;}
+  h1{font-size:clamp(28px,5vw,42px); font-weight:800; letter-spacing:-.02em;}
+  h2{font-size:19px; font-weight:700;}
+  h3{font-size:14px; font-weight:700;}
+  p{margin:0}
+  .eyebrow{font-family:var(--f-mono); font-size:11px; letter-spacing:.15em; text-transform:uppercase; color:var(--accent); font-weight:600;}
+  .lede{color:var(--muted); max-width:60ch; margin-top:8px;}
+  header.top{margin-bottom:22px;}
+
+  /* ---------- barre de défi ---------- */
+  .quest{
+    background:var(--surface); border:1px solid var(--line); border-left:5px solid var(--accent);
+    border-radius:14px; box-shadow:var(--shadow); padding:16px 20px; margin-bottom:18px;
+  }
+  .quest .row{display:flex; align-items:center; gap:12px; flex-wrap:wrap;}
+  .dots{display:flex; gap:5px; margin-left:auto;}
+  .dots i{width:9px; height:9px; border-radius:50%; background:var(--line); display:block;}
+  .dots i.on{background:var(--ok)}
+  .dots i.cur{background:var(--accent); transform:scale(1.25)}
+  .quest .consigne{font-family:var(--f-disp); font-size:20px; font-weight:700; margin-top:8px;}
+  .quest .indice{margin-top:8px; font-size:14.5px; color:var(--muted);}
+  .quest.free{border-left-color:var(--mat)}
+
+  section.step{background:var(--surface); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); margin-top:18px; overflow:hidden;}
+  .step-head{display:flex; align-items:center; gap:12px; flex-wrap:wrap; padding:14px 18px; border-bottom:1px solid var(--line); background:var(--surface-2);}
+  .step-head .hint{color:var(--muted); font-size:13.5px; margin-left:auto; text-align:right;}
+  .step-body{padding:18px;}
+
+  /* ---------- paillasse ---------- */
+  .bench{display:grid; grid-template-columns:minmax(0,1fr) 34px minmax(0,1.25fr); gap:12px; align-items:center;}
+  @media (max-width:760px){.bench{grid-template-columns:1fr; } .bench .arrow{transform:rotate(90deg); justify-self:center}}
+  .arrow{color:var(--muted); font-size:24px; text-align:center;}
+  .daughters{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+  .zone{
+    background:var(--cell-fill); border:2px dashed var(--cell-line); border-radius:50%/22%;
+    min-height:172px; padding:14px 12px 10px; text-align:center; position:relative;
+    transition:border-color .15s, background .15s, box-shadow .15s;
+  }
+  .zone.round{border-radius:50%; aspect-ratio:1/1; display:flex; flex-direction:column; justify-content:center;}
+  .zone .zlabel{font-family:var(--f-mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); display:block; margin-bottom:6px;}
+  .zone .slots{display:flex; flex-wrap:wrap; gap:8px; justify-content:center; align-items:center; min-height:92px;}
+  .zone.over{border-color:var(--accent); background:var(--accent-soft); box-shadow:inset 0 0 0 3px var(--accent-soft);}
+  .zone.solid{border-style:solid;}
+  .zone .empty{font-size:13px; color:var(--muted); opacity:.8}
+  .zone .count{position:absolute; right:12px; top:10px; font-family:var(--f-mono); font-size:12px; color:var(--muted);}
+
+  .chromo{cursor:grab; border-radius:10px; padding:2px; background:transparent; border:2px solid transparent; line-height:0;}
+  .chromo:hover{background:var(--surface-2)}
+  .chromo.picked{border-color:var(--accent); background:var(--accent-soft)}
+  .chromo.dragging{opacity:.25}
+  .chromo svg{display:block}
+  .dragghost{position:fixed; left:0; top:0; z-index:60; pointer-events:none; opacity:.95; filter:drop-shadow(0 8px 14px rgba(0,0,0,.28));}
+
+  .verdict{margin-top:14px; display:flex; gap:12px; align-items:flex-start; flex-wrap:wrap;}
+  .msg{flex:1; min-width:240px; border-radius:12px; padding:12px 14px; font-size:15px; border:1px solid var(--line); background:var(--surface-2);}
+  .msg.ask{background:var(--ask-soft); border-color:var(--ask); color:var(--ink);}
+  .msg.ok{background:var(--ok-soft); border-color:var(--ok);}
+  .msg b{font-family:var(--f-disp)}
+
+  /* ---------- gamètes / banque ---------- */
+  .gam-row{display:flex; gap:12px; flex-wrap:wrap; justify-content:center; margin-top:6px;}
+  .gam{width:118px; height:118px; border-radius:50%; border:2px solid var(--cell-line); background:var(--cell-fill);
+       display:flex; align-items:center; justify-content:center; gap:4px; position:relative; animation:pop .45s ease both;}
+  .gam .tag{position:absolute; bottom:-24px; left:0; right:0; text-align:center; font-family:var(--f-mono); font-size:13px; font-weight:600;}
+  @keyframes pop{from{opacity:0; transform:scale(.75)} to{opacity:1; transform:none}}
+  @media (prefers-reduced-motion: reduce){.gam{animation:none}}
+  .gam-wrap{padding-bottom:26px}
+
+  .shelf{display:flex; gap:10px; flex-wrap:wrap; align-items:center;}
+  .card{
+    border:1.5px solid var(--line); border-radius:12px; background:var(--surface);
+    padding:6px 10px 6px 6px; display:flex; align-items:center; gap:8px; cursor:grab;
+  }
+  .card.mat{border-color:var(--mat)} .card.pat{border-color:var(--pat)}
+  .card .name{font-family:var(--f-mono); font-size:13.5px; font-weight:600;}
+  .card .n{font-family:var(--f-mono); font-size:11.5px; color:var(--muted);}
+  .card.picked{background:var(--accent-soft); border-color:var(--accent)}
+  .card.dragging{opacity:.25}
+  .none{font-size:14px; color:var(--muted); font-style:italic;}
+
+  /* ---------- fécondation ---------- */
+  .fec{display:grid; grid-template-columns:1fr 30px 1fr; gap:12px; align-items:center;}
+  @media (max-width:700px){.fec{grid-template-columns:1fr} .fec .plus{justify-self:center}}
+  .plus{font-family:var(--f-disp); font-size:26px; color:var(--muted); text-align:center;}
+  .egg{margin-top:16px; border:1px solid var(--line); border-radius:12px; background:var(--surface-2); padding:16px; display:flex; gap:20px; align-items:center; flex-wrap:wrap;}
+  .egg[hidden]{display:none}
+  .egg .cellimg{width:150px; height:150px; border-radius:50%; border:2px solid var(--cell-line); background:var(--cell-fill); display:grid; grid-template-columns:1fr 1fr; place-items:center; gap:2px; padding:10px;}
+  .egg .res{display:flex; flex-direction:column; gap:3px;}
+  .egg .geno{font-family:var(--f-mono); font-size:15px; font-weight:600;}
+  .egg .big{font-family:var(--f-disp); font-size:26px; font-weight:800;}
+  .egg .flag{font-size:13.5px; font-weight:700; color:var(--ok);}
+
+  /* ---------- échiquier ---------- */
+  .tablewrap{overflow-x:auto}
+  table{border-collapse:collapse; width:100%; font-size:13.5px;}
+  th,td{border:1px solid var(--line); padding:7px 9px; text-align:center;}
+  th{background:var(--surface-2); font-family:var(--f-mono); font-size:12.5px; font-weight:600;}
+  td{font-family:var(--f-mono); color:var(--muted); min-width:88px;}
+  td.done{background:var(--ok-soft); color:var(--ink); font-weight:600;}
+  td .sx{display:block; font-family:var(--f-body); font-size:12px; font-weight:400; color:var(--muted);}
+  .progress{display:flex; align-items:center; gap:12px; margin-top:12px; flex-wrap:wrap;}
+  .bar{flex:1; min-width:150px; height:8px; border-radius:99px; background:var(--surface-2); border:1px solid var(--line); overflow:hidden;}
+  .bar span{display:block; height:100%; background:var(--ok); width:0; transition:width .4s ease;}
+  .pct{font-family:var(--f-mono); font-size:13px; color:var(--muted);}
+
+  /* ---------- question ---------- */
+  .qcm{margin-top:14px; border:1px solid var(--ask); background:var(--ask-soft); border-radius:12px; padding:14px 16px;}
+  .qcm h3{font-size:16px; margin-bottom:10px;}
+  .qcm .opt{display:block; width:100%; text-align:left; margin-bottom:8px; background:var(--surface); }
+  .qcm .opt.good{border-color:var(--ok); background:var(--ok-soft);}
+  .qcm .opt.bad{border-color:var(--pat); background:var(--pat-soft);}
+  .qcm .explain{font-size:14.5px; margin-top:6px;}
+
+  button{font-family:var(--f-body); font-size:14px; font-weight:600; color:var(--ink); background:var(--surface);
+         border:1.5px solid var(--line); border-radius:10px; padding:8px 14px; cursor:pointer;
+         transition:background .15s, border-color .15s, transform .05s;}
+  button:hover:not(:disabled){border-color:var(--accent); background:var(--surface-2)}
+  button:active:not(:disabled){transform:translateY(1px)}
+  button:disabled{opacity:.45; cursor:not-allowed}
+  button.primary{background:var(--accent); border-color:var(--accent); color:var(--on-accent)}
+  button.small{font-size:12.5px; padding:5px 10px}
+  button.ghost{background:transparent}
+  :focus-visible{outline:3px solid var(--accent); outline-offset:2px}
+
+  .tools{display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:14px}
+  .legend{display:flex; gap:16px; flex-wrap:wrap; font-size:13px; color:var(--muted); margin-top:12px}
+  .legend i{width:11px; height:11px; border-radius:3px; display:inline-block; vertical-align:-1px; margin-right:6px}
+  .parents-line{font-size:14.5px; color:var(--muted)}
+  .parents-line b{color:var(--ink); font-family:var(--f-mono); font-size:13.5px}
+  select{font-family:var(--f-mono); font-size:13.5px; font-weight:600; color:var(--ink); background:var(--surface-2);
+         border:1.5px solid var(--line); border-radius:9px; padding:5px 8px;}
+  details.notes{margin-top:20px; border:1px solid var(--line); border-radius:14px; background:var(--surface); padding:14px 18px}
+  details.notes summary{font-family:var(--f-disp); font-weight:700; cursor:pointer}
+  details.notes ol{margin:10px 0 0; padding-left:20px} details.notes li{margin-bottom:6px}
+  details.notes p{font-size:14.5px; color:var(--muted); margin-top:10px}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <span class="eyebrow">SVT · cycle 4 · méiose &amp; fécondation</span>
+    <h1>L'atelier des chromosomes</h1>
+    <p class="lede">Deux paires seulement : la paire sexuelle (X / Y) et la paire n°9 qui porte le groupe sanguin. C'est toi qui déplaces les chromosomes — l'atelier ne fait que vérifier et poser des questions.</p>
+  </header>
+
+  <div class="quest" id="quest"></div>
+
+  <section class="step">
+    <div class="step-head"><h2 id="bench-title">La paillasse</h2><span class="hint" id="bench-hint">Attrape un chromosome et dépose-le dans une cellule fille.</span></div>
+    <div class="step-body">
+      <p class="parents-line" id="parents-line"></p>
+      <div class="bench" style="margin-top:14px">
+        <div class="zone solid" id="z-source" data-zone="src">
+          <span class="zlabel" id="src-label">Cellule mère</span>
+          <div class="slots" id="slots-src"></div>
+        </div>
+        <div class="arrow">→</div>
+        <div class="daughters">
+          <div class="zone round" data-zone="0"><span class="zlabel">Cellule fille 1</span><div class="slots" id="slots-0"></div></div>
+          <div class="zone round" data-zone="1"><span class="zlabel">Cellule fille 2</span><div class="slots" id="slots-1"></div></div>
+        </div>
+      </div>
+      <div class="verdict">
+        <div class="msg" id="msg">Dépose les 4 chromosomes, puis vérifie ta répartition.</div>
+        <button class="primary" id="btn-check">Vérifier ma répartition</button>
+        <button class="ghost" id="btn-clear">Tout remettre</button>
+      </div>
+      <div id="gametes-out"></div>
+      <div class="legend">
+        <span><i style="background:var(--mat)"></i>chromosome venant de sa mère</span>
+        <span><i style="background:var(--pat)"></i>chromosome venant de son père</span>
+        <span>Clic long ou glisser · ou : un clic sur le chromosome, un clic sur la cellule.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="step">
+    <div class="step-head"><h2>La banque de gamètes</h2><span class="hint">Tout ce que tes méioses ont produit.</span></div>
+    <div class="step-body">
+      <h3 style="color:var(--mat)">Ovules</h3>
+      <div class="shelf" id="bank-mother" style="margin:8px 0 16px"></div>
+      <h3 style="color:var(--pat)">Spermatozoïdes</h3>
+      <div class="shelf" id="bank-father" style="margin-top:8px"></div>
+    </div>
+  </section>
+
+  <section class="step">
+    <div class="step-head"><h2>La fécondation</h2><span class="hint">Fais glisser un gamète de la banque dans chaque emplacement.</span></div>
+    <div class="step-body">
+      <div class="fec">
+        <div class="zone" data-zone="ov" style="min-height:120px"><span class="zlabel">Ovule</span><div class="slots" id="slot-ov"></div></div>
+        <div class="plus">+</div>
+        <div class="zone" data-zone="sp" style="min-height:120px"><span class="zlabel">Spermatozoïde</span><div class="slots" id="slot-sp"></div></div>
+      </div>
+      <div class="tools"><button class="primary" id="btn-fec" disabled>Féconder</button><button class="ghost small" id="btn-fec-clear">Vider les emplacements</button></div>
+      <div class="egg" id="egg" hidden></div>
+    </div>
+  </section>
+
+  <section class="step">
+    <div class="step-head"><h2>L'échiquier des possibles</h2><span class="hint">Une case par cellule-œuf différente.</span></div>
+    <div class="step-body">
+      <div class="tablewrap"><table id="grid"></table></div>
+      <div class="progress">
+        <div class="bar"><span id="bar"></span></div>
+        <span class="pct" id="pct"></span>
+        <button class="small ghost" id="btn-reset">Tout effacer</button>
+      </div>
+    </div>
+  </section>
+
+  <details class="notes">
+    <summary>Pour le professeur</summary>
+    <p>Modèle réduit à 2 paires sur les 23 de l'espèce humaine. Les chromosomes sont à 2 chromatides dans la cellule mère (après réplication) et à 1 chromatide dans les gamètes : la division II est automatique une fois la répartition validée, car c'est la division I qui porte le brassage interchromosomique.</p>
+    <ol>
+      <li>Combien de chromosomes dans la cellule mère ? dans un gamète ? dans la cellule-œuf ?</li>
+      <li>Pourquoi la mère ne fabrique-t-elle que 2 types d'ovules quand le père en fabrique 4 ?</li>
+      <li>Avec 2 paires : 2² = 4 combinaisons. Et avec les 23 paires humaines ?</li>
+      <li>Sur l'échiquier complet, quelle proportion de filles ? Est-ce le fruit du hasard ou une nécessité ?</li>
+      <li>Des parents de groupes A et B peuvent-ils avoir un enfant de groupe O ? Prouve-le avec l'atelier.</li>
+      <li>Ce modèle ne montre pas le brassage intrachromosomique (crossing-over). Que faudrait-il ajouter au dessin ?</li>
+    </ol>
+    <p>Le mode libre (bouton dans le bandeau des défis) déverrouille les allèles des parents pour tester d'autres croisements.</p>
+  </details>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var SVGNS = "http://www.w3.org/2000/svg";
+
+  /* =================== état =================== */
+  var S = {
+    who:"mother",
+    alleles:{mother:["A","O"], father:["B","O"]},
+    placed:{},           // idChromo -> "src" | "0" | "1"
+    locked:false,        // répartition validée
+    bank:{mother:{}, father:{}},
+    order:{mother:[], father:[]},
+    fec:{ov:null, sp:null},
+    grid:{},
+    mission:0,
+    free:false,
+    qcmOpen:false
+  };
+
+  function groupe(a,b){
+    var s=a+b, A=s.indexOf("A")>=0, B=s.indexOf("B")>=0;
+    return (A&&B)?"AB":A?"A":B?"B":"O";
+  }
+  function uniq(a){var o={},r=[];a.forEach(function(v){if(!o[v]){o[v]=1;r.push(v);}});return r;}
+  function typesOf(who){
+    var sx = who==="mother"?["X"]:["X","Y"], out=[];
+    sx.forEach(function(s){ uniq(S.alleles[who]).forEach(function(a){ out.push(s+"-"+a); }); });
+    return out;
+  }
+  function chromosOf(who){
+    var al = S.alleles[who];
+    return [
+      {id:"s0", pair:0, h:0, label:"X", kind:"X"},
+      {id:"s1", pair:0, h:1, label: who==="mother"?"X":"Y", kind: who==="mother"?"X":"Y"},
+      {id:"b0", pair:1, h:0, label:al[0], kind:"A9"},
+      {id:"b1", pair:1, h:1, label:al[1], kind:"A9"}
+    ];
+  }
+
+  /* =================== dessin d'un chromosome =================== */
+  function chromoSVG(kind, label, color, nChromatids, scale){
+    scale = scale || 1;
+    var h = kind==="X"?70:(kind==="Y"?40:56);
+    var W = 44, H = 92;
+    var bars = nChromatids===2 ? [[7],[25]] : [[16]];
+    var s = '<svg width="'+(W*scale)+'" height="'+(H*scale)+'" viewBox="0 0 '+W+' '+H+'" aria-hidden="true">';
+    bars.forEach(function(b){
+      s += '<rect x="'+b[0]+'" y="'+((H-h)/2)+'" width="12" height="'+h+'" rx="6" fill="'+color+'"/>';
+    });
+    if (nChromatids===2){
+      s += '<rect x="13" y="42" width="18" height="8" rx="3" fill="'+color+'"/>';
+    }
+    s += '<circle cx="22" cy="46" r="10" fill="var(--surface)" stroke="'+color+'" stroke-width="2.4"/>';
+    s += '<text x="22" y="50.5" text-anchor="middle" font-family="\'IBM Plex Mono\', monospace" font-size="12" font-weight="600" fill="'+color+'">'+label+'</text>';
+    return s + '</svg>';
+  }
+  function chromoNode(c, who, n){
+    var d = document.createElement("div");
+    d.className = "chromo";
+    d.dataset.drag = "chromo";
+    d.dataset.id = c.id;
+    d.tabIndex = 0;
+    d.setAttribute("role","button");
+    d.setAttribute("aria-label","chromosome " + c.label + (c.h===0?", venant de sa mère":", venant de son père"));
+    d.innerHTML = chromoSVG(c.kind, c.label, c.h===0?"var(--mat)":"var(--pat)", n===undefined?2:n);
+    return d;
+  }
+
+  /* =================== paillasse =================== */
+  function resetBench(keepWho){
+    S.placed = {}; S.locked = false;
+    chromosOf(S.who).forEach(function(c){ S.placed[c.id] = "src"; });
+    document.getElementById("gametes-out").innerHTML = "";
+    setMsg("Dépose les 4 chromosomes, puis vérifie ta répartition.", "");
+    renderBench();
+  }
+
+  function renderBench(){
+    var who = S.who, list = chromosOf(who);
+    document.getElementById("src-label").textContent = who==="mother" ? "Cellule mère (mère)" : "Cellule mère (père)";
+    document.getElementById("bench-title").textContent = who==="mother" ? "Paillasse — méiose chez la mère" : "Paillasse — méiose chez le père";
+    ["src","0","1"].forEach(function(z){
+      var box = document.getElementById(z==="src" ? "slots-src" : "slots-"+z);
+      box.innerHTML = "";
+      var any = false;
+      list.forEach(function(c){
+        if (S.placed[c.id] === z){ box.appendChild(chromoNode(c, who)); any = true; }
+      });
+      if (!any){
+        var e = document.createElement("span");
+        e.className = "empty";
+        e.textContent = z==="src" ? "vide" : "dépose ici";
+        box.appendChild(e);
+      }
+    });
+    document.querySelectorAll('#z-source, .daughters .zone').forEach(function(z){
+      z.classList.toggle("solid", S.locked);
+    });
+    document.getElementById("btn-check").disabled = S.locked;
+    document.getElementById("parents-line").innerHTML =
+      'Mère : <b>XX · ' + S.alleles.mother.join("//") + '</b> (groupe ' + groupe(S.alleles.mother[0],S.alleles.mother[1]) + ')' +
+      (S.free ? ' ' + sel("mother") : '') +
+      ' &nbsp;—&nbsp; Père : <b>XY · ' + S.alleles.father.join("//") + '</b> (groupe ' + groupe(S.alleles.father[0],S.alleles.father[1]) + ')' +
+      (S.free ? ' ' + sel("father") : '');
+    if (S.free) wireSelects();
+  }
+  function sel(who){
+    var h = "";
+    [0,1].forEach(function(i){
+      h += '<select data-who="'+who+'" data-i="'+i+'" aria-label="allèle">';
+      ["A","B","O"].forEach(function(a){ h += '<option'+(S.alleles[who][i]===a?' selected':'')+'>'+a+'</option>'; });
+      h += '</select> ';
+    });
+    return h;
+  }
+  function wireSelects(){
+    document.querySelectorAll('#parents-line select').forEach(function(el){
+      el.addEventListener("change", function(){
+        S.alleles[el.dataset.who][+el.dataset.i] = el.value;
+        S.bank={mother:{},father:{}}; S.order={mother:[],father:[]}; S.grid={}; S.fec={ov:null,sp:null};
+        resetBench(); renderBank(); renderFec(); renderGrid();
+      });
+    });
+  }
+
+  function setMsg(html, cls){
+    var m = document.getElementById("msg");
+    m.className = "msg" + (cls ? " " + cls : "");
+    m.innerHTML = html;
+  }
+
+  function check(){
+    var who = S.who, list = chromosOf(who);
+    var rest = list.filter(function(c){ return S.placed[c.id]==="src"; });
+    if (rest.length){
+      setMsg("Il reste <b>" + rest.length + "</b> chromosome" + (rest.length>1?"s":"") + " dans la cellule mère. Une cellule mère se vide entièrement pendant la division. Où doivent-ils aller ?", "ask");
+      return;
+    }
+    var cells = [[],[]];
+    list.forEach(function(c){ cells[+S.placed[c.id]].push(c); });
+    if (cells[0].length !== 2 || cells[1].length !== 2){
+      setMsg("Une cellule fille a <b>" + cells[0].length + "</b> chromosome" + (cells[0].length>1?"s":"") + " et l'autre <b>" + cells[1].length + "</b>. Après la division, les deux cellules filles reçoivent le même nombre de chromosomes. Combien chacune doit-elle en recevoir ?", "ask");
+      return;
+    }
+    var bad = null;
+    [0,1].forEach(function(i){
+      var pairs = cells[i].map(function(c){ return c.pair; });
+      if (pairs[0] === pairs[1]) bad = {cell:i+1, pair:pairs[0]};
+    });
+    if (bad){
+      var nom = bad.pair===0 ? "la paire sexuelle" : "la paire n°9";
+      setMsg("La cellule fille " + bad.cell + " a reçu les <b>deux</b> chromosomes de " + nom + ", et l'autre cellule n'en a aucun. Combien de chromosomes de chaque paire un gamète doit-il contenir ? Reprends la répartition.", "ask");
+      return;
+    }
+    S.locked = true;
+    setMsg("<b>Répartition valide.</b> Chaque cellule fille a bien un chromosome de chaque paire. La division II peut avoir lieu : chaque chromosome se coupe en deux.", "ok");
+    renderBench();
+    showGametes(cells);
+  }
+
+  function showGametes(cells){
+    var who = S.who, out = document.getElementById("gametes-out");
+    var names = [];
+    var wrap = document.createElement("div");
+    wrap.className = "gam-wrap";
+    var row = document.createElement("div");
+    row.className = "gam-row";
+    [0,1].forEach(function(i){
+      var sx = cells[i].filter(function(c){return c.pair===0;})[0];
+      var bl = cells[i].filter(function(c){return c.pair===1;})[0];
+      var name = sx.label + "-" + bl.label;
+      for (var k=0;k<2;k++){
+        names.push(name);
+        var g = document.createElement("div");
+        g.className = "gam";
+        g.style.animationDelay = (0.09*(i*2+k)) + "s";
+        g.innerHTML = chromoSVG(sx.kind, sx.label, sx.h===0?"var(--mat)":"var(--pat)", 1, .8) +
+                      chromoSVG(bl.kind, bl.label, bl.h===0?"var(--mat)":"var(--pat)", 1, .8) +
+                      '<span class="tag">' + name + '</span>';
+        row.appendChild(g);
+      }
+    });
+    var h = document.createElement("p");
+    h.style.cssText = "margin:18px 0 10px; font-family:var(--f-disp); font-weight:700;";
+    h.textContent = "Tes 4 " + (who==="mother"?"ovules":"spermatozoïdes") + " :";
+    wrap.appendChild(h); wrap.appendChild(row);
+    var tools = document.createElement("div");
+    tools.className = "tools";
+    var b1 = document.createElement("button");
+    b1.className = "primary";
+    b1.textContent = "Ranger ces gamètes dans la banque";
+    b1.addEventListener("click", function(){
+      names.forEach(function(n){
+        if (!S.bank[who][n]){ S.bank[who][n]=0; S.order[who].push(n); }
+        S.bank[who][n]++;
+      });
+      renderBank(); resetBench(); checkMission();
+    });
+    var b2 = document.createElement("button");
+    b2.className = "ghost";
+    b2.textContent = "Recommencer cette méiose";
+    b2.addEventListener("click", function(){ resetBench(); });
+    tools.appendChild(b1); tools.appendChild(b2);
+    wrap.appendChild(tools);
+    out.innerHTML = "";
+    out.appendChild(wrap);
+  }
+
+  /* =================== banque =================== */
+  function cardNode(who, name){
+    var parts = name.split("-");
+    var al = S.alleles[who];
+    var sexKind = parts[0];
+    var d = document.createElement("div");
+    d.className = "card " + (who==="mother"?"mat":"pat");
+    d.dataset.drag = "gamete";
+    d.dataset.who = who;
+    d.dataset.name = name;
+    d.tabIndex = 0;
+    d.setAttribute("role","button");
+    var col = who==="mother" ? "var(--mat)" : "var(--pat)";
+    d.innerHTML = chromoSVG(sexKind, parts[0], col, 1, .66) + chromoSVG("A9", parts[1], col, 1, .66) +
+      '<span class="name">'+name+'</span><span class="n">×'+S.bank[who][name]+'</span>';
+    return d;
+  }
+  function renderBank(){
+    ["mother","father"].forEach(function(who){
+      var box = document.getElementById("bank-"+who);
+      box.innerHTML = "";
+      if (!S.order[who].length){
+        var s = document.createElement("span");
+        s.className = "none";
+        s.textContent = who==="mother" ? "aucun ovule pour l'instant" : "aucun spermatozoïde pour l'instant";
+        box.appendChild(s);
+      } else {
+        S.order[who].forEach(function(n){ box.appendChild(cardNode(who,n)); });
+      }
+      var info = document.createElement("span");
+      info.className = "pct";
+      info.style.marginLeft = "6px";
+      info.textContent = S.order[who].length + " / " + typesOf(who).length + " types possibles";
+      box.appendChild(info);
+    });
+  }
+
+  /* =================== fécondation =================== */
+  function renderFec(){
+    [["ov","mother"],["sp","father"]].forEach(function(p){
+      var box = document.getElementById("slot-"+p[0]);
+      box.innerHTML = "";
+      var v = S.fec[p[0]];
+      if (v) box.appendChild(cardNode(p[1], v));
+      else { var e=document.createElement("span"); e.className="empty"; e.textContent="dépose un gamète ici"; box.appendChild(e); }
+    });
+    document.getElementById("btn-fec").disabled = !(S.fec.ov && S.fec.sp);
+  }
+  function feconde(){
+    var mo=S.fec.ov, fa=S.fec.sp;
+    if(!mo||!fa) return;
+    var key=mo+"|"+fa, isNew=!S.grid[key];
+    S.grid[key]=true;
+    var m=mo.split("-"), f=fa.split("-");
+    var sexe=(m[0]==="X"&&f[0]==="X")?"Fille":"Garçon";
+    var gr=groupe(m[1],f[1]);
+    var box=document.getElementById("egg");
+    box.hidden=false;
+    box.innerHTML =
+      '<div class="cellimg">' +
+        chromoSVG(m[0],m[0],"var(--mat)",1,.62) + chromoSVG(f[0],f[0],"var(--pat)",1,.62) +
+        chromoSVG("A9",m[1],"var(--mat)",1,.62) + chromoSVG("A9",f[1],"var(--pat)",1,.62) +
+      '</div>' +
+      '<div class="res"><span class="eyebrow">Cellule-œuf</span>' +
+      '<span class="geno">' + m[0]+f[0] + ' &nbsp;·&nbsp; ' + m[1] + '//' + f[1] + '</span>' +
+      '<span class="big">' + sexe + ', groupe ' + gr + '</span>' +
+      (isNew ? '<span class="flag">nouvelle combinaison ajoutée à l\'échiquier</span>'
+             : '<span style="font-size:13.5px;color:var(--muted)">déjà obtenue</span>') + '</div>';
+    renderGrid(); checkMission();
+  }
+
+  /* =================== échiquier =================== */
+  function renderGrid(){
+    var rows=typesOf("mother"), cols=typesOf("father"), done=0;
+    var h='<thead><tr><th>ovule \\ spz</th>';
+    cols.forEach(function(c){ h+='<th>'+c+'</th>'; });
+    h+='</tr></thead><tbody>';
+    rows.forEach(function(r){
+      h+='<tr><th>'+r+'</th>';
+      cols.forEach(function(c){
+        if (S.grid[r+"|"+c]){
+          done++;
+          var sx=(r.split("-")[0]==="X"&&c.split("-")[0]==="X")?"fille":"garçon";
+          h+='<td class="done">groupe '+groupe(r.split("-")[1],c.split("-")[1])+'<span class="sx">'+sx+'</span></td>';
+        } else h+='<td>·</td>';
+      });
+      h+='</tr>';
+    });
+    document.getElementById("grid").innerHTML = h+'</tbody>';
+    var tot=rows.length*cols.length;
+    document.getElementById("bar").style.width=(tot?100*done/tot:0)+"%";
+    document.getElementById("pct").textContent=done+" / "+tot+" cellules-œufs différentes";
+    S.gridCount=done; S.gridTotal=tot;
+  }
+
+  /* =================== défis =================== */
+  var M = [
+    { who:"mother", mode:"meiose",
+      consigne:"Répartis les 4 chromosomes de la cellule de la mère, puis range tes ovules dans la banque.",
+      indice:"Réfléchis avant de déposer : que doit contenir un gamète pour être viable ?",
+      test:function(){ return S.order.mother.length >= 1; },
+      qcm:{ q:"Tes 4 ovules ne forment que 2 types différents. Pourquoi ?",
+        opts:["La mère possède deux chromosomes X : tout ovule reçoit forcément un X.",
+              "Les ovules d'une femme sont toujours tous identiques.",
+              "Le hasard n'intervient pas chez la femme."],
+        good:0,
+        why:"Seule la paire n°9 offre un choix : l'allèle transmis change, mais le chromosome sexuel est toujours un X." } },
+
+    { who:"father", mode:"meiose",
+      consigne:"Chez le père maintenant : fabrique des spermatozoïdes capables de donner un garçon.",
+      indice:"Un garçon possède un chromosome Y. De qui peut-il le recevoir ?",
+      test:function(){ return S.order.father.some(function(n){ return n.charAt(0)==="Y"; }); },
+      qcm:{ q:"Qui transmet le chromosome Y ?",
+        opts:["Le père uniquement.","La mère uniquement.","Le père ou la mère, au hasard."],
+        good:0,
+        why:"La mère est XX : elle ne peut transmettre qu'un X. Le sexe de l'enfant dépend donc du spermatozoïde." } },
+
+    { who:"father", mode:"meiose",
+      consigne:"Refais une méiose chez le père en changeant ta répartition, pour obtenir les 4 types de spermatozoïdes.",
+      indice:"Une seule méiose donne 2 types. Que faut-il déposer autrement la deuxième fois ?",
+      test:function(){ return S.order.father.length >= 4; },
+      qcm:{ q:"Pourquoi le père peut-il produire 4 types de spermatozoïdes ?",
+        opts:["Parce que les deux paires se séparent indépendamment l'une de l'autre : 2 × 2 = 4.",
+              "Parce qu'il y a 4 chromosomes dans la cellule mère.",
+              "Parce que les chromosomes se cassent pendant la division."],
+        good:0,
+        why:"C'est le brassage interchromosomique : chaque paire choisit son camp sans tenir compte de l'autre." } },
+
+    { who:null, mode:"fecondation",
+      consigne:"Construis une cellule-œuf qui donnera une fille de groupe O.",
+      indice:"Quels allèles faut-il réunir pour un groupe O ? Et pour une fille ?",
+      test:function(){ return Object.keys(S.grid).some(function(k){
+          var p=k.split("|"), m=p[0].split("-"), f=p[1].split("-");
+          return m[0]==="X"&&f[0]==="X"&&groupe(m[1],f[1])==="O"; }); },
+      qcm:{ q:"Les parents sont de groupe A et de groupe B. Comment leur enfant peut-il être de groupe O ?",
+        opts:["Chaque parent porte un allèle O caché, qui ne s'exprime que s'il est reçu en double.",
+              "Le groupe sanguin de l'enfant est tiré au hasard, sans lien avec les parents.",
+              "L'allèle O apparaît au moment de la fécondation."],
+        good:0,
+        why:"A et B dominent O. Un parent A//O est donc de groupe A tout en pouvant transmettre O." } },
+
+    { who:null, mode:"fecondation",
+      consigne:"Et maintenant : un garçon de groupe AB.",
+      indice:"Il te faut un spermatozoïde bien précis. L'as-tu déjà dans ta banque ?",
+      test:function(){ return Object.keys(S.grid).some(function(k){
+          var p=k.split("|"), m=p[0].split("-"), f=p[1].split("-");
+          return !(m[0]==="X"&&f[0]==="X") && groupe(m[1],f[1])==="AB"; }); },
+      qcm:{ q:"Dans cette cellule-œuf, d'où vient l'allèle A ?",
+        opts:["De l'ovule, donc de la mère.","Du spermatozoïde, donc du père.","Des deux à la fois."],
+        good:0,
+        why:"Ici la mère est A//O et le père B//O : A ne peut venir que d'elle, B que de lui — d'où le groupe AB." } },
+
+    { who:null, mode:"fecondation",
+      consigne:"Dernier défi : remplis tout l'échiquier, les 8 cellules-œufs possibles.",
+      indice:"Il te faut les 2 types d'ovules et les 4 types de spermatozoïdes.",
+      test:function(){ return S.gridCount >= S.gridTotal && S.gridTotal>0; },
+      qcm:{ q:"Ici, 2 paires donnent 4 combinaisons de gamètes. Avec les 23 paires humaines, combien un homme peut-il produire de spermatozoïdes différents (sans compter les crossing-over) ?",
+        opts:["2²³, soit plus de 8 millions.","46.","23 × 2 = 46, puis 4 par paire."],
+        good:0,
+        why:"Chaque paire double le nombre de possibilités. C'est pour cela que deux enfants d'un même couple ne sont jamais identiques." } }
+  ];
+
+  function renderQuest(){
+    var q = document.getElementById("quest");
+    if (S.free){
+      q.className = "quest free";
+      q.innerHTML = '<div class="row"><span class="eyebrow" style="color:var(--mat)">Mode libre</span>' +
+        '<span style="flex:1"></span><button class="small" id="btn-defis">Revenir aux défis</button></div>' +
+        '<p class="consigne">Explore : change les allèles des parents, refais des méioses, remplis l\'échiquier.</p>';
+      document.getElementById("btn-defis").addEventListener("click", function(){ S.free=false; S.mission=0; startMission(); });
+      return;
+    }
+    if (S.mission >= M.length){
+      q.className = "quest";
+      q.innerHTML = '<div class="row"><span class="eyebrow">Défis terminés</span><span style="flex:1"></span>' +
+        '<button class="small primary" id="btn-free">Passer en mode libre</button></div>' +
+        '<p class="consigne">Les 6 défis sont réussis. Tu sais fabriquer des gamètes et lire un échiquier de croisement.</p>' +
+        '<p class="indice">En mode libre, tu peux changer les groupes sanguins des parents et recommencer.</p>';
+      document.getElementById("btn-free").addEventListener("click", goFree);
+      return;
+    }
+    var m = M[S.mission];
+    var dots = "";
+    M.forEach(function(_,i){ dots += '<i class="'+(i<S.mission?"on":(i===S.mission?"cur":""))+'"></i>'; });
+    q.className = "quest";
+    q.innerHTML = '<div class="row"><span class="eyebrow">Défi ' + (S.mission+1) + ' sur ' + M.length + '</span>' +
+      '<div class="dots">'+dots+'</div></div>' +
+      '<p class="consigne">' + m.consigne + '</p>' +
+      '<p class="indice" id="indice" hidden>' + m.indice + '</p>' +
+      '<div class="tools"><button class="small ghost" id="btn-indice">Un indice ?</button>' +
+      '<button class="small ghost" id="btn-free">Mode libre</button></div>';
+    document.getElementById("btn-indice").addEventListener("click", function(){
+      document.getElementById("indice").hidden = false;
+      this.disabled = true;
+    });
+    document.getElementById("btn-free").addEventListener("click", goFree);
+  }
+  function goFree(){
+    S.free = true; S.qcmOpen = false;
+    renderQuest(); renderBench();
+  }
+  function startMission(){
+    var m = M[S.mission];
+    S.qcmOpen = false;
+    if (m && m.mode === "meiose" && m.who && m.who !== S.who){ S.who = m.who; }
+    resetBench(); renderQuest();
+  }
+  function checkMission(){
+    if (S.free || S.qcmOpen || S.mission >= M.length) return;
+    var m = M[S.mission];
+    if (!m.test()) return;
+    S.qcmOpen = true;
+    var q = document.getElementById("quest");
+    var box = document.createElement("div");
+    box.className = "qcm";
+    box.innerHTML = '<h3>Défi réussi. Une question avant de continuer :</h3><p style="font-weight:600;margin-bottom:10px">' + m.qcm.q + '</p>';
+    m.qcm.opts.forEach(function(o,i){
+      var b = document.createElement("button");
+      b.className = "opt";
+      b.textContent = o;
+      b.addEventListener("click", function(){
+        if (box.dataset.answered) return;
+        box.dataset.answered = "1";
+        Array.prototype.forEach.call(box.querySelectorAll(".opt"), function(x,j){
+          if (j === m.qcm.good) x.classList.add("good");
+          else if (j === i) x.classList.add("bad");
+          x.disabled = true;
+        });
+        var p = document.createElement("p");
+        p.className = "explain";
+        p.innerHTML = (i===m.qcm.good ? "<b>Oui.</b> " : "<b>Pas tout à fait.</b> ") + m.qcm.why;
+        box.appendChild(p);
+        var nx = document.createElement("button");
+        nx.className = "primary";
+        nx.style.marginTop = "10px";
+        nx.textContent = S.mission === M.length-1 ? "Terminer" : "Défi suivant";
+        nx.addEventListener("click", function(){ S.mission++; startMission(); });
+        box.appendChild(nx);
+      });
+      box.appendChild(b);
+    });
+    q.appendChild(box);
+    box.scrollIntoView({behavior:"smooth", block:"nearest"});
+  }
+
+  /* =================== glisser-déposer =================== */
+  var drag = null, picked = null;
+
+  function zoneAt(x,y){
+    var el = document.elementFromPoint(x,y);
+    return el ? el.closest(".zone") : null;
+  }
+  function clearOver(){ document.querySelectorAll(".zone.over").forEach(function(z){ z.classList.remove("over"); }); }
+
+  function accepts(zone, payload){
+    var z = zone.dataset.zone;
+    if (payload.kind === "chromo") return (z==="src"||z==="0"||z==="1") && !S.locked;
+    if (payload.kind === "gamete") return (z==="ov" && payload.who==="mother") || (z==="sp" && payload.who==="father");
+    return false;
+  }
+  function drop(zone, payload){
+    if (!accepts(zone, payload)) return false;
+    if (payload.kind === "chromo"){ S.placed[payload.id] = zone.dataset.zone; renderBench(); setMsg("Quand les 4 chromosomes sont placés, vérifie ta répartition.",""); }
+    else { S.fec[zone.dataset.zone] = payload.name; renderFec(); document.getElementById("egg").hidden = true; }
+    return true;
+  }
+  function payloadOf(node){
+    return node.dataset.drag === "chromo"
+      ? {kind:"chromo", id:node.dataset.id}
+      : {kind:"gamete", who:node.dataset.who, name:node.dataset.name};
+  }
+
+  document.addEventListener("pointerdown", function(e){
+    var src = e.target.closest ? e.target.closest("[data-drag]") : null;
+    if (!src) return;
+    if (src.dataset.drag === "chromo" && S.locked) return;
+    e.preventDefault();
+    var r = src.getBoundingClientRect();
+    var g = src.cloneNode(true);
+    g.classList.add("dragghost");
+    g.style.width = r.width + "px";
+    document.body.appendChild(g);
+    drag = {src:src, ghost:g, dx:e.clientX-r.left, dy:e.clientY-r.top, x0:e.clientX, y0:e.clientY, moved:false, payload:payloadOf(src)};
+    src.classList.add("dragging");
+    move(e);
+  }, {passive:false});
+
+  function move(e){
+    if (!drag) return;
+    drag.ghost.style.transform = "translate(" + (e.clientX-drag.dx) + "px," + (e.clientY-drag.dy) + "px)";
+  }
+  document.addEventListener("pointermove", function(e){
+    if (!drag) return;
+    if (Math.abs(e.clientX-drag.x0) + Math.abs(e.clientY-drag.y0) > 6) drag.moved = true;
+    move(e);
+    clearOver();
+    var z = zoneAt(e.clientX, e.clientY);
+    if (z && accepts(z, drag.payload)) z.classList.add("over");
+  });
+  document.addEventListener("pointerup", function(e){
+    if (!drag) return;
+    var d = drag; drag = null;
+    d.ghost.remove();
+    d.src.classList.remove("dragging");
+    clearOver();
+    var z = zoneAt(e.clientX, e.clientY);
+    if (d.moved && z){ drop(z, d.payload); return; }
+    if (!d.moved){ // clic simple : sélection
+      if (picked && picked.node === d.src){ picked.node.classList.remove("picked"); picked = null; }
+      else {
+        if (picked) picked.node.classList.remove("picked");
+        picked = {node:d.src, payload:d.payload};
+        d.src.classList.add("picked");
+      }
+    }
+  });
+  document.addEventListener("click", function(e){
+    if (e.target.closest && e.target.closest("[data-drag]")) return;
+    var z = e.target.closest ? e.target.closest(".zone") : null;
+    if (!z || !picked) return;
+    if (drop(z, picked.payload)) { picked = null; }
+  });
+  document.addEventListener("keydown", function(e){
+    var n = document.activeElement;
+    if (!n || !n.dataset || !n.dataset.drag) return;
+    if (e.key === "Enter" || e.key === " "){
+      e.preventDefault();
+      if (picked) picked.node.classList.remove("picked");
+      picked = {node:n, payload:payloadOf(n)};
+      n.classList.add("picked");
+    }
+  });
+
+  /* =================== init =================== */
+  document.getElementById("btn-check").addEventListener("click", check);
+  document.getElementById("btn-clear").addEventListener("click", function(){ resetBench(); });
+  document.getElementById("btn-fec").addEventListener("click", feconde);
+  document.getElementById("btn-fec-clear").addEventListener("click", function(){
+    S.fec={ov:null,sp:null}; document.getElementById("egg").hidden=true; renderFec();
+  });
+  document.getElementById("btn-reset").addEventListener("click", function(){
+    S.grid={}; document.getElementById("egg").hidden=true; renderGrid();
+  });
+
+  startMission();
+  renderBank(); renderFec(); renderGrid();
+})();
+</script>
+
+<style>
+  .site-back{display:flex; gap:14px; align-items:center; flex-wrap:wrap; justify-content:space-between;
+    max-width:1060px; margin:0 auto; padding:10px 18px 0; font-family:var(--f-body); font-size:13.5px; color:var(--muted);}
+  .site-back a{color:var(--accent); text-decoration:none; font-weight:600;}
+  .site-back a:hover{text-decoration:underline;}
+</style>
+</body>
+</html>

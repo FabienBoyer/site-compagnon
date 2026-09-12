@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Vibe Professeur - Les outils pour enseigner avec l'IA</title>
+    <title>Le Vibe Professeur</title>
     <meta name="description"
-        content="Découvrez le profil inspirant de François Fatoux, enseignant de mathématiques et 'maker' qui développe des applications pédagogiques interactives sur-mesure pour ses élèves grâce à l'IA.">
+        content="Découvrez comment les enseignants peuvent créer des applications pédagogiques interactives sur-mesure grâce à l'IA.">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="ethicia/favicon.ico">
@@ -61,6 +61,73 @@
             color: var(--color-primary);
         }
 
+
+        .vp-exchange {
+            display: grid;
+            gap: var(--spacing-lg);
+            margin-bottom: 2rem;
+        }
+
+        .vp-meta {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+        }
+
+        .vp-meta span {
+            padding: 0.4rem 0.9rem;
+            border: 1px solid var(--border-color);
+            border-radius: 999px;
+            background: var(--bg-secondary);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .vp-meta strong {
+            color: var(--color-primary);
+        }
+
+        .vp-turn {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .vp-turn-key {
+            border-color: var(--color-primary);
+        }
+
+        .vp-who {
+            display: inline-block;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+        }
+
+        .vp-who-key {
+            color: var(--color-primary);
+        }
+
+        .vp-bubble {
+            margin: 0 0 1rem;
+            padding: 1rem 1.25rem;
+            background: var(--bg-secondary);
+            border-left: 3px solid var(--color-primary);
+            border-radius: var(--radius-md);
+            font-style: italic;
+            line-height: 1.7;
+        }
+
+        .vp-note {
+            margin-top: 0.75rem;
+        }
         .tools-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -179,7 +246,7 @@
                 <i data-lucide="hammer"></i>
                 Le Professeur Maker
             </span>
-            <h1 class="hero-title">Le Vibe Professeur : François Fatoux</h1>
+            <h1 class="hero-title">Le Vibe Professeur</h1>
             <p class="hero-subtitle" style="margin-left: auto; margin-right: auto;">
                 Quand les enseignants commencent à créer leurs propres applications sur-mesure grâce à l'IA.
             </p>
@@ -187,19 +254,8 @@
     </section>
 
     <div class="container" style="max-width: 800px; padding-bottom: 4rem;">
-        <div class="step-content" style="margin-bottom: 2rem;">
-            <h2 class="step-title">L'exemple d'un enseignant « Maker »</h2>
-            <p>François Fatoux, professeur de mathématiques au collège Karl Marx à Villejuif, illustre parfaitement ce que peut accomplir un enseignant avec l'IA et un peu de persévérance.</p>
-            <p>L'intérêt de cet exemple n'est pas tant dans les outils eux-mêmes que dans la démarche : identifier un besoin pédagogique précis, imaginer une solution numérique, et la concrétiser avec l'aide de l'IA (Gemini, Copilot, Antigravity, etc.).</p>
-            <p><strong>La barrière technique n'existe plus.</strong> Vous n'avez plus besoin d'être développeur de métier pour coder des applications pour vos élèves.</p>
-            
-            <div style="margin-top: 2rem; display: flex; gap: 1rem; justify-content: center;">
-                 <a href="https://padlet.com/faradfa/fichiers-oef-rh1ay54xdcpdq9k6" target="_blank" class="btn btn-primary"><i data-lucide="external-link"></i> Visiter son Padlet</a>
-                 <a href="https://fatouxmatheux.com" target="_blank" class="btn btn-secondary"><i data-lucide="globe"></i> fatouxmatheux.com</a>
-            </div>
-        </div>
-        
-        <h2 style="margin-bottom: 1.5rem; text-align: center;">Quelques créations :</h2>
+        <h2 style="margin-bottom: 0.75rem; text-align: center;">Quelques créations :</h2>
+        <p style="text-align:center; color: var(--text-secondary); max-width: 660px; margin: 0 auto 1.5rem;">Des applications nées du même réflexe : un besoin précis en classe, quelques allers-retours avec l'IA, et un outil qu'on peut projeter dès le lendemain.</p>
         <div class="tools-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
             <div class="tool-choice" style="text-align: left; padding: 1.5rem;">
                 <h3 style="display: flex; align-items: center; gap: 0.5em;">🏎️ MatheuxKart</h3>
@@ -214,16 +270,120 @@
                 <p style="margin-top: 0.5rem;">Un entraîneur complet avec +650 questions et des générateurs dynamiques pour maîtriser le programme de Première Spécialité.</p>
                 <a href="automatismes/index.html" class="btn btn-primary" style="margin-top: 1rem; width: 100%; display: block; text-align: center;">Lancer l'App</a>
             </div>
-            <div class="tool-choice" style="text-align: left; padding: 1.5rem; border-color: var(--color-primary); background: var(--bg-secondary); cursor: pointer;" onclick="window.location.href='ethicia/index.html'">
-                <h3 style="display: flex; align-items: center; gap: 0.5em;">⚖️ EthicIA</h3>
-                <p style="margin-top: 0.5rem;">Plateforme de débat éthique assisté par IA. Scénarios narratifs (cyberharcèlement, triche par IA), votes en direct et mode « Maître du Jeu » pour l'enseignant.</p>
-                <a href="ethicia/index.html" class="btn btn-primary" style="margin-top: 1rem; width: 100%; display: block; text-align: center;">Lancer l'App</a>
+            <div class="tool-choice" style="text-align: left; padding: 1.5rem; border-color: var(--color-primary); background: var(--bg-secondary); cursor: pointer;" onclick="window.location.href='geo-quete/index.html'">
+                <h3 style="display: flex; align-items: center; gap: 0.5em;">🧭 GéoQuête, le Trésor d'Euclide</h3>
+                <p style="margin-top: 0.5rem;">Mathématiques, de la 6<sup>e</sup> à la 3<sup>e</sup>. Douze missions de construction : médiatrice, bissectrice, droite des milieux, symétries, Pythagore, cercle de diamètre donné. Chaque mission affiche en haut de l'écran le niveau scolaire et la notion travaillée. Compas, règle, équerre et rapporteur se manipulent à l'écran, au clic, donc aussi au TBI et sur tablette. Aucune installation, aucun compte, fonctionne hors ligne.</p>
+                <a href="geo-quete/index.html" class="btn btn-primary" style="margin-top: 1rem; width: 100%; display: block; text-align: center;">Lancer l'App</a>
+                <a href="geo-quete/fiche.html" class="btn btn-secondary" style="margin-top: 0.5rem; width: 100%; display: block; text-align: center;">Fiche enseignant, à imprimer</a>
             </div>
-            <div class="tool-choice" style="text-align: left; padding: 1.5rem; border-color: var(--color-primary); background: var(--bg-secondary); cursor: pointer;" onclick="window.location.href='projet%20PP%20suivi%20des%20eleves/pp_tracker_architecture.html'">
+            <div class="tool-choice" style="text-align: left; padding: 1.5rem; border-color: var(--color-primary); background: var(--bg-secondary); cursor: pointer;" onclick="window.location.href='cosmo-pente/index.html'">
+                <h3 style="display: flex; align-items: center; gap: 0.5em;">🚀 Cosmo Pente</h3>
+                <p style="margin-top: 0.5rem;">Mathématiques, 3<sup>e</sup> et 2<sup>de</sup>. Dix tableaux pour apprivoiser l'équation d'une droite. On commence sans repère et sans nombres, avec une simple manette d'inclinaison ; le repère apparaît, puis les manettes disparaissent et il faut calculer <em>m</em> et <em>b</em>. Le niveau scolaire et la notion sont annoncés à chaque tableau, et l'enseignant peut sauter directement à celui qu'il veut projeter.</p>
+                <a href="cosmo-pente/index.html" class="btn btn-primary" style="margin-top: 1rem; width: 100%; display: block; text-align: center;">Lancer l'App</a>
+            </div>
+            <div class="tool-choice" style="text-align: left; padding: 1.5rem; border-color: var(--color-primary); background: var(--bg-secondary); cursor: pointer;" onclick="window.location.href='fraccrush/index.html'">
+                <h3 style="display: flex; align-items: center; gap: 0.5em;">🧩 FracCrush</h3>
+                <p style="margin-top: 0.5rem;">Mathématiques, cycle 3 et cycle 4. Un jeu d'alignement où il faut réunir trois écritures d'une même fraction : 1/2, 2/4, 3/6. Deux outils à charges limitées obligent à réfléchir avant de tester, et chaque niveau s'ouvre sur un point d'histoire des mathématiques. Aucun compte, aucune installation, fonctionne hors ligne.</p>
+                <a href="fraccrush/index.html" class="btn btn-primary" style="margin-top: 1rem; width: 100%; display: block; text-align: center;">Lancer l'App</a>
+            </div>
+            <div class="tool-choice" style="text-align: left; padding: 1.5rem; border-color: var(--color-primary); background: var(--bg-secondary); cursor: pointer;" onclick="window.location.href='chimiemaster/index.html'">
+                <h3 style="display: flex; align-items: center; gap: 0.5em;">⚗️ ChimieMaster</h3>
+                <p style="margin-top: 0.5rem;">Physique-chimie, 3<sup>e</sup>. Cinquante réactions à équilibrer, des coefficients à ajuster molécule par molécule, et un compteur d'atomes qui montre en direct de quel côté le compte ne tombe pas. Le coach ne donne jamais la réponse : il pose une question. Fonctionne hors ligne.</p>
+                <a href="chimiemaster/index.html" class="btn btn-primary" style="margin-top: 1rem; width: 100%; display: block; text-align: center;">Lancer l'App</a>
+            </div>
+            <div class="tool-choice" style="text-align: left; padding: 1.5rem; border-color: var(--color-primary); background: var(--bg-secondary); cursor: pointer;" onclick="window.location.href='eduseq/index.html'">
+                <h3 style="display: flex; align-items: center; gap: 0.5em;">📐 EduSeq Pro</h3>
+                <p style="margin-top: 0.5rem;">Vous déposez vos propres documents de cours et votre maquette LaTeX, vous réglez le niveau, le nombre de séances, le mode d'enseignement et les blocs voulus, et l'outil rédige la séquence en LaTeX, en Beamer, en Markdown ou pour le cahier de textes. Il n'invente pas le contenu, il puise dans vos documents. <strong>Vous utilisez votre propre clé Gemini</strong> : elle reste dans votre navigateur, elle n'est ni dans le site ni chez moi.</p>
+                <a href="eduseq/index.html" class="btn btn-primary" style="margin-top: 1rem; width: 100%; display: block; text-align: center;">Lancer l'App</a>
+            </div>
+            <div class="tool-choice" style="text-align: left; padding: 1.5rem; border-color: var(--color-primary); background: var(--bg-secondary); cursor: pointer;" onclick="window.location.href='pp-tracker.html'">
                 <h3 style="display: flex; align-items: center; gap: 0.5em;">📊 PP Tracker</h3>
-                <p style="margin-top: 0.5rem;">Un outil complet de suivi de classe pour professeur principal (PP), 100% local et conforme au RGPD. Analyse les notes, retards, incidents, et utilise un LLM local (Ollama) pour rédiger des synthèses.</p>
-                <a href="projet%20PP%20suivi%20des%20eleves/pp_tracker_architecture.html" class="btn btn-primary" style="margin-top: 1rem; width: 100%; display: block; text-align: center;"><i data-lucide="layout"></i> Voir l'Architecture</a>
+                <p style="margin-top: 0.5rem;">Un tableau de bord de professeur principal : notes, retards, absences, incidents, et un brouillon d'appréciation rédigé par un modèle installé en local. Il tourne sur une seule machine, dans une base chiffrée, sans aucune sortie réseau. <strong>Il n'est pas distribué</strong>, et la page explique pourquoi.</p>
+                <a href="pp-tracker.html" class="btn btn-primary" style="margin-top: 1rem; width: 100%; display: block; text-align: center;"><i data-lucide="layout"></i> Architecture et vue simulée</a>
             </div>
+        </div>
+
+        <!-- Encart : l'atelier, ce qui reste dans les cartons -->
+        <section class="step-content" style="margin-top: 2.5rem; border-left: 4px solid var(--text-secondary);">
+            <h3 style="margin-top:0;">Ce que vous ne voyez pas : l'atelier</h3>
+            <p>Les applications ci-dessus sont celles que j'ai jugées assez solides pour être mises en ligne. Elles ne
+                sont pas représentatives. Voici l'état réel de mon espace de travail, quelques mois de bricolages à
+                l'IA, une soirée ou un trajet en train chacun.</p>
+
+            <figure style="margin: 1.5rem 0 0; text-align: center;">
+                <img src="images/vibe-coding-atelier.png" loading="lazy" width="741" height="1374"
+                    alt="Liste de projets pédagogiques créés en vibe coding : Polygangles sur la somme des angles, Fez Math 3D sur la vision dans l'espace en 6e, un modeleur de molécules, Hex Math Club, RelatiVisu sur les nombres relatifs, Le Temple des Formes Perdues, Équations Interactives, et une dizaine d'autres."
+                    style="max-width: 420px; width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
+                <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: var(--text-secondary);">
+                    Capture de mon propre espace de travail. Une vingtaine de projets, dont deux sans titre et sans
+                    description : ceux-là, je ne sais même plus ce qu'ils faisaient.
+                </figcaption>
+            </figure>
+
+            <p style="margin-top: 1.5rem;">C'est le rapport normal entre ce qu'on produit et ce qu'on garde. La plupart
+                de ces prototypes ont servi une fois, pour tester une idée de séance, et n'ont jamais revu une classe.
+                Quelques-uns sont morts d'une IA qui avait mal compris la notion. D'autres attendent d'être repris.</p>
+
+            <p><strong>C'est une bonne nouvelle, pas un aveu d'échec.</strong> Quand fabriquer un prototype coûte une
+                soirée au lieu d'un trimestre, on peut se permettre d'en jeter neuf sur dix. C'est exactement ce qui
+                change avec l'IA : non pas la qualité du premier jet, qui reste médiocre, mais le prix de l'essai.</p>
+        </section>
+
+        <!-- Étude de cas : atelier des chromosomes -->
+        <h2 style="margin: 3rem 0 0.75rem; text-align: center;">Une application de SVT en deux phrases</h2>
+        <p style="text-align:center; color: var(--text-secondary); max-width: 660px; margin: 0 auto 1.25rem;">
+            Le vibe coding ne consiste pas à obtenir le bon outil du premier coup, mais à savoir <strong>relancer</strong>.
+            Voici, mot pour mot, les deux demandes qui ont produit l'atelier ci-dessous et ce qui s'est joué entre les deux.
+            Testez-le vous-même : le bouton est en bas de la page.
+        </p>
+
+        <div class="vp-meta">
+            <span><strong>2</strong> échanges</span>
+            <span><strong>~5</strong> minutes</span>
+            <span><strong>0</strong> ligne de code écrite à la main</span>
+        </div>
+
+        <div class="vp-exchange">
+            <div class="vp-turn">
+                <span class="vp-who">Demande 1 — citation, non modifiée</span>
+                <blockquote class="vp-bubble">je voudrais que tu me fasses une application pédagogique pour des SVT en college pour que les élèves soient capables, avec des cellules de faire les différentes combinaisaons de chromosomes (avec juste 2 paires pour la manipulation élèves). Tu es capable de ça?</blockquote>
+                <p class="vp-note">L'IA commence par poser deux questions de cadrage : méiose seule ou méiose + fécondation ? avec ou sans caractère visible ? Réponse : méiose et fécondation, avec <strong>le chromosome sexuel et le chromosome portant le groupe sanguin</strong> — une précision de spécialiste que seul l'enseignant pouvait apporter.</p>
+                <p class="vp-note">Résultat : une application propre, juste sur le plan scientifique… mais qui <strong>déroulait</strong> la méiose étape par étape pendant que l'élève regardait.</p>
+            </div>
+
+            <div class="vp-turn vp-turn-key">
+                <span class="vp-who vp-who-key">Demande 2, la relance — citation, non modifiée</span>
+                <blockquote class="vp-bubble">alors c'est bien mais c'est pas ce que je veux ; je voudrais que ce soient les élèves qui déplacent les chromosomes ; que l'app stimule leur réflexion pas juste montre.</blockquote>
+                <p class="vp-note">Une phrase, aucune indication technique qui change tout le cahier des charges. La seconde version devient une <strong>paillasse virtuelle</strong> : l'élève attrape les chromosomes et les répartit lui-même dans les cellules filles (glisser-déposer, ou deux clics pour le TBI et les tablettes).</p>
+                <p class="vp-note">L'application interroge les élèves, elle ne montre plus la réponse. En cas d'erreur de répartition, pas de « faux » directement mais une question et c'est à l'élève de refaire la manipulation. Six défis progressifs (obtenir un garçon, une fille de groupe O à partir de parents A et B, remplir l'échiquier…) se terminent chacun par une question de raisonnement.</p>
+            </div>
+        </div>
+
+        <div class="step-content" style="border-left: 4px solid var(--color-primary);">
+            <h3 style="margin-top:0;">Ce qu'il faut en retenir</h3>
+            <ul style="margin: 0.75rem 0 0; padding-left: 1.25rem; line-height: 1.8; list-style: disc outside;">
+                <li>La première version d'une IA est presque toujours une <strong>démonstration</strong> ; c'est l'enseignant qui doit exiger la <strong>manipulation</strong>.</li>
+                <li>La valeur ajoutée du professeur n'est pas technique, elle est <strong>didactique</strong> : choisir les deux paires de chromosomes, refuser une app qui montre au lieu de faire réfléchir.</li>
+                <li>Une critique en langage ordinaire, écrite à la volée, suffit : nul besoin de savoir rédiger une spécification technique.</li>
+            </ul>
+        </div>
+
+        <div class="step-content" style="margin-top: 1.5rem; border-left: 4px solid var(--text-secondary);">
+            <h3 style="margin-top:0;">Et non, elle n'est pas parfaite</h3>
+            <p>Cinq minutes de conversation ne remplacent pas un développement. Cet atelier est un <strong>prototype de séance</strong>, à prendre comme tel :</p>
+            <ul style="margin: 0.75rem 0 0; padding-left: 1.25rem; line-height: 1.8; list-style: disc outside;">
+                <li>le modèle est réduit à 2 paires sur 23, et il ignore le brassage intrachromosomique (pas de crossing-over) ;</li>
+                <li>rien n'est sauvegardé : pas de compte, pas de suivi, pas de trace du travail de l'élève pour le professeur ;</li>
+                <li>le groupe sanguin est limité au système ABO, sans le Rhésus ;</li>
+                <li>et surtout, elle n'a pas encore été éprouvée devant une classe.</li>
+            </ul>
+            <p style="margin-top: 1rem;">C'est précisément l'intérêt de la démarche : produire en quelques minutes une base concrète, qu'on garde, qu'on jette ou qu'on fait corriger par un collègue de la discipline.</p>
+        </div>
+
+        <div class="tool-choice" style="text-align: left; padding: 1.5rem; margin-top: 2rem; border-color: var(--color-primary); background: var(--bg-secondary); cursor: pointer;" onclick="window.location.href='atelier-chromosomes/index.html'">
+            <h3 style="display: flex; align-items: center; gap: 0.5em;">🧬 L'atelier des chromosomes</h3>
+            <p style="margin-top: 0.5rem;">SVT, cycle 4. Deux paires de chromosomes : la paire sexuelle (X / Y) et la paire n°9 qui porte le groupe sanguin. L'élève fabrique les gamètes en déplaçant les chromosomes, féconde, et remplit l'échiquier des huit cellules-œufs possibles. Six défis, un mode libre, une fiche de questions pour le professeur. Fonctionne hors ligne, sans compte ni installation.</p>
+            <a href="atelier-chromosomes/index.html" class="btn btn-primary" style="margin-top: 1rem; width: 100%; display: block; text-align: center;">Lancer l'App</a>
         </div>
     </div>
 <!-- Footer -->
