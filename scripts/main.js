@@ -25,6 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize dropdown menus
     initDropdowns();
 
+    // Keep the homepage freshness marker tied to the published watch data.
+    initVeilleDate();
+
     // Initialize filters if elements exist on the page
     if (document.querySelector('.filter-btn')) {
         initFilters();
@@ -35,6 +38,35 @@ document.addEventListener('DOMContentLoaded', () => {
         initTabs();
     }
 });
+
+/* ----------------------------------------
+   Published watch freshness marker
+   ---------------------------------------- */
+function initVeilleDate() {
+    const target = document.getElementById('veille-date');
+    if (!target) return;
+
+    fetch('data/veille.json', { cache: 'no-store' })
+        .then(response => {
+            if (!response.ok) throw new Error(`Veille indisponible (${response.status})`);
+            return response.json();
+        })
+        .then(data => {
+            const dates = (data.articles || [])
+                .map(article => new Date(article.date))
+                .filter(date => !Number.isNaN(date.getTime()));
+            if (!dates.length) throw new Error('Aucune date de veille valide');
+
+            const latest = new Date(Math.max(...dates.map(date => date.getTime())));
+            target.textContent = latest.toLocaleDateString('fr-FR', {
+                month: 'long',
+                year: 'numeric'
+            });
+        })
+        .catch(() => {
+            target.textContent = 'voir la page Veille';
+        });
+}
 
 /* ----------------------------------------
    Theme Toggle (Light/Dark Mode)
