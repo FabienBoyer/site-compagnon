@@ -17,6 +17,15 @@
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/formation.css">
+    <style>
+      .video-card { display:block; text-decoration:none; color:inherit; }
+      .video-thumbnail { position:relative; overflow:hidden; }
+      .video-thumb-img { width:100%; display:block; aspect-ratio:16/9; object-fit:cover; }
+      .video-thumbnail .video-placeholder { position:absolute; inset:0; display:flex;
+        align-items:center; justify-content:center; background:rgba(0,0,0,.28);
+        color:#fff; opacity:0; transition:opacity .18s; }
+      .video-card:hover .video-thumbnail .video-placeholder { opacity:1; }
+    </style>
 </head>
 
 <body>
@@ -128,17 +137,15 @@
             <!-- Tab: Videos -->
             <div class="tab-panel active" id="videos">
 
-                <!-- Playlist 1: Monsieur Phi -->
                 <section class="playlist-section">
                     <div class="playlist-header">
                         <div class="playlist-info">
                             <h2 class="playlist-title">
                                 <span class="playlist-icon">🎓</span>
-                                Monsieur Phi - Réflexion éthique
+                                Monsieur Phi — Réflexion éthique
                             </h2>
                             <p class="playlist-description">
-                                Analyses philosophiques profondes sur l'IA, ses enjeux éthiques
-                                et ses implications pour l'éducation.
+                                Analyses philosophiques sur l'IA, ses enjeux éthiques et ce qu'elle fait à nos manières de penser.
                             </p>
                         </div>
                         <a href="https://www.youtube.com/@MonsieurPhi" target="_blank" rel="noopener"
@@ -149,74 +156,45 @@
                     </div>
 
                     <div class="videos-grid">
-                        <article class="video-card">
+                        <a href="https://www.youtube.com/watch?v=mYqYaB1QAFE" target="_blank" rel="noopener"
+                            class="video-card">
                             <div class="video-thumbnail">
-                                <div class="video-placeholder">
-                                    <i data-lucide="play"></i>
-                                </div>
-                                <span class="video-duration">25:00</span>
+                                <img src="https://i.ytimg.com/vi/mYqYaB1QAFE/mqdefault.jpg" alt="" loading="lazy"
+                                    class="video-thumb-img">
+                                <div class="video-placeholder"><i data-lucide="play"></i></div>
                             </div>
                             <div class="video-content">
-                                <h3 class="video-title">ChatGPT et l'éducation : faut-il avoir peur ?</h3>
-                                <p class="video-meta">Monsieur Phi • 25 min</p>
+                                <h3 class="video-title">9 plus gros mensonges sur l’intelligence artificielle</h3>
+                                <p class="video-meta">Le Futurologue, avec Monsieur Phi et Fabien Mikol</p>
                             </div>
-                        </article>
-
-                        <article class="video-card">
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=JBaBAg4ny6U" target="_blank" rel="noopener"
+                            class="video-card">
                             <div class="video-thumbnail">
-                                <div class="video-placeholder">
-                                    <i data-lucide="play"></i>
-                                </div>
-                                <span class="video-duration">30:00</span>
+                                <img src="https://i.ytimg.com/vi/JBaBAg4ny6U/mqdefault.jpg" alt="" loading="lazy"
+                                    class="video-thumb-img">
+                                <div class="video-placeholder"><i data-lucide="play"></i></div>
                             </div>
                             <div class="video-content">
-                                <h3 class="video-title">L'IA peut-elle être créative ?</h3>
-                                <p class="video-meta">Monsieur Phi • 30 min</p>
+                                <h3 class="video-title">Il faut qu’on parle de Claude Mythos</h3>
+                                <p class="video-meta">Monsieur Phi</p>
                             </div>
-                        </article>
-
-                        <article class="video-card">
-                            <div class="video-thumbnail">
-                                <div class="video-placeholder">
-                                    <i data-lucide="play"></i>
-                                </div>
-                                <span class="video-duration">22:00</span>
-                            </div>
-                            <div class="video-content">
-                                <h3 class="video-title">Les biais de l'IA : enjeux éthiques</h3>
-                                <p class="video-meta">Monsieur Phi • 22 min</p>
-                            </div>
-                        </article>
-
-                        <article class="video-card">
-                            <div class="video-thumbnail">
-                                <div class="video-placeholder">
-                                    <i data-lucide="play"></i>
-                                </div>
-                                <span class="video-duration">28:00</span>
-                            </div>
-                            <div class="video-content">
-                                <h3 class="video-title">Propriété intellectuelle et IA générative</h3>
-                                <p class="video-meta">Monsieur Phi • 28 min</p>
-                            </div>
-                        </article>
+                        </a>
                     </div>
                 </section>
 
-                <!-- Playlist 2: Micode -->
                 <section class="playlist-section">
                     <div class="playlist-header">
                         <div class="playlist-info">
                             <h2 class="playlist-title">
-                                <span class="playlist-icon">💻</span>
-                                Micode - Vulgarisation technique
+                                <span class="playlist-icon">🏫</span>
+                                Underscore_ — Le numérique éducatif en question
                             </h2>
                             <p class="playlist-description">
-                                Explications claires et accessibles sur le fonctionnement
-                                technique de l'IA et des LLMs.
+                                Enquêtes de terrain sur l'IA, le logiciel libre et la dépendance de l'école aux grandes plateformes.
                             </p>
                         </div>
-                        <a href="https://www.youtube.com/@Micode" target="_blank" rel="noopener"
+                        <a href="https://www.youtube.com/@Underscore_" target="_blank" rel="noopener"
                             class="btn btn-secondary">
                             <i data-lucide="external-link"></i>
                             Voir la chaîne
@@ -224,57 +202,110 @@
                     </div>
 
                     <div class="videos-grid">
-                        <article class="video-card">
+                        <a href="https://www.youtube.com/watch?v=rdRDGj0GiUM" target="_blank" rel="noopener"
+                            class="video-card">
                             <div class="video-thumbnail">
-                                <div class="video-placeholder">
-                                    <i data-lucide="play"></i>
-                                </div>
-                                <span class="video-duration">15:00</span>
+                                <img src="https://i.ytimg.com/vi/rdRDGj0GiUM/mqdefault.jpg" alt="" loading="lazy"
+                                    class="video-thumb-img">
+                                <div class="video-placeholder"><i data-lucide="play"></i></div>
                             </div>
                             <div class="video-content">
-                                <h3 class="video-title">Comment fonctionne ChatGPT ?</h3>
-                                <p class="video-meta">Micode • 15 min</p>
+                                <h3 class="video-title">Pourquoi nos écoles sont sous l’emprise de Microsoft ?</h3>
+                                <p class="video-meta">Underscore_ — voir aussi La Forge des communs numériques éducatifs</p>
                             </div>
-                        </article>
+                        </a>
+                    </div>
+                </section>
 
-                        <article class="video-card">
-                            <div class="video-thumbnail">
-                                <div class="video-placeholder">
-                                    <i data-lucide="play"></i>
-                                </div>
-                                <span class="video-duration">12:00</span>
-                            </div>
-                            <div class="video-content">
-                                <h3 class="video-title">Les hallucinations de l'IA expliquées</h3>
-                                <p class="video-meta">Micode • 12 min</p>
-                            </div>
-                        </article>
+                <section class="playlist-section">
+                    <div class="playlist-header">
+                        <div class="playlist-info">
+                            <h2 class="playlist-title">
+                                <span class="playlist-icon">🔬</span>
+                                Science Étonnante — Comprendre le fonctionnement
+                            </h2>
+                            <p class="playlist-description">
+                                David Louapre démonte les mécanismes de l'IA sans les caricaturer. Chaque vidéo est doublée d'un article de blog détaillé.
+                            </p>
+                        </div>
+                        <a href="https://www.youtube.com/@ScienceEtonnante" target="_blank" rel="noopener"
+                            class="btn btn-secondary">
+                            <i data-lucide="external-link"></i>
+                            Voir la chaîne
+                        </a>
+                    </div>
 
-                        <article class="video-card">
+                    <div class="videos-grid">
+                        <a href="https://www.youtube.com/watch?v=svkQLQTrU8E" target="_blank" rel="noopener"
+                            class="video-card">
                             <div class="video-thumbnail">
-                                <div class="video-placeholder">
-                                    <i data-lucide="play"></i>
-                                </div>
-                                <span class="video-duration">18:00</span>
+                                <img src="https://i.ytimg.com/vi/svkQLQTrU8E/mqdefault.jpg" alt="" loading="lazy"
+                                    class="video-thumb-img">
+                                <div class="video-placeholder"><i data-lucide="play"></i></div>
                             </div>
                             <div class="video-content">
-                                <h3 class="video-title">IA générative vs IA classique</h3>
-                                <p class="video-meta">Micode • 18 min</p>
+                                <h3 class="video-title">L’intelligence artificielle dans les jeux vidéo</h3>
+                                <p class="video-meta">Science Étonnante — avril 2026</p>
                             </div>
-                        </article>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=YcIbZGTRMjI" target="_blank" rel="noopener"
+                            class="video-card">
+                            <div class="video-thumbnail">
+                                <img src="https://i.ytimg.com/vi/YcIbZGTRMjI/mqdefault.jpg" alt="" loading="lazy"
+                                    class="video-thumb-img">
+                                <div class="video-placeholder"><i data-lucide="play"></i></div>
+                            </div>
+                            <div class="video-content">
+                                <h3 class="video-title">Les 4 étapes pour entraîner un LLM</h3>
+                                <p class="video-meta">Science Étonnante — 40 min, avril 2025</p>
+                            </div>
+                        </a>
+                    </div>
+                </section>
 
-                        <article class="video-card">
+                <section class="playlist-section">
+                    <div class="playlist-header">
+                        <div class="playlist-info">
+                            <h2 class="playlist-title">
+                                <span class="playlist-icon">⚙️</span>
+                                Passe-Science — Pour aller au fond
+                            </h2>
+                            <p class="playlist-description">
+                                Vulgarisation exigeante. Ces deux épisodes de 2022 expliquent l'architecture des modèles — transformers, attention — qui reste celle des IA d'aujourd'hui.
+                            </p>
+                        </div>
+                        <a href="https://www.youtube.com/@PasseScience" target="_blank" rel="noopener"
+                            class="btn btn-secondary">
+                            <i data-lucide="external-link"></i>
+                            Voir la chaîne
+                        </a>
+                    </div>
+
+                    <div class="videos-grid">
+                        <a href="https://www.youtube.com/watch?v=Yoq5cfndzhM" target="_blank" rel="noopener"
+                            class="video-card">
                             <div class="video-thumbnail">
-                                <div class="video-placeholder">
-                                    <i data-lucide="play"></i>
-                                </div>
-                                <span class="video-duration">20:00</span>
+                                <img src="https://i.ytimg.com/vi/Yoq5cfndzhM/mqdefault.jpg" alt="" loading="lazy"
+                                    class="video-thumb-img">
+                                <div class="video-placeholder"><i data-lucide="play"></i></div>
                             </div>
                             <div class="video-content">
-                                <h3 class="video-title">Les données d'entraînement</h3>
-                                <p class="video-meta">Micode • 20 min</p>
+                                <h3 class="video-title">Machine Learning 1 : tour d’horizon et le cas MuZero</h3>
+                                <p class="video-meta">Passe-science #47</p>
                             </div>
-                        </article>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=SzHCGniWr-0" target="_blank" rel="noopener"
+                            class="video-card">
+                            <div class="video-thumbnail">
+                                <img src="https://i.ytimg.com/vi/SzHCGniWr-0/mqdefault.jpg" alt="" loading="lazy"
+                                    class="video-thumb-img">
+                                <div class="video-placeholder"><i data-lucide="play"></i></div>
+                            </div>
+                            <div class="video-content">
+                                <h3 class="video-title">Machine Learning 2 : architecture et AlphaStar (transformer, attention)</h3>
+                                <p class="video-meta">Passe-science #48</p>
+                            </div>
+                        </a>
                     </div>
                 </section>
 
@@ -287,28 +318,36 @@
                                 Autres chaînes recommandées
                             </h2>
                             <p class="playlist-description">
-                                D'autres créateurs francophones de qualité sur l'IA.
+                                Trois autres chaînes utiles, de la vulgarisation grand public au ressource institutionnelle.
                             </p>
                         </div>
                     </div>
 
                     <div class="channels-list">
-                        <a href="https://www.youtube.com/@Science4All" target="_blank" rel="noopener"
+                        <a href="https://www.youtube.com/@DefendIntelligence" target="_blank" rel="noopener"
                             class="channel-card">
-                            <div class="channel-avatar">S4A</div>
+                            <div class="channel-avatar">DI</div>
                             <div class="channel-info">
-                                <h3 class="channel-name">Science4All</h3>
-                                <p class="channel-description">IA, mathématiques et science</p>
+                                <h3 class="channel-name">Defend Intelligence</h3>
+                                <p class="channel-description">Vulgarisation de l'IA par un ingénieur : actualité et tutoriels</p>
                             </div>
                             <i data-lucide="external-link"></i>
                         </a>
-
-                        <a href="https://www.youtube.com/@music_music" target="_blank" rel="noopener"
+                        <a href="https://www.youtube.com/@MachineLearnia" target="_blank" rel="noopener"
                             class="channel-card">
-                            <div class="channel-avatar">U_</div>
+                            <div class="channel-avatar">ML</div>
                             <div class="channel-info">
-                                <h3 class="channel-name">Underscore_</h3>
-                                <p class="channel-description">Tech et numérique</p>
+                                <h3 class="channel-name">Machine Learnia</h3>
+                                <p class="channel-description">Apprendre le machine learning en français, du débutant au technique</p>
+                            </div>
+                            <i data-lucide="external-link"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@reseaucanope" target="_blank" rel="noopener"
+                            class="channel-card">
+                            <div class="channel-avatar">RC</div>
+                            <div class="channel-info">
+                                <h3 class="channel-name">Réseau Canopé</h3>
+                                <p class="channel-description">Opérateur du ministère : formation et numérique éducatif</p>
                             </div>
                             <i data-lucide="external-link"></i>
                         </a>
@@ -324,19 +363,43 @@
                     <div class="courses-grid">
                         <article class="course-card">
                             <div class="course-header">
-                                <span class="course-platform">Université Laval</span>
+                                <span class="course-platform">Pix+ Édu · Magistère</span>
                                 <span class="tag tag-green">Gratuit</span>
                             </div>
-                            <h3 class="course-title">Projet URIAGe (BRIO)</h3>
+                            <h3 class="course-title">Utiliser l’IA générative en éducation de façon éclairée et responsable</h3>
                             <p class="course-description">
-                                Formation en ligne ouverte à tous sur l'Usage Raisonné et Éthique de l'IA Générative.
-                                Une excellente ressource francophone.
+                                Le parcours institutionnel, ouvert aux enseignants et aux CPE du second degré.
+                                Deux parties : comprendre le fonctionnement de l’IA générative et son cadre en
+                                éducation, puis en analyser les implications — données personnelles, biais,
+                                hallucinations, impact environnemental. Attestation à partir de 50 % à
+                                l’évaluation finale, téléchargeable depuis « Mes attestations » du profil Pix.
                             </p>
                             <div class="course-meta">
-                                <span><i data-lucide="clock"></i> À son rythme</span>
-                                <span><i data-lucide="globe"></i> Québec, Canada</span>
+                                <span><i data-lucide="clock"></i> 1 h 10 à 1 h 50</span>
+                                <span><i data-lucide="award"></i> Attestation</span>
+                                <span><i data-lucide="globe"></i> En français</span>
                             </div>
-                            <a href="https://x.com/TirotG/status/2024016251450741238" target="_blank" rel="noopener"
+                            <a href="https://edurl.fr/pix+edu" target="_blank" rel="noopener"
+                                class="btn btn-primary course-btn">
+                                Accéder au parcours
+                            </a>
+                        </article>
+
+                        <article class="course-card">
+                            <div class="course-header">
+                                <span class="course-platform">FUN-MOOC · Inria</span>
+                                <span class="tag tag-green">Gratuit</span>
+                            </div>
+                            <h3 class="course-title">Intelligence artificielle pour et par les enseignants</h3>
+                            <p class="course-description">
+                                Le MOOC de référence, issu du projet européen AI4T. Quatre modules : fondamentaux de l'IA, usages en classe, esprit critique, cadre éthique.
+                            </p>
+                            <div class="course-meta">
+                                <span><i data-lucide="clock"></i> ~3 heures</span>
+                                <span><i data-lucide="award"></i> Badge ouvert</span>
+                                <span><i data-lucide="globe"></i> France</span>
+                            </div>
+                            <a href="https://www.fun-mooc.fr/fr/cours/intelligence-artificielle-pour-et-par-les-enseignants-ai4t/" target="_blank" rel="noopener"
                                 class="btn btn-primary course-btn">
                                 Accéder au cours
                             </a>
@@ -344,19 +407,19 @@
 
                         <article class="course-card">
                             <div class="course-header">
-                                <span class="course-platform">FUN-MOOC</span>
+                                <span class="course-platform">FUN-MOOC · Class’Code</span>
                                 <span class="tag tag-green">Gratuit</span>
                             </div>
-                            <h3 class="course-title">L'Intelligence Artificielle pour les enseignants</h3>
+                            <h3 class="course-title">L’Intelligence Artificielle… avec intelligence !</h3>
                             <p class="course-description">
-                                MOOC complet sur l'utilisation de l'IA dans le contexte éducatif,
-                                proposé par France Université Numérique.
+                                Pensé pour être accessible de 7 à 107 ans. Utile pour comprendre soi-même, et directement réutilisable avec des élèves.
                             </p>
                             <div class="course-meta">
-                                <span><i data-lucide="clock"></i> ~12 heures</span>
-                                <span><i data-lucide="award"></i> Certificat disponible</span>
+                                <span><i data-lucide="clock"></i> ~10 heures</span>
+                                <span><i data-lucide="users"></i> Dès le collège</span>
+                                <span><i data-lucide="globe"></i> France</span>
                             </div>
-                            <a href="https://www.fun-mooc.fr" target="_blank" rel="noopener"
+                            <a href="https://www.fun-mooc.fr/fr/cours/lintelligence-artificielle-avec-intelligence/" target="_blank" rel="noopener"
                                 class="btn btn-primary course-btn">
                                 Accéder au cours
                             </a>
@@ -364,17 +427,117 @@
 
                         <article class="course-card">
                             <div class="course-header">
-                                <span class="course-platform">Coursera</span>
-                                <span class="tag tag-green">Gratuit (audit)</span>
+                                <span class="course-platform">BRIO · Université Laval</span>
+                                <span class="tag tag-green">Gratuit</span>
+                            </div>
+                            <h3 class="course-title">URIAGe — Usage Raisonné et éthique de l’IA Générative</h3>
+                            <p class="course-description">
+                                Dix modules sur trois niveaux de difficulté. Chercher « URIAGe » dans le moteur de recherche de la plateforme BRIO.
+                            </p>
+                            <div class="course-meta">
+                                <span><i data-lucide="clock"></i> ~40 heures</span>
+                                <span><i data-lucide="layers"></i> 3 niveaux</span>
+                                <span><i data-lucide="globe"></i> Québec</span>
+                            </div>
+                            <a href="https://www.brioeducation.ca/" target="_blank" rel="noopener"
+                                class="btn btn-primary course-btn">
+                                Accéder à la plateforme
+                            </a>
+                        </article>
+
+                        <article class="course-card">
+                            <div class="course-header">
+                                <span class="course-platform">Anthropic Academy</span>
+                                <span class="tag tag-green">Gratuit</span>
+                            </div>
+                            <h3 class="course-title">AI Fluency: Framework &amp; Foundations</h3>
+                            <p class="course-description">
+                                Le cours fondateur du modèle des 4 D — Délégation, Description, Discernement, Diligence. C'est la grille de lecture la plus solide pour décider quoi confier à une IA et comment en juger le résultat. Certificat à l'issue d'une évaluation finale.
+                            </p>
+                            <div class="course-meta">
+                                <span><i data-lucide="award"></i> Certificat</span>
+                                <span><i data-lucide="globe"></i> En anglais</span>
+                                <span><i data-lucide="key"></i> Sans compte requis</span>
+                            </div>
+                            <a href="https://anthropic.skilljar.com/ai-fluency-framework-foundations" target="_blank" rel="noopener"
+                                class="btn btn-primary course-btn">
+                                Accéder au cours
+                            </a>
+                        </article>
+
+                        <article class="course-card">
+                            <div class="course-header">
+                                <span class="course-platform">Anthropic Academy</span>
+                                <span class="tag tag-green">Gratuit</span>
+                            </div>
+                            <h3 class="course-title">AI Fluency for Educators</h3>
+                            <p class="course-description">
+                                La déclinaison enseignante du cours précédent, qu'il faut avoir suivi d'abord. Conçue pour les enseignants, concepteurs pédagogiques et cadres éducatifs. Également disponible sur Coursera.
+                            </p>
+                            <div class="course-meta">
+                                <span><i data-lucide="award"></i> Certificat</span>
+                                <span><i data-lucide="globe"></i> En anglais</span>
+                                <span><i data-lucide="layers"></i> Suite du cours fondateur</span>
+                            </div>
+                            <a href="https://anthropic.skilljar.com/ai-fluency-for-educators" target="_blank" rel="noopener"
+                                class="btn btn-primary course-btn">
+                                Accéder au cours
+                            </a>
+                        </article>
+
+                        <article class="course-card">
+                            <div class="course-header">
+                                <span class="course-platform">Anthropic Academy</span>
+                                <span class="tag tag-green">Gratuit</span>
+                            </div>
+                            <h3 class="course-title">Teaching AI Fluency</h3>
+                            <p class="course-description">
+                                Le troisième volet : non plus utiliser l'IA, mais l'enseigner. Quatre modules sur les boucles Délégation-Diligence et Description-Discernement, l'évaluation de la maîtrise et l'effet de l'IA selon les disciplines. Suppose le cours fondateur.
+                            </p>
+                            <div class="course-meta">
+                                <span><i data-lucide="award"></i> Certificat</span>
+                                <span><i data-lucide="globe"></i> En anglais</span>
+                                <span><i data-lucide="layers"></i> Niveau avancé</span>
+                            </div>
+                            <a href="https://anthropic.skilljar.com/teaching-ai-fluency" target="_blank" rel="noopener"
+                                class="btn btn-primary course-btn">
+                                Accéder au cours
+                            </a>
+                        </article>
+
+                        <article class="course-card">
+                            <div class="course-header">
+                                <span class="course-platform">Google for Education</span>
+                                <span class="tag tag-green">Gratuit</span>
+                            </div>
+                            <h3 class="course-title">Generative AI for Educators with Gemini</h3>
+                            <p class="course-description">
+                                Deux heures, très concret : prise en main de Gemini et de NotebookLM pour préparer ses cours, différencier et gagner du temps. Aucun prérequis technique. Disponible en français.
+                            </p>
+                            <div class="course-meta">
+                                <span><i data-lucide="clock"></i> ~2 heures</span>
+                                <span><i data-lucide="award"></i> Certificat optionnel</span>
+                                <span><i data-lucide="globe"></i> Version française</span>
+                            </div>
+                            <a href="https://edu.exceedlms.com/student/path/1787126-generative-ai-for-educators-with-gemini" target="_blank" rel="noopener"
+                                class="btn btn-primary course-btn">
+                                Accéder au cours
+                            </a>
+                        </article>
+
+                        <article class="course-card">
+                            <div class="course-header">
+                                <span class="course-platform">Coursera · DeepLearning.AI</span>
+                                <span class="tag tag-green">Gratuit</span>
                             </div>
                             <h3 class="course-title">AI for Everyone</h3>
                             <p class="course-description">
-                                Le cours d'Andrew Ng traduit en français. Une excellente
-                                introduction non technique à l'IA.
+                                Le cours d'Andrew Ng pour comprendre ce que l'IA peut et ne peut pas faire, sans aucun prérequis technique. En anglais, sous-titré.
                             </p>
                             <div class="course-meta">
                                 <span><i data-lucide="clock"></i> ~6 heures</span>
-                                <span><i data-lucide="globe"></i> Sous-titres FR</span>
+                                <span><i data-lucide="globe"></i> Anglais sous-titré</span>
+                                <span><i data-lucide="award"></i> Certificat payant</span>
                             </div>
                             <a href="https://www.coursera.org/learn/ai-for-everyone" target="_blank" rel="noopener"
                                 class="btn btn-primary course-btn">
@@ -382,71 +545,31 @@
                             </a>
                         </article>
 
-                        <article class="course-card">
-                            <div class="course-header">
-                                <span class="course-platform">OpenClassrooms</span>
-                                <span class="tag tag-green">Gratuit</span>
-                            </div>
-                            <h3 class="course-title">Découvrez l'Intelligence Artificielle</h3>
-                            <p class="course-description">
-                                Parcours d'initiation à l'IA avec des exercices pratiques
-                                et des quiz pour valider vos connaissances.
-                            </p>
-                            <div class="course-meta">
-                                <span><i data-lucide="clock"></i> ~8 heures</span>
-                                <span><i data-lucide="check-circle"></i> Quiz intégrés</span>
-                            </div>
-                            <a href="https://openclassrooms.com" target="_blank" rel="noopener"
-                                class="btn btn-primary course-btn">
-                                Accéder au cours
-                            </a>
-                        </article>
                     </div>
-                </section>
 
-                <section class="courses-section">
                     <h2 class="section-subtitle">Cours payants</h2>
 
                     <div class="courses-grid">
                         <article class="course-card">
                             <div class="course-header">
-                                <span class="course-platform">Udemy</span>
-                                <span class="tag tag-orange">Payant</span>
+                                <span class="course-platform">Note</span>
+                                <span class="tag tag-orange">À compléter</span>
                             </div>
-                            <h3 class="course-title">ChatGPT pour les enseignants</h3>
+                            <h3 class="course-title">Offre payante : rien de vérifié à ce jour</h3>
                             <p class="course-description">
-                                Formation complète sur l'utilisation de ChatGPT dans
-                                la préparation de cours et l'évaluation.
+                                Les plateformes généralistes (Udemy, LinkedIn Learning) proposent des formations
+                                « IA pour enseignants » dont la qualité est très inégale et le contenu rarement
+                                adossé au cadre français. Plutôt que d'en recommander une sans l'avoir suivie,
+                                cette section reste vide. Les cours gratuits ci-dessus couvrent l'essentiel et délivrent
+                                pour la plupart un certificat ou un badge ouvert — ce qui répond aussi au besoin
+                                de faire reconnaître la formation. Une suggestion de formation payante réellement
+                                éprouvée reste la bienvenue.
                             </p>
                             <div class="course-meta">
-                                <span><i data-lucide="clock"></i> ~5 heures</span>
-                                <span><i data-lucide="award"></i> Certificat Udemy</span>
+                                <span><i data-lucide="mail"></i> Écrivez-nous</span>
                             </div>
-                            <a href="https://www.udemy.com" target="_blank" rel="noopener"
-                                class="btn btn-secondary course-btn">
-                                Voir le cours
-                            </a>
                         </article>
 
-                        <article class="course-card">
-                            <div class="course-header">
-                                <span class="course-platform">LinkedIn Learning</span>
-                                <span class="tag tag-orange">Payant</span>
-                            </div>
-                            <h3 class="course-title">IA et pédagogie</h3>
-                            <p class="course-description">
-                                Formation professionnelle sur l'intégration de l'IA
-                                dans les pratiques pédagogiques.
-                            </p>
-                            <div class="course-meta">
-                                <span><i data-lucide="clock"></i> ~4 heures</span>
-                                <span><i data-lucide="briefcase"></i> Pro</span>
-                            </div>
-                            <a href="https://www.linkedin.com/learning" target="_blank" rel="noopener"
-                                class="btn btn-secondary course-btn">
-                                Voir le cours
-                            </a>
-                        </article>
                     </div>
                 </section>
             </div>
@@ -486,7 +609,7 @@
                                     Étude sur les instructions injectées dans les réponses d'élèves et leur influence sur les systèmes de correction fondés sur des modèles de langage.
                                 </p>
                             </div>
-                            <a href="https://arxiv.org/abs/2606.03090"
+                            <a href="https://arxiv.org/abs/2507.06185"
                                 target="_blank" rel="noopener" class="btn btn-secondary article-btn">
                                 <i data-lucide="external-link"></i>
                                 Lire
@@ -770,6 +893,60 @@
                     <h2 class="section-subtitle">Ressources spécifiques</h2>
 
                     <div class="articles-list">
+                        <article class="article-card">
+                            <div class="article-icon">
+                                <i data-lucide="graduation-cap"></i>
+                            </div>
+                            <div class="article-content">
+                                <h3 class="article-title">Former les cadres au pilotage de l'intelligence artificielle</h3>
+                                <p class="article-source">IH2EF • Cycle de webinaires</p>
+                                <p class="article-description">
+                                    Le programme détaillé du cycle : gouvernance, cadre juridique, accompagnement des équipes.
+                                </p>
+                            </div>
+                            <a href="https://www.ih2ef.gouv.fr/cycle-de-webinaires-former-les-cadres-au-pilotage-de-lintelligence-artificielle"
+                                target="_blank" rel="noopener" class="btn btn-secondary article-btn">
+                                <i data-lucide="external-link"></i>
+                                Accéder
+                            </a>
+                        </article>
+
+                        <article class="article-card">
+                            <div class="article-icon">
+                                <i data-lucide="scale"></i>
+                            </div>
+                            <div class="article-content">
+                                <h3 class="article-title">L'intelligence artificielle dans les établissements scolaires</h3>
+                                <p class="article-source">IGÉSR • Rapport officiel</p>
+                                <p class="article-description">
+                                    Le rapport de l'Inspection générale : état des lieux et préconisations. La référence à citer dans un projet d'établissement ou devant un conseil d'administration.
+                                </p>
+                            </div>
+                            <a href="https://www.education.gouv.fr/igesr/l-intelligence-artificielle-dans-les-etablissements-scolaires-465627"
+                                target="_blank" rel="noopener" class="btn btn-secondary article-btn">
+                                <i data-lucide="external-link"></i>
+                                Accéder
+                            </a>
+                        </article>
+
+                        <article class="article-card">
+                            <div class="article-icon">
+                                <i data-lucide="shield-check"></i>
+                            </div>
+                            <div class="article-content">
+                                <h3 class="article-title">Enseignant : comment utiliser un système d'IA ?</h3>
+                                <p class="article-source">CNIL</p>
+                                <p class="article-description">
+                                    Le cadre RGPD posé par l'autorité compétente. Utile pour arbitrer ce qui est déployable dans l'établissement et ce qui ne l'est pas.
+                                </p>
+                            </div>
+                            <a href="https://www.cnil.fr/fr/enseignant-usage-systeme-ia"
+                                target="_blank" rel="noopener" class="btn btn-secondary article-btn">
+                                <i data-lucide="external-link"></i>
+                                Accéder
+                            </a>
+                        </article>
+
                         <article class="article-card">
                             <div class="article-icon">
                                 <i data-lucide="layout-dashboard"></i>

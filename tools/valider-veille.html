@@ -19,6 +19,8 @@
   h1 { font-size:17px; margin:0 0 4px; }
   .sub { font-size:13px; color:var(--muted); }
   .bar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:10px; }
+  .bar select, .bar input[type="search"] { min-width:180px; padding:7px 9px; border:1px solid var(--line);
+                 border-radius:6px; background:var(--card); color:var(--ink); font:inherit; font-size:13px; }
   button, .btn { font:inherit; font-size:13px; padding:7px 12px; border-radius:6px;
                  border:1px solid var(--line); background:var(--card); color:var(--ink);
                  cursor:pointer; }
@@ -62,6 +64,8 @@
     <div class="sub">Rien n'est publié tant que vous n'avez pas exporté. Outil local, aucune donnée ne sort de cette page.</div>
     <div class="bar">
       <label class="btn">Charger veille-inbox.json<input type="file" id="file" accept=".json" hidden></label>
+      <select id="source-filter" aria-label="Filtrer par source" disabled><option value="">Toutes les sources</option></select>
+      <input id="search" type="search" placeholder="Rechercher un mot ou une source" disabled>
       <button id="all-keep">Tout garder</button>
       <button id="all-drop">Tout jeter</button>
       <button id="auto">Pré-trier (pertinence ≥ 3)</button>
@@ -72,6 +76,11 @@
 <main>
   <div class="drop" id="drop">Déposez ici <code>data/veille-inbox.json</code>, ou utilisez le bouton ci-dessus.</div>
   <div id="list"></div>
+  <div class="bar hidden" id="pagination">
+    <button id="previous">Précédent</button>
+    <span class="count" id="page-count"></span>
+    <button id="next">Suivant</button>
+  </div>
 </main>
 
 <footer class="hidden" id="foot">
@@ -88,6 +97,10 @@
 <script>
 const $ = (id) => document.getElementById(id);
 let items = [];
+let sourceActive = '';
+let search = '';
+let page = 0;
+const PAGE_SIZE = 25;
 const DESTINATIONS = ['Fil de veille', 'Outils', 'Formation', 'Éthique', 'Disciplines'];
 
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g,
@@ -99,10 +112,38 @@ function fmtDate(d) {
   return isNaN(x) ? 'sans date' : x.toLocaleDateString('fr-FR');
 }
 
+function visibleItems() {
+  const needle = search.trim().toLocaleLowerCase('fr');
+  return items.map((it, i) => ({ it, i })).filter(({ it }) => {
+    if (sourceActive && it.source !== sourceActive) return false;
+    if (!needle) return true;
+    return [it.source, it.titre, it.resume, it.raw_text, it.categorie]
+      .join(' ').toLocaleLowerCase('fr').includes(needle);
+  });
+}
+
+function remplirSources() {
+  const select = $('source-filter');
+  const counts = new Map();
+  items.forEach(it => {
+    const source = it.source || 'Source inconnue';
+    counts.set(source, (counts.get(source) || 0) + 1);
+  });
+  select.innerHTML = '<option value="">Toutes les sources (' + items.length + ')</option>'
+    + Array.from(counts.entries()).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'fr'))
+      .map(([source, count]) => '<option value="' + esc(source) + '">' + esc(source) + ' (' + count + ')</option>')
+      .join('');
+  select.disabled = false;
+  $('search').disabled = false;
+}
+
 function render() {
   const list = $('list');
   list.innerHTML = '';
-  items.forEach((it, i) => {
+  const shown = visibleItems();
+  const totalPages = Math.max(1, Math.ceil(shown.length / PAGE_SIZE));
+  page = Math.min(page, totalPages - 1);
+  shown.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE).forEach(({ it, i }) => {
     const el = document.createElement('div');
     el.className = 'card ' + (it.decision === 'keep' ? 'keep'
                     : it.decision === 'drop' ? 'drop-it' : 'pending');
@@ -140,6 +181,12 @@ function render() {
            data-raw="${i}">${esc(it.raw_text)}</pre>`;
     list.appendChild(el);
   });
+  $('pagination').classList.toggle('hidden', shown.length <= PAGE_SIZE);
+  $('page-count').textContent = shown.length
+    ? (page * PAGE_SIZE + 1) + '–' + Math.min((page + 1) * PAGE_SIZE, shown.length) + ' sur ' + shown.length
+    : 'Aucun résultat';
+  $('previous').disabled = page === 0;
+  $('next').disabled = page >= totalPages - 1;
   updateCount();
 }
 
@@ -176,6 +223,11 @@ $('auto').onclick = () => {
   render();
 };
 
+$('source-filter').onchange = e => { sourceActive = e.target.value; page = 0; render(); };
+$('search').oninput = e => { search = e.target.value; page = 0; render(); };
+$('previous').onclick = () => { page--; render(); };
+$('next').onclick = () => { page++; render(); };
+
 function load(text) {
   let data;
   try { data = JSON.parse(text); }
@@ -189,6 +241,7 @@ function load(text) {
   }, o, { decision: null }));
   $('drop').classList.add('hidden');
   $('foot').classList.remove('hidden');
+  remplirSources();
   render();
 }
 

@@ -14,6 +14,7 @@ Usage :
     python enrich_inbox.py veille-inbox-2026-09-11.json
     python enrich_inbox.py *.json --model qwen3.5 --dry-run
     python enrich_inbox.py --rss          # enrichit ce que veille_bot.py a déposé
+    python enrich_inbox.py --pending      # enrichit les éléments bruts déjà importés
 
 Sortie : data/veille-inbox.json, à ouvrir ensuite dans tools/valider-veille.html
 """
@@ -35,7 +36,7 @@ INBOX = DATA_DIR / "veille-inbox.json"
 PUBLISHED = DATA_DIR / "veille.json"
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
-DEFAULT_MODEL = "qwen3.5"
+DEFAULT_MODEL = "qwen3.5:latest"
 TIMEOUT = 120
 
 CATEGORIES = ["Outil", "Pratique pédagogique", "Cadre & éthique",
@@ -53,7 +54,12 @@ Tu réponds UNIQUEMENT par un objet JSON valide, sans texte autour, avec ces cl�
 - "titre"      : 4 à 9 mots, en français, factuel. Pas de titre racoleur, pas de point final.
 - "resume"     : exactement deux phrases complètes en français. Tu REFORMULES, tu ne recopies pas.
                  Jamais de phrase coupée. Si le contenu est trop maigre pour deux phrases,
-                 écris une seule phrase complète.
+                 écris une seule phrase complète. N'ajoute JAMAIS de fait, de public visé,
+                 de conséquence ou de contexte qui n'est pas explicitement présent dans le
+                 signet ou dans les liens fournis. N'ajoute jamais une conclusion, un
+                 conseil ou un jugement (par exemple « c'est essentiel »). En cas
+                 d'ambiguïté, reste prudent et décris seulement ce que la source annonce
+                 ou présente.
 - "categorie"  : une valeur parmi %s
 - "niveau"     : une valeur parmi %s
 - "pertinence" : entier de 0 à 5. 0 = publicité, annonce commerciale, promotion de prix,
@@ -90,6 +96,15 @@ def load_json(path: Path, default):
         return default
 
 
+def save_inbox(inbox: dict) -> None:
+    """Écrit une sauvegarde complète et remplace le fichier d'un seul coup."""
+    DATA_DIR.mkdir(exist_ok=True)
+    temp = INBOX.with_suffix(".tmp")
+    with open(temp, "w", encoding="utf-8") as f:
+        json.dump(inbox, f, ensure_ascii=False, indent=2)
+    temp.replace(INBOX)
+
+
 def published_keys() -> set:
     data = load_json(PUBLISHED, {})
     keys = set()
@@ -109,6 +124,7 @@ def call_ollama(model: str, text: str, links: list) -> dict | None:
         "messages": [{"role": "system", "content": SYSTEM},
                      {"role": "user", "content": prompt}],
         "stream": False,
+        "think": False,
         "format": "json",
         "options": {"temperature": 0.2},
     }).encode("utf-8")
@@ -173,49 +189,68 @@ def main() -> int:
     ap.add_argument("files", nargs="*", type=Path, help="exports JSON de l'extension")
     ap.add_argument("--rss", action="store_true",
                     help="reprendre aussi les articles déjà déposés dans l'inbox par veille_bot.py")
+    ap.add_argument("--pending", action="store_true",
+                    help="enrichir les éléments déjà importés et encore à l'état brut")
     ap.add_argument("--model", default=DEFAULT_MODEL)
+    ap.add_argument("--limit", type=int,
+                    help="limiter le nombre d'éléments traités (utile pour une passe de contrôle)")
     ap.add_argument("--dry-run", action="store_true",
                     help="n'appelle pas le modèle : range les signets tels quels")
     args = ap.parse_args()
 
-    if not args.files and not args.rss:
-        ap.error("indiquez au moins un fichier d'export, ou --rss")
+    if not args.files and not args.rss and not args.pending:
+        ap.error("indiquez au moins un fichier d'export, --rss ou --pending")
+    if args.limit is not None and args.limit < 1:
+        ap.error("--limit doit être supérieur ou égal à 1")
 
     inbox = load_json(INBOX, {"items": [], "last_update": None})
     known = {i.get("key") for i in inbox["items"] if i.get("key")}
     already = published_keys()
 
-    incoming = []
-    for path in args.files:
-        payload = load_json(path, None)
-        if not payload:
-            print(f"  ! {path} : illisible, ignoré", file=sys.stderr)
-            continue
-        items = payload.get("items") if isinstance(payload, dict) else payload
-        incoming += list(items or [])
-        print(f"  · {path.name} : {len(items or [])} entrées")
-    if args.rss:
-        incoming += [i for i in inbox["items"] if i.get("origine") == "rss"
-                     and i.get("status") == "brut"]
+    existing = args.pending
+    if existing:
+        fresh = [i for i in inbox["items"] if i.get("status") == "brut" and i.get("raw_text")]
+        skipped_pub = skipped_dup = 0
+        print(f"\n{len(fresh)} éléments bruts à reprendre")
+    else:
+        incoming = []
+        for path in args.files:
+            payload = load_json(path, None)
+            if not payload:
+                print(f"  ! {path} : illisible, ignoré", file=sys.stderr)
+                continue
+            items = payload.get("items") if isinstance(payload, dict) else payload
+            incoming += list(items or [])
+            print(f"  · {path.name} : {len(items or [])} entrées")
+        if args.rss:
+            incoming += [i for i in inbox["items"] if i.get("origine") == "rss"
+                         and i.get("status") == "brut"]
 
-    fresh, skipped_pub, skipped_dup = [], 0, 0
-    for raw in incoming:
-        item = to_item(raw)
-        if not item["key"]:
-            continue
-        if item["key"] in already:
-            skipped_pub += 1
-            continue
-        if item["key"] in known:
-            skipped_dup += 1
-            continue
-        known.add(item["key"])
-        fresh.append(item)
+        fresh, skipped_pub, skipped_dup = [], 0, 0
+        for raw in incoming:
+            item = to_item(raw)
+            if not item["key"]:
+                continue
+            if item["key"] in already:
+                skipped_pub += 1
+                continue
+            if item["key"] in known:
+                skipped_dup += 1
+                continue
+            known.add(item["key"])
+            fresh.append(item)
 
-    print(f"\n{len(fresh)} nouveaux · {skipped_dup} déjà en attente · {skipped_pub} déjà publiés")
+        print(f"\n{len(fresh)} nouveaux · {skipped_dup} déjà en attente · {skipped_pub} déjà publiés")
+
+    if args.limit:
+        fresh = fresh[:args.limit]
+        print(f"Traitement limité à {len(fresh)} éléments.")
     if not fresh:
         print("Rien à enrichir.")
         return 0
+
+    if not existing:
+        inbox["items"] = fresh + inbox["items"]
 
     if args.dry_run:
         for it in fresh:
@@ -240,19 +275,18 @@ def main() -> int:
                 it.update(sanity(enr, it["raw_text"]))
                 it["status"] = "a_valider"
             print(f"\r  {n}/{len(fresh)}", end="", flush=True)
+            if n % 25 == 0:
+                save_inbox(inbox)
         print()
         if failures:
             print(f"  ({failures} réponses du modèle illisibles → laissées brutes)")
 
-    inbox["items"] = fresh + inbox["items"]
     inbox["last_update"] = datetime.now().isoformat(timespec="seconds")
-    DATA_DIR.mkdir(exist_ok=True)
-    with open(INBOX, "w", encoding="utf-8") as f:
-        json.dump(inbox, f, ensure_ascii=False, indent=2)
+    save_inbox(inbox)
 
     pub = sum(1 for i in fresh if i.get("pertinence", 3) >= 3)
-    print(f"\nÉcrit dans {INBOX.relative_to(PROJECT_DIR)} — {len(inbox['items'])} en attente "
-          f"({pub} avec une pertinence ≥ 3).")
+    print(f"\nEcrit dans {INBOX.relative_to(PROJECT_DIR)} - {len(inbox['items'])} en attente "
+          f"({pub} avec une pertinence >= 3).")
     print("Étape suivante : ouvrez tools/valider-veille.html et déposez-y ce fichier.")
     return 0
 

@@ -99,6 +99,24 @@ Le workflow ne publie plus rien : il dépose dans `data/veille-inbox.json` et co
 ce seul fichier. Tant que vous ne faites pas l'étape de rédaction et de validation,
 la boîte de réception grossit et le site ne bouge pas. C'est voulu.
 
+## Prochains chantiers
+
+### Actualiser les modèles locaux
+
+Les recommandations de modèles locaux et de configuration matérielle doivent être
+révisées à partir des signets récents, puis recoupées avec les fiches officielles
+Hugging Face ou les dépôts des éditeurs. Ne publier que des modèles dont la licence,
+la taille, les besoins mémoire et la disponibilité sont vérifiés ; les annonces X
+servent de piste, pas de preuve finale.
+
+### Automatiser la collecte hebdomadaire sous Windows
+
+L'objectif est qu'une tâche planifiée ouvre Chrome avec le profil X déjà connecté,
+lance l'exporteur de signets, puis dépose l'export dans la boîte de réception pour
+enrichissement local. Cette automatisation doit rester une collecte : elle ne publie
+jamais directement sur le site. Chaque lot passe par la validation éditoriale avant
+d'alimenter le fil de veille ou les rubriques durables.
+
 Cycle type :
 
 ```bash
