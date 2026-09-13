@@ -1,6 +1,78 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/scira",
+      "link": "https://www.uneiaparjour.fr/scira/",
+      "date": "2026-09-12T20:07:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Scira. Scira (anciennement MiniPerplx : https://scira.ai/ et documentation : https://github.com/zaidmukaddam/scira) est un chatbot open source spécialisé moteur de recherche qui répond en se basant sur des sources externes dans l’esprit de Perplexity.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/22677",
+      "link": "https://mathix.org/linux/archives/22677",
+      "date": "2026-09-08T19:07:41",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Mise à jour de Macamdoc. Bonjour à toutes et tous! J’espère que votre rentrée s’est bien passée! À Loué, une belle surprise de voir notre collège changer de nom (on croyait tous que ce serait l’année prochaine), « Rosa Bonheur ». Un début chaotique du fait des soucis informatiques de l’académie de Nantes, pas de Nuage, pas de Visio des mails non […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/22618",
+      "link": "https://mathix.org/linux/archives/22618",
+      "date": "2026-07-22T14:22:44",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "CompagnonPP : l’application que j’aurais aimé avoir comme professeur principal, et que j’aurai l’an prochain. Etre professeur principal, ce n’est pas seulement préparer quelques heures de vie de classe ou remplir les appréciations à la fin du trimestre. C’est suivre une classe entière, préparer les rendez-vous avec les familles, conserver les informations importantes, retrouver les bulletins, rédiger des comptes rendus, noter les décisions prises lors des réunions et penser aux […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/22590",
+      "link": "https://mathix.org/linux/archives/22590",
+      "date": "2026-07-09T11:10:17",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "L’IA n’émancipera pas l’enseignant.. Bonjour à toutes et tous. Une petite réflexion sur l’IA et l’impact sur notre métier. Cette réflexion, elle m’est venue d’un échange avec Ju’ et aussi d’une réflexion de Philippe Meirieu lors de sa conférence à Lyon en avril dernier. L’IA est donc présente dans notre métier, d’ailleurs l’état français a muni tous ses agents […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/22556",
+      "link": "https://mathix.org/linux/archives/22556",
+      "date": "2026-06-26T06:54:39",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "L’outil pour les répartitions. Bonjour à toutes et tous! Bon, notre dotation horaire s’est amusé à faire Philippe Catherine , « j’enlève une classe » « Ohhhh » « je remets une classe » « ahhhh » mais avec sans doute des contraintes d’heures des dédoublements plus possible et donc …. une répartition à revoir là maintenant. Ni une ni deux, je n’ai aucun mérite, j’ai guidé […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/22547",
+      "link": "https://mathix.org/linux/archives/22547",
+      "date": "2026-06-24T13:45:38",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Mise à jour de l’outil suivi.mathix.org. Bonjour à toutes et tous! J’ai remis un petit lifting sur l’outil suivi de mathix.org. voici donc une présentation de l’interface enseignant et élève? J’ai également ajouté quelques exerciseurs. (enfin plutôt une adaptation par niveau) Disponible sur la forge https://roverbot.forge.apps.education.fr Disponible sur la forge https://nombres_maudits.forge.apps.education.fr",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/tabbit",
       "link": "https://www.uneiaparjour.fr/tabbit/",
       "date": "2026-09-11T19:19:00",
@@ -241,5 +313,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-09-12T11:47:45"
+  "last_update": "2026-09-13T12:56:16"
 }
