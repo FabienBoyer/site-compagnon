@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "key": "https://openai.com/index/fyxer",
+      "link": "https://openai.com/index/fyxer",
+      "date": "2026-09-14T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How Fyxer built an AI executive assistant people trust. Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/scira",
       "link": "https://www.uneiaparjour.fr/scira/",
       "date": "2026-09-12T20:07:00",
@@ -313,5 +325,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-09-13T12:56:16"
+  "last_update": "2026-09-15T12:59:13"
 }
