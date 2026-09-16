@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/multimatte",
+      "link": "https://www.uneiaparjour.fr/multimatte/",
+      "date": "2026-09-15T20:26:42",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "MultiMatte. MultiMatte (https://usefeyn.com/multimatte/ et documentation : https://github.com/feyninc/nobg) détoure une image à partir d’une instruction texte, en gardant ce qui a été nommé et en supprimant le reste. Import ou collage d’une photo (PNG, JPEG, WebP, HEIC, jusqu’à 4 Mo), recadrage si besoin. Instruction optionnelle : laissée vide, l’outil détoure le sujet principal de l’image. Un onglet […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "date": "2026-09-15T16:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "AI for Societal Impact. Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+      "date": "2026-09-15T16:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Building AI to accelerate science and improve lives. B-roll showing diverse environments and people, including a teacher and students in a classroom and a patient with a doctor",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "date": "2026-09-15T16:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "AI for everyone in every language. Animation of several words in different languages slowly zooming past",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "date": "2026-09-15T13:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "New insights from Google’s AI & Economy ATLAS. Text \"AI & Economy Atlas v1.0 2026\" with the Google G and a spinning globe illustration",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://openai.com/index/fyxer",
       "link": "https://openai.com/index/fyxer",
       "date": "2026-09-14T12:00:00",
@@ -325,5 +385,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-09-15T12:59:13"
+  "last_update": "2026-09-16T12:56:27"
 }
