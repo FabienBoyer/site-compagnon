@@ -1,6 +1,78 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/kario",
+      "link": "https://www.uneiaparjour.fr/kario/",
+      "date": "2026-09-16T19:59:10",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Kario. Kario (https://www.karioai.com/) génère des vidéos de motion design à partir d’une instruction, d’images ou d’une URL. Génération de vidéo animée avec texte, formes, images et audio en calques séparés. La vidéo est découpée en plusieurs scènes. Le projet est modifiable directement dans l’éditeur ou par instruction. Export en MP4, partage par url. Note : un […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/22714",
+      "link": "https://mathix.org/linux/archives/22714",
+      "date": "2026-09-16T16:51:34",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Ia.mathix.org : le fake prompt évolue!. Bonjour à toutes et tous! Alors il y a déjà quelques temps je publiais un article où je montrais un travail que j’avais mené avec mes élèves sur le fait qu’on peut faire mentir l’IA sans que cela ne se voit. et bien j’ai décidé d’étoffer les erreurs que l’IA peut dire. Toujours sur le […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "date": "2026-09-16T16:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Helping older adults use AI in everyday life. OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/reimagining-advertising-with-ai",
+      "link": "https://openai.com/index/reimagining-advertising-with-ai",
+      "date": "2026-09-16T13:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Reimagining advertising with AI. Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/model-misalignment-reporting-framework",
+      "link": "https://openai.com/index/model-misalignment-reporting-framework",
+      "date": "2026-09-16T17:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Our framework for reporting model misalignment. OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/unlocking-new-ways-of-working",
+      "link": "https://openai.com/index/unlocking-new-ways-of-working",
+      "date": "2026-09-16T09:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How workers are unlocking new ways of working. New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/multimatte",
       "link": "https://www.uneiaparjour.fr/multimatte/",
       "date": "2026-09-15T20:26:42",
@@ -385,5 +457,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-09-16T12:56:27"
+  "last_update": "2026-09-17T12:52:45"
 }
