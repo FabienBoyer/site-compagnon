@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/sharper-ai",
+      "link": "https://www.uneiaparjour.fr/sharper-ai/",
+      "date": "2026-09-17T21:57:11",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Sharper AI. Sharper AI (https://sharper-ai.co/fr) s’appuie sur documents et applications connectées pour générer rapports de recherches, analyse de données dans un tableur, infographies, articles, présentation modifiable ou taches récurrentes. Les sources importées sont utilisées en bases de connaissances, elles peuvent être complétées par des recherches web.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/cooley-gopublic",
+      "link": "https://openai.com/index/cooley-gopublic",
+      "date": "2026-09-17T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How Cooley is accelerating IPO work with ChatGPT. Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/astra-for-law",
+      "link": "https://openai.com/index/astra-for-law",
+      "date": "2026-09-17T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Introducing Astra for Law. OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/kario",
       "link": "https://www.uneiaparjour.fr/kario/",
       "date": "2026-09-16T19:59:10",
@@ -457,5 +493,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-09-17T12:52:45"
+  "last_update": "2026-09-18T12:28:58"
 }
