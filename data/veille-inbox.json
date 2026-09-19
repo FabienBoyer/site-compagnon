@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/instrument-playground",
+      "link": "https://www.uneiaparjour.fr/instrument-playground/",
+      "date": "2026-09-18T21:04:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Instrument Playground. Instrument Playground (https://artsandculture.google.com/experiment/instrument-playground/8QFo2oQr2uT3pg) génère un clip musical inspiré d’un instrument et permet de composer à partir de ce clip. Après le choix d’un instrument parmi la centaine proposée, Lyria génère un clip sonore de 20 secondes inspiré de l’instrument sélectionné.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/22733",
+      "link": "https://mathix.org/linux/archives/22733",
+      "date": "2026-09-19T10:19:14",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Si l’IA accentuait l’essence même du libre?. Bonjour à tous ! Un petit billet de réflexion sur l’IA, et plus particulièrement sur l’IA génératrice de code. Pour commencer, un peu d’histoire avec une anecdote : Richard Stallman, l’un des pères fondateurs du logiciel libre (notamment de la licence GPL, de la FSF, Free Software Foundation, et du projet GNU), était avant tout […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/australian-youth-safety-blueprint",
+      "link": "https://openai.com/index/australian-youth-safety-blueprint",
+      "date": "2026-09-18T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Introducing the Australian Youth Safety Blueprint. OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/hex-gpt-6-astra",
+      "link": "https://openai.com/index/hex-gpt-6-astra",
+      "date": "2026-09-16T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Hex turns complex analysis into visual reports with GPT‑6 Astra. GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "date": "2026-09-18T14:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "New experts join Google’s AI & Economy team. Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/sharper-ai",
       "link": "https://www.uneiaparjour.fr/sharper-ai/",
       "date": "2026-09-17T21:57:11",
@@ -493,5 +553,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-09-18T12:28:58"
+  "last_update": "2026-09-19T12:08:44"
 }
