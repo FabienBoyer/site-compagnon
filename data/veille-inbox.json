@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/chesslm",
+      "link": "https://www.uneiaparjour.fr/chesslm/",
+      "date": "2026-09-19T20:00:32",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "ChessLM. ChessLM (sekor.eu.org/chesslm et documentation : github.com/skorotkiewicz/chesslm) fait jouer aux échecs contre une modèle d’IA léger et open source, chessLM, directement dans le navigateur. Partie classique face à un petit réseau de neurones entraîné aux échecs, sans serveur : tout se joue en local, dans la page. Choix de la couleur, déplacement à la souris ou […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/v7",
+      "link": "https://openai.com/index/v7",
+      "date": "2026-09-21T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How V7 gives AI agents institutional memory. Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/instrument-playground",
       "link": "https://www.uneiaparjour.fr/instrument-playground/",
       "date": "2026-09-18T21:04:00",
@@ -553,5 +577,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-09-19T12:08:44"
+  "last_update": "2026-09-21T14:41:01"
 }
