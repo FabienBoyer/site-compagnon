@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/xprivo",
+      "link": "https://www.uneiaparjour.fr/xprivo/",
+      "date": "2026-09-21T21:27:25",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "xPrivo. xPrivo (https://www.xprivo.com/ — documentation : https://github.com/xprivo/ai-chat) est un assistant IA conversationnel axé sur la confidentialité, avec import de fichiers (PDF, CSV, Excel, DOC) et recherche web intégrée. Les échanges sont stockés localement dans le navigateur plutôt que sur un serveur, sans conservation ni utilisation pour l’entraînement des modèles.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "date": "2026-09-23T13:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "OpenAI extends cyber access to Ukraine for civilian defense. OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "date": "2026-09-23T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Grab and OpenAI bring practical AI skills to Southeast Asia. OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "date": "2026-09-22T21:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Better prompt caching for GPT-6. Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "date": "2026-09-22T18:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Introducing GPT-6 Sol and Luna. Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "link": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "date": "2026-09-22T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Parallel cut research time and cost in half with GPT‑6 Astra. GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "link": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "date": "2026-09-22T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Priorities and principles for effective third party assessments. OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
       "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
       "date": "2026-09-21T12:00:00",
@@ -613,5 +697,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-09-22T12:56:07"
+  "last_update": "2026-09-23T13:07:08"
 }
