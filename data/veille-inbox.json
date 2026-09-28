@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/pas-si-comment",
+      "link": "https://www.uneiaparjour.fr/pas-si-comment/",
+      "date": "2026-09-27T16:47:07",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Pas si, comment.. Focus de la lettre 47 Hier, l’Académie Goncourt a retiré C’était ça ou mourir, de Thélyson Orélien, de sa sélection, pour des plagiats jugés avérés, dans une affaire où planait aussi, depuis plusieurs jours, le soupçon d’un texte largement écrit par une IA. Je n’ai pas lu ce roman, je ne connais pas le reste […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/22784",
+      "link": "https://mathix.org/linux/archives/22784",
+      "date": "2026-09-28T05:50:32",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Générateur d’exercices auto-correctifs sur le tracé de perpendiculaires. Bonjour à toutes et tous! Voici un générateur d’exercices auto-correctifs sur le tracé de perpendiculaires. Alors ce principe vient d’une feuille d’activité trouvée sur internet conçue par une enseignante C. Poulain. J’ai repris le principe en ajoutant d’autres figures de base, comme le carré, le triangle ou le polygone en L pour ajouter un peu […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://mathix.org/linux/archives/22772",
       "link": "https://mathix.org/linux/archives/22772",
       "date": "2026-09-27T11:17:57",
@@ -841,5 +865,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-09-27T13:24:20"
+  "last_update": "2026-09-28T16:15:09"
 }
