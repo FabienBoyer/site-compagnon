@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "key": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "link": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "date": "2026-09-28T19:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How we will do better for Australia. OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "link": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "date": "2026-09-28T19:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Towards safety cases for frontier AI training. Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "date": "2026-09-28T07:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "The Lenfest Institute grows landmark program with expanded OpenAI support. OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "link": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "date": "2026-09-28T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Basis completes a tax workbook 2x faster with GPT-6 Astra. GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "date": "2026-09-28T19:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.. Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/pas-si-comment",
       "link": "https://www.uneiaparjour.fr/pas-si-comment/",
       "date": "2026-09-27T16:47:07",
@@ -865,5 +925,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-09-28T16:15:09"
+  "last_update": "2026-09-29T14:27:24"
 }
