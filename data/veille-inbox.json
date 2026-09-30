@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/pxbee",
+      "link": "https://www.uneiaparjour.fr/pxbee/",
+      "date": "2026-09-29T20:08:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "PxBee. PxBee (https://www.pxbee.com/) permet la retouche de photos avec l’IA. Plusieurs outils proposés : effacement d’objets, de personnes ou de filigranes, extension d’une image au-delà de ses bords, remplissage génératif, remplacement d’éléments. Amélioration de la netteté et de la résolution peu convainquant.Modèles d’IA utilisés non spécifiés. Export JPG ou PNG. Gratuit, sans compte.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/22816",
+      "link": "https://mathix.org/linux/archives/22816",
+      "date": "2026-09-29T20:08:08",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Comprendre l’entraînement d’une IA… avec un chocolat chaud et des mathématiques. Vendredi dernier, on a eu la chance de croiser avec le frangin Colin de la Higuera lors d’une journée organisée par la Chaire UNESCO RELIA. Lors de la table ronde, il a rappelé quelque chose d’assez simple, mais finalement essentiel : si l’on veut éduquer les élèves à l’intelligence artificielle, il faut aussi leur permettre […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "date": "2026-09-29T10:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Introducing GPT-6.1 Sol. Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/devday-2026-recap",
+      "link": "https://openai.com/index/devday-2026-recap",
+      "date": "2026-09-29T10:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "DevDay 2026 Recap. Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/introducing-dots",
+      "link": "https://openai.com/index/introducing-dots",
+      "date": "2026-09-29T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Introducing dots. Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://openai.com/index/how-we-will-do-better-for-australia",
       "link": "https://openai.com/index/how-we-will-do-better-for-australia",
       "date": "2026-09-28T19:00:00",
@@ -925,5 +985,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-09-29T14:27:24"
+  "last_update": "2026-09-30T14:24:37"
 }
