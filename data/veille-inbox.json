@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/alpie",
+      "link": "https://www.uneiaparjour.fr/alpie/",
+      "date": "2026-09-30T21:27:07",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Alpie. Alpie (https://alpie.ai/ et documentation : https://github.com/169Pi/Alpie-Core) est un chatbot qui propose recherche approfondie, générations de présentations, de feuilles de calcul et des sites web. Après le choix d’un mode (Research, Build Website, Create Excel, Create Slides), la première requête se lance sans compte, puis un compte gratuit est demandé pour récupérer le résultat. Le mode […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/22824",
+      "link": "https://mathix.org/linux/archives/22824",
+      "date": "2026-09-30T18:16:28",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "SUIVIPP : une autre application de suivi d’élève en tant que PP. Alors là je ne marche pas du tout sur les platebandes de mon frère avec compagnonPP , meuh non!! Alors, en fait, son application à Julien elle est hyper bien, hyper complète, mais sur ma liseuse, elle souffre de lenteur et je suis quelqu’un qui prend des notes, j’ai un besoin de stylet et uniquement […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "date": "2026-09-30T10:30:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Disrupting a coordinated model-distillation campaign. Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/pxbee",
       "link": "https://www.uneiaparjour.fr/pxbee/",
       "date": "2026-09-29T20:08:00",
@@ -985,5 +1021,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-09-30T14:24:37"
+  "last_update": "2026-10-01T14:55:27"
 }
