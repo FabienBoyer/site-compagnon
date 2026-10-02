@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://mathix.org/linux/archives/22847",
+      "link": "https://mathix.org/linux/archives/22847",
+      "date": "2026-10-02T05:20:01",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "L’oral en mathématiques. Bonjour à toutes et tous ! Cette année au niveau du laboratoire de mathématiques, nous continuons notre projet d’oral en mathématiques. (on avait mis les ressources sur le site académique, mais là il est down pour l’instant…) Bref, nous n’étions pas hyper satisfait du commencement, on lâchait un peu les élèves , en leur donnant […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/the-eternal-complement",
+      "link": "https://openai.com/index/the-eternal-complement",
+      "date": "2026-10-01T17:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "The eternal complement. Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/albertsons-reimagining-retail",
+      "link": "https://openai.com/index/albertsons-reimagining-retail",
+      "date": "2026-10-01T16:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How Albertsons Companies is reimagining retail from the inside out. Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/the-den-family-social",
+      "link": "https://openai.com/index/the-den-family-social",
+      "date": "2026-10-01T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "The Den frees up 10-15 hours a week to grow with ChatGPT Work. As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/alpie",
       "link": "https://www.uneiaparjour.fr/alpie/",
       "date": "2026-09-30T21:27:07",
@@ -1021,5 +1069,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-01T14:55:27"
+  "last_update": "2026-10-02T14:18:06"
 }
