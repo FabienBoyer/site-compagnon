@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "key": "https://openai.com/index/chatham-financial",
+      "link": "https://openai.com/index/chatham-financial",
+      "date": "2026-10-02T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Chatham scales its capital markets expertise with OpenAI. Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "date": "2026-10-02T15:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "The latest AI news we announced in September 2026. A video showing the September AI updates",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://mathix.org/linux/archives/22847",
       "link": "https://mathix.org/linux/archives/22847",
       "date": "2026-10-02T05:20:01",
@@ -1069,5 +1093,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-02T14:18:06"
+  "last_update": "2026-10-03T12:51:43"
 }
