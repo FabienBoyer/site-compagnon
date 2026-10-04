@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seyès maths - Les outils pour enseigner avec l'IA</title>
+    <meta name="description"
+        content="Seyès maths, le cahier de classe numérique : écrire les mathématiques sur du papier Seyès, projeter, imprimer. Fonctionne entièrement en local, sans Internet.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="ethicia/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        .step-container {
+            position: relative;
+            padding-left: 3rem;
+            margin-bottom: var(--spacing-3xl);
+            border-left: 2px solid var(--border-color);
+        }
+
+        .step-number {
+            position: absolute;
+            left: -1.25rem;
+            top: 0;
+            width: 2.5rem;
+            height: 2.5rem;
+            background: var(--color-primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.25rem;
+            box-shadow: 0 0 0 4px var(--bg-primary);
+        }
+
+        .step-content {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .step-title {
+            margin-bottom: var(--spacing-md);
+            color: var(--color-primary);
+        }
+
+
+        .vp-exchange {
+            display: grid;
+            gap: var(--spacing-lg);
+            margin-bottom: 2rem;
+        }
+
+        .vp-meta {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+        }
+
+        .vp-meta span {
+            padding: 0.4rem 0.9rem;
+            border: 1px solid var(--border-color);
+            border-radius: 999px;
+            background: var(--bg-secondary);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .vp-meta strong {
+            color: var(--color-primary);
+        }
+
+        .vp-turn {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .vp-turn-key {
+            border-color: var(--color-primary);
+        }
+
+        .vp-who {
+            display: inline-block;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+        }
+
+        .vp-who-key {
+            color: var(--color-primary);
+        }
+
+        .vp-bubble {
+            margin: 0 0 1rem;
+            padding: 1rem 1.25rem;
+            background: var(--bg-secondary);
+            border-left: 3px solid var(--color-primary);
+            border-radius: var(--radius-md);
+            font-style: italic;
+            line-height: 1.7;
+        }
+
+        .vp-note {
+            margin-top: 0.75rem;
+        }
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-lg);
+        }
+
+        .tool-choice {
+            padding: var(--spacing-md);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            text-align: center;
+            transition: all var(--transition-base);
+        }
+
+        .tool-choice:hover {
+            border-color: var(--color-primary);
+            background: var(--bg-secondary);
+        }
+
+        .crofi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing-sm);
+            margin-top: var(--spacing-md);
+        }
+
+        .crofi-item {
+            background: var(--bg-secondary);
+            padding: var(--spacing-md);
+            border-radius: var(--radius-md);
+            text-align: center;
+        }
+
+        .crofi-letter {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-primary);
+            display: block;
+            margin-bottom: var(--spacing-xs);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">📚</span>
+                <span class="logo-text">Enseigner avec l'IA</span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link nav-link-dropdown">
+                        Comprendre
+                        <i data-lucide="chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="debuter.html">Débuter avec l'IA</a>
+                        <a href="ethique.html">Cadre Légal & Éthique</a>
+                        <a href="lexique.html">Lexique</a>
+                        <a href="formation.html">Formation</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link nav-link-dropdown active">
+                        Pratiquer
+                        <i data-lucide="chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="outils.html">Outils & Prompts</a>
+                        <a href="disciplines.html">Disciplines</a>
+                        <a href="conversations.html">Conversations du Livre</a>
+                        <a href="comparatif-ia.html">Comparatif IA Images</a>
+                        <a href="chatbot.html">Assistant IA</a>
+                                             <div class="dropdown-divider" style="height: 1px; background-color: var(--border-color); margin: 0.5rem 0;"></div>
+                        <a href="ia-locale.html">Tutoriel IA Locale</a>
+                        <a href="rag-local.html">Mon RAG 1-Clic</a>
+                        <a href="le-vibe-professeur.html">Le Vibe Professeur</a>
+                        <a href="seyes-maths.html" class="active">Seyès maths</a>
+                        <a href="vermeer.html">Vermeer Outpainting</a>
+</div>
+                </li>
+
+                <li><a href="veille.html" class="nav-link">Veille</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Changer le thème">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                </button>
+                <a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener" class="btn btn-primary">
+                    <i data-lucide="shopping-cart"></i>
+                    <span>Commander</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="hero" style="padding: 4rem 0 2rem;">
+        <div class="container" style="text-align: center;">
+            <h1 class="hero-title" style="font-size: 2.5rem;">Seyès maths</h1>
+            <p class="hero-subtitle" style="margin-left: auto; margin-right: auto;">
+                Le cahier de classe numérique : écrire les maths sur du vrai papier Seyès, projeter,
+                imprimer. Tout reste sur l'ordinateur de la classe.
+            </p>
+        </div>
+    </section>
+
+    <div class="container" style="max-width: 860px; padding-bottom: 4rem;">
+
+        <div class="step-content" style="border-left: 4px solid var(--color-primary);">
+            <h2 class="step-title" style="margin-top:0;">D'où ça vient</h2>
+            <p>D'un élève qui s'était cassé le poignet. Il suivait le cours sans pouvoir rien écrire, et
+                lui donner une photocopie du cahier d'un camarade revenait à lui donner l'écriture d'un
+                autre. Je voulais lui remettre un cahier qui ressemble vraiment à un cahier : du Seyès,
+                des titres rouges, les fractions posées sur les lignes, pas un PDF de traitement de texte
+                où tout est à plat.</p>
+            <p>L'application <a href="https://educajou.forge.apps.education.fr/seyes" target="_blank"
+                    rel="noopener">Seyes d'Éducajou</a> fait exactement cela pour le texte. Il lui manquait
+                les mathématiques. J'ai donc construit la version qui me manquait, et elle a débordé de
+                son cadre : elle est devenue le cahier de ma classe.</p>
+        </div>
+
+        <figure style="margin: 2rem 0 0; text-align: center;">
+            <img src="images/seyes-maths-fonctionnalites.png" loading="lazy" width="1680" height="1050"
+                alt="Affiche présentant les huit fonctions de Seyès maths : les maths au clavier avec une syntaxe tapée convertie sur le lignage, un vrai cahier Seyès avec titres et cadres, les outils du collège (opérations posées, arbres de probabilité, repères, crible), un cahier par classe avec chapitres et séances datées, l'envoi de photos depuis le téléphone par QR code, la transcription d'une photo du tableau en syntaxe Seyès par une IA locale, la dictée vocale, et la projection, l'impression et l'export."
+                style="max-width: 100%; height: auto; border: 1px solid var(--border-color); border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
+            <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: var(--text-secondary);">
+                Les huit fonctions, sur une page. Cliquez pour agrandir.
+            </figcaption>
+        </figure>
+
+        <div class="step-content" style="margin-top: 2.5rem; border-left: 4px solid var(--color-primary);">
+            <h2 class="step-title" style="margin-top:0;">Ce qu'elle fait</h2>
+            <p>On tape normalement et les mathématiques se placent toutes seules sur le lignage :
+                <code>3/4</code> devient une vraie fraction, <code>x^2</code> un exposant,
+                <code>sqrt(50)</code> un radical. Les opérations posées s'alignent, les tableaux de
+                proportionnalité se dessinent, les arbres de probabilité aussi. Chaque classe a son cahier,
+                séparé en Cours et Exercices, avec des chapitres et des séances datées.</p>
+            <p>En classe, le cahier prend tout l'écran et se projette. Un clic n'importe où ouvre un champ
+                qui se cale sur la grosse ligne la plus proche, pour annoter pendant qu'on parle. À la fin
+                de l'heure, la séance s'imprime ou part en PDF, pour le cahier de textes ou pour l'élève
+                qui ne peut pas écrire.</p>
+            <p>Deux fonctions viennent de l'IA, et elles tournent entièrement sur l'ordinateur. On
+                photographie le tableau avec son téléphone, la photo arrive dans le cahier par le réseau
+                local, et un modèle installé sur le PC la transcrit en syntaxe Seyès. Et on peut dicter :
+                « titre les équations, trois x plus deux égale onze » s'écrit sur le lignage. Dans les deux
+                cas, rien n'est inséré sans que je l'aie relu.</p>
+        </div>
+
+        <div class="step-content" style="margin-top: 1.5rem; border-left: 4px solid #16a34a;">
+            <h2 class="step-title" style="margin-top:0;">Rien ne sort de l'ordinateur</h2>
+            <p>C'est le principe qui a décidé de toute l'architecture, pas une case cochée à la fin. Le
+                serveur refuse toute adresse autre que celle de la machine. Les polices sont dans le
+                dossier de l'application, et non chargées depuis Google : ouvrir le cahier n'envoie même
+                pas l'adresse IP du PC à un tiers. L'IA et la dictée sont des modèles installés en local,
+                lancés à la demande et arrêtés après usage. Seul le téléphone muni du code affiché à
+                l'écran peut déposer une photo, et ces photos ne sont gardées qu'en mémoire.</p>
+            <p>Autrement dit : l'application fonctionne dans une salle sans Internet, et c'est voulu.</p>
+        </div>
+
+        <div class="step-content" style="margin-top: 1.5rem; border-left: 4px solid var(--text-secondary);">
+            <h2 class="step-title" style="margin-top:0;">Pourquoi vous ne pouvez pas encore la télécharger</h2>
+            <p>Parce qu'elle n'est pas prête à être installée par quelqu'un d'autre que moi, et que le
+                dire franchement vaut mieux que de distribuer un outil qui perdra le travail d'un
+                collègue un mardi matin.</p>
+            <p>Un audit complet a été mené en septembre. Il avait trouvé deux défauts capables de faire
+                disparaître une séance, dont celui-ci, savoureux : renommer un chapitre « Fractions » en
+                « fractions » suffisait à l'effacer, parce que Windows considère que c'est le même fichier
+                et que le programme, lui, ne le pensait pas. Ces défauts sont corrigés, il y a maintenant
+                une corbeille et des sauvegardes. Mais il reste du travail : les polices manquent encore
+                dans la fenêtre de projection, et l'application se lance par un script plutôt que par un
+                double-clic sur un vrai exécutable.</p>
+            <p>Mes critères pour la considérer diffusable sont simples : plusieurs semaines d'usage en
+                classe sans rien perdre, un collègue capable de s'en servir avec la seule notice, et une
+                documentation honnête sur ce qui marche et ce qui ne marche pas. Le premier est en cours,
+                elle sert tous les jours dans cinq classes depuis la rentrée.</p>
+            <p><strong>Si vous enseignez les mathématiques en collège et que vous avez envie de l'essayer
+                    avant tout le monde, écrivez-moi.</strong> Je cherche deux ou trois collègues testeurs.
+                C'est la dernière marche avant une publication en bêta, probablement sur La Forge des
+                communs numériques éducatifs, là où vit déjà Éducajou.</p>
+            <p style="margin-top: 1.25rem;">
+                <a href="a-propos.html" class="btn btn-primary"><i data-lucide="mail"></i> Me contacter</a>
+            </p>
+        </div>
+
+        <div class="step-content" style="margin-top: 1.5rem;">
+            <h3 style="margin-top:0;">Ce que ce projet raconte sur le vibe coding</h3>
+            <p>Celui-ci n'est pas né en une soirée. C'est l'inverse de l'atelier des chromosomes : un outil
+                que j'utilise chaque jour, donc un outil dont chaque défaut me revient en pleine figure à
+                la quatrième heure du mardi. Le vibe coding permet de le construire sans être développeur,
+                mais il ne dispense pas de le faire auditer, de corriger les pertes de données et
+                d'attendre d'en être sûr avant de le mettre entre les mains d'un collègue.</p>
+            <p>La différence entre un prototype et un outil, ce n'est pas la quantité de fonctions. C'est
+                le moment où quelqu'un d'autre que vous peut perdre son travail avec.</p>
+        </div>
+
+    </div>
+
+<!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">📚</span>
+                        <span class="logo-text">Enseigner avec l'IA</span>
+                    </a>
+                    <p class="footer-description">
+                        Site compagnon du livre "Les outils pour enseigner avec l'IA"
+                        de Fabien Boyer, publié aux Éditions Ellipses.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="debuter.html">Débuter</a></li>
+                        <li><a href="disciplines.html">Disciplines</a></li>
+                        <li><a href="conversations.html">Conversations</a></li>
+                        <li><a href="outils.html">Outils</a></li>
+                        <li><a href="ethique.html">Ressources</a></li>
+                        <li><a href="lexique.html">Lexique</a></li>
+                        <li><a href="formation.html">Formation</a></li>
+                        <li><a href="veille.html">🆕 Veille IA — mise à jour régulière</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Informations</h4>
+                    <ul>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="https://www.editions-ellipses.fr/" target="_blank" rel="noopener">Éditions
+                                Ellipses</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/groups/936637865581675/" target="_blank" rel="noopener">
+                            <i data-lucide="users"></i> Le coin IA des profs de maths</a></li>
+                        <li><a href="https://x.com/Dw4rFNaheulbeuK" target="_blank" rel="noopener">
+                            <i data-lucide="twitter"></i> Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fabien Boyer - Éditions Ellipses. Tous droits réservés.</p>
+                <div style="margin-top: 10px; opacity: 0.8;">
+                    <script data-goatcounter="https://outils-ia-education.goatcounter.com/count" async
+                        src="//gc.zgo.at/count.js"></script>
+                    <noscript>
+                        <img src="https://outils-ia-education.goatcounter.com/count?p=/index.html">
+                    </noscript>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
