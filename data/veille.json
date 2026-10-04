@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-09-12T11:37:50.831Z",
+  "last_update": "2026-10-04T10:00:00.000Z",
   "sources": [
     "@outilstice",
     "@pbeyssac",
@@ -15,9 +15,57 @@
     "@Alex_Tsico",
     "@cpierquet",
     "@CyniqueDeGauche",
-    "@BrendanNyhan"
+    "@BrendanNyhan",
+    "Éduscol",
+    "Google",
+    "Université de Montpellier"
   ],
   "articles": [
+    {
+      "title": "La matérialité de l’IA : comprendre les dépendances stratégiques",
+      "link": "https://eduscol.education.gouv.fr/6684/veille-education-numerique-2026-2027",
+      "date": "2026-10-04T10:00:00.000Z",
+      "source": "Éduscol",
+      "summary": "La veille d’octobre présente les dépendances matérielles et géopolitiques qui conditionnent les modèles d’IA : une entrée utile pour traiter infrastructure, énergie et souveraineté numérique.",
+      "categorie": "Institutionnel",
+      "niveau": "transversal"
+    },
+    {
+      "title": "Évaluations, IA et compétences",
+      "link": "https://numerique.umontpellier.fr/agenda/atelier-expert-evaluations-ia-et-competences/",
+      "date": "2026-10-04T10:00:00.000Z",
+      "source": "Université de Montpellier",
+      "summary": "Atelier en ligne du 20 octobre sur la conception de situations d’évaluation adaptées et robustes face aux IA génératives.",
+      "categorie": "Pratique pédagogique",
+      "niveau": "supérieur"
+    },
+    {
+      "title": "IA et élèves DYS : un guide pratique pour adapter vos supports sans y passer la soirée",
+      "link": "https://outilstice.com/adapter-supports-eleves-dys-ia/",
+      "date": "2026-10-01T08:00:00.000Z",
+      "source": "Outils Tice",
+      "summary": "Des pistes pour simplifier, aérer, mettre en voix et adapter des supports avec l’IA, tout en protégeant les données des élèves.",
+      "categorie": "Pratique pédagogique",
+      "niveau": "transversal"
+    },
+    {
+      "title": "PuzzleGenio : créer des mots croisés et jeux pédagogiques en quelques clics",
+      "link": "https://puzzlegenio.com/fr/",
+      "date": "2026-09-30T10:00:00.000Z",
+      "source": "PuzzleGenio",
+      "summary": "Un générateur de mots croisés, mots mêlés, sudokus et jeux à partager ou imprimer ; les contenus générés doivent être relus avant usage en classe.",
+      "categorie": "Outil",
+      "niveau": "transversal"
+    },
+    {
+      "title": "Gemini Notebook : nouveaux outils pour étudier à partir de ses sources",
+      "link": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/",
+      "date": "2026-09-15T10:00:00.000Z",
+      "source": "Google",
+      "summary": "Nouveaux outils d’apprentissage : conversations ancrées dans les sources, quiz, cartes mémoire et courtes vidéos explicatives. À utiliser avec un corpus défini et vérifié par l’enseignant.",
+      "categorie": "Outil",
+      "niveau": "transversal"
+    },
     {
       "title": "Abonnement gratuit à la lettre des outils Tice",
       "link": "https://x.com/outilstice/status/2097961961522684020",
