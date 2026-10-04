@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "key": "https://mathix.org/linux/archives/22868",
+      "link": "https://mathix.org/linux/archives/22868",
+      "date": "2026-10-04T06:59:31",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Travailler sur les stéréotypes genrés. Bonjour à toutes et tous! Voici un petit site qui reprend une activité sur les portraits anonymes pour travailler sur les représentations des stéréotypes genrés. Alors ces portraits sont réels, et permettent de déconstruire les chois d’orientations ou qualités supposées inhérentes au genre. On avait déjà testé avec nos classes et cela permet vraiment de […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://openai.com/index/chatham-financial",
       "link": "https://openai.com/index/chatham-financial",
       "date": "2026-10-02T00:00:00",
@@ -1093,5 +1105,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-03T12:51:43"
+  "last_update": "2026-10-04T13:33:36"
 }
