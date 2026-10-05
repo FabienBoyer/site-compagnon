@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/recastia",
+      "link": "https://www.uneiaparjour.fr/recastia/",
+      "date": "2026-10-04T19:58:43",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Recastia. Recastia (https://recastia.com/) transforme un PDF en vidéo, présentation interactive, flipbook, page web, podcast vidéo, chatbot ou exposition 3D. Pour la vidéo : script généré par IA, voix off, sous-titres synchronisés, musique, effets et avatar présentateur optionnel.La présentation interactive commente le document page par page avec narration et avatar optionnel.Le flipbook conserve la mise…",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://www.uneiaparjour.fr/adorables-mais-a-quelles-conditions",
+      "link": "https://www.uneiaparjour.fr/adorables-mais-a-quelles-conditions/",
+      "date": "2026-10-03T20:03:35",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Adorables, mais à quelles conditions ?. Focus de la lettre 48 Dans les lectures de la semaine, on croise deux agents IA : Dots chez OpenAI, Muse chez Meta. Ils peuvent rester actifs même lorsque l’application est fermée. Il est possible de les connecter à nos courriels, à nos agendas et à nos comptes. D’autres applications proposent déjà ces fonctionnalités, mais […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/eu-text-provenance",
+      "link": "https://openai.com/index/eu-text-provenance",
+      "date": "2026-10-05T15:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Our approach to EU text provenance rules. How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "link": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "date": "2026-10-05T10:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Building advertising for the way people use AI. OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://mathix.org/linux/archives/22868",
       "link": "https://mathix.org/linux/archives/22868",
       "date": "2026-10-04T06:59:31",
@@ -1105,5 +1153,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-04T13:33:36"
+  "last_update": "2026-10-05T16:36:25"
 }
