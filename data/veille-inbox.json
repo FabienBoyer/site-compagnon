@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/soundboost-text-to-audio",
+      "link": "https://www.uneiaparjour.fr/soundboost-text-to-audio/",
+      "date": "2026-10-06T19:48:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "SoundBoost Text to Audio. SoundBoost Text to Audio (https://mastering.soundboost.ai/text-to-audio) génère des extraits audio de 1 à 30 secondes depuis une instruction : effets sonores, textures, ambiances et samples musicaux. Les générations récentes des utilisateurs sont affichées dans une liste publique, avec écoute et téléchargement.Les générations sont annoncés libres de droits, y compris pour un usage commercial.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "link": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "date": "2026-10-06T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Sharing AI progress in mathematics. OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "date": "2026-10-06T10:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Advancing computer use with Ironclad. Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/atlassian-partnership",
+      "link": "https://openai.com/index/atlassian-partnership",
+      "date": "2026-10-06T16:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action. Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/recastia",
       "link": "https://www.uneiaparjour.fr/recastia/",
       "date": "2026-10-04T19:58:43",
@@ -1153,5 +1201,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-05T16:36:25"
+  "last_update": "2026-10-07T14:54:52"
 }
