@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/send-with-sam",
+      "link": "https://www.uneiaparjour.fr/send-with-sam/",
+      "date": "2026-10-07T21:24:38",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Send with Sam. Send with Sam (https://www.sendwithsam.com/) transforme une conversation vocale en lettre personnelle, qui peut-être imprimée ou envoyée par la poste. On indique à « Sam », assistant vocal à la voix féminine, le destinataire et ce que l’on veut dire en parlant librement.« Sam » rédige la lettre à partir de la conversation. Texte généré modifiable (double-clic ou touche Entrée). […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/teens-learn-and-plan",
+      "link": "https://openai.com/index/teens-learn-and-plan",
+      "date": "2026-10-07T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Helping teens learn, plan, and shape the future of AI. College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/radisson",
+      "link": "https://openai.com/index/radisson",
+      "date": "2026-10-07T07:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Radisson Hotel Group brings hotel discovery into ChatGPT. Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/gpt-6-for-everyone",
+      "link": "https://openai.com/index/gpt-6-for-everyone",
+      "date": "2026-10-07T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "GPT-6 and Intelligent UI for everyone. GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/soundboost-text-to-audio",
       "link": "https://www.uneiaparjour.fr/soundboost-text-to-audio/",
       "date": "2026-10-06T19:48:00",
@@ -1201,5 +1249,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-07T14:54:52"
+  "last_update": "2026-10-08T15:03:32"
 }
