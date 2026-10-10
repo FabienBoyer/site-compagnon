@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/z-ai-slides",
+      "link": "https://www.uneiaparjour.fr/z-ai-slides/",
+      "date": "2026-10-08T20:41:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Z.ai Slides. Z.ai Slides (« PPT agent » dans https://chat.z.ai) génère des présentations depuis une instruction en langage naturel. Accessible dans le chatbot Z.ai, l’agent (en bêta) recherche des informations, propose un plan, la mise en page et la génération finale. Un document peut être importé comme source. Export PDF et PPTX, édition possible par nouvelle instruction Fonctionne sur […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/asana-browser-agent",
+      "link": "https://openai.com/index/asana-browser-agent",
+      "date": "2026-10-09T07:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol. Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://openai.com/index/sophos",
       "link": "https://openai.com/index/sophos",
       "date": "2026-10-09T07:00:00",
@@ -1309,5 +1333,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-09T14:47:04"
+  "last_update": "2026-10-10T14:05:37"
 }
