@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/halomate",
+      "link": "https://www.uneiaparjour.fr/halomate/",
+      "date": "2026-10-10T19:55:40",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "HaloMate. HaloMate (https://halomate.ai/) réunit plusieurs modèles d’IA dans un même chatbot. Accès à GPT, Claude, Gemini, DeepSeek, Kimi et Grok depuis la même interface.Possibilité de créer des “Mates”, des agents qui gardent leur propre mémoire. Exports pdf, txt, word, html… Version web et disponible sur l’App Store, la version Google Play est annoncée “bientôt”. 1 000 […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/22919",
+      "link": "https://mathix.org/linux/archives/22919",
+      "date": "2026-10-11T10:08:12",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Quand préparer un oral en mathématiques rime avec questiologie. Bonjour à toutes et tous! Cette année comme depuis 3 ans, on fait travailler les élèves sur l’oral en mathématiques. Les premiers oraux sont passés, on a pu parler d’IA,oui car de petits malins de 4e on fait des exercices avec l’IA pour préparer l’oral… l’oral était …. disons…. un peu malaisant, l’élève ne savait […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/z-ai-slides",
       "link": "https://www.uneiaparjour.fr/z-ai-slides/",
       "date": "2026-10-08T20:41:00",
@@ -1333,5 +1357,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-10T14:05:37"
+  "last_update": "2026-10-11T14:29:21"
 }
