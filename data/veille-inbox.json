@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/veridive",
+      "link": "https://www.uneiaparjour.fr/veridive/",
+      "date": "2026-10-11T20:48:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Veridive. Veridive (https://veridive.com/) répond à une question en cherchant en direct dans des vidéos YouTube avec citation de passages. Veridive lit les sous-titres des vidéos trouvées et renvoie une réponse citée, avec un lien qui lance la vidéo au moment où l’information est dite. DeepContext permet de dialoguer avec sa propre bibliothèque : vidéos, chaînes, playlists […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/halomate",
       "link": "https://www.uneiaparjour.fr/halomate/",
       "date": "2026-10-10T19:55:40",
@@ -1357,5 +1369,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-11T14:29:21"
+  "last_update": "2026-10-12T17:07:57"
 }
