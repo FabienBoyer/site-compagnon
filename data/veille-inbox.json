@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "key": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "link": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "date": "2026-10-13T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Higgsfield takes AI video from 1 minute to over 10. Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "date": "2026-10-13T16:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Gemini 4 Argon: Built to solve your hardest problems. TBD",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/morso",
       "link": "https://www.uneiaparjour.fr/morso/",
       "date": "2026-10-12T20:06:05",
@@ -1381,5 +1405,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-13T15:24:21"
+  "last_update": "2026-10-14T13:10:18"
 }
