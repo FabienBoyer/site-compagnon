@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://openai.com/index/amp-beyond-coding",
+      "link": "https://openai.com/index/amp-beyond-coding",
+      "date": "2026-10-14T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Amp puts AI agents to work beyond code with OpenAI models. See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/sentinelone",
+      "link": "https://openai.com/index/sentinelone",
+      "date": "2026-10-14T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "SentinelOne cuts malware analysis from weeks to hours. With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/third-moment-research",
+      "link": "https://openai.com/index/third-moment-research",
+      "date": "2026-10-14T07:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How Third Moment Research runs 10,000 agents for 36+ hours. With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/block-ai-powered-security",
+      "link": "https://openai.com/index/block-ai-powered-security",
+      "date": "2026-10-14T07:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How Block is building AI-powered security with OpenAI technology. Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://openai.com/index/higgsfield-longer-videos-voice",
       "link": "https://openai.com/index/higgsfield-longer-videos-voice",
       "date": "2026-10-13T12:00:00",
@@ -1405,5 +1453,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-14T13:10:18"
+  "last_update": "2026-10-15T12:57:00"
 }
