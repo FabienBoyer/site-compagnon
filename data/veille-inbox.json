@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://mathix.org/linux/archives/22930",
+      "link": "https://mathix.org/linux/archives/22930",
+      "date": "2026-10-16T05:58:21",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Exerciseur pour les opérations posées, et number-stick.. Bonjour à toutes et tous! Cette année me voilà avec des 6eme, et j’ai été confronté à de vraies difficultés pour poser des additions, soustractions, multiplication et division. La division, j’étais habitué, la multiplication à la marge, mais cette année, les élèves sont très nombreux. Il a fallu donc générer des feuilles pour que les […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "date": "2026-10-15T19:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Bringing GPT-Rosalind to academic research labs. Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "date": "2026-10-15T13:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Teaching students to think and learn through questions. Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/sullivan-cromwell",
+      "link": "https://openai.com/index/sullivan-cromwell",
+      "date": "2026-10-15T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Sullivan & Cromwell brings legal expertise into agreement review. In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://openai.com/index/amp-beyond-coding",
       "link": "https://openai.com/index/amp-beyond-coding",
       "date": "2026-10-14T12:00:00",
@@ -1453,5 +1501,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-15T12:57:00"
+  "last_update": "2026-10-16T12:50:42"
 }
