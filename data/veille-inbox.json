@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/openlingo",
+      "link": "https://www.uneiaparjour.fr/openlingo/",
+      "date": "2026-10-16T21:10:20",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "OpenLingo. OpenLingo (https://openlingo.dev et documentation : https://github.com/pretzelai/openlingo) propose d’apprendre une langue avec un tuteur IA, des exercices, des cartes de révision et des articles de presse adaptés au niveau annoncé. L’application s’organise en cinq rubriques : Chat, Units (cours), Read (lecture), Words (vocabulaire) et Settings (réglages).",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://www.uneiaparjour.fr/search-revolution-crossroads",
+      "link": "https://www.uneiaparjour.fr/search-revolution-crossroads/",
+      "date": "2026-10-15T19:59:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Search Revolution Crossroads. Search Revolution Crossroads (https://www.si.edu/revolution-crossroads/search — documentation : https://huggingface.co/RevolutionCrossroads) explore des archives de la Révolution américaine (1770-1810) issues de plusieurs institutions, par recherche par mots-clés et découverte assistée par IA.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/itau-generative-ai",
+      "link": "https://openai.com/index/itau-generative-ai",
+      "date": "2026-10-16T19:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How Itaú is building generative AI for its entire customer base. With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "date": "2026-10-16T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Stack Overflow for Agents triples signups with ChatGPT plugin. Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://mathix.org/linux/archives/22930",
       "link": "https://mathix.org/linux/archives/22930",
       "date": "2026-10-16T05:58:21",
@@ -1501,5 +1549,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-16T12:50:42"
+  "last_update": "2026-10-17T11:50:42"
 }
