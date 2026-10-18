@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/council-ai",
+      "link": "https://www.uneiaparjour.fr/council-ai/",
+      "date": "2026-10-17T21:14:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Council AI. Council AI (https://councilai.app/) interroge plusieurs modèles de langage en même temps à partir d’une instruction et met en évidence leurs points d’accord et de désaccord. La question peut être envoyée simultanément à cinq modèles : ChatGPT, Gemini, Claude, Sonar (Perplexity) et Grok ou à un avatar de personnes connues. Une synthèse affiche un pourcentage d’accord […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://www.uneiaparjour.fr/quelle-vision-du-monde-dans-la-machine",
+      "link": "https://www.uneiaparjour.fr/quelle-vision-du-monde-dans-la-machine/",
+      "date": "2026-10-10T20:54:52",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Quelle vision du monde dans la machine ?. Focus de la lettre 49 On a déjà parlé ici de la (non-)neutralité des modèles : chacun porte et relaie des choix et des valeurs, des visions et des biais propres. Cette semaine, plusieurs lectures le montrent chacune à leur manière. Anthropic va interdire dans sa politique d’usage la violence gratuite envers ses modèles. Cela […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/openlingo",
       "link": "https://www.uneiaparjour.fr/openlingo/",
       "date": "2026-10-16T21:10:20",
@@ -1549,5 +1573,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-17T11:50:42"
+  "last_update": "2026-10-18T12:16:40"
 }
