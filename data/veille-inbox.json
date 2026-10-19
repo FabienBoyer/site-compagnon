@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/mirelo",
+      "link": "https://www.uneiaparjour.fr/mirelo/",
+      "date": "2026-10-18T21:03:15",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Mirelo. Mirelo (https://mirelo.ai/) génère des effets sonores et des ambiances à partir d’une vidéo importée. La vidéo est analysée, le modèle « Mirelo » produit bruitages et ambiances calés sur les actions de la vidéo.Dialogues conservés.Rendu sur un banc de montage avec une piste par son. Français pris en charge. Export mp4, pistes audio ou fichiers Premiere pro […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/council-ai",
       "link": "https://www.uneiaparjour.fr/council-ai/",
       "date": "2026-10-17T21:14:00",
@@ -1573,5 +1585,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-18T12:16:40"
+  "last_update": "2026-10-19T15:07:51"
 }
