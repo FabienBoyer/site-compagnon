@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/tomo",
+      "link": "https://www.uneiaparjour.fr/tomo/",
+      "date": "2026-10-19T19:22:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Tomo. Tomo (https://heytomo.app/) transforme un sujet en cours personnalisé et ludique à partir de quiz. Cours structuré en sections, niveaux et quiz, avec retour immédiat sur la réponse donnée. Français pris en charge. L’application ajoute des XP, des séries de jours consécutifs et cinq styles pédagogiques au choix (« Professor », « Pirate »…).Une bibliothèque de […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/low-resource-programming-languages",
+      "link": "https://openai.com/index/low-resource-programming-languages",
+      "date": "2026-10-19T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Advancing coding in low‑resource programming languages. Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/mirelo",
       "link": "https://www.uneiaparjour.fr/mirelo/",
       "date": "2026-10-18T21:03:15",
@@ -1585,5 +1609,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-19T15:07:51"
+  "last_update": "2026-10-20T13:08:09"
 }
