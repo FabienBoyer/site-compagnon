@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "key": "https://openai.com/index/openai-models-google-cloud",
+      "link": "https://openai.com/index/openai-models-google-cloud",
+      "date": "2026-10-21T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "OpenAI models are coming to Google Cloud. OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/ted-taylor-restaurant",
+      "link": "https://openai.com/index/ted-taylor-restaurant",
+      "date": "2026-10-20T10:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Franchisee reconciles cash in 94% less time with ChatGPT Work. An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/terminal-x",
+      "link": "https://openai.com/index/terminal-x",
+      "date": "2026-10-20T07:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Terminal X matches senior investor judgment 88.6% with GPT-6.1. Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "link": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "date": "2026-10-20T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "OpenAI acquires Orchestra Bio. OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026",
+      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "date": "2026-10-21T04:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Southeast Asia’s digital economy to hit $368 billion. Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing digital sectors, including data cen",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/tomo",
       "link": "https://www.uneiaparjour.fr/tomo/",
       "date": "2026-10-19T19:22:00",
@@ -1609,5 +1669,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-20T13:08:09"
+  "last_update": "2026-10-21T13:18:44"
 }
