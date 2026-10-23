@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/huffl",
+      "link": "https://www.uneiaparjour.fr/huffl/",
+      "date": "2026-10-22T20:33:10",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Huffl. Huffl (https://huffl.ai/) est un éditeur de pages, un tableau blanc et un générateur de présentations, avec un chatbot avec recherche internet. Sur la même interface : Page (blocs, tableaux, tableurs, LaTeX, graphiques), Whiteboard (post-it, formes, cartes mentales) et Presentation.Le chatbot agit sur l’espace de travail actif. Génération texte et image, plusieurs styles d’écriture.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "date": "2026-10-23T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "OpenAI and Poland’s NASK partner to advance AI safety and security. OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/forward-deployed-engineering-means",
+      "link": "https://openai.com/index/forward-deployed-engineering-means",
+      "date": "2026-10-22T06:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "What FDE means at OpenAI. What forward deployed engineering means at OpenAI",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "link": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "date": "2026-10-22T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Uber brings ChatGPT Work to all employees with OpenAI. Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://openai.com/index/att-legal",
       "link": "https://openai.com/index/att-legal",
       "date": "2026-10-21T17:00:00",
@@ -1753,5 +1801,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-22T13:18:05"
+  "last_update": "2026-10-23T12:57:10"
 }
