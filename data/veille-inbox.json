@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/teachoo",
+      "link": "https://www.uneiaparjour.fr/teachoo/",
+      "date": "2026-10-23T21:55:54",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Teachoo. Teachoo (https://teachoo.ai/) accompagne la compréhension de sujets donnés en posant des questions ou en en rédigeant une explication. Le mode guidé pose des questions pour aider à la compréhension pas à pas avec des indices en cas de blocage. Images et graphiques proposés dans les réponses. Création de flashcards (sans IA) possiblesée. L’option « Explain […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://www.uneiaparjour.fr/chickytutor",
+      "link": "https://www.uneiaparjour.fr/chickytutor/",
+      "date": "2026-10-21T20:22:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "ChickyTutor. ChickyTutor (https://www.chickytutor.com/) permet la pratique d’une langue avec un tuteur IA vocal, avec corrections et retour sur la prononciation. Choix de la langue cible et de la langue d’instruction parmi 70 langues. Trois niveaux. Trois modes : Guidé (explications dans la langue d’instruction), Conversation (seulement dans la langue cible) ou Parcours (chapitres avec génération de […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "date": "2026-10-23T17:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II). Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "date": "2026-10-23T10:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Securing our frontier model training environment. OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/huffl",
       "link": "https://www.uneiaparjour.fr/huffl/",
       "date": "2026-10-22T20:33:10",
@@ -1801,5 +1849,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-23T12:57:10"
+  "last_update": "2026-10-24T12:20:32"
 }
