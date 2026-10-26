@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/wondering-3",
+      "link": "https://www.uneiaparjour.fr/wondering-3/",
+      "date": "2026-10-25T20:40:10",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Wondering. Wondering (https://wondering.app/) génère un cours à partir d’une instruction avec leçons, visuels, audio et vidéo. Sujet libre, ajout possible de documents. Chaque leçon peut être regardée (vidéo commentée), écoutée (format podcast) ou lue (avec schémas).Un tuteur IA, via chatbot ou sessions vocales en direct, permet de poser des questions de suivi ou de demander une […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://www.uneiaparjour.fr/sans-friction-y-a-t-il-encore-apprentissage",
+      "link": "https://www.uneiaparjour.fr/sans-friction-y-a-t-il-encore-apprentissage/",
+      "date": "2026-10-24T17:03:30",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Sans friction, y a-t-il encore apprentissage ?. Focus de la lettre 51 Cette semaine, trois applications testées abordent l’apprentissage chacune à leur façon. ChickyTutor nous fait parler une langue, puis son avatar signale nos erreurs et nous invite à reformuler. En mode guidé, Teachoo ne donne pas la réponse : il pose des questions et distribue des indices quand on bloque. Avec […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "link": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "date": "2026-10-26T07:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How Fanatics and OpenAI streamline the fan experience. Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/teachoo",
       "link": "https://www.uneiaparjour.fr/teachoo/",
       "date": "2026-10-23T21:55:54",
@@ -1849,5 +1885,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-24T12:20:32"
+  "last_update": "2026-10-26T14:40:21"
 }
