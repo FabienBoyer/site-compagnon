@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "key": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "date": "2026-10-28T13:15:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "OpenAI and ServiceNow expand partnership across enterprise workflows. OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/the-future-of-the-firm",
+      "link": "https://openai.com/index/the-future-of-the-firm",
+      "date": "2026-10-28T10:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "The future of the firm. How AI might enter the org chart—beneath, beside, and between us.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/legora",
+      "link": "https://openai.com/index/legora",
+      "date": "2026-10-28T09:30:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Legora is building the agentic operating system for legal work. See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/surgepix",
       "link": "https://www.uneiaparjour.fr/surgepix/",
       "date": "2026-10-27T21:35:00",
@@ -2005,5 +2041,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-28T14:41:06"
+  "last_update": "2026-10-29T14:46:03"
 }
