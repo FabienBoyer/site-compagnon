@@ -1,6 +1,78 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/mypip",
+      "link": "https://www.uneiaparjour.fr/mypip/",
+      "date": "2026-10-29T22:04:35",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "myPip. myPip (https://mypip.dev/) génère des jeux vidéo jouables depuis une instruction en langage naturel, sans coder. Le jeu créé est jouable immédiatement dans le navigateur et sur téléphone. Édition possible via le chatbot. Catalogue de jeux qui peuvent être joués et remixés. Publication sur « mypipplay ». Publication sur les stores annoncée. Modèle GPT 6 Astra utilisé. En […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/22984",
+      "link": "https://mathix.org/linux/archives/22984",
+      "date": "2026-10-30T11:10:57",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "CompagnonPP passe en 3.0.1 pour se mettre à l’heure des stages. Bon, CompagnonPP continue d’évoluer ! Après la grosse refonte de la version 3.0, voici une petite nouveauté qui devrait intéresser les professeurs principaux de 3e et de 2de : un onglet « Stage » ! Julien Delmas m’avait suggéré l’idée cet été…. Un constat simple : les conventions, les entreprises, les tuteurs, les dates et […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/22978",
+      "link": "https://mathix.org/linux/archives/22978",
+      "date": "2026-10-30T09:49:59",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Mise à jour de Macamdoc : vidéo et forge. Bonjour à toutes et tous! Alors voici une grosse nouveauté, la vidéo, et une vidéo normalement fluide ! Maintenant c’est une connexion P2P entre le smartphone et l’ordinateur.C’est plus fluide et cela permet effectivement d’avoir une vidéo possible entre le smartphone et le vidéo projecteur. Donc là on peut filmer un élève qui présente son […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/updated-model-spec",
+      "link": "https://openai.com/index/updated-model-spec",
+      "date": "2026-10-29T17:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "An updated Model Spec for more capable and beneficial AI. OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "date": "2026-10-29T09:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How we detect frontier model misalignment. OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/ropes-gray-ai-diligence",
+      "link": "https://openai.com/index/ropes-gray-ai-diligence",
+      "date": "2026-10-29T07:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How Ropes & Gray is developing AI for transactional diligence. Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://openai.com/index/openai-servicenow-partnership-expansion",
       "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
       "date": "2026-10-28T13:15:00",
@@ -2041,5 +2113,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-29T14:46:03"
+  "last_update": "2026-10-30T14:41:18"
 }
