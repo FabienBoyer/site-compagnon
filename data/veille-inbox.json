@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/wondering",
+      "link": "https://www.uneiaparjour.fr/wondering/",
+      "date": "2026-10-25T20:40:10",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Wondering. Wondering (https://wondering.app/) génère un cours à partir d’une instruction avec leçons, visuels, audio et vidéo. Sujet libre, ajout possible de documents. Chaque leçon peut être regardée (vidéo commentée), écoutée (format podcast) ou lue (avec schémas).Un tuteur IA, via chatbot ou sessions vocales en direct, permet de poser des questions de suivi ou de demander une […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "date": "2026-10-30T09:30:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Making it easier for websites to express AI training preferences. OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "date": "2026-10-30T09:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Community safety report and new protections for teens. OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/fair-use-benefits-everyone",
+      "link": "https://openai.com/index/fair-use-benefits-everyone",
+      "date": "2026-10-30T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Fair use benefits everyone. OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/credit-saison",
+      "link": "https://openai.com/index/credit-saison",
+      "date": "2026-10-29T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot. Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/mypip",
       "link": "https://www.uneiaparjour.fr/mypip/",
       "date": "2026-10-29T22:04:35",
@@ -2113,5 +2173,5 @@
       "resume": ""
     }
   ],
-  "last_update": "2026-10-30T14:41:18"
+  "last_update": "2026-10-31T14:01:17"
 }
