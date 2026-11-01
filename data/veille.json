@@ -1,6 +1,24 @@
 {
-  "last_update": "2026-10-04T10:00:00.000Z",
+  "last_update": "2026-11-01T09:28:39",
   "sources": [
+    "@Col_Gate_ML",
+    "@AYi_AInotes",
+    "@ValerioCapraro",
+    "@unusual_whales",
+    "@abakcus",
+    "@CyniqueDeGauche",
+    "@TirotG",
+    "@sophiaefrance",
+    "@alexandreb68313",
+    "Une IA par jour",
+    "Mathix (A. Durand)",
+    "Éduscol",
+    "Université de Montpellier",
+    "Google AI",
+    "OpenAI Blog",
+    "Outils Tice",
+    "PuzzleGenio",
+    "Google",
     "@outilstice",
     "@pbeyssac",
     "@nsi_xyz",
@@ -10,17 +28,128 @@
     "@matthieu_lahaye",
     "@triztan_xx",
     "@Mileistesfr",
-    "@TirotG",
-    "@sophiaefrance",
     "@Alex_Tsico",
     "@cpierquet",
-    "@CyniqueDeGauche",
-    "@BrendanNyhan",
-    "Éduscol",
-    "Google",
-    "Université de Montpellier"
+    "@BrendanNyhan"
   ],
   "articles": [
+    {
+      "title": "Test de fiabilité des IA pour calculatrices Python",
+      "link": "https://x.com/Col_Gate_ML/status/2116214558142431331",
+      "date": "2026-10-30T17:04:02.000Z",
+      "source": "@Col_Gate_ML",
+      "summary": "Un utilisateur a demandé à ChatGPT de créer une calculatrice simple en Python avec interface graphique. L'IA a affirmé avoir généré le code mais n'a pas fourni la preuve que le programme fonctionne correctement.",
+      "categorie": "Outil",
+      "niveau": "transversal"
+    },
+    {
+      "title": "Google rendra les manuels universitaires gratuits",
+      "link": "https://x.com/AYi_AInotes/status/2115982693808881696",
+      "date": "2026-10-30T01:42:41.000Z",
+      "source": "@AYi_AInotes",
+      "summary": "Google annonce l'intégration directe et gratuite de centaines de manuels universitaires officiels. Cette initiative pourrait impacter l'édition éducative et les cours de préparation aux concours.",
+      "categorie": "Outil",
+      "niveau": "transversal"
+    },
+    {
+      "title": "Divergence Chine entre devoirs et examens",
+      "link": "https://x.com/ValerioCapraro/status/2115876791927681319",
+      "date": "2026-10-29T18:41:52.000Z",
+      "source": "@ValerioCapraro",
+      "summary": "Un document de travail chinois analysant 26 811 élèves montre une augmentation de 18 % des notes de devoirs. Parallèlement, les résultats aux examens à livre fermé ont diminué de 20 %.",
+      "categorie": "Modèle & technique",
+      "niveau": "transversal"
+    },
+    {
+      "title": "Employeurs mondiaux abandonnent l'IA face aux erreurs et risques",
+      "link": "https://x.com/unusual_whales/status/2115779934136545373",
+      "date": "2026-10-29T12:17:00.000Z",
+      "source": "@unusual_whales",
+      "summary": "Selon le Guardian, les employeurs du monde entier se retirent de l'intelligence artificielle en raison d'une vague d'erreurs et de travail de faible qualité. Cette situation épuise le temps des employés, augmente les risques pour la vie privée et la sécurité, et fait grimper les coûts.",
+      "categorie": "Institutionnel",
+      "niveau": "transversal"
+    },
+    {
+      "title": "Vingt-cinq documentaires mathématiques pour étudiants",
+      "link": "https://x.com/abakcus/status/2115646435710456291",
+      "date": "2026-10-29T03:26:31.000Z",
+      "source": "@abakcus",
+      "summary": "Une liste de vingt-cinq documentaires est proposée afin d'aider à faire aimer les mathématiques aux étudiants. Ces ressources visent à enrichir l'offre documentaire sur le sujet.",
+      "categorie": "Outil",
+      "niveau": "lycée"
+    },
+    {
+      "title": "Singapour adapte l'IA au tutorat selon le niveau",
+      "link": "https://x.com/CyniqueDeGauche/status/2115425441712312600",
+      "date": "2026-10-28T12:48:22.000Z",
+      "source": "@CyniqueDeGauche",
+      "summary": "Les élèves de Singapour accèdent à une intelligence artificielle spécialisée pour le tutorat. L'accès à cette technologie varie en fonction du niveau scolaire des élèves.",
+      "categorie": "Outil",
+      "niveau": "transversal"
+    },
+    {
+      "title": "L'IA générative modifie aussi le processus de création",
+      "link": "https://x.com/TirotG/status/2114984978224206051",
+      "date": "2026-10-27T07:38:07.000Z",
+      "source": "@TirotG",
+      "summary": "Le débat actuel sur l'intelligence artificielle se concentre principalement sur les résultats finaux tout en sous-estimant l'évolution du processus créatif. Il est souvent supposé que seule la dernière étape change, alors que ce n'est pas toujours le cas.",
+      "categorie": "Réflexion",
+      "niveau": "transversal"
+    },
+    {
+      "title": "Débat sur l'intelligence artificielle et la place de l'humain à l'école",
+      "link": "https://x.com/TirotG/status/2114754295128056305",
+      "date": "2026-10-26T16:21:28.000Z",
+      "source": "@TirotG",
+      "summary": "Le contenu invite à débattre de l'intelligence artificielle dans toutes les classes possibles tout en expérimentant cette technologie. Il rappelle également qu'il ne faut pas oublier l'importance de l'humain à l'école, même pour faciliter l'apprentissage.",
+      "categorie": "Réflexion",
+      "niveau": "transversal"
+    },
+    {
+      "title": "L'autonomie comme compétence progressive en éducation",
+      "link": "https://x.com/sophiaefrance/status/2113568623033745488",
+      "date": "2026-10-23T09:50:02.000Z",
+      "source": "@sophiaefrance",
+      "summary": "Fabrice Pastor souligne que l'autonomie se construit progressivement à travers des compétences comme l'organisation et la persévérance. Ces capacités s'acquièrent avec le soutien et l'accompagnement actifs des adultes.",
+      "categorie": "Réflexion",
+      "niveau": "transversal"
+    },
+    {
+      "title": "L'étape finale de publication reste souvent oubliée",
+      "link": "https://x.com/alexandreb68313/status/2112799682296418652",
+      "date": "2026-10-21T06:54:32.000Z",
+      "source": "@alexandreb68313",
+      "summary": "De nombreuses personnes maîtrisent la création de code et de contenu grâce à l'intelligence artificielle. Cependant, elles négligent fréquemment l'étape suivante qui consiste à publier ou à saisir ces résultats.",
+      "categorie": "Pratique pédagogique",
+      "niveau": "transversal"
+    },
+    {
+      "title": "L'IA pourrait-elle éroder l'esprit critique des élèves",
+      "link": "https://x.com/TirotG/status/2112276622610973045",
+      "date": "2026-10-19T20:16:05.000Z",
+      "source": "@TirotG",
+      "summary": "Certains enseignants expriment la crainte que l'intelligence artificielle rende leurs élèves moins capables de penser par eux-mêmes. L'article questionne si l'école serait condamnée à voir l'esprit critique de ses élèves s'éroder dès qu'ils utilisent des outils comme ChatGPT.",
+      "categorie": "Réflexion",
+      "niveau": "transversal"
+    },
+    {
+      "title": "Recherche assistée par IA sur les archives de la révolution américaine",
+      "link": "https://www.uneiaparjour.fr/search-revolution-crossroads/",
+      "date": "2026-10-15T19:59:00",
+      "source": "Une IA par jour",
+      "summary": "Le projet Search Revolution Crossroads explore des archives de la Révolution américaine issues de plusieurs institutions. Il permet une recherche par mots-clés et une découverte d'archives assistée par l'intelligence artificielle.",
+      "categorie": "Outil",
+      "niveau": "hors classe"
+    },
+    {
+      "title": "Préparation aux oraux de mathématiques et usage de l'IA",
+      "link": "https://mathix.org/linux/archives/22919",
+      "date": "2026-10-11T10:08:12",
+      "source": "Mathix (A. Durand)",
+      "summary": "Les premiers oraux de mathématiques ont été passés cette année avec une attention particulière portée à la préparation des élèves. Certains élèves de quatrième ont utilisé des outils d'intelligence artificielle pour s'entraîner, ce qui a rendu les épreuves un peu malaisantes car ils ne maîtrisaient pas encore suffisamment le sujet.",
+      "categorie": "Pratique pédagogique",
+      "niveau": "collège"
+    },
     {
       "title": "La matérialité de l’IA : comprendre les dépendances stratégiques",
       "link": "https://eduscol.education.gouv.fr/6684/veille-education-numerique-2026-2027",
@@ -38,6 +167,33 @@
       "summary": "Atelier en ligne du 20 octobre sur la conception de situations d’évaluation adaptées et robustes face aux IA génératives.",
       "categorie": "Pratique pédagogique",
       "niveau": "supérieur"
+    },
+    {
+      "title": "Mise à jour septembre de la plateforme d'intelligence artificielle",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "date": "2026-10-02T15:00:00",
+      "source": "Google AI",
+      "summary": "Une vidéo est publiée pour présenter les dernières actualités de l'intelligence artificielle annoncées en septembre 2026. Cette présentation met en avant les nouveautés introduites durant cette période.",
+      "categorie": "Outil",
+      "niveau": "transversal"
+    },
+    {
+      "title": "Projet d'oral en mathématiques au laboratoire",
+      "link": "https://mathix.org/linux/archives/22847",
+      "date": "2026-10-02T05:20:01",
+      "source": "Mathix (A. Durand)",
+      "summary": "Le laboratoire de mathématiques poursuit son projet annuel dédié à l'oral dans cette discipline. Les équipes ont rencontré des difficultés lors du démarrage et ont dû ajuster leur approche avec les élèves.",
+      "categorie": "Pratique pédagogique",
+      "niveau": "lycée"
+    },
+    {
+      "title": "L'intelligence artificielle avancée pour les tâches routinières",
+      "link": "https://openai.com/index/the-eternal-complement",
+      "date": "2026-10-01T17:00:00",
+      "source": "OpenAI Blog",
+      "summary": "L'article explore le rôle potentiel de l'intelligence artificielle avancée dans la réalisation des travaux quotidiens nécessaires aux idées novatrices. Il examine comment l'exécution pourrait influencer la prochaine économie et le rythme du progrès.",
+      "categorie": "Modèle & technique",
+      "niveau": "transversal"
     },
     {
       "title": "IA et élèves DYS : un guide pratique pour adapter vos supports sans y passer la soirée",
@@ -58,12 +214,84 @@
       "niveau": "transversal"
     },
     {
+      "title": "Trailer du projet The Gifted pour l'éducation des élèves à besoins spécifiques",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "date": "2026-09-28T19:00:00",
+      "source": "Google AI",
+      "summary": "Le projet The Gifted a remporté le prix Future Vision XPRIZE et présente un trailer dédié à son approche éducative. Cette initiative vise à transformer la manière dont les systèmes éducatifs soutiennent les élèves aux profils particuliers.",
+      "categorie": "Réflexion",
+      "niveau": "transversal"
+    },
+    {
+      "title": "OpenAI Academy célèbre deux ans d'existence",
+      "link": "https://openai.com/index/two-years-of-openai-academy",
+      "date": "2026-09-23T16:00:00",
+      "source": "OpenAI Blog",
+      "summary": "L'OpenAI Academy marque le passage de deux ans depuis sa création. L'organisation vise à étendre ses compétences en intelligence artificielle à un nombre croissant de communautés.",
+      "categorie": "Institutionnel",
+      "niveau": "transversal"
+    },
+    {
+      "title": "Richard Stallman et l'IA génératrice de code",
+      "link": "https://mathix.org/linux/archives/22733",
+      "date": "2026-09-19T10:19:14",
+      "source": "Mathix (A. Durand)",
+      "summary": "Le billet interroge la relation entre l'intelligence artificielle génératrice de code et les principes fondamentaux du logiciel libre. Il évoque une anecdote historique concernant Richard Stallman, figure centrale de la Free Software Foundation.",
+      "categorie": "Réflexion",
+      "niveau": "transversal"
+    },
+    {
+      "title": "Nouvelles recherches économiques d'OpenAI sur l'utilisation des travailleurs de l'IA",
+      "link": "https://openai.com/index/unlocking-new-ways-of-working",
+      "date": "2026-09-16T09:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Une nouvelle recherche économique d'OpenAI examine comment les travailleurs utilisent l'intelligence artificielle au-delà de leurs rôles traditionnels. L'étude identifie également quelles nouvelles activités deviennent des parties récurrentes de leur travail.",
+      "categorie": "Outil",
+      "niveau": "transversal"
+    },
+    {
+      "title": "Comment les experts utilisent l'IA pour garantir l'accès à tous",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "date": "2026-09-15T16:00:00",
+      "source": "Google AI",
+      "summary": "Cette collection explore la manière dont des experts et des dirigeants locaux exploitent les percées de l'intelligence artificielle. L'objectif affiché est d'assurer que chacun puisse bénéficier des opportunités offertes par ces technologies.",
+      "categorie": "Réflexion",
+      "niveau": "transversal"
+    },
+    {
+      "title": "L'IA pour tous dans toutes les langues",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "date": "2026-09-15T16:00:00",
+      "source": "Google AI",
+      "summary": "Une animation présente plusieurs mots affichés en différentes langues qui défilent lentement à l'écran. Cette démonstration illustre la disponibilité de l'intelligence artificielle pour un public international multilingue.",
+      "categorie": "Outil",
+      "niveau": "transversal"
+    },
+    {
+      "title": "Google publie les nouvelles perspectives de l'Atlas IA et Économie",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "date": "2026-09-15T13:00:00",
+      "source": "Google AI",
+      "summary": "Google dévoile la version 1.0 de son Atlas IA et Économie pour l'année 2026. Ce document présente de nouveaux aperçus sur les impacts économiques de l'intelligence artificielle.",
+      "categorie": "Institutionnel",
+      "niveau": "transversal"
+    },
+    {
       "title": "Gemini Notebook : nouveaux outils pour étudier à partir de ses sources",
       "link": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/",
       "date": "2026-09-15T10:00:00.000Z",
       "source": "Google",
       "summary": "Nouveaux outils d’apprentissage : conversations ancrées dans les sources, quiz, cartes mémoire et courtes vidéos explicatives. À utiliser avec un corpus défini et vérifié par l’enseignant.",
       "categorie": "Outil",
+      "niveau": "transversal"
+    },
+    {
+      "title": "Recherche de molécules antimicrobiennes avec des IA",
+      "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "date": "2026-09-10T16:00:00",
+      "source": "OpenAI Blog",
+      "summary": "Un laboratoire utilise les outils Codex et ChatGPT pour explorer des génomes vivants et éteints en quête de candidats antimicrobiens. Cette approche vise à identifier de nouvelles solutions contre les infections résistantes aux médicaments.",
+      "categorie": "Modèle & technique",
       "niveau": "transversal"
     },
     {
@@ -92,6 +320,15 @@
       "summary": "Un article publié par Slate dénonce un traitement approximatif des chiffres liés à la consommation d'eau par l'intelligence artificielle. L'auteur qualifie le contenu de festival d'approximations et de données délirantes.",
       "categorie": "Réflexion",
       "niveau": "transversal"
+    },
+    {
+      "title": "Mise à jour de Macamdoc et changement de nom du collège Rosa Bonheur",
+      "link": "https://mathix.org/linux/archives/22677",
+      "date": "2026-09-08T19:07:41",
+      "source": "Mathix (A. Durand)",
+      "summary": "La plateforme Macamdoc a été mise à jour. Le collège de Loué a changé de nom pour devenir le collège Rosa Bonheur, bien que des problèmes informatiques ont perturbé l'accès aux outils numériques.",
+      "categorie": "Institutionnel",
+      "niveau": "collège"
     },
     {
       "title": "Entretien avec Laurent Villemonteix sur l'IA en classe",
@@ -243,6 +480,15 @@
       "date": "2026-07-11T12:31:10.000Z",
       "source": "@CyniqueDeGauche",
       "summary": "L'intelligence artificielle ne réduit pas nécessairement le temps passé au travail par les enseignants. Elle leur permet plutôt d'accomplir plus de tâches, y compris celles qu'ils n'auraient pas réalisées manuellement.",
+      "categorie": "Réflexion",
+      "niveau": "transversal"
+    },
+    {
+      "title": "L'IA ne remplacera pas l'enseignant selon une réflexion partagée",
+      "link": "https://mathix.org/linux/archives/22590",
+      "date": "2026-07-09T11:10:17",
+      "source": "Mathix (A. Durand)",
+      "summary": "Une réflexion sur l'impact de l'intelligence artificielle dans le métier d'enseignant est initiée suite à un échange avec Ju'. Cette prise de conscience s'appuie également sur les propos de Philippe Meirieu lors de sa conférence tenue à Lyon en avril dernier.",
       "categorie": "Réflexion",
       "niveau": "transversal"
     },
