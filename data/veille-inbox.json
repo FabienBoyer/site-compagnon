@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "key": "https://openai.com/index/grid-protectors-program",
+      "link": "https://openai.com/index/grid-protectors-program",
+      "date": "2026-11-02T15:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Introducing the Grid Protectors Program. OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://x.com/fabienvallier/status/2116605996957118825",
       "link": "https://x.com/fabienvallier/status/2116605996957118825",
       "date": "2026-10-31T18:59:28.000Z",
@@ -3933,5 +3945,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-01T09:15:53"
+  "last_update": "2026-11-02T17:33:49"
 }
