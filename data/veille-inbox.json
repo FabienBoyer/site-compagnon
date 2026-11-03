@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "key": "https://openai.com/index/heimstaden",
+      "link": "https://openai.com/index/heimstaden",
+      "date": "2026-11-03T08:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Heimstaden is changing residential real estate management with AI. Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/scaling-git-at-openai",
+      "link": "https://openai.com/index/scaling-git-at-openai",
+      "date": "2026-11-02T15:30:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Scaling Git at OpenAI. How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "date": "2026-11-02T18:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Preparing our next security sprint to harden OpenAI. OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "date": "2026-11-02T18:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Rewarding defenders with bigger bug bounties. OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/dan-driscoll-joins-openai",
+      "link": "https://openai.com/index/dan-driscoll-joins-openai",
+      "date": "2026-11-02T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization. OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/qodo-codex-plugin",
+      "link": "https://openai.com/index/qodo-codex-plugin",
+      "date": "2026-11-02T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Qodo builds context into AI code review with Codex. Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "date": "2026-11-02T17:45:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "The latest AI news we announced in October 2026. Animated carousel of images from AI posts in October",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://openai.com/index/grid-protectors-program",
       "link": "https://openai.com/index/grid-protectors-program",
       "date": "2026-11-02T15:00:00",
@@ -3945,5 +4029,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-02T17:33:49"
+  "last_update": "2026-11-03T15:37:15"
 }
