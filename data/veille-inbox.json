@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "key": "https://openai.com/index/openai-to-acquire-pierre",
+      "link": "https://openai.com/index/openai-to-acquire-pierre",
+      "date": "2026-11-04T14:30:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "OpenAI to acquire Pierre Computer Company, Inc.. OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "date": "2026-11-04T07:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Daybreak Red is now available in AWS GovCloud (US-East). Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "date": "2026-11-03T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Accelerating engineering for the physical world. Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/cisco-cyber",
+      "link": "https://openai.com/index/cisco-cyber",
+      "date": "2026-11-03T08:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How Cisco defends at machine speed with OpenAI. Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "date": "2026-11-03T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer. Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://openai.com/index/heimstaden",
       "link": "https://openai.com/index/heimstaden",
       "date": "2026-11-03T08:00:00",
@@ -4029,5 +4089,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-03T15:37:15"
+  "last_update": "2026-11-04T15:51:34"
 }
