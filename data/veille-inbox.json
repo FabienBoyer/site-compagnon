@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/vocabhang",
+      "link": "https://www.uneiaparjour.fr/vocabhang/",
+      "date": "2026-11-06T20:24:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "VocabHang. VocabHang (https://vocabhang.com/) est un agent de conversation orale qui repère le niveau de vocabulaire en anglais et introduit de nouveaux mots au fil de la discussion. Test de vocabulaire comme point de départ. Nouveaux mots introduits au fil de la conversation et repris régulièrement. Sessions à l’oral ou à l’écrit.Page de suivi disponible. Interface disponible […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/partnering-with-hacktron",
+      "link": "https://openai.com/index/partnering-with-hacktron",
+      "date": "2026-11-06T08:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems. OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "date": "2026-11-06T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Measuring how AI agents handle everyday wet-lab science. OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://openai.com/index/australian-universities-ai-native-graduates",
       "link": "https://openai.com/index/australian-universities-ai-native-graduates",
       "date": "2026-11-05T17:00:00",
@@ -4209,5 +4245,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-06T15:28:04"
+  "last_update": "2026-11-07T14:30:10"
 }
