@@ -1,6 +1,138 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/wanaka",
+      "link": "https://www.uneiaparjour.fr/wanaka/",
+      "date": "2026-11-09T20:58:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Wanaka. Wanaka (https://wanaka.app/) crée des jeux 3D jouables dans le navigateur à partir d’une description. Une instruction lance une planification puis une première version jouable, qui s’affine par itération. Personnages, animations, interfaces, visuels et musiques se choisissent et se créent dans le même espace. Des agents IA testent chaque étape et des ajustements automatiques sont lancés. […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://www.uneiaparjour.fr/maket",
+      "link": "https://www.uneiaparjour.fr/maket/",
+      "date": "2026-11-08T21:11:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Maket. Maket (https://maket.ai/) génère des plans d’étage de maison et des rendus 3D à partir d’une description. Un canevas unique permet de générer, modifier et visualiser. Description de la surface, la forme et les pièces. Modifications par chatbot, surfaces affichées. Rendus 3D sont produits dans différents styles, à partir d’une bibliothèque ou de ses propres images […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "date": "2026-11-10T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Helping caregivers use AI in everyday life. OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "date": "2026-11-10T09:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Closing the AI guidance gap in education. New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/ai-effect-on-freelance-work",
+      "link": "https://openai.com/index/ai-effect-on-freelance-work",
+      "date": "2026-11-10T07:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Work at the Frontier: AI’s effect on freelance work. New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "date": "2026-11-09T19:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "ChatGPT Enterprise now available in AWS Marketplace. ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/control-room",
+      "link": "https://openai.com/index/control-room",
+      "date": "2026-11-09T13:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Control Room: A central system to track and stop model workloads across our research infrastructure. Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/coderabbit-codex-daybreak",
+      "link": "https://openai.com/index/coderabbit-codex-daybreak",
+      "date": "2026-11-09T08:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "CodeRabbit scales agentic software development and ships 20x more. CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/kuken",
+      "link": "https://openai.com/index/kuken",
+      "date": "2026-11-09T08:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Kuken Industries searches 70 years of drawings in minutes. Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
+      "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "date": "2026-11-10T14:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.. Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "date": "2026-11-10T13:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Google Cloud launches Gemini for healthcare.. Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/vocabhang",
       "link": "https://www.uneiaparjour.fr/vocabhang/",
       "date": "2026-11-06T20:24:00",
@@ -4245,5 +4377,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-07T14:30:10"
+  "last_update": "2026-11-10T15:56:13"
 }
