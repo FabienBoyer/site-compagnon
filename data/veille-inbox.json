@@ -1,6 +1,78 @@
 {
   "items": [
     {
+      "key": "https://mathix.org/linux/archives/22996",
+      "link": "https://mathix.org/linux/archives/22996",
+      "date": "2026-11-11T08:09:57",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "L’IA va révolutionner l’école ? Pas si sûr …. Bonjour à toutes et tous ! Une petite réflexion sur l’IA ce soir. Encore l’IA qui, mine de rien, désarçonne : un outil que l’on craint et que l’on adule en même temps. Personnellement, je suis en plein dans ce yoyo perpétuel. La promesse du temps gagné à l’épreuve du réel L’IA : l’outil qui […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "date": "2026-11-11T08:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "ChatGPT Plus for veterans and servicemembers. More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/singapore-airlines-travel-work",
+      "link": "https://openai.com/index/singapore-airlines-travel-work",
+      "date": "2026-11-10T08:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Singapore Airlines elevates travel & work with OpenAI technology. Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/cogent-security",
+      "link": "https://openai.com/index/cogent-security",
+      "date": "2026-11-10T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Cogent and OpenAI build cyber defense factories for enterprises. Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "date": "2026-11-11T09:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Experience the art and legacy of Dr. Esther Mahlangu. A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+      "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "date": "2026-11-10T19:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Gemini Intelligence: New features, on more devices. A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/wanaka",
       "link": "https://www.uneiaparjour.fr/wanaka/",
       "date": "2026-11-09T20:58:00",
@@ -4377,5 +4449,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-10T15:56:13"
+  "last_update": "2026-11-11T15:42:06"
 }
