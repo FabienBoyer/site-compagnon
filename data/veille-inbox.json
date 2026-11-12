@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/dola",
+      "link": "https://www.uneiaparjour.fr/dola/",
+      "date": "2026-11-11T20:19:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Dola. Dola (https://www.dola.com/) est un assistant IA généraliste, version internationale de Doubao, l’assistant chinois de ByteDance, éditeur de TikTok. Instructions par texte ou par voix, recherches sur le Web et analyse d’images, de pages Web et de fichiers importés. Le mode « travail » donne des réponses plus approfondies. Il génère des diapositives et des feuilles de calcul […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/children-first-declaration",
+      "link": "https://openai.com/index/children-first-declaration",
+      "date": "2026-11-12T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Supporting research on AI and children’s safety. OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/jiostar-vijay-seshadri",
+      "link": "https://openai.com/index/jiostar-vijay-seshadri",
+      "date": "2026-11-11T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "JioStar’s chief architect on AI discovery at 500M-user scale. JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "date": "2026-11-11T18:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Gemini Decisions API: Fast, calibrated multimodal decisions. Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "date": "2026-11-11T16:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.. Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://mathix.org/linux/archives/22996",
       "link": "https://mathix.org/linux/archives/22996",
       "date": "2026-11-11T08:09:57",
@@ -4449,5 +4509,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-11T15:42:06"
+  "last_update": "2026-11-12T16:27:01"
 }
