@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/orange-ias",
+      "link": "https://www.uneiaparjour.fr/orange-ias/",
+      "date": "2026-11-12T21:59:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Orange IAs. Orange IAs (communiqué : https://www.orange.com/fr/communiques/orange-lance-deux-super-apps-orange-et-sosh-ouvertes-a-tous-et-enrichies-a-lintelligence-artificielle-519077) réunit Claude Haiku 4.5, Gemini 3.5 Flash-Lite, GPT-6 Luna et Mistral Large 4 dans les applications mobiles Orange et Sosh.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/business/customer-stories/amplitude",
+      "link": "https://openai.com/business/customer-stories/amplitude",
+      "date": "2026-11-12T20:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How Amplitude ships product improvements in 1–2 days with OpenAI. Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "date": "2026-11-12T18:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Google Search gets a major upgrade with Gemini 4 Hydrogen. Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/dola",
       "link": "https://www.uneiaparjour.fr/dola/",
       "date": "2026-11-11T20:19:00",
@@ -4509,5 +4545,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-12T16:27:01"
+  "last_update": "2026-11-13T15:46:50"
 }
