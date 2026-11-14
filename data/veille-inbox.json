@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/croire-sur-parole",
+      "link": "https://www.uneiaparjour.fr/croire-sur-parole/",
+      "date": "2026-11-14T09:25:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Croire sur parole ?. Focus de la lettre 54 Quelle confiance on accorde quand on ouvre une application d’IA ? Cette semaine, plusieurs applications comptent sur notre confiance : un site officiel américain qui ne nomme pas son modèle et dont certaines réponses n’apparaissent plus, un assistant dont les données passent par quatre pays et qui entraîne ses modèles […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/23032",
+      "link": "https://mathix.org/linux/archives/23032",
+      "date": "2026-11-14T09:44:50",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "QuickRdv : un outil pour gérer l’administratif pour les rendez-vous parent/prof. Bonjour à toutes et tous! Voilà mon petit projet pour gérer les rendez-vous parents professeurs. Je vous explique ce que fait l’outil. On lui entre la liste des élèves de la classe (un élève par ligne). On lui donne l’heure de début et de fin de la réunion parent-prof (17h-20h), on choisit la durée d’un […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/introducing-chatgpt-wallet",
+      "link": "https://openai.com/index/introducing-chatgpt-wallet",
+      "date": "2026-11-13T15:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Introducing ChatGPT Wallet. Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/business/customer-stories/shield",
+      "link": "https://openai.com/business/customer-stories/shield",
+      "date": "2026-11-13T08:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Shield helps technicians hand off legacy portal work with OpenAI. Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/orange-ias",
       "link": "https://www.uneiaparjour.fr/orange-ias/",
       "date": "2026-11-12T21:59:00",
@@ -4545,5 +4593,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-13T15:46:50"
+  "last_update": "2026-11-14T14:38:12"
 }
