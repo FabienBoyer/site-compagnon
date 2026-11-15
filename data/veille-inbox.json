@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/uncracked-city",
+      "link": "https://www.uneiaparjour.fr/uncracked-city/",
+      "date": "2026-11-14T21:47:29",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Uncracked City. Uncracked City (https://uncracked.city/) propose chaque jour une enquête policière à résoudre dans une ville. Le joueur fouille les lieux, interroge les suspects, démasque les mensonges et rédige un rapport. Les suspects répondent aux questions tapées ou dictées, en six langues dont le français. Leurs réponses sont générées par Claude avec GPT en secours. Les voix […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/croire-sur-parole",
       "link": "https://www.uneiaparjour.fr/croire-sur-parole/",
       "date": "2026-11-14T09:25:00",
@@ -4593,5 +4605,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-14T14:38:12"
+  "last_update": "2026-11-15T15:05:55"
 }
