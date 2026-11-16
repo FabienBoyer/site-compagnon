@@ -1,6 +1,126 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/chalkie",
+      "link": "https://www.uneiaparjour.fr/chalkie/",
+      "date": "2026-11-15T21:47:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Chalkie. Chalkie (https://chalkie.ai/) génère des séances de cours sous forme de diaporamas, des affiches, des quiz, des cahiers d’activités et des fiches d’exercices à partir d’une instruction, d’un sujet ou de documents et d’un niveau. Chaque leçon comprend objectifs, vocabulaire clé, activités et images. Les diapositives restent modifiables directement ou dans le chatbot (10 modifications IA […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "date": "2026-11-16T17:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Broadening access to AI for scientists. We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/science-at-the-frontier",
+      "link": "https://openai.com/index/science-at-the-frontier",
+      "date": "2026-11-16T12:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Science at the Frontier: How scientists use ChatGPT. Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/lvmh-media-division-partnership",
+      "link": "https://openai.com/index/lvmh-media-division-partnership",
+      "date": "2026-11-16T09:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "LVMH’s Media Division announces strategic partnership with OpenAI. LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "date": "2026-11-16T08:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Our first phase of embedded assessments. OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "link": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "date": "2026-11-16T06:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Advancing computer-use agents for healthcare teams.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "date": "2026-11-16T06:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "More ways to move care forward with ChatGPT for Healthcare. Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/the-kings-trust-and-openai",
+      "link": "https://openai.com/index/the-kings-trust-and-openai",
+      "date": "2026-11-16T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "The King’s Trust and OpenAI launch £1m partnership. The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "date": "2026-11-15T22:00:01",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "A step toward defining the Standard Model on a lattice. Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/our-new-blog-for-science",
+      "link": "https://openai.com/index/our-new-blog-for-science",
+      "date": "2026-11-15T22:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Our new blog for science. The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/uncracked-city",
       "link": "https://www.uneiaparjour.fr/uncracked-city/",
       "date": "2026-11-14T21:47:29",
@@ -4605,5 +4725,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-15T15:05:55"
+  "last_update": "2026-11-16T17:39:48"
 }
