@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/whiboard",
+      "link": "https://www.uneiaparjour.fr/whiboard/",
+      "date": "2026-11-16T21:52:53",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Whiboard. Whiboard (https://whiboard.com/) est un tableau blanc collaboratif en ligne avec un chatbot IA qui génère des contenus à partir d’une instruction. Possibilité de démarrer à partir d’un tableau vierge ou depuis les modèles proposés (organigrammes, schémas système, notes, cartes heuristiques). Depuis le chatbot, résumé, organisation des notes et génération d’idées.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "date": "2026-11-17T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Strengthening NATO and allied cyber defenses with AI. How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/business/customer-stories/revolut",
+      "link": "https://openai.com/business/customer-stories/revolut",
+      "date": "2026-11-16T09:30:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How Revolut raises ambition without lowering the bar. Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
+      "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "date": "2026-11-17T17:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Put Gemini to work for you. A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/chalkie",
       "link": "https://www.uneiaparjour.fr/chalkie/",
       "date": "2026-11-15T21:47:00",
@@ -4725,5 +4773,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-16T17:39:48"
+  "last_update": "2026-11-17T17:12:25"
 }
