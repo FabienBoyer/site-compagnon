@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "date": "2026-11-18T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT. Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "date": "2026-11-17T17:45:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Introducing GPT-6.2 Astra and Sol. Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "link": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "date": "2026-11-17T08:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Introducing ChatGPT for Sales. Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/astra-law-6-2",
+      "link": "https://openai.com/index/astra-law-6-2",
+      "date": "2026-11-17T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Astra for Law leads in legal intelligence. Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/whiboard",
       "link": "https://www.uneiaparjour.fr/whiboard/",
       "date": "2026-11-16T21:52:53",
@@ -4773,5 +4821,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-17T17:12:25"
+  "last_update": "2026-11-18T16:48:54"
 }
