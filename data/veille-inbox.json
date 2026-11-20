@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/base-3d-ar-studio",
+      "link": "https://www.uneiaparjour.fr/base-3d-ar-studio/",
+      "date": "2026-11-19T20:26:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "BASE 3D-AR Studio. BASE 3D-AR Studio (https://basebros.com/) permet de créer, modifier et publier des modèles 3D consultables en réalité augmentée depuis un navigateur. Importer de fichier .GLB ou de génération d’un modèle 3D à partir d’une instruction texte ou d’une image. Un éditeur permet de modifier en temps réel les matériaux, l’éclairage, l’environnement et la caméra. Page 3D […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "date": "2026-11-19T08:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How OpenAI’s Performance Factory keeps ChatGPT fast. Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "date": "2026-11-19T18:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Introducing Tool Retrieval in the Gemini API. Gemini spark on a space background",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "date": "2026-11-19T17:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Walter Isaacson on curiosity and creativity in the AI age.. Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://openai.com/index/the-silent-consensus",
       "link": "https://openai.com/index/the-silent-consensus",
       "date": "2026-11-18T10:00:00",
@@ -4893,5 +4941,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-19T16:56:05"
+  "last_update": "2026-11-20T16:29:41"
 }
