@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/oreate-ai",
+      "link": "https://www.uneiaparjour.fr/oreate-ai/",
+      "date": "2026-11-20T21:44:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Oreate AI. Oreate AI (https://www.oreateai.com/) génère des diapositives, tableurs, images, vidéos et designs depuis une instruction. Un chatbot reçoit l’instruction et redirige vers des agents spécialisés. Des raccourcis donnent accès aux outils : Agent de Slides, Tableur IA, Image IA, Vidéo IA, Design IA, Tuteur IA (cartes, quiz, falshcards) et Rédacteur.Galerie de modèles par thème disponible (affaires…",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/combatting-adversarial-distillation",
+      "link": "https://openai.com/index/combatting-adversarial-distillation",
+      "date": "2026-11-20T10:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Combatting adversarial distillation. OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/business/customer-stories/hebbia",
+      "link": "https://openai.com/business/customer-stories/hebbia",
+      "date": "2026-11-20T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Hebbia sees improvements in financial research with GPT-6 Astra. Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/introducing-medchembench",
+      "link": "https://openai.com/index/introducing-medchembench",
+      "date": "2026-11-20T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Can AI help scientists identify promising drug candidates?. MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/base-3d-ar-studio",
       "link": "https://www.uneiaparjour.fr/base-3d-ar-studio/",
       "date": "2026-11-19T20:26:00",
@@ -4941,5 +4989,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-20T16:29:41"
+  "last_update": "2026-11-21T15:46:34"
 }
