@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/lia-quon-nous-raconte-lia-quon-croit",
+      "link": "https://www.uneiaparjour.fr/lia-quon-nous-raconte-lia-quon-croit/",
+      "date": "2026-11-21T16:47:12",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "L’IA qu’on nous raconte, l’IA qu’on croit. Focus de la lettre 55 Chaque semaine plusieurs récits sur l’IA circulent, chacun raconté depuis des points de vue précis, et cette semaine n’échappe pas à la règle. Le premier qui a retenu mon attention cette semaine est celui qui concerne l’hypothèse mathématique de Bernhard Riemann basée sur la répartition des nombres premiers. En 1859, […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://mathix.org/linux/archives/23047",
+      "link": "https://mathix.org/linux/archives/23047",
+      "date": "2026-11-21T22:19:30",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Un nouveau jeu ! Zeldamaths. C’est un grand projet que j’avais en tête depuis 10 ans! J’avais commencé à le coder et puis je l’ai mis de côté. Et au regard de la nouvelle sortie du modèle IA de Gemini (4 Néon), j’ai tenté. Donc j’avais déjà les scénarios (des zones où des problèmes de la vie courante sont à […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/oreate-ai",
       "link": "https://www.uneiaparjour.fr/oreate-ai/",
       "date": "2026-11-20T21:44:00",
@@ -4989,5 +5013,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-21T15:46:34"
+  "last_update": "2026-11-22T15:46:45"
 }
