@@ -1,6 +1,30 @@
 {
   "items": [
     {
+      "key": "https://openai.com/index/perplexity-and-intelligence",
+      "link": "https://openai.com/index/perplexity-and-intelligence",
+      "date": "2026-11-22T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Perplexity and Intelligence. How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "link": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "date": "2026-11-23T17:00:00",
+      "source": "Google AI",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "A more tailored Google Search that’s uniquely yours. Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/lia-quon-nous-raconte-lia-quon-croit",
       "link": "https://www.uneiaparjour.fr/lia-quon-nous-raconte-lia-quon-croit/",
       "date": "2026-11-21T16:47:12",
@@ -5013,5 +5037,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-22T15:46:45"
+  "last_update": "2026-11-23T19:39:23"
 }
