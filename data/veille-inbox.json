@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/qiplim",
+      "link": "https://www.uneiaparjour.fr/qiplim/",
+      "date": "2026-11-23T21:57:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Qiplim. Qiplim (https://qiplim.com/) crée des activités interactives à animer en direct puis à réviser. Activités générées à partir d’une instruction, depuis des fichiers PDF, PowerPoint, ou Word, une page web ou une vidéo YouTube. Modifiables avec ous ans l’assistant. Quatre activités pour toutes les génération : quiz, choix multiple, classement et jeu de rôle. Cinq contenus […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/ifood",
+      "link": "https://openai.com/index/ifood",
+      "date": "2026-11-24T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How iFood scales coding agents across 15,000 repositories.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/introducing-shirudo",
+      "link": "https://openai.com/index/introducing-shirudo",
+      "date": "2026-11-23T21:20:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "OpenAI and Cisco introduce Shirudo. OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "date": "2026-11-23T08:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Richpanel helps companies automate 50% of support in 30 days. Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://openai.com/index/perplexity-and-intelligence",
       "link": "https://openai.com/index/perplexity-and-intelligence",
       "date": "2026-11-22T00:00:00",
@@ -5037,5 +5085,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-23T19:39:23"
+  "last_update": "2026-11-24T19:12:24"
 }
