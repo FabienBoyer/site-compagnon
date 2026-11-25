@@ -1,6 +1,78 @@
 {
   "items": [
     {
+      "key": "https://mathix.org/linux/archives/23065",
+      "link": "https://mathix.org/linux/archives/23065",
+      "date": "2026-11-25T06:32:01",
+      "source": "Mathix (A. Durand)",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Zeldamaths est intégré à suivi.mathix.org. et voilà ! J’ai ajouté deux zones supplémentaires et surtout j’ai activé zeldamaths dans suivi.mathix.org. Ainsi pas de soucis pour suivre la progression des élèves ! 🙂",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "date": "2026-11-24T13:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "GPT-6 models demonstrate intrinsic protein-design capabilities. GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "date": "2026-11-24T11:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Searching for distant planets with Astra. See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/business/customer-stories/intentful-dots",
+      "link": "https://openai.com/business/customer-stories/intentful-dots",
+      "date": "2026-11-24T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How Intentful uses dots to make more time for growth. Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/business/customer-stories/ifood",
+      "link": "https://openai.com/business/customer-stories/ifood",
+      "date": "2026-11-24T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "How iFood scales coding agents across 15,000 repositories.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
+      "key": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "date": "2026-11-24T00:00:00",
+      "source": "OpenAI Blog",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Clay helps sales teams win with Codex and ChatGPT. ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://www.uneiaparjour.fr/qiplim",
       "link": "https://www.uneiaparjour.fr/qiplim/",
       "date": "2026-11-23T21:57:00",
@@ -5085,5 +5157,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-24T19:12:24"
+  "last_update": "2026-11-25T18:16:21"
 }
