@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "key": "https://www.uneiaparjour.fr/nexcite",
+      "link": "https://www.uneiaparjour.fr/nexcite/",
+      "date": "2026-11-27T20:24:00",
+      "source": "Une IA par jour",
+      "origine": "rss",
+      "status": "brut",
+      "raw_text": "Nexcite. Nexcite (https://nexcite.ai/) répond à des questions à partir de documents chargés, avec renvoi au passage source de chaque affirmation. Il permet d’interroger plusieurs documents à la fois dans une interface de chat. Les documents peuvent être recherchés via le web, une liste est alors proposée avec choix possible. Un grand nombre de formats acceptés pour […]",
+      "links": [],
+      "titre": "",
+      "resume": ""
+    },
+    {
       "key": "https://mathix.org/linux/archives/23065",
       "link": "https://mathix.org/linux/archives/23065",
       "date": "2026-11-25T06:32:01",
@@ -5157,5 +5169,5 @@
       "langue_source": "en"
     }
   ],
-  "last_update": "2026-11-25T18:16:21"
+  "last_update": "2026-11-28T16:29:07"
 }
